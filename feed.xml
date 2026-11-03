@@ -4,14 +4,14 @@
     <title>AI 深度精选与全景速览 (Daily Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型把关：置顶全景速览（含海外X热议），下接深度硬核长文</description>
-    <lastBuildDate>Tue, 03 Nov 2026 10:30:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 10:35:38 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
         <title>📰 【今日全景速报】一分钟看全天下事 (11-03 晚报)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
         <guid isPermaLink="false">briefing_20261103_晚报</guid>
-        <pubDate>Tue, 03 Nov 2026 10:30:01 +0000</pubDate>
+        <pubDate>Tue, 03 Nov 2026 10:35:38 +0000</pubDate>
         <author>AI 全能主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -20,7 +20,207 @@
                 <p style="margin: 4px 0 0; font-size: 13px; opacity: 0.9;">涵盖科技、数码、财经、文娱与时政，两分钟一眼扫完全天热点</p>
             </div>
             <div>
-                <p>生成全景速览时遇到异常: Error code: 503 - Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: 24de493a-c4c6-42f7-93bb-ec09196d2050)</p>
+                这是为您生成的“今日全景资讯速览”HTML代码。它是一份结构清晰、适合手机阅读的新闻聚合页面，将您提供的多领域资讯按六大板块进行了分类与精编。
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>今日全景资讯速览 · 晚报</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f5f7fb;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            padding: 16px 12px 32px;
+            color: #1e2a3a;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .header {
+            margin-bottom: 20px;
+            padding: 0 4px;
+        }
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            color: #0b1b2b;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .header h1 span {
+            background: #1e3a5f;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 2px 12px;
+            border-radius: 30px;
+            letter-spacing: 0.3px;
+        }
+        .header .date {
+            font-size: 14px;
+            color: #5e6f8d;
+            margin-top: 6px;
+            font-weight: 400;
+            border-left: 3px solid #3b6ea5;
+            padding-left: 10px;
+        }
+        .section {
+            margin-bottom: 24px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            padding-left: 4px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #0b1b2b;
+        }
+        .section-title .emoji-badge {
+            font-size: 22px;
+            line-height: 1;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 16px 18px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 12px rgba(0, 20, 40, 0.04);
+            border: 1px solid #e9eef4;
+            transition: all 0.1s ease;
+        }
+        .card:last-child {
+            margin-bottom: 0;
+        }
+        .card-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: #0b1b2b;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: flex-start;
+            gap: 6px;
+        }
+        .card-title .bullet {
+            color: #3b6ea5;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .card-desc {
+            font-size: 14.5px;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin-bottom: 4px;
+        }
+        .card-desc strong {
+            font-weight: 700;
+            color: #0b1b2b;
+        }
+        .card-meta {
+            font-size: 12px;
+            color: #7a8b9f;
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            border-top: 1px dashed #e2e8f0;
+            padding-top: 8px;
+        }
+        .card-meta .tag {
+            background: #eef3f9;
+            padding: 2px 10px;
+            border-radius: 30px;
+            font-size: 11px;
+            font-weight: 500;
+            color: #2e5a8b;
+        }
+        .highlight {
+            background: #f0f6ff;
+            border-left: 4px solid #3b6ea5;
+        }
+        .footer-note {
+            text-align: center;
+            font-size: 12px;
+            color: #8a9bb0;
+            margin-top: 28px;
+            padding-top: 16px;
+            border-top: 1px solid #dce3ec;
+        }
+        .footer-note span {
+            background: #eef3f9;
+            padding: 4px 14px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- 头部 -->
+    <div class="header">
+        <h1>🌍 全景速览 <span>晚报</span></h1>
+        <div class="date">2026年11月3日 · 一站看全天下事</div>
+    </div>
+
+    <!-- 1. 海外社媒与全球焦点 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji-badge">🌐</span> 海外社媒与全球焦点 <span style="font-size:13px; font-weight:400; color:#5e6f8d; margin-left:auto;">X / Threads / 硅谷</span></div>
+
+        <div class="card">
+            <div class="card-title"><span class="bullet">●</span> 英伟达口头限制对华AI芯片供应，要求云客户“非中国业务占比51%”</div>
+            <div class="card-desc"><strong>英伟达</strong>据FT爆料已口头通知云算力客户，要求其至少51%的服务须销售给非中国公司，变相收紧中国获取AI芯片的渠道。X上科技博主热议此举是“合规性施压”还是“变相脱钩”，有分析认为将加速中国国产替代，但短期算力租赁成本或抬升。业界关注美国商务部是否会将此“口头指导”正式化。</div>
+            <div class="card-meta"><span class="tag">🔥 热议</span> 来源：Financial Times / Techmeme</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title"><span class="bullet">●</span> OpenAI联手Cathedral测试安全防御，漏洞赏金翻四倍</div>
+            <div class="card-desc"><strong>OpenAI</strong>宣布与安全公司Cathedral合作，对其模型进行对抗性安全测试，并全面升级“安全漏洞赏金计划”，关键漏洞奖励提高至原来的四倍。Threads上开发者讨论称，这反映大模型厂商正将“红队测试”常态化，以应对监管与舆论压力。业界认为，AI安全正从“事后补救”转向“主动防御”，赏金机制或成行业标配。</div>
+            <div class="card-meta"><span class="tag">🔒 安全</span> 来源：OpenAI / Techmeme</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title"><span class="bullet">●</span> 华为旗舰AI芯片Ascend 960DT被曝大量采用三星/SK海力士HBM</div>
+            <div class="card-desc"><strong>华为</strong>据The Information报道已向部分客户透露，其即将推出的旗舰AI芯片Ascend 960DT将主要采用三星与SK海力士的HBM（高带宽内存）。X上半导体分析师指出，这显示华为在国产HBM尚未完全成熟之际，仍依赖海外供应链，但美国出口管制可能带来变数。业界关注此举是否会影响华为AI芯片的产能与交付节奏。</div>
+            <div class="card-meta"><span class="tag">💡 芯片</span> 来源：The Information / Techmeme</div>
+        </div>
+    </div>
+
+    <!-- 2. 数码与前沿科技 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji-badge">📱</span> 数码与前沿科技</div>
+
+        <div class="card">
+            <div class="card-title"><span class="bullet">●</span> GPT-6 Astra“爆改”Qwen大脑：仅动0.016%参数，数学成绩疯涨</div>
+            <div class="card-desc"><strong>GPT-6 Astra</strong>被曝通过极少量参数微调（仅0.016%）便大幅提升Qwen模型数学能力，引发AI社区热议。爱范儿报道称，这种“外科手术式”改造意味着大模型能力迁移可能比预想更高效，X上研究者讨论这是否会降低模型定制门槛。长远看，小参数撬动大性能或成AI应用落地的新范式，但也引发对模型“黑箱”可控性的担忧。</div>
+            <div class="card-meta"><span class="tag">🤖 AI</span> 来源：爱范儿 / 虎嗅</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title"><span class="bullet">●</span> OPPO官宣亮相2026移动网络大会，展示6G、车机互联等旗舰技术</div>
+            <div class="card-desc"><strong>OPPO</strong>宣布将参加2026移动网络大会，重点展示旗舰影像、新一代小布助手、6G通信及车机互联技术。IT之家报道称，这是OPPO首次系统性披露6G预研进展，X上数码博主猜测其或与车企合作落地车机生态。业界认为，手机厂商正将竞争延伸至“通信+汽车”融合场景，6G话语权争夺已提前打响。</div>
+            <div class="card-meta"><span class="tag">📡 通信</span> 来源：IT之家</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title"><span class="bullet">●</span> 我国推动世界人工智能合作组织实体化，38国成创始成员</div>
+            <div class="card-desc"><strong>世界人工智能合作组织</strong>实体化运行进程加速，已有38国作为创始成员国加入。IT之家援引官方消息称，该组织旨在推动AI治理、标准与伦理的国际协调。X上国际关系学者讨论称，这是中国在全球AI治理中争取制度性话语权的重要一步，但如何与欧美主导的AI安全峰会机制对接仍是看点。长远影响或重塑全球AI规则制定格局。</div>
+            <div class="card-meta"><span class="tag">🌐 治理</span> 来源：IT之家</div>
+        </div>
+    </div>
+
+    <!-- 3. 商业与财经金融 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji-badge">💰</span
             </div>
         </div>
         ]]></description>

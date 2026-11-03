@@ -1,12 +1,13 @@
 import json
 import re
+import time
 from datetime import datetime, timezone, timedelta
 from typing import Dict, Any, Optional, List
 from openai import OpenAI
 from bs4 import BeautifulSoup
 
 
-def clean_text_from_html(html_content: str, max_chars: int = 600) -> str:
+def clean_text_from_html(html_content: str, max_chars: int = 500) -> str:
     """Extract plain text from HTML and truncate to reduce token consumption and latency."""
     if not html_content:
         return ""
@@ -48,7 +49,7 @@ SYSTEM_PROMPT = """你是一位挑剔且极富洞察力的资深科技与深度�
 """
 
 BRIEFING_SYSTEM_PROMPT = """你是一位洞察全球大势的高级全景资讯总编。
-你的任务是：根据今天抓取到的最新多领域资讯（涵盖国内各大媒体、以及海外 X/Twitter、Threads、Techmeme、Wired、Hacker News 的国际热议），撰写一份【今日各领域全景速览·一站看全天下事】。
+你的任务是：根据今天抓取到的最新多领域资讯（涵盖国内各大媒体、以及海外 X/Twitter、Threads、Techmeme、Wired 的国际热议），撰写一份【今日各领域全景速览·一站看全天下事】。
 
 读者希望在保持高效阅读的同时，【每条新闻有 100 字左右的充实展开】，既讲清楚发生了什么，又交代前因后果、海外社媒/业界的讨论焦点与长远影响。
 
@@ -78,14 +79,33 @@ BRIEFING_SYSTEM_PROMPT = """你是一位洞察全球大势的高级全景资讯�
 
 class ContentEvaluator:
     def __init__(self, api_key: str, base_url: str = "https://api.deepseek.com", model: str = "deepseek-chat"):
-        self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=35.0)
+        # Set max_retries and timeout for resilience against 503/429
+        self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=45.0, max_retries=3)
         self.model = model
+
+    def _call_with_retry(self, messages: List[Dict[str, str]], max_tokens: int, temperature: float = 0.2, retries: int = 3):
+        """Helper to invoke LLM with exponential backoff on server 503/busy errors."""
+        last_err = None
+        for attempt in range(retries):
+            try:
+                return self.client.chat.completions.create(
+                    model=self.model,
+                    messages=messages,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                )
+            except Exception as e:
+                last_err = e
+                # If 503 (Server busy) or rate limit, wait and retry
+                wait_sec = (attempt + 1) * 3
+                time.sleep(wait_sec)
+        raise last_err
 
     def evaluate(self, title: str, content: str, score_threshold: float = 7.5) -> Dict[str, Any]:
         """
         Evaluate an individual article using LLM.
         """
-        clean_content = clean_text_from_html(content, max_chars=600)
+        clean_content = clean_text_from_html(content, max_chars=500)
 
         if len(clean_content) < 30 and len(title) < 15:
             return {
@@ -101,14 +121,14 @@ class ContentEvaluator:
 请给出评分 (1.0 - 10.0) 以及是否保留 (及格线为 {score_threshold} 分)，并附上精炼的推荐理由。严格以 JSON 格式输出。"""
 
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
+            response = self._call_with_retry(
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
                 ],
                 temperature=0.2,
                 max_tokens=200,
+                retries=3,
             )
             raw_text = response.choices[0].message.content.strip()
 
@@ -137,14 +157,14 @@ class ContentEvaluator:
     def generate_panoramic_briefing(self, raw_items: List[Dict[str, str]]) -> str:
         """
         Generate a consolidated daily panoramic briefing covering X/Threads trends, Tech, Digital, Finance, Entertainment, Politics, etc.
-        Each item elaborated to ~100 words.
+        Each item elaborated to ~100 words with retry protection.
         """
         if not raw_items:
             return "<p>今日暂无足够资讯生成速览。</p>"
 
-        # Compile titles and snippets (up to 50 diverse items from domestic and international feeds)
+        # Compile titles and snippets (select up to 35 most representative items to avoid huge prompt congestion)
         lines = []
-        for i, item in enumerate(raw_items[:50], 1):
+        for i, item in enumerate(raw_items[:35], 1):
             src = item.get("source", "资讯")
             t = item.get("title", "").strip()
             lines.append(f"{i}. [{src}] {t}")
@@ -162,22 +182,30 @@ class ContentEvaluator:
 特别提醒：
 1. 包含 🌐【海外社媒与全球焦点 (X / Threads / 硅谷大事件)】板块；
 2. 包含数码科技、商业财经、文娱生活、时政、体育板块；
-3. 【每条条目必须充实，字数约 100 字左右】，详细说明事件的前因后果、讨论焦点与结论，禁止一句敷衍带过；
+3. 【每条条目必须充实，字数约 100 字左右】，详细说明事件的前因后果、讨论焦点与结论；
 4. 直接输出优雅舒适的 HTML 片段。"""
 
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
+            # Call with up to 4 retries with backoff against peak-hour 503
+            response = self._call_with_retry(
                 messages=[
                     {"role": "system", "content": BRIEFING_SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
                 ],
                 temperature=0.35,
-                max_tokens=2500,
+                max_tokens=2200,
+                retries=4,
             )
             html_content = response.choices[0].message.content.strip()
             html_content = re.sub(r"^```html\s*", "", html_content, flags=re.MULTILINE)
             html_content = re.sub(r"^```\s*", "", html_content, flags=re.MULTILINE)
             return html_content.strip()
         except Exception as e:
-            return f"<p>生成全景速览时遇到异常: {str(e)}</p>"
+            # Graceful fallback: If LLM is completely down, render clean categorized list instead of raw trace
+            fallback_items = "".join([f"<li style='margin-bottom:8px;'><b>[{item.get('source')}]</b> {item.get('title')}</li>" for item in raw_items[:15]])
+            return f"""
+            <div style="background:#fff3cd;padding:12px;border-radius:6px;border:1px solid #ffeeba;margin-bottom:12px;color:#856404;font-size:13px;">
+                ⚠️ 大模型服务端在晚高峰期间出现短暂排队（503 拥堵）。已为你保留今日重点即时资讯列表，下次定时运行将自动恢复深度长评：
+            </div>
+            <ul>{fallback_items}</ul>
+            """

@@ -1,7 +1,6 @@
 # RSS AI Curator 配置文件
 
 llm:
-  # 支持任意 OpenAI 格式兼容的大模型 API
   api_key: "YOUR_API_KEY_HERE" # GitHub Actions 中通过 Secrets: LLM_API_KEY 注入
   base_url: "https://api.deepseek.com"
   model: "deepseek-chat"
@@ -13,15 +12,21 @@ curator:
   # 输出给 ReadYou 的最新精华文章保留条数 (30-50 篇)
   max_output_items: 50
 
-  # 性能优化：每个订阅源每次只取最新的 6~8 篇精品（避免初次运行积压历史旧闻）
+  # 性能优化：每个订阅源每次只取最新 8 篇
   max_entries_per_feed: 8
 
-  # 并发评估线程数（同时让 AI 评估 4 篇文章，速度提升 4 倍）
+  # 并发评估线程数
   max_workers: 4
 
-# 订阅源列表：全部经过实测可秒开的稳定权威源
+# 订阅源列表：国内权威媒体 + 海外 X/Threads/硅谷热议聚合
 feeds:
-  # -------------------- 【你原有的核心源】 --------------------
+  # -------------------- 【海外社媒与全球大事件 (X / Threads / 硅谷热议)】 --------------------
+  - name: "Techmeme (汇集海外 X/Threads 核心争论与全球科技头条)"
+    url: "https://www.techmeme.com/feed.xml"
+  - name: "Wired (连线·全球互联网文化与前沿争议)"
+    url: "https://www.wired.com/feed/rss"
+
+  # -------------------- 【国内核心与深度媒体】 --------------------
   - name: "澎湃新闻"
     url: "https://feedx.net/rss/thepaper.xml"
   - name: "36氪"
@@ -30,39 +35,37 @@ feeds:
     url: "https://www.ithome.com/rss/"
   - name: "少数派"
     url: "https://sspai.com/feed"
-
-  # -------------------- 【科技 / AI / 数码】 --------------------
   - name: "虎嗅网"
     url: "https://rss.huxiu.com/"
   - name: "爱范儿"
     url: "https://www.ifanr.com/feed"
+
+  # -------------------- 【国际顶级科技与消费数码】 --------------------
   - name: "The Verge"
     url: "https://www.theverge.com/rss/index.xml"
   - name: "Ars Technica"
     url: "https://feeds.arstechnica.com/arstechnica/index"
 
-  # -------------------- 【财经 / 宏观商业】 --------------------
+  # -------------------- 【商业与宏观财经】 --------------------
   - name: "FT中文网"
     url: "https://www.ftchinese.com/rss/feed"
 
-  # -------------------- 【时政要闻 / 深度调查】 --------------------
+  # -------------------- 【深度时政与时代观察】 --------------------
   - name: "南方周末"
     url: "https://feedx.net/rss/infzm.xml"
   - name: "联合早报"
     url: "https://feedx.net/rss/zaobao.xml"
 
-  # -------------------- 【国外大新闻 / 全球大势】 --------------------
+  # -------------------- 【全球大势与体育】 --------------------
   - name: "BBC 中文网"
     url: "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"
-
-  # -------------------- 【体育竞技】 --------------------
   - name: "BBC 体育"
     url: "https://feeds.bbci.co.uk/sport/rss.xml"
 
 output:
-  feed_title: "AI 深度精选专栏 (Daily Digest)"
-  feed_description: "大模型严格把关，仅保留深度分析、产业洞察与高价值要闻"
-  feed_link: "https://github.com"
+  feed_title: "AI 深度精选与全景速览 (Daily Digest)"
+  feed_description: "大模型把关：置顶全景速览（含海外X热议），下接深度硬核长文"
+  feed_link: "https://github.com/Kevin8k86/RSS"
   output_file: "dist/feed.xml"
 
 storage:

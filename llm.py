@@ -47,26 +47,38 @@ SYSTEM_PROMPT = """你是一位挑剔且极富洞察力的资深科技与深度�
 - reason 必须精炼有物，直接说明该文章的核心价值，禁止使用空话套话。
 """
 
-BRIEFING_SYSTEM_PROMPT = """你是一位洞察敏锐的资深全景资讯主编。
-你的任务是：根据今天抓取到的各领域最新资讯列表，提炼编写一份【今日各领域资讯全景速览·一眼扫完】。
+BRIEFING_SYSTEM_PROMPT = """你是一位洞察全球大势的高级全景资讯总编。
+你的任务是：根据今天抓取到的最新多领域资讯（涵盖国内各大媒体、以及海外 X/Twitter、Threads、Techmeme、Wired、Hacker News 的国际热议），撰写一份【今日各领域全景速览·一站看全天下事】。
 
-读者希望在 2 分钟内轻松扫视全天下的核心动态，请按以下 5 大类别进行分类归纳：
-1. 📱 【数码与前沿科技】（消费电子新品、AI大模型进展、技术热点）
-2. 💰 【商业与财经金融】（重磅商业战略、资本市场与经济动态）
-3. 🎭 【文娱生活与社会热点】（影视娱乐、社会话题、民生趋势、生活趣味）
-4. 🌍 【国内外时政要点】（重要政策发布、国际突发与大国动向）
-5. ⚽ 【体育竞技速递】（重要赛况、体育焦点人物动态）
+读者希望在保持高效阅读的同时，【每条新闻有 100 字左右的充实展开】，既讲清楚发生了什么，又交代前因后果、海外社媒/业界的讨论焦点与长远影响。
 
-编写要求：
-- 每个板块精选 2~4 条最重要的事件；
-- 每条只能写 1~2 句话，必须【加粗关键主体与结论】，做到极度干练、一眼可扫；
-- 直接输出结构清晰、色彩现代的 HTML 内容（适合手机 Material You 风格排版，使用优雅的圆角卡片与列表）。
+请按以下 6 大板块进行结构化精编：
+1. 🌐 【海外社媒与全球焦点 (X / Threads / 硅谷大事件)】
+   - 提炼海外 X（原 Twitter）、Threads 或硅谷科技圈讨论度最高的热门大事件、大佬言论或重磅爆料，交代争议核心。
+2. 📱 【数码与前沿科技】
+   - 消费电子新品、AI大模型突破、重磅技术更新与行业应用。
+3. 💰 【商业与财经金融】
+   - 巨头战略变动、宏观资本市场、重磅收购或经济趋势。
+4. 🎭 【文娱生活与社会热点】
+   - 热门影视文化、社会民生热点、流行趋势与舆论焦点。
+5. 🌍 【国内外时政关键要点】
+   - 宏观政策通报、国际地缘政治大事。
+6. ⚽ 【体育竞技综合速递】
+   - 全球焦点赛事赛果与体坛重要事件。
+
+【每条条目的撰写标准（严格遵守）】：
+- 每个板块精选 2~3 条最具价值的事实；
+- **字数要求**：每条控制在 **100 字左右**（80~130字之间），严禁一句带过，要包含：
+  - 【事件核心主体】（加粗）
+  - 具体前因、背景细节或海外舆论/社媒讨论焦点
+  - 核心结论或长远影响
+- 直接输出适合手机排版的优雅 HTML 片段（使用带边框圆角的分类卡片、Emoji 图标与整洁排版）。
 """
 
 
 class ContentEvaluator:
     def __init__(self, api_key: str, base_url: str = "https://api.deepseek.com", model: str = "deepseek-chat"):
-        self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=30.0)
+        self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=35.0)
         self.model = model
 
     def evaluate(self, title: str, content: str, score_threshold: float = 7.5) -> Dict[str, Any]:
@@ -124,14 +136,15 @@ class ContentEvaluator:
 
     def generate_panoramic_briefing(self, raw_items: List[Dict[str, str]]) -> str:
         """
-        Generate a consolidated daily panoramic briefing covering Tech, Digital, Finance, Entertainment, Politics, etc.
+        Generate a consolidated daily panoramic briefing covering X/Threads trends, Tech, Digital, Finance, Entertainment, Politics, etc.
+        Each item elaborated to ~100 words.
         """
         if not raw_items:
             return "<p>今日暂无足够资讯生成速览。</p>"
 
-        # Compile titles and snippets (up to 40 diverse items)
+        # Compile titles and snippets (up to 50 diverse items from domestic and international feeds)
         lines = []
-        for i, item in enumerate(raw_items[:45], 1):
+        for i, item in enumerate(raw_items[:50], 1):
             src = item.get("source", "资讯")
             t = item.get("title", "").strip()
             lines.append(f"{i}. [{src}] {t}")
@@ -142,11 +155,15 @@ class ContentEvaluator:
         date_str = bj_time.strftime("%Y年%m月%d日")
 
         user_prompt = f"""【当前时间】：{date_str} {period}
-【今日已收录的最新资讯总表】：
+【今日已收录的最新资讯总表（含国内与海外国际媒体/X热议源）】：
 {input_text}
 
-请为读者撰写一份结构清晰、条目精炼、两分钟内一眼能够扫完的【今日全景资讯速览】。
-涵盖数码科技、商业财经、文娱与社会热点、国内外时政、体育竞技。请直接输出适合在 RSS 阅读器渲染的 HTML 片段。"""
+请撰写【今日全景资讯速览】。
+特别提醒：
+1. 包含 🌐【海外社媒与全球焦点 (X / Threads / 硅谷大事件)】板块；
+2. 包含数码科技、商业财经、文娱生活、时政、体育板块；
+3. 【每条条目必须充实，字数约 100 字左右】，详细说明事件的前因后果、讨论焦点与结论，禁止一句敷衍带过；
+4. 直接输出优雅舒适的 HTML 片段。"""
 
         try:
             response = self.client.chat.completions.create(
@@ -155,11 +172,10 @@ class ContentEvaluator:
                     {"role": "system", "content": BRIEFING_SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
                 ],
-                temperature=0.4,
-                max_tokens=1200,
+                temperature=0.35,
+                max_tokens=2500,
             )
             html_content = response.choices[0].message.content.strip()
-            # Clean markdown code wrapper if model used it
             html_content = re.sub(r"^```html\s*", "", html_content, flags=re.MULTILINE)
             html_content = re.sub(r"^```\s*", "", html_content, flags=re.MULTILINE)
             return html_content.strip()

@@ -5,12 +5,11 @@ from openai import OpenAI
 from bs4 import BeautifulSoup
 
 
-def clean_text_from_html(html_content: str, max_chars: int = 1200) -> str:
-    """Extract plain text from HTML and truncate to reduce token consumption."""
+def clean_text_from_html(html_content: str, max_chars: int = 600) -> str:
+    """Extract plain text from HTML and truncate to reduce token consumption and latency."""
     if not html_content:
         return ""
     soup = BeautifulSoup(html_content, "html.parser")
-    # Remove script and style elements
     for s in soup(["script", "style", "nav", "footer", "aside"]):
         s.extract()
     text = soup.get_text(separator=" ", strip=True)
@@ -40,17 +39,17 @@ SYSTEM_PROMPT = """你是一位挑剔且极富洞察力的资深科技与深度�
 {
   "score": 8.5,
   "keep": true,
-  "reason": "简述2-3句为什么值得读，提炼其最核心的增量事实或洞察（100字以内）"
+  "reason": "简述2-3句为什么值得读，提炼其最核心的增量事实或洞察（80字以内）"
 }
 注意：
-- 当且仅当 score >= 阈值 (由系统判断，通常为 7.5 分) 时，keep 为 true。
+- 当且仅当 score >= 阈值 (通常为 7.5 分) 时，keep 为 true。
 - reason 必须精炼有物，直接说明该文章的核心价值，禁止使用空话套话。
 """
 
 
 class ContentEvaluator:
     def __init__(self, api_key: str, base_url: str = "https://api.deepseek.com", model: str = "deepseek-chat"):
-        self.client = OpenAI(api_key=api_key, base_url=base_url)
+        self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=25.0)
         self.model = model
 
     def evaluate(self, title: str, content: str, score_threshold: float = 7.5) -> Dict[str, Any]:
@@ -58,10 +57,10 @@ class ContentEvaluator:
         Evaluate an article using LLM.
         Returns: {"score": float, "keep": bool, "reason": str}
         """
-        clean_content = clean_text_from_html(content, max_chars=1200)
+        clean_content = clean_text_from_html(content, max_chars=600)
 
         # Quick reject for ultra-short junk
-        if len(clean_content) < 40 and len(title) < 20:
+        if len(clean_content) < 30 and len(title) < 15:
             return {
                 "score": 3.0,
                 "keep": False,
@@ -72,7 +71,7 @@ class ContentEvaluator:
 【内容摘要/正文前序】：
 {clean_content}
 
-请根据你的专业主编准则，给出评分 (1.0 - 10.0) 以及是否保留 (及格线为 {score_threshold} 分)，并附上精炼的推荐理由。严格以 JSON 格式输出。"""
+请给出评分 (1.0 - 10.0) 以及是否保留 (及格线为 {score_threshold} 分)，并附上精炼的推荐理由。严格以 JSON 格式输出。"""
 
         try:
             response = self.client.chat.completions.create(
@@ -82,11 +81,10 @@ class ContentEvaluator:
                     {"role": "user", "content": user_prompt},
                 ],
                 temperature=0.2,
-                max_tokens=300,
+                max_tokens=200,
             )
             raw_text = response.choices[0].message.content.strip()
 
-            # Clean markdown code blocks if present
             raw_text = re.sub(r"^```json\s*", "", raw_text, flags=re.MULTILINE)
             raw_text = re.sub(r"^```\s*", "", raw_text, flags=re.MULTILINE)
             raw_text = raw_text.strip()
@@ -102,7 +100,6 @@ class ContentEvaluator:
                 "reason": reason,
             }
         except Exception as e:
-            # Fallback when parsing or LLM fails
             return {
                 "score": 0.0,
                 "keep": False,

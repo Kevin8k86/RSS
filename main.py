@@ -1,12 +1,14 @@
 import os
 import sys
 import time
+import socket
 import argparse
 import logging
 import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 from pathlib import Path
-from typing import Dict, Any
+from typing import Dict, Any, List
 
 import yaml
 import feedparser
@@ -15,6 +17,9 @@ import schedule
 from storage import Storage, hash_id
 from llm import ContentEvaluator
 from feed_generator import generate_rss_xml
+
+# Set global socket timeout to prevent hanging feeds
+socket.setdefaulttimeout(15)
 
 # Logging setup
 logging.basicConfig(
@@ -33,11 +38,11 @@ def load_config(config_path: str) -> Dict[str, Any]:
         config = yaml.safe_load(f)
 
     # Support environment variable override for sensitive keys
-    if "LLM_API_KEY" in os.environ:
+    if "LLM_API_KEY" in os.environ and os.environ["LLM_API_KEY"]:
         config["llm"]["api_key"] = os.environ["LLM_API_KEY"]
-    if "LLM_BASE_URL" in os.environ:
+    if "LLM_BASE_URL" in os.environ and os.environ["LLM_BASE_URL"]:
         config["llm"]["base_url"] = os.environ["LLM_BASE_URL"]
-    if "LLM_MODEL" in os.environ:
+    if "LLM_MODEL" in os.environ and os.environ["LLM_MODEL"]:
         config["llm"]["model"] = os.environ["LLM_MODEL"]
 
     return config
@@ -55,76 +60,100 @@ def extract_entry_content(entry: Any) -> str:
     return content
 
 
+def process_single_entry(entry: Any, feed_url: str, storage: Storage, evaluator: ContentEvaluator, score_threshold: float):
+    link = getattr(entry, "link", "")
+    guid = getattr(entry, "id", link)
+    item_id = hash_id(link, guid)
+
+    if storage.is_processed(item_id):
+        return None
+
+    title = getattr(entry, "title", "无标题").strip()
+    author = getattr(entry, "author", "未知作者")
+    pub_date = getattr(entry, "published", getattr(entry, "updated", ""))
+    content = extract_entry_content(entry)
+
+    logger.info(f"   🤖 [AI 评审中] {title[:35]}...")
+    eval_res = evaluator.evaluate(title=title, content=content, score_threshold=score_threshold)
+
+    score = eval_res.get("score", 0.0)
+    keep = eval_res.get("keep", False)
+    reason = eval_res.get("reason", "")
+    status = "ACCEPTED" if keep else "REJECTED"
+
+    if keep:
+        logger.info(f"      ✅ 【入选 ({score:.1f}分)】: {reason}")
+    else:
+        logger.info(f"      ❌ 【淘汰 ({score:.1f}分)】: {title[:30]}")
+
+    storage.save_result(
+        item_id=item_id,
+        feed_url=feed_url,
+        title=title,
+        link=link,
+        author=author,
+        pub_date=pub_date,
+        original_content=content,
+        score=score,
+        recommendation=reason,
+        status=status,
+    )
+    return keep
+
+
 def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: ContentEvaluator):
     logger.info("🚀 开始执行 RSS 抓取与深度质量筛选任务...")
     score_threshold = float(config.get("curator", {}).get("score_threshold", 7.5))
-    feeds = config.get("feeds", [])
+    # 限制每个源每次只取最新 N 条，防止冷启动或高频源把时间拉得过长
+    max_entries_per_feed = int(config.get("curator", {}).get("max_entries_per_feed", 8))
+    # 并发线程数
+    max_workers = int(config.get("curator", {}).get("max_workers", 4))
 
-    total_scanned = 0
-    total_accepted = 0
-    total_rejected = 0
+    feeds = config.get("feeds", [])
+    pending_items = []
 
     for feed_info in feeds:
         feed_url = feed_info.get("url") if isinstance(feed_info, dict) else feed_info
         feed_name = feed_info.get("name", feed_url) if isinstance(feed_info, dict) else feed_url
 
-        logger.info(f"📡 正在拉取源: [{feed_name}] -> {feed_url}")
+        logger.info(f"📡 正在拉取: [{feed_name}] -> {feed_url}")
         try:
-            # Set realistic User-Agent to avoid anti-scraping blocks
             d = feedparser.parse(
                 feed_url,
                 agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             )
             entries = d.entries or []
-            logger.info(f"   共获取到 {len(entries)} 条最新文章")
+            # 仅截取最新的若干条文章
+            selected_entries = entries[:max_entries_per_feed]
+            logger.info(f"   共发现 {len(entries)} 条，选取最新 {len(selected_entries)} 条加入评估队列")
 
-            for entry in entries:
-                total_scanned += 1
+            for entry in selected_entries:
                 link = getattr(entry, "link", "")
                 guid = getattr(entry, "id", link)
                 item_id = hash_id(link, guid)
-
-                if storage.is_processed(item_id):
-                    continue
-
-                title = getattr(entry, "title", "无标题").strip()
-                author = getattr(entry, "author", "未知作者")
-                pub_date = getattr(entry, "published", getattr(entry, "updated", ""))
-                content = extract_entry_content(entry)
-
-                logger.info(f"   🤖 [AI 评审中] {title[:40]}...")
-                eval_res = evaluator.evaluate(title=title, content=content, score_threshold=score_threshold)
-
-                score = eval_res.get("score", 0.0)
-                keep = eval_res.get("keep", False)
-                reason = eval_res.get("reason", "")
-                status = "ACCEPTED" if keep else "REJECTED"
-
-                if keep:
-                    total_accepted += 1
-                    logger.info(f"      ✅ 【入选 ({score:.1f}分)】: {reason}")
-                else:
-                    total_rejected += 1
-                    logger.info(f"      ❌ 【淘汰 ({score:.1f}分)】")
-
-                storage.save_result(
-                    item_id=item_id,
-                    feed_url=feed_url,
-                    title=title,
-                    link=link,
-                    author=author,
-                    pub_date=pub_date,
-                    original_content=content,
-                    score=score,
-                    recommendation=reason,
-                    status=status,
-                )
-
-                # Tiny throttle to respect rate limits
-                time.sleep(0.3)
+                if not storage.is_processed(item_id):
+                    pending_items.append((entry, feed_url))
 
         except Exception as e:
-            logger.error(f"❌ 读取源 {feed_url} 发生错误: {str(e)}")
+            logger.error(f"❌ 读取源 {feed_url} 异常: {str(e)}")
+
+    logger.info(f"⚡ 待处理新增文章总数: {len(pending_items)} 篇，启动 {max_workers} 线程并发评估...")
+
+    total_accepted = 0
+    total_rejected = 0
+
+    # 使用多线程并发评估，速度大幅提升 4~5 倍
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = [
+            executor.submit(process_single_entry, entry, feed_url, storage, evaluator, score_threshold)
+            for entry, feed_url in pending_items
+        ]
+        for f in as_completed(futures):
+            res = f.result()
+            if res is True:
+                total_accepted += 1
+            elif res is False:
+                total_rejected += 1
 
     # Clean up old records in DB
     storage.cleanup_old_records(days=45)
@@ -135,7 +164,7 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
 
     out_cfg = config.get("output", {})
     xml_content = generate_rss_xml(
-        feed_title=out_cfg.get("feed_title", "AI 精选深度资讯"),
+        feed_title=out_cfg.get("feed_title", "AI 深度精选专栏 (Daily Digest)"),
         feed_description=out_cfg.get("feed_description", "由大模型把关筛选的优质长文与行业洞察"),
         feed_link=out_cfg.get("feed_link", "https://github.com"),
         articles=accepted_articles,
@@ -147,8 +176,8 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
         f.write(xml_content)
 
     logger.info(
-        f"🎉 任务完成！本次扫描新增文章，保留精选 {total_accepted} 篇，淘汰 {total_rejected} 篇。"
-        f" 当前精选源总共包含 {len(accepted_articles)} 篇精品。已写入: {out_file_path}"
+        f"🎉 任务完成！本次精选入选 {total_accepted} 篇，淘汰水文 {total_rejected} 篇。"
+        f" 当前精选源总共包含 {len(accepted_articles)} 篇精品。已成功写入: {out_file_path}"
     )
 
 
@@ -158,7 +187,7 @@ def start_http_server(directory: str, port: int = 8080):
 
     class CustomHandler(SimpleHTTPRequestHandler):
         def log_message(self, format, *args):
-            pass  # Suppress normal access logs to keep terminal tidy
+            pass
 
     server = HTTPServer(("0.0.0.0", port), CustomHandler)
     logger.info(f"🌐 本地静态 Web 服务已在后台启动: http://0.0.0.0:{port}/feed.xml")
@@ -193,7 +222,6 @@ def main():
         out_dir = Path(config.get("output", {}).get("output_file", "dist/feed.xml")).parent
         out_dir.mkdir(parents=True, exist_ok=True)
 
-        # Start background HTTP server
         server_thread = threading.Thread(
             target=start_http_server,
             args=(str(out_dir.resolve()), args.port),
@@ -201,10 +229,8 @@ def main():
         )
         server_thread.start()
 
-        # Run immediately once
         run_curation_task(config, storage, evaluator)
 
-        # Schedule recurring runs
         logger.info(f"⏰ 已设置定时轮询任务：每隔 {interval_min} 分钟自动执行一次。")
         schedule.every(interval_min).minutes.do(run_curation_task, config, storage, evaluator)
 
@@ -212,7 +238,6 @@ def main():
             schedule.run_pending()
             time.sleep(10)
     else:
-        # Default fallback to run-once
         run_curation_task(config, storage, evaluator)
 
 

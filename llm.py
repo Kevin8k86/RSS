@@ -51,29 +51,18 @@ SYSTEM_PROMPT = """你是一位挑剔且极富洞察力的资深科技与深度�
 BRIEFING_SYSTEM_PROMPT = """你是一位洞察全球大势的高级全景资讯总编。
 你的任务是：根据今天抓取到的最新多领域资讯（涵盖国内各大媒体、以及海外 X/Twitter、Threads、Techmeme、Wired 的国际热议），撰写一份【今日各领域全景速览·一站看全天下事】。
 
-读者希望在保持高效阅读的同时，【每条新闻有 100 字左右的充实展开】，既讲清楚发生了什么，又交代前因后果、海外社媒/业界的讨论焦点与长远影响。
+【必须完整覆盖以下 6 大板块，绝不能遗漏任何一个】：
+1. 🌐 【海外社媒与全球焦点 (X / Threads / 硅谷大事件)】（海外 X、Threads、硅谷大佬正在争论的重大爆料与热点）
+2. 📱 【数码与前沿科技】（消费电子新品、AI大模型突破、前沿软硬件）
+3. 💰 【商业与财经金融】（巨头商业战略、宏观资本市场、重磅收购或经济趋势）
+4. 🎭 【文娱生活与社会热点】（热门影视文化、社会焦点民生话题、舆论热点）
+5. 🌍 【国内外时政关键要点】（宏观权威政策发布、国际地缘大事）
+6. ⚽ 【体育竞技综合速递】（重要赛况赛果、体坛焦点人物动态）
 
-请按以下 6 大板块进行结构化精编：
-1. 🌐 【海外社媒与全球焦点 (X / Threads / 硅谷大事件)】
-   - 提炼海外 X（原 Twitter）、Threads 或硅谷科技圈讨论度最高的热门大事件、大佬言论或重磅爆料，交代争议核心。
-2. 📱 【数码与前沿科技】
-   - 消费电子新品、AI大模型突破、重磅技术更新与行业应用。
-3. 💰 【商业与财经金融】
-   - 巨头战略变动、宏观资本市场、重磅收购或经济趋势。
-4. 🎭 【文娱生活与社会热点】
-   - 热门影视文化、社会民生热点、流行趋势与舆论焦点。
-5. 🌍 【国内外时政关键要点】
-   - 宏观政策通报、国际地缘政治大事。
-6. ⚽ 【体育竞技综合速递】
-   - 全球焦点赛事赛果与体坛重要事件。
-
-【每条条目的撰写标准（严格遵守）】：
-- 每个板块精选 2~3 条最具价值的事实；
-- **字数要求**：每条控制在 **100 字左右**（80~130字之间），严禁一句带过，要包含：
-  - 【事件核心主体】（加粗）
-  - 具体前因、背景细节或海外舆论/社媒讨论焦点
-  - 核心结论或长远影响
-- 直接输出结构清晰纯净的 HTML 代码（严禁带有任何“这是为您生成的...”等寒暄说明废话，直接以 <div> 或卡片结构输出，适合手机端优雅渲染）。
+【每条条目的撰写规则（严格遵守）】：
+- 每个板块精选 2 条最具代表性的重大事件；
+- 每条字数约 **80 ~ 110 字**，讲清：【加粗事件核心主体】 + 背景前因与讨论焦点 + 结论影响；
+- 【格式纯净限制】：严禁输出 <!DOCTYPE>、<html>、<head>、<style> 标签！直接输出轻量紧凑的 HTML 代码（使用 <div>、<h3>、<p>、<b> 标签），保证 6 大板块全部完整输出，绝不截断。
 """
 
 
@@ -153,7 +142,7 @@ class ContentEvaluator:
             return "<p>今日暂无足够资讯生成速览。</p>"
 
         lines = []
-        for i, item in enumerate(raw_items[:35], 1):
+        for i, item in enumerate(raw_items[:40], 1):
             src = item.get("source", "资讯")
             t = item.get("title", "").strip()
             lines.append(f"{i}. [{src}] {t}")
@@ -167,11 +156,11 @@ class ContentEvaluator:
 【今日已收录的最新资讯总表（含国内与海外国际媒体/X热议源）】：
 {input_text}
 
-请直接输出排版优雅的 HTML 代码，撰写一份条理分明的【今日全景资讯速览】。
-特别要求：
-1. 包含 🌐【海外社媒与全球焦点 (X / Threads / 硅谷大事件)】等 6 大板块；
-2. 【每条条目字数严格控制在 100 字左右】，讲透事件来龙去脉与争议焦点；
-3. 严禁带有任何开场白废话，直接以 HTML 标签起始。"""
+请撰写【今日各领域全景速览·一站看全天下事】。
+严格要求：
+1. 【必须写全全部 6 大板块】：海外社媒与全球焦点、数码与前沿科技、商业与财经金融、文娱生活与社会热点、国内外时政关键要点、体育竞技速递；
+2. 每个板块精选 2 条最重要事件，每条 80~110 字，讲透事实细节；
+3. 严禁生成大段 CSS 样式或 <!DOCTYPE> 标签！直接生成纯净的 <div>、<h3>、<p>、<b> 结构，确保 6 大板块全部完整输出！"""
 
         try:
             response = self._call_with_retry(
@@ -179,16 +168,15 @@ class ContentEvaluator:
                     {"role": "system", "content": BRIEFING_SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
                 ],
-                temperature=0.35,
-                max_tokens=2200,
-                retries=4,
+                temperature=0.3,
+                max_tokens=3500,  # Generous token limit to guarantee all 6 sections are fully written!
+                retries=3,
             )
             html_content = response.choices[0].message.content.strip()
             html_content = re.sub(r"^```html\s*", "", html_content, flags=re.MULTILINE)
             html_content = re.sub(r"^```\s*", "", html_content, flags=re.MULTILINE)
 
-            # Strip any leading conversational chatter before the first HTML tag
-            match = re.search(r"(<(!DOCTYPE|html|div|h[1-6]|p|section)[\s>].*)", html_content, re.DOTALL | re.IGNORECASE)
+            match = re.search(r"(<(div|h[1-6]|p|section)[\s>].*)", html_content, re.DOTALL | re.IGNORECASE)
             if match:
                 html_content = match.group(1).strip()
 

@@ -4,14 +4,14 @@
     <title>AI 深度精选与全景速览 (Daily Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型把关：置顶全景速览（含海外X热议），下接深度硬核长文</description>
-    <lastBuildDate>Tue, 03 Nov 2026 10:35:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 10:49:54 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
         <title>📰 【今日全景速报】一分钟看全天下事 (11-03 晚报)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
-        <guid isPermaLink="false">briefing_20261103_晚报</guid>
-        <pubDate>Tue, 03 Nov 2026 10:35:38 +0000</pubDate>
+        <guid isPermaLink="false">briefing_20261103_184954_5149e559</guid>
+        <pubDate>Tue, 03 Nov 2026 10:49:54 +0000</pubDate>
         <author>AI 全能主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -20,208 +20,58 @@
                 <p style="margin: 4px 0 0; font-size: 13px; opacity: 0.9;">涵盖科技、数码、财经、文娱与时政，两分钟一眼扫完全天热点</p>
             </div>
             <div>
-                这是为您生成的“今日全景资讯速览”HTML代码。它是一份结构清晰、适合手机阅读的新闻聚合页面，将您提供的多领域资讯按六大板块进行了分类与精编。
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>今日全景资讯速览 · 晚报</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background: #f5f7fb;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            padding: 16px 12px 32px;
-            color: #1e2a3a;
-            line-height: 1.5;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .header {
-            margin-bottom: 20px;
-            padding: 0 4px;
-        }
-        .header h1 {
-            font-size: 24px;
-            font-weight: 700;
-            letter-spacing: -0.3px;
-            color: #0b1b2b;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .header h1 span {
-            background: #1e3a5f;
-            color: white;
-            font-size: 14px;
-            font-weight: 500;
-            padding: 2px 12px;
-            border-radius: 30px;
-            letter-spacing: 0.3px;
-        }
-        .header .date {
-            font-size: 14px;
-            color: #5e6f8d;
-            margin-top: 6px;
-            font-weight: 400;
-            border-left: 3px solid #3b6ea5;
-            padding-left: 10px;
-        }
-        .section {
-            margin-bottom: 24px;
-        }
-        .section-title {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 12px;
-            padding-left: 4px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            color: #0b1b2b;
-        }
-        .section-title .emoji-badge {
-            font-size: 22px;
-            line-height: 1;
-        }
-        .card {
-            background: #ffffff;
-            border-radius: 20px;
-            padding: 16px 18px;
-            margin-bottom: 12px;
-            box-shadow: 0 4px 12px rgba(0, 20, 40, 0.04);
-            border: 1px solid #e9eef4;
-            transition: all 0.1s ease;
-        }
-        .card:last-child {
-            margin-bottom: 0;
-        }
-        .card-title {
-            font-weight: 700;
-            font-size: 16px;
-            color: #0b1b2b;
-            margin-bottom: 6px;
-            display: flex;
-            align-items: flex-start;
-            gap: 6px;
-        }
-        .card-title .bullet {
-            color: #3b6ea5;
-            font-weight: 700;
-            flex-shrink: 0;
-        }
-        .card-desc {
-            font-size: 14.5px;
-            color: #2c3e50;
-            line-height: 1.6;
-            margin-bottom: 4px;
-        }
-        .card-desc strong {
-            font-weight: 700;
-            color: #0b1b2b;
-        }
-        .card-meta {
-            font-size: 12px;
-            color: #7a8b9f;
-            margin-top: 8px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            border-top: 1px dashed #e2e8f0;
-            padding-top: 8px;
-        }
-        .card-meta .tag {
-            background: #eef3f9;
-            padding: 2px 10px;
-            border-radius: 30px;
-            font-size: 11px;
-            font-weight: 500;
-            color: #2e5a8b;
-        }
-        .highlight {
-            background: #f0f6ff;
-            border-left: 4px solid #3b6ea5;
-        }
-        .footer-note {
-            text-align: center;
-            font-size: 12px;
-            color: #8a9bb0;
-            margin-top: 28px;
-            padding-top: 16px;
-            border-top: 1px solid #dce3ec;
-        }
-        .footer-note span {
-            background: #eef3f9;
-            padding: 4px 14px;
-            border-radius: 30px;
-        }
-    </style>
-</head>
-<body>
-<div class="container">
-    <!-- 头部 -->
-    <div class="header">
-        <h1>🌍 全景速览 <span>晚报</span></h1>
-        <div class="date">2026年11月3日 · 一站看全天下事</div>
-    </div>
-
-    <!-- 1. 海外社媒与全球焦点 -->
-    <div class="section">
-        <div class="section-title"><span class="emoji-badge">🌐</span> 海外社媒与全球焦点 <span style="font-size:13px; font-weight:400; color:#5e6f8d; margin-left:auto;">X / Threads / 硅谷</span></div>
-
-        <div class="card">
-            <div class="card-title"><span class="bullet">●</span> 英伟达口头限制对华AI芯片供应，要求云客户“非中国业务占比51%”</div>
-            <div class="card-desc"><strong>英伟达</strong>据FT爆料已口头通知云算力客户，要求其至少51%的服务须销售给非中国公司，变相收紧中国获取AI芯片的渠道。X上科技博主热议此举是“合规性施压”还是“变相脱钩”，有分析认为将加速中国国产替代，但短期算力租赁成本或抬升。业界关注美国商务部是否会将此“口头指导”正式化。</div>
-            <div class="card-meta"><span class="tag">🔥 热议</span> 来源：Financial Times / Techmeme</div>
-        </div>
-
-        <div class="card">
-            <div class="card-title"><span class="bullet">●</span> OpenAI联手Cathedral测试安全防御，漏洞赏金翻四倍</div>
-            <div class="card-desc"><strong>OpenAI</strong>宣布与安全公司Cathedral合作，对其模型进行对抗性安全测试，并全面升级“安全漏洞赏金计划”，关键漏洞奖励提高至原来的四倍。Threads上开发者讨论称，这反映大模型厂商正将“红队测试”常态化，以应对监管与舆论压力。业界认为，AI安全正从“事后补救”转向“主动防御”，赏金机制或成行业标配。</div>
-            <div class="card-meta"><span class="tag">🔒 安全</span> 来源：OpenAI / Techmeme</div>
-        </div>
-
-        <div class="card">
-            <div class="card-title"><span class="bullet">●</span> 华为旗舰AI芯片Ascend 960DT被曝大量采用三星/SK海力士HBM</div>
-            <div class="card-desc"><strong>华为</strong>据The Information报道已向部分客户透露，其即将推出的旗舰AI芯片Ascend 960DT将主要采用三星与SK海力士的HBM（高带宽内存）。X上半导体分析师指出，这显示华为在国产HBM尚未完全成熟之际，仍依赖海外供应链，但美国出口管制可能带来变数。业界关注此举是否会影响华为AI芯片的产能与交付节奏。</div>
-            <div class="card-meta"><span class="tag">💡 芯片</span> 来源：The Information / Techmeme</div>
-        </div>
-    </div>
-
-    <!-- 2. 数码与前沿科技 -->
-    <div class="section">
-        <div class="section-title"><span class="emoji-badge">📱</span> 数码与前沿科技</div>
-
-        <div class="card">
-            <div class="card-title"><span class="bullet">●</span> GPT-6 Astra“爆改”Qwen大脑：仅动0.016%参数，数学成绩疯涨</div>
-            <div class="card-desc"><strong>GPT-6 Astra</strong>被曝通过极少量参数微调（仅0.016%）便大幅提升Qwen模型数学能力，引发AI社区热议。爱范儿报道称，这种“外科手术式”改造意味着大模型能力迁移可能比预想更高效，X上研究者讨论这是否会降低模型定制门槛。长远看，小参数撬动大性能或成AI应用落地的新范式，但也引发对模型“黑箱”可控性的担忧。</div>
-            <div class="card-meta"><span class="tag">🤖 AI</span> 来源：爱范儿 / 虎嗅</div>
-        </div>
-
-        <div class="card">
-            <div class="card-title"><span class="bullet">●</span> OPPO官宣亮相2026移动网络大会，展示6G、车机互联等旗舰技术</div>
-            <div class="card-desc"><strong>OPPO</strong>宣布将参加2026移动网络大会，重点展示旗舰影像、新一代小布助手、6G通信及车机互联技术。IT之家报道称，这是OPPO首次系统性披露6G预研进展，X上数码博主猜测其或与车企合作落地车机生态。业界认为，手机厂商正将竞争延伸至“通信+汽车”融合场景，6G话语权争夺已提前打响。</div>
-            <div class="card-meta"><span class="tag">📡 通信</span> 来源：IT之家</div>
-        </div>
-
-        <div class="card">
-            <div class="card-title"><span class="bullet">●</span> 我国推动世界人工智能合作组织实体化，38国成创始成员</div>
-            <div class="card-desc"><strong>世界人工智能合作组织</strong>实体化运行进程加速，已有38国作为创始成员国加入。IT之家援引官方消息称，该组织旨在推动AI治理、标准与伦理的国际协调。X上国际关系学者讨论称，这是中国在全球AI治理中争取制度性话语权的重要一步，但如何与欧美主导的AI安全峰会机制对接仍是看点。长远影响或重塑全球AI规则制定格局。</div>
-            <div class="card-meta"><span class="tag">🌐 治理</span> 来源：IT之家</div>
-        </div>
-    </div>
-
-    <!-- 3. 商业与财经金融 -->
-    <div class="section">
-        <div class="section-title"><span class="emoji-badge">💰</span
+                <div>
+<h3>🌐 海外社媒与全球焦点 (X / Threads / 硅谷大事件)</h3>
+<p><b>英伟达口头限制对华AI芯片供应</b>：据FT，英伟达已口头要求云算力客户将51%以上服务售予非中国企业，变相收紧中国获取AI芯片的渠道。此举被视为美方出口管制向产业链下游延伸，X上热议其执行边界与对全球算力租赁格局的冲击。</p>
+<p><b>AI安全成民主党2028新议题</b>：纽约杂志披露，Alex Bores的“Who Decides”项目试图把AI安全塑造成类似“支持选择权”的民主党标准立场，与科技资本资助的对手争夺话语权。这标志AI监管正从技术议题升级为党派政治筹码。</p>
+</div>
+<div>
+<h3>📱 数码与前沿科技</h3>
+<p><b>苹果预警存储成本“前所未有”</b>：苹果预计Q1营收同比增7%-10%超预期，但毛利率45%-46%低于预期，硬件主管Ternus称内存成本“前所未有”。这暗示AI驱动的存储涨价正侵蚀硬件利润，或传导至明年新品定价。</p>
+<p><b>华为昇腾960DT倚重韩系HBM</b>：The Information称华为已告知部分客户，其旗舰AI芯片昇腾960DT大部分将采用三星与SK海力士的HBM。这暴露国产HBM替代尚需时日，也显示制裁下华为仍依赖韩系供应链的脆弱平衡。</p>
+</div>
+<div>
+<h3>💰 商业与财经金融</h3>
+<p><b>Marvell收购Lumentum搅动光通信</b>：TrendForce指出，Marvell收购Lumentum后有望挑战博通在光通信的主导地位。AI数据中心对光模块需求爆发，此并购将重塑高速互联芯片竞争格局，博通一家独大的局面面临松动。</p>
+<p><b>Drax联手Brookfield建AI数据中心</b>：英国能源公司Drax与Brookfield及neocloud Radiant合作，在约克郡北开发AI数据中心，目标2028年Q1达100MW。这反映AI算力扩张正倒逼能源企业入场，电力与算力捆绑成新商业模式。</p>
+</div>
+<div>
+<h3>🎭 文娱生活与社会热点</h3>
+<p><b>《怦然心动》导演莱纳夫妇遇害</b>：好莱坞名导莱纳与妻子在家中遇害，警方尚未证实凶手是否为其子。此案震动影坛，X与国内社交平台哀悼与猜测并存，也再度引发对名人家庭安全与心理健康议题的关注。</p>
+<p><b>儿童手表“小天才圈”乱象调查</b>：澎湃调查显示，小天才手表点赞成每日功课，且有商家可解除家长管控。未成年人社交沉迷与监管漏洞引发家长焦虑，舆论呼吁平台与厂商强化青少年模式，压实监护责任。</p>
+</div>
+<div>
+<h3>🌍 国内外时政关键要点</h3>
+<p><b>澳海滩恐袭103声枪响细节曝光</b>：澳枪击案嫌疑人为父子，曾宣誓效忠“伊斯兰国”，枪支系合法持有。最后6分钟103声枪响的细节披露，引发对澳枪支管理与反恐情报漏洞的强烈质疑，多国加强警戒。</p>
+<p><b>香港依法对黎智英定罪获支持</b>：港澳平发文坚决支持香港特区对反中乱港首恶分子黎智英依法定罪。此表态强调国安法权威与香港法治底线，释放对危害国家安全行为零容忍的明确信号。</p>
+</div>
+<div>
+<h3>⚽ 体育竞技综合速递</h3>
+<p><b>旅日大熊猫“晓晓”“蕾蕾”明年1月回国</b>：两只旅日大熊猫确定于明年1月回国，引发日本民众不舍与国内网友期待。作为中日民间交流的象征，其归国安排被解读为双边关系与动物保护合作的风向标。</p>
+<p><b>德国培训机构推“GTA6进修课”</b>：德国一培训机构推出带薪休假玩《GTA6》的“开放世界游戏”进修课程，将游戏体验包装为职业技能培训。此举在X上引发“游戏算不算工作”的调侃与讨论，也折射游戏文化的职业化趋势。</p>
+</div>
             </div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 海外仓生意为什么越做越重了？</title>
+        <link>https://www.huxiu.com/article/4902694.html?f=rss</link>
+        <guid isPermaLink="false">fa61814dd035368ebe90e24d4d5ea48623029f2d7db26644137740b99a35e8e6</guid>
+        <pubDate>Tue, 03 Nov 2026 18:41:26 +0800</pubDate>
+        <author>好望角view</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以乐歌、EDA财报为切口，揭示海外仓行业从轻资产转向重资产的结构性变化，数据扎实，对比分析有深度，对理解跨境电商基础设施演进有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/859GvK8gvqhHlJ72lvHNhg" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 好望角view </span></a><span class="text-remarks">，作者：好望角出海编辑部</span></p><p><br /></p><p>10月30日，乐歌股份公布了前三季度财报。</p><p><br /></p><p>这家以升降桌起家的公司，公共海外仓业务收入已经达到24.53亿元，占集团营收的48.69%，几乎与智能家居业务平分秋色。</p><p><br /></p><p>但利润出现了明显反差。</p><p><br /></p><p>前三季度，乐歌营业收入50.37亿元，同比增长3.95%；归母净利润5907万元，同比下降65.04%。</p><p><br /></p><p>海外仓业务本身的毛利率却在提高。前三季度达到11.04%，比去年同期提升1.98个百分点。</p><p><br /></p><p>公司把净利润下降主要归因于人民币升值造成的汇兑损失。前三季度，乐歌录得9028万元汇兑损失，去年同期则有3281万元汇兑收益。</p><p><br /></p><p>就在乐歌公布财报前两个月，另一家港股海外仓服务商EDA集团也披露了类似的经营压力。</p><p><br /></p><p>2026年上半年，EDA收入10.50亿元，同比增长14.3%，毛利率却从10.3%降至6.5%，净利润由盈利1930万元变成亏损4216万元。</p><p><br /></p><p>两家公司的利润变化有不同原因。</p><p><br /></p><p>乐歌的仓储业务毛利表现改善，集团利润受到财务费用影响；EDA则面临新仓投产爬坡、服务价格下降和当地经营成本上涨。</p><p><br /></p><p>它们共同反映了中国海外仓行业的一项变化：随着海外仓网络扩张，仓库、设备、配送合同和当地员工数量不断增加，企业需要承担的固定成本与资本投入也越来越大。</p><p><br /></p><p>这门生意已经吸引了相当多的中国企业。</p><p><br /></p><p>纵腾集团旗下谷仓海外仓2026年3月披露，全球仓储面积突破360万平方米，其中北美225万平方米、欧洲120万平方米。其官网最新展示的全球仓储面积已超过380万平方米。</p><p><br /></p><p>乐歌正在美国购买工业土地，建设自有仓库。EDA则在扩大自营仓储网络的同时，计划进入更多本地物流环节。</p><p><br /></p><p>仓库扩张的速度相当快。但从几家公司的财报看，收入、仓库面积和利润之间，已经出现了越来越明显的差异。</p><p><br /></p><p class="text-big-title" label="大标题">一、海外仓赚的钱，大部分还要付给别人</p><p><br /></p><p>理解海外仓的盈利能力，首先要拆开它的收入。</p><p><br /></p><p>乐歌前三季度公共海外仓收入24.53亿元，毛利率11.04%。</p><p><br /></p><p>据此计算，海外仓业务毛利约2.71亿元。</p><p><br /></p><p>每100元收入，扣除直接营业成本之后，留下约11元毛利，还需要承担管理、融资及其他期间费用。</p><p><br /></p><p>这里面，仓储租金只是成本的一部分。</p><p><br /></p><p>客户把商品交给海外仓，需要支付国际运输、集装箱拖运、货物上架、仓储、拣货、包装和尾程配送等费用。</p><p><br /></p><p>海外仓服务商往往负责组织整套履约流程，向客户收取服务费，再向承运商、仓库运营方和其他供应商付款。</p><p><br /></p><p>EDA集团的财报提供了更详细的成本结构。</p><p><br /></p><p>2026年上半年，EDA营业成本约9.82亿元。</p><p><br /></p><p>其中，国际运输、尾程配送及转运等物流成本达到6.14亿元，占全部营业成本的62.6%。</p><p><br /></p><p>仓库运营成本2.07亿元，占21.1%；人工成本1.61亿元，占16.4%。</p><p><br /></p><p>仅运输这一项，就吞掉了六成以上的直接营业成本。</p><p><br /></p><p>这意味着，海外仓服务商即使扩大收入规模，也需要把大量费用支付给上游物流企业。</p><p><br /></p><p>尤其是在美国，UPS和FedEx等大型承运商掌握着全国性配送网络。</p><p><br /></p><p>10月26日，路透社援引TD Cowen与AFS Freight Index预测，2026年第四季度，美国陆运包裹价格将同比上涨5.8%，快递价格上涨13.8%。</p><p><br /></p><p>UPS第三季度财报又提供了一组数据：美国国内日均包裹量同比下降3.3%，单件平均收入却提高6.1%。</p><p><br /></p><p>大型承运商正在提高单票收益。</p><p><br /></p><p>海外仓公司的处境则要复杂一些。</p><p><br /></p><p>它们向数千家跨境卖家提供物流服务，客户对价格非常敏感。美国快递费用上涨之后，海外仓需要重新谈判运价、调整报价，或者自行承担部分成本。</p><p><br /></p><p>乐歌已经成为FedEx Ground的重要客户，并引入UPS作为另一家尾程配送合作伙伴。</p><p><br /></p><p>大客户可以依靠订单量争取折扣，但折扣的价值取决于实际发货量、包裹重量、目的地和服务合同。</p><p><br /></p><p>海外仓收入规模越大，并不意味着它对整条物流链的定价权也同比扩大。</p><p><br /></p><p>承运商能够获得多少收益，海外仓能够保留多少服务毛利，最终取决于双方的订单规模和议价能力。</p><p><br /></p><p class="text-big-title" label="大标题">二、仓库越多，库存越难放</p><p><br /></p><p>美国海外仓还有一笔成本，藏在仓库的地理位置里。</p><p><br /></p><p>美国消费者分散在不同州，物流配送费用受到运输距离和包裹分区的影响。</p><p><br /></p><p>一件商品存放在洛杉矶，送往加州消费者相对方便，但如果订单来自纽约，就可能需要跨越美国大陆。</p><p><br /></p><p>为了缩短配送距离，海外仓企业需要在美西、美东和中部建立多个仓储节点。</p><p><br /></p><p>这也是纵腾等企业不断增加仓群的原因。</p><p><br /></p><p>2025年8月，纵腾披露，其旗下谷仓在美国形成十大仓群，北美仓储面积超过160万平方米。新增西雅图、诺福克等仓库，重点考虑订单密度、物流区位和配送距离。</p><p><br /></p><p>但增加仓库会带来一个问题：商品库存也要跟着分散。</p><p><br /></p><p>假设一个中国卖家有1000种商品，每种商品备货100件。</p><p><br /></p><p>集中存放时，仓库需要管理10万件库存。</p><p><br /></p><p>如果希望美国东、西部仓库都能覆盖完整商品目录，就必须重新分配库存。畅销商品可以在两边备货，低频商品则可能需要选择单一仓库。</p><p><br /></p><p>一旦预测不准确，就容易出现一种情况：纽约仓库的某款商品缺货，洛杉矶仓库却还有大量库存。</p><p><br /></p><p>企业需要安排跨仓调拨，或者接受更高的跨区配送费用。</p><p><br /></p><p>对于家具、健身器材等中大件商品，跨仓运输和尾程费用更加敏感。</p><p><br /></p><p>因此，仓库网络扩张会增加对库存预测、区域需求分析和物流调度系统的要求。</p><p><br /></p><p>库存放得太集中，跨区配送费用上升。</p><p><br /></p><p>库存放得太分散，仓储面积、补货批次和资金占用增加。</p><p><br /></p><p>这笔账还要考虑仓库利用率。</p><p><br /></p><p>乐歌10月30日披露，整体海外仓库容利用率超过70%。</p><p><br /></p><p>这意味着仓储网络已经拥有一定的订单基础，但仍有部分库容尚未充分使用。</p><p><br /></p><p>库容利用率是企业整体指标，不能说明每个城市、每座仓库的运营情况。</p><p><br /></p><p>一家位于美西的仓库可能十分繁忙，另一家新开的美东仓库却可能需要较长时间积累客户。</p><p><br /></p><p>对于海外仓服务商来说，决定利润的不只有多少平方米仓库，还包括这些仓库所在位置能否匹配订单流向。</p><p><br /></p><p>库存管理能力正在成为行业规模扩张中的重要门槛。</p><p><br /></p><p class="text-big-title" label="大标题">三、平台半托管，把仓储服务商的价格压得更低</p><p><br /></p><p>EDA集团今年的亏损，还有一项值得注意的原因。</p><p><br /></p><p>公司在半年报中表示，半托管模式下的部分尾程履约服务单价下降，压低了毛利率。</p><p><br /></p><p>2026年上半年，EDA尾程履约服务毛利率从去年同期的10.7%降至6.5%。</p><p><br /></p><p>半托管模式在跨境电商平台中越来越普遍。</p><p><br /></p><p>在这种经营安排下，卖家通常需要提前把商品放在目标市场，通过平台要求的履约方式完成配送。平台则参与流量分配、商品销售及部分物流规则的管理。</p><p><br /></p><p>这类模式扩大了海外仓的潜在客户规模，也改变了仓储服务商与卖家的关系。</p><p><br /></p><p>当平台对配送时效、仓库资质和物流费用提出统一要求，服务商获得大量订单的同时，也可能面临更强的价格约束。</p><p><br /></p><p>EDA的经营表现已经体现了这一点。</p><p><br /></p><p>公司2026年上半年尾程履约服务收入同比增长17.3%，但对应毛利同比下降约28.5%。</p><p><br /></p><p>订单对应的收入增长，未能转化为毛利增长。</p><p><br /></p><p>这反映出海外仓业务的一项风险：客户来源越集中于大型电商平台，平台的规则和价格体系对物流商盈利能力的影响就可能越大。</p><p><br /></p><p>同时，半托管商品通常需要在销售前进入当地仓库，服务商要提前准备面积、人员和配送资源。</p><p><br /></p><p>如果平台订单增长不及预期，新增仓库需要承担固定租金。</p><p><br /></p><p>EDA披露，2025年至2026年上半年新增的六座海外仓仍需经历经营爬坡，固定租金进一步压低了利润。</p><p><br /></p><p>由此产生的资金压力，可能持续到仓库形成稳定订单之后。</p><p><br /></p><p>对于第三方海外仓企业，争取大型平台订单与保持客户结构分散之间，需要做出经营选择。</p><p><br /></p><p class="text-big-title" label="大标题">四、租仓库越来越贵，自己建仓也需要钱</p><p><br /></p><p>美国房地产市场，是海外仓成本的重要决定因素。</p><p><br /></p><p>CBRE数据显示，2026年第三季度，美国工业和物流物业平均净挂牌租金为每平方英尺每年11.16美元，同比增长3.6%。</p><p><br /></p><p>折合每平方米每年约120美元。</p><p><br /></p><p>这个价格是全美工业物业平均挂牌报价，不代表某一家海外仓的实际租金。不同地区、物业条件和租约结构之间存在明显差异。</p><p><br /></p><p>但长期租赁仓库的成本压力已经可以从上市公司财报中看到。</p><p><br /></p><p>EDA今年上半年仓库运营成本约2.07亿元，同比增长约23%。</p><p><br /></p><p>公司明确指出，海外仓人工、租金上涨以及新仓利用率不足，是毛利率下降的重要原因。</p><p><br /></p><p>乐歌选择了另一种方式。</p><p><br /></p><p>2024年，公司启动自建海外仓战略。</p><p><br /></p><p>2026年，位于美国佐治亚州Ellabell的9.3万平方米自建仓投入使用。</p><p><br /></p><p>第二座Apple Valley仓计划于2027年上半年建成。</p><p><br /></p><p>公司还储备了大量美国工业土地，按照长期规划，未来5至10年可以支持约150万平方米自建仓建设。</p><p><br /></p><p>乐歌测算，自建仓折旧及融资利息成本，可以降至同类租赁仓库成本的三分之一至二分之一。</p><p><br /></p><p>这个比例来自公司的内部估算，尚不能直接视为所有项目实际实现的成本节约。</p><p><br /></p><p>自建仓确实能够减少部分长期租金支出。</p><p><br /></p><p>但企业需要提前购买土地、建设厂房，并承担融资利息、设备安装、物业税费、保险和日常维护费用。</p><p><br /></p><p>如果仓库位置适合当地长期需求，土地与物业也可能形成资产价值。</p><p><br /></p><p>如果订单不足，折旧和利息依然需要支付。</p><p><br /></p><p>乐歌的资产负债表已经出现相应变化。</p><p><br /></p><p>截至2026年9月底，公司在建工程从年初的9.17亿元下降至5.64亿元，主要因为海外仓建设完成后转入固定资产。</p><p><br /></p><p>同期货币资金由21.70亿元下降至14.80亿元，公司解释主要与偿还贷款增加有关。</p><p><br /></p><p>这些变化需要结合现金流理解。</p><p><br /></p><p>乐歌前三季度经营活动现金流净额仍有5.14亿元，同比下降15.24%。因此，净利润下降不能直接理解为仓储业务停止创造现金。</p><p><br /></p><p>自建仓也会改变企业的财务结构。</p><p><br /></p><p>租赁模式下，企业承担租赁负债及持续租金成本；购买和建设模式下，需要承担土地、建筑物、贷款与长期折旧。</p><p><br /></p><p>两种方式都要付出资金成本，只是支付节奏、资产归属和风险承担方式不同。</p><p><br /></p><p>对于规模较大的海外仓企业，未来需要持续比较自建仓与租赁仓的资金回报率。</p><p><br /></p><p class="text-big-title" label="大标题">五、海外仓开始进入中国企业的资产负债表</p><p><br /></p><p>海外仓的资产扩张，还带来了汇率问题。</p><p><br /></p><p>乐歌前三季度产生9028万元汇兑损失，而去年同期有3281万元汇兑收益。</p><p><br /></p><p>两年变化约1.23亿元，已经超过同期归母净利润下降的金额。</p><p><br /></p><p>这组数据值得放到海外仓经营模式中观察。</p><p><br /></p><p>乐歌在美国购买土地、建设仓库，同时需要管理美元应收应付、贷款及其他外币货币性项目。</p><p><br /></p><p>人民币兑美元汇率变化，可能通过外币货币性资产负债的重估进入当期损益。</p><p><br /></p><p>境外子公司报表折算产生的差额，则通常计入其他综合收益。两者的会计影响需要分别分析。</p><p><br /></p><p>乐歌第三季度报告显示，前三季度财务费用达到2.15亿元，去年同期约3677万元。</p><p><br /></p><p>除了汇兑损失，公司还披露，第三季度净利息收入较去年同期减少2000多万元。</p><p><br /></p><p>由此可见，海外仓规模扩张之后，投资者需要同时关注业务毛利率和财务费用。</p><p><br /></p><p>这一点与国内轻资产服务公司的分析方法有所区别。</p><p><br /></p><p>持有大量美元资产、土地和海外仓库的企业，最终利润会受到当地物流经营、融资成本与外汇敞口的共同影响。</p><p><br /></p><p>公司可以使用远期外汇工具管理风险，也可以通过美元收入和美元负债进行匹配。</p><p><br /></p><p>但持有海外不动产和长期建设项目，本身就意味着更复杂的资金安排。</p><p><br /></p><p>对海外仓服务商来说，资本投入已经成为经营能力的一部分。</p><p><br /></p><p class="text-big-title" label="大标题">六、海外仓公司，开始寻找仓储之外的利润</p><p><br /></p><p>如果只看乐歌和EDA，海外仓服务的毛利率大致在个位数至低双位数之间。</p><p><br /></p><p>另一家美国上市公司GigaCloud，提供了不同的经营思路。</p><p><br /></p><p>GigaCloud主要服务家具、家电、健身器材等大件商品，拥有B2B交易平台和仓储履约网络。</p><p><br /></p><p>2026年第二季度，公司营业收入4.12亿美元，同比增长27.6%，集团毛利率25.6%。</p><p><br /></p><p>这个数字看起来明显高于乐歌和EDA。</p><p><br /></p><p>但GigaCloud的收入包含自营商品销售及第三方服务，不能直接比较集团毛利率。</p><p><br /></p><p>进一步拆开财报，情况就很清楚。</p><p><br /></p><p>第二季度，GigaCloud第三方服务收入约1.21亿美元，对应服务成本约1.07亿美元。</p><p><br /></p><p>据此计算，服务业务毛利率约11.7%，与乐歌公共海外仓业务处于相近区间。</p><p><br /></p><p>其中，尾程配送服务收入达到7004万美元，占第三方服务收入约58%。</p><p><br /></p><p>这再次说明，即使拥有交易平台，物流履约业务仍然要承担大量运输成本。</p><p><br /></p><p>GigaCloud的不同之处，在于它把商品交易、供应商、零售商和配送网络连接起来。</p><p><br /></p><p>卖家可以通过平台寻找批发买家，买家也可以在平台上采购商品，物流系统承担相应的仓储和配送。</p><p><br /></p><p>截至2026年6月底，GigaCloud平台过去12个月的交易总额达到17.45亿美元，同比增长21.3%。</p><p><br /></p><p>交易关系帮助平台获得仓储和配送需求，仓储网络又支持更多商品交易。</p><p><br /></p><p>这种模式也有额外的经营风险。自营商品销售需要承担采购、库存及销售波动，平台还需要持续吸引买卖双方。</p><p><br /></p><p>但它提出了一个值得中国海外仓企业研究的问题：</p><p><br /></p><p>当仓储、运输和人工成本已经压缩了物流服务毛利，企业还能在什么环节获得额外收入？</p><p><br /></p><p>可能的方向包括库存管理软件、供应链融资、退货翻新、本地配送整合，以及面向品牌商的订单和渠道管理。</p><p><br /></p><p>这些服务能够创造多少利润，还需要上市公司进一步披露可比较的数据。</p><p><br /></p><p>对于正在扩张的第三方海外仓企业，增加服务品类可能提高客户留存，也可能带来新的资金和运营负担。</p><p><br /></p><p class="text-big-title" label="大标题">七、仓库越建越多，投资回报需要重新计算</p><p><br /></p><p>美国跨境电商的政策环境仍在推动物流服务模式调整。</p><p><br /></p><p>2025年8月29日起，美国取消了原先适用于多数800美元及以下进口货物的小额免税待遇。</p><p><br /></p><p>通过美国海外仓进行本地履约，能够让卖家提前备货、缩短消费者收货时间，也有利于集中组织进口申报。</p><p><br /></p><p>不过，大批量进口商品仍然需要承担适用关税和合规成本。建立海外仓本身并不会消除这些费用。</p><p><br /></p><p>对中国卖家来说，选择海外仓需要同时计算进口税费、头程运费、仓储成本、尾程费用，以及商品售出之前占用的库存资金。</p><p><br /></p><p>对服务商来说，问题则集中在新增仓库能否形成稳定的订单密度。</p><p><br /></p><p>乐歌计划继续提高自建仓比例。</p><p><br /></p><p>EDA正在调整仓库网络，终止部分到期合作仓的租约，同时加强自营仓运营。</p><p><br /></p><p>纵腾把仓群规模扩大到了数百万平方米。</p><p><br /></p><p>几家企业采取不同的资产与经营策略，面对的都是同一批成本约束。</p><p><br /></p><p>新建仓库需要资金，尾程配送依赖大型承运商，客户订单受到电商平台规则影响，海外资产还需要承担汇率和融资风险。</p><p><br /></p><p>仓储面积与处理包裹数量，已经不足以完整衡量这门生意。</p><p><br /></p><p>接下来，更值得观察的是一座仓库从投入使用到稳定盈利需要多长时间，每票订单能够贡献多少毛利，以及企业投入的资本最终能够形成多少现金回报。</p><p><br /></p><p>乐歌海外仓业务毛利率改善，是规模经营取得进展的一个信号；集团利润下滑，又提醒投资者关注海外资产扩张的财务成本。</p><p><br /></p><p>EDA的亏损，则反映了仓库爬坡与平台价格压力可能带来的经营后果。</p><p><br /></p><p>中国海外仓生意越做越重了。仓库面积可以用平方米计算，服务规模可以用包裹量衡量，最终仍然要回到每一笔订单的利润，以及每一座仓库投入的资金能够赚回多少钱。</p>
         </div>
         ]]></description>
     </item>

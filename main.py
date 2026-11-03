@@ -163,9 +163,11 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
 
     bj_time = datetime.now(timezone(timedelta(hours=8)))
     period_label = "早报" if bj_time.hour < 12 else ("午报" if bj_time.hour < 15 else "晚报")
+    # Use exact timestamp & hash in guid so ReadYou always refreshes fresh content instead of holding old cache
+    briefing_guid = f"briefing_{bj_time.strftime('%Y%m%d_%H%M%S')}_{hash_id(briefing_html)[:8]}"
     briefing_info = {
         "title": f"📰 【今日全景速报】一分钟看全天下事 ({bj_time.strftime('%m-%d')} {period_label})",
-        "guid": f"briefing_{bj_time.strftime('%Y%m%d')}_{period_label}",
+        "guid": briefing_guid,
         "link": config.get("output", {}).get("feed_link", "https://github.com/Kevin8k86/RSS"),
         "content": briefing_html,
     }

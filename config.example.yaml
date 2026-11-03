@@ -1,0 +1,41 @@
+# RSS AI Curator 配置文件
+
+llm:
+  # 支持任意 OpenAI 格式兼容的大模型 API
+  # 推荐 1: DeepSeek (成本极低，理解深度强) -> base_url: https://api.deepseek.com, model: deepseek-chat
+  # 推荐 2: Google Gemini (免费额度大) -> base_url: https://generativelanguage.googleapis.com/v1beta/openai/, model: gemini-2.0-flash
+  # 推荐 3: OpenAI -> base_url: https://api.openai.com/v1, model: gpt-4o-mini
+  api_key: "YOUR_API_KEY_HERE"
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-chat"
+
+curator:
+  # 及格分数阈值 (1.0 - 10.0 分)
+  # 7.5 分表示只有事实密度高、有深度分析或重大价值的文章才会被收录入选
+  score_threshold: 7.5
+
+  # ReadYou 订阅源中保留的最大精华文章数量 (建议 30-50 篇，每天自动滚动更新)
+  max_output_items: 50
+
+  # 定时轮询间隔 (分钟，仅在 Docker 守护进程模式下生效)
+  interval_minutes: 60
+
+# 你想要筛选的高频原始订阅源列表
+feeds:
+  - name: "36氪-全站资讯"
+    url: "https://36kr.com/feed"
+  - name: "虎嗅网"
+    url: "https://rss.huxiu.com/"
+  - name: "少数派"
+    url: "https://sspai.com/feed"
+  # 在此处添加更多你觉得推送太多、需要筛选的源...
+
+output:
+  feed_title: "AI 深度精选专栏"
+  feed_description: "大模型严格把关，只保留深度分析、产业洞察与高价值要闻"
+  feed_link: "https://github.com"
+  output_file: "dist/feed.xml"
+
+storage:
+  # SQLite 数据库路径，用于记录已读和去重，避免重复消耗 Token
+  db_path: "data/curator.db"

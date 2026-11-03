@@ -1,0 +1,72 @@
+# RSS AI Curator 配置文件
+
+llm:
+  # 支持任意 OpenAI 格式兼容的大模型 API
+  # 推荐 1: DeepSeek (极低成本，深度鉴别力极强) -> base_url: https://api.deepseek.com, model: deepseek-chat
+  # 推荐 2: Google Gemini (免费额度充裕) -> base_url: https://generativelanguage.googleapis.com/v1beta/openai/, model: gemini-2.0-flash
+  # 推荐 3: OpenAI -> base_url: https://api.openai.com/v1, model: gpt-4o-mini
+  api_key: "YOUR_API_KEY_HERE" # 在 GitHub Actions 部署时，此处可留空，直接在 GitHub Secrets 中配置 LLM_API_KEY
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-chat"
+
+curator:
+  # 严格的主编打分及格线 (1.0 - 10.0 分)
+  # 7.5 分能精准淘汰掉 80% 的灌水快讯、公关通稿与情绪营销文
+  score_threshold: 7.5
+
+  # 输出给 ReadYou 的最新精华文章保留条数 (保证每天有 30-50 篇深度好文滚动更新)
+  max_output_items: 50
+
+# 订阅源列表：已整合你的现有订阅 + 严选扩充高质量源
+feeds:
+  # -------------------- 【用户现有订阅源】 --------------------
+  - name: "澎湃新闻"
+    url: "https://feedx.net/rss/thepaper.xml"
+  - name: "36氪"
+    url: "https://36kr.com/feed"
+  - name: "IT之家"
+    url: "https://www.ithome.com/rss/"
+  - name: "少数派"
+    url: "https://sspai.com/feed"
+  # 注：财新网与参考消息如果你在 ReadYou 里有专属的自定义/自建源，可直接在此替换
+  - name: "财新网"
+    url: "http://rss.caixin.com/rss.xml"
+  - name: "参考消息"
+    url: "http://www.cankaoxiaoxi.com/rss/"
+
+  # -------------------- 【科技 / AI / 数码】 --------------------
+  - name: "虎嗅网 (科技与商业深度)"
+    url: "https://rss.huxiu.com/"
+  - name: "爱范儿 (新数码与前沿体验)"
+    url: "https://www.ifanr.com/feed"
+  - name: "The Verge (全球顶级科技与消费数码)"
+    url: "https://www.theverge.com/rss/index.xml"
+  - name: "Ars Technica (硬核技术与深度原理)"
+    url: "https://feeds.arstechnica.com/arstechnica/index"
+
+  # -------------------- 【财经 / 宏观商业】 --------------------
+  - name: "FT中文网 (英国金融时报深度分析)"
+    url: "https://www.ftchinese.com/rss/feed"
+
+  # -------------------- 【时政要闻 / 深度调查】 --------------------
+  - name: "南方周末 (权威深度调查与时代观察)"
+    url: "https://feedx.net/rss/infzm.xml"
+  - name: "联合早报 (国际华语时政与大局观)"
+    url: "https://feedx.net/rss/zaobao.xml"
+
+  # -------------------- 【国外大新闻 / 全球大势】 --------------------
+  - name: "BBC 中文网 (全球重大突发与深度报道)"
+    url: "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"
+
+  # -------------------- 【体育竞技】 --------------------
+  - name: "BBC 体育 (全球体育综合深度)"
+    url: "https://feeds.bbci.co.uk/sport/rss.xml"
+
+output:
+  feed_title: "AI 深度精选专栏 (Daily Digest)"
+  feed_description: "大模型严格把关，仅保留深度分析、产业洞察与高价值要闻"
+  feed_link: "https://github.com"
+  output_file: "dist/feed.xml"
+
+storage:
+  db_path: "data/curator.db"

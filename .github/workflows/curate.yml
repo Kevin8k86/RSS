@@ -1,0 +1,50 @@
+name: RSS AI Curator
+
+on:
+  schedule:
+    # 每 3 小时定时拉取并精选一次（对应北京时间 08:00, 11:00, 14:00, 17:00, 20:00, 23:00 等）
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # 支持在 GitHub 页面点击手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 缓存 SQLite 数据库，避免每次重新运行时对已处理的文章重复调用 API 消耗 Token
+      - name: 缓存历史评估数据库
+        uses: actions/cache@v4
+        with:
+          path: data/curator.db
+          key: curator-db-${{ github.run_id }}
+          restore-keys: |
+            curator-db-
+
+      - name: 安装 Python 依赖
+        run: |
+          pip install -r requirements.txt
+
+      - name: 执行 AI 质量打分与筛选
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: |
+          mkdir -p data dist
+          python main.py --run-once --config config.yaml
+
+      # 将生成的 dist/feed.xml 发布到 gh-pages 分支，供 ReadYou 随时拉取
+      - name: 发布至 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages

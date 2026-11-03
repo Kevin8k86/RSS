@@ -1,0 +1,15 @@
+services:
+  rss-curator:
+    build: .
+    container_name: rss-curator
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - TZ=Asia/Shanghai
+      # 也可以在此处通过环境变量传入 API Key，避免写在配置文件中
+      # - LLM_API_KEY=sk-xxxx
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./data:/app/data
+      - ./dist:/app/dist

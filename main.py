@@ -5,6 +5,7 @@ import socket
 import argparse
 import logging
 import threading
+from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -37,7 +38,6 @@ def load_config(config_path: str) -> Dict[str, Any]:
     with open(path, "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
 
-    # Support environment variable override for sensitive keys
     if "LLM_API_KEY" in os.environ and os.environ["LLM_API_KEY"]:
         config["llm"]["api_key"] = os.environ["LLM_API_KEY"]
     if "LLM_BASE_URL" in os.environ and os.environ["LLM_BASE_URL"]:
@@ -102,15 +102,14 @@ def process_single_entry(entry: Any, feed_url: str, storage: Storage, evaluator:
 
 
 def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: ContentEvaluator):
-    logger.info("🚀 开始执行 RSS 抓取与深度质量筛选任务...")
+    logger.info("🚀 开始执行 RSS 抓取、深度质量筛选与今日全景速报生成任务...")
     score_threshold = float(config.get("curator", {}).get("score_threshold", 7.5))
-    # 限制每个源每次只取最新 N 条，防止冷启动或高频源把时间拉得过长
     max_entries_per_feed = int(config.get("curator", {}).get("max_entries_per_feed", 8))
-    # 并发线程数
     max_workers = int(config.get("curator", {}).get("max_workers", 4))
 
     feeds = config.get("feeds", [])
     pending_items = []
+    scanned_for_briefing = []
 
     for feed_info in feeds:
         feed_url = feed_info.get("url") if isinstance(feed_info, dict) else feed_info
@@ -123,11 +122,14 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
                 agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             )
             entries = d.entries or []
-            # 仅截取最新的若干条文章
             selected_entries = entries[:max_entries_per_feed]
             logger.info(f"   共发现 {len(entries)} 条，选取最新 {len(selected_entries)} 条加入评估队列")
 
             for entry in selected_entries:
+                title = getattr(entry, "title", "").strip()
+                if title:
+                    scanned_for_briefing.append({"source": feed_name, "title": title})
+
                 link = getattr(entry, "link", "")
                 guid = getattr(entry, "id", link)
                 item_id = hash_id(link, guid)
@@ -137,28 +139,41 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
         except Exception as e:
             logger.error(f"❌ 读取源 {feed_url} 异常: {str(e)}")
 
-    logger.info(f"⚡ 待处理新增文章总数: {len(pending_items)} 篇，启动 {max_workers} 线程并发评估...")
+    logger.info(f"⚡ 待处理新增深度文章: {len(pending_items)} 篇，启动 {max_workers} 线程并发评估...")
 
     total_accepted = 0
     total_rejected = 0
 
-    # 使用多线程并发评估，速度大幅提升 4~5 倍
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [
-            executor.submit(process_single_entry, entry, feed_url, storage, evaluator, score_threshold)
-            for entry, feed_url in pending_items
-        ]
-        for f in as_completed(futures):
-            res = f.result()
-            if res is True:
-                total_accepted += 1
-            elif res is False:
-                total_rejected += 1
+    if pending_items:
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = [
+                executor.submit(process_single_entry, entry, feed_url, storage, evaluator, score_threshold)
+                for entry, feed_url in pending_items
+            ]
+            for f in as_completed(futures):
+                res = f.result()
+                if res is True:
+                    total_accepted += 1
+                elif res is False:
+                    total_rejected += 1
 
-    # Clean up old records in DB
+    # 1. Generate lead panoramic briefing article (置顶全景速览：一眼扫完全天热点)
+    logger.info("📝 正在使用大模型生成【今日各领域全景速览·一眼扫完】置顶文章...")
+    briefing_html = evaluator.generate_panoramic_briefing(scanned_for_briefing)
+
+    bj_time = datetime.now(timezone(timedelta(hours=8)))
+    period_label = "早报" if bj_time.hour < 12 else ("午报" if bj_time.hour < 15 else "晚报")
+    briefing_info = {
+        "title": f"📰 【今日全景速报】一分钟看全天下事 ({bj_time.strftime('%m-%d')} {period_label})",
+        "guid": f"briefing_{bj_time.strftime('%Y%m%d')}_{period_label}",
+        "link": config.get("output", {}).get("feed_link", "https://github.com/Kevin8k86/RSS"),
+        "content": briefing_html,
+    }
+
+    # 2. Clean up old records in DB
     storage.cleanup_old_records(days=45)
 
-    # Generate output RSS XML
+    # 3. Retrieve accepted in-depth articles
     max_items = int(config.get("curator", {}).get("max_output_items", 50))
     accepted_articles = storage.get_recent_accepted(limit=max_items)
 
@@ -166,8 +181,9 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
     xml_content = generate_rss_xml(
         feed_title=out_cfg.get("feed_title", "AI 深度精选专栏 (Daily Digest)"),
         feed_description=out_cfg.get("feed_description", "由大模型把关筛选的优质长文与行业洞察"),
-        feed_link=out_cfg.get("feed_link", "https://github.com"),
+        feed_link=out_cfg.get("feed_link", "https://github.com/Kevin8k86/RSS"),
         articles=accepted_articles,
+        briefing=briefing_info,
     )
 
     out_file_path = Path(out_cfg.get("output_file", "dist/feed.xml"))
@@ -176,8 +192,8 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
         f.write(xml_content)
 
     logger.info(
-        f"🎉 任务完成！本次精选入选 {total_accepted} 篇，淘汰水文 {total_rejected} 篇。"
-        f" 当前精选源总共包含 {len(accepted_articles)} 篇精品。已成功写入: {out_file_path}"
+        f"🎉 任务完成！本次精选新增 {total_accepted} 篇，淘汰 {total_rejected} 篇。"
+        f" 成功生成置顶全景速览并已写入: {out_file_path}"
     )
 
 

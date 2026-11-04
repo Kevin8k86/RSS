@@ -4,14 +4,14 @@
     <title>AI 深度精选与全景速览 (Daily Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型把关：置顶全景速览（含海外X热议），下接深度硬核长文</description>
-    <lastBuildDate>Tue, 03 Nov 2026 10:49:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 02:49:33 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
-        <title>📰 【今日全景速报】一分钟看全天下事 (11-03 晚报)</title>
+        <title>📰 【今日全景速报】一分钟看全天下事 (11-04 早报)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
-        <guid isPermaLink="false">briefing_20261103_184954_5149e559</guid>
-        <pubDate>Tue, 03 Nov 2026 10:49:54 +0000</pubDate>
+        <guid isPermaLink="false">briefing_20261104_104933_0ec40ddb</guid>
+        <pubDate>Wed, 04 Nov 2026 02:49:33 +0000</pubDate>
         <author>AI 全能主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -22,35 +22,464 @@
             <div>
                 <div>
 <h3>🌐 海外社媒与全球焦点 (X / Threads / 硅谷大事件)</h3>
-<p><b>英伟达口头限制对华AI芯片供应</b>：据FT，英伟达已口头要求云算力客户将51%以上服务售予非中国企业，变相收紧中国获取AI芯片的渠道。此举被视为美方出口管制向产业链下游延伸，X上热议其执行边界与对全球算力租赁格局的冲击。</p>
-<p><b>AI安全成民主党2028新议题</b>：纽约杂志披露，Alex Bores的“Who Decides”项目试图把AI安全塑造成类似“支持选择权”的民主党标准立场，与科技资本资助的对手争夺话语权。这标志AI监管正从技术议题升级为党派政治筹码。</p>
+<p><b>加州接受14.2亿美元联邦宽带资金，但挑战特朗普政府要求其停止执行州网络中立规则。</b>Ars Technica报道，加州在获取联邦资金的同时明确拒绝放弃州级网络中立监管，引发联邦与州权博弈。X上科技政策圈热议此举是否会被政府以资金为杠杆反制，影响其他蓝州宽带部署节奏。</p>
+<p><b>谷歌回应教育服务争议，宣布学校可单独启用Gemini、Gemini Notebook与搜索，且三者默认关闭。</b>此前教育更新遭家长与学区反弹，谷歌在X官方账号澄清“给学校更多选择而非更少”。CNBC称K-12要求加强学生AI使用管控，此举或成校园AI部署的新合规范式。</p>
 </div>
+
 <div>
 <h3>📱 数码与前沿科技</h3>
-<p><b>苹果预警存储成本“前所未有”</b>：苹果预计Q1营收同比增7%-10%超预期，但毛利率45%-46%低于预期，硬件主管Ternus称内存成本“前所未有”。这暗示AI驱动的存储涨价正侵蚀硬件利润，或传导至明年新品定价。</p>
-<p><b>华为昇腾960DT倚重韩系HBM</b>：The Information称华为已告知部分客户，其旗舰AI芯片昇腾960DT大部分将采用三星与SK海力士的HBM。这暴露国产HBM替代尚需时日，也显示制裁下华为仍依赖韩系供应链的脆弱平衡。</p>
+<p><b>苹果iPad mini（2026）评测出炉，被Wired称为“梦想设备但定位模糊”。</b>新款在性能与便携间取得平衡，少数派首发体验称“一眼熟悉、满眼惊喜”。但高价与iPhone Duo等折叠形态挤压其场景，消费者是否买单成悬念，或影响苹果小尺寸平板产品线走向。</p>
+<p><b>中国电信、长飞、中兴联合完成全球首个千公里空芯光纤双向实时传输验证。</b>空芯光纤以空气导光，理论时延低于传统石英光纤，被视为下一代低时延骨干网关键。此次长距双向实时验证标志工程化迈进一步，为金融、AI算力互联等时延敏感场景铺路。</p>
 </div>
+
 <div>
 <h3>💰 商业与财经金融</h3>
-<p><b>Marvell收购Lumentum搅动光通信</b>：TrendForce指出，Marvell收购Lumentum后有望挑战博通在光通信的主导地位。AI数据中心对光模块需求爆发，此并购将重塑高速互联芯片竞争格局，博通一家独大的局面面临松动。</p>
-<p><b>Drax联手Brookfield建AI数据中心</b>：英国能源公司Drax与Brookfield及neocloud Radiant合作，在约克郡北开发AI数据中心，目标2028年Q1达100MW。这反映AI算力扩张正倒逼能源企业入场，电力与算力捆绑成新商业模式。</p>
+<p><b>币安称黑客利用已知手法实施63.4亿美元窃案。</b>Wired披露攻击者复用行业常见漏洞与社工手段，规模之大令加密圈震动。事件再度引发对中心化交易所托管安全与储备证明的质疑，X上交易者呼吁更严格审计，或加速机构资金转向合规托管方案。</p>
+<p><b>SIA与WSTS数据：全球2026年Q3半导体销售额达5177亿美元，环比增24.1%。</b>AI算力需求与存储涨价共同推高行业景气，华邦同期营收同比暴增278.2%并核准713.63亿新台币高雄扩产。分析认为扩产潮将延续至2027年，但需警惕供需反转风险。</p>
 </div>
+
 <div>
 <h3>🎭 文娱生活与社会热点</h3>
-<p><b>《怦然心动》导演莱纳夫妇遇害</b>：好莱坞名导莱纳与妻子在家中遇害，警方尚未证实凶手是否为其子。此案震动影坛，X与国内社交平台哀悼与猜测并存，也再度引发对名人家庭安全与心理健康议题的关注。</p>
-<p><b>儿童手表“小天才圈”乱象调查</b>：澎湃调查显示，小天才手表点赞成每日功课，且有商家可解除家长管控。未成年人社交沉迷与监管漏洞引发家长焦虑，舆论呼吁平台与厂商强化青少年模式，压实监护责任。</p>
+<p><b>《怦然心动》导演莱纳与妻子在家中遇害，警方尚未证实是否其子所为。</b>好莱坞知名导演离世引发全球影迷哀悼，案件细节未明令舆论高度关注。X与国内社交平台热议家庭悲剧与名人隐私边界，警方调查进展将持续牵动公众情绪。</p>
+<p><b>央视曝光新会陈皮市场产地造假、年份速成、无视监管乱象。</b>报道揭开了“越陈越贵”背后的造假链条，消费者高价买到速成皮。舆论呼吁地理标志保护与溯源体系落地，地方监管部门面临整治压力，或推动中药材类农产品监管升级。</p>
 </div>
+
 <div>
 <h3>🌍 国内外时政关键要点</h3>
-<p><b>澳海滩恐袭103声枪响细节曝光</b>：澳枪击案嫌疑人为父子，曾宣誓效忠“伊斯兰国”，枪支系合法持有。最后6分钟103声枪响的细节披露，引发对澳枪支管理与反恐情报漏洞的强烈质疑，多国加强警戒。</p>
-<p><b>香港依法对黎智英定罪获支持</b>：港澳平发文坚决支持香港特区对反中乱港首恶分子黎智英依法定罪。此表态强调国安法权威与香港法治底线，释放对危害国家安全行为零容忍的明确信号。</p>
+<p><b>澳大利亚枪击事件嫌疑人为父子，曾宣誓效忠“伊斯兰国”，行凶枪支系合法持有。</b>澳海滩恐袭最后6分钟响起103声枪响，有人脚踢被制服枪手发泄。事件引发对合法持枪审查与反恐情报共享的反思，澳政府或收紧枪支管理并加强社区极端化监控。</p>
+<p><b>港澳平发声：坚决支持香港特区对反中乱港首恶分子黎智英依法定罪。</b>官方表态强调依法维护国家安全与香港法治秩序，回应外部势力干预言论。此举释放香港国安法持续执行的明确信号，后续量刑与外部反应将成为观察香港治理走向的关键节点。</p>
 </div>
+
 <div>
 <h3>⚽ 体育竞技综合速递</h3>
-<p><b>旅日大熊猫“晓晓”“蕾蕾”明年1月回国</b>：两只旅日大熊猫确定于明年1月回国，引发日本民众不舍与国内网友期待。作为中日民间交流的象征，其归国安排被解读为双边关系与动物保护合作的风向标。</p>
-<p><b>德国培训机构推“GTA6进修课”</b>：德国一培训机构推出带薪休假玩《GTA6》的“开放世界游戏”进修课程，将游戏体验包装为职业技能培训。此举在X上引发“游戏算不算工作”的调侃与讨论，也折射游戏文化的职业化趋势。</p>
+<p><b>旅日大熊猫“晓晓”“蕾蕾”将于明年1月回国。</b>两只大熊猫自赴日以来成为当地人气明星，归国安排牵动中日民众情感。动物园将举办送别活动，舆论关注后续是否续租新个体，此事也被视为民间交流温度的晴雨表。</p>
+<p><b>演员何晴追悼会举行，其子追思母亲：“北京这场雪像是为她而下”。</b>这位曾塑造多个经典荧幕形象的演员离世引发跨代观众缅怀，圈内好友到场送别。社交平台掀起重温其代表作热潮，折射公众对老一辈演员艺术贡献的集体致敬。</p>
 </div>
             </div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 江弱水 | 永别了，兄弟：安妮·卡森、周作人与卡图卢斯</title>
+        <link>http://www.infzm.com/contents/343918</link>
+        <guid isPermaLink="false">34d19791fc18fa5af6dc4723c8454daad52b794c6b66fef3fa8c029bb8e63b7d</guid>
+        <pubDate>Wed, 04 Nov 2026 01:25:06 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以安妮·卡森《夜》为切口，逐字拆解其对卡图卢斯第101首诗的释义，并勾连周作人译介脉络，呈现古典诗学与当代悼亡形式的深度对话，文本细读扎实，具长期文学参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div><i>2026-11-04 09:00:00</i></div><p><img alt="2012年，安妮·卡森在多伦多大学演讲（视频截图）。" border="0" height="931" src="https://images.infzm.com/cms/medias/image/26/11/03/2ca4aa6754.png" width="1628" /></p>
+<p style="color: #999999; text-align: center;">2012年，安妮·卡森在多伦多大学演讲（视频截图）。</p>
+<h4>用一本书为他做一个墓志铭</h4>
+<p style="text-align: justify;">今年的诺贝尔文学奖得主，加拿大女诗人安妮·卡森（Anne Carson），有一本奇书叫《夜》<span>（新行思∣文汇出版社，2026）</span>，是诗集却完全不像诗集，让我见识了她究竟是如何“与古典传统游戏对话，而为当代文学创造了新的形式”。</p>
+<p style="text-align: justify;">此书为悼念她亡故的哥哥迈克尔而精心制作。迈克尔大她四岁，后因贩毒而逃亡，用假名生活在欧洲和印度，偶尔寄一张明信片给书呆子教授的妹妹，从不附回邮地址。2000年他客死哥本哈根，骨灰撒海。妹妹只能打捞零星的家信和旧照片并归档，“用一本书为他做一个墓志铭”。但书的主体部分，却是作为古典语文学家的安妮·卡森对古罗马诗人卡图卢斯（Gaius Valerius Catullus）《歌集》第101首诗（Carmen 101）的逐字释义，六十多个词条之间，拼贴了迈克尔遗存的图像、实物的残骸，以及作者随时感发的片言只语。书做成经折装，一条联幅展开达26米，收叠在一个灰色书盒里。若视此为骨灰盒，则书的折页便成了引魂导柩的长长飞幡。</p>
+<p style="text-align: justify;">卡图卢斯的那首诗，作为安妮·卡森追溯其亡兄一生的牵索与支架，正是一首悼亡诗。卡图卢斯的兄弟死得很早，葬在特洛伊。诗人从比提尼亚行省卸职返京，途中乘便去兄弟坟前祭拜，写下了这首抒情名作。李永毅译注的《卡图卢斯〈歌集〉》<span>（中国青年出版社，2008）</span>，转引俄亥俄州立大学古典学系教授Batstone的话说：“这首诗的经典性还在于个人记忆、个人经验与历史记忆、历史经验的融合，以及个人化语言与仪式化语言恰到好处的共生。”</p>
+<p style="text-align: justify;">精通希腊与拉丁文的安妮·卡森，多次把这首诗翻译成英文，深知其大不易：</p>
+<p style="text-align: justify;"><span>英语是没法摄取罗马挽歌的那种激情而缓慢的色相的。没有人（即使用拉丁语）能够接近卡图卢斯的措辞，它在最悲伤的时候竟有一种深沉的节日气息，就像那些树木在风中将所有叶子都翻转过来而呈现银色。</span></p>
+<p style="text-align: justify;">她最后给出的译文，确实不尽如人意。再译成中文，也并不好过一百年前周作人的译笔。</p>
+<p><img alt="1925年10月12日的《京报副刊》。" border="0" height="2180" src="https://images.infzm.com/cms/medias/image/26/11/03/16ccf860f1.png" width="1211" /></p>
+<p style="color: #999999; text-align: center;">1925年10月12日的《京报副刊》。</p>
+<h4>周氏兄弟的“密电”告别</h4>
+<p style="text-align: justify;">1925年10月12日的《京报副刊》上，周作人化名“丙丁”，译出卡图卢斯这首诗，并拟了一个题目《伤逝》：</p>
+<p style="text-align: justify;"></p>
+<p><span>我走尽迢递的长途，</span></p>
+<p><span>渡过苍茫的大海，</span></p>
+<p><span>兄弟啊，我来到你的墓前，</span></p>
+<p><span>献给你一些祭品，</span></p>
+<p><span>作最后的供献，</span></p>
+<p><span>对你沉默的灰土，</span></p>
+<p><span>作徒然的话别，</span></p>
+<p><span>因为她那运命的女神，</span></p>
+<p><span>忽而给与又忽而收回，</span></p>
+<p><span>已经把你带走了。</span></p>
+<p><span>我照了古旧的遗风，</span></p>
+<p><span>将这些悲哀的祭品，</span></p>
+<p><span>来陈列在你的墓上：</span></p>
+<p><span>兄弟，你收了这些东西吧，</span></p>
+<p><span>都沁透了我的眼泪；</span></p>
+<p><span>从此永隔冥明，</span></p>
+<p><span>兄弟，只嘱咐你一声“珍重！”</span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">译诗配有插图，译后附记：</p>
+<p style="text-align: justify;"><span>这是罗马诗人“喀都路死”的第百一首诗，现经某君参照几种译本说给我听，由我自由地笔述下来的。“琵亚词侣”画有一幅插图，今转载于右，一个人举起右手，上题“哀尾哀忒该乏勒”三字，大约即系表示致声珍重的意思。据说这是诗人悼其兄弟之作，所以添写了这样一个题目。晨报副刊模写琵君此画作为篇首图案，大约只取其图样，有一个“晶报”式的滑稽家说，这恐怕是表示逼死别的副刊再掐死自己副刊的意思，倒也想得很有趣，不过未必是编辑先生的原意罢。</span></p>
+<p style="text-align: justify;">说是“某君”，其实就是周作人自己。至于“参照几种译本”，主要一种便是1896年伦敦出版的文艺杂志<em>The Savoy</em>上的英译，也就是周作人“转载于右”的那幅“琵亚词侣”（Beardsley，<span>通译“比亚兹莱”</span>）所画插图的配诗。另外一种可能是Loeb古典丛书的Cornish的散文体英译，收入<em>Catullus, Tibullus, Pervigilium Veneris</em>（LCL6，1913<span>年初版</span>，1921<span>年重印</span>）。因为是散文体，使得周作人可以援例而“自由地笔述”，这才会把原诗的十行截短成十七行。中文看上去风格平易，可是读起来语调凝重，感情内敛，确有一种“庄严的伤痛”。</p>
+<p><img alt="1896年伦敦出版的文艺杂志The Savoy上刊登的比亚莱茨英译卡图卢斯的诗，右图是比氏所绘插图。" border="0" height="887" src="https://images.infzm.com/cms/medias/image/26/11/03/406bdb2c5f.jpg" width="1920" /></p>
+<p style="color: #999999; text-align: center;">1896年伦敦出版的文艺杂志<em>The Savoy</em>上刊登的比亚兹莱英译卡图卢斯的诗，右图是比氏所绘插图。</p>
+<p style="text-align: justify;">因为有《夜》的逐字详注，我也算读通了这首拉丁文诗作，发现安妮·卡森和周作人的译文，都大体忠实而小有变通。比如原诗第一行，Multas per gentes et multa per aequora vectus，安妮·卡森英译为Many the peoples many the oceans I crossed，挺好。中文再译成“游历无数国家，游过无尽海域”，反而可议，因为诗人从比提尼亚行省再到特洛伊城，两地都在小亚细亚<span>（即安纳托利亚）</span>，均不出罗马共和国的疆域，所以gentes不是指国家、国度，而是指罗马治下的各族人民。Cornish译为Wandering through many countries and over many seas I come，其中countries可解释为许多地区。周作人译成“我走尽迢递的长途，渡过苍茫的大海”，显然参照<em>The Savoy</em>杂志所译的By ways remote and distant waters sped，却浑成得很。</p>
+<p style="text-align: justify;">又如原诗最后一行（周译为两行），atque in perpetuum, frater, ave atque vale.<span>（直到永远，兄弟，别了，走好。）</span>ave atque vale，即周作人所说的“哀尾哀忒该乏勒”三字，是问候与告别的仪式化语言，一般英译为hail and farewell。据安妮·卡森的注释，ave和vale都有farewell义，可直译为中文的“走好”。所以说，两人译文都处分随宜，安妮·卡森叠用farewell，周作人则译成一声“珍重”。</p>
+<p style="text-align: justify;">安妮·卡森对此诗的释读别有寄托，周作人的翻译与说明也大有深意。关键是，他把“卡图卢斯”翻译成“喀都路死”，令人大跌眼镜。除了汉译佛经或《大唐西域记》经常把梵语的ś音译为“尸”，或日本旧时曾将Christian翻译成“吉利死丹”“切死丹”，没见过这么不吉利的译法了。然而周作人意不在“斯”而在“死”：“喀”去掉“口”就是“客”。什么客？“过客”。</p>
+<p style="text-align: justify;">七个月前，也就是1925年3月9日，在兄弟俩同任编委并频繁撰稿的《语丝》上，鲁迅发表了《野草》之十一《过客》。“过客——约三四十岁，状态困顿倔强，眼光阴沉，黑须，乱发……”，这一向被视为鲁迅的自画像。而过客前面的所在，是坟。接下来，在7月20日的《语丝》上，鲁迅发表了《野草》之十八《死后》，第一句又是“我梦见自己死在道路上”。因此，“客都路死”四个字，音洽，义乖，明指罗马兄弟的客死，暗指自家兄弟的宿命，真绝！</p>
+<p style="text-align: justify;">周作人不取Cornish的Wandering through many countries，而用<em>The Savoy</em>杂志的By ways remote，译成“走尽迢递的长途”，就因为《过客》“走了许多路”。英译的ashes译“灰”即可，偏译“灰土”，也因为《求乞者》“四面都是灰土”。原来，《野草》各篇是密码本，卡图卢斯的译诗是密码电文，周作人是在向两年前失和的兄长发送私信，作最后的道别。</p>
+<p style="text-align: justify;">鲁迅准确无误地接收到了。九天后，即1925年10月21日，他写了小说《伤逝》，分明沿用了周作人所拟的译诗题。也因此，多年后，周作人说：</p>
+<p style="text-align: justify;"><span>《伤逝》不是普通恋爱小说，乃是假借了男女的死亡来哀悼兄弟恩情的断绝的，我这样说，或者世人都要以我为妄吧，但是我有我的感觉，深信这是不大会错的。</span></p>
+<p style="text-align: justify;">令人动容的是，双方要传达的信息都是“伤逝”，都是“哀悼兄弟恩情的断绝”。而且，兄弟俩都为对方安排了“葬式”和“祭品”。涓生说：“我仍然只有唱歌一般的哭声，给子君送葬，葬在遗忘中。”卡图卢斯说：“从此永隔冥明，兄弟，只嘱咐你一声‘珍重！’”<span>（按：首次发现并分析了从《过客》到《伤逝》译诗与小说之间隐秘的对话关系的，是香港中文大学陈胜长教授，见其论文《从周氏兄弟作品研究看文学的认知与评价问题》，载《中国现代文学论集——研究方法与评价》，香港中文大学中国语言及文学系，1999。）</span></p>
+<p style="text-align: justify;">“永隔冥明”纯属周作人翻译时的添字加意，好对已成陌路的兄弟说一声：今生今世，永不相见。扬雄《太玄经·玄文十二》：“冥者，明之藏也。”光明隐去，沉入长夜之中。冥明之隔，即昼夜之分、生死之别。用鲍照的《伤逝赋》的话说，便是“如影灭地，犹星殒天”。周作人仍然在用《野草》的语言与鲁迅对话：“然而我不愿彷徨于明暗之间，我不如在黑暗里沉没。”<span>（《影的告别》，1924年12月8日《语丝》）</span></p>
+<p style="text-align: justify;">此意在卡图卢斯《歌集》第5首中表达得简括而冷凝：</p>
+<p style="text-align: justify;"></p>
+<p><span>太阳落下了，还有回来的时候：</span></p>
+<p><span>可是我们，一旦短暂的光亮逝去，</span></p>
+<p><span>就只能在暗夜里沉睡，直到永久。（李永毅译文）</span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">这三行诗，也许正是安妮·卡森这本诗集的名字<em>Nox</em><span>（夜）</span>的出处。她在给卡图卢斯第101首的词典式释义中，几乎每个词条都插入一个夜的隐喻。如释ave的最后：“<span>（在墓碑上）</span>现在是夜了。”释vale的最后：“<em>parum valent Graeci verbo</em>，希腊人无词以对<span>（但我们称之为‘夜’）</span>。”卡森把词典中的例句移入自己的哀悼语境，使寻常的释义带上了难以言说的悲伤。</p>
+<p><img alt="《夜》中文版。" border="0" height="1209" src="https://images.infzm.com/cms/medias/image/26/11/03/246ea90c31.jpg" width="1278" /></p>
+<p style="color: #999999; text-align: center;">《夜》中文版。</p>
+<h4>徐志摩也参与了？</h4>
+<p style="text-align: justify;">周作人也是千言万语，“只嘱咐你一声‘珍重！’”。附记中又说明：“‘哀尾哀忒该乏勒’三字，大约即系表示致声珍重的意思。”这不是“道一声珍重”又“道一声珍重”吗？好像出现了徐志摩的声音？</p>
+<p style="text-align: justify;">1925年8月，徐志摩自费出版了自己的第一本诗集《志摩的诗》，聚珍仿宋版线装，由中华书局代印，印数两百。其中有《留别日本》与《沙扬娜拉》。三年后新月书店出平装本，他把《留别日本》删了，《沙扬娜拉》原有十八节，也删了前十七节，只留最后一节，这便是《沙扬娜拉一首赠日本女郎》：</p>
+<p style="text-align: justify;"></p>
+<p><span>最是那一低头的温柔，</span></p>
+<p><span>&nbsp; 像一朵水莲花不胜凉风的娇羞，</span></p>
+<p><span>道一声珍重，道一声珍重，</span></p>
+<p><span>&nbsp; 那一声珍重里有蜜甜的忧愁——</span></p>
+<p><span>&nbsp; &nbsp; 沙扬娜拉！</span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">不像鲁迅，周作人跟徐志摩关系一直都不差。诗人失事后，周作人写了《志摩纪念》一文，开头就说面前书桌上放着九册志摩的新著与旧作，还说志摩飞往南京的前一天，在景山东大街遇见，他说“还没有送你《猛虎集》”，可见初版线装本《志摩的诗》，诗人多半送给周作人过。只要翻开，周作人不免会沉吟久之，因为又是“留别日本”，又是“沙扬娜拉”。那入耳即化的“道一声珍重，道一声珍重”，两个月后译古罗马诗而油然浮现在笔端，化作“只嘱咐你一声‘珍重！’”，也是自然而然的事。</p>
+<p style="text-align: justify;">何况周作人译诗的起因，非为鲁迅，正是为了徐志摩。1925年10月1日，徐志摩主编的《晨报副刊》首期发刊，刊头用了凌叔华临摹比亚兹莱的一幅图，主编却没说是临摹。10月8日有人在《京报副刊》上发文，暗示凌叔华抄袭。徐志摩慌了神，10月9日在《京报副刊》上发表致孙伏园信，说他正在找一本卡图勒斯的诗集，以便好好写个说明。“琵氏原画是像图解卡图勒斯一节诗的，那诗的内容我不知道，所以我得看了书再写。”周作人正好有卡图卢斯的诗和比亚兹莱的画，于是译了诗，配上画，并在说明中开了个玩笑，替“编辑先生”打了个圆场。只不过，他译着译着动了情，觉得此诗说出了自己的心声，所以放着徐志摩信中现成的译名“卡图勒斯”不用，而用“喀都路死”艾特了鲁迅，珍重道别。</p>
+<p style="text-align: justify;">从两千年前卡图卢斯的一首诗，牵涉到一百年前的周氏兄弟，和今天的安妮·卡森，诸文本之间重重叠叠的勾连纠结，构成了安妮·卡森《夜》中所描述的人类的言词之网，也应了卡图卢斯那首诗的第一行：穿过了众多的民族，又远渡重洋。<span>（小标题为编者所加）</span></p>
+<p></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] Google dismantles botnet secretly running on 1.3 million Android TV boxes</title>
+        <link>https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/</link>
+        <guid isPermaLink="false">c58a6048682adf6daa10e24db427cce7cfe8ea8481ba4105214843588b9a2886</guid>
+        <pubDate>Tue, 03 Nov 2026 17:08:21 +0000</pubDate>
+        <author>Ryan Whitwam</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：披露Google认证Android TV盒子被预装恶意软件形成130万节点僵尸网络，涉及供应链安全与认证流程漏洞，技术细节（三阶段模块化演进）具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>Google's Threat Intelligence Group says it has shut down a massive botnet called x.cpe. At its height, x.cpe ran on more than 1.3 million Android TV devices, and unusually, these were Google-certified boxes. Google says its screening process missed the malware due to "obfuscation techniques" employed by Shenzhen-based Videostrong Technology.</p>
+<p>In a detailed <a href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/">blog post</a>, the Threat Intelligence Group explains how the x.cpe botnet evolved quickly from a single-stage dropper into a modular three-stage malware platform that sold access to third parties. Manufacturers must have their devices certified if they want access to Google apps and branding, a process that is supposed to catch threats like this. However, Videostrong's compromised boxes, mostly sold under the MECOOL brand, evaded detection by using a backdoor to remotely install the malware after the devices were set up and online.</p>
+<p>After devices appeared online, a stub application called x.cpe or com.oemservice would phone home. This package did not have any malicious capabilities of its own, but it had the system-level permissions necessary to install malware modules at the operator's behest. It also disabled Play Protect, which would have otherwise flagged the silently installed packages as malicious.</p><p><a href="https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] NYT demands Brave shut down its paywall blocker and end deals with AI firms</title>
+        <link>https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/</link>
+        <guid isPermaLink="false">7d2d3d4a9477c4075939d07329ef40109fc115b7352d16480354561fab4acb5d</guid>
+        <pubDate>Tue, 03 Nov 2026 18:30:27 +0000</pubDate>
+        <author>Jon Brodkin</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：NYT诉Brave案首次将浏览器付费墙绕过与AI数据供应链直接关联，指控其向Anthropic等多家AI公司分销盗版内容，揭示版权方对AI数据来源的法律攻势升级，具长期产业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>The New York Times and other newspaper companies sued Brave Software yesterday, alleging that the browser maker illegally bypasses paywalls and sells stolen news content to AI companies.</p>
+<p>"Brave is the supplier, dealer, and distributor of stolen copyrighted content for its own users and many of the most prominent GenAI companies, including Anthropic, Perplexity, Mistral, xAI, and Cohere," the NYT alleged in a <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.676306/gov.uscourts.nysd.676306.1.0.pdf">lawsuit</a> filed in US District Court for the Southern District of New York. Citing third-party revenue estimates, the suit claimed that "Brave has made more than $100 million by copying and reselling publishers’ work without consent or permission," while "publishers have received nothing."</p>
+<p>The lawsuit said, "AI companies pay Brave to provide them with real-time online content from the Brave search index," and use content from the Brave index "to train their own AI models" and "to respond to specific user queries." The NYT lawsuit points to <a href="https://brave.com/about/">Brave's website</a>, which says the Brave Search API is "used by some of the biggest names in AI, including Cohere, Mistral, Perplexity, and You.com."</p><p><a href="https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] Ukraine’s drone strikes spur hasty Russian plans for underground data centers</title>
+        <link>https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/</link>
+        <guid isPermaLink="false">c172670df3bbada115fad0ea2357610f3cd28345e3433695acaec5588d6a93a8</guid>
+        <pubDate>Tue, 03 Nov 2026 20:39:55 +0000</pubDate>
+        <author>Jeremy Hsu</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：揭示战争对数据中心物理安全的现实冲击：无人机打击迫使俄企将AI超算与云设施转入地下，克里姆林宫同步要求预留国家应急算力并授权海外托管，是地缘冲突重塑数字基础设施布局的稀缺一手观察。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>Russian tech companies are scrambling to harden and hide their data centers underground after Ukrainian drone strikes damaged facilities housing AI supercomputers and disrupted cloud services for millions of Russian users. Meanwhile, the Kremlin is requiring data center owners to reserve computing capacity for emergency state needs and has even authorized possible use of foreign data centers.</p>
+<p>These consequences of Russia's war against Ukraine come as the Russian military has <a href="https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-2-2026/">bombarded Ukrainian cities with drones and missiles</a> nearly night and day in recent months, along with <a href="https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/">specifically targeting Ukrainian data centers</a> since late September. But Ukraine has retaliated with its own drone strikes on military and infrastructure targets across Russia, degrading or knocking out data centers <a href="https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/">operated by Russian tech giant Yandex</a>, the state-owned bank Sberbank, social media site VKontakte, and the Russian Ministry of Finance.</p>
+<p>Now, state-owned telecommunications company Rostelcom has raised the possibility of moving some Russian data centers underground in talks with the nickel and palladium mining company Norilsk, according to <a href="https://www.vedomosti.ru/technology/articles/2026/11/02/1241876-rostelekom-zaimetsya-stroitelstvom">Russian newspaper Vedomosti</a>. The industry publication <a href="https://www.datacenterdynamics.com/en/news/rostelecom-in-talks-with-norilsk-nickel-for-underground-data-centers-amid-drone-attacks/">Data Center Dynamics</a> also pointed to a recent proposal by a Russian regional governor to build data centers <a href="https://www.datacenterdynamics.com/en/news/russian-official-proposes-data-centers-in-disused-coal-mines-to-protect-from-drone-strikes/">within open-pit coal mines</a> while planting green public parks above as camouflage.</p><p><a href="https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist</title>
+        <link>https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained</link>
+        <guid isPermaLink="false">6cefb655747e80e026cc716fe31920cc921d03711ea0109999048cb57c60fe74</guid>
+        <pubDate>Tue, 03 Nov 2026 17:04:02 -0500</pubDate>
+        <author>Richard Lawler</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：币安官方复盘披露63亿美元盗窃案完整攻击链：恶意广告投放篡改安装包、假招聘面试社工、内部AI工具被滥用，是迄今最详细的大型加密盗窃技术内幕，对安全防御有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <figure>
+
+<img alt="An image showing Binance’s logo" src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932848/acastro_STK018__02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">The l<a href="https://www.theverge.com/tech/1023021/binance-hack-billions-biggest-crypto-heist">argest crypto theft to date</a> was pulled off by combining some well-known hacking techniques over the course of a few months, <a href="https://x.com/binance/status/2117626126214504729">according to Binance</a>. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work. Then, in September, another engineer was targeted by someone pretending to be interested in hiring them; that person set up a series of calls and multiple rounds of interviews, shared social media pages to build trust, and eventually prompted them to download a fake interview assign …</p>
+<p><a href="https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained">Read the full story at The Verge.</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 52条航线注销，燃油费又涨，飞机真要被高铁平替了？</title>
+        <link>https://www.huxiu.com/article/4902817.html?f=rss</link>
+        <guid isPermaLink="false">7a1436ba2d004fd5f87ac65fab4d39f8a9416249757558491aaa18c58322688b</guid>
+        <pubDate>Wed, 04 Nov 2026 10:18:30 +0800</pubDate>
+        <author>新周刊</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以九寨黄龙机场为切口，结合52条航线注销、燃油费上涨等事实，剖析小机场生存困境与高铁替代效应，数据具体、案例扎实，具产业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">曾经一年吞吐量近两百万的&ldquo;明星机场&rdquo;，如今要在直播间里抽奖送机票来博取关注，这种反差多少有些辛酸，但这就是真实的商业世界。毕竟对大多数人来说，造价上亿的飞机是个交通工具。坐飞机不是为了享受，而是用最划算的方式到达目的地。</span></p><p><br /></p><p><span class="text-remarks" label="备注">11月5日起，国内航线旅客运输燃油附加费征收标准调整。800公里(含)以下航段和800公里以上航段，向每位成人旅客收取燃油费较此前分别上涨了30元和50元。</span></p><p><br /></p><p><span class="text-remarks" label="备注">当高铁能花更少的钱、用更短的接驳时间把人送到目的地时，用脚投票是本能。小机场的落寞，当然无关人们是否仍然向往远方，只不过通往远方的那条路，已经不再局限于天空而已。</span></p><p><br /></p><p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/BSy7jQ4XHHj3k-a19nVHTw" style="text-decoration: none;" target="_blank"><span class="text-remarks">新周刊</span></a><span class="text-remarks">，作者：良豪，题图来自：视觉中国</span></p><p><br /></p><p>一年之内两次引发全网关注，九寨黄龙机场大概是全国存在感最强的小机场。</p><p><br /></p><p>年初，有旅客花200元体验了&ldquo;一人包机&rdquo;，航班仅她一名乘客；10月底，网友发现该机场无在飞航班，加上4条航线经营许可被注销，&ldquo;机场停航&rdquo;的猜测甚嚣尘上。虽然机场随后辟谣称只是&ldquo;季节性停航&rdquo;，并很快恢复了周末航班，但这般冷清还是让人捏了把汗。</p><p><br /></p><p>九寨黄龙机场的遭遇并非孤例。</p><p><br /></p><p>就在新航季执行前两天，民航局发布《2026/27年冬春航季换季颁发、注销国内航线经营许可信息通告》，新增39条航线，同时注销了52条航线。相比前两个航季<span class="text-remarks" label="备注">（注销4条、15条）</span>，航线注销数量暴增。这些消失的航线，大多指向了那些默默无闻的小机场。</p><p><br /></p><p>执行新航季计划的前两天，中国民用航空局公布《2026/27年冬春航季换季颁发、注销国内航线经营许可信息通告》，新航季国内航线新增39条航线经营许可，同时有52条航线的经营许可被注销。</p><p><br /></p><p>我国每年3月下旬和10月下旬会进行两次航班换季，航线&ldquo;消失&rdquo;、机场&ldquo;休眠&rdquo;，都是航季更替中常见的现象。但数字的显著变化，也折射了现实：当出行方式越来越丰富，人们越来越难找到出门必须坐飞机的理由了。</p><p><br /></p><p class="text-big-title" label="大标题">航线大撤退，小机场最先被抛弃</p><p><br /></p><p>这个航季被注销经营许可的52条航线里，全服务航司和低成本航司<span class="text-remarks" label="备注">（廉航）</span>各占一半，目的地既有位于北上广深等大城市的枢纽机场，也有冷门航点&mdash;&mdash;比如亳州、芜湖、嘉兴、安顺，这些城市的机场名称，你可能都未曾耳闻。</p><p><br /></p><p>出现频率最高的一类目的地，是&zwnj;典型的旅游型支线机场。敦煌、吐鲁番、长白山、满洲里、鄂尔多斯、呼伦贝尔，它们在表格里高频出现，有着相似的特点&mdash;&mdash;旺季人挤人，淡季门可罗雀。</p><p><br /></p><p>内蒙古呼伦贝尔是其中颇具代表性的目的地。每年7至8月是呼伦贝尔的绝对旺季，18&mdash;22℃的平均气温使其成为首屈一指的避暑胜地，平均每天吸引3万&mdash;5万游客涌入。据统计，呼伦贝尔机场今年8月旅客吞吐量达67.5万人次，刷新通航以来最高纪录，机场客座率一度高居全国首位。</p><p><br /></p><p>但随着暑期旅游旺季结束，机场客流自9月起便开始回落，旅客吞吐量回落至41.27万人次；国庆假期结束后，呼伦贝尔已经入冬，多数核心景点陆续关闭，机场日均客流也随着严寒、冰雪和大雾进一步骤降。飞往呼伦贝尔的航班，也自然随季节更迭而减少。</p><p><br /></p><p>这种&ldquo;季节性撤班&rdquo;的规律，几乎贯穿了所有以旅游客流为核心的支线机场运营周期。一旦旺季结束，缺乏商务出行、固定通勤等常态化客流托底，航线便失去了稳定的盈利基础。</p><p><br /></p><p>广受舆论关注的九寨黄龙机场，与呼伦贝尔、长白山等旅游目的地机场一样，都有&ldquo;靠天吃饭&rdquo;的通病。但九寨黄龙的困境，又远不止季节性带来的天然短板。</p><p><br /></p><p>2003年9月建成通航的九寨黄龙机场，是国内第一座旅游支线机场，其直接服务九寨沟、黄龙两大世界自然遗产，客源一直十分充足。2005年，其旅客吞吐量就已突破100万人次，2012年吞吐量达到175.3万人次的峰值，在四川仅次于成都双流机场，一度被视为省内的&ldquo;明星机场&rdquo;。</p><p><br /></p><p>虽然熬过了2017年地震后的复航阵痛，但近几年黄龙机场受到的冲击更强烈。2024年8月，川青铁路黄龙九寨站通车，从成都坐动车到九寨沟的旅行时间最快1.5个小时；一年后，九寨沟至绵阳高速公路全线通车，往返成都和九寨沟县的车程从过去8小时压缩到约4小时。</p><p><br /></p><p>高铁直通，高速贯通，进景区再也不必受盘山公路之苦，坐飞机直达九寨沟和黄龙的吸引力也就大打折扣。再碰上旅游淡季，&ldquo;一趟航班只载1人&rdquo;的猎奇事件能够登上热搜，也就不足为奇了。</p><p><br /></p><p class="text-big-title" label="大标题">靠补贴输血，小机场到底图什么</p><p><br /></p><p>当然，这轮被注销的航线中，也有北京、深圳等枢纽航线<span class="text-remarks" label="备注">（如东海航空的京深、沪深航线）</span>。但这类航线被砍，主要是受民航局《国内航线航班评审优化措施》影响。该政策鼓励航司主动注销闲置航线，以减少行业&ldquo;内卷&rdquo;。</p><p><br /></p><p>大城市之间的航班和航司选择丰富，某一时段取消还能改乘其他时段的航班。而一天只有零星几趟航班的中小机场，一旦航班取消甚至停航，往往就没有可供替代的飞行方案。</p><p><br /></p><p>有网友曾在社交媒体上分享，自己有一年出差经过内蒙古巴彦淖尔机场，早上10点前航站楼的门都还没开，&ldquo;因为当天唯一的航班要到11点才落地&rdquo;。一旦错过这趟航班，想离开巴彦淖尔要么改天，要么只能另想办法。</p><p><br /></p><p>像巴彦淖尔这样一天只有个位数航班的机场，在国内还有很多，且处境更尴尬。2020年投入使用的重庆仙女山机场，建在武隆仙女山国家森林公园里，根据武隆区政府数据，开通至今旅客年吞吐量最高位为2024年的6万人次。最新的数据是，2025年机场吞吐量仅有10488人次；而今年以来，仙女山机场没有任何商业航班信息。</p><p><br /></p><p>而在2025年，长海大长山岛、额济纳旗桃来、和静巴音布鲁克等机场直接停航<span class="text-remarks" label="备注">（其中和静巴音布鲁克机场已于今年6月复航）</span>，阿拉善右旗巴丹吉林机场也一度阶段性停航。这些寂寂无名的小机场，每天只有个位数航班，存在感比九寨黄龙机场还要低。如果不是有网友主动分享，大多数人甚至不知道它们在哪里。</p><p><br /></p><p>这些鲜有客流支撑的小机场，几乎只能依赖补贴继续运行。根据中国民用航空局2025年公布的《2026年中小机场补贴资金预算方案》，全国共有191座中小机场共享25.8亿元补贴。而地处高原的九寨黄龙机场，今年共拿到1.0369亿元补贴，比排名第二的甘孜康定机场多出将近一倍。</p><p><br /></p><p>能够理解这些中小型机场&ldquo;吃不饱&rdquo;、只能依赖补贴维系的困境。毕竟高铁网络和公路网络不断延展，普通人有了不需要走弯路且更便宜的捷径，将飞机列为旅行计划里的&ldquo;Plan Z&rdquo;，自然合情合理。</p><p><br /></p><p>飞机和高铁之间的竞争，如今已进入白热化阶段。航空制造巨头空中客车公司今年9月发布的最新研究指出，高铁运营时间取代距离，成为旅客出行的决定性因素；凡是高铁4小时可直达的地区，民航的市场份额下滑都较明显。整体而言，高铁对民航的客流分流达到10%。</p><p><br /></p><p>但这并不意味着冷清的小机场就毫无用武之地。航季会调整，淡季冷清不能代表暑期旅游旺季就赚不到客流；即便没有商业航班，遍布全国各地的小机场也能在关键时刻为飞行安全提供后备保障&mdash;&mdash;万一遇上突发情况，总有能够紧急落脚的地方。</p><p><br /></p><p>处在舆论焦点的九寨黄龙机场，也想借冬春航季的窗口期攒一波人气。</p><p><br /></p><p>10月28日，九寨黄龙机场宣布，将在11月初现场直播九寨沟的冬季雪景，介绍冬季出行攻略并抽奖送免费机票和九寨沟景区酒店房间，主动为自己攒起了人气：&ldquo;机票已备好，房间已备好，只差一个&lsquo;做主&rsquo;的你。&rdquo;</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-04/ec60fcb2-aa68-44d6-94a8-1d11fee679f5.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">10月30日，九黄机场宣布11月7日起按期运行成都天府往返九寨的川航航线，每周六执飞。（图/四川九黄机场微信服务号）</p><p><br /></p><p>曾经一年吞吐量近两百万的&ldquo;明星机场&rdquo;，如今要在直播间里抽奖送机票来博取关注，这种反差多少有些辛酸，但这就是真实的商业世界。毕竟对大多数人来说，造价上亿的飞机是个交通工具。坐飞机不是为了享受，而是用最划算的方式到达目的地。</p><p><br /></p><p>当高铁能花更少的钱、用更短的接驳时间把人送到目的地时，用脚投票是本能。小机场的落寞，当然无关人们是否仍然向往远方，只不过通往远方的那条路，已经不再局限于天空而已。</p><p><br /></p><p><span class="text-remarks" label="备注">参考资料</span></p><p><span class="text-remarks" label="备注">[1]《九寨黄龙机场航线&ldquo;暂停&rdquo;》 第一财经 2026-10-26</span></p><p><span class="text-remarks" label="备注">[2]《暂停航线！机场，也开始饱和了？》 西部城事 2026-10-29</span></p><p><span class="text-remarks" label="备注">[3]《一哄而上建机场，真替这些城市捏把汗》 冰川思享号 2024-9-11</span></p><p><span class="text-remarks" label="备注">[4]《高铁抢走飞机多少客流？10%》 财经杂志 2026-9-24</span></p><p><br /></p><p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/BSy7jQ4XHHj3k-a19nVHTw" style="text-decoration: none;" target="_blank"><span class="text-remarks">新周刊</span></a><span class="text-remarks">，作者：良豪</span></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 单季狂赚21亿，老店销售却大跌11%：瑞幸的“开店狂飙”开始反噬了吗？</title>
+        <link>https://www.huxiu.com/article/4902835.html?f=rss</link>
+        <guid isPermaLink="false">0b15811f33cabe9edfface4c68da21be6b286c711e5ae5e3de38206b61d06786</guid>
+        <pubDate>Wed, 04 Nov 2026 10:15:44 +0800</pubDate>
+        <author>食品内参</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：拆解瑞幸利润高增与同店销售连跌三季的矛盾，揭示外卖补贴大战下配送成本与门店扩张的反噬逻辑，数据扎实，具长期商业分析价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzUzMTg4MDg5MA==&amp;mid=2247644642&amp;idx=2&amp;sn=3b2fc45d18c5e325af99c826ab37d4ba&amp;chksm=fb94d4bb4ccbf92d3b98e2962511bc423a92fb74c5d6967930ae6d1910a6056f2b143b3ea740#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 食品内参 </span></a><span class="text-remarks">，作者：不浪费读者时间的，原文标题：《单季狂赚21亿，老店销售却大跌11%——瑞幸的“开店狂飙”开始反噬了吗？》</span></p><p><br /></p><p>11月3日，瑞幸咖啡交出了史上最赚钱的一份季报：三季度，在非美国通用会计准则（non-GAAP）下净利润达到21.45亿元，创下单季新纪录，董事会顺势又批准了5亿美元的股票回购。但是，同期公司自营门店同店销售同比下滑11.1%，已经连续三个季度负增长。一边是创下新纪录的利润，一边是老店在失血，这家拥有近3.9万家门店的咖啡巨头发生了什么？</p><p><br /></p><p class="text-big-title" label="大标题">利润真相</p><p><br /></p><p>从表面上看，瑞幸这份成绩单几乎挑不出毛病。三季度，瑞幸实现总净收入178.91亿元，同比增长17%；营业利润达到27.56亿元，同比大涨55.1%；营业利润率从去年同期的约11.6%提升到15.4%。财报公布后，瑞幸股价在美股盘前一度上涨近6%。</p><p><br /></p><p>但是，利润增速达到收入增速的三倍多，这个“魔术”究竟是怎么变出来的？</p><p><br /></p><p>2025年夏天，美团、淘宝闪购和京东打响外卖补贴大战，大批消费者养成了点外卖喝咖啡的习惯。外卖订单让瑞幸的销量暴涨，也让瑞幸付出了高昂的配送成本。2025年全年，瑞幸的配送费用高达68.79亿元，同比激增143.8%。去年三季度，配送费用一度吃掉了瑞幸18.9%的收入。</p><p><br /></p><p>今年，各大平台大幅收缩补贴，消费者重新走回门店自提。瑞幸三季度的配送费用因此降到17.89亿元，同比减少38.1%，占收入的比例从18.9%降到10.0%。仅这一项变化，就为瑞幸腾出了将近9个百分点的利润空间。</p><p><br /></p><p>值得注意的是，瑞幸的营业利润率最终只提升了3.8个百分点。这说明，配送费省下来的钱，有一大半被其他成本吞掉了。</p><p><br /></p><p>财报显示，原材料成本占收入的比例从36%升至38%，门店租金和运营成本的占比从20%升至22%，销售营销费用同比增长30%，管理费用同比增长35.5%。换句话说，瑞幸的利润创新高，主要靠外卖红利退潮后的“省钱”，而不是靠门店本身变得更会赚钱。更关键的是，这份红利只能吃一次。到了2027年三季度，由于2026年同期基数已恢复常态，配送费用下降带来的同比提振红利将基本出清。</p><p><br /></p><p class="text-big-title" label="大标题">门店扩容</p><p><br /></p><p>截至2026年9月底，瑞幸全球门店达到38909家，比一年前多出9695家，同比增长33%。仅在三季度，瑞幸平均每天就净增约28家门店。</p><p><br /></p><p>但是，门店的增速远远跑赢了顾客的增速。三季度，瑞幸月均交易客户为1.23亿，同比只增长9.6%。而在今年一季度和二季度，这一增速还分别是25.3%和22.9%。门店多了三分之一，顾客只多了一成，平摊到每家门店头上，结果可想而知。</p><p><br /></p><p>按期末总门店数粗略测算，2025年三季度，瑞幸平均单店贡献的季度收入约为52万元；到了2026年三季度，这个数字降到约46万元，下滑约12%。平均每家门店对应的月均顾客，也从约3840人降到约3160人，下滑17.7%。</p><p><br /></p><p>同店销售的走势，把这种摊薄效应暴露得更加直观。</p><p><br /></p><p>2025年三季度，瑞幸自营门店同店销售增长14.3%；2025年四季度，增速降到1.3%；2026年一季度，增速转为-0.1%；二季度，降幅扩大到5.3%；三季度，降幅进一步扩大到11.1%。加盟店同样感受到了压力：一年间，瑞幸国内联营门店数量增长约29%，联营收入却只增长了11.7%。</p><p><br /></p><p>对此，瑞幸CEO郭谨一在电话会上给出的解释是“高基数”。他表示，去年7月和8月正是外卖补贴最疯狂的时候，今年补贴退潮后，客单价更高的外卖订单减少，杯量和平均售价都受到了拖累。他同时透露，同店降幅从7月到9月逐月收窄，进入四季度后改善速度还在加快。</p><p><br /></p><p>郭谨一称，瑞幸的同店销售呈现“波浪式”走势，一旦开店节奏放缓，同店数据就会快速改善。这句话等于承认了一个事实：新店开得越密，老店被分走的客流就越多。但是，瑞幸并没有放慢脚步的打算。他明确表示，瑞幸有信心继续保持有竞争力的开店节奏，门店的增长空间取决于市场需求，而不取决于一个固定的数字。</p><p><br /></p><p class="text-big-title" label="大标题">资本算盘</p><p><br /></p><p>9月10日，阿布扎比主权财富基金穆巴达拉宣布，将携手瑞幸控股股东大钲资本，对瑞幸进行约10亿美元的战略少数股权投资。消息一出，不少人以为瑞幸又拿到了一大笔“弹药”。</p><p><br /></p><p>但是，瑞幸向美国证监会提交的文件显示，这笔交易并不是瑞幸发行新股融资。一只由穆巴达拉担任重要出资人的新基金，从大钲旗下的两只老基金手中买走了约2.41亿股瑞幸股份。</p><p><br /></p><p>财新报道称，这笔收购的资金主要来自银行贷款，大钲一期基金借此完成了退出。换句话说，这10亿美元流进的是老股东的口袋，瑞幸公司本身没有拿到一分钱新增现金。9月29日，穆巴达拉的中国私募股权负责人正式进入瑞幸董事会。</p><p><br /></p><p>值得注意的是，瑞幸自己也在不断加码回购。</p><p><br /></p><p>2026年4月，瑞幸宣布了公司历史上第一个回购计划，规模为3亿美元，9月又上调至5亿美元。截至9月底，瑞幸已经花掉约3.91亿美元回购股票。三季报发布当天，董事会又批准了新一轮5亿美元的回购。为了支撑回购，瑞幸还动用了短期银行借款：二季度末，瑞幸新增了19.45亿元短期借款；三季度末，瑞幸手握约143亿元现金，净现金约111亿元，两者之间仍有约30亿元的差额。尽管公司强调回购系提振股东价值，但在客观时间线上，回购支撑的股价确实为大股东基金减持创造了更平稳的市场环境。</p><p><br /></p><p>与此同时，瑞幸面对的竞争格局也在悄悄改变。2026年2月，库迪大幅收缩了9.9元促销；7月，幸运咖宣布把全年新开门店控制在2000家以内；4月，星巴克中国与博裕资本的合资交易正式完成。瑞幸的几个老对手都踩了刹车。但是，蜜雪冰城、古茗、茶百道、沪上阿姨等茶饮品牌正把咖啡机搬进上万家门店，它们争夺的正是瑞幸最依赖的“顺路买一杯”的便利型需求。</p><p><br /></p><p>瑞幸接下来要回答的问题已经非常清楚：外卖红利用完之后，老店还能不能重新增长？如果四季度同店销售能够转正，而开店速度丝毫不减，那就说明中国的咖啡需求确实还在扩容；如果同店的改善只能靠放慢开店来换取，那么瑞幸的规模天花板，可能比管理层描述的低。</p><p><br /></p><p>更重要的是，当前加盟商与老店单店模型承受的真实回本周期拉长，才是狂飙背后真正的结构性风险。</p><p><br /></p><p>#瑞幸咖啡#瑞幸三季报#同店销售下滑#外卖补贴退潮#咖啡价格战#穆巴达拉入股瑞幸#茶饮跨界做咖啡</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 卖风机送吊装，头部风电整机商悄悄换打法？</title>
+        <link>https://www.huxiu.com/article/4902836.html?f=rss</link>
+        <guid isPermaLink="false">beeb544c243e8ce580db5fbb675a18d8890984eb290f21f6905f08734f8eb505</guid>
+        <pubDate>Wed, 04 Nov 2026 10:24:05 +0800</pubDate>
+        <author>北极星电力网</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：揭示风电整机商从卖设备转向交付‘立好的风机’的商业模式变革，以中广核山地项目为案例拆解吊装打包的隐性成本与招标逻辑，对理解产业链分工演变有参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/XWfR_0mKdIoOW9VFPEjoGQ" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 北极星风力发电网 </span></a><span class="text-remarks">，作者：周小彦</span></p><p><br /></p><p>北极星风力发电网获悉：近日，中广核广西500MW山地风电项目开标，四个标段、89个机位，招标包直接把风机、混塔、吊装捆在了一起，最终由远景能源一家联合体拿下。</p><p><br /></p><p>大家一般都只盯着“独揽500MW”这个亮眼结果，但藏在标书里真正的变化，是吊装不再是单独发包的施工放，而被打包进了风机采购合同里。</p><p><br /></p><p>当然，吊装不是白送的福利。这次项目最高中标单价到2940元/kW，这个价格并不低。但放到广西山地的场景里拆开算账，要修上山临时道路、处理弯道纵坡、混塔预制分段转运、吊机反复转场、还要蹲山谷里抓转瞬即逝的吊装窗口期，杂七杂八的隐性成本都埋在这个报价里。</p><p><br /></p><p>整机商卖出去的，已不是89台套机舱、叶片、混塔预制片，而是89台立好的风机，是从设备到货、塔架拼装，到整机吊装就位的一整条交付链路。</p><p><br /></p><p>放在平原风场，沿用之前的招标模式，整机商供主机，塔筒厂供塔，吊装队单独中标进场，业主或EPC在中间当总协调。机位集中、道路成熟、吊装窗口稳定，多方分头干活，出点小摩擦也好协调。</p><p><br /></p><p>但广西这类山地风场，机位散落在山脊、山包、山谷之间，高低落差大。混塔拆成一节节混凝土段运输，对临时道路的转弯半径、坡度卡得很死；山谷局地风说来就来，可能上午还满足吊装条件，一阵乱风过来，吊机只能原地待命；机位东一个西一个，吊机、辅具、人员来回转场，光是拆车、转场、复装就要耗掉一两天。</p><p><br /></p><p>主机、混塔、吊装三家各签各的合同，各算各的工期，对接起来最容易扯皮。主机说设备准时送到了，吊装队说道路没修好进不去；吊装说等塔筒，塔筒说预制跟不上；最后工期延误、窝工成本，大多变成业主说不清、难追责的隐性消耗。中广核这次把混塔和吊装一并打包进风机包，本质上就是用合同划清一条责任线。谁提供主机，谁就要负责把它稳稳立在机位上，减少多方对接的灰色地带。</p><p><br /></p><p>另外混塔本身也决定了制造端和施工端很难彻底分家。混塔预制节段的精度、拼接灌浆、垂直度控制、预应力工序，环环相扣。设计机组的时候就要匹配混塔结构，吊装方案也要跟着塔型去适配。现在头部整机商都在自研混塔，自己设计的塔、自己的机组，再由自己统筹吊装，工序协同上天然更顺。</p><p><br /></p><p>把吊装装进风机采购包，相当于一份设备合同里，嵌套了一份施工合同。对整机商来说，吊装本身未必能赚厚利，甚至很多时候只是保交付的配套环节，但它拿到了两个很关键的控制权。一是订单盘子变大，不再只赚设备制造的钱，更重要的是握住了交付节奏的主动权。现在很多低价订单，风险往往不在工厂能不能造出来，而是设备运上山之后，吊不起来、吊得慢。吊装资源、施工计划攥在自己体系内，排产、运输、转场吊装三条线可以内部对齐，工期不确定性被内部消化，不用再天天跟外部吊装队对计划、等排期。</p><p><br /></p><p>北极星发现“风机+吊装”打包模式正在成为头部整机商共同跟进的新赛道，金风科技在中广核山东摘月山项目中拿下包含风机、塔筒、吊装、旧机拆除、道路修缮在内的一体化标的；中车株洲所也落地广西四个风电场“风机+混塔+吊装”一体化采购订单，远景能源先后拿下陕西吴堡、广西500MW山地风电打包大单，头部整机商纷纷跳出单纯卖设备的传统框架，把吊装、土建配套、现场协调一并纳入供货责任，本质就是以“卖风机送吊装”的一体化方案争夺山地风电项目订单。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-04/c1febe45-930c-4501-b82b-b1bf4b3da1e2.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>往产业链深处看，这件事真正的影响，是谁掌握风机最终交付的话语权。过去吊装是专业施工队伍的自留地，整机商只管交货离场。现在整机商把吊装纳入合同边界，传统吊装队伍的身份就变了：要么变成整机商的分包服务商，要么以联合体的身份跟着整机商一起投标，不再是独立的一级甲方。</p><p><br /></p><p>站在业主角度，这件事利弊都很实在。好处是管理链条大幅缩短，原来要对接整机、塔筒、吊装、监理多方，现在只有一个责任主体，出了工期、质量问题不用多方对质，管理省心。</p><p><br /></p><p>但代价也很清晰，绑定一旦加深，后期运维、备件更换、技改升级的切换门槛会抬高。当一家厂商既能供主机，又熟悉塔架结构、现场吊装全流程，后续想换别家服务商，顾虑会多很多。</p><p><br /></p><p>这也不是说这套模式会一夜之间普及所有风场。平原集中式项目，吊装资源充足、工序简单，分开招标依然划算。真正适合“风机+混塔+吊装一体化”的，就是山地、高海拔、机位分散、混塔高塔扎堆的复杂项目。本质上不是整机商想跨界抢施工队饭碗，而是山地项目的痛点倒逼合同模式重构。</p><p><br /></p><p>往后一段时间，我们会看到两种路线并行，简单地形继续多方分拆招标，复杂山地高塔项目，打包交付会越来越常见。产业链分工正在悄悄改写，整机商正在从“设备供应商”，慢慢变成山地风场机位交付的总包组织者。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] CXO行业，两重天</title>
+        <link>https://www.huxiu.com/article/4902842.html?f=rss</link>
+        <guid isPermaLink="false">6406afe987f2cfa531a339c86a221c3f38e7a55a6494e93ab65f3501cc4cd23a</guid>
+        <pubDate>Wed, 04 Nov 2026 10:35:58 +0800</pubDate>
+        <author>科创板日报©</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以一线实验员与闲置9万升反应器群的强烈对比切入，揭示CXO行业头部回暖与中小/新建产能冰封的结构性分化，事实密度高，具长期产业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=Mzg4MTEyNzc4Mg==&amp;mid=2247651766&amp;idx=1&amp;sn=f6ab515232fe667a664b3ce533004a5d&amp;chksm=ced517c544a7809a1e68766445059670e68732c64381b221b469c3ca7f953602d1276834dc2e#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 科创板日报 </span></a><span class="text-remarks">，作者：史士云</span></p><p><br /></p><p>姚一楠（化名）最近的工作被忙碌填满，加班成为常态，她是一家临床CRO公司的实验员，工作跟着项目节奏起伏，下半年历来是客户项目集中的交付期，每到这个节点，她手头的工作量便会骤然激增。</p><p><br /></p><p>就在姚一楠的移液枪几乎不曾离手的这几个月，CXO企业们也陆续交出了今年前三季度的成绩单：益诺思、美迪西实现扭亏为盈，康龙化成、凯莱英的营收和净利润也同步走高，业内一众头部公司业绩普遍回暖。“CXO一哥”药明康德的业绩表现更是炸裂，其前三季度实现营收455.4亿元，同比增长38.6%，在手订单767.4亿元，三个季度净增约170亿元。</p><p><br /></p><p>但和实验室里热火朝天的节奏、财报上亮眼的业绩形成对照的是，在上海宝山罗店镇潘泾路的西侧三栋连体厂房里，乐土生命科技六个巨大的不锈钢罐子沉默地立着，每个1.5万升，六个加起来9万升，按照官方的说法，这是“全国最大规模”的生物反应器群，但这些曾承载“世界最大CDMO基地”野心的大罐子，却整整两年，始终没能等到一个让它转起来的订单。</p><p><br /></p><p>也是在今年9月，勃林格殷格翰宣布出售旗下在华CDMO资产，这个累计投入接近5亿元的生物制药生产基地，最终以作价不超2000万元由上海莱士接手。资料显示，这家工厂是跨国药企在华建立的第一个且唯一具有国际标准的生物制药基地，并参与了国内首批开展生物制药合同生产的试点。</p><p><br /></p><p>行业两重天，正是当下CXO行业的真实写照。这条覆盖新药发现、临床开发、商业化生产的完整产业链，拆分出临床CRO、临床前CRO、CDMO、一体化CRDMO多个细分领域。景气度回升之下，CXO重获资本市场关注，但各板块也有分化，难以一概而论。</p><p><br /></p><p>朴拙资本执行合伙人、医药行业研究员谭雄天对《科创板日报》记者表示：“当前CXO行业的复苏属于结构性修复，并非全面景气反转，K型分化的格局还将长期延续，在手订单与业绩兑现节奏的差异，根源来自客户结构、赛道属性、存量低价订单包袱以及订单收入确认周期的多重差异。”</p><p><br /></p><p class="text-big-title" label="大标题">▌业绩显冷暖，复苏不是普涨</p><p><br /></p><p>国内创新药产业正步入快速升级阶段，早已告别此前以仿制药、me-too为主的发展阶段，管线布局持续向first-in-class、best-in-class等前沿方向推进，新药获批数量稳步增长，出海BD授权交易持续活跃，研发投入持续走高。这股创新热度沿着新药研发产业链层层传导，药企将药物发现、临床评价、样本分析、工艺开发、生产验证等环节外包，源源不断转化为CXO赛道的订单。</p><p><br /></p><p>行业玩家们的三季报已经说明了一切。</p><p><br /></p><p>其中，作为全球最大的综合CXO，药明康德把“一体化”的滚雪球效应演绎到了极致。今年前三季度，该公司归母净利润高达193.98亿元，同比增长60.6%。第三季度单季营收166.40亿元，创下上市以来新高，单季净利同比大增136.67%，达到83.18亿元。其还披露管线里的一批批早中期项目正向临床后期推进，这意味着后端生产需求迎来了增长动力。</p><p><br /></p><p>“CXO二哥”康龙化成增速相对逊色，但仍处于增长通道上。其前三季度实现营收120.0亿元，同比增长19.0%，实现归母净利润12.47亿元，同比增长9.3%，同时，新签订单同比增长超过30%。</p><p><br /></p><p>再看临床前CRO领域，益诺思前三季度扭亏为盈，新签订单22.18亿元，同比增长183.27%，在手订单金额为26.25亿元，较2025年末增长110.34%。美迪西同样扭亏，其归母净利润和扣非归母净利润较上年同期分别增加5718.33万元和6736.04万元，</p><p><br /></p><p>同比分别飙升了340.65%和239.34%。</p><p><br /></p><p>在CDMO领域，凯莱英前三季度实现营收入53.95亿元，同比增长16.52%，归母净利润为8.52亿元，同比增长6.49%，并称第四季度交付规模将大幅增加，预计2026公司全年营收将增长19%-22%。</p><p><br /></p><p>但扑面而来的订单增量，并没有均匀落到所有CXO玩家身上。</p><p><br /></p><p>今年前三季度，阳光诺和收入6.45亿元，同比下降24.6%，归母净利润亏损3454万元；博腾股份由盈转亏，前三季度归母净亏损1.12亿元，去年同期盈利7991.54万元；九洲药业、普洛药业归母净利润分别同比下滑17.5%、12.37%；泰格医药营收同比增长15.23%，达到57.92亿元的量级，但归母净利润却亏损2.72亿元，同比下降了126.66%。</p><p><br /></p><p>“猴茅”昭衍新药虽扣非净利润同比增长了2938.46%，但拆开来看，8.81亿元的扣非净利润里，有8.66亿元来是自生物资产公允价值变动，换句话讲，是实验猴涨价带来的。剔除这部分因素，实验室服务及其他业务前三季度只贡献了1461.56万元的净利润。</p><p><br /></p><p>在谭雄天看来，头部一体化CRDMO平台已经实现订单与利润同步兑现，在手订单储备丰厚，订单向营收转化的确定性较强；临床前CRO最先承接AI制药带来的高通量实验需求，复苏节奏领先；临床CRO项目交付周期长，业绩兑现存在滞后性；普通小分子CDMO能否改善盈利，则取决于拿到的项目是否属于商业化后期的高附加值订单。</p><p><br /></p><p>还有不少中小CXO尽管也斩获了部分新订单，但前期周期签下的低价项目仍在持续交付，压制了当期利润释放。</p><p><br /></p><p>CIC灼识咨询总监刘宇琪也提到，当下产能紧缺主要集中在GLP‑1多肽、ADC、小核酸等高壁垒新分子赛道，而传统单抗、常规小分子赛道存量产能充裕，行业仍处在激烈的内卷阶段。头部一体化CRDMO凭借全球双报、合规交付的能力，拿下多数跨国药企大额订单。中型企业如果深耕酶催化、连续流等特色技术，有望走出差异化路线。而业务同质化的尾部厂商，正在加速出清。</p><p><br /></p><p class="text-big-title" label="大标题">▌实验室里的变化：标准更严了</p><p><br /></p><p>冷暖分化的行业图景背后，身处其中的从业者最先感知到需求端的变化。</p><p><br /></p><p>作为CXO领域的一线工作人员，姚一楠对行业变化有着很真切的感受：“这些年创新药赛道回暖，明显感觉项目类型丰富了很多，小分子不再占据绝对主流，小核酸、大分子、ADC这类新型药物项目持续增多。落到我的日常工作里，就是siRNA、ASO相关药代分析项目占比不断提升，实验任务的复杂度也更高。前几年做成熟小分子，实验套路相对固定。现在不少新靶点、新分子缺少成熟参考文献，前期方法开发的工作量明显增加。”</p><p><br /></p><p>交付节奏上，客户对从方法开发到样品正式检测的全周期，要求也卡得更紧。不少Biotech管线推进节奏飞快，急于拿到PK数据，以支撑IND申报的关键节点。但提速的同时，数据质量门槛并未放宽，标准反而持续提升。</p><p><br /></p><p>“尤其是申报级GLP项目，客户会细细审视方法验证细节、样本溯源链条、异常数据调查、原始记录的可追溯性。很多客户早早深度参与方案讨论，提前对齐验收标准，不再只是拿到最终报告就结束。”姚一楠对《科创板日报》记者说道。</p><p><br /></p><p>一边是客户对项目的要求日趋严苛，另一边，同质化业务的价格竞争并未停歇。为了拿到项目，部分中小CXO企业选择以价换量，进而压缩利润空间。</p><p><br /></p><p>以CRO赛道为例，根据动脉网的数据，2024至2025年间，多数主打临床服务的CRO企业，临床业务毛利率普遍回落至25%–30%。</p><p><br /></p><p>国内临床CRO龙头泰格医药是一个典型的例子，2023年-2025年，其综合毛利率呈逐年下滑趋势，分别为38.58%、33.95%、27.41%，今年前三季度，又进一步下降到27.35%。</p><p><br /></p><p>有报道称，肿瘤项目曾是CRO的高毛利业务。三年前，一个涉及50个临床中心、500例入组患者的非小细胞肺癌III期临床试验，CRO服务费通常在6000万至8000万元。而到了2026年，同等规模和难度的竞标，中标价格已经普遍被压至3000万元出头。</p><p><br /></p><p>姚一楠向《科创板日报》记者坦言，行业里确实存在项目报价竞争的现象，但落实到实验室执行环节，有一条明确底线：不会为压缩成本改动具备科学性的实验方案，也不会在合规要求下随意缩减样本量。GLP申报项目的实验设计、样本量均受法规指导原则约束，擅自调整会直接影响数据的监管可接受性，最终拖累客户管线推进，这也是业内共识。</p><p><br /></p><p>在排期和人力调配方面，低价项目更多体现在排期优先级的差异上。申报类高优先级项目，会优先配给资深实验人员与仪器资源；而预算有限的筛选类项目，则主要依靠合并同类型实验样本、提升平台通量的方式摊薄成本，并不会直接削减核心实验人力。</p><p><br /></p><p>在谭雄天的观察中，CXO行业毛利率正处在底部修复周期，细分赛道盈利中枢呈现显著分化。其中，一体化龙头综合毛利率维持较高水平；临床前安评、高端CDMO依托稀缺产能与资质壁垒，盈利韧性更强。临床CRO属于人力密集型赛道，市场供给分散，大量中小CRO在基础项目上竞价内卷激烈，部分项目实际执行毛利率跌破15%，逼近盈亏底线，但龙头企业已不再主动参与低价项目竞标。</p><p><br /></p><p>美迪西方面在接受《科创板日报》采访时则表示：“过去两三年，行业普遍以折扣换取订单，客单价持续走低，毛利率被不断压缩。今年上半年，公司综合毛利率同比提升10.36个百分点至31.60%。药企对当前价格的接受度明显提高，项目价格已经摆脱前期低位并逐步修复。客户不再只是谁便宜给谁，而是开始为研发窗口和项目进度付费。BD交易活跃之后，药企有了首付款，为了抢时间，对外部研发服务的付费意愿在回升。”</p><p><br /></p><p>整体来看，行业价格战从全行业混战，收缩至无差异化的低端业务板块，具备独特技术能力的企业已经跳出单纯价格竞争的泥潭。</p><p><br /></p><p>美迪西方面的观点印证了这种趋势，其谈到，目前价格核心受稀缺实验资源及内部项目排期约束，呈现结构性分化：高壁垒项目报价修复幅度更为显著，常规小分子安评项目仅温和回暖。药物发现FTE报价基本贴合市场整体行情，多肽、ADC、小核酸等特色管线项目价格则存在区间浮动。</p><p><br /></p><p class="text-big-title" label="大标题">▌海外订单增厚，但存外部扰动</p><p><br /></p><p>近年来，国内CXO企业还在加速全球化布局，主动拓展海外客户，全球Biotech与跨国药企的管线补强需求不断释放，海外订单成为行业非常重要的增量来源。</p><p><br /></p><p>今年前三季度，凯莱英境外客户收入36.23亿元，恒定汇率口径下同比增长11.64%；康龙化成北美客户收入70.60亿元，同比增长10.10%，占总营收58.82%，欧洲（含英国）客户收入24.48亿元，同比大增30.07%，占总营收20.40%。</p><p><br /></p><p>药明康德上半年来自美国客户的收入达222.8亿元，占营收比重77.1%，同比增长61.5%；对比2025年全年约72%的占比，其美国客户收入占比仍在上升。</p><p><br /></p><p>海外订单打开增长空间，但绑定海外客户的业务，也绕不开地缘因素带来的不确定性。跨境生物医药外包合作处在复杂的国际环境之下，海外监管规则、贸易相关政策的变动，都可能对项目交付和订单承接形成潜在扰动。</p><p><br /></p><p>今年6月，美国国防部依据1260H条款将药明康德列入“中国军工企业”清单，在公司提起诉讼后获得初步禁令，该认定暂不执行，但市场层面的风险担忧并未完全消散。</p><p><br /></p><p>今年10月16日，一则流传的“小作文”再度引发市场冲击，传言称美国生物技术创新组织BIO表态支持《生物安全法案》、拟取消药明康德的会员资格。该消息一度带动药明康德尾盘大幅下挫，CXO板块也同步走弱。</p><p><br /></p><p>有观点分析指出，从韧性维度判断，仅依靠单纯人力外包、客户高度集中于单一区域的企业最容易受到外部政策冲击，而拥有完整技术平台，同时服务海内外多区域客户、布局细分高壁垒赛道的企业，即便外部环境发生波动，依然可以依靠多元化订单底盘平滑业绩波动，是地缘风险环境下更具备长期配置价值的标的。</p><p><br /></p><p>刘宇琪认为，企业可以通过客户结构多元化、全球化产能布局、主动梳理业务资产、完善内部合规体系等方式，组合对冲外部扰动带来的风险，比如提升国内及亚太区域客户收入占比，降低对北美单一市场客户的依赖。</p><p><br /></p><p>“企业也可以采取local for local的产能策略，在海外合规区域布局配套实验室与生产厂房，减少跨境业务面临的监管摩擦。不过海外自建或并购产能，要承担更高的建设、人力与合规成本，十分考验企业跨国运营能力和资产回报水平。此外，企业也可主动剥离高风险资产、收缩业务边界，搭建覆盖数据、供应链、客户审计的全链条合规体系，同时搭配汇率套期保值工具，对冲汇兑带来的附加风险。”谭雄天表示。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 月球上用什么时间？</title>
+        <link>https://www.huxiu.com/article/4902832.html?f=rss</link>
+        <guid isPermaLink="false">d67e0a4ff0ef3434ac01840defa3ed5f3f4efe274ca3dec89644d03f53c6f3b8</guid>
+        <pubDate>Wed, 04 Nov 2026 10:32:17 +0800</pubDate>
+        <author>科学杂志1915©</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：深度拆解闰秒终结与月球时标定义的技术逻辑，涉及原子时与天文时剥离、月面原子钟体系建设，信息密度高，具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">2026年10月15日，第28届国际计量大会通过&ldquo;关于确保协调世界时连续性所需的技术行动&rdquo;的决议，将于 2027年5月20日生效。决议将描述地球自转角度的时标与世界协调时的最大差值设定为3600秒（1小时），以确保协调世界时在未来几个世纪的长期连续性。这意味着我们日常所用钟表的原子时计时，正式与地球自转的天文时间彻底剥离开来，延续半个世纪的闰秒机制就此走向终结。大会同时通过&ldquo;关于国际月球参考时标的定义及其与协调世界时的溯源性&rdquo;决议，为建立月球专属时间标准迈出关键一步。</span></p><p><br /></p><p><span class="text-remarks" label="备注">过去数年，国内外积极推进月球表面独立原子钟时频计量与服务体系建设。随着探月工程不断发展，建设月面基地不再只是科幻设想，一套专属月球的时间标准变得愈发迫切。</span></p><p><br /></p><p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/nE3R41gk_UsSLkr48aZ8Vw?mpshare=1&amp;scene=1&amp;srcid=11049D2SKJemmzRwevbzhRt0&amp;sharer_shareinfo=355f16afe70fddd2c5a4cdd7a7b3c19b&amp;sharer_shareinfo_first=0a51896b810e8db3e2400f63c62959af&amp;version=5.0.3.70620&amp;platform=mac#rd" style="text-decoration: none;" target="_blank"><span class="text-remarks">科学杂志1915</span></a><span class="text-remarks">，内容刊载于2026年第78卷第5期《科学》杂志（P11-P15），作者：余和真、刘民，题图来自：视觉中国</span></p><p><br /></p><p>登月时代正在加速到来。多个国家和商业机构宣布了月球基地建设、资源开发和科学考察等计划。月球表面的活动将进入常态化阶段，不再只是零星的科学实验，而会呈现持续、密集、多主体协同的特征。在这样的背景下，一个看似简单却至关重要的问题浮出水面：在月球上，我们用什么时间？</p><p><br /></p><p>协调世界时<span class="text-remarks" label="备注">（coordinated universal time， UTC）</span>在地球上全球通用，飞机、卫星、互联网等都离不开它。但到了月球上，这套时间体系还能直接使用吗？答案藏在爱因斯坦的相对论里，广义相对论指出，引力场越强的地方时间流逝越慢<sup>[1，2]</sup>。由于月球表面的引力只有地球的约1/6，引力势不同，加上月球绕地球运动的速度效应，月球上的时钟与地球上的时钟走速天然不同。</p><p><br /></p><p>这意味着，地球的标准时间信号不能直接用作月球的时间标准。如果月球上的设备都与地球时间保持同步，不仅技术上极其困难，而且本质上是在用一个不适用于当地物理条件的时间尺度来指导当地活动。<strong>月球需要构建属于自己的时间体系&mdash;&mdash;独立、可靠、能够自我维持</strong><sup>[4，5]</sup>。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-04/6d57f1d8-eaa8-4901-b8d9-f62cb777f935.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">地球上的时钟和月球上的时钟走速并不相同&nbsp; 月球上的时钟走速比地球上的时钟每天快约58微秒<sup>[3]</sup>&mdash;&mdash;这个差异看似很小，但对于高精度的导航定位而言，一天积累的偏差就足以让位置测量误差达到十几千米。更麻烦的是，这个&ldquo;快&rdquo;的幅度并不是恒定的，而是会随着月球在轨道上位置的变化周期性波动，无法用一个固定系数简单修正<sup>[2]</sup>。</p><p><br /></p><p>围绕月球标准时间如何定义，国际上目前有3种方案，分别代表3类不同的时间定义思路。</p><p><br /></p><p><strong>第一种是直接复制地球时间体系，在月球上设立一个中心守时基准，不断接收地球上协调世界时的授时信号，与地球时间&ldquo;对齐&rdquo;。</strong>该方案的优点是简单直接，缺点也同样明显：一旦中心守时基准或通信链路出现问题，整个时间系统就会瘫痪。更重要的是，跨越地月空间的授时信号受到相对论效应和多普勒效应的影响，根本无法保证高精度。</p><p><br /></p><p><strong>第二种是在月球表面复刻一个类似地球大地水准面的集中守时中心。</strong>地球上的国际原子时<span class="text-remarks" label="备注">（international atomic time， TAI）</span>本质上就是大地水准面上所有原子钟时间的集合&mdash;&mdash;地球的引力势和自转离心势在这个面上此消彼长，最终平衡到一个常量上，所有钟走速一致。月球上也可以仿照这个思路，约定一个等势面，在这个等势面上部署守时中心，让月球标准时间与该等势面上的原时保持相同速率。这样时钟不需要做复杂的相对论修正，月面用户使用最为方便。但其代价同样巨大：一旦守时中心出问题，整个时间体系就失去了物理参考。欧洲航天局<span class="text-remarks" label="备注">（European Space Agency， ESA）</span>计划在2031年前后借助&ldquo;阿耳戈英雄&rdquo;号着陆器实施的NovaMoon计划，正是沿着这个思路迈出的重要一步，它将在月面建立一个&ldquo;时间实验室&rdquo;和&ldquo;大地测量参考站&rdquo;，作为实现月球标准时间的物理基础之一。但其本质仍然是集中守时，因此单点故障的风险并未消除。</p><p><br /></p><p><strong>第三种是去中心化守时。</strong>该方案的思路与前两种完全不同，月球标准时间不由任何一个中心节点定义，也不依赖任何外部基准，而是由分布在月面不同地点和绕月轨道上的多个守时装置，通过相互比对、协商校准，自我修正，形成并维持统一的标准时间和空间参考<sup>[6]</sup>。该方案从根本上消除了单点故障，不依赖地月通信链路，能够自我维持和自我修复。该方案由中国研究团队率先提出<sup>[3]</sup>，备受国际关注，并且与广义相对性原理的&ldquo;平权&rdquo;思想高度一致<sup>[7]</sup>。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-04/c7aec1eb-4026-47b8-bda7-18d2fbedfb84.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">3种定义月球标准时间的方案</p><p><br /></p><p class="text-big-title" label="大标题">为什么中心化守时在月球上行不通？</p><p><br /></p><p>要理解去中心化守时的意义，首先需要明白为什么地球时间体系无法直接移植到月球。地球上现行的标准时间体系，由位于法国巴黎的国际计量局汇集全球数十个国家、数百台原子钟的测量数据，通过加权平均算法计算出一个&ldquo;纸面时间&rdquo;&mdash;&mdash;协调世界时<sup>[7，8]</sup>。全球各地的守时实验室将本地钟的频率和相位调整到与协调世界时一致，再通过卫星、光纤、无线电等方式向用户广播。</p><p><br /></p><p>这个模式在地球上运行良好，但搬到月球上，可能面临三重障碍。</p><p><br /></p><p><strong>第一重障碍是物理上的&mdash;&mdash;时间信号无法精准传递。</strong>地球与月球平均距离约38万千米，无线电信号单程耗时1.3秒。此外，地月距离不是固定的，月球在椭圆轨道上运行，距离在36万~40万千米之间周期性变化；地球和月球还在自转和公转，相对速度持续改变。这些因素叠加在一起，使得信号从地球发往月球的传播延迟一直在变化，而且变化规律复杂到难以用一个简单的公式精确描述<sup>[2，9]</sup>。以目前的技术水平，想把协调世界时传到月球并保证高精度，几乎是不可能的。</p><p><br /></p><p><strong>第二重障碍是系统上的&mdash;&mdash;&ldquo;一个中心&rdquo;太脆弱。</strong>在中心化模式下，标准时间的定义、维持和发布都依赖核心节点的正常运转。一旦地球与月球之间的通信链路中断&mdash;&mdash;比如太阳耀斑爆发干扰了无线电传播，或者中继卫星出现故障&mdash;&mdash;月球就失去了与地球时间的联系。如果未来月球基地发展到相当规模，人类在月面上的活动与地球控制中心之间需要实时协调，一条通信链路的短暂中断都可能造成整个任务陷入混乱。把时间基准的&ldquo;命脉&rdquo;系于一条链路、一个中心，对于长期、独立的月球开发来说，其风险是不可接受的。</p><p><br /></p><p><strong>第三重障碍是观念上的&mdash;&mdash;&ldquo;依附&rdquo;模式不适合多天体时代。</strong>中心化模式隐含了一个前提：&ldquo;一个中心&rdquo;是基准，其他都是&ldquo;副本&rdquo;。这在地球范围内暂且没有问题，但如果推广到月球甚至火星，就意味着所有天体的时间都要从属于地球时间。这不仅在哲学上违背了广义相对性原理的&ldquo;平权&rdquo;原理，在实际操作中也会导致越来越复杂的换算和修正<sup>[7]</sup>。每个有独立活动能力的天体，都应该拥有独立的、依据自身物理条件定义的标准时间体系&mdash;&mdash;这是人类走向多行星文明的内在要求。</p><p><br /></p><p>因此，无论是第一种方案，还是第二种方案，都绕不开同一个问题&mdash;&mdash;依赖某一个&ldquo;源头&rdquo;。前者依赖地月通信链路和协调世界时，后者依赖月面上唯一的守时实验室。一旦 &ldquo;源头&rdquo;出现问题，整个时间体系就会失去根基。这就引出了第三种方案，它充分利用绕月卫星的广域覆盖能力和月面设备的长期稳定特性，将两者组合成有机的整体守时网络。</p><p><br /></p><p class="text-big-title" label="大标题">去中心化守时如何实现？</p><p><br /></p><p>理解了前两种方案的局限，那么第三种方案到底如何运作呢？不妨先做一个思想实验。想象你走进一间大会议室，里面有12个人，每人面前都有一块表。问题是&mdash;&mdash;这些表走得不完全一样，有的快几秒，有的慢几秒。没有&ldquo;标准钟&rdquo;可以参照，也没有人播报&ldquo;现在是北京时间几点整&rdquo;。请问，如何让这12块表最终显示同一个时间？</p><p><br /></p><p>答案并不是&ldquo;找一块最准的表作为标准&rdquo;，因为没有人知道哪块表最准。唯一可行的方法是：所有人报出自己的时间，取平均值，然后找出离平均值最远的那块表，把它调一调。反复几轮之后，所有表的读数会越来越接近，最终收敛到同一个时间。</p><p><br /></p><p>月球去中心化守时系统，本质上就是把这个思想实验搬到了月球上&mdash;&mdash;只不过会议室变成月球表面和绕月轨道，12个人变成多个高精度原子钟<span class="text-remarks" label="备注">（术语叫作守时装置）</span>，报时变成无线电或激光&ldquo;两两比对&rdquo;，记录两者钟面读数差值，调表变成自动化算法修正。</p><p><br /></p><p>这套系统由两部分物理设施组成。一部分部署在月球表面，例如未来的月球基地、科研站等，保持长期固定，能够持续运行。另一部分部署在绕月轨道的导航卫星或通信卫星上，覆盖范围广，能够与月面各个角落的设备建立通信链路。月面装置提供长期稳定性，轨道装置提供广域连接能力，两者组合就构成了一张覆盖整个月球局域的守时网络。</p><p><br /></p><p>具体来说，这套系统通过6个步骤实现自主守时<sup>[6]</sup>。</p><p><br /></p><p><strong>(1)各自&ldquo;看表&rdquo;</strong>&nbsp; 每个守时装置独立地用铯原子钟测量自己的本地时间。这一步的关键是&ldquo;独立&rdquo;&mdash;&mdash;不依赖任何外部授时信号，但是必须使用共同的计量语言，即国际单位制规定的铯原子频率常数，无论在月球还是火星，时间单位都是用铯原子钟复现基本物理常数获得的。</p><p><br /></p><p><strong>(2)换算成&ldquo;共同语言&rdquo;</strong>&nbsp; 这些钟分布在不同的地方&mdash;&mdash;有的在月面，有的在轨道&mdash;&mdash;受到的引力和运动速度各不相同。根据广义相对论，引力不同、速度不同，时间流逝的快慢就不同。所以，各个钟的本地时间不能直接对比。每个守时装置需要根据当前位置的引力势和速度，将本地时间换算成月球质心坐标时。这一步换算所用的公式，正是从广义相对论推导出来的。</p><p><br /></p><p><strong>(3)两两&ldquo;对表&rdquo;</strong>&nbsp; 换算完毕，所有守时装置通过无线电或激光链路，或借助中转链路，两两之间发送并接收时间读数。如果两个守时装置的通信链路是对称的，那么路径延迟就可以相互抵消，获得精准的时间差。最终，每个守时装置都得到一张巨大的&ldquo;钟面读数差表格&rdquo;，记录着自己与所有其他装置之间的读数偏差。两两比对的好处在于，不需要把所有数据汇总到某个中心再分发&mdash;&mdash;每个装置都掌握着全部信息，即便有装置离线，其他装置依然能完成比对。</p><p><br /></p><p><strong>(4)找出&ldquo;最不准的那个&rdquo;</strong>&nbsp; 有了这张表格，每个守时装置都能独立计算出平均时间，以及自己离平均值有多远。谁的偏差最大，谁就是这一轮中&ldquo;最不准的那个&rdquo;。识别过程不需要任何中心节点来判定，统计学中的大数定律保证了其可靠性：当守时装置数量足够多时，群体平均值会越来越接近真实值，离群者的偏离量也会被越来越准确地度量。</p><p><br /></p><p><strong>(5)&ldquo;离群者&rdquo;主动调整</strong>&nbsp; 被识别出的守时装置主动地、小幅度地调整内部参数向着平均值靠拢&mdash;&mdash;可能是调整本地时间到坐标时间的转换系数，也可能是调整历表中到月球质心的距离。目的是下一轮不再成为&ldquo;离群者&rdquo;。其他所有装置在这一轮中保持不动。所谓调钟，并不是物理意义上调节原子钟，原子钟仍保持测量本地原时，只是在计算钟面读数时，通过算法调节一个转换系数和一个偏移量。如果位置历表有误差，换算出来的坐标时就会有系统偏差；如果转换系数不够准确，本地时间到坐标时间的换算就会偏离。</p><p><br /></p><p><strong>(6)重复直到收敛</strong>&nbsp; 一轮调整之后，系统进入下一轮遍历&mdash;&mdash;重新各自测量、换算、比对、识别、调整。如此反复，所有钟的读数会越来越接近，最终稳定在一个公认的统一时间上。</p><p><br /></p><p>这6个步骤构成了一个闭环，不需要外部授时和中心节点，系统内部各个装置通过平等地比对和迭代修正，自主产生并维持标准时间。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-04/6b51aa13-5d21-42df-9036-3bddc73d1ff8.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">去中心化守时方法示意</p><p><br /></p><p class="text-big-title" label="大标题">为什么 &ldquo;偏离平均值最大者调节&rdquo;？</p><p><br /></p><p>到这里，大家可能会产生一个疑问：地球上守时系统的通行做法是&ldquo;加权平均&rdquo;&mdash;&mdash;性能更好的原子钟权重更高，对最终时间的贡献更大。为什么在月球上不沿用这种做法，而是采用&ldquo;偏离平均值最大者调节&rdquo;这种看起来似乎不够精细的方式？这个问题触及了去中心化守时方案的核心逻辑。</p><p><br /></p><p>加权平均的实质是&ldquo;信任分配&rdquo;&mdash;&mdash;你认为谁的钟更准，就赋予它更大的权重。但&ldquo;谁更准&rdquo;这一判断，本身就需要一个具有全局视野的中心节点来做出。以国际计量局在计算协调世界时的过程为例，这一判断基于各守时实验室长期报送的比对数据，由权威机构综合评估后分配权重。也就是说，加权平均必须以存在一个可信的中心评估者为前提。这种逻辑不符合广义相对论性原理的&ldquo;平权&rdquo;思想<sup>[7]</sup>&mdash;&mdash;不同位置的时钟走速天然不同，是物理规律决定的客观现象，而不是哪个钟&ldquo;更准&rdquo;或&ldquo;更不准&rdquo;。在地球守时体系中，所有参与钟都位于大地水准面附近，在这个面上相对论效应各处相等，加权平均有其合理性；但月球守时装置的分布横跨月面和绕月轨道，引力势和速度差异导致的原时偏差是不可忽视的物理量<sup>[2，3]</sup>。给不同位置的时钟分配不同权重，相当于在物理规律之外人为引入了新的不平等&mdash;&mdash;用地球的&ldquo;中心评估&rdquo;思维去处理一个必须遵循相对论的多局域问题。月球上没有像国际计量局那样的机构，拥有长期积累的全球时钟数据、成熟的评估体系和公认的权威性。即使强行建立中心，这个中心本身也会成为单点故障的来源，与去中心化的初衷背道而驰。</p><p><br /></p><p>&ldquo;偏离平均值最大者调节&rdquo;不预设对&ldquo;谁更准&rdquo;的判断，不分配权重，只遵循一条最简单的规则：谁的读数离群体最远，谁就向群体靠拢。不需要信任，不需要权威，不需要预先知道谁的钟更好，系统通过反复迭代自行收敛。</p><p><br /></p><p>这与加权平均有着本质的区别。加权平均是&ldquo;中心告诉你怎么调&rdquo;，而偏离平均值最大者调节是&ldquo;约定的规则告诉你往哪调&rdquo;。在月球这个无法依赖单一中心的环境里，基于约定规则的自主收敛，远比基于中心的分配更可靠、更鲁棒。</p><p><br /></p><p>更重要的是，这套规则有深厚的统计学和计量学原理作为支撑。在统计学中，平均值是描述一组数据集中趋势的最基本统计量，而偏离平均值最大的数据点，正是影响整体一致性的首要误差来源。每一轮识别并修正最大离群值，本质上是逐步降低系统的测量方差，使所有数据向中心值收敛，这也是统计学中稳健估计的核心思路。在计量学中，这套方法对应着一种被广泛认可的溯源方式&mdash;&mdash;约定溯源<sup>[7，8，10]</sup>。</p><p><br /></p><p>从计量学角度解释，溯源就是回答&ldquo;你的测量结果凭什么可信&rdquo;的问题。日常生活中，我们买完东西用秤复称一下，发现分量足，心里就踏实了&mdash;&mdash;因为这杆秤的刻度曾经与某个标准砝码比对过，那个标准砝码又与国家基准比对过，最终追溯到国际千克原器。这就是溯源：通过一条不间断的比对链条，把每一次测量与公认的基准联系起来，让测量结果有据可依。传统计量溯源要求所有测量最终追溯到某个权威基准，但在月球这种无法建立单一权威基准的环境中，约定溯源提供了另一条路径：所有参与者通过公平、透明、平等的相互比对和迭代校准，共同约定一个参考值，这个参考值具备溯源的效力[10]。地球上的国际原子时其实也是一种约定&mdash;&mdash;各国原子钟共同约定一个纸面时间，然后各自溯源。只不过地球上的约定由一个中心机构来维护，而月球上的约定由系统规则来维护。去中心化方案把&ldquo;约定&rdquo;从机构行为变成算法规则，用统计学的方法实现溯源。</p><p><br /></p><p>还有一个容易被忽视的设计细节：每一轮只有一个装置调整。如果多个装置同时调整，彼此之间会相互干扰&mdash;&mdash;你调一点，我也调一点，谁也不知道最终会收敛到哪里。而&ldquo;一次只调一个&rdquo;保证了每一轮的变化都是可控的、可预测的，系统稳步趋向一致。当最初只有少数几个守时装置时，系统会设定一个&ldquo;限值&rdquo;&mdash;&mdash;允许的最大偏差范围。随着轮次增加，限值逐步缩小，系统将越来越精确。</p><p><br /></p><p>当新的守时装置加入系统时&mdash;&mdash;比如新建的月球基地部署了新的原子钟&mdash;&mdash;同样遵循这套规则。它先把自己的时间读数填入&ldquo;时间差表格&rdquo;，系统识别是否偏离平均值过大。如果是，它会被选为&ldquo;离群者&rdquo;，调整参数直至融入群体。老旧装置也可以&ldquo;平滑&rdquo;退役，不影响系统运行。</p><p><br /></p><p>&ldquo;偏离平均值最大者调节&rdquo;的设计解决了一个经典难题：当多个时钟&ldquo;对不上表&rdquo;的时候，怎么判断哪个更准？在地球上，这一问题可由国际计量局这样的权威中心来回答；但在月球上，没有这样的中心，也不应该依赖这样的中心。去中心化方案用一套平等、透明、可验证的规则替代了权威裁决&mdash;&mdash;&ldquo;准&rdquo;的定义不是某个机构指定的，而是所有参与者反复在迭代校准的过程中自然浮现出来的。这既是一种技术方案，也是一种全新的治理思路。</p><p><br /></p><p class="text-big-title" label="大标题">去中心化方案带来了什么改变？</p><p><br /></p><p>与中心化模式相比，去中心化带来的不是某项指标的提升，而是一系列根本性的改变。</p><p><br /></p><p>最直接的是可靠性层面的改变。中心化模式下，一旦中心节点故障或者地月通信中断，整个时间系统就失去了源头；而在去中心化模式下，任何一个守时装置出问题都不影响整体&mdash;&mdash;只要还有4个以上的装置正常工作，系统就能持续运行。某个基地停电、某颗卫星失联，系统会自动识别并跳过它，其余装置继续相互比对、迭代校准。这种&ldquo;容忍故障&rdquo;的能力，对于远离地球、无法频繁维修的月球环境而言，具有极高的价值。</p><p><br /></p><p>再看系统演进的方式。月球开发将持续数十年甚至上百年，守时技术也将不断进步&mdash;&mdash;今天的铯原子钟已经足够精准，但明天的光钟可能还要精准一千倍。去中心化方案允许新装置随时加入、旧装置随时退役，系统可以平滑升级，不受任何节点的制约。在新建的月球基地部署一台新的原子钟，将自动进入两两比对、校准的过程，无须重新设计系统架构。而中心化模式下，每一次扩容或技术升级，都需要重新调整中心与所有节点之间的关系，成本高、风险大。</p><p><br /></p><p>还有一个容易被忽略但意义深远的改变：守时与导航的合二为一。去中心化守时系统广播的是&ldquo;时间戳&rdquo;&mdash;&mdash;包含位置和时间信息的四维数据。任何一个用户，只要收到4个以上守时装置的时间戳，就能计算出自己的位置和当前时间。这意味着，这套为守时目的设计的系统，天然就是一套导航定位系统。在地球上，守时<span class="text-remarks" label="备注">（时间基准的维持）</span>和导航<span class="text-remarks" label="备注">（位置的计算）</span>由两套独立的系统完成；而在月球上，两者合二为一，同一个基础设施同时服务于&ldquo;几点&rdquo;和&ldquo;在哪&rdquo;两个需求，既降低了部署成本，也简化了维护体系。</p><p><br /></p><p>长远来看，这套方案的范式可以复制。月球不是终点，还有火星、木卫二、小行星带等&mdash;&mdash;人类终将走向其他天体。每一个天体都需要适合自己的时间体系。去中心化方案提供的是一套通用方法：无论走到哪个星球，只要部署4个以上的守时装置，两两之间相互通信，运行同一套迭代校准规则，就能在当地自主产生标准时间。这套方法不依赖地球或特定天体、无须任何中心节点，可以在太阳系的各个角落复制。相比之下，中心化模式每到一个新天体都需要重新建立与地球的授时联系，距离越远，延迟越大，误差也越大，最终难以支撑。去中心化方案则为多天体时代的时间治理提供了一条可持续的路径。</p><p><br /></p><p class="text-big-title" label="大标题">结语</p><p><br /></p><p>从&ldquo;一个中心指挥所有钟&rdquo;到&ldquo;所有钟通过协商自主一致&rdquo;，月球标准时间方案的演进折射出更深层的变化&mdash;&mdash;人类正在从单一星球的栖息者，转变为多个天体的探索者。在这样一个新阶段，沿用旧的时间治理模式注定力不从心。</p><p><br /></p><p>去中心化的月球守时系统，将广义相对性原理中&ldquo;所有参考系平权&rdquo;的原理，落实为一条简单而精妙的工程规则：偏离平均值最大者调节。没有权威中心，没有预先分配权重的复杂评估，只有平等参与、公开比对、迭代收敛。这套方案兼顾了可靠性、可扩展性、与导航系统的兼容性，以及向火星等其他天体推广的通用性。</p><p><br /></p><p>这套由中国团队率先提出的方案，目前在国际月球标准时间定义的讨论中占据前沿位置。它正在从一种理论构想，逐步走向工程验证。当第一批守时装置在月面和绕月轨道上相互&ldquo;对表&rdquo;时，人类将第一次在另一个天体上拥有完全自主定义的时间。那不是地球时间的副本，而是月球自己的时间，这也是多行星文明应有的时间观。</p><p><br /></p><p><span class="text-remarks" label="备注">[1]赵峥， 刘文彪. 广义相对论基础. 北京: 清华大学出版社， 2010: 10.</span></p><p><span class="text-remarks" label="备注">[2]Soffel M， Klioner S A， Petit G， et al. The IAU 2000 resolutions for astrometry celestial mechanics and metrology in the relativistic framework: Explanation supplement.The Astronomical Journal， 2003， 126(5): 2687-2706.</span></p><p><span class="text-remarks" label="备注">[3]Wang Q J， Ping J S， Liu M. A proposal for lunar time metrology//ⅩⅩⅩⅥth URSI General Assembly and Scientific Symposium， 2026.</span></p><p><span class="text-remarks" label="备注">[4]刘民， 平劲松， 王乾娟. 月球历法中的问题讨论. 计量学报， 2025， 46(3): 309-315.</span></p><p><span class="text-remarks" label="备注">[5]Lu X， Yang T N， Xie Y. Lunar time ephemeris LTE440: User manual. arXiv: 2506.19213， 2025.</span></p><p><span class="text-remarks" label="备注">[6]刘民， 余和真， 金洪波， 等. 地球以外的时间规则&mdash;&mdash;以月球守时和授时为例. 中国科学: 物理学力学天文学， 2026， 56(3): 239512.</span></p><p><span class="text-remarks" label="备注">[7]刘民， 平劲松， 李文潇， 等. 基于广义相对性原理的月球与地球时间转换. 中国科学: 物理学力学天文学， 2026(6): 352-360.</span></p><p><span class="text-remarks" label="备注">[8]Petit G. Report of the BIPM/IAU joint committee on relativity for space time reference systems and metrology//Proceedings of IAU Colloquium 180， 2000: 275-282..</span></p><p><span class="text-remarks" label="备注">[9]Petit G， Wolf P. Relativistic theory for time comparisons//Proceedings of the 31st Annual Precise Time and Time Interval Systems and Applications Meeting， 1999: 353-366.</span></p><p><span class="text-remarks" label="备注">[10]刘民， 帅平， 平劲松， 等. 地球以外的时间规则研究. 电子测量与仪器学报， 2022， 36(7): 1-8.</span></p><p><br /></p><p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/nE3R41gk_UsSLkr48aZ8Vw?mpshare=1&amp;scene=1&amp;srcid=11049D2SKJemmzRwevbzhRt0&amp;sharer_shareinfo=355f16afe70fddd2c5a4cdd7a7b3c19b&amp;sharer_shareinfo_first=0a51896b810e8db3e2400f63c62959af&amp;version=5.0.3.70620&amp;platform=mac#rd" style="text-decoration: none;" target="_blank"><span class="text-remarks">科学杂志1915</span></a><span class="text-remarks">，作者：余和真【博士研究生，北京东方计量测试研究所，北京 100086；国家市场监督管理总局重点实验室（空间计量），北京 100190。yuhezhen0556@163.com）、刘民（研究员，北京东方计量测试研究所，北京 100086】</span></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 物业扎堆跑路，这门生意该推倒重来了</title>
+        <link>https://www.huxiu.com/article/4902839.html?f=rss</link>
+        <guid isPermaLink="false">f5eb5ac8a3e924676dde2d29d51ad9d6c7a4093ebea7e6a914f19cf527724c97</guid>
+        <pubDate>Wed, 04 Nov 2026 10:32:15 +0800</pubDate>
+        <author>冰川思想库</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以具体小区账本切入，用物业费定价、电梯维保成本、收缴率42%等硬数据拆解物业跑路的经济逻辑，揭示高层住宅失管的结构性风险，具备产业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzI1MjcwNzExMg==&amp;mid=2247627167&amp;idx=1&amp;sn=62e45c4390aa1eb88aeff004d1e4a09e&amp;chksm=e87ec24dbef1ceabcd691d361d4e4fb287b158c9ebf58c883b98ab0e748d7e0785fe966c7acc#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 冰川思享号 </span></a><span class="text-remarks">，作者：老凤1974</span></p><p><br /></p><p>同样欠物业费，物业公司跑路，低层住宅是病在肠胃，高层就是病入膏肓。</p><p><br /></p><p>张明是小区业委会的负责人，几天前他的手机弹出一条消息，物业转发了一份盖着红章的国家电网欠费停电通知书，欠费3.7万余元，通知书上还写着，7日内不结清欠费和违约金，全小区停电。而他住的这片楼，最高26层。</p><p><br /></p><p>物业跑路这两年算不上新闻，而且，并不是只有高层住宅会遭遇物业失管问题。可低层小区烂起来是慢慢烂，高层一断电，电梯只要不动，几百户人立刻想出出不去，想回回不来。</p><p><br /></p><p class="text-big-title" label="大标题">01</p><p><br /></p><p>张明这个小区的开发商和物业公司同属一个集团，卖房时把超低物业费当卖点，高层、洋房、别墅三档分别定在0.88元、1.80元、3.50元，交房不到一年，统一下调到0.88元。</p><p><br /></p><p>我们来替物业算一下，洋房10户共用一部电梯，一年维保加年检4000元，摊到每户400元。100平的房子物业费交满也就一千出头，扣掉电梯钱，剩下的要分给消防、水电、保洁、绿化。小区一年运营成本188万元，业主一分不欠还差40多万元，实际收缴率滑到42%，一年收四五十万元，亏140万元。</p><p><br /></p><p>所以物业一看，这生意没法做。9月发了撤场公告，90天预告期一到就走人。张明代表业主去谈续聘，每户涨几毛，让总收入到200万元，对方回得很干脆，再涨一倍涨三倍都不干。</p><p><br /></p><p>经理说了实话，前期物业替开发商糊弄过业主，房屋漏水一直拖到质保期过去，现在的物业公司等于接盘侠，他们是来做生意的，不是来做慈善的。</p><p><br /></p><p>中指研究院监测显示，2025年初到2026年3月底，全国住宅物业撤场项目累计212个。另据克而瑞物管，2025年撤场案例约64.7%为物业主动撤出；其监测的五百强物企收缴率从2021年89%连续四年滑至71%，中小物企普遍低于65%。</p><p><br /></p><p>同策研究院宋红卫说，头部物企过去的标准是连续亏损一年半到两年、调整无效才启动退出，如今项目出现几个不妙的信号就撤。</p><p><br /></p><p>某物业前项目经理经手过一个项目，楼盘销售不及预期，入住率只有20%，实际收上来区区100万元物业费，而实际需要400万元，交房刚满一年他们就向住建部门递交了退出申请。</p><p><br /></p><p>低层住宅欠费的历史，其实比高层更久。比如三合园是哈尔滨的多层老小区，1600多户，短短8年就换了8家物业，物业费按当地最低标准每平方米0.3元收，七成以上业主拒缴，光垃圾清运就要3万多元。够不够，当然不够。不够怎么办？混着呗。</p><p><br /></p><p>为什么他们还能混？因为6层的楼停了电，居民骂两句，摸黑爬上去，日子还能过。30层的楼停了电，上面的老人下不来，推着婴儿车的年轻妈妈也上不去。有人约好了透析，只能爽约。二次供水的泵一停，高层连马桶都冲不了。</p><p><br /></p><p>同样欠物业费，物业公司跑路，低层住宅是病在肠胃，高层就是病入膏肓。</p><p><br /></p><p class="text-big-title" label="大标题">02</p><p><br /></p><p>业主买房时按房价比例一次性缴存的钱，叫住宅专项维修资金，房子保修期满后，电梯、消防、外墙的大修和更新靠的就是它。</p><p><br /></p><p>按上海市房地产科学研究院的测算，全国这笔钱结余超过一万亿元，累计用掉的大约占归集额10%，成都和深圳只有4%—5%。</p><p><br /></p><p>一边是钱花不出去，动用维修资金要面积和人数都达到三分之二以上的业主参与表决，参与表决的还要过半同意。30层两梯四户的楼住着120户，三分之一是租客，20%空着，顶楼急着修，一楼觉得电梯坏了正好清净，人凑不齐是常态。</p><p><br /></p><p>另一边是有人专门来“吃饭”，《半月谈》调查过一群被叫做职业“物闹”的人，他们专挑业主多、有维修需求、有公共收益、住户彼此不认识的那种小区，进去先在群里挑话题、带节奏，抹黑业委会和物业，再上门威胁反对的业主。</p><p><br /></p><p>有个小区的核心成员两三人，外围二十多人，其中一个主业是二手房中介，有资金，有法律顾问。等他们掌控了新一届业委会，就换掉物业，上新项目，把工程发包给关联公司，把维修基金和公共收益掏空，资金套取得差不多，房子一卖走人。</p><p><br /></p><p>南京有个小区，业委会牵头做高层消防系统改造，公开招标签了518万元的合同，施工结束后有业主发现工程量确认单对不上，光感烟探测器一项就少了2400多个。加上前一年的防水维修，两个项目动用公共维修资金近1000万元，涉嫌套取的有500多万元，业委会主任被刑事拘留。</p><p><br /></p><p>上海金山区朱泾镇某小区，物业经理和出纳也没用什么高深手法，让他人虚开发票、伪造维修任务单、虚构维修工程，骗取维修资金121万余元，两人分别被判六年和四年六个月。</p><p><br /></p><p>所以有些小区维修基金几年见底，物业费也收不上来，面上看着是年久失修、人心散了，底下可能有人推着它加速坠落。</p><p><br /></p><p class="text-big-title" label="大标题">03</p><p><br /></p><p>建设的时候，人人奋勇，因为建设的时候每个环节，都有利可图。就拿盖房子来说，地方拿土地出让金，开发商拿销售额，物业公司刚进去的时候，物业费好收，维修基金充足。</p><p><br /></p><p>但维护这一段谁爱干？挣的全是零碎钱，事还多得要死，搞不好天天都要跟业主吵架。一栋楼十年后，电梯开始老化，消防电路要整改，外墙要维修，除了来搞钱的团伙，谁乐意贴钱干这些琐碎的破事？</p><p><br /></p><p>其实不光是住宅，包括办公大楼，以及公路、港口、电力等各类公共设施，建设起来后都需要长期良好的维护，现金流有保证的时候，这事有人干，只要维护的钱稍微降点，后续的使用都会出大麻烦。</p><p><br /></p><p>监管物业也很难，现行《物业管理条例》的罚款额度大多在1万—20万元区间，对年营收几百万元至上千万的项目威慑力有限。而物业难以为继又没人接盘的时候，政府又不能强制企业兜底，真罚狠了物业公司手一摊，政府还是要来擦屁股。</p><p><br /></p><p>业主自治听起来很美，业主大会产生业委会，业委会选聘物业。但做起来是另一回事，正常的业委会成员是义务的，没工资没经费也没监督，工程上的事看不明白，招标、施工、监理、审计这一套流程，签的字多半是走过场。而职业“物闹”有组织、有资金、有法律顾问，还敢上门威胁，两边根本不是一个量级。</p><p><br /></p><p>剩下的指望只有外部大手了，上海规定，因客观原因未成立业主大会、无法选举业委会的小区，经业主大会委托，居委会可以暂时代行业主委员会的部分职责。</p><p><br /></p><p>我的看法跟过去有很大的不同，以前我也相信基层自治，现在不信了。你想想高层住宅这么大一摊子事，交给一群业余、义务、随时会被撬盘的业主，风险太高。</p><p><br /></p><p>索性居委会直接管起来，钱进专户，不交物业费的当逃税惩处。支出按月上墙，工程招标走公共平台，后面跟着审计，纪委，绝对比现在靠谱多了。</p><p><br /></p><p>维修基金更该当公款管，每一笔支出挂到网上，业主在手机上能查到自家账上剩多少、花在哪、谁签的字。像拆单逃避审价和虚增单价，把工程发包给关联公司类似的肮脏手段，查实一次就按诈骗办一次。</p><p><br /></p><p>其他再动听的方案，都只是说着好听，但落不了地。</p><p><br /></p><p>*题图来源于图虫创意</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 全球首个千公里空芯光纤双向实时传输验证，中国电信、长飞公司、中兴通讯联合完成</title>
+        <link>https://www.ithome.com/1/021/957.htm</link>
+        <guid isPermaLink="false">3d932deb070202b5af82e5559bb61a725bff698f145b342a24bbed19f825669f</guid>
+        <pubDate>Wed, 04 Nov 2026 02:06:05 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：全球首个千公里空芯光纤双向实时传输验证，含GLA吸收消除、常规功率放大器选型、预均衡方案等具体技术路径，三项纪录具长期参考价值，但属官方发布通稿，缺乏独立分析与横向对比。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>IT之家 11 月 4 日消息，中国电信研究院 11 月 2 日宣布，全国重点实验室共建单位中国电信研究院、长飞公司联合中兴通讯，<strong>共同完成全球首个千公里空芯光纤双向实时传输验证</strong>：</p><p>在 1007.48 公里空芯光纤链路上，实现扩展 C+L 波段单波 800Gb/s（PCS-16QAM 调制）单纤双向传输，总容量达 128Tb/s，将空芯光纤实时传输的距离纪录推至新的高度，标志着我国在下一代光通信关键核心技术上再获里程碑式突破。⁠</p><ul class=" list-paddingleft-2"><li><p>本次试验<strong>在光纤端</strong>，通过光纤制备工艺优化消除了扩展 C+L 波段内 CO₂、CO 气体线吸收（GLA），攻克了 GLA 劣化传输性能的核心技术难题；</p></li><li><p><strong>在设备端</strong>，结合空芯光纤损耗特性、放大器工作特性，摒弃高功率放大器，选用常规输出功率商用放大器，实现单波 800G 满波传输系统性能最优；</p></li><li><p><strong>在系统端</strong>，搭配轻量化发端预均衡方案，保障扩展 C+L 全波段信道性能平稳均衡，建立端到端反射和模间干涉影响评估模型，并完成波段掉波极端运维场景验证，证实该场景下系统无性能劣化。</p></li></ul><p style="text-align: center;"><img class="no-alt-img" src="https://img.ithome.com/newsuploadfiles/2026/11/46379bb2-15f4-4078-ad08-7a5ec6d53a1e.jpg?x-bce-process=image/format,f_auto" /></p><p>本次试验取得了三项标志性进展：</p><ul class=" list-paddingleft-2"><li><p><strong>一是创下全球最长的空芯光纤点到点非环回实时传输距离纪录</strong>，每跨保留≥3dB 的损耗余量，且留有≥3dB 的 OSNR 系统维护余量；</p></li><li><p><strong>二是首次完成千公里级空芯光纤单纤双向实时传输</strong>，验证了长距离双向传输的可能性，反射带来的 OSNR 劣化为 0.5dB~4dB 不等；</p></li><li><p><strong>三是构建了目前全球最长的扩展 C+L 波段无 GLA 的空芯光纤传输链路</strong>，实现千公里空芯光纤链路扩展 C+L 波段无 GLA。</p></li></ul><p>IT之家从公告了解到，本次试验的成功，为利用空芯光纤基于高阶调制格式系统构建大带宽、长距离、低时延的骨干网络提供了切实可行的技术依据。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] Roli Has Fallen Apart—and Left Customers Holding the Bag</title>
+        <link>https://www.wired.com/story/roli-has-fallen-apart-and-left-customers-holding-the-bag/</link>
+        <guid isPermaLink="false">476e9d0c77239b235e8be9230a7b675e73fabb8a66fe796d7ddd5c7ed6fdf43a</guid>
+        <pubDate>Tue, 03 Nov 2026 14:00:34 +0000</pubDate>
+        <author>Boone Ashworth</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：深度调查Roli破产内幕，揭示用户设备变砖、售后缺失的连锁后果，对硬件创业公司风险与消费者权益有长期警示价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            The inventive instrument maker collapsed into insolvency, leaving buyers empty-handed and users scrambling to keep their musical gear alive.
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist</title>
+        <link>https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/</link>
+        <guid isPermaLink="false">c357126db07f2668fe0e4a6daac84632805f042e2cc0e5a36d84d1ab07417426</guid>
+        <pubDate>Tue, 03 Nov 2026 19:04:58 +0000</pubDate>
+        <author>Matt Burgess</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：币安披露朝鲜黑客通过假面试+恶意下载渗透系统的攻击链细节，涉及63.4亿美元盗窃，对加密安全与国家级黑客手法有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            Suspected North Korean attackers duped an engineer with a fake job interview and a malicious download to gain a foothold in the crypto firm’s system and steal billions, according to Binance.
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia (The Information)</title>
+        <link>https://www.techmeme.com/261103/p42#a261103p42</link>
+        <guid isPermaLink="false">7eccbd16bc9a172cdea74dab245aa464ac4f91a336476e13f0263f15d84cccbf</guid>
+        <pubDate>Tue, 03 Nov 2026 19:20:01 -0500</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：揭示英伟达运用软实力影响客户与政策的内幕，独家披露OpenAI因忌惮英伟达而回避对华芯片出口表态，信息密度高，具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <a href="https://www.theinformation.com/articles/nvidia-uses-soft-power-influence-customers-shape-policy"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261103/i42.jpg" vspace="4" /></a>
+<p><a href="https://www.techmeme.com/261103/p42#a261103p42" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> <a href="https://www.theinformation.com/">The Information</a>:<br />
+<span style="font-size: 1.3em;"><b><a href="https://www.theinformation.com/articles/nvidia-uses-soft-power-influence-customers-shape-policy">How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia</a></b></span>&nbsp; &mdash;&nbsp; Last month, OpenAI Senior Research Scientist Noam Brown posted a link in a company Slack channel to a news story &hellip; </p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Q&amp;A with NYC Mayor Zohran Mamdani on new municipal AI policy measures, like an AI ban for some students, support for a one-year data center pause, and more (Katie Drummond/Wired)</title>
+        <link>https://www.techmeme.com/261103/p45#a261103p45</link>
+        <guid isPermaLink="false">1019cc34b74285a3dee57cd0e783c1d27d7c2a3e84cbd1d3aa22f26b02798317</guid>
+        <pubDate>Tue, 03 Nov 2026 20:45:01 -0500</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：纽约市长Mamdani直接阐述市级AI政策：部分学生AI禁令、支持数据中心一年暂停令，并关联中期选举与民主党未来，提供一线政策制定者视角的独家Q&amp;A，具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <a href="https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261103/i45.jpg" vspace="4" /></a>
+<p><a href="https://www.techmeme.com/261103/p45#a261103p45" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> Katie Drummond / <a href="http://www.wired.com/">Wired</a>:<br />
+<span style="font-size: 1.3em;"><b><a href="https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/">Q&amp;A with NYC Mayor Zohran Mamdani on new municipal AI policy measures, like an AI ban for some students, support for a one-year data center pause, and more</a></b></span>&nbsp; &mdash;&nbsp; Ahead of the midterms, WIRED talked to New York City's mayor about data centers, AI in schools, and the future of the Democratic party.</p>
         </div>
         ]]></description>
     </item>

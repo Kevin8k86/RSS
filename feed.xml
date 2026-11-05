@@ -4,14 +4,14 @@
     <title>AI 深度精选与全景速览 (Daily Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型把关：置顶全景速览（含海外X热议），下接深度硬核长文</description>
-    <lastBuildDate>Wed, 04 Nov 2026 17:39:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 02:57:25 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
         <title>📰 【今日全景速报】一分钟看全天下事 (11-05 早报)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
-        <guid isPermaLink="false">briefing_20261105_013929_44108e00</guid>
-        <pubDate>Wed, 04 Nov 2026 17:39:29 +0000</pubDate>
+        <guid isPermaLink="false">briefing_20261105_105725_68c87dc2</guid>
+        <pubDate>Thu, 05 Nov 2026 02:57:25 +0000</pubDate>
         <author>AI 全能主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -21,36 +21,426 @@
             </div>
             <div>
                 <div>
-<h3>🌐 海外社媒与全球焦点</h3>
-<p><b>红杉资本募资百亿并关闭Arc加速器</b>：红杉新募约100亿美元基金，同时宣布关停Arc加速器与Scouts计划，合并早期与成长团队。X上创投圈热议这是否意味着种子投资范式收缩，独立基金与平台型VC的竞争格局或再洗牌。</p>
-<p><b>民主党横扫国会，AI立法预期升温</b>：中期选举民主党大胜后，Transformer分析称2027年初强监管前沿AI法案通过概率大增，含强制测试与开发者责任条款。X上硅谷大佬分裂站队，CoreWeave股价与无担保债券应声下跌。</p>
+<h3>🌐 海外社媒与全球焦点 (X / Threads / 硅谷大事件)</h3>
+<p><b>OpenAI 用 AI 模型低成本修复 Linux 内核漏洞</b>：OpenAI 披露其利用一款即将发布的网络安全模型，以约 120 万美元 API 成本验证并修补了 Linux 中 948 个本地提权漏洞。此举在 X 上引发安全圈热议，讨论焦点在于 AI 自动化漏洞挖掘是否会颠覆传统安全审计行业，同时降低开源基础设施的维护门槛。</p>
+<p><b>Anthropic 与美联社达成内容授权协议</b>：据 Adweek 报道，Anthropic 在中期选举前与美联社签署授权协议，首次为数字新闻内容付费。此举被视为 AI 公司与新闻业关系缓和的信号，X 上围绕“训练数据是否该付费”的争论再起，或推动更多媒体与模型厂商签订类似版权合约。</p>
 </div>
+
 <div>
 <h3>📱 数码与前沿科技</h3>
-<p><b>Anthropic新旗舰Fable 5.5实测曝光</b>：据IT之家，该模型连续2小时40分钟纯代码生成，产出66秒动画，长程任务稳定性引发开发者热议。若属实，AI编程智能体的连续作业能力将再上台阶，对软件工程流程冲击值得关注。</p>
-<p><b>国行Apple智能开放测试并打通千问</b>：少数派与IT之家称国行Apple智能已开放测试，创作内容与问询结果会同步至千问App，实现真·互通。此举被视为苹果在华AI落地的关键妥协，用户体验与数据边界成讨论焦点。</p>
+<p><b>OpenAI 发布 Images 2.6 图像生成模型</b>：新模型已上线 ChatGPT、Codex 与 API，官方称出图速度提升 50%，并支持从提示词或照片生成动态 GIF。这标志着 AI 图像生成从静态走向动态内容创作，对设计、营销与社交媒体内容生产链条形成直接冲击，也加剧与谷歌、Midjourney 的竞争。</p>
+<p><b>腾讯发布混元 Hy4 正式版</b>：据少数派早报，腾讯正式推出混元 Hy4 大模型，同时谷歌调整 K-12 教育 AI 政策。国内大模型迭代加速，混元 Hy4 在推理与多模态能力上的升级，将影响企业级 AI 应用选型，教育场景的 AI 准入规则也成为监管与厂商博弈的新焦点。</p>
 </div>
+
 <div>
 <h3>💰 商业与财经金融</h3>
-<p><b>Circle Q3营收增17%却裁员5%</b>：USDC发行方Circle三季度营收8.75亿美元、净利2.26亿美元，受ARC代币预售拉动，同时宣布裁减5%员工。市场解读为稳定币赛道增收不增利，成本控制与监管合规压力并存。</p>
-<p><b>Google为TeraWulf数据中心提供信用背书</b>：TeraWulf与Google达成信用支持协议，为其与Anthropic在肯塔基的数据中心项目融资担保，预计2027下半年上线。AI算力军备竞赛下，科技巨头以金融工具深度绑定基础设施供应商。</p>
+<p><b>AppLovin Q3 营收大增 55% 超预期</b>：AppLovin 第三季度营收达 21.8 亿美元，同比增长 55%，高于 20.7 亿美元预期，并给出超预期的 Q4 指引，盘后股价飙升逾 20%。广告科技在 AI 驱动下的变现效率成为资本市场关注点，也提振了移动广告板块情绪。</p>
+<p><b>高盛与阿波罗洽售 SpaceX 芯片融资份额</b>：据彭博报道，高盛与阿波罗正与投资者洽谈出售 SpaceX 约 400 亿美元芯片融资的部分份额，部分投资者被要求认购高达 5 亿美元。这反映 AI 与航天算力基础设施融资规模空前，也引发市场对杠杆与风险分散的讨论。</p>
 </div>
+
 <div>
 <h3>🎭 文娱生活与社会热点</h3>
-<p><b>《怦然心动》导演莱纳与妻子家中遇害</b>：澎湃新闻称警方尚未证实是否其子所为，好莱坞与影迷圈震动。经典青春片导演骤然离世，舆论聚焦家庭悲剧与名人安全，案件细节仍待官方通报。</p>
-<p><b>央视曝光新会陈皮市场乱象</b>：产地造假、年份速成、无视监管被点名，澎湃转载引发广泛讨论。地理标志产品信任危机再起，消费者呼吁溯源体系与执法加码，地方产业声誉承压。</p>
+<p><b>《怦然心动》导演莱纳与妻子家中遇害</b>：好莱坞导演罗伯·莱纳与妻子在家中遇害，警方尚未证实是否为其子所为。莱纳曾执导《怦然心动》《公主新娘》等经典影片，事件震动影坛，社交媒体上影迷纷纷悼念，案件动机与家庭背景成为舆论关注焦点。</p>
+<p><b>儿童手表“小天才圈”乱象被调查</b>：澎湃新闻调查发现，小天才儿童手表形成点赞成每日功课的社交圈，且有商家可付费解除家长管控。事件引发家长群体对未成年人社交产品沉迷与监管漏洞的担忧，也把儿童智能硬件的安全与伦理问题推上舆论风口。</p>
 </div>
+
 <div>
 <h3>🌍 国内外时政关键要点</h3>
-<p><b>澳海滩恐袭103声枪响细节披露</b>：嫌疑人为父子，曾宣誓效忠“伊斯兰国”，行凶枪支系合法持有。最后6分钟103声枪响的还原引发对枪支管理与反恐情报的追问，澳社会安全政策面临审视。</p>
-<p><b>港澳平支持香港对黎智英依法定罪</b>：澎湃报道港澳平发声，坚决支持特区对反中乱港首恶分子依法定罪。表态强化国安执法正当性，国际舆论与本地法治讨论持续，后续量刑与上诉进展受关注。</p>
+<p><b>澳大利亚枪击案嫌疑人为父子且曾宣誓效忠“伊斯兰国”</b>：澳海滩恐袭事件中，嫌疑人为一对父子，曾宣誓效忠“伊斯兰国”，行凶枪支为合法持有。事件最后 6 分钟响起 103 声枪响，引发对枪支管理与反恐情报的质疑，澳大利亚国内安全政策面临审视。</p>
+<p><b>港澳平支持香港对黎智英依法定罪</b>：港澳平发表评论，坚决支持香港特区对反中乱港首恶分子黎智英依法定罪。该表态强化了香港国安法执行的权威性，国际社会对香港司法独立性的讨论持续，相关案件后续量刑与外部反应值得关注。</p>
 </div>
+
 <div>
 <h3>⚽ 体育竞技综合速递</h3>
-<p><b>旅日大熊猫“晓晓”“蕾蕾”明年1月回国</b>：澎湃新闻确认两只大熊猫将结束旅日行程归国。虽属动物外交而非竞技，但引发中日民间情感与动物园客流讨论，相关告别活动预计升温。</p>
-<p><b>体坛焦点人物动态待更新</b>：今日收录资讯中暂无重大赛况赛果，编辑部将持续跟踪国内外联赛与国家队窗口期动态，赛果与转会消息将在下一期速览中补齐，敬请关注。</p>
+<p><b>旅日大熊猫“晓晓”“蕾蕾”明年 1 月回国</b>：旅日大熊猫“晓晓”与“蕾蕾”将于明年 1 月返回中国，日本民众依依不舍。虽非竞技体育，但作为中日民间交流的“体育文化使者”，其回国安排牵动两国舆论，也反映动物外交在双边关系中的象征意义。</p>
+<p><b>国铁集团 Z、N、V 字头普速列车 11 月 25 日发行</b>：国铁集团宣布 Z、N、V 字头普速旅客列车将于 11 月 25 日发行，首批车票 11 月 11 日起发售。此举优化普速客运产品结构，方便长途与旅游出行，也引发公众对票价与运力配置的讨论，铁路出行市场迎来新调整。</p>
 </div>
             </div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 寿险保单逻辑骤变：从追求“卖得出”到讲究“留得住”｜2026年“金标杆”</title>
+        <link>http://www.infzm.com/contents/343964</link>
+        <guid isPermaLink="false">84bee4ffd87a6a204863772b9a0b5853ca8c498399ea22d861757661e60c52ee</guid>
+        <pubDate>Thu, 05 Nov 2026 02:25:06 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：南方周末自建测评体系，用分差超50分、仅1家超90分等硬数据揭示寿险业效能分层，并提炼出从规模导向转向保单价值与留存的核心经营逻辑转变，具备行业复盘参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div><i>2026-11-05 10:00:00</i></div><p>中国寿险市场正在形成越来越清晰的分层竞争。</p>
+<p>南方周末新金融研究中心2026年“金标杆”——新金融竞争力测评”（下称“金标杆”）之寿险业效能测评结果显示，仅一家寿险公司得分超过90分，低于50分的机构占比高达37%，最高得分与最低得分相差超过50分。头部公司的综合经营能力与相当部分中小机构之间已经形成较为明显的效能落差。</p>
+<p>几乎所有寿险公司经营逻辑更发生了转向。</p>
+<p>在整体保费增长偏弱和代理人总量继续缩减的双重压力之下，头部公司最重要的经营逻辑发生转换—从追求“卖了多少保单”，转向关注“卖的保单究竟值多少钱、能留存多久”，而不再单纯依靠保费规模和代理人数量建立优势。代表核心价值的期缴分红类寿险高速增长。</p>
+<p>居于市场腰部的中坚力量—银行系寿险公司则出现更大的分化——相同的银行背景并没有带来相同的价值产出，渠道资源的使用效率正在成为新的分水岭。与此同时，银行系保险公司正从“获取保费”向“经营客户”延伸。</p>
+<h4>四个标准设门槛，最大分差超50分</h4>
+<p>较之以往三年测评，此次如何选取测评对象？</p>
+<p>本次测评对象选取延续以往“信息披露透明度较高、偿付能力合规、净资产规模大于等于10亿元、净利润为正”等标准，对全市场76家寿险公司进行全面筛选。</p>
+<p>层层筛选之后，41家寿险公司进入深度测评范围。41家受测评寿险公司净资产规模合计超过2万亿元，约占寿险业净资产总额的70%，具有较高行业代表性。</p>
+<p>为体现不同体量公司的可比差异，此次测评按净资产规模分为三组：超千亿者7家、超百亿但未过千亿者12家、低于百亿者共22家。</p>
+<p>如何搭建指标体系？此次测评仍沿用“金标杆”之银行保险板块一以贯之的“三维测评”模型（如图1）（详见《400家金融机构进退几何？》），其中，线上线下调研和专家评审测评的权重则各占15%。<a href="file://D:/%E8%81%8A%E5%A4%A9/xwechat_files/wxid_r33g8tgjnd4e11_ffeb/msg/file/2026-10/%E6%A0%A1%20%E5%AF%BF%E9%99%A9%E6%95%88%E8%83%BD%E6%8F%90%E5%8D%87%E6%A6%9C(1)(2)(2).docx#/content/_self">（详见《野生流量退场，谁经得起标尺度衡？》）</a></p>
+<p>南方周末新金融研究中心单独设计了寿险效能板块数据化客观分值测评指标体系。</p>
+<p style="text-align: center;"><img alt="" border="0" height="1958" src="https://images.infzm.com/cms/medias/image/26/11/03/d40b9d3223.jpg" width="640" /></p>
+<p>客观指标测评部分在整个评价体系中的权重占比为70%，下设规模与市场实力、价值创造效能、投资效能、资产与负债匹配管理、合规与消保五个子维度。数据来源于上述寿险公司2025年年度信息报告、2026年第二季度偿付能力报告和2026年理赔半年报等，部分数据依托南方周末“金标杆·新金融竞争力测评数据库”采集获取。此数据库为国内金融科技龙头恒生电子旗下上海恒生聚源数据公司依据需求定制而成。</p>
+<p>基于上述指标体系的测评结果显示，41家受测评寿险公司中，梯队特征十分明显。41家公司平均总分约为58.30分，中位数约为54.62分，仅1家得分超过90分，7家公司总分达到70分以上，17家公司达到60分以上，而低于50分的公司达到15家，占比高达37%。</p>
+<p style="text-align: center;"><img alt="" border="0" height="573" src="https://images.infzm.com/cms/medias/image/26/11/03/ee25190ce5.jpg" width="640" /></p>
+<p>有一点值得关注：最高得分与最低得分相差超过50分。这意味着，寿险业虽然已经从普遍追求高增长转入强调质量和效率的发展阶段，但不同公司的转型进度不一，头部公司的综合经营能力与部分中小机构之间已经形成较为明显的效能落差。</p>
+<h4>险企转向“价值战”</h4>
+<p>什么样的寿险保单才是好业务？</p>
+<p>在利差收窄、费用约束趋严的背景下，单纯做大保费规模已不足以衡量一家寿险公司的经营成色。“价值效能”由此成为本次测评权重最高的维度之一。</p>
+<p>此次测评中，新业务价值、新业务利润率、首年期缴保费、13个月继续率等指标被集中纳入测评。指标变化的背后，是寿险行业经营逻辑的迁移：从关注“卖了多少”，逐步转向考量“业务值多少钱、能够留多久”。</p>
+<p>其中，新业务价值（NBV）是观察寿险新增业务质量的核心指标之一。它并非当期利润，而是对一段时期内新售保单未来能够创造的长期经济价值进行估算。保费规模相同，新业务价值越高，意味着这批业务能够贡献的长期价值通常越高。</p>
+<p>本次测评同时引入新业务利润率，观察新增保单能够形成的未来利润空间。换言之，保费只是业务入口，保险公司真正需要留下的是长期业务。</p>
+<p>测评结果显示，大公司仍占据价值高地，只是更追求效率优势，而非规模。 </p>
+<p style="text-align: center;"><img alt="" border="0" height="620" src="https://images.infzm.com/cms/medias/image/26/11/03/feb07c9d61.jpg" width="640" /></p>
+<p>进一步观察新业务利润率指标，行业格局有所不同。中邮人寿、招商信诺人寿、农银人寿等银行系寿险公司表现靠前。对于规模相对有限的机构而言，产品结构、渠道成本和经营效率，同样可能成为撬动排名的关键变量。</p>
+<p>银保渠道的价值判断也随之改变。过去较长时间里，银保业务被视为快速获取保费的重要渠道。当“报行合一”等监管要求持续压降渠道费用，保险公司须重新计算每一笔业务的投入与产出。渠道能带来多少保费已经不是唯一问题，保费最终能够转化为多少长期价值，变得更加重要。</p>
+<h4>19家公司续保率低于基础线</h4>
+<p>保单被卖出去之后，投保人是否续保？13个月继续率提供了一个观察窗口。</p>
+<p>对于长期期缴寿险产品而言，保单生效一年左右通常迎来第一次续期缴费。13个月继续率因而成为一个重要指标：经过第一次续期后，还有多少投保人继续缴费，缴纳的保费是首次保费的多少。</p>
+<p>受测的机构中，13个月继续率中位数约为95.13%，22家公司达到95%以上，16家公司达到96%以上。可见继续率95%正在成为基础线。 </p>
+<p style="text-align: center;"><img alt="" border="0" height="2451" src="https://images.infzm.com/cms/medias/image/26/11/03/aced922dd7.jpg" width="640" /></p>
+<p>继续率看似只是续期指标，背后却连接着销售品质、产品匹配和客户服务。一家公司如果能够快速获得大量新单，却无法让客户持续缴费，首年的销售增长很难真正沉淀为长期价值，前期渠道和获客投入也可能随之损耗。</p>
+<p>这也是继续率的重要性不断上升的原因。寿险是一门长周期生意。首单成交只是起点，真正决定一张保单价值的，是此后十年甚至更长时间里的持续缴费和客户关系。</p>
+<p>除19家公司的13个月继续率仍低于95%外，更有7家公司继续率低于90%，甚至包括寿险业规模第二的平安人寿。换言之，这些公司当年新保单中，10%的客户不再续保，对未来保费的贡献为零。如何解决新业务扩张与存量业务质量之间的平衡是一个急迫的难题。</p>
+<h4>“银行系”不再单纯拼渠道</h4>
+<p>腰部寿险公司中，银行系正在形成一个值得关注的群体。</p>
+<p>南方周末新金融研究中心研究员统计发现，9家银行系寿险公司平均得分61.24分，高于参评公司的平均水平58.30分，其中7家公司得分超过60分。</p>
+<p style="text-align: center;"><img alt="" border="0" height="909" src="https://images.infzm.com/cms/medias/image/26/11/03/fe6a7b7979.jpg" width="640" /></p>
+<p>银行系虽未进入大型综合寿险公司占据的第一梯队，但在腰部已形成较为集中的优势。 </p>
+<p>他们的优势从何而来，银行股东提供的客户基础和渠道入口是重要原因。相较普通中小寿险公司，银行系机构拥有更多现成的客户触点。在传统代理人渠道持续调整、获客成本不断上升的情况下，这一优势愈发明显。</p>
+<p>但拥有渠道，并不等于拥有价值。9家银行系寿险公司新业务价值合计达到148.68亿元，机构之间的差距不小。其中，中邮人寿新业务价值达到69.40亿元；招商信诺、农银人寿新业务利润率分别达到16.55%和13.55%，部分机构则仍处于个位数水平。 </p>
+<p style="text-align: center;"><img alt="" border="0" height="800" src="https://images.infzm.com/cms/medias/image/26/11/03/4ff2ab00d8.jpg" width="640" /></p>
+<p>同样的银行背景，为何形成不同的价值产出？从指标上看，新业务价值更接近衡量一家公司的新增业务总共创造多少长期价值，新业务利润率则进一步观察每单位业务能够沉淀多少利润。前者既受规模影响，也受业务质量影响；后者则更直接指向经营效率。</p>
+<p>银行渠道提供的是客户入口，并不能天然生成价值。保险公司的产品设计、渠道运营、成本控制和客户经营能力，才决定价值产出多寡。</p>
+<p>继续率的表现同样印证了这一点。9家银行系寿险公司13个月继续率平均接近95%，中荷人寿、光大永明、招商信诺和交银人寿均超过96%。</p>
+<p>一部分银行系公司已经不再满足于借助银行网点完成一次销售，而是开始将经营链条向续期服务和长期客户关系延伸。它们过去比拼渠道覆盖和股东资源，现在开始比拼渠道转化率和客户价值。</p>
+<h4>小险企避免成为大公司缩小版</h4>
+<p>本次测评中，15家综合得分低于50分的寿险公司，净资产普遍低于百亿元。</p>
+<p>对小型寿险公司而言，资源有限，应当把资源放在哪里？ </p>
+<p>一位长期深耕中小险企的业内人士在接受南方周末新金融研究中心调研时表示，对于规模较小的寿险公司而言，向行业中腰部突破的空间正被进一步压缩。</p>
+<p>如果沿用大型机构的经营思路，小型寿险公司同时布局多个渠道、覆盖多类产品、经营全部客群，很容易陷入另一种困境，即业务摊子越来越大，有限资源却被不断稀释。</p>
+<p>“小而全”的路径正在变得更难。本次测评结果显示，当竞争指标逐渐从保费规模转向新业务价值、业务品质和客户留存时，保费规模能够解释的问题正在减少，资源使用效率能够解释的问题则越来越多。</p>
+<p>这恰恰是小型公司的机会所在。相比大中型机构，小型机构的组织结构相对轻化，决策链条通常更短。如果能够围绕特定客群、细分产品、区域市场或者某类服务形成清晰定位，仍有可能以有限资源形成较高的单位产出，形成有较高辨识度的能力，应避免成为“大公司的缩小版”。</p>
+<p><br /></p>
+<p><span style="color: #ba1010;">• </span><span>附图：2026年“金标杆”——寿险业效能提升测评结果</span></p>
+<p> </p>
+<p style="text-align: center;"><img alt="" border="0" height="2450" src="https://images.infzm.com/cms/medias/image/26/11/03/a367f24549.jpg" width="640" /></p>
+<p><span style="text-align: justify;"></span></p>
+<p><span style="color: #ba1010;">• </span><span>（相关测评细则最终解释权归属南方周末新金融研究中心，分数仅作“金标杆”测评之用，不代表参评机构资质优劣、是否达标，不构成投资推荐。）</span></p><br /><hr /><div>获取更多RSS：<br /><a href="https://feedx.net" style="color: orange;" target="_blank">https://feedx.net</a> <br /><a href="https://feedx.site" style="color: orange;" target="_blank">https://feedx.site</a><br /></div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 产能过剩之谜：新能源车企为何“亏而不退”？</title>
+        <link>https://www.ftchinese.com/story/001111257</link>
+        <guid isPermaLink="false">acae3f45127ed0a0dc46b7c2785511cef65c5a1205f36c9d68e5921ddc684558</guid>
+        <pubDate>Wed, 04 Nov 2026 16:00:00 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：从经济学视角剖析新能源车企产能过剩下&#x27;亏而不退&#x27;的深层机制，指出行政禁竞争是扬汤止沸，为理解行业价格战与出清逻辑提供结构性洞察。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            周文、王鹤霖：中国新能源汽车产业结构性产能过剩日益突出。只要产能过剩依旧存在，企业就不得不“卷”；单凭行政手段禁止竞争，无异于扬汤止沸。
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 谁有权力决定中国孩子穿什么？</title>
+        <link>https://www.ftchinese.com/story/001111279</link>
+        <guid isPermaLink="false">8100a0ccc61def586c3b05a4619d05cdfc1fb4cd99100488e5962aeb3563f84e</guid>
+        <pubDate>Wed, 04 Nov 2026 16:00:00 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以校服决策权为切口，剖析学校、家长、主管部门间的权力错位，触及教育治理中权责边界与家长参与机制，具制度反思价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            周建：校服是学校的事，应该交回学校和家长。穿什么校服，应该是家长和孩子的选择，而不是学生被学校要求，家长被学校通知，学校被主管部门要求。
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] AI投资热潮带来的经济风险</title>
+        <link>https://www.ftchinese.com/story/001111280</link>
+        <guid isPermaLink="false">3014aa714c83ff0b6c8ae0896f5f4592bf7c856035295232ab9013b4b561ba5b</guid>
+        <pubDate>Wed, 04 Nov 2026 16:00:00 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：FT资深评论员沃尔夫从宏观金融视角剖析AI投资热潮与复杂融资安排的系统性风险，指出热潮持续越久、终结冲击越大，为AI泡沫讨论提供稀缺的金融稳定维度。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            沃尔夫：AI投资热潮及与之相伴的复杂融资安排持续得越久，其终结时造成的负面冲击就可能越大。
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”</title>
+        <link>https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/</link>
+        <guid isPermaLink="false">f3b52b53bfb0f560bf01ba714949c7dd420cb0c3e26c91534abe9e62aa1fa90f</guid>
+        <pubDate>Wed, 04 Nov 2026 20:55:50 +0000</pubDate>
+        <author>Ashley Belanger</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以44项地方公投中38项通过的具体数据，揭示AI数据中心扩张遭遇的基层政治阻力，并剖析科技巨头将反AI情绪归咎于&#x27;反特朗普&#x27;的叙事策略，对理解AI产业政策风险有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>Donald Trump’s big, rapid American AI buildout now faces a major slowdown as voters in yesterday’s elections overwhelmingly supported candidates and measures that favored increasing restrictions on AI and data centers nationwide.</p>
+<p>One resource from a polling firm, called Redbud Consulting, tracked <a href="https://datacentersontheballot.com/">data center initiatives on the ballot</a> and reported that out of 44 measures across 10 states seeking to restrict data centers, 38 passed so far. Those measures included dozens of moratoriums and bans. Analysts suggested those won’t impact data centers already under construction or approved through 2027, instead largely impacting future projects planned for 2028. Only <a href="https://datacentersontheballot.com/?race=nd-harwood">one measure passed</a> allowing a data center to proceed. But even that small win represented pushback on the AI industry—requiring data center developers in a North Dakota city to pay for independent reviews and hold public hearings when expanding or proposing projects.</p>
+<p>In addition to increasing regulations on data centers, voters also backed anti-AI candidates, electing officials vowing crackdowns in key states building out the most data center capacity in the US.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] Uranium cubes reveal why the German nuclear project failed</title>
+        <link>https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/</link>
+        <guid isPermaLink="false">4797f2b4d7a4ccf59b52ea800a9611867a08dde4328069f1dc0726a8c97c27b2</guid>
+        <pubDate>Wed, 04 Nov 2026 21:56:29 +0000</pubDate>
+        <author>Jennifer Ouellette</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：基于铀立方体实验数据与历史档案，实证检验海森堡关于B8反应堆接近临界说法的真伪，为纳粹核计划失败原因提供扎实科学证据，兼具历史调查深度与核物理技术细节。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>During World War II, physicists on the Manhattan Project worried that the Nazi German nuclear program might achieve the first nuclear bomb before the US and its allies. That's not what transpired, but historians have debated just how close the Germans came to achieving criticality in their last attempt at building a reactor: the B8 pile. Werner Heisenberg, who led that effort, claimed that they were close and had only needed a little more uranium. But according to <a href="https://academic.oup.com/pnasnexus/article-lookup/doi/10.1093/pnasnexus/pgag282"> a paper</a> published in the Proceedings of the National Academy of Sciences Nexus, that was not the case: the project simply didn't have sufficient uranium and heavy water to build a working bomb, given the design they were using.</p>
+<p>This particular research started in 2013, when University of Maryland physicist Timothy Koeth—a co-author on the new paper—received the gift of a mysterious heavy metal cube from a friend. He <a href="https://www.eurekalert.org/pub_releases/2019-05/aiop-sfl042619.php">instantly recognized</a> it as one of the uranium cubes used by German scientists in their unsuccessful attempt to build a working nuclear reactor. Only 14 such cubes are known to exist today.</p>
+<p>In 2019, <a href="https://arstechnica.com/science/2019/06/physicists-hunt-uranium-cubes-to-shed-light-on-germanys-failed-nuclear-reactor/">we reported</a> on Koeth’s quest to track down the cube’s origins, as well as several other similar cubes that had somehow found their way across the Atlantic. At the time, Koeth and his partner in the quest, then-graduate student Miriam “Mimi” Hiebert, had tracked down ten such cubes around the US. For instance, the Smithsonian Institute had a German uranium cube in storage. They tracked a third cube to Harvard University, where it was regularly passed around to students in introductory physics classes as a curiosity.</p><p><a href="https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Nintendo&#x27;s biggest ROM chip supplier is bowing out of the business</title>
+        <link>https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/</link>
+        <guid isPermaLink="false">7d01c5c4ee294cff992ac5c0febf8c9f14639ede54004b949b15140df38acbae</guid>
+        <pubDate>Wed, 04 Nov 2026 22:47:51 +0000</pubDate>
+        <author>Kyle Orland</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：揭示AI内存需求挤压ROM芯片供应的产业连锁反应，Macronix退出Switch卡带芯片业务，是供应链瓶颈的独家信号，具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>For years, the AI industry's <a href="https://arstechnica.com/gadgets/2026/01/kioxias-memory-is-sold-out-for-2026-prolonging-a-high-end-and-expensive-phase/">insatiable demand for memory and storage</a> has had plenty of knock-on effects on the price and availability of PC components like <a href="https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/">RAM</a>, <a href="https://arstechnica.com/gadgets/2025/12/for-just-a-couple-of-months-in-the-middle-of-2025-it-was-an-ok-time-to-build-a-pc/">SSDs</a>, and <a href="https://arstechnica.com/gadgets/2026/01/ram-shortage-chaos-expands-to-gpus-high-capacity-ssds-and-even-hard-drives/">GPUs</a>. Now those shortages are also squeezing the supply of ROM chips that power physical Nintendo Switch and Switch 2 game cartridges.</p>
+<p>Chip manufacturer Macronix <a href="https://www.macronix.com/en-us/about/investor-relations/Pages/quarterly-results.aspx">announced in its third-quarter earnings report</a> that the company's production of ROM chips "has reached its end" and that it will begin "gradually decoupling from the game industry," <a href="https://finance.biggo.com/news/57bfd574-540d-4d1b-a70b-97994e14af0c">as reported by Taiwanese news site BigGo Finance</a>. That could be an issue for Nintendo, which analyst David Gibson <a href="https://x.com/gibbogame/status/2117805196130582970">notes</a> uses Macronix as its "main memory chip maker" for physical game cartridges.</p>
+<p>That ROM production—which has shrunk 39 percent in the last year and now represents just 5 percent of Macronix's business—is being crowded out by production of more lucrative, in-demand chips like NOR- and NAND-based memory and eMMCs, the company said. With Macronix's production capacity stuck at 25,000 12-inch wafers a month—and $1.2 billion in planned new capacity taking a year or more to spin up—less profitable ROM chips are taking up wafer space that can earn more through other types of chips.</p><p><a href="https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 15 元以下的外卖，今年少了将近一半：这门生意为什么突然不卷低价了？</title>
+        <link>https://www.huxiu.com/article/4903150.html?f=rss</link>
+        <guid isPermaLink="false">9c2764750c265dd0c2470ae30662bcd247dc85e96901493125a76cfc5c2e44d8</guid>
+        <pubDate>Thu, 05 Nov 2026 10:18:45 +0800</pubDate>
+        <author>瞰见Lab</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以美团官方数据切入，拆解低价外卖补贴的真实成本分担机制，揭示平台红包并非全由平台承担，对理解外卖行业低价竞争退潮有实质增量分析。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/B3Y3JEKLfmFeI2OlsNTpHw" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 瞰见Lab </span></a><span class="text-remarks">，作者：瞰见·消费观察，原文标题：《15 元以下的外卖，今年少了将近一半：这门生意为什么突然不卷低价了？》</span></p><p><br /></p><p>“外卖是个不错的生意，不能到最后只让平台受益。”</p><p><br /></p><p>9块9，一份热腾腾的饭，还给送到你家门口。</p><p><br /></p><p>对每天要解决午饭的人来说，这当然是好事。一个月点二十次，每次省几块钱，也是一笔实实在在的生活费。</p><p><br /></p><p>可现在，便宜外卖正在发生变化。</p><p><br /></p><p>10月22日的外卖产业大会上，美团外卖总经理薛冰披露，今年餐饮商家的外卖订单中，15元以下低价订单的占比同比减半。这里说的是占比，并非订单数量直接少了一半。</p><p><br /></p><p>平台说，低价泡沫正在消退。从顾客的角度来看，问题也很简单了，以后吃饭的时候是不是要多花一笔钱呢？</p><p><br /></p><p>先别急着接受一个解释：便宜饭少了，行业就变好了。</p><p><br /></p><p>得先看看，你之前省下的钱，到底是怎么省出来的。</p><p><br /></p><p class="text-big-title" label="大标题">01九块九，差价谁来补</p><p><br /></p><p>你付9.9元买一份饭，光看这个价格，还算不出老板究竟赚多少。</p><p><br /></p><p>如果平台替你补了一部分钱，商家实际得到的钱，可能就比你支付的多一些。这种优惠，消费者当然可以享受。它和超市给几款商品打折促销，没有什么不同。</p><p><br /></p><p>问题在于，标着平台红包，钱却不一定全是平台出的。</p><p><br /></p><p>中国新闻网今年三月份的调查显示，一些商家参加红包和配送优惠时，要自己垫付相当一部分费用；还有商家反映，不参加活动就没了流量，参加了又赚不到钱。</p><p><br /></p><p>报道中，一名业务经理算了一笔账：在某个活动中，一份20元的订单，扣除技术服务费、运费以及商家承担的红包和推广费之后，商家实际收到的钱不到四块钱。</p><p><br /></p><p>这只是一个店铺在特定情况下的账，不能代表所有外卖订单。但它能解释一种让人困惑的现象：为什么你会觉得外卖很贵，而老板却说自己赔本了。</p><p><br /></p><p>你付的钱，没有全部变成饭盒里的肉和菜。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/9d900997-843f-4a85-ae90-58625323d10d.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">▲饮品订单的顾客实付与商家实收（不是上文20元示例）。来源：中新网，受访者供图。</p><p><br /></p><p>消费者最容易想到的是平台抽佣。商家要承担的费用里，还有配送费、推广费和各种活动开支。只看佣金这一项，还看不清这笔账：从一份饭的定价到商家最终收款，中间扣了哪些费用，都得算进去。</p><p><br /></p><p>外卖是个不错的生意，不能到最后只让平台受益。</p><p><br /></p><p>平台控制着订单入口以及流量的分配。商家想要让顾客看到自己，就要花钱去推广；为了承接活动带来的订单，还得算自己要承担多少优惠。如果平台只顾着扩大交易规模、收取费用，却不考虑商家怎样才能保住饭菜的质量，那么这份生意再红火，也不值得叫好。</p><p><br /></p><p>如果平台的优惠需要商家先垫付，而商家又通过提价消化这些成本，那么你抢到的红包里，就可能有一部分早已计入菜单价格。</p><p><br /></p><p>折腾了那么久领到一张优惠券，回头买的还是同样的东西。</p><p><br /></p><p class="text-big-title" label="大标题">02单多了，饭也难一直便宜</p><p><br /></p><p>商家可以这样解释：价格低一些也没有关系，薄利多销。</p><p><br /></p><p>但是薄利多销的前提是，销量增加之后能带来更多的收益，同时摊低平均成本。</p><p><br /></p><p>复旦大学研究2025年补贴大战时，使用了全国4万余家餐饮商户的交易数据。在研究所指的竞争加剧期，样本商户每天的外卖加堂食总订单量平均上涨了7%，实际收款却平均下降约4%。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/dacfffcf-f00b-4432-b487-0658cb83c78f.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">▲资料整理：2025年补贴竞争加剧期，样本商户平均变化。来源：复旦大学经济学院。</p><p><br /></p><p>这组样本里，忙碌的程度提高了，得到的钱却少了。</p><p><br /></p><p>一个原因是外卖代替了去饭店就餐。以前到店里吃饭的人因为优惠而选择在网上点餐。饭菜还是那一份，但是商家还需要承担包装费、配送费以及各种活动所产生的费用。</p><p><br /></p><p>对消费者来说，这一单能省些钱。但对同一家餐厅来说，原来收入更多的堂食，却可能被收入较少的外卖替代。</p><p><br /></p><p>如果仅仅用这种方式来扩大订单量，后厨很忙碌，并不等于生意能够长久维持下去。</p><p><br /></p><p>低价难以持续，原因也在这里：促销可以把商品的价格降低一些，但是不能使买菜、制作饭菜、送外卖这些事的成本自动降低。</p><p><br /></p><p>商家要收回成本，而平台也期望通过补贴来获得收益。米村拌饭在本次大会上表示，今年已减少大规模促销活动，并且把一部分资金用来调整分量、包装和产品定价。</p><p><br /></p><p>现有公开信息还算不清楚，低价占比下降，有多少是优惠收缩造成的？又有多少来自产品组合或订单结构的变化？但不能据此认定消费者突然不愿意节省开支了。</p><p><br /></p><p>想吃便宜午饭的人依然在，但过去的让利方式，越来越难让各方都觉得划算。</p><p><br /></p><p class="text-big-title" label="大标题">03成本压缩，会动到饭菜吗</p><p><br /></p><p>老板的利润被压缩，跟消费者又有什么关系？</p><p><br /></p><p>一份饭菜的价格摆在页面上，后厨省掉了什么，却不容易看见。</p><p><br /></p><p>深圳新闻网转引了广东省餐饮服务行业协会今年发布的报告，该报告显示，在广州、深圳等城市137家受访商户中，有商户选择换用价格更低廉的食材或者减少分量来降低成本，并且有52.6%的受访商户减少或放弃了一些与食品安全有关的投入。</p><p><br /></p><p>这是一项区域商户调查，并不代表所有便宜外卖。但是它暴露出的风险会直接影响点餐的人。</p><p><br /></p><p>饭菜里的肉少了，你也许能发现。清洁消毒、设备保养以及员工培训所节省下来的费用，隔着手机屏幕，很难看出来。</p><p><br /></p><p>如果一直只比价格，那么一家仍然坚持原有食材和卫生条件的小店就可能比牺牲食材和卫生标准来省钱的商家更容易倒闭。</p><p><br /></p><p>最后留下的，并不一定就是饭做得更好、效率更高的店铺，也有可能是敢于放弃基本要求的店铺。</p><p><br /></p><p>这样的低价竞争就可能导致劣币排挤良币。</p><p><br /></p><p>消费者先省下了一些饭钱，但是之后可能失去的就是附近那家认真做饭的小店，还得反复担心食物安全。</p><p><br /></p><p>但是不能因为这样就把责任推给点9块9外卖的消费者。工资不高的人想要省钱是完全可以的。</p><p><br /></p><p>也不能让商家拿经营困难为偷工减料找借口。食品安全是经营的前提条件之一，即使成本很高也不能把隐患留给消费者。</p><p><br /></p><p>平台这时也不能隐身。在收费、活动和流量分配这些事上，它有权决定这些规则，并且也应该对此负责。</p><p><br /></p><p>如果一边以低廉的价格来吸引顾客，另一边又将让利的压力一层层传递给商家，最后就可能逼着商家继续压低成本，而消费者得到的食物却越来越差，这样的竞争究竟产生了些什么呢？把一顿饭越卷越薄，不该算作平台的本事。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/fe627aa2-604a-4583-a9e0-9ebf059f7445.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">▲骑手配送资料照。来源：中新网；中新社记者贾天勇摄。</p><p><br /></p><p class="text-big-title" label="大标题">04留下实惠，少些假便宜</p><p><br /></p><p>外卖以后是否会涨价，得先分清成本是怎么降下来的。</p><p><br /></p><p>同样的饭菜，通过集中采购、提前备料、批量加工，减少损耗和重复劳动，就可以做到价格更低一些。降价了，但是分量和卫生水平不需要一起下降。</p><p><br /></p><p>美团提出的超级厨房就是要重新安排选址、厨房布局和出餐流程；第一批1000家就是接下来一年计划共建的厨房。反向定制套餐、集中采购、人工智能经营管理工具等也是这次提出的解决方案。</p><p><br /></p><p>这些方法是否有作用，消费者不必提前为它们叫好。要看的是最后送到手里的饭菜：价格是否更便宜了，分量有没有变少，菜品以及厨房卫生状况怎么样。</p><p><br /></p><p>假如效率确实提高了，普通人的饭菜价格也能降下来，商家同时还有钱可赚，那么9块9一份的饭菜就越多越好。</p><p><br /></p><p>平台要依靠更好的供需匹配、更少的经营损耗和稳定可靠的配送，证明自己的服务值得这笔费用。</p><p><br /></p><p>如果平台不创造价值，只是不停地从商家那里榨取利益，再把订单增长当作自己的成果，那么这个行业就会越来越内卷。商家为了接单而疲于奔命，消费者则在各种红包、满减以及起送门槛之间反复计算，饭菜没有变好吃，花的钱也没少。</p><p><br /></p><p>这样的外卖，生意做大之后，并不一定会让做饭、吃饭的人受益。平台不能只想着自己赚钱，却把代价推给商家和消费者来承担。</p><p><br /></p><p>少给几张券，换一种方式收取费用，并没有提升食物质量也没让商家经营得更轻松，却把消费者多付的钱说成行业回暖，这样的说法恐怕很难被人们所接受。</p><p><br /></p><p>15元并不是一道质量界限。低于这个水平并不一定就是有问题的产品，而超过这个水平也并不能保证会更好吃、更卫生。</p><p><br /></p><p>点餐时，可以这样比较：同一家餐厅、同样分量的饭菜，把包装费、送餐费和用券条件一起看清，最后花了多少钱，又吃到了什么。</p><p><br /></p><p>让人愿意花钱的，是一份看得明白、吃得放心的饭，不是一个越来越复杂的优惠页面。</p><p><br /></p><p>便宜饭少了，值得问一句为什么；如果认真做饭的店越来越少，就更该问问，谁把这门生意带到了这里。</p><p><br /></p><p>消费者不该为了省几块钱，被迫在吃得起和吃得放心之间二选一。</p><p><br /></p><p>本文写作说明</p><p><br /></p><p>本文整理美团大会公开资料、中国新闻网调查、复旦研究及媒体转引的广东省餐饮服务行业协会报告，未作现场调查。平台数据、个案和区域样本各有适用范围；本文讨论低价竞争的成本与消费者处境，低价不等于低质。由作者作观点取舍，AI协助整理资料、起草文字。</p><p><br /></p><p>主要资料来源</p><p><br /></p><p>主要来源于美团在2026年外卖产业大会上的公开资料、界面新闻和财新的报道、中国新闻网《民生调查局》所做的调查、复旦大学经济学院的研究成果以及深圳新闻网对于广东省餐饮服务行业协会报告的报道。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] AI 服务器里一颗 0.2 毫米的电容，为什么是在粤西一个县城的稻田边上造出来的？</title>
+        <link>https://www.huxiu.com/article/4903155.html?f=rss</link>
+        <guid isPermaLink="false">70df7af2fe99b27a84c8c0826328a5bc4465b5cd6afdaaaee6f94fd56945b349</guid>
+        <pubDate>Thu, 05 Nov 2026 10:26:10 +0800</pubDate>
+        <author>瞰见Lab</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以微容科技IPO为切入点，拆解超微型MLCC全球第二的县域企业如何在罗定落地，揭示AI服务器单机柜40万颗电容的产业逻辑与县城承接产业空隙的深层规律，事实密度高、视角独特。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/gBW0EVs4kmM5v_1sR3kaVA" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 瞰见Lab </span></a><span class="text-remarks">，作者：瞰见·产业观察，原文标题：《AI 服务器里一颗 0.2 毫米的电容，为什么是在粤西一个县城的稻田边上造出来的？》</span></p><p><br /></p><p>“县城承接的是风口之后留下的空隙，并非风口本身。”</p><p><br /></p><p>10月29日，深交所上市委员会在第59次会上批准了微容科技向创业板发行股票上市的申请。11月2日该公司提交注册，拟募资16.75亿元，其中13.7亿元投向罗定的高端MLCC扩产项目。</p><p><br /></p><p>根据弗若斯特沙利文的数据，2024年它的超微型MLCC销量排中国第一、全球第二，仅次于日本村田；按MLCC营业收入算，在中国大陆厂商里排第三。</p><p><br /></p><p>两种说法指的是不同的事情，但是指向的结果是一样的，在全球最擅长做小电容的企业排行榜上，有一家县级市的企业上榜了。</p><p><br /></p><p>罗定属云浮，是粤北山区的一个县级市，不靠海，也不在珠三角。南方日报在10月30日的文章中使用了这样一个小标题："稻田边上的电子工业大米"。</p><p><br /></p><p>一台AI机柜需要使用40多万颗MLCC，而这些微小的元件却生长于稻田之中，这是怎么回事呢？</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/2bbb39b6-3869-4c36-8880-1182b008a181.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">—一台设备要用多少颗MLCC：数量级差异。瞰见Lab制图·据招股说明书及公开报道</p><p class="text-img-note" label="图片备注">📌本文看点</p><p class="text-img-note" label="图片备注">01</p><p class="text-img-note" label="图片备注">全球第二</p><p class="text-img-note" label="图片备注">超微销量</p><p><br /></p><p>02</p><p><br /></p><p>17.75亿</p><p><br /></p><p>在手订单</p><p><br /></p><p>03</p><p><br /></p><p>97.76%</p><p><br /></p><p>产能利用</p><p><br /></p><p>04</p><p><br /></p><p>2800个</p><p><br /></p><p>本地岗位</p><p><br /></p><p class="text-big-title" label="大标题">01</p><p><br /></p><p class="text-big-title" label="大标题">越小越难做，越难做越离不开</p><p><br /></p><p>先说清楚这颗电容是什么。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/964c58d5-351a-4c67-acd8-d5724ae89aac.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">—PCB上的多层陶瓷电容（MLCC）实物特写（资料图）。实拍·Wikimedia Commons，摄影Giovanna 27（2021-11-30），CC BY 4.0</p><p><br /></p><p>MLCC是多层片式陶瓷电容器，在行业内被称为"电子工业的大米"。只要供电就要靠它滤波、去耦、稳住电压，芯片跑得越快、供电越复杂，用得越多。</p><p><br /></p><p>招股书中的尺寸表里提到，微容量产的008004规格为0.2毫米×0.1毫米。指甲盖上能排下几十颗。</p><p><br /></p><p>一个手机里面可以塞上上千颗，一辆新能源车约2万颗，一台人工智能服务器大约为2.8万颗。到英伟达GB200 NVL72这样的单机柜时，使用量是44万颗左右；新机型已达到60万颗以上。高盛的拆解把MLCC列为AI服务器物料成本的第三大项。</p><p><br /></p><p>数量增加了，但是难度也增大了。</p><p><br /></p><p>MLCC是由陶瓷粉末以及金属电极经过多层堆积之后进行高温烧结而成的一种元件，其中粉末必须达到纳米级别，并且流延机、叠层机都是非常昂贵的设备，高端的产品可以做到1200层。一条生产线从下订单到调试出合格品一般需要一年左右的时间。</p><p><br /></p><p>这就解释了为什么长期以来这块市场被村田、三星电机、太阳诱电等公司所控制。并不是因为别人不会做，而是设备以及工艺上的成本问题需要有大量的产量才能分摊开来。</p><p><br /></p><p>如果再往下分解的话，1200层堆叠就是每片陶瓷膜只有几微米厚，印刷电极要准确定位，并且在烧结过程中不能出现裂纹或者分层的情况。层数越多，其中任意一层出现错误就会导致整个产品的失效。设备是第一道门槛，拉开差距的是良率爬坡：同一条生产线，别人做到90%以上，你只做到70%，成本就会相差很大。这也是扩产不能靠临时加钱解决的原因，在设备进场之后需要等待一年左右的时间才能开始稳定供货。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/46f5a2e7-27f0-4f45-b1e8-49e7e70c1e0c.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">—一颗MLCC的横截面，可见密集叠层（资料图）。实拍·Wikimedia Commons，摄影TubeTimeUS（2019-03-30），CC BY-SA 4.0</p><p><br /></p><p>越是基础的元器件就越不愿意让临时进场的人来。</p><p><br /></p><p class="text-big-title" label="大标题">02</p><p><br /></p><p class="text-big-title" label="大标题">巨头转身，腾出了一道缝</p><p><br /></p><p>变化是从AI服务器那边过来的。</p><p><br /></p><p>根据公开资料，村田在2026财年逐步停产九大系列里的部分规格，把产能挪向AI和车规用的高附加值产品，交期从8到10周拉长到20周以上。三星电机于8月1日对所有产品进行30%的价格上调，在第四季度还会继续调整价格，并且已经获得了价值超过52亿人民币的人工智能服务器长期供货合同，能见度排到2027年底。太阳诱电所采取的方式都是一样的。</p><p><br /></p><p>几家都没有把消费电子产品列入重点之中。</p><p><br /></p><p>但是需求这边在上涨。今年6月，华强北部分热门MLCC型号单月涨价7到8倍，而人工智能使用的高容量型号的现货已经被炒到了原来的两倍以上。</p><p><br /></p><p>一方面现货价格上涨了，另一方面大公司却把消费级产品的生产线给放出来了。</p><p><br /></p><p>腾出来的市场，落到了微容手里。</p><p><br /></p><p>产能利用率从2023年的59.68%，升到2024年的75.63%，再到2025年的97.76%。截止到2026年9月底，在手订单17.75亿元，较6月末接近翻倍：消费类订单10.73亿、工业类订单5.14亿、汽车电子类订单1.88亿。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/92662b2e-5100-4cab-8621-46330542ff2f.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">—17.75亿在手订单构成，消费类约占六成。瞰见Lab制图·据微容科技招股说明书</p><p><br /></p><p>要说明的是，不要把这件事情读错了。</p><p><br /></p><p>微容接下的主要是日韩相对后置的消费类高容，并不是人工智能高容的那一波暴利。17.75亿元订单里，消费类约占六成，到今年九月底为止，消费类业务收入已经达到12.69亿，并且同比上涨了22.27%。它可以完成1200层堆叠，可以大批量提供100μF、220μF的产品，工业客户的订单在增长，但是人工智能价格上升只是个背景因素，并没有让它账户里多了多少钱。</p><p><br /></p><p>也就是说，人工智能热并没有直接给罗定带来资金，只是把巨头的注意力买走了。</p><p><br /></p><p>县城承接的是风口之后留下的空隙，并非风口本身。</p><p><br /></p><p class="text-big-title" label="大标题">03</p><p><br /></p><p class="text-big-title" label="大标题">为什么是罗定，不是别处</p><p><br /></p><p>被放出的市场，并不是任何人都可以接手的。</p><p><br /></p><p>MLCC中有一项绕不开的工序就是电镀，电极层要进行表面处理就必须要有相应的电镀能力。上证报点出关键：这种环保指标在珠三角核心区越来越紧张了，而罗定有稀缺的电镀指标。罗定市政府门户写的更加详细，当地的依托是粤西北地区唯一的一个省级电镀基地。</p><p><br /></p><p>一个指标卡住了他人的咽喉，也成就了这里。</p><p><br /></p><p>电镀指标就是排污许可证，在珠三角核心区域新上的项目很难获得批准，想要把这个环节放到深圳或者东莞附近就不可能了。把工厂搬到更远的地方之后还要再去寻找会做电子产品制造的人才以及相应的设备支持。可以两边都满足需求的小城很少见。</p><p><br /></p><p>其他条件也都准备好了。罗定位于广东省最大的盆地内，拥有大片平坦的土地，土地、电力、物业的成本都比珠三角便宜很多；常住人口为94.26万，有5所职业院校每年培训转移劳动力1.8万人，工人不需要从外地招聘过来再流失掉。</p><p><br /></p><p>产业火种也不是从零开始。1995年雅达电子来到罗定之后，在当地留下了懂得电子产品制造的人才；而到了2017年的时候，58岁的陈伟荣带领着自己的团队回到家乡创业，这才有了微容。地方政府对于项目采取了"一事一议"的方式，佛山禅城的对口帮扶也建立了一个"反向飞地"。</p><p><br /></p><p>把它们分开来看，没有任何一条可以单独说明这个结果。</p><p><br /></p><p>环保指标、要素成本、用工问题、有个人愿意回来的团队，在外边正好有别人把生产线腾出来了，几个因素在同一时间窗口内发生碰撞，订单才能落地。</p><p><br /></p><p>地方产业的发展壮大，并不是靠一句话就能实现的。</p><p><br /></p><p class="text-big-title" label="大标题">04</p><p><br /></p><p class="text-big-title" label="大标题">热闹之外，账还要另算</p><p><br /></p><p>97.76%的产能利用率，订单量增长了一倍左右，这些都是好事情，但是这只能算作是这一段时间内的好消息。</p><p><br /></p><p>招股书自己留了话：下半年供需紧张可能是行业阶段性特征，若售价下行快于成本下降，毛利率可能回落。</p><p><br /></p><p>2026年上半年，微容营收10.09亿、同比增长20.64%，净利润1.20亿、同比下降1.25%，毛利率由原来的27.58%回落到26.80%。收入增加但是利润不涨。</p><p><br /></p><p>在申报的过程中就有很多地方被反复提问了：账面上有22.64亿的金融资产，但是仍然要募集2亿元补流；18项专利诉讼中多数已被宣告无效或不涉及核心工艺；申报之前的实际控制人股权转让金额约为9990万元，公司说明是为了补齐回赎缺口。</p><p><br /></p><p>从全市的角度来看，数据也是双面的。云浮前三季度规模以上工业增加值同比增长了19.0%，在全省排名第一；但是同期工业投资同比下降了10.6%，房地产投资同比下降了25.0%。到2026年9月份的时候，罗定市电子信息产业规模以上的企业有11家，总产值为27.44亿——放在全省范围内来说，这个规模仍然比较小。</p><p><br /></p><p>另外还有个时间上的差距。募集到的13.7亿主要用于扩大生产规模，但是MLCC生产线从设备订购、安装调试到量产，一般需要一年多的时间。等到产品真正投产之后，目前存在的供不应求的情况还会不会继续存在呢？这个是招股说明书里提到的毛利率下降的原因。</p><p><br /></p><p>一个项目的进度很快，和一个地方已经转过身，是两件事。</p><p><br /></p><p>这些写下来不是要泼冷水。稻田边上长出全球第二，很值得庆贺；是否能形成一个完整的产业链条，则要看之后的订单量、良品率以及市场价格了。</p><p><br /></p><p class="text-big-title" label="大标题">05</p><p><br /></p><p class="text-big-title" label="大标题">2800个岗位，和一个26岁的选择</p><p><br /></p><p>产业归根结底是要落实到人的身上。</p><p><br /></p><p>南方日报报道称，微容在罗定本地提供了超过2800个岗位，其中省内就业的占到了七成左右。一期年产6000亿片；公司副总裁罗军表示，二期月度折标产能已经接近800亿片，三期将于2026年底开始建设，并于2030年投产。</p><p><br /></p><p>报道里有个26岁的女工，叫顾珍敏。2026年春天，她从深圳一家电子厂辞职回了罗定。她的父母分别在东莞玩具厂工作了15年、在深圳流水线工作了8年。</p><p><br /></p><p>一个家庭里两代人，第一次不用都往外走。</p><p><br /></p><p>这就是这颗0.2毫米电容最实在的地方。它不改变芯片的算力，也不参与大模型的参数竞赛，但它让一个县城多出一种选择：想留在家里上班，不一定只能进厂做别的，也能做AI服务器要用的东西。</p><p><br /></p><p class="text-big-title" label="大标题">结语</p><p><br /></p><p class="text-big-title" label="大标题">结语</p><p><br /></p><p>回到开头那个问题。</p><p><br /></p><p>一颗0.2毫米的小电容生长在稻田边，并非是因为县城抓到了人工智能，而是因为AI把日韩巨头的产能和注意力买走了，腾出一块不那么性感却稳定的市场；罗定正好有一张电镀指标、一片廉价的土地以及一批不需要外出工作的工人，所以才承接下了这个市场。</p><p><br /></p><p>AI热潮的钱，不只流向芯片和大模型。它也顺着一张张订单，流进基础元器件，流进县城工厂的工资单。</p><p><br /></p><p>但是钱能保留多久，就看订单是否可以继续下去、价格会不会下跌以及生产线能否向高技术方向发展了。稻田旁边的工厂已经开始工作了，剩下的，要靠一片片电容自己回答。</p><p><br /></p><p>END</p><p><br /></p><p>关于这篇稿子</p><p><br /></p><p>本文写作说明</p><p><br /></p><p>主要资料来源</p><p><br /></p><p>深交所招股说明书与上市保荐书、上海证券报、南方日报、21世纪经济报道、央视财经、罗定市人民政府门户。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 内卷最凶的水泥，开始把货卖到中美洲了</title>
+        <link>https://www.huxiu.com/article/4903154.html?f=rss</link>
+        <guid isPermaLink="false">f5cc262326dac2c60c85f707a757454a90803cff93cc6ed8413d9e4e83fe1517</guid>
+        <pubDate>Thu, 05 Nov 2026 10:21:56 +0800</pubDate>
+        <author>瞰见Lab</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以山东水泥厂出口中美洲为切口，揭示国内水泥需求下降8%背景下企业被迫出海的结构性困境，并点出&#x27;国内竞争激烈不等于海外竞争力&#x27;的核心洞察，兼具产业数据与出海逻辑分析。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/yBjRRcQVpnV_Xcl0Py__uw" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 瞰见Lab </span></a><span class="text-remarks">，作者：瞰见·出海观察</span></p><p><br /></p><p>“国内竞争激烈，并不等于企业有了海外竞争力。”</p><p><br /></p><p>水泥这种生意，平时多拉一段路，都得算算运费还划不划算。</p><p><br /></p><p>现在，山东一家水泥厂，却把客户找到了中美洲。</p><p><br /></p><p>据智慧水泥网报道，枣庄市沃丰水泥有限公司首个1.5万吨海外订单正在组织发运，目的地是中美洲。这笔订单通过与外贸企业合作落地，实现了企业所在集团水泥产品出口的零突破。</p><p><br /></p><p>更早的10月28日，百年建筑网援引泉兴能源消息称，按照订单排期，沃丰11月还将交付3万吨出口水泥。</p><p><br /></p><p>一袋灰扑扑的水泥，怎么值得跑那么远？</p><p><br /></p><p>有趣的是，它不起眼的特点却会左右这门生意：货重、单价低，运费稍高，生意就可能做不成。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/e5148b0f-6fe1-4385-96ae-2205b2daf572.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">▲苏美达熟料出口装船场景（非沃丰本单）。来源：苏美达官网。</p><p><br /></p><p class="text-big-title" label="大标题">01国内竞争激烈，工厂向外找客户</p><p><br /></p><p>你可能不熟悉水泥企业，但多半见过它们的客户：修路的人、盖房子的人、建工厂的人。</p><p><br /></p><p>工程项目少了，水泥很难靠改变包装来刺激需求。</p><p><br /></p><p>华新建材2026年上半年财报援引行业数据披露，今年上半年我国水泥产量为7.36亿吨，比去年同期下降了8%。国内需求仍在下降。</p><p><br /></p><p>中国水泥协会的相关运行报告，把价格压力摆得更直观：今年上半年我国P.O42.5散装水泥的成交落地均价为334元/吨，较去年同期下降了52元/吨。</p><p><br /></p><p>单看一吨，便宜几十块钱似乎不多。对于销量达到万吨级的企业来说，这是一笔无法回避的收入差异。</p><p><br /></p><p>需求减弱了，但是设备已经买好了，厂房也建好了。减产停窑可以节省一些燃料费用，但是折旧和人工等支出并不会随之全部消失。</p><p><br /></p><p>企业得想办法找客户：除了周围的工地之外，还能去哪里找愿意付钱的客户？</p><p><br /></p><p>国外某些地方的价格也十分诱人。</p><p><br /></p><p>智慧水泥网报道说，国际市场水泥价格在每吨700到1200元左右。但这组价格没有统一品种、地区和交货口径，直接减去国内售价，算不出每吨多赚了多少钱。</p><p><br /></p><p>再看实际出口价格，情况就具体多了。</p><p><br /></p><p>根据行业运行报告援引的海关统计数据，今年上半年水泥出口FOB均价是每吨45.9美元，熟料是每吨33.5美元，都比去年同期有所下降。</p><p><br /></p><p>FOB说的是货物装上出口港船舶时的价格口径，不含后续国际海运等费用。这个价格与海外商店或经销商的报价口径不同，不能直接比较。</p><p><br /></p><p>海外有机会，也得逐笔算利润。</p><p><br /></p><p>沃丰接到了订单，就说明它找到了一个可以成交的买家。这单最终赚多少，还得看价格、运费、交货条件和回款。</p><p><br /></p><p class="text-big-title" label="大标题">02运费，决定水泥能卖多远</p><p><br /></p><p>先分清水泥与混凝土。</p><p><br /></p><p>跨海销售的水泥，并非搅拌车里已经加了水、掺入砂石的预拌混凝土。前者以干料运输，后者受施工时间限制，不能混为一谈。</p><p><br /></p><p>水泥能卖到远方，难的是如何降低运输成本。</p><p><br /></p><p>陆上集货、港口装卸、船舶运输、目的港接货等各个环节都需要支付费用。高价商品的运费，可能只占货值的一小部分；水泥却不同，运输条件的好坏直接关系到是否能够承接订单。</p><p><br /></p><p>看看一条公开报道里的运费，就明白了。</p><p><br /></p><p>今年四月份，中国驻越南大使馆经商处编译的报道提到，越南水泥此前港口交货价约为每吨41到42美金，运往中东的费用已达到每吨三十余美金。</p><p><br /></p><p>这不是沃丰订单报价，也不是中国到中美洲的运费，却说明了运输成本的分量：水泥还没交到客户手上，运输成本就可能达到货值的大半。</p><p><br /></p><p>以此次1.5万吨的订单为例，每吨运输费增加10元，总开支就增加15万元；每吨增加50元，就多出七十五万元。</p><p><br /></p><p>这只是运输成本变化的算术，并不是本单的实际费用。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/48101e98-2ed3-460a-97f5-9767f1d37c6a.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">▲资料整理：按1.5万吨货量计算支出增量，仅作假设示意，非本单实际运费或利润。瞰见Lab制图。</p><p><br /></p><p>工厂出货便宜多少、能否少一次中转、船能否按时交货，都会影响最后的结果。这样的货物，签合同前就得把物流安排算进去。</p><p><br /></p><p>所以，国外卖得贵，也不代表水泥厂就能接到出口订单。</p><p><br /></p><p>离港口多远、货物能否集中、装卸是否方便、货量够不够、谁负责送到客户手上，都会影响工厂能不能接单。</p><p><br /></p><p class="text-big-title" label="大标题">03找到国外买方，并不代表已经打开了市场</p><p><br /></p><p>沃丰这单有个容易被忽略的细节：订单是与外贸公司合作落地的。</p><p><br /></p><p>这几个字要比“出海”两个字更有解释力。</p><p><br /></p><p>合作方带来了需求，工厂也得作出调整。按智慧水泥网引述的企业信息，沃丰提前改造了出口包装线，适应单包净重、包装形式以及装船作业的要求。</p><p><br /></p><p>原来怎么打包、怎么出厂，接到国外订单后，也要按客户及运输环节的要求调整。</p><p><br /></p><p>以前工厂按照周围的市场需求来组织生产。如今远方客户的标准、交货期限、包装规格和付款方式，都得变成本厂能执行的具体任务。</p><p><br /></p><p>卖水泥，光告诉对方产品强度高还不够。</p><p><br /></p><p>以中美洲的危地马拉为例，当地政府发布的NTG 41095标准以ASTM C1157为基准，对当地销售的水泥提出性能和认证要求，当地生产和进口的产品都包括在内。</p><p><br /></p><p>目的地不一样，要核对的标准和准入条件也不同。在国内正常销售的水泥，到了其他国家，也得核对能否进入工程采购。</p><p><br /></p><p>还有使用者。</p><p><br /></p><p>进口商在哪儿存货、怎样分销，施工单位采用什么标准和规格，质量问题由谁处理，后续订单能否按期交付，都会影响客户是否再买。</p><p><br /></p><p>想做长期供货，送完第一单，后面还有很多工作。</p><p><br /></p><p>这些工厂不熟悉的环节，正是供应链企业能帮上忙的地方。</p><p><br /></p><p>今年四月份，苏美达披露，旗下技术公司完成首笔4.6万吨水泥熟料自营出口业务，这批货物从南通港发往东南亚。工作内容有国内采购、船期安排、码头作业、报关手续以及向国外客户交货等。</p><p><br /></p><p>这不是沃丰的合作案例，却让我们看见一条已经在运作的路径：把中国的生产能力与国外的具体采购需求接起来。</p><p><br /></p><p>产品造出来，还得交到客户手中，才算是一笔完整的交易。</p><p><br /></p><p class="text-big-title" label="大标题">04一家工厂的新路，整个行业的答案是什么呢？</p><p><br /></p><p>从光伏、家电到水泥，国内竞争激烈，不少企业开始把目光转向国外寻求发展空间。</p><p><br /></p><p>听起来就像是所有的过剩行业都可以借鉴的一个答案。</p><p><br /></p><p>可对水泥而言，“换个地方卖”还远远不够。</p><p><br /></p><p>同一份行业运行报告显示，今年上半年中国水泥出口量为410万吨。和同期7.36亿吨全国产量相比，约为0.56%。这一比较只算水泥，不含熟料。</p><p><br /></p><p>出口增长能给具体工厂带来新客户，但与全国庞大的生产规模相比，目前的出口量还是很小的。</p><p><br /></p><p>水泥还有另一条出海路径：在当地生产。</p><p><br /></p><p>华新建材半年报显示，截至今年六月底，它已在中国以外的14个国家布局，海外运营及在建水泥产能为4120万吨。</p><p><br /></p><p>海外本地生产，和沃丰把国内水泥运出去，走的是不同的路。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/99afae4a-96a8-4618-9095-d5c3ca6d4fff.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">▲华新莫桑比克栋多工厂。来源：中国建筑材料联合会，转引华新发布、数字水泥网。</p><p><br /></p><p>在国外建立工厂或者收购工厂可以更好地满足当地的市场需求，但是要投入大笔资金，还得管理当地的生产、人员和销售。在当地生产的水泥，并不是从国内工厂运出去的库存。</p><p><br /></p><p>对于有条件的企业而言，产品的出口可以是打开市场的第一步；客户和规模稳定后，本地生产也可能成为下一步。各家公司能走多远，要看自身能力，也要看当地市场容不容得下它的产品。</p><p><br /></p><p>家电要补品牌和售后服务的短板，光伏要能够满足当地的安装、并网要求，水泥要把运费、标准、交货逐项算清。</p><p><br /></p><p>国外买方不会因为中国的某一行业的产能过剩就主动购买这个行业的商品。</p><p><br /></p><p>这1.5万吨水泥让人欣喜的地方，在于一家之前主要做内贸的企业，第一次接通了外销渠道。</p><p><br /></p><p>接下来的事，说起来简单：货物按照规定送到，款项依照合同收回，下一批客户仍然愿意购买。</p><p><br /></p><p>国内竞争激烈，并不等于企业有了海外竞争力。一家企业想长久经营，得让远方的顾客确实觉得：在你们这里买货划算，交易也省心。</p><p><br /></p><p>本文写作说明</p><p><br /></p><p>本文根据企业的公开资料、行业的研究报告、上市公司发布的公告以及国外的标准文件来撰写，未采访相关企业。目前报道中没有提到沃丰订单的目的地国家、成交价以及实际运输费用等信息，文中的异航线运价仅供参照，不能用于计算本单利润。作者负责选题和判断工作，人工智能帮助进行资料整理、撰写和校对。</p><p><br /></p><p>主要资料来源</p><p><br /></p><p>智慧水泥网、中国经济信息网转载，百年建筑网引用泉兴能源企业新闻，中国水泥协会相关运行报告，苏美达公开资料，华新建材2026年半年度报告，中国驻越南使馆经商处翻译报道和危地马拉政府发布的水泥标准文件。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 第五次全球产业大转移的危与机</title>
+        <link>https://www.huxiu.com/article/4903161.html?f=rss</link>
+        <guid isPermaLink="false">44918883d1ca8be8092f77d676b83bd86815082b19b524c22e4e159ab6dba624</guid>
+        <pubDate>Thu, 05 Nov 2026 10:32:52 +0800</pubDate>
+        <author>分析师Boden</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以历史纵深剖析第五次产业转移的分散性特征，指出传统指标掩盖的隐性风险，提供区别于主流乐观论调的产业战略视角，信息密度高且具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzkxMzcyMDkzOQ==&amp;mid=2247484171&amp;idx=1&amp;sn=324bcc5c5205dfcef8c1a96a223b00aa&amp;chksm=c03ae025a01d5d3dd639c1f36e41bf09ed083e80ae2f136524cf0b2ab074353caf7316bd0b75#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 分析师Boden </span></a><span class="text-remarks">，作者：分析师Boden</span></p><p><br /></p><p>2014年前后，中国经济学界曾为“第五次产业转移”爆发过一场激烈的大讨论。</p><p><br /></p><p>作为全球第四次产业转移的最大赢家，中国能否在第五次转移中独善其身，一度被渲染成国运之战。再加上当时国际局势，美国企图绕过中国主导TPP谈判，关于中国产业的悲观论调一时占据上风。</p><p><br /></p><p>十余年后，中国已经实现万亿美元顺差，TPP却被美国自己抛弃，似乎我们已经安稳度过了这场危机。</p><p><br /></p><p>但风险真的解除了吗？</p><p><br /></p><p class="text-big-title" label="大标题">从未消失的达摩克利斯之剑</p><p><br /></p><p>今天不少人对中国制造的规模优势感到安心，我国制造业已经连续16年全球第一，从任何一个传统指标上都看不出衰落迹象。</p><p><br /></p><p>但这才是最危险的地方，因为这一轮转移本就是分散性的，它难以被察觉。</p><p><br /></p><p>过去两百年的四轮制造中心转移，本质上是制造活动从一个国家搬到另一个国家，英国把制造搬到美国，美国搬到日本，日本搬到中国。每一次转移都有明确的国与国之间流动过程，旧中心失去制造，新中心获得制造。英国失去纺织，曼彻斯特的工厂便一家接一家关门。美国失去钢铁和汽车，底特律就从全球汽车之都变成破产城市，这在国际贸易里被称为替代性转移。</p><p><br /></p><p>这种替代性转移虽然残酷，却容易被察觉。民众能看到大规模企业倒闭以及由此引发的群体性失业问题，明确的信号让社会反而有了反应时间。</p><p><br /></p><p>日本90年代就是典型案例。当中国廉价劳动力的冲击刚刚碰撞到日本的纺织、机械加工等中低端产业时，社会就迅速察觉并调整政策，在有限的窗口期内利用出海一定程度上拿回了主动权。其实中国自身也有过类似的经验，2008年遭受次贷危机的中国沿海产业，出口骤降在短时间产生了千万量级的返乡工人，但也正是巨大的破坏力，让整个社会迅速达成新共识出台一系列调整政策。就如身体骨折，虽然剧痛但也因为有明确的信号，反而可以及时手术。</p><p><br /></p><p>可全球的第五次产业转移，却完全不同，它偏偏没有给出这种信号。</p><p><br /></p><p>如果从进程上看，这场转移早已开始。2017年前后全球供应链从“集中化”转向“去集中化”，当年中国占美国的进口份额达到21%历史性见顶，此后中国份额下降，新兴经济体上升，两条曲线一升一降完成交叉。</p><p><br /></p><p>2020年后，这场大转移更进入加速阶段，一众新兴经济体都获得了巨额的产业投资。此后5年，以越南、马来与印尼为主的东盟国家，以及墨西哥与巴西等美洲新经济体，其制造业外商直接投资普遍增长了100%以上。到2024年，即使曾经被视为落后地区的非洲，接受投资也首次达到1000亿美元大关，创下历史新高。</p><p><br /></p><p>时至今日，如果只看出口总额或者港口吞吐量，中国仍在增长。还没有一个经济体能够完整承接中国的全产业链优势，中国制造的安全感看上去十分牢固。</p><p><br /></p><p>但这不等于没有国家在承接中国的产业，相反，当下全球产业转移的规模已经十分惊人。</p><p><br /></p><p>2026年，三星手机60%与耐克50%的产能在越南，苹果四分之一的产量已经由印度吃下，墨西哥的名义汽车产能已经默默地突破550万辆大关，跻身全球前五。虽然它们现在还停留在中低端或者组装加工，但当年中国的产业扩张之路不也正是这么走过来的吗？</p><p><br /></p><p>可以说，在悄无声息间，这些国家已经吃下了惊人的份额。过去支撑中国产业的全球订单+中国工厂模式，正在逐渐被拆散。由此带来的影响，绝不仅仅是国际贸易份额的重新分配这么简单。</p><p><br /></p><p>这把高悬于世界工厂之顶的达摩克利斯之剑不仅没有消失，反而正在下落。</p><p><br /></p><p class="text-big-title" label="大标题">看不见的失血</p><p><br /></p><p>其实，第五次产业转移对中国的伤害已经逐步体现。</p><p><br /></p><p>过去数十年，全世界奉行的是生产集中模式，即尽量将生产集中在一个国家，并以此获得足够的规模效应。中国是这种模式最大的既得利益者，由于一张订单对应一个产地，一个产地又能连接一整条供应链。生产越集中，规模效应就越强，所能截留的价值就越高，中国成为这套生产集中模式的最大既得利益者。</p><p><br /></p><p>但今天，全球正在从生产集中走向分散。</p><p><br /></p><p>一方面，各个新兴经济体的廉价生产要素与相对完善的基建已经对全球资本有了足够的吸引力，开始疯狂吸收国际订单，争夺属于它们的时代红利。另一方面，发达国家的制造业回流与友岸外包体系，也在有意扶持全世界产生更多的生产节点，打破过度集中的局面。</p><p><br /></p><p>但对于中国而言，这可并不是什么好消息。过去一张订单集中在一个产地，但现在可能被分成三份，高端需求仍然留在中国，但中低端可标准化环节已经去了越南、印度、墨西哥等国。虽然现阶段国际存量订单还没有被大规模转移，但增量的蛋糕已经开始被切走。</p><p><br /></p><p>而随着国际订单的逐步分散，再加上我国的内需市场还处于恢复期，原有为全球市场准备的产能与实际需求不足的矛盾与日俱增。2021年开始，我国产能利用率就持续走低，到2026年三季度规模以上工业产能利用率只剩下73.1%。相当于每四条产线里就有一条闲置，快低于2016年上一轮供给侧改革时的最低位。</p><p><br /></p><p>但这一次和2016年有一个根本区别，2016年的过剩是周期性的，即需求最终还会回归，可这一次很有可能是结构性的。</p><p><br /></p><p>而最先反应这轮产业转移影响的，其实并非产能数据，而是就业数据。</p><p><br /></p><p>事实上，更隐蔽的影响来自就业端。分散型转移并不直接消灭存量岗位，因为工厂并没有大规模关门，我们很难指着某个车间说这里的工人因为产业转移失业了。但它会消灭增量岗位，企业如果预期未来三年的订单增量不在国内，就不会新建产线与多招员工、自然也不会有与之相关的管理岗位。</p><p><br /></p><p>从数据上看，虽然2025年我国城镇新增就业人数同比微涨0.1%，但传统制造业带动的就业岗位已经出现明显疲软。过去大幅吸纳就业的金属纺织与基础加工等六大产业，2025年不仅没有增加，反而还减少了近90万人。而传统制造业释放出来的劳动力，许多又流入了外卖家政与快递这三大蓝领岗位，目前这三大岗位的规模年增速全部超过3%。但这些岗位难以产生职业积累与技能升级。</p><p><br /></p><p>而当一个经济体的劳动力配置从“有技能积累曲线的行业”滑向“没有技能积累曲线的行业，长期是对整个国家人才储备的严重伤害。</p><p><br /></p><p>这种伤害的危险之处在于，它让一个经济体越来越虚弱，但却不产生强烈的痛感信号。表面上的相对稳定，反而会让社会误以为还有时间，从而错过最宝贵的调整窗口。</p><p><br /></p><p>在东亚的经济史上，曾有一个国家完整经历过这种没有剧痛的失血。</p><p><br /></p><p>80-90年代，泰国是亚洲制造业的超级明星，凭借4200万相对高素质劳动力，承接了完整的汽车、电子与轻工产业链，被称为亚洲工厂，一度是仅次于韩国的东亚第五小龙。然而在遭遇亚洲金融危机后内需断崖，与本国生产成本在人口老龄化后逐年上升，泰国的中低端制造业逐渐流向其他东南亚国家。</p><p><br /></p><p>当时的转移同样是分散型的，轻工纺织搬去柬埔寨、电子加工流向越南，汽车制造则去了印尼，并没有一个国家完整承接了它的所有产业。</p><p><br /></p><p>但诡异的是，面对如此大规模的转移，泰国在此后10余年，制造业却保持了一种反常的平稳。虽然工业增加值占GDP比重再未回到90年代43%的顶点，但至少在2010年前还能基本保持在38%以上，凭借曾经产业链积累的优势惯性，短期内没有出现断崖式下滑。</p><p><br /></p><p>恰恰是这种表面的稳定，也让泰国错失了关键调整的窗口。</p><p><br /></p><p>虽然一开始转移的只是中低端行业，但逐渐地，订单规模难以养活完整的本地供应链，产能过剩问题此后长期困扰泰国，亚洲金融危机前其产能利用率超过80%，但到2004年已跌落到68%。严重的过剩让企业盈利能力随之减弱，没有余力更新设备与升级工艺，产业链的完整性被一点点抽走。</p><p><br /></p><p>最终随着时间变化，留在泰国本地的存量产业逐渐老化，就业人数倒退。泰国曾花费数十年建立起来的产业集群，最终在经历08年次贷危机的二次打击后，彻底衰落。30年后的今天，绝大多数人已经记不起泰国曾经是亚洲工厂，其人均GDP被困死在7000美元区间，沦落成一个以旅游业和服务业为支柱的经济体。</p><p><br /></p><p>如果说替代性转移是经济体的骨折，那么分散型转移更像是内出血，隐蔽但同样危险。</p><p><br /></p><p>那么在这场看不见的失血中，我们还有多少的胜算?</p><p><br /></p><p class="text-big-title" label="大标题">中国需要找到新位置</p><p><br /></p><p>今天，全球产业转移的趋势无法阻挡，新兴经济体与全球产业融合是历史发展的必然过程，中国无法阻止订单向越南、印度、墨西哥分散，但这并不是说我们只能坐以待毙。</p><p><br /></p><p>实际上，危险与机遇从来都是相伴相随。</p><p><br /></p><p>每一次全球产业转移，旧中心的制造环节都会遭受重创，但在摧毁旧有利益网络的同时，也会创造新的需求。旧中心的出路从来不依靠守住原来的位置，而是要在新的需求中找到新的位置。</p><p><br /></p><p>曾经的意大利纺织产业其实就给我们提供了一个很好的示例。</p><p><br /></p><p>90年代以前，意大利是世界纺织业的翘楚，凭借极致的小工坊快反模式，做到了整个欧洲纺织品的规模与价格第一。可当中国巨量的廉价劳动力涌入全球市场后，意大利那套以家庭工坊为基础的产业链，被降维打击，在成本上毫无还手之力。</p><p><br /></p><p>但意大利没有选择与中国直接竞争，在第四次产业转移中，中国以巨量廉价劳动力改变了全球贸易格局，制造环节的成本被大幅拉低。而当制造变得廉价且可大规模外包时，市场对品牌与设计的高附加值需求反而被放大了。意大利主动放弃了成本比拼，退出标准化制造环节，转向了设计和快时尚服务，进入品牌全球化运营阶段。</p><p><br /></p><p>由于中国已把纺织品价格打得非常之低，使得意大利获得了更便宜的原材料和中间品。设计端的高溢价加上采购端的低成本，品牌时代的意大利纺织赚到了远比制造时代更丰厚的收益。2025年，其纺织出口额为369亿欧元，大约是中国的12%，但创造的利润已是中国纺织全产业的四分之一，是21世纪以来意大利转型最成功的产业。</p><p><br /></p><p>可以说，意大利纺织没有在成本上打败中国，它只是在第四次产业转移的的贸易格局变化中，找到了自己的位置。</p><p><br /></p><p>那么，第五次产业大转移的新需求是什么？中国如何找到自己的位置。</p><p><br /></p><p>今天，全球制造正在从集中走向分散，这是分散性产业转移的最大优势，它让更多国家第一次真正参与到全球制造中来，也让资本获得了更低成本的要素，全球制造网络因此变得更大更宽。</p><p><br /></p><p>可也由此带来了一个巨大的矛盾。</p><p><br /></p><p>当制造能力分散到更多国家，表面上看是有了更多的制造基地，但全世界的生产效率却是降低的。</p><p><br /></p><p>根据世界经济论坛报告，虽然过去10年投资到新兴经济体的海外投资额普遍翻了2-3倍，但这种分散投资也造成了相当大的资源冗余，对全球的GDP增长，运力与额外库存都造成了负面影响。到2026年，每年因为贸易碎片化直接损失已超过3000亿美元，间接则导致全球通胀率上升0.3个百分点，且随着这轮产业转移，碎片化的影响还在加速恶化。学术界给这个现象取了一个名字，叫做慢球化（slowbalisation），意指随着国际供应链的碎片与多元，全球化的效率正在变得越来越慢。</p><p><br /></p><p>但效率降低的根源，并非哪个国家真的变慢了。今天越南最新投产的设备可能比中国大多数工厂都新，在科技日新月异的当下，单个工厂的效率普遍仍在提升。</p><p><br /></p><p>真正的矛盾是，在生产越来越分散的当下，全球供应链的协调成本正在指数级上升。</p><p><br /></p><p>过去所有生产节点都集中在中国，协调成本无限接近于零。一家东莞的模具厂可以在接到需求后，3小时内把新样品送到深圳的产线。一间上海工厂的设备上午出现故障，苏州供应商中午就能开车赶到解决。</p><p><br /></p><p>这种物理距离层面的极致压缩，是中国能作为全球制造中心的效率来源核心。</p><p><br /></p><p>但现在随着全球生产节点从集中走向分散，全世界生产正在变得碎片化。</p><p><br /></p><p>越南的上游工厂和墨西哥的组装工厂之间隔着太平洋，匈牙利的基地和印度的供应商之间相差六个时区。品质标准怎么统一，供应链怎么对接，交期怎么协调，文化冲突怎么处理。这些在制造集中时代不存在的矛盾，在这个制造分散的时代突然全变成了问题，这一点想必任何在海外有生产经验的参与者，都能感同身受。</p><p><br /></p><p>全球分工体系正在从紧密的网，变成一堆散落的珠子。看起来全球化的生产节点增加了，但这些分散的节点，并没有最大化它的生产效率。</p><p><br /></p><p>但这又何尝不是这轮产业转移，最大的需求，或者说是价值点。</p><p><br /></p><p>在这里我想问您一个问题：当全球生产集中时，什么最值钱？</p><p><br /></p><p>答案是制造能力。因为谁拥有最低成本、最高效率的制造能力，谁就能吸引全球的订单和资本。中国过去三十年，靠的正是这种能力。</p><p><br /></p><p>可当生产从集中走向分散时，什么才是最值钱的？</p><p><br /></p><p>在这轮全球贸易格局的重构期，世界需要一个新的生产组织者，来组织这些分散的节点，使其资源效率最大化，而这便是第五次产业转移的新需求。</p><p><br /></p><p>谁有能力成为这个新组织者，它在新一轮全球产业的价值分配中也必然占据最有利的位置。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/c52a2480-ccec-4297-a024-a44b74a9fef4.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">中国经济的下半场</p><p><br /></p><p>那么我们为什么一定要成为这个全球生产组织者？因为它对于中国的意义，远不限于产业成功出海，或者创造大量出海岗位解决就业这么简单。</p><p><br /></p><p>它更决定了中国的经济发展能否顺利过渡到下半场。</p><p><br /></p><p>根据经典的索洛增长模型，一个经济体的增长主要依赖三个引擎：资本投入、劳动力数量与全要素生产率。前两者属于短期因素，会随着边际收益递减而逐渐减弱。全要素生产率才是长期因素，它依靠的是技术进步和资源配置优化。</p><p><br /></p><p>任何一个经济体想要实现长期增长，最终都需要依赖全要素生产率的持续提升。</p><p><br /></p><p>中国过去四十年或者说上半场的增长主要依靠的是前两个短期因素，人口红利和土地资本（房地产）红利在特定阶段释放出了巨大的增长动能，但它们都有天花板。今天，中国的劳动力见顶，地产回报率下行，这两个引擎正在逐渐熄火。</p><p><br /></p><p>可问题在于，接棒的那个引擎，还没有真正启动。</p><p><br /></p><p>单看数据，中国的创新投入是全球顶级。2025年研发经费超过3.6万亿元，专利申请量全球第一，研发人员总量全球第一。可全要素生产率对经济增长的贡献长期偏弱。2009到2023年的增长中，资本与劳动力累计的贡献了71%，全要素生产率只贡献了28%。</p><p><br /></p><p>换句话说，中国长期创新技术的投入，并没有带来合理的回报。</p><p><br /></p><p>技术投入变成了产品，但产品却没有变成更高的收益回报给社会，比如中国的光伏锂电早已世界第一，但全行业的利润却薄如蝉翼。</p><p><br /></p><p>当下的问题，早已经不是技术投入的不够多。</p><p><br /></p><p>事实上，全要素生产率并不只由技术进步决定。组织效率、人力资源有效利用，生产资源优化能力等等，同样是关键变量。</p><p><br /></p><p>技术投入能否转化为经济的提升，最终取决于这些软性价值变量能否被充分释放。可这些软实力恰恰是中国制造在过去三十年积累得最多，却在现有以制造优先为导向的经济循环模式中，难以被充分释放价值的变量。</p><p><br /></p><p>而成为全球制造的组织者，就是要释放这部分效率，或者说价值。</p><p><br /></p><p>成为组织者，并非要与新兴经济体去竞争制造业谁更强，而应当去提升全球生产制造的总体效率。全球制造业分散到多节点后，节点之间每一次寻找供应商、比对品质、协调交期、处理文化差异，都在消耗效率。组织者需要做的是，降低全球生产网络的摩擦系数。因为节点之间的摩擦越小，同样的劳动力和资本就能产出更多。而中国也可以在这轮效率提升中，将这些软实力变成可交易的显性资产，充分释放其价值。</p><p><br /></p><p>这个层级不需要生产任何产品，但它决定产品在哪里生产、用什么标准生产、找谁配套、利润如何分配。</p><p><br /></p><p>它掌握的是全球生产背后的配置权。</p><p><br /></p><p>而配置权一旦形成，释放的就不仅仅是中国产业的真正价值，还将实实在在地改变中国的就业结构。</p><p><br /></p><p>在制造时代，全社会的岗位以工人或工程师为主，就业结构其实非常单一，所能创造的高薪岗位也极其有限。</p><p><br /></p><p>但到了组织全球生产的时代，岗位类型会成倍展开。全球项目经理、供应链协调员、跨文化培训师、质量标准设计者、本地化运营专家等等，每一个新环节都在创造新的职业通道，就业结构会从单一走向多元，中国将进入以制造与生产型服务业双主导的阶段。而这些岗位的薪酬水平和职业前景都远高于传统制造岗位，并且它们不是从国内其他人手里抢来的，是从这轮产业转移的新需求中创造出来的。</p><p><br /></p><p>那么，中国凭什么能站到这个位置上？</p><p><br /></p><p>组织全球分散制造网络的核心其实是人与生态，需要的是大量处理过最高复杂度制造环境的人，以及在任何行业任何环节都能找到配套的产业生态。</p><p><br /></p><p>德国和日本擅长制造，但深耕品类不足，经验深却不广。印度和东南亚有足够多的人，但他们制造能力还太薄弱。美国在二战后曾有组织过全球制造的历史，但随着产业生态迁移，能力早已退化。</p><p><br /></p><p>因此，至少在这个欧美制造业还未回流，新兴经济体制造能力薄弱的窗口期，中国依然还是这个星球唯一具备这项能力的国家。</p><p><br /></p><p>而能否成为全球生产的组织者，同样决定了中国经济的下半场能走多远。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] Circle：业绩“虚胖”，渠道大户“反咬”下，做大生态是唯一出路</title>
+        <link>https://www.huxiu.com/article/4903167.html?f=rss</link>
+        <guid isPermaLink="false">98bf2887e04396ad8edc5c3a16530f44597ce408c1d508e9305d84742f5fe8ad</guid>
+        <pubDate>Thu, 05 Nov 2026 10:46:04 +0800</pubDate>
+        <author>海豚研究</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：深度拆解Circle三季报，揭示Arc代币一次性收入掩盖主业疲软，并分析渠道大户反咬的生态困境，数据扎实、洞察独到，具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzE5MTU3MzA2OQ==&amp;mid=2247579368&amp;idx=3&amp;sn=6355258dfdb54565bed1017c05054b98&amp;chksm=974249cb58fd69535eeb9e01f7b61c3f37e97e153d97e43937be80fc123b3ee6afcbee362d27#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 海豚研究 </span></a><span class="text-remarks">，作者：海豚君，原文标题：《Circle：业绩 “虚胖”，渠道大户 “反咬” 下，做大生态是唯一出路》</span></p><p><br /></p><p>Circle美东11月4日盘前发布了三季报。整体而言，本次业绩主要靠Arc代币销售收入来实现的“超预期”，但若剔除这部分后其实业绩一般，印证了资金在财报前的担忧。</p><p><br /></p><p>具体来看：</p><p><br /></p><p class="text-big-title" label="大标题">1、储备利息收入预期内下降</p><p><br /></p><p>Q3储备利息收入6.6亿，符合预期。在USDC市值同比增长8%的情况因利息同比下滑而减少了8%，环比看USDC在Q3平均流通规模733亿，相比Q2减少4%。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/1e322570-041a-4f51-9fbf-b9472ea7db6b.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/342c169b-c337-4927-84a9-473ee20a8530.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/280e2e6d-b89b-4e71-ab0d-c62ba7084a57.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/50522d1e-89ce-45c2-9d7b-e75bcb736d69.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">2、Arc代币销售确认节奏比想象中快</p><p><br /></p><p>Q3其他收入有2亿多，其中Arc代币销售收入就确认了1.8亿，确认节奏超出市场预期（预计0.9亿）和原先全年1.8亿的指引。</p><p><br /></p><p>不过这笔收入并不稳定可持续、更偏一次性的收入，从其他收入全年不变的指引3.1-3.3亿来看，预计Q4没有这笔收入。今年两轮预售合计2.24亿，Q3确认掉1.8亿后，还剩0.4亿将在明年确认。</p><p><br /></p><p>这笔Arc代币预售，吸引了众多机构资金。但这本质是对Arc公链这个资产未来收益的“股权认购”，但Circle把它先记为预收款，然后按Arc链产品开发进程，最终确认为收入。</p><p><br /></p><p>股权认购款=收入，本身就很诡异，无法给到靠谱的展望。除非持续的发代币“融资”，所以就是一次性的收入，不具备稳定可持续的业务特征。</p><p><br /></p><p>真正持续的收入要等2027年，来源是Arc的交易费、质押收入和CPN支付网络的收费。ARC预售只是提前把未来的一部分价值变现了。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/dcd445a7-b91b-438c-ae59-80ffa9e9729a.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">3、大渠道“反咬”，后续利息分成压力加大</p><p><br /></p><p>因为Arc代币销售基本无成本，因此1.8亿相当于纯利润，带来Q3当季利润的“虚胖”。如果提纯后，真实盈利趋势是往下的——由于收入减少，费用相对刚性，GAAP经营利润率3.9%环比Q2实际掉了1个点。</p><p><br /></p><p>不过，Q3业绩还反映了费用端因裁员带来的优化趋势。Circle的费用接近一半都是人员薪酬，因此经调整经营费用（剔除裁员补偿费用）环比下降5%，体现的是本季度内裁员5%。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/ebc3e1a4-aee0-49a2-981a-aca17e9a1afe.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>值得一提的是，从Q3季度起，利润端会逐步体现Hyperliquid分息影响。海豚君粗略计算，对于Circle来说，每年直接少掉的毛利润近1亿，最早Q4就开始明显体现这笔因渠道反抗带来的收益变动压力：</p><p><br /></p><p>Hyperliquid是最大的链上永续合约交易所，自己有一条公链。用户在上面交易要先存USDC做保证金，所以平台上沉淀着一大笔USDC，大约60亿美金。对Circle来说，这是交易所之外少数几个大体量的USDC沉淀池。</p><p><br /></p><p>在CLARITY法案不同利益方拉扯之际，从9月开始，Hyperliquid要求Circle将USDC所对应的储备利息进行返还。但因此Circle与Coinbase有约定好的分成协议——Coinbase平台内托管USDC拿走100%利息，Coinbase和Circle托管之外的USDC利息，Coinbase要分走50%。</p><p><br /></p><p>因此为了满足Hyperliquid的利息返还要求，就得走Coinbase通道。这样做的结果是：</p><p><br /></p><p>（1）Hyperliquid拿回绝大部分利息（预计90%）；</p><p><br /></p><p>（2）Coinbase和Circle分别少了50%的利息分成，多了这部分90%的USDC平台内托管规模（AUC），Circle留存10%；</p><p><br /></p><p>目前Hyperliquid生态内USDC总量为63亿美金，按3.5%算，储备利息收入为2.28亿每年，Hyperliquid要分掉其中的90%即2亿。剩下不到3000万的利息，Coinbase和Circle分掉。</p><p><br /></p><p>也就是说，原先可以确认2.28亿利息收入、1亿的毛利润（剔除发行成本、原本协议分给Coinbase50%的分成），最后变成到手只有1000万的毛利润。</p><p><br /></p><p>Q3毛利率52.4%，剔除Arc代币销售带来的纯利1.8亿之后，毛利率为39.5%，环比Q2已经能看到一些影响。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/fd6b1f90-8ae2-442b-b6a9-f9b7a9d92cfb.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>而USDC在Coinbase中的份额快速提高至30%，但分成收入在Circle分成成本中的份额反而快速下降到35%，也能印证Hyperliquid“反抗”带来的影响。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/f48e3e1b-6cc6-4987-a469-13910daeb56c.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/b0f5ca01-589d-4a08-bfea-249bd752b7cf.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">4、重要指标一览</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/b890e257-cd5a-44d7-a494-21c2e71d72a3.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">海豚君观点</p><p><br /></p><p>三季度业绩只是确认节奏差异带来的“虚胖”，因此并未带来真实的惊喜。</p><p><br /></p><p>指引上，收入、盈利均未改变。RLDC利润率（收入扣掉分发成本，类似于毛利率）全年保持在42%左右，算下来Q4毛利率大概下降至30%多，由此看到Hyperliquid带来的影响进一步加深。</p><p><br /></p><p>不过，Hyperliquid的事件因为是9月披露，并且影响可量化，因此市场应该基本priced-in。但风险点在于，以后是否会出现第二个Hyperliquid？</p><p><br /></p><p>除此之外，稳定币的竞争也在加剧。USDC的优势主要体现在美债抵押和合规性高，同时强绑定了与监管部门关系更硬、美国主要的中心化数字货币交易所Coinbase。</p><p><br /></p><p>但金融机构之间的博弈也在变化。随着USDC与Binance关系走近——Binance投资Circle 1亿美金的股权，扩大和续签双方的战略合作伙伴关系。</p><p><br /></p><p>虽然与Binance的合作主要是重点面向新兴市场，但难免也会对于Coinbase的关系产生微妙。而由Coinbase与一众传统金融支付链玩家一起推出的Open USD联盟币，也在9月30日上线。</p><p><br /></p><p>不过海豚君认为除了USDT，USDC相对联盟币目前仍有显著优势，联盟币反而可能因为利益方太多而形不成有效合力。相比而言，其他金融机构对Circle的掣肘更可能是类似于Hyperliquid这种渠道大户要求利息返还带来的风险和影响。</p><p><br /></p><p>因此尽管管理层对USDC流通额扩张的长期指引仍然积极（CAGR 40%增速），但短期甚至中期视角，都需要依赖本身Crypto市场的繁荣（USDC的主要场景），和USDC面对竞争的突围。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Personal Agent，超级共识还是超级泡沫？</title>
+        <link>https://www.huxiu.com/article/4903165.html?f=rss</link>
+        <guid isPermaLink="false">7ee913ef96e0dc724398b0bf8671da197ed7bae8f287728969b4dde2b99fad28</guid>
+        <pubDate>Thu, 05 Nov 2026 10:42:37 +0800</pubDate>
+        <author>AIX财经</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以Muse千万用户数据为切入点，揭示个人智能体赛道技术无壁垒、估值分化、复刻周期仅三个月等反常信号，提供泡沫与共识的批判性分析框架，具备产业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/n3UkQzT2iZX9COYpy__UGw" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> AIX财经 </span></a><span class="text-remarks">，作者：AIX财经团队，编辑：魏佳</span></p><p><br /></p><p>大厂、大模型公司、创业者疯狂押注。</p><p><br /></p><p>AIX财经（AIXcaijing）原创</p><p><br /></p><p>10月底，扎克伯格在Meta的财报会上披露，Muse上线约一个半月，在美国和加拿大已有超1000万人设置个人智能体。Muse于9月上线，当月Meta股价上涨约27%，创下2022年11月以来最佳月度表现。这家此前被认为在模型竞赛中落后的公司，靠一款消费级产品重新拿回了话语权。</p><p><br /></p><p>跟进者随即密集出现。阿里、腾讯、字节都已推出或在筹备自己的产品；OpenAI、Anthropic、xAI相继发布个人智能体；肖弘、齐俊元等打造过成功产品的创业者也带着新项目入场。资本同样在加注，只有14个人的Instinct，估值已达100亿美元。</p><p><br /></p><p>但这股热度里，有几处明显的反常。</p><p><br /></p><p>第一，技术几乎没有壁垒。Muse上线两周后，就有人发现其工作区文件名与开源项目OpenClaw相同，Meta产品负责人也承认“深受其启发”。多位从业者表示，同类产品三个月左右就能复刻。</p><p><br /></p><p>第二，估值差异很大。年化收入4亿到5亿美元的Manus，估值约40亿美元；尚未向用户收费的Instinct，估值却是它的两倍半。</p><p><br /></p><p>第三，声量走在产品前面。国内大厂动作频繁，但多数产品还没有进入大规模公开使用阶段。</p><p><br /></p><p>一个容易复制、尚无统一定义的品类，为什么能让几乎所有玩家同时下场？他们各自有什么长处和短板，又共同卡在哪里？这究竟是实火还是虚火，谁更有机会跑出来？</p><p><br /></p><p class="text-big-title" label="大标题">01.大厂、大模型、创业者都来了</p><p><br /></p><p>Personal Agent至今没有统一定义。Meta说它能理解用户目标、全天候替用户完成任务；Anthropic强调它知道何时该主动、何时该代表用户行动；肖弘的Cue给出的定义最激进，一个有独立手机号、邮箱、支付和电脑的智能体。说法各不相同，共同点是用户只提需求，找哪家、怎么办、怎么付钱，都交给AI。</p><p><br /></p><p>本文讨论的就是这一类产品：能长期记住用户的信息，主动安排事情，并在用户授权下跨多个App把事情办完。只会问答的聊天机器人、只做单次任务的工具，不在主要讨论范围内。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/de2f2c6f-c7de-4d52-8cea-58e02e14ab41.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>之所以让所有人坐不住，在于它可能改变用户找服务的方式。过去，用户打开App、比价、下单，流量和交易都留在平台上。以后，如果用户只对AI说一句话，由AI决定去哪家、怎么付款，很多App就会退到后台，变成被调用的服务。此前，有用户让Muse订住宿，它没有在Airbnb上下单，而是找到了直订渠道，最后比平台价便宜了约60%。就是一个例子。</p><p><br /></p><p>谁能替用户做选择，谁就可能握住下一阶段的流量分配和交易分成。三类玩家都想占住这个位置，出发点却各不相同。</p><p><br /></p><p>第一类是大厂，也是投资人和从业者短期最看好的一方。Meta的Muse已经上线；阿里推出了千问Go；腾讯布局小微，另有LightVela、Handy Bot两款产品；字节在筹备Spell。</p><p><br /></p><p>大厂的优势在于有现成的生态，用户、账户、支付都在自家体系里，不必从零拉新，也不必另接支付。落到产品上，一种做法是把Agent直接放进现有App，比如腾讯的小微长在微信里，另一种是有独立App，再依靠自有生态导流，比如Muse。</p><p><br /></p><p>功能上，大厂也先从自家生态做起。小微打通微信原生功能、小程序和生活服务；Spell被视作豆包手机助手能力的延伸；Muse连接WhatsApp、Instagram和Messenger，还接入Stripe支付，并拓展沃尔玛等商户，试图覆盖从下达指令到完成支付的全过程。</p><p><br /></p><p>对大厂来说，这件事既是进攻，也是防守。自己不做，用户的需求就可能被别人的Agent接走。一位投资人表示，国内大厂很难简单复制Muse，但这个方向必须跟，“跟不了第一，也不能缺席。”</p><p><br /></p><p>第二类是大模型公司，代表产品包括OpenAI的Dots、Anthropic的Duet和xAI的Grok Bot。</p><p><br /></p><p>它们最强的是模型，但焦虑也来自模型。如果用户最终都在Muse这样的应用里调用模型，模型厂商就只是后台供应商，可能只收算力费用，交互、数据和订阅关系则留在应用层手里。对这些公司来说，推出Personal Agent是避免退化为后台供应商。</p><p><br /></p><p>三家的产品都侧重工作场景，Dots依托ChatGPT插件生态，可连接超4000款应用，适合跟踪资料、维护代码、同步项目材料；Duet提供6000多个连接器，覆盖Gmail、Slack、QuickBooks等工具，面向邮件、日程、财务和客户事务；Grok Bot强调多智能体协作，并与X深度结合，更适合内容、运营和调研任务。</p><p><br /></p><p>选工作场景，是长处也是无奈。工作软件大多开放接口，模型公司的工具连接能力用得上；而生活里的订餐、出行、购物，入口和支付都握在平台手里。模型公司没有自己的消费场景和支付体系，很难从这里切入。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/5fcf17c9-dcb7-49a4-9ea0-c93888d5ceb9.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">图源/Unsplash</p><p><br /></p><p>第三类是创业公司，它们没有生态，也不掌握最强的模型，产品形态差异最大，更依赖创始人的判断。AI投资人肖晓表示，他的投资标准有两条，有相关成功产品，或者是天才创始团队。头部几家正好分属这两类。</p><p><br /></p><p>肖弘属于前者。Manus曾经以超过20亿美元身价出售给Meta，交易被叫停、公司赎回独立后，团队推出了Cue。它给每个AI配置独立邮箱、手机号、钱包和云电脑，让它以数字主体的身份替用户办事，比如接房东的续租电话，或在预算内完成付款。</p><p><br /></p><p>Today AI创始人齐俊元也属于前者，他曾做出过Teambition，还历任阿里云盘负责人、飞书产品副总裁、豆包PC端负责人，于2025年11月离职创业。他的Today AI全球版与Muse同日上线，主打活记忆和主动性，通过记住用户的项目、联系人和未完成事项，生成早晚简报并跟进任务。</p><p><br /></p><p>Noah Shinn属于后者。他今年23岁，曾在美国东北大学同时学习化学与计算机科学，2023年辍学创业。他的Instinct没有独立App，只用短信、电话、iMessage、WhatsApp等已有通道交互，会发短信就能用。这家公司只有14个人，估值100亿美元。</p><p><br /></p><p>头部之外，还有一批小团队从更窄的场景切入。比如面向内容创作者的UniCone，从授权的屏幕和聊天记录里整理素材、拆解任务；理旦则把语音、截图和聊天记录转成待办。这些产品一部分还尚未成型，团队也很精简。</p><p><br /></p><p>三类玩家的起点不同，大厂从用户和支付出发，模型公司从模型和工具连接出发，创业公司从产品设计和具体场景出发。但要做成一个真正替用户办事的Personal Agent，它们都面临同样的关卡。</p><p><br /></p><p class="text-big-title" label="大标题">02.技术通用，三道难题行业解不了</p><p><br /></p><p>产品已经不少，为什么还没有一家做出完整的生活助手？</p><p><br /></p><p>多位从业者认为，各家的差距并不在底层技术。港科大博士杨智钦表示，许多Personal Agent与OpenClaw采用相似的基础技术范式，即由大语言模型驱动工具调用和多步执行。各家的差异体现在工具与数据接入、记忆和上下文管理、执行可靠性、权限机制，以及面向不同用户的产品设计上。开发者伯克希也表示，从工程实现的角度看，各家底层差异有限，不同更多体现在面向什么用户、怎么设计产品。</p><p><br /></p><p>真正的难点是，Personal Agent要长期理解一个人，并在没人盯着的情况下主动替他办事，这一步还很早，主要因为三道难题。</p><p><br /></p><p>第一道是可靠性。</p><p><br /></p><p>假设各步骤相互独立、单步成功率均为95%，一个20步的任务全部成功的概率只有约36%。编程Agent写错代码，可以由开发者纠正，任务Agent跑偏流程，也可以由人盯着。Personal Agent的价值恰恰在于减少人的介入，一旦涉及付款、交易和隐私数据，出错就是真金白银的损失。</p><p><br /></p><p>Meta曾在内部测试中让真人承包商处理部分电话任务，随后暂停了这一做法，说明现有技术还撑不起用户完全放手。</p><p><br /></p><p>用户对风险的容忍度同样有限。资深AI产品经理小杨甚至表示，只有产品带来的便利达到他对数据安全顾虑的三四倍，他才愿意使用。现在还没有产品让他达到这个临界点。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/8ad6f6a7-94ca-41f5-a989-efc34c0f5a14.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>第二道是平台互通。</p><p><br /></p><p>Agent要替用户办事，就得进入别家的App、调用别家的数据，而大平台没有理由主动放行。Agent的一大价值是替用户绕开中介、找到更便宜的选择，这恰恰动了平台的利益。Agent越能替用户省钱，被绕开的平台就越不愿让它进来。</p><p><br /></p><p>此前，豆包手机助手发布“拒绝操作应用清单”，超150款APP明确拒绝豆包手机端AI智能体对其进行操作，包含微信、QQ、淘宝、天猫、美团、支付宝等多个国民级APP。海外的亚马逊也曾封禁Muse的代购访问。一位Today AI的用户告诉我们，自己让Agent挂号、缴费、订酒店、买机票，结果一个都进不去。</p><p><br /></p><p>行业正在寻找协议层面的解法。Meta与Sierra牵头，联合Stripe、沃尔玛等推动智能体协议，国内也有机构在推进互联标准。但互通不仅是技术问题，还涉及数据归属、流量分配、商业利益和安全责任，短期内很难解决。</p><p><br /></p><p>第三道是成本。</p><p><br /></p><p>Personal Agent要长时间在线，并持续保存和调用个人上下文。不止一位从业者表示，其推理成本可能高于编程Agent。</p><p><br /></p><p>投资人老钱表示，自己每天仅在工作和编程上的token消耗就接近10亿，如果生活场景全部接入，消耗还会大幅增加。而且，前两道难题会继续推高成本，可靠性不足，需要增加人工兜底；平台互通不畅，需要依靠截图识别等绕路方式操作，又慢又费算力。老钱的评价是，现阶段的Personal Agent“又费Token，又不够精准”。</p><p><br /></p><p>在没有通用解法之前，各家的办法都是把风险往小了压：有的产品先接低风险待办任务；有的产品规定关键步骤必须由真人确认；UniCone把数据存在本地并公开代码，让用户自己检查。</p><p><br /></p><p class="text-big-title" label="大标题">03.需求是真的，产品还在很早期</p><p><br /></p><p>可靠性、平台互通、成本，短期内都看不到通用的解法，可玩家和资金仍在一窝蜂地涌进来，这会不会又是一轮虚火？</p><p><br /></p><p>综合多位从业者的观点，需求已经出现，但产品还在早期。</p><p><br /></p><p>实的一面在需求。Muse一个半月吸引了超过1000万人设置，但这个数字有Meta自家应用导流的成分。更有说服力的是，有人愿意掏钱。据Instinct创始人Shinn在播客中自述，其用户注册三周内绑卡率达40%，授权用户留存率超过80%，产生购买的用户月均消费超过1300美元，平台年化交易额接近10亿美元。</p><p><br /></p><p>小杨表示，绑卡率、留存率和复购，是观察这类产品需求的重要指标。如果这些数据属实，说明已经有一批用户愿意把钱包交给AI。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/d378cc12-e10f-4599-8adc-2f7f0fed601d.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">Cue界面</p><p><br /></p><p>虚的一面在估值和产品。</p><p><br /></p><p>需求刚刚冒头，公司之间的估值差异已经巨大。</p><p><br /></p><p>Instinct估值100亿美元，是年化收入4亿到5亿美元的Manus的两倍半。但两家公司收费方式和收入结构不同，Manus更受关注的是年化收入运行率，Instinct披露的则是平台交易额，不等于公司收入，还需要考虑抽佣率和履约成本。</p><p><br /></p><p>一位曾任职华尔街对冲基金的投资人表示，目前Personal Agent还没有公认的估值方法。市场给这类公司定价，除了看收入，还包含增长预期、入口价值和未来交易抽佣空间。</p><p><br /></p><p>老钱提醒，国内AI应用公司的估值主要看收入增速，但Personal Agent用户基数低，早期增速天然好看，这一标准本身存在缺陷。投资人肖晓则认为，这类公司的估值普遍偏高，资金集中涌向这一赛道，不完全是因为产品已经得到验证，也在于AI行业目前缺少新的C端故事，而Muse恰好提供了一个海外样本。</p><p><br /></p><p>产品形态同样处于早期。</p><p><br /></p><p>曾在腾讯微信事业群和谷歌工作过的尚晋，是主流PersonalAgent产品的资深用户，他根据自身体验列出八条及格线：像人、触手可及、一直在、个性化、主动、克制、能闭环、保护隐私，目前大多数产品无法全部满足。他用下来，觉得Today AI和Dots的交互仍不够自然，最终留下的是Instinct和Muse，但这两款产品也没有达到理想状态。</p><p><br /></p><p>现在还看不出赢家，那谁可能最先跑出来？短期看，受访投资人和从业者更看好大厂。</p><p><br /></p><p>部分用户认为，大厂在安全、合规和问题兜底上更值得信赖；大厂生态能够提供更多接口和场景；面对高昂的算力与运营成本，大厂也更有承受力。投资人Mingke曾公开表示，做通用Personal Agent真正难的不是Agent本身，而是商业模式，流量从哪里来，如何与供给侧合作，交易怎样完成，最终由谁付费。</p><p><br /></p><p>终端厂商则是另一股变量。</p><p><br /></p><p>苹果、华为尚未推出与Muse同形态的独立产品，但它们掌握硬件、操作系统和端侧数据。目前主流Personal Agent主要依赖云端，一种可能的方向是把轻量任务放到手机本地处理，既降低算力成本，也减少隐私数据外传。</p><p><br /></p><p>老钱表示，如果这个方向成立，Personal Agent就可能从完全依赖云端的分身，转向云端与端侧协同。随着端侧模型能力和硬件条件成熟，手机厂商的竞争力也会随之提升。不过，发热、内存和本地模型能力仍是现实限制。豆包手机的遭遇也说明，即便拿到系统层面的权限，App照样可以说不。</p><p><br /></p><p>创业公司的机会，在大厂不方便做或做不了的地方。它们的关键，是建立能够被用户感知、并让用户愿意付费的差异化，例如服务特定人群，比如创作者；或者把数据留在本地、开放代码，在隐私上给出大厂给不了的承诺。这类产品可能做不大，但有机会在细分场景里站住，或者成为被收购的对象。</p><p><br /></p><p>对于这个还没有定型的赛道，老钱的态度很有代表性：“我看好，但我不下注。”在不少从业者看来，创业公司可能要试十个、二十个场景才能跑出一个，跑出来之后能不能赚钱，又是另一道关。</p><p><br /></p><p>*题图来源于Unsplash。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] “授权即自担责任”的合同实验：富国银行首次将AI智能体责任转移至用户</title>
+        <link>https://www.huxiu.com/article/4903159.html?f=rss</link>
+        <guid isPermaLink="false">e52fad986959f4c57c129a6a5301034163746f66b783ba2d6159f0d929ca269a</guid>
+        <pubDate>Thu, 05 Nov 2026 10:50:38 +0800</pubDate>
+        <author>互联网法律评论</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：深入拆解富国银行AI责任条款的法律与技术逻辑，揭示银行无法区分用户与AI代理的认证困境，对AI金融责任归属有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/H02xj3-U756PR23B6o7iRg" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> Internet Law Review </span></a><span class="text-remarks">，作者：Joshua&nbsp;Mitchell</span></p><p><br /></p><p>2026年11月24日，富国银行新版《在线访问协议》将正式生效。其中新增的第15条引发了广泛的关注：若用户授权第三方AI之恩给你提试用期网银凭证访问账户，则智能体发起的任何指令与交易，均可能被视为用户本人直接作出的行为，相关风险由用户自行承担；而富国银行不承诺对智能体行为进行监控，并保留随时限制或阻止特定工具接入的权利。</p><p><br /></p><p>这一条款被部分媒体夸张地解读为“银行第一次将AI犯错的责任完全转嫁用户”，虽然这种说法并不完全，但其背后的法律逻辑值得深入审视。</p><p><br /></p><p class="text-big-title" label="大标题">一、技术前提：银行无法区分“用户”与“用户的AI”</p><p><br /></p><p>传统网上银行的安全模型建立在一条基础假设之上：能够正确输入用户名、密码及验证码的主体即为账户持有人。但AI智能体的出现，打破了这一假设。</p><p><br /></p><p>当一个AI代理使用用户的凭证登录时，从银行认证系统的角度看，其与本人在键盘前的操作几乎毫无区别——相同的会话令牌、权限层级、账户视野。银行目前不具备密码学层面的技术手段区分用户本人的直接操作、经用户授权的第三方AI代理操作、窃取凭证的恶意程序操作。</p><p><br /></p><p>由此引出一个关键的法律处理方式：既然技术上无法区分主体，便通过合同将AI智能体行为“视为”用户本人的行为。富国银行第15条的核心正在于此——以合同约定固化“智能体即用户”的法律关系。</p><p><br /></p><p>不过这类合同能够写入合同，关键在于美国《电子资金转移法》（Electronic Fund Transfer Act）配套规则Regulation E所遗留的解释空间。</p><p><br /></p><p>Regualtion E对“未经授权的交易”（unauthorized transfer）设有消费者保护机制。在及时报告的前提下，用户因盗刷所承担的责任上限通常较低。如果在2个工作日内报告，责任上限是50美元，60天内则为500美元。更重要的是，该规则对“未经授权的交易”作了明确定义：由消费者以外的、未经消费者实际授权的人发起的交易。同时，该定义明确排除了“由消费者向其提供了访问设备的人发起的交易”，将此作为例外。</p><p><br /></p><p>也就是说，当用户将网银用户名和密码提供给AI智能体，或授权某一应用程序代为登录，按照该规则的文义解释，用户已经“提供了访问设备”。AI智能体并非未经授权的入侵者，而是持有用户凭证的授权使用者。若代理随后发起了用户未曾意图的交易，银行的法律论点是：用户将自己的钥匙交给了他人，用户应当为此承担责任。</p><p><br /></p><p>消费者银行家协会（Consumer Bankers Association）在2026年1月的白皮书中明确指出这是“该领域的核心教义问题”：若消费者授权AI智能体访问其银行账户并发起交易，消费者是否“提供了”访问设备，从而触发Regulation E的例外条款？</p><p><br /></p><p>截至目前，尚无法院或监管机构对此问题作出明确裁决或解释。富国银行新版协议的第15条正式以合同形式，预先确立了银行的立场。</p><p><br /></p><p class="text-big-title" label="大标题">二、行业分化：封堵路线与开放路线</p><p><br /></p><p>在同一时期，美国其他大型银行却采取了截然不同的策略。摩根大通、美国银行、花旗、嘉信理财均选择限制或拦截第三方AI智能体登录，强调资金转移必须有人类参与。富国银行则选择了不设硬性阻拦，允许智能体接入，但通过合同将责任前置至用户一侧。</p><p><br /></p><p>两种路线反映了不同的商业判断。选择封堵的银行的逻辑是：在身份识别与范围授权标准成熟前，如果允许AI智能体操作资金账户，等同于引入不可控的风险；富国银行的逻辑是：智能体接入是未来金融服务的流量入口，先占据场景，再用合同将潜在风险损失隔离。</p><p><br /></p><p>富国银行选择将新版条款于2026年11月24日生效，恰是黑色星期五（11月27日）之前。这也正是其上述商业逻辑的体现。感恩节后的几天是美国零售支付活动交易量最高的时期。AI购物智能体—旨在寻找优惠、完成购买和管理退货且无需人工审核的工具——正积极向消费者推广，这是富国银行要抓住的关键时间节点。</p><p><br /></p><p class="text-big-title" label="大标题">三、技术解法：范围化委派授权</p><p><br /></p><p>这个问题的技术解决方案其实并不神秘，思路也很清楚：不让AI智能体拿到用户的主密码，而是发给它一把“限定了用途的临时钥匙”。这把钥匙只能做某一件具体的事——比如“支付本月电费账单”，但不能“把所有存款转到另一个账户”。每一把钥匙都有明确的失效时间，用户可以随时撤销，而且撤销行为本身可以被记录和证明。</p><p><br /></p><p>这套思路在技术圈里有一套现成的工具。OAuth是一种授权协议，可以让用户授权第三方应用访问自己的部分数据，而不必交出密码。在这个基础上，还有更精细的扩展：富授权请求（Rich Authorization Requests）允许用户指定“只能付哪张账单、金额上限是多少”，背通道认证（back-channel authentication）允许用户在另一台设备上独立确认“是的，这笔交易是我批准的”。这些工具在规范层面都已经存在，在一些非金融领域也有实际应用。</p><p><br /></p><p>但问题在于，从“规范存在”到“银行把它建成可靠的生产系统”，中间隔着巨大的工程鸿沟。美国主要银行的核心交易系统大多建于上世纪八九十年代，改造它们需要数年时间和巨额投资。更重要的是，目前没有任何监管规则强制银行这样做——CFPB的开放银行规则因为诉讼被暂停，而且那条规则原本也只管数据开放，不管交易授权。没有监管压力，没有大规模损失案例，银行没有动力去启动这项改造。</p><p><br /></p><p>2026年10月，Meta和Sierra联合发布了“个人代理协议”（Personal Agent Protocol，代号Poppy），试图在OAuth之上建立一个专门针对AI代理的授权标准。富国银行是参与设计的早期银行之一。但这份协议目前仍是草案，版本号0.2，明确写着“任何部分都可能不向后兼容地变更”，而且支付功能被排除在核心范围之外。换句话说，它距离成为银行可以依赖的生产级基础设施，还有相当长的路要走。</p><p><br /></p><p>所以，真正的情况是这样的：技术方案已经有了蓝图，但银行端的工程改造尚未启动，监管推动力暂时缺失，行业标准还在草案阶段。在这段空窗期里，AI智能体只能继续走“借用用户密码”这条路——而富国银行的第15条，正是在这段空窗期内抢先落地的合同安排。</p><p><br /></p><p class="text-big-title" label="大标题">四、与中国市场的对照</p><p><br /></p><p>对中国读者而言，这件事的参照意义更为清晰——国内的规则起点不是“把责任推给用户”，而是“先把责任锚定在持牌机构”。</p><p><br /></p><p>2026年8月24日，中国支付清算协会发布《智能体支付应用自律公约》，是国内首部针对智能体支付的专项行业规则。公约第五条确立“谁提供支付服务谁负责”原则：凡涉及账户管理、交易处理、资金清结算等核心环节，必须由银行业金融机构、非银行支付机构、清算机构等持牌主体开展，并对用户资金与信息安全承担主体责任。在身份治理上，公约要求在传统KYC之外“探索建立KYA（了解你的智能体）”机制，对接入支付链路的智能体进行身份识别与验证，明确智能体与用户之间的对应关系，并按风险等级实施分级管理。授权层面，要求划定清晰的授权边界、签订责任协议、通过交易限额控制资金风险；自主发起支付前须向协会报备并接受业务、技术、伦理评估；关键交易节点须留存可验证、可追溯的证据链，用于争议处理与责任认定。</p><p><br /></p><p>在治理理念层面，工商银行行长刘曾提出一个更具穿透性的框架：银行面对AI，第一个问题不是“怎么用”，而是“它是谁、谁受益、谁担责”。他借用区块链“证明”机制的语言，提出“收益证明”——谁从智能体部署中获得收益，谁就独立承担相应责任。这一思路虽属业界治理讨论，尚未转化为监管条文，但与公约“持牌机构主体责任”的底层逻辑相互呼应。</p><p><br /></p><p>对照富国银行第15条，差异一目了然：美方条款把“收益归银行、风险归用户”合同化；国内公约则试图把“风险随服务走、责任随收益走”作为起点。前者是责任真空期的过渡安排，后者是试图在真空期之前就把责任骨架搭好的治理尝试。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] OpenAI details a pipeline that used an upcoming cyber model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2M in API costs (OpenAI)</title>
+        <link>https://www.techmeme.com/261104/p62#a261104p62</link>
+        <guid isPermaLink="false">30e869dcf9c372e7762f2b70b8ea47df930744d4dfd09eef4a02aaae4c697ab3</guid>
+        <pubDate>Wed, 04 Nov 2026 21:50:01 -0500</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：披露AI自动化漏洞挖掘与修复的完整管线：948个Linux本地提权漏洞、120万美元API成本，验证了安全研究从个案调查转向系统化流程的可行性，对AI安全工程化有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <a href="https://openai.com/index/a-thousand-fewer-paths-to-root"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261104/i62.jpg" vspace="4" /></a>
+<p><a href="https://www.techmeme.com/261104/p62#a261104p62" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> <a href="https://openai.com/">OpenAI</a>:<br />
+<span style="font-size: 1.3em;"><b><a href="https://openai.com/index/a-thousand-fewer-paths-to-root">OpenAI details a pipeline that used an upcoming cyber model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2M in API costs</a></b></span>&nbsp; &mdash;&nbsp; Security research that once required a separate, sustained investigation for each finding can increasingly be run as a systematic process.</p>
         </div>
         ]]></description>
     </item>
@@ -1535,835 +1925,6 @@
                 </div>
         </div>
       </a></section><p>许老板在生活细节方面也极其讲究，水果只吃日本进口蜜瓜，水只喝法国高端矿泉水，住酒店更有一套严格标准：必须包下一整层楼，酒店员工必须穿软底静音鞋，睡前还得拿黑色胶带遮上所有光源；房间要配备静音空气净化器和加湿器，如果没有，就从广州总部空运过去……</p><p>如此高调铺张的生活方式，正是靠恒大“高负债、高杠杆、高周转”的“三高”模式支撑。在<a href="https://www.zaobao.com.sg/forum/views/story20260104-8044043" target="_blank">网民口中的“经济上行时期”</a>，恒大版图的快速扩张助力许家印登上中国首富宝座。但随着2020年冠病疫情重创中国经济，以及官方同年为房地产行业划下“三道红线”，恒大债务风险持续上升，最终因资不抵债而轰然垮台。</p><p>综合媒体报道，恒大暴雷后在中国280多个中小城市留下1300多个烂尾楼盘，受影响屋主超过500万人；尽管官方持续推进“保交楼”，但至今仍有几十万个单位尚未交付。这不仅击碎数以万计的中国家庭置业梦，也令民众购房意愿降至低谷，至今未见明显起色。最新官方数据显示，今年首七个月，中国新房住宅销售面积下滑12.7%，同期销售金额下跌13.2%，依然“跌跌不休”。</p><p>恒大模式造就了房价的失控飙涨，恒大的起落也成了中国房地产从高歌猛进到跌落谷底的缩影。随着房市整体低迷，中国地方政府也被重击。<a href="https://www.zaobao.com.sg/news/china/story20260821-9555036" target="_blank">各地长期依赖的土地财政模式，早已难以为继</a>。中国走出疫情后的第四个年头，地方财政紧张局势仍未缓解，就连财力雄厚的上海，今年第一季的财政自给率也降至10年来同期最低水平。地方因财政资金不足削减基础设施与产业投资，导致税基萎缩、经济增速放缓，进而使政府收入进一步减少，陷入恶性循环。</p><p>根据深圳中院判词，早在2016年，许家印和恒大就开始通过大规模财务造假“虚增资产、隐瞒负债”。恒大多年来能瞒天过海，离不开许家印长年积累的政商关系网，让他得以在金融体系和各地官场来去自如，获取所需资金和项目。近年来落马的多名国有银行高管、地方官员乃至前司法部部长唐一军，据报都与恒大案有关，暴露出房地产行业政商勾结的痼疾。&nbsp;</p><p>本周另一起热点事件“<a href="https://www.zaobao.com.sg/news/china/story20260818-9538279" target="_blank">地产陪酒局</a>”则表明，即便在中国楼市由盛转衰后，官商勾兑的纽带仍未被切断，通过权色交易输送利益的潜规则依然存在，而且还是在经济发达、以亲清政商关系闻名的浙江杭州。套用中国官媒的说法，这何尝不是许家印时代的“遗毒”？</p><p>深圳中院形容恒大及许家印案“严重破坏社会主义市场经济秩序，侵犯公私财产权益，侵害国家工作人员职务行为的廉洁性，犯罪数额特别巨大，情节特别恶劣，造成特别重大经济损失，社会危害特别严重”，应当依法严惩。&nbsp;</p><p>许家印终于受到了法律的制裁，但许多恒大投资者、业主、债主和上下游供应商还没得到应有的赔偿，中国楼市仍在谷底摸索徘徊。要消化这个超级富豪和他代表的房地产热潮留下的泡沫，还需要更长的时间。</p> </article><br /><hr /><div>获取更多RSS：<br /><a href="https://feedx.net" style="color: orange;" target="_blank">https://feedx.net</a> <br /><a href="https://feedx.site" style="color: orange;" target="_blank">https://feedx.site</a><br /></div>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 访谈阿代尔·特纳：中国在清洁技术上对世界贡献非凡</title>
-        <link>http://www.infzm.com/contents/343878</link>
-        <guid isPermaLink="false">cb099748f29afdcd2e8d28daf4f3498154d38264f832c25066268ce0cf7cf21f</guid>
-        <pubDate>Tue, 03 Nov 2026 02:25:08 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：特纳以ETC联合主席身份，结合乌兰察布AI数据中心实地考察，剖析绿色投资高增但减排不足的根源在于能源总需求扩张，并涉及AI电力需求、清洁技术贸易等关键议题，视角权威且具增量。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-03 10:00:00</i></div><p style="text-align: justify;">“今年7月，我到内蒙古乌兰察布参观了一所在建的人工智能数据中心。它计划主要依靠新能源供电，尤其是风能，并配备电池储能技术。内蒙古拥有非常好的风能资源。”谈及此次考察，阿代尔·特纳（Adair Turner）颇为兴奋。</p>
-<p style="text-align: justify;">特纳现任能源转型委员会（Energy Transitions Commission）联合主席，曾任英国气候变化委员会主席、英国金融服务局主席等职务，2005年被册封为勋爵并担任英国上议院议员，他还是中国新能源企业远景科技集团的全球顾问。ETC专注于经济发展与低碳转型问题，是由全球大型能源企业、非政府机构和学者共同组建的联盟，为联合国以及各国气候相关机构、政府部门提供咨询。中国是他最常来的地方之一，“这里能看到最前沿的清洁技术（Clean Technology）”。</p>
-<p><img alt="全球能源转型委员会主席阿代尔·特纳勋爵 来源：受访者供图" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/02/b619ef7526.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">能源转型委员会主席阿代尔·特纳勋爵 来源：受访者供图</p>
-<p style="text-align: justify;">2026年10月下旬，全球海事论坛大会在上海举行，南方周末研究员在会议期间访谈了特纳，讨论AI带来的电力需求、新的气候目标、清洁技术贸易与能源转型障碍等问题。</p>
-<h4>AI数据中心应更多使用可再生能源</h4>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span><span style="color: rgb(149, 55, 52);"></span>ETC数据显示，全球绿色投资创下新高，碳排放却仍处在高位。为什么投资增长还没带来足够快的减排？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>根本原因是能源总需求仍在增长。随着生活水平提高，航空运输和空调需求增加，全球需要更多能源。中国是很好的例子：过去八年新增了大量可再生能源，但电力需求也快速扩大，燃煤发电直到最近才开始逐步减少。即使每年新增大量清洁电力，只要需求增长同样快，化石能源发电和排放就不会迅速下降。其他国家同样面临类似困境。绿色投资越多当然越好，关键在于，必须让可再生能源和其他清洁技术的部署速度超过能源需求的增长速度。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong><strong style="text-align: justify;">南方周末：</strong></strong></span>AI数据中心需要越来越多的电力，甚至一些原计划淘汰的化石能源电厂被迫延寿。要如何平衡算力技术发展与全球净零目标？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>要区分短期与长期。AI将是长期重要的新增电力需求，但不会改变能源体系的基本量级。全球目前每年用电约3万太瓦时；我预计2060年可能达到6万至7万太瓦时，本世纪末将达到约20万太瓦时。届时数据中心可能会使用2000至3000太瓦时的电力，但与空调普及、欧洲热泵取代燃气锅炉等带来的增量相比，这并非唯一挑战。AI值得关注，但不能忽视其他电气化的需求。</p>
-<p style="text-align: justify;">真正的问题是未来五年算力设施扩张太快。应尽量要求AI数据中心使用新增的清洁电力，而不是随意接入高碳电源。我在内蒙古看到的数据中心项目大量利用风电、太阳能与电池储能，这非常鼓舞人心。遗憾的是，美国不少数据中心还是使用燃气轮机。我希望中国能够率先制定更明确的绿色供电政策，要求新建AI数据中心尽可能配套新增可再生能源，而不是依赖原有化石能源电力。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>1.5摄氏度的控温目标越来越难实现，继续坚持它还有实际意义吗？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>世界气象组织对未来五年平均升温突破1.5摄氏度给出了超过75%的概率；联合国环境规划署的报告显示，如果延续现行政策，到本世纪末升温可能达到2.8摄氏度。</p>
-<p style="text-align: justify;">能源转型委员会（ETC）计划在第31届联合国气候变化大会上（<em>COP31，预计于11月9日在土耳其举行</em>）发布一份题为《仍然至关重要，仍然可能实现》（Still Vital, Still Possible）的报告，阐述如何将全球升温控制在2摄氏度以下，例如1.8摄氏度。要从1.8摄氏度重新回到1.5摄氏度极为困难，可能需要在2050至2100年间累计从大气中移除约5000亿吨二氧化碳，不仅要实现零碳经济，还要为大规模碳移除融资，并在国家之间分摊费用。2050年各国能否建立足够的互信和协调机制，现在还很难说。我们今天更现实的任务，是尽力把升温限制在约1.8摄氏度，给2050年之后的一代人留下在2100年前重返1.5摄氏度的可能性。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>这次论坛关注绿色航运走廊。在没有统一的全球碳税的情况下，替代燃料的高成本如何解决？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>可以从双边合作做起。例如中国与欧盟约定，让上海、香港或广州通往鹿特丹的部分航线逐步实现零碳运输，合作建设燃料供应和相关技术体系，并对使用这些航线的船舶设置碳价。这不一定要等全球所有国家达成协议。先在部分航线落实技术、燃料和碳价，再逐步推广。中国也可以考虑对内河航运实行碳定价，推动长江大量货运船舶电气化。双边绿色航运走廊能够为技术商业化创造市场，也可能吸引诸如美国等其他国家加入。</p>
-<p style="text-align: justify;">中国已经推进了不少绿色燃料和航运脱碳项目。据全球海事论坛报告，中国参与的绿色航运走廊项目从2022年的3个增加到如今的二十多个，并在绿色燃料开发方面取得了丰富的进展，尤其是零排放燃料与技术路径方面，较早开展绿色甲醇和绿色氨生产，且具备较强的成本竞争力，船用电池研发也处于行业前沿。</p>
-<p style="text-align: justify;"><em>（注：绿色航运走廊</em><em>“四项关键要素” </em><a href="https://downloads.ctfassets.net/gk3lrimlph5v/7FN8KvbcP2sk34p2iDknVj/807bdfe31d042c70f526eff14824b0fa/The-Next-Wave-Green-Corridors.pdf"><em>2021年在零排放联盟（Getting to Zero Coalition）</em></a><em>中首次提出，具体包括：可行的零排放燃料与技术路径、跨价值链协作、有利的政策环境、客户需求四个方面）</em>。</p>
-<h4>“打不过”中国，就加入</h4>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>欧洲用碳边境调节机制（CBAM）应对高碳产品进口，同时对中国电动汽车等清洁技术产品采取贸易限制。如何平衡产业竞争力与脱碳？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>首先必须区分高碳工业品与清洁技术产品。CBAM是为了解决碳泄漏问题：如果欧洲要求钢铁、水泥等行业承担碳成本，而其他国家没有类似碳价，企业可能转而进口高碳产品，欧洲的减排努力就会受损。这不是针对太阳能电池板、动力电池等清洁技术的关税，而是为了让进口高碳工业品承担相应的碳排放成本。我支持这一机制，也认为中国可以提高自身碳价，与欧洲建立类似“碳定价俱乐部”。</p>
-<p style="text-align: justify;">但中国的光伏、电池、风电和电动汽车技术是清洁技术（Clean Technologies）问题。中国在这些领域为世界作出了非凡贡献：技术创新提高了电池能量的密度和光伏的效率，大幅降低了全球能源转型的成本。在一个充分合作的世界，大家都会乐于采用这些技术。欧洲的现实困境是，一方面希望买到便宜的中国电动车，另一方面又要保护汽车制造业就业。</p>
-<p style="text-align: justify;">我建议对高度商品化的光伏组件，欧洲没必要耗费巨大资源重建制造基地，直接从中国采购即可；电动汽车与电池的供应链更复杂，可以有适度关税，但税率应温和，并设定到期取消的“日落条款”，给欧洲企业调整的时间。欧洲既要顾及就业，也应避免推高全球转型成本。还应鼓励中国电池、电动车、风电企业赴欧洲投资建厂，让欧洲获得就业和附加值，同时继续受益于中国技术。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>贸易壁垒会不会让全球南方国家更难负担清洁能源转型？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>未必。如果欧洲减少进口中国光伏组件，中国企业可能以更低的价格销往非洲和东南亚。因此欧洲的贸易措施并不必然提高所有新兴市场的转型成本。更重要的是中国、欧洲和其他国家合作，向非洲等低收入国家提供融资，使其能建设可再生能源和电气化设施。它们在很大程度上会使用中国制造的清洁技术设备。关键不只是设备价格，还有能否获得负担得起的长期融资。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>越来越多国家用补贴和产业政策扶持本土绿色供应链，传统自由贸易是否正在让位于国家干预？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>中国的成功说明，国家补贴、政策引导与活跃的市场竞争相结合十分重要。其他国家自然会效仿这种组合。但这不意味着放弃贸易利益，也不意味着任何关税都合理。以电动汽车为例，关税应该与补贴因素相称、符合世贸组织规则，而非随意设置，并最好限定五至十年，让欧洲企业最终必须在市场中竞争。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>你在《债务与魔鬼之间》里讨论过信贷错配问题。由央行引导金融资金进入绿色产业，会不会诱发新的债务危机？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>亚洲央行长期以来都支持有利于发展的产业。上世纪五六十年代，日本和韩国通过信贷政策帮助出口导向型企业；中国人民银行现在也使用融资机制支持高科技、绿色产业并抑制高碳投资。这与过去大量资金流入房地产形成了对比。金融监管也可以根据经济发展的需要作适度引导。我认为这有充分的经济理由。</p>
-<p style="text-align: justify;">至于化石能源资产贬值是否会引发系统性金融危机，我比较谨慎。埃克森美孚、中国石油等企业资产价值很大，但化石能源相关融资总量与房地产不是一个量级。2008年全球金融危机及上世纪90年代初北欧银行危机，都与房地产抵押信贷过度扩张密切相关。支持绿色金融的理由应是它有利于经济发展和应对气候变化，不必勉强把所有政策都包装成维护金融稳定。</p>
-<h4>相比技术，能源转型最大的阻碍在政治</h4>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>液流电池、压缩空气等非锂长时储能技术，未来有多大空间？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>清洁电力已经可以用风和太阳以很低的成本生产。真正的难题是无风、无日照时如何稳定供电。ETC研究了中国、印度、西班牙、英国30年的天气数据，认为电力系统可以达到70%至80%的可再生能源占比，但需要根据不同地区匹配储能。</p>
-<p style="text-align: justify;">在非洲一些日照稳定的地区，短时、昼夜调节是主要问题，电池能够承担大部分任务；在欧洲西北部，如果寒冷的2月连续两周风弱，则需要解决跨日甚至跨周的供电缺口。液流电池、压缩空气和液态空气储能可供数天之用，氢储能可应对更长的周期，欧洲可能仍要保留少量可调度的燃气机组，但只为极端天气准备，比如一年运行约300小时。</p>
-<p style="text-align: justify;">电池成本下降很快，应用范围已从几小时扩展到八小时，未来甚至可能覆盖接近两天的储能周期。因此我们需要的是技术组合，而不是押注单一路线。短期与长时储能应结合季节变化和电网互联统筹考虑。我预计，到2035年，欧洲部分电力系统可能接近零碳，排放强度只有每千瓦时约30克二氧化碳。还可以通过从挪威、法国等地输入电力补充本地供给。跨区域高压直流输电同样重要：在中国，连接内蒙古、新疆与东部负荷中心的线路，能在更大的地理范围内平衡风光出力，但不能消除极端天气风险。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>你对绿氢的长期判断发生了什么变化？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>我们下调了未来氢气的需求预测，从曾认为可能达到6亿吨，调整为可能不超过3亿吨。其中一个原因是中国电动重卡发展很快，重型公路运输也越来越可能直接电气化。中国重卡新能源渗透率已经超过30%，2030年40%的目标可能提前完成。因此氢在道路运输中的作用可能比过去想象的小，但在初级炼铁、化肥氨生产、航运和航空中仍重要。氢能更适合优先用于难以直接电气化的领域。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>低成本绿氢的产地远离工业中心，运输成本怎么办？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>距离并不一定那么远。我今年7月到内蒙古赤峰看过绿氢、绿氨项目，那里与河北部分地区相距约300公里，管道输氢可以考虑。另一条路是不运氢，而是运输氢生产的产品。澳大利亚未来可能拥有廉价绿氢，与其把氢运往中国、日本、韩国炼铁，不如在澳大利亚直接生产绿色铁再出口。换句话说，产业环节可以向低成本清洁能原产地转移，不必都把氢气长距离运往传统工业中心。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>航空和航运如何在生物燃料与高成本合成燃料之间选择？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>航空未来几十年可能仍使用液态碳氢化合物航油，只是改用生物或合成路线生产。航运则可能逐步采用氨和甲醇，需要改造船舶的发动机，已有企业在开发兼容不同燃料的发动机。船东可随绿色燃料供应的增加逐步切换。</p>
-<p style="text-align: justify;">必须承认，这些燃料不会自行变得与传统燃料一样便宜，需要碳价或法规来弥补成本差距。国际海事组织推动2050年净零排放及相应经济机制的努力很重要，虽然此前受到美国方面反对，但不能就此放弃。即使绿色燃料推高海运价格，运输在全球商品的成本中所占比例仍相对有限。集装箱航运效率很高，不能因为运价上升就停止航运脱碳。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>你认为2040年前商业核聚变电力进入电网的概率有多大？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>我个人估计有75%至80%的可能，届时世界某处的核聚变电站能够向电网送电，但它占全球电力的比重至多约1%。2030年代后期或许会出现商业规模项目，真正成为主要电源则需要更长时间。假设2060年全球发电量达到6万太瓦时，我预计核聚变可能贡献约5%，核裂变约10%，风光等可再生能源占70%。</p>
-<p style="text-align: justify;">许多公司宣称实现聚变“净能量增益”，但这往往只是在反应层面、持续极短时间的突破，离稳定净发电和低成本商业运营还有距离。即使出现首批接入电网的装置，仍须观察其运行时间、净电力输出、建造速度和度电成本，不能把科研突破等同于规模商业化。放到2100年的尺度，地球上的聚变发电也许会很重要，但距离地球约1.5亿公里的太阳内部同样靠聚变发光；我猜太阳能发电的作用仍会更大。</p>
-<p style="text-align: justify;"><span style="color: rgb(149, 55, 52);"><strong>南方周末：</strong></span>你一直对清洁技术很乐观。人类摆脱化石能源的最大障碍是什么？</p>
-<p style="text-align: justify;"><strong>阿代尔</strong><strong>·特纳：</strong>政治。如果世界有一个真正协调一致的全球政府，凭借现有技术，到2050年实现零碳经济并非难事。航空、航运可能更贵，但道路交通会更便宜，总体成本并非难以承受。</p>
-<p style="text-align: justify;">现实却是有些政府担心自己先承担减排成本、其他国家却继续使用廉价的化石能源，也有领导人甚至不认可气候变化问题。我们今天要努力让世界远离2.8摄氏度的升温轨迹，尽可能接近1.8摄氏度。即使我能推动的改变很小，也希望世界朝更好的方向前进一步。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 前国乒主教练，给阿尔兹海默病开出特别的处方</title>
-        <link>http://www.infzm.com/contents/343894</link>
-        <guid isPermaLink="false">074348a558b712486555a9c8897e64da8d46ea29b616f70c6b23de26cac716a6</guid>
-        <pubDate>Tue, 03 Nov 2026 05:25:08 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以社区乒乓认知康复为切口，呈现阿尔茨海默病干预从晚期治疗向极早期筛查前移的临床趋势，含仁济医院王刚教授20年门诊数据观察，具公共卫生与养老模式参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-03 13:00:00</i></div><p><img alt="2026年10月25日，上海豫园社区卫生服务中心认知康复的学员在上海交通大学霍英东体育中心参加2026世界乒乓球健康嘉年华。这项聚焦帕金森病、阿尔茨海默病患者的国际赛事汇聚了来自35个国" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/02/54fcb97254.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">2026年10月25日，上海豫园社区卫生服务中心认知康复的学员在上海交通大学霍英东体育中心参加2026世界乒乓球健康嘉年华。这项聚焦帕金森病、阿尔茨海默病患者的国际赛事汇聚了来自35个国家和地区的340名参与者 图/受访者提供</p>
-<h4>乒乓球声中的门诊</h4>
-<p>在上海市黄浦区豫园街道社区卫生服务中心<span>（以下简称“豫园社卫”）</span>，每周二和周四的下午，会准时传出乒乓球的脆响。打球的是一群患阿尔兹海默病的六七十岁的老人。有些人握拍的手会微微发抖，有些人练习几分钟后就需要坐下休息。一位坐轮椅的老人由家属推着来。他只在旁边看，也笑得很开心。</p>
-<p>不远处的另一间教室里，几位老人正在社工的带领下做“体脑协同”游戏。一个动作被拆解成一步、两步，如果两步能连贯完成，就算一次小小的胜利。隔壁的活动区摆着几畦小小的菜地，老人们自己种菜、种花。</p>
-<p>这些场景发生在一家基层社区医院里。在很长一段时间里，公众对阿尔茨海默病的认知停留在“老糊涂了”“没治了”的阶段——病人大多是被迷路、走失、大小便失禁这样的症状“押送”进医院的。</p>
-<p>“以前来看门诊的，大多数都是症状很明显、偏中晚期的患者。现在，有一半仅仅是因为担心或者出现了极早期的蛛丝马迹就来就诊。”上海交通大学医学院附属仁济医院神经内科主任王刚教授说。他从2000年读研起就专攻神经变性病，2006年开始出门诊，亲历了这20年间就诊人群的前移，接连牵头编撰了2024年和2025年的《中国阿尔茨海默病报告》。</p>
-<p><img alt="王刚（中）在豫园社区卫生服务中心进行指导 图/受访者提供" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/02/c01cd29d6b.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">王刚（中）在豫园社区卫生服务中心进行指导 图/受访者提供</p>
-<p>被问及当年为什么选择这个方向，他记得很清楚：“一是感兴趣，它是脑科学。还有一个原因是中国进入深度老龄化的社会，与老龄化有关的疾病高发，阿尔茨海默病有代表性。”</p>
-<p>2000年年初，在65岁以上的老人里，痴呆的患病率大约在4%到5%，“20个人里就有一个。”二十多年过去，随着人口结构的变化，这个问题被急剧放大。“目前所有变性性的痴呆将近1700万人。还有一些没有进入痴呆但已出现认知下降的，叫轻度认知障碍，这部分人群更大，有2000到3000万。”王刚说。</p>
-<p>数字之外，更深刻的变化发生在医学界对疾病的理解上。</p>
-<p>在王刚读研究生的年代，阿尔茨海默病在医学上的处境近乎绝望。“那时候认为这个病是不可治愈的，没有措施，不可逆地进行性加重，也无药可施。”确诊同样困难。“以前要确诊，要做病理解剖，病人身后才能确诊。后来有了一点手段，也只能做临床诊断，抽血主要是排除性的诊断。”</p>
-<p>转折发生在最近几年。国际医学界的主流理论认为，阿尔茨海默病的根源是脑内异常蛋白——Aβ<span>（β-淀粉样蛋白）</span>的沉积。2021年后，针对这一机制的药物陆续取得突破，为近20年的新药研发失败史画上了句号。</p>
-<p>王刚见过一个直观的例子：有些病人用药之前不会用手机，相关功能已经丧失了，用完药以后，又可以重新操作手机了。“清除掉沉积的蛋白之后，部分病人的认知会有恢复。虽然不能完全清除，也不能阻止新的沉积，但病程进展可以得到延缓。”</p>
-<p>诊断手段也在革新。今天，通过抽血检测Aβ等病理蛋白指标，就可以做出生前诊断。但新药有新药的门槛。在豫园社卫，仑卡奈单抗两周输注一次，一个疗程18个月；多奈单抗一个月一次，12个月。两种药加起来，一个疗程大约30万元，全部自费。豫园社卫的医务科科长、认知障碍团队负责人‌李扬介绍：“口服药，国产的一百多、进口的三五百块一个月；打针的检查费——脑电图、核磁、抽血查生物标志物，几百上千都有，PET核磁要七八千。”</p>
-<p>“很多病人一看（这个价格）就放弃了。”李扬坦言。他与团队目前累计使用单抗治疗的病人有70个，“占上海的十分之一左右”，这已经是全国基层医疗机构里的第一家，全国其他地方能够并敢于申请使用这个药的基层机构几乎没有。</p>
-<p>对绝大多数普通家庭来说，免费的量表、对生活方式的整体改造，才是真正够得着的战场。这个战场的名字叫非药物干预。</p>
-<p><img alt="2026年4月14日，老人们在上海豫园社区卫生服务中心参加记忆课程。该堂课程的内容为识花，医生播放跟花相关的歌曲、课后派发嫩苗鼓励老人自行栽培，多感官地进行记忆刺激 图/受访者提供" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/02/bc150537b9.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">2026年4月14日，老人们在上海豫园社区卫生服务中心参加记忆课程。该堂课程的内容为识花，医生播放跟花相关的歌曲、课后派发嫩苗鼓励老人自行栽培，多感官地进行记忆刺激 图/受访者提供</p>
-<h4>14个可以改变的因素</h4>
-<p>非药物干预真正被医学界严肃对待是近些年的事。“真正让我们重视起来，是因为做出来研究，我们发现单纯的药物治疗不尽如人意，所以希望有一些辅助治疗、添加治疗的方法。”</p>
-<p>国际权威医学杂志《柳叶刀》连续多年发布关于痴呆症预防、干预和护理的报告。最新一期的报告给出了14种可干预的危险因素：听力下降、受教育程度低、高血压、饮酒、创伤性脑损伤、抑郁、缺乏运动等等，每年还会有一两个微调。</p>
-<p>“如果你把这十几种因素控制下来，发病的风险可以降低30%到40%。”王刚解释。这意味着，得不得这个病，并不完全是由基因决定的。只有大概5%到10%的家族遗传型患者带有明确的基因突变，会几乎必然发病——只是时间早晚不同；其余80%到90%的散发病例，是多因素共同作用的结果，有生活方式，也有遗传背景。“假如你把这十几种危险因素控制下来，那么发病的可能性很小。”</p>
-<p>“我们不能干预的就是我们的性别，还有我们的基因型，其他都是可以干预的。”王刚说。干预的两大核心随之确立：一是认知训练，二是物理或生活方式的刺激。他反复强调干预的时机越早越好，不要等到明显的记忆衰退才行动，而是刚觉得“忘事”、有蛛丝马迹就要介入。“我们有一部分轻度认知障碍患者，脑子里并没有沉积典型的病理蛋白，通过干预，他可能就不往阿尔茨海默的方向发展了。即便已经沉积了，干预也能让发展的速度减慢。”</p>
-<p>根据现有临床文献，有效的药物和非药物干预，大概可以延缓三到五年才进入下一个阶段。“对一个老年人来讲，三到五年是非常有质量的生存期。如果不干预，可能两三年后就完全失能，需要24小时贴身照顾；干预后，他可能在七八年后才进入那个状态。”王刚说，“这就是非药物干预最现实的意义。”多出来的三五年，对一个病人来说可能是还能认出家人的三五年，对一个家庭来说可能是可以喘息、可以与家人告别得更体面的三五年。</p>
-<p>光有医学共识还不够。王刚坦言，在三级医院里，他们看到的往往是症状已经很明显的患者，“真正的早期病人，更多是散落在社区里的。”</p>
-<p>这正是豫园社卫试图解决的问题。豫园所在的黄浦区是上海老城厢，人口老龄化程度很高。中心的老年病房有三百多张床位，病人的平均年龄85岁。“失智失能的占比72%。”李扬说，11年的老年病房经历，让他清楚失智老人背后的家庭困境。</p>
-<p>2021年，豫园社卫的张扬院长与王刚教授在一个养老议题的会议上相遇，两人一拍即合：基层发展老年服务、医养结合，有独特的优势；认知功能关注度越来越高、发病率很高，而三级医院的专家“愁的是怎么早发现——到他们那里的都是重病人”。</p>
-<p>豫园社卫派李扬去瑞金医院进修了半年多，跟着专家查房，学专业知识，学门诊怎么开、药品怎么配、量表怎么做。筹备又花了半年，2023年2月，上海首家基层医疗机构的“记忆门诊”正式开张。没有专项经费，“纯粹是我们自己想发展这个学科的行为。”</p>
-<p><img alt="李扬（左）在王刚（中）旁边跟诊学习 图/受访者提供" border="0" height="1279" src="https://images.infzm.com/cms/medias/image/26/11/02/bbe52edb19.jpg" width="1919" /></p>
-<p style="color: #999999; text-align: center;">李扬（左）在王刚（中）旁边跟诊学习 图/受访者提供</p>
-<p>第一年，门诊量大概550人次；到2025年12月，累计3054人次。四年四个医生轮班，每周一到周五，每天下午1点半到5点。李扬是全科医生，如今在全科的基础上发展认知亚专科，团队里还有营养师、康复师、心理治疗师，形成一个多学科诊疗团队。</p>
-<p>筛查是第一道关口。民政局牵头设计了筛查小程序，街道人员先做普筛，筛出低、中、高风险人群；中高风险被推荐到记忆门诊，做更精细的量表，再查血液指标、超声，分梯度推进。2023年，他们做过一批体检人群的筛查：1210个65岁以上老人参加，筛出认知功能下降的比例约为16.7%。</p>
-<p>“这还只是来参加体检的人群，实际社区里的比例可能更高。”李扬说。当然，认知下降不等于阿尔茨海默病——可能只是缺乏维生素B12、甲状腺功能减退或抑郁引起的。但这个数据揭示了基层干预的巨大空间。</p>
-<h4>定制的“运动处方”</h4>
-<p>在豫园六楼打乒乓球的老人身后，站着前中国乒乓球女队主教练、上海体育大学副校长、中国乒乓球学院院长施之皓。</p>
-<p>“民间一直有说法，打乒乓球的人聪明、防老年痴呆。但这只是经验，我们需要科学数据。”施之皓说。离开国家队回到上海后，他的工作从“争金夺银”转向“普及推广”，任上海市社区体育协会会长，全市226个街镇都是服务对象。他找了上海体育大学的团队合作，试图把乒乓球变成一张真正意义上的“运动处方”。</p>
-<p>2024年11月起，协会与瑞金医院、社区医院合作，把乒乓球干预做成了针对认知障碍人群的项目。为什么偏偏是乒乓球？施之皓列出了几条优势：老少皆宜，不易受伤，场地要求低——“黄浦区寸土寸金，不可能建大操场。但放一张乒乓球桌，哪怕小一点，甚至对着墙打，都可以。”更关键的是，乒乓球是全身运动，要求极高的手眼协调、反应速度和空间判断能力——这恰好是对认知的全链条调动。</p>
-<p>“运动是有处方的，跟吃药一样。我们要控制强度、频率和时间。”施之皓说。针对认知障碍老人，参与者来了先做健康评估，然后制定计划：每次45分钟左右，加上热身和拉伸，护住安全底线。他们设计了发球机器人，为一个人设定好课程和训练计划，病人可以独立练习；还按轮椅使用者、健全者、轻度和重度，设计了各种小游戏。</p>
-<p>他们以三个月为一个周期做评估。前期的干预数据已经出来：量表分数、血液指标、睡眠情绪，都有明显改善。此外，有核心期刊的文献表明，持拍类运动对中老年人认知的改善优于其他项目，这成了他们坚持推广的底气。施之皓说：“我们乒乓界的泰斗徐寅生，88岁，还能打球、讲课、演讲，脑子非常清醒。这是最高水平了。我们想通过普及，让老百姓也能有所促进。”</p>
-<p>团队的医生记得一位认知障碍很严重的病人，吃饭的时候手一直抖。练完半个小时的乒乓球后，他能打了，吃饭手也没那么抖了。“早上吃饭的时候能稍微稳一点，这就是一种好的改善。”</p>
-<p><img alt="施之皓（右）和上海豫园社区卫生服务中心认知康复的学员 图/受访者提供" border="0" height="2560" src="https://images.infzm.com/cms/medias/image/26/11/02/a94d8e2f41.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">施之皓（右）和上海豫园社区卫生服务中心认知康复的学员 图/受访者提供</p>
-<p>除了运动，认知和艺术疗愈也在社区铺开。在浦东杨泾街道，一家叫“尽美”的公益组织已经扎根了七八年。</p>
-<p>尽美的员工板板是一名学基础医学出身的“95后”女孩。因为奶奶确诊阿尔茨海默病<span>（2018年因一场车祸遭受外伤，之后认知症状慢慢显现）</span>，她在毕业前就作为志愿者加入，两年后正式入职。板板负责的是“舞动治疗”，她强调这不是教老人跳舞：“教舞蹈是为了动作好看，而舞动治疗是一种表达性艺术。我们不去纠正他们动作标不标准，而是带动他们自发地有一些创造力和表达。”</p>
-<p>对家属来说，比起记忆力下降，更崩溃的往往是老人的精神行为症状<span>（BPSD）</span>：骂人、藏东西、游走、日夜颠倒、暴躁易怒。“很多家属觉得老人‘变坏了’、‘没面子了’。其实不是的。”板板说，“疾病导致他们的记忆停留在过去。他觉得自己不是在这个家里，周围的人都不认识，内心是惊恐的。”</p>
-<p>对老人的“狂躁”的理解也在变：以前可能试图转移注意力，现在更强调“找到背后的原因”。比如老人不让关马桶盖，可能只是因为那个盖子的样式让他感到陌生和不安。板板讲了一个细节：有家属抱怨老人把超市的塑料袋全都搬回家，一位老师解释，那个年代的老人经历过极度的物资匮乏，塑料袋在他们眼里是珍贵的生存资源。“你不能用现在的标准去质疑他，要顺着他的逻辑去理解他。”</p>
-<h4>下坡路的缓冲</h4>
-<p>参加了尽美组织为期三个月的家属培训后，屠女士学到了最重要的三个字：“少批评。”她的丈夫曾是一名严谨的道具工程师，事业心强。2022年，因为一次注射，诱发了脑积水和脑梗，随后被确诊为混合型认知障碍。从那以后，屠女士的生活彻底改变了。丈夫有时时空混乱，分不清方向，甚至半夜不睡觉，说有人偷了他的打印机。屠女士只能半夜爬起来，把打印机找出来给他看，陪着他不睡。</p>
-<p>“以前他很爱干净，现在马桶盖怎么关都教不会。你不能骂他，你要顺着说。”家里的钟要摆到明显的位置；丈夫喜欢跟人聊天，就带他去百货商场的闲聊角；他打乒乓球开心，就带他去社区；他喜欢历史，喜欢看牌，就给他机会接触历史和打牌，让他有点事可想。屠女士像排课表一样排满丈夫的日程：唱歌课、手工课、麻将、语言课、量表<span>（记录每天吃了什么、喝了多少水、大小便几次）</span>。</p>
-<p>非药物干预的目的在屠女士家是具体的：参加三个月乒乓课程以及豫园社卫组织的认知康复八大训练<span>（如冲咖啡、识花、剪纸、唱歌等等）</span>之后，丈夫可以理解医生讲话了，肯吃药了，肯喝咖啡、不喝酒了；他听医生说要喝水，居然真的听清楚了。过去对很多事物都提不起精神、没什么反应，现在肢体更加灵活，“每次都盼着去打乒乓。”</p>
-<p><img alt="2026年9月20日，在浙江湖州长兴县雉城街道高家墩居民区举行的世界阿尔茨海默病日关怀服务活动中，志愿者为老人们免费拍照留影 图/新华社" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/02/836c2b0862.JPG" width="1920" /></p>
-<p style="color: #999999; text-align: center;">2026年9月20日，在浙江湖州长兴县雉城街道高家墩居民区举行的世界阿尔茨海默病日关怀服务活动中，志愿者为老人们免费拍照留影 图/新华社</p>
-<p>社区卫生服务中心以及社会组织的介入，给了家属一个宝贵的出口。尽美除了做家属服务，还提供日托服务<span>（有政府补贴，每天60到90元）</span>，把老人送去日托，家属就能获得几个小时的“喘息时间”。有时，还会给家属安排一场“颂钵疗愈”，让他们在空灵的声音中放松紧绷的神经。板板说得直白：“非药物治疗，也是在给家属做的。”家属是“喘息”的家属——这句话的背后，是一个个被24小时贴身照护拖到极限的家庭。</p>
-<p>医学的干预有天花板。王刚坦言，一旦病情进展到重度痴呆，“无药可救”依然是残酷的现实。但在轻度到中度这条长长的下坡路上，非药物干预正在拼尽全力筑起一道道缓冲带。</p>
-<p>王刚说，从1998、1999年上海华山、瑞金、仁济等几家大三甲医院开设最早的记忆门诊算起，二十多年来，这套体系在发生一场缓慢而坚定的下沉：从三甲的精准诊断，到社区医院的筛查拦截，再到社会组织提供的乒乓球、舞蹈和喘息服务，所有人都在试图回答同一个问题——如何让一个逐渐失智的人，在还保有部分自我意识的时候活得有尊严一点？如何让一个濒临崩溃的家庭多撑一会儿？</p>
-<p>这场战役不完全发生在医院的病房里。更多时候，它发生在社区的活动室里，发生在老人们挥动乒乓球拍的瞬间，发生在社工不厌其烦的安抚中，也发生在家属从“你怎么又这样”到“我们看看是怎么回事”的心态转变中。</p>
-<p>医学能处理大脑里的病理蛋白，处理不了患者内心的恐惧，也处理不了家属深夜的疲惫。屠女士说，王刚来的时候，丈夫会很开心地跟他打招呼；他要做什么，一定要找王老师来求证，“特别理性，特别信任。”这条信任的链条，从三甲医院延伸到社区，再延伸到一位65岁的乒乓球教练、一个“95后”的舞动治疗师，以及深夜里陪着老人不睡的家属身上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 智能体“潜入”银行：人机共事，权责悬置 ｜2026年“金标杆”</title>
-        <link>http://www.infzm.com/contents/343868</link>
-        <guid isPermaLink="false">f8f89f708f241784b606e9510dccc33aedb8461ceddc0d88920645f6733618c1</guid>
-        <pubDate>Tue, 03 Nov 2026 04:25:05 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：基于南方周末&#x27;金标杆&#x27;测评，揭示银行智能体批量落地后人机权责悬置的核心矛盾，并给出科技投入分化、Token消耗等量化效能指标，兼具行业调查与长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-03 12:00:00</i></div><p style="text-align: justify;">你有多久没有进入银行网点了？动动手指、说几句话，就能办理各项银行业务，已成大多数人和企业的日常金融生活。</p>
-<p style="text-align: justify;">小微店主对着手机银行说一句 “我要提高贷款额度”，智能工具就能快速算清经营流水，给出合适的贷款方案；你随口说一声“我想理财”，银行智能“财富管家”便会对照你的客户画像及风险承受能力挑选产品，并在揭示风险后直达产品购买界面。</p>
-<p style="text-align: justify;">以往需要奔波于银行网点办理的业务，如今已经线上化和智能化。</p>
-<p style="text-align: justify;">此番剧变，正是人工智能在银行业深层演进的鲜活缩影。2025年以来，伴随DeepSeek开源大模型快速普及，银行业金融科技迎来飞速发展。及至2026年，智能体突破Demo原型局限，蜕变为可自主完成多业务流程的高阶版数字员工，开始在行业批量落地。至此，持续讨论的“人机协同”，转化为清晰可感的业务场景。</p>
-<p style="text-align: justify;">科技浪潮奔涌而至，一贯审慎稳健的商业银行，抱持怎样的应对思路？这场技术变革重塑了什么？带来了哪些亟待回应的新命题？</p>
-<p style="text-align: justify;">南方周末新金融研究中心2026年“金标杆—新金融竞争力”<span>（下称“金标杆”）</span>之银行业数字金融测评结果显示，相较往年，商业银行在信息科技投入一事上态势分化明显，股份行群体尤其突出，呈现“多数缩减、少数加码”的格局。主流商业银行开始通过“等量人工工时”“日均Token消耗”等数量指标，衡量技术落地的效能。与此同时，随着智能体规模化落地，“人机协同”在银行业务中愈发普遍，然而行业尚未形成共识性的权责划分指引。</p>
-<p style="text-align: justify;">此次测评以57家在A股和H 股上市的商业银行为基础，同时纳入虽未上市但同为20家系统重要性银行之一的广东发展银行作为测评对象。在国内商业银行体系中，此两类银行代表行业主流阵营，与居民金融业务联结更为紧密。</p>
-<h4>工行依旧最“阔绰”，群体从砸钱转向重实效</h4>
-<p style="text-align: justify;">此次测评方法沿用“金标杆”之银行保险板块一以贯之的“三维测评”模型<span>（如下图1）</span><span>（详见<a href="https://www.infzm.com/wap/#/content/330144?from=card_uid4358498&amp;rt=card&amp;dh=0" target="_self">《400家金融机构进退几何？》</a></span>），并基于测评板块不同设立单独的指标体系<span>（如下图2）</span>。</p>
-<p><img alt="" border="0" height="1669" src="https://images.infzm.com/cms/medias/image/26/11/02/d6816003cc.jpg" width="1535" /></p>
-<p></p>
-<p><img alt="" border="0" height="2980" src="https://images.infzm.com/cms/medias/image/26/11/02/0033951849.jpg" width="1792" /></p>
-<p style="text-align: justify;">其中，数据化指标测评部分在整个评价体系中的权重占比为70%，相关数据来源于上述银行2025年年报、2026年中报及ESG报告，部分依托南方周末“金标杆·新金融竞争力测评数据库”采集获取。该数据库由国内金融科技龙头恒生电子旗下上海恒生聚源数据公司按需定制；线上线下调研、专家评审两项权重则各占15%。<span>（详见<a href="https://www.infzm.com/wap/#/content/341828?from=card_uid4358498&amp;rt=card&amp;dh=0" target="_self">《野生流量退场，谁经得起标尺度衡？》</a>）</span><br /></p>
-<p style="text-align: justify;">基于上述指标体系测评，在58家参评银行中，工商银行得分最高，总分接近80分，建设银行紧随其后。这两家也是本次测评中仅有的总分超70分的银行。</p>
-<p><img alt="" border="0" height="2421" src="https://images.infzm.com/cms/medias/image/26/11/02/e6e6148a90.jpg" width="1792" /></p>
-<p style="text-align: justify;">工行和建行亦是2025年银行业同一板块测评中的领跑者。这一结果，既和国有大行在数字金融领域的布局策略相关，也源于数字金融本身具备较高的发展门槛。<br /></p>
-<p style="text-align: justify;">不同于其他类型银行，国有大行沉淀了体量更大的长尾客群，在普惠金融布局上具备天然场景与先发优势。与此同时，在科技金融赛道，国有大行需要承接更多政策性目标。从实践来看，无论是普惠金融还是科技金融，以人工智能为代表的数字金融工具，均可形成有力的关键支撑。</p>
-<p><img alt="" border="0" height="2097" src="https://images.infzm.com/cms/medias/image/26/11/02/27d7fae10c.jpg" width="1792" /></p>
-<p style="text-align: justify;">基于上述原因，一直以来，国有大行在信息科技方面的投注多是“大手笔”。“金标杆”测评显示，2025年，工行、建行、农行、中行四大行信息科技支出均突破200亿元，其中以工行最为“阔绰”。招商银行该项支出仅次于四大行，不过绝对金额差距明显。<br /></p>
-<p></p>
-<p><img alt="" border="0" height="2421" src="https://images.infzm.com/cms/medias/image/26/11/02/4b9ac6145d.jpg" width="1792" /></p>
-<p style="text-align: justify;">不过，大手笔投入并非长期常态。纵向复盘不难发现，变化正悄然发生。<br /></p>
-<p style="text-align: justify;">测评结果显示，同期，邮储银行于信息科技投入一项支出同比减少，金额变动不大，但与其他5家“兄弟行”形成鲜明对比；股份行阵营整体呈现收缩态势：9家披露数据的银行，7家压减相关投入，2家降幅超过10%。系列对比抑或表明，行业正从规模优先的技术投入阶段，转向看重落地实效的理性探索期。</p>
-<p><img alt="" border="0" height="1985" src="https://images.infzm.com/cms/medias/image/26/11/02/5876129625.jpg" width="1792" /></p>
-<p style="text-align: justify;">行业大势以外，经营不景可能是股份行减少相关投入的另一层现实动因。近年，净息差持续收窄，行业整体盈利环境偏紧，但银行内部阵营分化凸显，股份行多项经营指标逊色于国有大行与城商行。而在银行的资源分配逻辑中，数字金融缺少成熟的效益度量标尺，因此不少机构将这类投入与营收规模挂钩。营收一旦下行，科技投入便同步收紧。<br /></p>
-<p style="text-align: justify;">但并非所有机构都遵循这一思路。测评显示，股份行之中，华夏银行与浦发银行仍持续加码数字金融布局。个中原因应与机构个体不同时期践行的顶层设计有关：华夏银行于2025年2月迎来新“掌门人”杨书剑。在过往的职业生涯中，杨书剑担任北京银行行长多年，其间持续推进数字化与科技金融布局；浦发银行则于2024年正式落地全行数智化战略，将智能场景、AI基座作为重点投入方向。两家机构逆势加码，折射出股份行在数字赛道上更为具象的个体分化。</p>
-<p><img alt="" border="0" height="1833" src="https://images.infzm.com/cms/medias/image/26/11/02/6f2558f69b.jpg" width="1792" /></p>
-<p style="text-align: justify;">整体而言，商业银行在数字金融领域的投入由多重变量共同决定，兼顾行业周期、经营现状与长期战略，并非单一逻辑驱动。与此同时，投入规模属于动态的统计指标，仅反映机构当期的资源投放意愿和发展重心，不可简单等同于深耕这一赛道的决心。<br /></p>
-<h4>城农商行不乏科技优等生</h4>
-<p style="text-align: justify;">若以 “科技投入营收占比”“科技员工占比”两项指标分别排序，则可观察到行业数字化竞逐的另一个切面。“金标杆”测评显示，两项排序靠前的机构多集中于城农商行阵营；同时跻身两项指标高分区的仅上海银行、上海农商银行、渤海银行三家。</p>
-<p><img alt="" border="0" height="2424" src="https://images.infzm.com/cms/medias/image/26/11/02/94338343d8.jpg" width="1792" /></p>
-<p><img alt="" border="0" height="2421" src="https://images.infzm.com/cms/medias/image/26/11/02/a736238c35.jpg" width="1792" /></p>
-<p style="text-align: justify;">透过这一筛选结果可以看出，尽管综合总分不及国有大行与股份行，但部分头部城农商行在科技投入强度、人才配置密度维度，显现出明显优势。<br /></p>
-<p style="text-align: justify;">上述发现，同样可以在具象的金融实践中得到印证。上海银行推出AI原生手机银行，将智能体能力嵌入零售主渠道，用户发起对话即可办理查询、转账、理财咨询等业务。这一创新跳出了在成熟手机银行基座上叠加AI模块的传统路径，被视为智能体在零售移动端范式革新的代表性探索。沪农商行在数据治理领域同样亮点突出，为国内首家拿到DCMM4级认证的农商行。DCMM作为我国数据管理领域的国家标准，4级代表较高的数据管理成熟度。</p>
-<p style="text-align: justify;">若从地理区域维度对上述排序进一步拆解，则可发现，位于长三角经济圈的城农商行在数字金融领域有着较为强烈的资源倾斜意愿。入围前述两项排名的17家银行中，总部位于江浙沪区域的共计8家，占比超过一半。该结果亦侧面印证，区域禀赋对地方银行数字化战略选择形成显著影响：与京津冀、大湾区等同体量经济圈相比，长三角县域经济基础扎实，产业集群与小微场景下沉更深，叠加上海科技型小微企业聚集，多重因素为数字金融落地提供充沛的应用场景。</p>
-<p style="text-align: justify;">务实，是上述区域城农商行布局数字赛道时呈现的另一重鲜明标签。</p>
-<p style="text-align: justify;">南京银行在接受南方周末新金融中心专项调研时提出，资源将向高价值场景倾斜，面向客户经理、理财经理、风控审批、运营管理等岗位打造任务型智能体。同时统一沉淀模型服务和技能组件，减少模块的重复搭建。苏农商行在接受调研时则旗帜鲜明主张实用主义，率先探索区域法人银行“集约式”发展，整合内外部资源，强化协同联动。</p>
-<p style="text-align: justify;">对比自建独立金融科技子公司的重投入模式，联动高校、同业共享技术资源，是一条更轻量化、低成本的路线。从行业实践看，首批银行金融科技子公司长期面临投入高、盈利难的挑战，经营压力持续显现。近年多家银行调整布局，将科技能力收回总行一体化管理，不再坚持独立子公司的对外商业化路径。</p>
-<p style="text-align: justify;">相关做法也暗合前述行业已过渡至理性探索期的推论。这一情境下，立足一隅的城农商行没必要在算力规模、模型参数和场景数量上和大型银行正面比拼。相反，可以凭借决策链条更短、区域业务更为聚焦的自身优势，以真实的高价值业务场景为核心摆布投放资源，走出差异化的数字化路径。</p>
-<h4>智能体多点开花</h4>
-<p style="text-align: justify;">撇开商业银行在数字赛道上的竞位，新兴科技对行业带来的变革是更加值得关注的方向。“金标杆”测评发现，智能体批量落地及其在多个业务场景中的应用，是银行业数字金融赛道呈现的新兴景象。</p>
-<p style="text-align: justify;">在国有行序列中，以农行为例。该行打造企业AI数字助手“一明”，研发“一明智慧大脑”，以广域意图识别能力，实现跨业务领域的多智能体协同调用、用户记忆多端共享等核心功能，自动串行处理客户营销、信贷办理、智能办公等复杂任务。这一创新跳出单点式AI工具各司其职的传统路径，借助智能体自主协同能力，把碎片化的AI应用整合为端到端的任务闭环。</p>
-<p style="text-align: justify;">北京银行亦有类似创新，但应用场景有别。其在零售客户经营板块，构建客群挖掘、外呼和营销三类智能体，通过智能体之间的分工合作，覆盖“客户识别—触达执行—转化优化”的客户营销全流程。将过往费时数天、需跨部门协作的客群筛选工作压缩至几分钟，客户转化成果由此前的日均5单提升至22单。</p>
-<p style="text-align: justify;">渤海银行的对抗验证智能体同样颇具特色，该项目构建双智能体对抗验证机制：其中一个Agent负责输出消保审查结论，另一Agent专职对结论提出质疑、核验支撑证据。整套体系以完成合规审查、识别隐性风险为目标，是智能体在合规风控赛道落地的典型样本。</p>
-<p style="text-align: justify;">值得关注的是，当前行业对智能体的界定尚未形成统一标准，概念使用较为宽泛。不少机构将具备大模型文档解析、固定流程自动化能力的AI工具，一并冠以智能体的名称。而从智能体更深层的内涵与属性来看，严格意义上的智能体，应当具备目标拆解、自主任务编排、动态调度工具、依据中间结果调整执行动作等核心特征。这也是区分自动化流程工具与Agent形态数字员工的标尺。前述三则案例，分别依托不同业务场景，为智能体在银行业的落地实践作出恰如其分的诠释。</p>
-<p style="text-align: justify;">伴随人工智能技术持续演进，商业银行向智能体银行方向转型，或是一条可预判的行业趋势。波士顿咨询在其新著《银行转 2035：迈向智能体银行的范式跃迁》中提出，当前国内银行业正面临“低利率、低息差”等挑战，以往依托网点覆盖、牌照壁垒的增长模式已经难以为继。大模型与智能体技术的快速成熟，并催生新机遇，银行服务正逐步演变为“流动的算法”。</p>
-<h4>“人机协同”尚需厘清</h4>
-<p style="text-align: justify;">智能体的落地及风行，为业界热议多时的“人机协同”打开想象空间。</p>
-<p style="text-align: justify;">广义来看，商业银行中依托人工智能实现的人机协同早已在部分场景落地：由客户经理、风控、运营人员下达明确指令，AI工具承接文档抽取、信息查询、话术生成等单一任务；或是在一些标准化、非核心的业务环节，由自动化工具承担重复性工作，人负责发起、校验与最终决策。</p>
-<p style="text-align: justify;">但这类模式仍属于人主导流程、AI被动执行的配合关系，尚未形成目标驱动下的自主协同。一个更为理想化的人机协同模式是，以业务目标为核心牵引，人与AI智能体实现双向自主协同——人锚定目标、把控合规底线、完成高价值的综合判断；AI智能体能够主动感知任务、自主规划执行路径、动态提示风险、输出可验证方案，二者实时交互、灵活补位，共同完成业务闭环。</p>
-<p style="text-align: justify;">上述情境下，如何进一步延伸、拓展“人机协同”的深度与广度，因而成为更加值得关注的命题。在技术投入相对固定的前提下，更广泛的场景落地往往带来更高的边际效率，这也是衡量银行科技投入价值的关键标尺。</p>
-<p style="text-align: justify;">随着协同场景持续铺开，权责如何厘清、不同场景下的操作边界如何划定，成为亟待破解的现实问题。</p>
-<p style="text-align: justify;">2026年6月，国家金融监督管理总局出台《关于银行业保险业人工智能安全开发应用的指导意见》，从顶层框架层面回应了人机协同的治理难题。文件明确，人工智能的应用需坚持“谁使用谁负责”，压实金融机构作为服务提供方和技术使用方的主体责任。新规还提出要完善人机协同的业务管理流程，科学设定人工智能的功能边界、系统和数据权限，明确人员岗位责任，确保业务全流程管理责任清晰、可落实、可追溯。</p>
-<p style="text-align: justify;">整体来看，监管文件重在为行业应用人工智能划定底线和提供方向性指引。如何将日新月异的科技应用于以稳健和审慎为主的银行业务，仍是行业需要持续作答并不断探索的命题。尤其对具备自主闭环能力的智能体而言，技术迭代速度快、决策链条动态可变，机构需要在效率提升、业务创新与风险审慎之间寻找适配的平衡点。</p>
-<p><span>（南方周末实习生舒利安、施嘉敏、黄晓冬、赖佳慧参与银行数字金融测评数据采集，对本文亦有贡献）</span></p>
-<p><img alt="" border="0" height="10000" src="https://images.infzm.com/cms/medias/image/26/11/02/2e4212b20f.jpg" width="1695" /></p>
-<p><span></span><span>（计分规则最终解释权归属南方周末新金融研究中心，分数仅作“金标杆"测评之用，不代表参评机构资质优劣、是否达标，不构成投资推荐。）</span></p><br /><hr /><div>获取更多RSS：<br /><a href="https://feedx.net" style="color: orange;" target="_blank">https://feedx.net</a> <br /><a href="https://feedx.site" style="color: orange;" target="_blank">https://feedx.site</a><br /></div>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 美联储重回“学术央行”？</title>
-        <link>https://www.ftchinese.com/story/001111247</link>
-        <guid isPermaLink="false">d36f130e6fda1cee5d49d6b66cd754f90c2346f8881d2ef7ae87592daac5e104</guid>
-        <pubDate>Mon, 02 Nov 2026 16:00:00 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：从制度遗产视角剖析美联储领导层更迭对FOMC决策框架的长期影响，超越短期利率博弈，提供央行治理结构演进的深度分析，具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            周浩：美联储的每一代领导人都留下了鲜明的制度遗产。如沃什最终完成此次改革，其遗产可能不是一次加息或降息周期，而是重新塑造 FOMC 的决策框架。
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] China publicly discloses plan for a lunar landing within three years</title>
-        <link>https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/</link>
-        <guid isPermaLink="false">da39f83d950efd97ec7485235251f3b9086efe4710f7e5defa96f95215c00a48</guid>
-        <pubDate>Mon, 02 Nov 2026 17:09:13 +0000</pubDate>
-        <author>Eric Berger</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：中国官方首次公开载人登月详细方案，包括环月轨道交会对接和两次发射架构，信息密度高，对理解中国航天战略有长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p>Chinese space officials confirmed this weekend that the Asian nation plans to land its astronauts on the Moon within three years.</p>
-<p>At the Seventh Manned Spaceflight Conference in Beijing, officials, including Wang Xiang, chief designer for the lunar exploration program, laid out the country's most publicly detailed plans yet for a series of missions leading up to a crewed lunar landing "before 2030."</p>
-<p>China's lunar landings will involve a lunar-orbit rendezvous similar to what NASA did in the 1960s and early 1970s with the Apollo program. However, lacking a rocket as powerful as the Saturn V vehicle, the crew and lunar lander will launch separately to the Moon.</p><p><a href="https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/">Read full article</a></p>
-<p><a href="https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/#comments">Comments</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] Most of our measures of a key cognitive process don&#x27;t agree</title>
-        <link>https://arstechnica.com/science/2026/11/most-of-our-measures-of-a-key-cognitive-process-dont-agree/</link>
-        <guid isPermaLink="false">3e9dcdc397b3892de14f48e3f1b2d8d24f1dfba6e6a8274d23a98e8f990eaaa6</guid>
-        <pubDate>Mon, 02 Nov 2026 19:13:26 +0000</pubDate>
-        <author>John Timmer</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：Nature罕见发表负面结果：多种测量情绪能力的方法互不一致，揭示该领域测量效度危机。核心增量是系统比较证明常用工具不可互换，对心理学方法学有长期警示价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p>It's widely acknowledged that it's nearly impossible to publish negative results in scientific journals. "We didn't see anything" is a much harder sell than finding that a hypothesis is clearly right. Findings of no effect tend to either be shuffled off to low-profile journals or left behind as unpublished lab lore.</p>
-<p>The high-profile journal Nature, however, made a notable exception this week, publishing a study that tells us that a bunch of methods we have been using to try to measure a key emotional ability don't seem to be measuring the same thing. The results mean that we don't have a good way to measure the impact of a concept that is the basis of a key method in therapy.</p>
-<h2>Inconsistencies</h2>
-<p>One of the most successful forms of therapy is cognitive behavioral therapy, or CBT. In part, CBT is based on getting people to step back and engage in "cognitive reappraisal." This requires people to think over a situation that has caused a negative emotional response and find ways to reinterpret it so that it has less impact on them. The ability to engage in this process has been linked to emotional resilience.</p><p><a href="https://arstechnica.com/science/2026/11/most-of-our-measures-of-a-key-cognitive-process-dont-agree/">Read full article</a></p>
-<p><a href="https://arstechnica.com/science/2026/11/most-of-our-measures-of-a-key-cognitive-process-dont-agree/#comments">Comments</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] Claude’s new rules against game cloning won’t stop the AI copying boom</title>
-        <link>https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/</link>
-        <guid isPermaLink="false">3f64a695b0aa8d6fd19bd741e8af9960736e997b126689e0c214cbb865d4ea31</guid>
-        <pubDate>Mon, 02 Nov 2026 18:05:31 +0000</pubDate>
-        <author>Kyle Orland</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：聚焦Anthropic新系统提示词限制游戏克隆，揭示其法律免责意图与实际效果有限，并引用社区发现细节，对AI版权与游戏移植浪潮有参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p>Last week, Anthropic introduced a new system prompt designed to stop its Claude models from re-creating specific, existing video games. While that move could help shield Anthropic from some liability, it's unlikely to slow much of the massive wave of AI-assisted game porting and copying that has emerged in recent months.</p>
-<p>A social media user and <a href="https://x.com/chasmmmmmmmmmmm/status/2107897874860371988">AI decompilation enthusiast</a> going by the name "chasm" was <a href="https://x.com/chasmmmmmmmmmmm/status/2116062991686721968">among the first to note the prompt change</a> late last week, saying a new rule seemed to be added to the Claude Code prompt on or around October 27. That rule—included in a json file under the name "tengu_heron_brook"—reads as follows:</p>
-<blockquote><p>Do build original games, games in a genre, and games from the user’s own designs and assets. Don’t build a recreation of a specific existing game, even if it is renamed or called original.</p></blockquote>
-<p>XDA later <a href="https://www.xda-developers.com/anthropic-testing-potential-crackdown-on-vibe-coded-ports-of-existing-games/">independently verified</a> that the new rule appears in version 2.1.314 of the Claude Code binary, which was <a href="https://code.claude.com/docs/en/changelog#2-1-314">released on October 30</a>. XDA also reported that the "tengu_heron_brook" rule had been used for other purposes in earlier versions and that the Claude Opus 5.5 model specifically seemed to have its own distinct and independent instructions restricting game recreations as part of its system prompt bundle.</p><p><a href="https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/">Read full article</a></p>
-<p><a href="https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/#comments">Comments</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] One of Google’s Android partners turned 1.3 million set-top boxes into a botnet</title>
-        <link>https://www.theverge.com/1024807/google-botnet-android-tv-shut-down</link>
-        <guid isPermaLink="false">fd5d21fd773e29b68fac947a94be4719e254d39b30b686d0bc5c61b60ef52e1a</guid>
-        <pubDate>Mon, 02 Nov 2026 15:37:49 -0500</pubDate>
-        <author>Stevie Bonifield</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：谷歌披露其Android制造伙伴Videostrong在130万台设备中植入后门组建僵尸网络，用于广告欺诈与数据窃取，并已切断合作、取消认证。这是供应链安全与物联网固件信任的罕见实证案例，事实密度高、长期参考价值强。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <figure>
-
-<img alt="" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/videostrong-android-tv-device.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
-	<figcaption>
-	A current Videostrong Android TV device.	</figcaption>
-</figure>
-<p class="wp-block-paragraph">Google says one of its Android manufacturing partners secretly <a href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet">built a backdoor in 1.3 million devices</a> and turned them into a botnet. The company says it has now dismantled the backdoor and "cut ties" with the manufacturer, the Shenzhen, China-based Videostrong Technology Co., which has been banned from building or selling certified Android devices or supplying software for them.</p>
-<p class="wp-block-paragraph">The infected devices were used without owners' knowledge for "malicious activity," like ad fraud, data exfiltration, and routing unauthorized network traffic. Google claims the "backdoor and botnet were intentionally developed, deployed, and operated for financial  …</p>
-<p><a href="https://www.theverge.com/1024807/google-botnet-android-tv-shut-down">Read the full story at The Verge.</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 500 万人抽签看陈奕迅，AI 会终结「抢票时代」吗？</title>
-        <link>https://www.ifanr.com/1687130?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">f609fcc10d4a55f41e8453b90b6fdc24dc68c5adc6b6f80594f2c0a5f4e58a95</guid>
-        <pubDate>Mon, 02 Nov 2026 07:41:09 +0000</pubDate>
-        <author>彭海星</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以陈奕迅500万人抽签为切口，系统梳理抽签制售票的历史先例与黄牛治理逻辑，并追问AI能否终结抢票时代，兼具产业机制分析与技术演进视角，信息密度扎实。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img alt="" class="aligncenter size-full wp-image-1687171" height="816" src="https://s3.ifanr.com/wp-content/uploads/2026/11/eKyU-PJM0uUX5o3BiPFiqfa9jaYfxOZXHjxHcx48R3M.jpg" width="1312" /></p>
-<p>歌迷朋友们，看到这篇文章时别忘了到 Cityline 手动查询——陈奕迅 26 场特别录音演出的首轮抽签结果下午刚刚公布，说不定你就是那个幸运儿。</p>
-<p style="line-height: 0;"><img alt="Image" class="aligncenter" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604963991-1.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜我却得到你安慰的淘汰</div>
-<p>介绍一下：这次系列演出并非传统演唱会，而是和观众一起现场录制唱片的 Live Album 沉浸式试验。它的场地定在仅 1181 座的香港演艺学院歌剧院，扣除 10% 内部保留票，26 场连开，能够放出来的票数不过两万多张，不到 496 万登记申请人次的零头。</p>
-<p style="line-height: 0;"><img alt="Image" class="aligncenter" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604965798-2.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜香港演艺学院歌剧院</div>
-<p>也就是说，中签概率恐怕低于在街角咖啡店碰见陈奕迅本人的概率。今天注定是一人欢喜百人愁。</p>
-<p>但中不中签另说，这次「抢票」的轻松程度在我人生中绝对算得上是数一数二的：花一分钟注册网站、确认邮件，几天后坐等抽签结果，这就是全过程。完全不需要像之前抢 The Weeknd 门票那样调好闹钟、焚香沐浴、发动亲友团一起帮忙……</p>
-<p>那么，抽签制这样的好文明，以前为什么就没有推广开呢？</p>
-<h3>门票不靠抢，还能怎么买？</h3>
-<p>用抽签的方式来分配门票，在国内并不多见，但也不是没有先例。</p>
-<p>早在 2016 年，苏打绿《谢天谢地》演唱会就采取了实名登记、电脑随机抽签的售票方式，在售票说明中，苏打绿明言这是为了「杜绝黄牛」；随后几年，久石让与香港管弦乐团音乐会以及林家谦红馆演唱会，都采用了类似的「先登记，后抽签」模式。</p>
-<p style="line-height: 0;"><img alt="Image" class="aligncenter" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604966591-3.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜林家谦演唱会采用登记抽签形式</div>
-<p>至于演唱会之外的大型活动，比如 2008 年北京奥运会、2010 年广州亚运会以及 2020 年英雄联盟 S10 全球总决赛也都尝试过门票公开抽签，从结果上看执行得相当不错。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604967391-4.jpg" /></p>
-<p>而把目光放到全世界，会发现这套制度在日本早已非常成熟，甚至是演唱会的主流购票方式——</p>
-<p>不同于国内演唱会普遍选择逐站开放、分别抢票，日本的演唱会往往会提前公布全部场次，粉丝接下来只需要「填报志愿」，也就是到网站上选择自己希望看的场次、每个场次希望购买的坐席等级，然后将申请按优先级排序，接下来就是等待最终结果：可能一口气中签多个「志愿」，也有可能遭遇「调剂」。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604970146-5.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜e+ 票务平台的「志愿填报」界面</div>
-<p>当然，这套机制也不代表绝对的公平和无门槛。实际上，它催生了一套「官方黄牛」溢价生意：粉丝们要花数千日元的年费加入「粉丝俱乐部」，才能参与首批「粉丝专供票」的抽签；在部分抽选中，甚至可以付费购买更多的抽签轮次和中签权重。</p>
-<p><strong>但往好的方面想，这些溢价至少都合法合理收归到了主办方、唱片公司和艺人手中，而不是喂肥了作为中间商的黄牛。</strong></p>
-<p>更别说，愿不愿意加入粉丝俱乐部本身就是一种筛选歌迷的软门槛，可以确保部分门票落入「最想看演出」的人手中；再者，额外的经济投入也只能提升相对中签概率，而不会像抢票制那样，仅凭金钱就能让演唱会私有。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604971795-6.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Weverse 粉丝俱乐部认证</div>
-<p>来到技术与用户体验的维度，抽签制对所有人而言还是一种解脱。</p>
-<p>回想一下，传统的定时抢票，本质上是主办方人为制造的一场 DDoS 攻击——数以百万计的人约定在同一秒点击同一个购票按钮，票务平台需要为此向云服务商采购昂贵的瞬时弹性带宽和负载算力，而这些高昂的基建成本最终都会转嫁到票价与服务费里。</p>
-<p>即便如此，在热门演出的抢票场合中，绝大多数人见到的也只会是卡死的页面、报错、一旦刷新就要重来的排队加载框，以及页面终于加载出来后显示的灰色售罄按钮。</p>
-<p style="line-height: 0;"><img alt="Image" class="aligncenter" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604974914-7.jpg" /></p>
-<p>根本没有出手的机会，就败给了不可名状之力，没有什么能比这更让人挫败了。</p>
-<p>到这里我们又不得不再重复一遍开头的问题了：既然抽签制用户体验更好、服务器压力更小，还能巧妙地变相创收，为什么在陈奕迅的演艺学院录音演出之前，我们几乎找不到采用抽签制的「现象级演出」？</p>
-<h3>抢票制的合理性</h3>
-<p>抽签制未能全面接管市场，或许最根本的原因在于：<strong>抢票制确实有它的经济合理性。</strong></p>
-<p>用时下流行的「理解所有人」句式来说，我是乐迷的话我也想要抽签，但我是主办方的话我也要让你抢。</p>
-<p>站在主办方和票务方的立场上，先到先得的秒杀抢票制就是最高效的「印钞机」。</p>
-<p>数周后亲临现场看演出的预期、眼看着余票迅速减少而害怕错过机会的预期、转手套利的预期……在精心设计的定时抢票场景里，每个人都有充分的动机抢下门票并立即支付。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604977213-8.jpg" /></p>
-<p>这样一来，前期投入的场租、舞美、宣传、演职人员等成本可以迅速回笼，而迅速售罄的事实，也可以为后续的巡演加场和赞助招商造足声势。</p>
-<p>即使有人付款失败，或者临时放弃购买，平台也可以迅速把库存释放出来，让下一位排队的顾客接手。而等你冷静下来，意识到自己不是非得去看时，平台还会告诉你：商品性质特殊，不设退换。</p>
-<p>正如很多人注意到的，票务生态还存在获利丰厚的灰色地带。</p>
-<p>比方说，为了表现出对歌迷的公平，演唱会的门票定价一般远远低于均衡价格，但在二手平台上，最终的成交价格往往也会远高于票面价。</p>
-<p><strong>中间的差价，就落入了主办方、票务平台和二级市场心照不宣的利益链条中。</strong></p>
-<p>2025 年，美国联邦贸易委员会（FTC）就对北美票务霸主 Ticketmaster 提起诉讼，指控后者明知「黄牛」注册大量账户绕过购票限制，却仍允许这些门票在自己的转售平台上以更高价格交易，甚至推出了名为 TradeDesk 的软件帮助票贩子统一管理不同渠道来源的门票。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604979451-9.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜ABC7 News</div>
-<p>反观抽签制，它对歌迷来说当然很轻松，但一方的轻松就是另一方的负担——票务方必须预留登记期、清理重复申请、抽出中签者，然后等待他们在付款日决定是否购买；如果中签者日程变化、经济紧张或仅仅是凑热闹而登记，那么余票还要流入第二轮甚至第三轮购票中。</p>
-<p>在这个过程中，主办方的资金回笼周期会被迫拉长，平台还要维护一套更复杂的票务分配系统。作为规则的制定者，除非艺人方面要求，否则他们着实没有动机去做多少带点公益的抽签制。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604980656-10.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜酱娱乐</div>
-<p>事实上，苏打绿 10 年前的抽签制试验，只进行了一场就宣告中止。根据当年的媒体报道，原因正是部分歌迷中签后没有付款，导致门票重新释放，而如何分配这批余票，后续又造成了不少争议。</p>
-<p>来到 2026 年，陈奕迅的录音演出也不再是纯粹的抽签制，而更像是某种混合制度：今天没有卖完的票，将会在 11 月 9 日的次轮抽签售票中，面对所有中签者实行先到先得的「抢票式」售票，从而确保门票可以在两轮售票中悉数售出。</p>
-<h3>AI 时代，淘汰抢票制是大势所趋</h3>
-<p>说起来，虽然抢票制因为种种弊端在今天已经是众矢之的，但「抢票」这件事一度是有一点浪漫色彩的。</p>
-<p>在中国摇滚乐进入商业化早期，「90 现代音乐会」的举办，就曾让首都体育馆售票厅前排起一里多长的队伍；日本票务公司 e+ 发明互联网抽签预售系统「プレオーダー」（Pre-order）之前，到现场排队买票还是当地死忠乐迷的标志。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604981967-11.jpg" /></p>
-<p>互联网不发达的年代，抢一张热门演唱会的门票，可能意味着半夜三点顶着星夜、裹着外套去售票窗口排队，和一群不相识的歌迷一起等到天亮。你可能不认同他们的目标，却依然会被这种热血感动，这正是浪漫主义的灵魂所在。</p>
-<p>而这些愿意付出时间的歌迷最终买到票，想必大多数人也是服气的。</p>
-<p>在诺奖得主丹尼尔·卡尼曼和理查德·塞勒等人在 1986 年发起的调查里，被问到哪种竞争门票的方式最公平时，大多数人都选择了「排队」，然后是「抽签」，最后才是远远落后的「竞价」。</p>
-<p style="line-height: 0;"><img alt="Image" class="aligncenter" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604984469-12.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜歌迷排队购买 Coldplay 演唱会门票 | 新加坡眼</div>
-<p>道理也很简单——在直觉里，排队可以很好地衡量付出的意愿，而且我们在时间上的「贫富差距」要远小于金钱上的「贫富差距」。</p>
-<p>即使来到互联网时代，「抢票」依然是一种「用心」的证明：粉丝可能会提前准备个人信息、调好闹钟、练习手速、确保网络通畅，甚至组织亲朋好友同时作战。经过一系列精心准备，如果最终真的击败数十万人抢到门票，确实能产生一种巨大的成就感。</p>
-<p><strong>但这种成就感，也许很快就会成为一种失传的艺术——因为我们的对手不再是人类了。</strong></p>
-<p>也许从十多年前开始，我们就开始接受这么一个事实：有很多抢票软件正在和我们同场竞技。但只要黑灰产业从业者的数量有限，「上科技」还有门槛，那总有一些票能落到普通人手中，抢票就依然是一种可能产生回馈的活动。</p>
-<p>但今天，AI Agent 和 Vibe Coding 似乎已经消除了技术作弊的门槛。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604985410-13.jpg" /></p>
-<p>哪怕是一个毫无技术基础的学生，也可能调用具备电脑操控能力（Computer Use）的 AI Agent 来为自己抢票，或是 Vibe 出一个足以绕开官方风控机制的自动化抢票脚本。仅仅是最近几个月，GitHub 上就出现了好几个显然由 AI 参与编写的抢票脚本项目。</p>
-<p>短时间内，也许票务平台还能继续升级检测机制，但<strong>长期来看，人们与售票网站交互的方式，正在从手动操作转向机器代理的大趋势是不会变的。</strong></p>
-<p>「科技大战」的结果，必然是自动化系统取代人工抢票。到这一步，所谓先到先得，已经很难再被视为对个人「努力」的奖励。</p>
-<p>既然拼手速已经失去了公平性，为什么不让抽签制和它背后的运气来主宰一切？</p>
-<p>从这个角度来看，我们有理由去期待和欢迎更多的陈奕迅，去欢迎更多的抽签制演唱会，工我们能坦然地接受命运分配的结果。</p>
-<p style="line-height: 0;"><img alt="Image" class="aligncenter" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793604988314-14.jpg" /></p>
-<p>至于现在，先预祝打开查询页面的你，能看到那句「恭喜您！您已成功在中签登记首轮中被选中」。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 苹果的一切都在变贵，全怪 AI</title>
-        <link>https://www.ifanr.com/1687259?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">602e022f625f30254e42f3ddeaa241b6c4c053f862fd84632376dfff404d4cc2</guid>
-        <pubDate>Tue, 03 Nov 2026 04:09:46 +0000</pubDate>
-        <author>郑廷旭</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：基于苹果最新财报电话会实录，揭示AI驱动的内存成本失控对硬件定价与毛利率的实质冲击，并披露Siri每日25亿次调用背后的成本转嫁逻辑，为理解苹果长期盈利结构变化提供关键增量事实。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img alt="" class="alignnone size-full wp-image-1687270" height="819" src="https://s3.ifanr.com/wp-content/uploads/2026/11/tns.jpg" width="1921" />今天，苹果发布了 2026 财年第四财季及全财年业绩。这也是约翰·特努斯（John Ternus）接替库克出任 CEO 后的第一份成绩单。</p>
-<p>从账面数字来看，表现可以说是相当生猛，直接录得了苹果史上最佳财年。</p>
-<p>单季营收 1144.77 亿美元，同比增长 12%；净利润 307.11 亿美元，同比增长 12%。全财年总营收更是达到了创纪录的 4788 亿美元。</p>
-<p>就连连续承压的大中华区，也凭借着秋季新机的换机潮，单季营收逆势增长了 21%。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678754360-1.jpg" /></p>
-<p>但在随后的财报电话会上，画风却突然一变。</p>
-<p>新官上任的特努斯和管理层，在会上被反复追问的不只是漂亮的销售纪录，而是「成本失控」、「内存涨价」以及「产能受限」。</p>
-<p>赶在双十一与年底大促的节骨眼上，苹果给出的利润预期却略显保守：下季度毛利率指引回落至 45%～46%，远低于本季度的 47.9%。</p>
-<p>面对分析师对成本飙升与硬件定价的追问，特努斯并没有回避：</p>
-<blockquote><p>这种内存价格是我们前所未见的，它确实给我们的硬件定价带来了直接压力。但我们在定价时始终专注于打造最好的产品并交付价值，分期和换购计划正在成为支撑购买力的关键因素。</p></blockquote>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678756903-2.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜彭博社</div>
-<h3>每天 25 亿次 Siri，苹果想让用户自己买单</h3>
-<p><strong>过去很长一段时间，苹果靠着两条腿走路，赚钱赚得非常舒服</strong>：一方面靠硬件赚取丰厚的溢价毛利，另一方面依靠 Apple Music、Apple TV+、iCloud+ 和打包的 Apple One，持续沉淀高粘性的订阅收入。</p>
-<p>至于那些内置在系统里的基础功能——无论是每天呼出多少次 Siri 设闹钟，还是在相册里分类照片，在绝大多数人的习惯里，它们都理所当然地属于一次性买断的体验，用得再多也不会产生额外的开销。</p>
-<p>但 Siri AI 彻底改变了这一切。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678760122-3.jpg" /></p>
-<p>特努斯在电话会上透露，如今 Siri 每天需要处理超过 25 亿次用户请求。</p>
-<p>端侧小模型解决不了的跨应用调度、长文本重写和复杂推理，全都需要依赖苹果的 Private Cloud Compute（私有云计算集群）。</p>
-<p>用户每叫一次 Siri 整理会议纪要、生成图片或调取日程，云端服务器就要烧真金白银的 Token 与电费。</p>
-<p>而这笔过去不存在的「运行维护税」，正以惊人的速度挤压苹果的利润空间。</p>
-<p>财报显示，苹果 2026 财年的研发支出飙升至 457.65 亿美元，同比暴涨 32.5%，增速是总营收的两倍以上。</p>
-<p>CFO 帕雷克在回答分析师时直言：研发费用的激增，核心就是被大模型云端基础设施和推理算力支出硬生生推高的。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678762760-4.jpg" /></p>
-<p>面对每天数十亿次调用带来的天价账单，强如手握千亿现金的苹果，也感受到了沉重的肉痛感。</p>
-<p>因此，苹果不得不把这一笔开销转嫁到消费者头上，特努斯在财报电话会上也毫不掩饰这一点：</p>
-<blockquote><p>今天的 iCloud+ 已经不再局限于云存储。我们在探索将更多进阶 AI 能力融入服务订阅，包括设置合理的服务器调用阈值并提供扩容方案，这会为服务业务打开全新的增长空间。</p></blockquote>
-<p>之后咱在 iPhone 上调用进阶 AI 能力时，屏幕上很可能就会弹出一条提示：<strong>今日免费额度已用尽，请升级你的 iCloud+ 套餐。</strong></p>
-<h3>苹果的一切都在变贵，全怪 AI</h3>
-<p>除了云端源源不断产生的 Token 费用，AI 浪潮对普通消费者最直接的冲击，是硬件全线变贵。</p>
-<p>还是那个我们都太熟悉的叙事：全球 AI 数据中心对 HBM 和高规格 DRAM 的疯狂扫货，重创了消费级芯片的供应链。</p>
-<p>特努斯在会上坦言，这一轮内存成本的涨幅是「前所未有」的。为了锁定供应，苹果单季度的资本与制造采购支出就高达 330 亿美元。</p>
-<p>这笔沉重的上游硬件成本，很快就以标签的形式，贴到了每一个消费者的面前。在最新的产品线里，苹果几乎对所有走量的基础款动了刀：</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678766045-5.jpg" /></p>
-<p>Mac mini 起售价从 4499 元一路飙涨至 6999 元；iPad Air 涨至 5999 元；MacBook Air 与 iPhone 18 Pro 的起步门槛更是双双推高至万元关口（9999 元）。</p>
-<p>光是涨价还不够，苹果甚至在新品推出的节奏上动了心思——便宜好卖的基础款延后发布，只拿最贵的新品出来卖。</p>
-<p>今年 9 月秋季发布会，苹果打破了近二十年的惯例：走量的 iPhone 18 标准版被延期，整个下半年只留下了高价的 Pro 系列与首款折叠屏 iPhone Duo。</p>
-<p>高盛分析师在电话会上专门追问了标准版延期的原因，特努斯对此语焉不详，但商业逻辑早已不言自明——在元器件暴涨的年份，苹果必须全力推销均价更高、利润更厚的产品。</p>
-<blockquote><p>我们很高兴在 9 月推出了 iPhone Duo 和 18 Pro，同时还有 iPhone 17、iPhone Air 继续充实整个阵容。当然，我们从不对未来的产品路线图发表评论。</p></blockquote>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678768920-6.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Apple</div>
-<p>然而，售价高达 21999 元的 iPhone Duo，一上市就遭遇了品控与产能的双重拷问。</p>
-<p>首批新机发售后不久，网络上便陆续出现了消费者关于内屏破裂、出现黑线绿线的投诉。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678770761-7.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜9to5Mac</div>
-<p>在接受路透社专访时，特努斯不得不亲自出面灭火。</p>
-<blockquote><p>只有极小比例（a very small percentage）的 iPhone Duo 遇到了显示故障，苹果正在全力为受影响用户免费更换整机。</p></blockquote>
-<p>与裂屏同样棘手的，是折叠内屏与钛合金复杂铰链的产能爬坡困境。</p>
-<p>特努斯在财报会上直言，目前 iPhone Duo 的供货「处于极度受限（constrained）状态，并且在现阶段完全无法预测供需何时能够平衡」。</p>
-<p>同样的超高端策略还发生在 Mac 上：苹果首次推出了带触控功能的 MacBook Pro（PROLED XDR 显示屏），起步价直接定在了 22999 元。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678772089-8.jpg" /></p>
-<p>面对硬件涨价带来的超高定价，<strong>普通消费者的钱包正承受着空前的挤压。</strong></p>
-<p>当分析师在电话会上问及消费者是否还能承受高昂售价时，特努斯给出的解药显得颇为无奈：</p>
-<p>苹果将全力押注年年焕新（Apple Upgrade Program）和 24 期免息分期，试图用<strong>「每天一杯咖啡钱」</strong>的话术，来对冲硬件涨价带来的剧烈痛感。</p>
-<h3>苹果不生产 Token，只是大模型的搬运工</h3>
-<p>在消费级硬件全线承压、成本节节攀升的阴云下，这份财报里却有一个业务实现了令人意外的大爆发——Mac。</p>
-<p>第四财季，Mac 业务单季营收达到 108 亿美元，同比大幅增长 24%，增速远超其他所有硬件品类。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678775304-9.jpg" /></p>
-<p>支撑起这 108 亿美元大盘的，明面上依然是走量的 MacBook Air、新推出的 MacBook Neo 以及开学季带来的常规换机潮。</p>
-<p>但在常规的消费底盘之外，Mac 还在悄然迎来另一股意料之外的新需求。</p>
-<p>据路透社与 The Information 报道，随着大模型落地成本失控，租用微软、亚马逊或英伟达云端算力的高昂 Token 账单，正逼得不少中小企业与开发者将目光转向本地——</p>
-<p><strong>而配备超高带宽统一内存的高配 Mac，正在成为他们逃离云端算力通胀的避难所。</strong></p>
-<p>Apple Silicon 芯片天生具备的高带宽统一内存架构，让一台配置 128GB 甚至 192GB 统一内存的 Mac Studio 或 Mac mini，售价只要数万元人民币，就能直接在本地离线跑起 70B 规模的开源大模型。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793678776699-10.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Apple</div>
-<p>这不仅省去了按量计费的云端 Token 费用，也消除了企业对数据外泄的顾虑。</p>
-<p>特努斯在电话会上也印证了这一势头，他提到 Mac 正迎来历史上最好的企业采购周期，甚至在菲律宾斩获了 17 万台 MacBook Neo 的批量教育与政企大单。</p>
-<p>特努斯执掌苹果交出的第一份成绩单，与其说是在庆祝「史上最佳财年」，倒不如说是苹果面对失控的算力账单时，一次务实的商业摊牌。</p>
-<p>当 Token 贵到连苹果都觉得肉痛时，那个免费造梦的 AI 时代叙事，就已经正式翻篇了。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 乔布斯的「祖训」和触屏 MacBook，何以同时成立？｜硬哲学</title>
-        <link>https://www.ifanr.com/1686623?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">cdce95061ba9fba1479674daf5c259ad1c7cb6c8ddc7de47bfb5d198e14846e3</guid>
-        <pubDate>Tue, 03 Nov 2026 02:09:08 +0000</pubDate>
-        <author>杜晨</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以触屏MacBook与亮灯Logo回归为切口，剖析乔布斯&#x27;祖训&#x27;与产品现实如何调和，并对比特努斯与库克的产品思路差异，兼具工程细节与战略纵深，信息密度高。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p>在洛杉矶的苹果新品活动现场，当全新的 MacBook Pro 在展台上亮起时，最先抓人眼球的甚至还不是屏幕正面，而是 A 面那颗阔别了整整十年的亮灯苹果 Logo。</p>
-<p>当年亮灯借用的是 LCD 屏幕的背光层，后来虽然仍在用 LCD，但为了机身极致轻薄，亮灯只能退场。如今新款 MacBook Pro 换上了自发光的双层串联 OLED 面板，更是没有背光层可「借」。为了在这台极具开创性的触屏 MacBook Pro 上，将这个极图腾意义的细节带回来，苹果硬件团队大概率为它单独塞进了一套独立的发光模组。</p>
-<p>从这种带点工程浪漫主义的小细节上，很容易看出苹果新任 CEO 约翰·特努斯（John Ternus）与前任 CEO 蒂姆·库克（Tim Cook）在产品思路上的微妙差异。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/10/lark2pad-1793246413829-1.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p><strong>而当我们真正开始使用这台 MacBook Pro，伸出手指戳向它的屏幕，另一种更为强烈的历史对冲感扑面而来。</strong></p>
-<p>在打开的照片里双指捏合放大、在 3D 地图上手动旋转视角、从缩短版「灵动岛」的位置向下滑动呼出 Siri AI 与聚焦搜索……这套在 iPhone 和 iPad 上已经被人类肌肉记忆驯化了近二十年的动作，终于在 Mac 上跑通了。</p>
-<p><strong>但这立刻引出了那个自始至终无法回避的终极追问：苹果不是从来不做触屏笔记本吗？这次为什么要在 MacBook 上做触屏？</strong></p>
-<p>时间倒回 2010 年 10 月，苹果的灵魂人物史蒂夫·乔布斯在「Back to the Mac」发布会上留下了一段日后被奉为圭臬的判词：</p>
-<p>「触控表面不应该是垂直的。刚开始演示时或许看起来很棒，但用不了多久你的手臂就会开始发酸，再过一会儿，你的胳膊就快要掉下来了。这在人体工学上是极其糟糕的。」</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/10/lark2pad-1793246419232-2.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>十六年后，这台起售价 22999 元、顶配冲上 11 万元的触屏版 MacBook Pro 就摆在眼前。苹果真的「违背祖训」了吗？或者说，在乔布斯的物理定律与今天的商业现实之间，苹果内部究竟是如何完成逻辑自洽的？</p>
-<p>我们带着这个问题咨询过一些内部人士以及外部专家，得到了一些观点与观察，与你分享。</p>
-<h2>乔布斯一直是对的，但苹果的时代变了</h2>
-<p>如果纯粹从物理体验出发，乔布斯当年的观察，在今天依然没有过时。</p>
-<p>爱范儿在洛杉矶现场体验这台触屏 MacBook Pro 时，一个很直观的感受是：尽管苹果强调这次专门升级并加固了屏幕转轴，它的阻尼感也确实比市面上绝大多数 Windows 笔记本更扎实，但在手指发力点按时，屏幕依然无法做到绝对纹丝不动的「很稳」状态。</p>
-<p>同时，如果你试图抬起手腕，悬空手臂去完成一套长流程的连续点击，酸痛感依然会在几分钟内袭来。这对于大部分久坐在桌前、缺乏锻炼的白领来说绝对不是个好体验。</p>
-<p>既然物理定律无法被推翻，苹果为什么还要迈出这一步？答案或许藏在苹果内部长达数年的激烈交锋与最终达成的妥协里。</p>
-<p>彭博社记者马克·古尔曼在近期的 <em>Power On</em> 专栏中曾经披露，将触控屏引入 Mac 并非苹果内部全票通过的决定：</p>
-<p>苹果的工业设计团队曾对此持强烈的反对态度，他们和当年的乔布斯一样，对垂直触控的人体工学缺陷和满屏指纹抱有天然的警惕；但蒂姆·库克与硬件出身的现任 CEO 约翰·特努斯则站到了务实的一派。</p>
-<p><strong>爱范儿了解到，苹果高层人士仍然认可工业设计团队以及乔布斯的观点——但现在更大的问题是，苹果产品用户的代际变化已经不可忽视。</strong></p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/10/lark2pad-1793246425493-3.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>今天有相当大一部分 Mac 买单者，是伴随 iPhone 和 iPad 长大的年轻一代创作者。对于这群数字原住民而言，屏幕不光是看的，更是「划」的。看到一块屏幕就伸手去划一下，已经成了近乎条件反射的生理本能。</p>
-<p>这些用户在使用 Mac 的时候，时不时会下意识伸出手，却发现屏幕毫无反应。苹果的调研显示，这种「断联感」正在成为一种负面的体验摩擦。</p>
-<p>所以，如何既尊重设计团队对人体工学的洁癖，又回应年轻世代的交互直觉？</p>
-<p>苹果内部耗时数年摸索出的解法，本质上是换了一道考题——只要不把触控当成「主要交互方式」，乔布斯的诅咒就不会应验。</p>
-<p>Mac 首先且最重要的一点，是它依然是一台围绕触控板和键盘构建的间接输入设备（Indirect Input Device）。特努斯在接受《连线》杂志采访时表示，「但我想，总有一些时刻，拥有触控会让人觉得舒适和顺手。」</p>
-<p><strong>据爱范儿了解，在苹果内部的产品定义中，这次引入触控的核心原则被严格限定为增强（Augmentation）而非替代（Replacement）。</strong></p>
-<p>键盘、鼠标和那块体验依然独步天下的大面积压感触控板，牢牢占据着 Mac 交互的核心王座；而触控屏只负责在特定的几秒钟里，跟其他的交互方式打个配合。</p>
-<p><strong>甚至，为了彻底安抚那些对误触深恶痛绝的传统硬核用户，苹果在 macOS 27（Golden Gate）的系统设置里，专门给触控功能留了一个独立的物理级软开关。</strong></p>
-<p>用户可以选择完全不使用触控功能，只需在系统里轻轻一关，设备的使用体验与之前的非触控 MacBook Pro 完全一致，没有任何额外的学习成本。</p>
-<h2>专属于触控的「三秒」瞬间</h2>
-<p>搞清楚在这台机器上传统交互和触控交互之间的「主次关系」后，再看苹果在 macOS 27 上的界面处理，一切就变得顺理成章了。</p>
-<p>桌面操作系统做触控，历史上最惨烈的翻车现场莫过于微软的 Windows 8。</p>
-<p>当年微软为了强推触控体验，激进地砍掉开始菜单，换上大色块的动态磁贴，试图用一套粗糙的触控逻辑覆盖高精度的键鼠操作，结果在桌面端引发了灾难性的口碑反噬。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/10/lark2pad-1793246461789-4.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>苹果显然吸取了这个教训。在内部评估中，苹果非常明确地拒绝为了迁就触控而重新设计 macOS。macOS 原有的高信息密度、高控制感的 UI 布局被完整地保留了下来。在系统底层，手指对屏幕的每一次点击，本质上都会被直接转译为标准的鼠标指针点击操作。</p>
-<p><strong>克制，不代表什么都不做。苹果把工程巧思花在了极其微观的「局部动态补偿」上。</strong></p>
-<p>我们在现场体验 macOS 27 时注意到一个非常讨巧的细节：桌面窗口左上角那三颗经典的「红绿灯」控制按钮，平时依然保持着小巧紧凑的桌面级尺寸；但当你的手指靠近并点击它们时，系统会像 iPadOS 捕捉到光标那样，主动将按钮及周边下拉菜单的操作热区动态放大，确保指腹能够精准命中。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/10/lark2pad-1793246466661-5.gif" /></p>
-<p>键盘、鼠标指针擅长的是单点精准控制，但在面对多维、并发、需要精细操控的操作时往往捉襟见肘。</p>
-<p>而在专业软件生态里，苹果对触控的定位更是精准得像一把手术刀——专治鼠标和触控板的「笨拙时刻」。</p>
-<p>在苹果的设想与我们的实测中，有几个场景的效率提升是立竿见影的：视音频剪辑软件的时间线操作、3D 建模和设计预览、虚拟乐器多指触控演奏——</p>
-<p>这些场景都有一个共同特征：它们都是偶发的、瞬时的。你不需要一直举着胳膊，只是在修图、建模或剪辑的间隙，自然地抬手捏一下、拨一下，然后手掌继续落回温润的铝合金掌托上。</p>
-<p><strong>爱范儿了解到，对于触控，苹果的核心设计原则非常明确：提升易用性，而非增加复杂度。</strong>触控的存在，只需要为了让「特定」的操作更简单和直观——绝对不是，绝对要避免，给用户增加一套需要学习的新交互方式。</p>
-<p><strong>事实上，对于 macOS 应用的触控适配，苹果这次采取了某种类似「无为而治」的策略：愿意适配就适配，不愿意适配也没什么后果。</strong></p>
-<p>毕竟有系统底层的转译机制存在，绝大多数 Mac 应用无需修改代码，现在已经能支持基础的触控操作。苹果绝对不会强制开发者非要支持高级触控操作。当然，如果开发者希望更大限度地利用触控能力，苹果在全球都提供了现成 API 以及本地化的支持资源。这主要是面向那些确实会从高级触控交互中收益的应用。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/10/lark2pad-1793246474320-6.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<h2>对变形本/2-in-1 说不：Mac 可能永远不会变成 iPad</h2>
-<p>在现场体验完这台新机器后，爱范儿编辑部内部也曾讨论过一个略显遗憾的细节：既然都给 MacBook Pro 加上触屏了，为什么屏幕最大开合角度还是和旧模具差不多，不能像 Windows 阵营那样 180 度摊平，甚至 360 度翻转过来配合 Apple Pencil 当画板用？</p>
-<p>毕竟，缺少了手写笔和翻转形态，这台电脑的触控场景看起来依然有些零散，仿佛浅尝辄止。</p>
-<p><strong>苹果的产品决策层对此仍然是坚定，甚至「固执」的：因为苹果从骨子里不相信「可变形 PC（Convertible PC）」这种产品形态。</strong></p>
-<p>长期以来，PC 行业一直试图用二合一翻转本来证明「一机多用」的性价比，但在苹果的产品哲学里，这类试图讨好所有场景的混合设备 (Hybrid Products)，早已被定性为失败案例。</p>
-<p>虽然「What&#8217;s a computer」那条广告起到了一个很好的效果，就是模糊了人们对于「电脑究竟是什么」的认知——但苹果内部对 Mac、iPad 两条核心产品线的边界，仍然近乎教条般清醒：</p>
-<p><strong>iPad 是一块多功能的「神奇玻璃」(Magical Glass)，它可以配合手写笔、键盘变成你想要的任何东西，但它成不了 Mac；而 Mac 的灵魂在于指针式的间接交互与重度生产力工作流，它也不会变成 iPad。</strong></p>
-<p>如果强行给 MacBook Pro 加上 360 度翻转铰链，让它去兼职平板电脑，结果只会是：把 Mac 变成一个糟糕的 iPad。</p>
-<p>反之亦然。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/10/lark2pad-1793246506124-7.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p><strong>从和苹果内外部人士的交流中，爱范儿有一个极其明确的感受：苹果自己就有极其充分的成功可以去复制，完全没必要去复制别人的试错和失败。</strong></p>
-<p>在苹果的商业调研画像中，绝大多数真正硬核的 Pro 级用户，手里本来就同时拥有 MacBook Pro 和 iPad——<strong>这两款设备在跨产品功能上可以互相借鉴、彼此赋能，但绝不会在物理形态上走向合并。</strong></p>
-<p>不给 MacBook Pro 360°翻转铰链、不让 MacBook Pro 支持 Apple Pencil，恰恰是苹果为了维持这两条百亿美元级产品线各自纯粹体验而故意筑起的防火墙。</p>
-<p>当然，这并不代表新的变化、新的融合在未来不会发生。毕竟苹果存续到今天，靠的不是一成不变。</p>
-<h2>最后的问题：为什么是现在？</h2>
-<p>现在我们理解了苹果的思维逻辑，就只剩下最后一个问题：触屏绝对不是什么难事，苹果恐怕早就可以做出来，为什么选择在 2026 年的秋天推向市场？</p>
-<p>这里有两个答案。</p>
-<p>第一个版本是苹果官方的：苹果硬件 SVP 约翰尼·斯鲁吉 (johny Srouji) 宣称，直到今天，这台电脑所采用的 Tandem OLED 技术才刚刚跨过苹果内部设定的准线。</p>
-<p>特努斯则表示，苹果一直在等待一个时间点：给 MBP 加入触控，不会再任何其他维度上让这款产品变得比非触控机型更差——包括并不限于让机器更重、机身更厚、让显示效果更差、让系统性能变差等等。</p>
-<p>第二个版本是爱范儿自己的：这是给特努斯新官上任三把火的最后一把。</p>
-<p>到目前为止，我们看到的三个最重磅新产品中，只有 iPhone 18 Pro 系列属于「常规」，另外两款 iPhone Duo 和触屏 MacBook Pro——你应该发现了，它们都属于「违背祖训」的作品。</p>
-<p>库克一定要赶在苹果秋季新品发布会以及后续的十月新品月之前交棒，就是为了确保让特努斯引领一个全新的时代，全盘「拥有」这些新产品，无论它们最终的评价是好是坏。</p>
-<p>这是苹果的传承，是「一定要这么做」的。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/10/lark2pad-1793246510833-8.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>通过和许多苹果内外部人士交流，爱范儿越来越清晰的看到这一点：</p>
-<p><strong>在约翰·特努斯执掌帅印的新周期里，苹果找到了一种与乔布斯遗产相处的新方式——</strong></p>
-<p><strong>依然敬畏第一性原理，依然对糟糕的行业跟风保持傲慢。但在技术成熟度足以兜底的前提下，不再为了维护某种神圣的「教条」，而拒绝给用户多提供一个顺手的选项。 </strong></p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 不穿的旧衣服呢？放「AI 版转转」，毛利 80%</title>
-        <link>https://www.ifanr.com/1687274?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">86421ab886697f3c337c8a227ca64f4c8632a078870bc796c23acf7395c60862</guid>
-        <pubDate>Tue, 03 Nov 2026 07:05:31 +0000</pubDate>
-        <author>姚桐</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：深度拆解ThredUp如何用AI将非标旧衣处理工业化，揭示其12项质检、AI定价与物流体系，对理解二手电商规模化有长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689165032-1.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>你的旧衣服怎么处理的？</p>
-<p>当然是放在转转上面回收了，转转是一个官方二手平台，比一般二手要正规……</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689191193-2.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>我们今天要介绍的是「AI 版转转」。</p>
-<p>它使用 AI 自动识别服装颜色、类别、尺寸，并结合商品质量与市场需求进行定价，降低非标准化商品的处理难度。</p>
-<p>每年有约 1700 万件旧衣服，从陌生人的衣柜出发，经过它，走进另一个陌生人的衣柜。</p>
-<h2>从店主的眼光到 AI 的估价</h2>
-<p>每件新衣服的背后都有一个确定的库存单位。同款衬衫，同样的颜色，同样的尺码，几千件长得一模一样。仓储、定价、上架，系统处理起来并不复杂。</p>
-<p>可 ThredUp 的处理中心每年接收数百万件寄来的衣物，每一件都是孤品。这件格子衬衫洗了二十次，领口有点卷；那件牛仔裤标着 32 码，实际腰围偏大；另一件毛衣摸起来还是新的，标签却掉了。</p>
-<p>那平台怎么估价呢，寄售店的店员凭经验收货，摸一摸面料，看一眼牌子，心里估个价，几个月卖不掉就降价，或者退还给寄卖的人。</p>
-<p>不少慈善二手店按品类定统一价，一件衬衫几美元，一条牛仔裤十几美元，好货坏货混在同一种价签下面，捡漏的人占了便宜，店里却很难知道一件真正的好东西值多少钱。这在小规模里行得通，一旦量上来，人力就成了天花板。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689232097-3.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>ThredUp 是这个行业里把流程彻底工业化的一家。据《现代物料搬运》2023 年对其配送中心的报道，进来的衣服要先过 12 项品质检查，合格的才挂上带二维码的衣架，工作人员录入品类、品牌、颜色、尺码、面料和洗涤方式，价格交给专有的机器学习软件来定。高价的衣服拍在人台上，低价的平铺拍摄，照片检查过后才上架。</p>
-<p>后来 AI 接手了更多环节，能自动识别颜色、类别和尺寸，再把成色和市场需求放进算法里定价。据 PYMNTS 今年 4 月的报道，平台常年有 400 多万件在售商品，每天新增数万件，一套强化学习模型盯着实时需求，给卖得慢的衣服自动降价。</p>
-<p>公司还投入了 4 亿多美元做供应链自动化，覆盖商品识别、尺寸测量和拍摄。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689245385-4.gif" /></p>
-<p>这些投入换来的结果是，ThredUp 每年能卖出约 1700 万件衣服。2025 年第二季度它的毛利率达到 79.5%，而传统服装零售商很少超过 30%。</p>
-<p>面向消费者，ThredUp 在 2024 年 8 月，开放了三项 AI 功能，升级后的搜索，以图搜图，还有 Style Chat。</p>
-<p>Style Chat 像一位对话式的造型师，输入「秋天婚礼穿什么」，它会给你整套搭配，再输入要求，会跟着调整。以图搜图允许用户上传照片，或者分享一条 Instagram 帖子，去库存里找相似的款式。公司披露的数据显示，使用图像搜索的消费者，最终下单的可能性比普通浏览者高出 85%。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689285808-5.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>使用这个功能的人，他们带着具体的需求来，AI 帮他们锁定目标。意图越明确，转化越顺畅。因为二手平台的商品实在太散，能帮人在几百万件旧衣里找到那件「对的」，才是门槛所在。</p>
-<h2>被 AI 带来的人，为什么更愿意下单</h2>
-<p>Adobe 的最新数据显示，与来自其他流量来源的普通购物者相比，通过 ChatGPT 等 AI 渠道访问零售商网站的购物者更可能延长浏览时间、将商品加入购物车，最重要的是，更可能完成转化。</p>
-<p>在今年七月，来自 AI 渠道的购物用户的转化率比来自其他渠道的购物用户高出 60%，每次访问带来的收入高 53%，跳出率低 34%，停留时间多 59%，浏览的页面多 22%。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689316538-6.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>这种转化率的优势已经连续保持了 11 个月。而一年前的情况则相反，当时非人工智能推荐来的顾客每次访问所花费的金额更多。这意味着人工智能助手在将相关产品展示给具有更高购买意图的顾客方面表现得越来越好。</p>
-<p>回到二手衣服的场景，二手平台的货是海量的，ThredUp 光在售的就有 400 多万件，每一件都不一样，没有爆款可以让人闭着眼跟风。逛这样的货架，人很容易累。</p>
-<p>心理学里有个很有名的果酱实验，2000 年 Iyengar 和 Lepper 在超市摆摊，摆 24 种果酱时，六成路人会停下来试吃，最后买的只有约 3%，摆 6 种时停下来的只有四成，买的却有约 30%。</p>
-<p>选项太多会让人更难做决定，这个说法由此传开。</p>
-<p>后来也有人提出不同意见，2010 年一篇汇总了几十项实验的元分析发现，选择过载更容易出现在选项复杂，自己又没有明确偏好的时候。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689321799-7.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>逛二手的人往往没有具体目标，想要的是「合适的，好看的，便宜的」，正是容易过载的处境。AI 替人把几百万件缩成十几件，用一句话，或者一张截图，换一个小得多的范围。</p>
-<p>据 ThredUp 的调查，48% 的二手购物者在购物时用过 AI 工具。被缩小了范围的人来到商品页，已经完成了一半的决定，剩下的只是确认尺码和价格，转化率高也就不奇怪了。</p>
-<p>当然，AI 带来的用户并不是铁板一块。他们也有高期待带来的高要求。如果推荐不准，反而会强化失望感——毕竟「AI 推给我的」暗含一种背书，准确性一旦失灵，信任的损耗比随机浏览还要大。</p>
-<p>这解释了为什么各家平台都在把推荐模型做得越来越细。知道你喜欢的品牌只是开始，还要知道你上次退货是因为尺码偏大，知道你偏好哑光而非亮面，知道你通常在周五晚上刷手机。</p>
-<p>ThredUp 披露，2024 全年 AI 带来的新顾客数量同比增长了 32%。二手服装这个品类本来有门槛，对质地和成色的不确定感让很多人望而却步，AI 的介入正在消解这种犹豫。</p>
-<h2>从帮你挑到替你买</h2>
-<p>识别，定价，推荐，「帮你挑」已经成熟，也有了 ThredUp 这样跑通的样本。再往前一步是「替你买」，让 AI 拿着你的授权，自己去下单付款。</p>
-<p>2025 年 9 月，OpenAI 和 Stripe 联手在 ChatGPT 内上线了即时结账功能，初始合作商包括 Etsy 和 Shopify 的部分商家。用户在对话里相中了某件东西，可以直接在界面内完成支付，无需跳转。这是第一次有主流 AI 对话平台试图打通「发现」和「购买」之间的最后一段距离。</p>
-<p>可到 2026 年 3 月，OpenAI 调整了方向，把重心移回「商品发现」，允许商家使用自己原有的结账流程接单，而不是统一走 ChatGPT 内的支付闭环。</p>
-<p>媒体援引分析人士的看法指出，Instant Checkout 没有获得多少用户，原因包括商家接入麻烦，商品数据难以保持准确，多件商品的购物车和会员积分也不好处理。OpenAI 自己认为最初的版本「没有提供我们期望的灵活度」。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689332428-8.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>Morgan Stanley 在 2025 年 12 月的报告里估计，到 2030 年，AI 购物助手可能占到美国电商的 10% 到 20%，对应 1900 亿到 3850 亿美元的销售额。报告还提到，美国约 23% 的人上个月通过 AI 买过东西，杂货和日用消费品是最先起量的品类。</p>
-<p>目前，「替你买」带来的问题已经浮出水面。谁来负责退货纠纷？AI 代购的授权边界在哪里？万一理解偏差，买回来一件根本不想要的东西，损失算谁的？</p>
-<p>用户通常给 Agent 的是一份有范围，有预算，有期限的委托，而不是每笔交易都点头。金额上限挡得住贵的错买，挡不住便宜的错买。目前没有公开的规则来处理「Agent 超出了你的本意」，商家往往只能自己扛下损失。</p>
-<p>人买衣服前会看图片、尺码表和退货条款，Agent 多半只读数据，这使得退货率上升。ecommerceguide 指出，服装，鞋和家具是风险最高的几类。</p>
-<p>如果是二手衣服，一件旧衣服只有一件，卖出即售罄，退回来要重新检验，重新拍照，重新定价，ThredUp 靠规模压低的单件处理成本，或许会在这里被拉高。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793689362750-9.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>Agent 看价格和规格，不看版式和搭配推荐，商家花力气做的陈列会失效，状态描述不够细的二手商品，在 Agent 眼里就排到了后面。</p>
-<p>ThredUp 早就把非标准的商品做成了结构化的数据，这些原本为人工作业准备的功夫，到了 Personal Agent 时代可能成了它的优势。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] GPT-6 Astra 爆改 Qwen 大脑：只动 0.016% 参数，数学成绩疯涨</title>
-        <link>https://www.ifanr.com/1687285?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">8a1665843dbfb5a16fa0608d8f5ced0aa00d8d32a4cc9d40bd553fedf29127d4</guid>
-        <pubDate>Tue, 03 Nov 2026 07:22:57 +0000</pubDate>
-        <author>张子豪</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：揭示MIT CSAIL的权重空间编程新方法：GPT-6 Astra直接修改Qwen3.5-0.8B仅0.016%参数，数学成绩从7.9%升至48.1%，并客观呈现质疑（如修复重复推理问题）。技术原理与争议并存，信息密度高，具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img alt="" class="alignnone size-full wp-image-1687300" height="544" src="https://s3.ifanr.com/wp-content/uploads/2026/11/06-lupan-labeled.jpg" width="1280" /></p>
-<p>只改了 0.016% 的权重，一个 8 亿参数大模型的数学成绩，就从 7.9% 飙升到了 48.1%。</p>
-<p>更夸张的是，动手修改这些权重的，竟然是另一个大模型 GPT-6 Astra。</p>
-<p>最近，MIT CSAIL 的研究团队展示了一种相当大胆的 AI 优化方法。他们让 GPT-6 Astra 像程序员阅读和修改代码一样，直接分析神经网络的权重，定位模型的问题，再修改其中的参数。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690174036-1.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜研究博客地址：https://rikiyat.github.io/blog/weight-space-programming/</div>
-<p>整个过程没有使用传统的梯度训练。研究人员仅修改了 Qwen3.5-0.8B 的 131072 个参数，<strong>就让它在 MATH-500 上的成绩从 7.9% 提升至 48.1%</strong>，GSM8K 从 13.8% 提升至 67.1%，指令遵循能力也明显改善。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690186835-2.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>这项研究被称为「权重空间编程」（Weight-Space Programming）。</p>
-<p>消息传开后，有人认为，这是一种刚刚在最新一代模型中出现的「阶跃式能力」。如果大模型能直接读写另一个模型的权重，未来 AI 优化 AI，可能连重新训练都不需要了。</p>
-<blockquote><p>这是一种全新的、阶跃式的新兴能力，它刚刚才出现在最新一批模型中。</p></blockquote>
-<p>但质疑声也很快出现，有人指出，Qwen 原本就存在严重的重复推理问题，数学成绩大幅上涨，可能只是因为 Astra 修好了这个 Bug，<strong>并不等于一个模型凭空获得了新的数学能力</strong>。</p>
-<p>从 7.9% 到 48.1%，GPT-6 Astra 究竟对这个模型做了什么？</p>
-<h2>从写代码到直接修改模型权重</h2>
-<p>一般来说，我们想要 AI 生成更好的回答，通常只能修改输入的提示词。而开发者想要修改模型的输出，可以用数据进行微调。</p>
-<p>权重空间编程则尝试直接修改训练完成后的模型权重，即直接修改神经网络计算时使用的数字。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690195409-3.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>所谓权重，我们可以把它理解为神经网络模型里大量可调节的旋钮，每个旋钮都是一个数值，这些数值的不同会决定数据在网络中传递时，会被放大、削弱，还是以其他方式参与计算。</p>
-<p>而我们常听到的训练模型，很大程度上就是在根据海量的数据不断调整这些旋钮，好让它逐渐学会从输入产出正确的输出。</p>
-<p>训练完成后，模型的知识、习惯和行为倾向，都以某种复杂方式编码在这些数值之中；一个模型可以拥有数百万、数十亿甚至更多权重。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690204831-4.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>普遍的认知里，大语言模型能参与到模型迭代的部分，只是局限在编写训练代码、调整超参数、优化提示词，甚至设计完整的训练流程等。但在这些工作中，高达千亿、万亿大参数的模型权重本身，仍然主要由优化算法负责更新。</p>
-<p>现在，大模型优化的对象开始从「如何训练一个模型」，下沉到「模型本身由哪些数值构成」。权重空间编程实现了让通用大语言模型可以根据自然语言目标，直接读取和修改神经网络权重；在某些实验中，模型甚至不需要环境反馈。</p>
-<h2>读懂权重之后，AI 开始自己写权重</h2>
-<p>为了证明这种突破的合理性，研究团队首先测试大模型能否只通过权重，就理解一个神经网络究竟学会了什么。</p>
-<p>在实验中，GPT-6 Astra 能根据模型的原始权重，就推断出结构完全相同的几个小网络，分别对应的是专门为哪款游戏进行优化的模型，也能根据权重判断扩散模型会生成圆形、方形还是三角形。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690234588-5.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>面对几个小型语言模型，它还能仅根据中间层权重就判断训练语料属于 Python、英文还是日文罗马字，并找出负责复制前文的注意力头。</p>
-<p>证明大模型可以读懂权重之后，研究团队继续测试是否能「写」，即修改权重。</p>
-<p>研究团队用强化学习算法 PPO 训练小车控制网络，跑了约 10 亿步。结果，小车直接往坡上开，却卡在那里；在 256 局检查中，一次也没成功。</p>
-<p>Astra 收到了网络权重、场景和输入输出的说明，以及一次失败过程的记录。它在一次回复里提交参数补丁，只是修改了 3.5% 的权重，为网络加入「先后退蓄力，再全速前进」的控制路径，使成功率从 0 提升至 100%。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690240714-6.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>在另一组实验中，Astra 根据游戏规则和网络结构，从零生成游戏网络的权重。这些没有经历训练的网络，在三个 MinAtar 游戏中都超过了训练 1 亿步的 PPO 网络。在 9×9 围棋任务中，经过有限的前向测试和修改，生成网络还超过了同规模、经过 2000 万局训练的 PPO 网络。</p>
-<p>这些结果指向一个颇具想象力的可能性：<strong>大模型或许可以把自然语言中的规则和策略，直接「编译」为神经网络。</strong></p>
-<h2>只改 0.016% 参数，数学成绩涨了 40 个百分点</h2>
-<p>真正让这项研究出圈的，是对 Qwen3.5-0.8B 的修改。</p>
-<p>前面那些小游戏的小模型都可以把权重转成文本，然后交给 GPT-6 Astra 处理，但一个 8 亿参数没法像直接塞进上下文。研究人员给 Astra 一个可以读取和修改权重的 Python 环境，以及 GSM8K、MATH 训练集中的练习题和答案，要求让这个小模型更擅长数学。</p>
-<p>它可以借助 Python 分析权重，能通过专用工具测试模型，也能查看模型运行时的隐藏状态、神经元激活和注意力信息，但不能使用梯度信息或开展训练。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690245996-7.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>Astra 最终发现，模型的大量回答陷入了重复推理。在最初检查的 96 个练习答案中，有 85 个一直生成到 32768 个 token 的上限，仍然没有给出最终答案。GPT-6 Astra 将这一问题定位到部分 MLP 层写出的一个特定方向，并通过删除这个方向来抑制循环。</p>
-<p>在允许 50 次前向测试的设置下，修改后的模型不仅数学成绩提高，MATH-500 从 7.9% 升到 48.1%，GSM8K 从 13.8% 升到 67.1%。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690250668-8.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>连 IFEval 指令遵循成绩也从 21.0% 上升至 62.3%；在 MATH-500 上触及 token 上限的回答比例，则从 93.0% 降至 33.1%。整个修改只涉及 131072 个参数。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690252936-9.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>不过，研究团队也做了相应的补充实验。<strong>对于很少出现推理循环的 Gemma 3 270M，Astra 的修改没有带来明确提升</strong>。其 MATH-500 基线成绩为 6.8%，经过 50 次前向测试后的版本为 7.0%。</p>
-<p>研究博客最后提到，<strong>Astra 主要移除了妨碍模型完成回答的障碍，而不是向模型注入了新的数学知识，不太能实现添加模型原本就不具备的能力。</strong></p>
-<h2>能力大幅提升，还是修好了一个 Bug？</h2>
-<p>在 X 上，许多讨论将这项研究概括为「让 AI 直接修复 AI」。如果这种方法足够可靠，未来开发者或许不必为每个模型缺陷重新收集数据和微调，只需让更强的模型检查权重、找到故障并进行局部修复。</p>
-<p>有网友发帖称，自己已经复现了博客中的结果，并认为这是一种刚在最新一代模型中出现的「阶跃式能力」。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690254547-10.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>还有网友说自己的团队做过类似实验，发现 Claude 模型也能从零写出完整、可运行的神经网络权重。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690258994-11.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>而质疑的声音主要来自于部分网友认为提分主要与<strong>减少循环</strong>有关，Astra 使用的思路与已有的激活引导方法相近，并且提供给 Astra 的长提示词已经明显暗示了循环问题，并引导它寻找能够修复问题的神经元。</p>
-<p>有人提出首先应该测试一个简单的对照：直接关闭 Qwen 的思考模式，能否取得类似提升？</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690267172-12.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>如果调整推理设置就能大幅减少循环，那么权重编辑究竟带来了多少额外价值，就需要重新评估。其次，这种方法还应与正常梯度训练进行比较，而不只是与一个表现很差的原始模型比较。</p>
-<p>关于读写权重的争议，也是另一个争议点。普林斯顿大学博士生 Xingyu Dang 在运行一项 Writing Weights Index 测试后报告，开源模型在这类任务上表现困难。这也意味着，读写权重可能主要是最新前沿模型刚刚展现的能力，而不是所有大语言模型都已经具备的通用技能。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690275545-13.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>原博客本身也记录了一项重要的失败，在识别「谄媚模型」的实验中，Astra 仅比较权重时无法作出判断，直到被允许观察模型在特定文本上的注意力模式，才识别出差异。这说明「直接读懂权重」目前仍不是稳定、通用的能力。</p>
-<h2>人人都能发布大模型</h2>
-<blockquote><p>这项工作并没有让我改变对老派机制可解释性能走多远的判断，它改变的是我对大模型有多擅长这件事的判断。</p></blockquote>
-<p>过去，研究人员想要改变一个模型的行为，通常需要准备数据、设计训练方法，再通过优化算法更新权重。现在，GPT-6 Astra 展示了另一种可能：<strong>让大模型根据任务目标，分析神经网络内部的参数，并尝试直接修改它们。</strong></p>
-<p>当然，距离真正把这种方法用到实际的模型开发中，还有不少问题需要解决。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793690284238-14.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>这次 Astra 成功修复了 Qwen 的推理循环，却没能明显改善 Gemma 的数学表现。它能否稳定适用于不同模型和任务？与关闭思考模式、常规微调相比，究竟有多大优势？更重要的是，它能否让模型获得原本不具备的能力，还是只能修复已有能力发挥过程中的问题？</p>
-<p>但是当<strong>神经网络的权重本身，也可能成为大模型可以直接操作的编程对象时；</strong>未来，我们或许只需要描述希望模型具备什么行为，AI 就尝试把这些要求转化为具体的参数修改。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] GPT-6徒手“修”好了阿里的小模型，AI 开始动别人的脑子了</title>
-        <link>https://www.huxiu.com/article/4902660.html?f=rss</link>
-        <guid isPermaLink="false">9f29396d15b61ac2379fb61b60b7187f1a3b0d149e8751891dd8bb34bc8518fc</guid>
-        <pubDate>Tue, 03 Nov 2026 17:17:08 +0800</pubDate>
-        <author>凤凰网科技</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：报道MIT CSAIL未评审实验：GPT-6直接修改Qwen3.5-0.8B权重，仅动0.016%参数将MATH-500从7.9%提至48.1%，提出权重空间编程，触及模型优化范式与模型修改权两大命题，信息密度高。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MjM5ODAxMjU2MA==&amp;mid=2649805659&amp;idx=1&amp;sn=f73394a8d0eb6b63304aaf68ba408f17&amp;chksm=bf3d0b37ab3a44e274d1e038fe6feb08beea871cd60ac1e0acbdb54fd5698ea0d1867fa91008#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 凤凰网科技 </span></a><span class="text-remarks">，作者：凤凰网科技，编辑：董雨晴</span></p><p><br /></p><p>摘要：</p><p><br /></p><p>核心或在于，它触到了AI产业当前最大的两个命题：一是“模型优化是否还必须依赖大规模训练”，二是“谁有权定义和修改别人的模型”。</p><p><br /></p><p>11月3日，一张截图在中文互联网刷屏：MIT CSAIL团队让OpenAI的GPT-6 Astra直接读取并修改阿里巴巴Qwen3.5-0.8B模型的权重，只改动了131072个参数，约占该模型8亿参数的0.016%，就将其在MATH-500数学基准上的成绩从7.9%拉升至48.1%，指令遵循能力（IFEval）提升约3倍。全程没有梯度下降，没有反向传播，没有传统意义上的“训练”。</p><p><br /></p><p>团队给这套方法起了个新名字：权重空间编程（Weight-Space Programming，WSP）。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-03/3e265f6f-b2ee-4c45-8fdf-331a1744baf1.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>“我们发现早期迹象表明，前沿大型语言模型（LLMs）在原生地阅读、编写和推理神经网络权重方面出人意料地出色。模型可能将原始权重视为可读、可编辑的代码，而不是通过训练：直接诊断故障并修补它们”，MIT CSAIL团队的相关研究人员表示。</p><p><br /></p><p>需要注意的是，该实验还没有产出经过同行评审的论文，仅以博客形式发布。但消息一出，X上原帖还是迅速积累大量曝光，过去14个小时，原贴浏览量超过了550万。</p><p><br /></p><p>一条早期实验，为何能引发这个量级讨论？</p><p><br /></p><p>核心或在于，它触到了AI产业当前最大的两个命题：一是“模型优化是否还必须依赖大规模训练”，二是“谁有权定义和修改别人的模型”。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-03/62e29bbf-7dc7-4e09-bc64-f26ae1d7ceeb.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">优化模型，可以不靠训练了？</p><p><br /></p><p>根据MIT CSAIL博客原文，研究者给GPT-6 Astra提供了一个可读写权重的Python沙箱环境，并允许其使用GSM8K和MATH训练集中的练习题进行有限次数的前向推理。Astra首先要做的不是“随机改动参数碰运气”，而是先进行诊断：它发现Qwen3.5-0.8B在数学任务上反复生成相同内容，最初的96条测试回答中，有85条撞上了32768个token的输出上限，即典型的“推理循环”。Astra随后将问题定位到第15层和第19层的多层感知机（MLP），削弱其中的重复信号，最终修改的权重只占模型总量的0.016%。</p><p><br /></p><p>更关键的是，研究者做了对照实验。在允许50轮前向推理的设定下，MATH-500得分从7.9%升至48.1%，GSM8K从13.8%升至67.1%；但当把目标换成原本很少陷入推理循环的Gemma 3 270M时，同样的方法最多只能把MATH-500从6.8%推到7.7%。</p><p><br /></p><p>这里面权重空间编程消除的是模型已有能力发挥过程中的障碍，而不是凭空创造模型原本不具备的能力。换句话说，Astra做的不是“给0.8B的小模型灌注新智能”，而是“解开捆住它的绳子”。</p><p><br /></p><p>除了Qwen3.5-0.8B案例，该团队还逐一向Astra提供来自4个游戏策略的原始权重。这四个策略共享完全相同的架构、输入和动作。在没有提供任何工具或选项的情况下，它正确地命名了所有四个：Breakout、Pong、Pac-Man、Freeway。接下来，修复权重：一个PPO汽车策略在坡道上反复卡住。给定权重、场景和1次失败的轨迹，Astra在一轮回复中无需使用工具就写出了一个补丁。通过仅编辑3.5%的权重，它实现了100%的成功率。</p><p><br /></p><p>这恰恰是这个实验最让业界震动的地方：它将“模型优化”和“神经网络权重的更改”从一门依赖算力、数据和梯度的工程学，部分转化为了可以用自然语言描述目标、由模型自主完成的诊断任务。博客中展示的另外两组实验进一步放大了这种想象空间，Astra仅凭原始权重就判断出小型网络是为哪款游戏训练的；在不允许训练数据、不允许梯度的条件下，从零写出的MinAtar游戏策略网络超过了PPO训练1亿步的基线。</p><p><br /></p><p>需要强调的是，大量从业者最关心的是，这里面到底能有多少效率提升，计算量与模型训练相比有高效多少。</p><p><br /></p><p>据表述，Astra消耗了Python分析环境和最多50轮前向推理。省掉的是梯度训练，诊断与验证的成本依然存在。但对一个推理成本被持续压缩的行业而言，“修一个0.8B模型”从一次需要训练基础设施的工程，变成了一笔API调用，账是非常好算的。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-03/cddf0d26-132b-4c14-a0b2-cc6d5d38ff59.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">短期是效率故事，长期是权力故事</p><p><br /></p><p>从产业视角看，这件事的影响力要分三层看。</p><p><br /></p><p>第一层：模型后市场的降本叙事。目前行业对中小模型的优化，主要依赖蒸馏、微调、LoRA等路径，背后仍是训练或类训练的算力投入。如果“前沿大模型直接读写小模型权重”被验证为可复制的通用方法，开源生态里大量“够用但不完美”的小模型，将第一次拥有一种绕过训练基础设施的修复通道。对算力受限的团队，这几乎包括中国绝大多数AI应用公司，这不是锦上添花，而是绕开算力封锁的一条小路。</p><p><br /></p><p>第二层：模型资产的“可诊断化”。这个实验本质上证明了前沿模型具备一种此前只在理论上讨论的能力：把另一个模型的权重当作可以阅读、理解的“文本”。所谓模型权重，简单的理解就是，神经网络里的一大堆数字，它决定了模型“看到什么、算出什么”，也相当于模型学到的所有经验，改这些数字就等于改模型的本事。</p><p><br /></p><p>当模型行为可以被定位到“第15层和第19层的某个重复方向”，机制可解释性（mechanistic interpretability）就从论文走进了工程现场。谁掌握最强的“读模型”能力，谁就掌握模型审计、对齐验证的制高点，这在各国监管强化AI安全审查的当下，战略价值不亚于模型本身。</p><p><br /></p><p>第三层：递归自我改进（RSI）的实证信号。博客作者明确将这项工作指向RSI：模型开始理解并修改神经网络本身，这是“AI帮助人类训练模型”到“AI参与优化模型”的一步跨越。这也是资本市场最敏感的神经，AI迭代的瓶颈如果部分从“数据与算力”转向“模型自身的诊断能力”，scaling law之外的第二条曲线就有了雏形。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-03/eb28ddcb-7f19-4408-a491-46997cb9d7f2.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">当别人的模型成了被修改的对象</p><p><br /></p><p>这个实验最有冲击力、也最容易被忽略的一个细节是：被修改的对象是阿里的Qwen3.5-0.8B，一个在中文开发者生态中影响力不小的开源模型。修改它的，是OpenAI的闭源旗舰。</p><p><br /></p><p>这构成了一幅需要认真对待的权力图景：最强的闭源模型，正在成为审视和改写开源模型的“标准答案”。当GPT-6 Astra可以诊断Qwen的缺陷，它实质上获得了一种对该模型的“裁判权”，它说了算这个模型哪里有病、该怎么修。而对开源社区而言，自己的模型在被别人修好的同时，也把自己的“病理报告”暴露给了对方。</p><p><br /></p><p>从商业竞争看，这种不对等是赤裸的：OpenAI的旗舰模型可以随意读取、分析、修改竞争对手（哪怕是开源领域的标杆产品）的内部结构，而反向操作目前不存在，目前尚不存在任何开源模型具备对GPT-6 Astra做同样事情的能力与授权。一种事实上的“智能霸权”可能会形成：霸权不在于谁的模型分数高，而在于谁拥有定义“什么是正确的模型”的能力。</p><p><br /></p><p>但也要把话说全。在现阶段，把WSP直接定性为霸权还太早。三点理由：其一，实验的对照结论已经表明，这套方法目前只能“除障”不能“造能”，它修得好推理循环，却给Gemma 3 270M变不出数学能力，距离通用的“模型改造武器”还很远；其二，被修改的是开源权重，开源本身就是以让渡部分控制权换取生态扩散的商业模式，“能被修复”也是开源模型的价值之一；其三，这项技术如果成立，其最大的受益者可能恰恰是开源生态——大量无法负担训练算力的小团队，第一次可以借助别人的前沿模型修复自己的模型。</p><p><br /></p><p>真正需要警惕的是趋势而非现状。如果“读模型、修模型”的能力沿着当前轨迹持续扩大，全球AI能力图谱将分化出清晰的两个层级：掌握顶级闭源模型的少数公司位于上游，拥有“读改写”一切模型的特权；届时，竞争的胜负手将不再是模型本身，而是“谁有资格修改谁的模型”。</p><p><br /></p><p>对监管者和产业界而言，这个实验留下的命题比它的成绩更有价值：当模型开始修改模型，模型安全的审查对象要从单个模型，扩展到“模型之间的关系”。这或许是一场热烈的讨论背后，真正值得严肃对待的信息。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 毛利率预警，于是苹果又盯上你的钱了</title>
-        <link>https://www.huxiu.com/article/4902658.html?f=rss</link>
-        <guid isPermaLink="false">c1ef556e23fb9b8fbd20f80e6480c5aca3abf4ab62d8fcfd9ac9dcb1fc3f6f57</guid>
-        <pubDate>Tue, 03 Nov 2026 17:36:26 +0800</pubDate>
-        <author>梁卡尔</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：揭示苹果财报与产品发布的时间错位：CEO宣讲的新品均未在当季贡献收入，真正支撑业绩的是iPhone 18 Pro的9天销售窗口和iPhone 17提价前抢购，并剖析毛利率预警下的增长隐忧，信息密度高。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">出品 | 虎嗅科技组</span></p><p><span class="text-remarks" label="备注">作者 | 梁卡尔</span></p><p><span class="text-remarks" label="备注">编辑 | 苗正卿</span></p><p><span class="text-remarks" label="备注">头图 | 视觉中国</span></p><p><br /></p><p>首次以CEO身份出席业绩电话会，约翰&middot;特努斯（<span class="text-remarks" label="备注">John Ternus</span>）把大部分时间留给了产品。</p><p><br /></p><p>iPhone Duo是&ldquo;自初代以来最具变革性的iPhone&rdquo;，触屏MacBook标签是&ldquo;第一次&rdquo;，HomeView&ldquo;为更智能的家居奠定了基础&rdquo;，Siri AI是&ldquo;我们一直想要的Siri&rdquo;。</p><p><br /></p><p>如果只听CEO讲话，你会以为苹果刚刚度过了一个产品大年。</p><p><br /></p><p>然后你翻开财报。苹果2026财年第四季度是截至9月26日的三个月。可是，iPhone Duo于10月23日才开卖，触屏MacBook是11月6日，HomeView更晚在11月13日。</p><p><br /></p><p>也就是说，约翰&middot;特努斯讲的这些新品，没有一款在刚刚结束的季度里赚到一分钱。</p><p><br /></p><p>真正撑起第四季度业绩的，是iPhone 18 Pro系列大约9天的正式销售窗口，以及分析师口中的9月9日提价前iPhone 17系列集中抢购。</p><p><br /></p><p>财务数字是库克时代的余响，产品故事是特努斯时代的预告，两者不在同一个时间轴上。</p><p><br /></p><p class="text-big-title" label="大标题">业绩创新高，股价为什么还是跌了</p><p><br /></p><p>单看本季度业绩，苹果依旧是那台令人羡慕的赚钱机器。</p><p><br /></p><p>2026财年第四季度，苹果营收约为1144.77亿美元，同比增长12%，略高于华尔街此前预期，也超过了此前苹果给出的指引上限；净利润约为307.11亿美元，同比增长11.8%；毛利率为47.9%，落在47%～48%指引的上半段。</p><p><br /></p><p>2026财年全年营收约为4788亿美元，净利润约为1322亿美元，摊薄每股收益8.98美元，均创历史最高。</p><p><br /></p><p>财务作为第一道防线，苹果守住了。但资本市场没有完全买账，股价盘后一度跌近4%。</p><p><br /></p><p>原因并不复杂，资本市场给出了高达38倍的市盈率，却迎来了高利润的服务业务收入同比增速由上一财年同期的15.1%降至9.8%。五个销售区域，大中华区虽然是同比增幅最高的市场，但收入比市场预期低。</p><p><br /></p><p>更关键的是下一个季度，苹果CFO凯文&middot;帕雷克（<span class="text-remarks" label="备注">Kevan Parekh</span>）给出毛利率指引只有45%～46%，比市场预期低，也低于第四季度的47.9%。</p><p><br /></p><p>过去两年好不容易拉到接近50%的毛利率防线，在新CEO上任首个季度报告中开始向后退。哪怕下降一个百分点，放进苹果业绩报告里，按照季度收入粗略估算，也对应超过10亿美元的毛利润。</p><p><br /></p><p>这份指引可以拆解为三项成本压力，每一笔都暗中标好了要付出的代价。</p><p><br /></p><p>第一项是此前充当利润缓冲垫的关税退款，下一季度退税利好可能显著减弱或不再重复。第二项是内存价格持续走高，导致硬件成本增加。第三项是Siri AI爬坡带来的成本。苹果下一季度毛利率指引已计入部分相关成本，但没有披露具体金额。</p><p><br /></p><p>这三笔成本的性质并不相同。退税更接近一次性影响，内存涨价属于供应链周期压力，而AI投入可能成为一项长期新增成本。前两项还有消退的可能，第三项却有可能随着用户规模和调用次数增长而持续增加。也就是说，AI还没有证明能带来收入的时候，已经开始吞噬利润。</p><p><br /></p><p>毛利率下滑从来不只是一个孤立的财务指标，它通常是后续产品、定价和收费政策调整的前哨。接下来，约翰&middot;特努斯必须直面一个问题，苹果准备让谁来承担这些新增成本？</p><p><br /></p><p class="text-big-title" label="大标题">把发布时间表变成了利润工具</p><p><br /></p><p>硬件端最现实的办法，不一定是卖出更多iPhone，而是从每部iPhone中获得更多收入。</p><p><br /></p><p>这可以通过直接涨价完成，也可以采用更隐蔽的方式，延长旧款生命周期，减少入门款在新品周期中的存在感，再把消费者的注意力集中到售价和毛利率更高的Pro系列。</p><p><br /></p><p>标准版iPhone 18缺席9月产品线，就是最明显的信号。</p><p><br /></p><p>电话会问答环节的第一个问题便直指标准版为何没有与Pro系列同期上市。约翰&middot;特努斯没有解释，只表示苹果&ldquo;不对未来的产品路线图发表评论&rdquo;。</p><p><br /></p><p>至于是供应受限？是组件问题？还是给Duo让路？</p><p><br /></p><p>他没回答。一个字都没解释。</p><p><br /></p><p>这不是小事。研究机构Counterpoint把&ldquo;缺少入门级iPhone 18&rdquo;列为2026自然年第三季度苹果出货量下降的原因。这个时间段大致对应苹果这次业绩报告覆盖的季度。</p><p><br /></p><p>但IDC与Omdia两家研究机构都倾向于认为，这并非一次单纯的被动延期，苹果主动调整产品节奏的意味更强。</p><p><br /></p><p>IDC分析师郭天翔对虎嗅表示，将新品拆分到上、下半年发布，可以让苹果在一年内获得两轮关注，避免产品集中上市、相互争夺流量，同时也有助于重新分配生产和营销资源。更重要的是，标准版缺席秋季窗口，可以让消费者把更多注意力放在售价更高的产品上。</p><p><br /></p><p>Omdia分析师周乐轩则认为，标准版缺席战略考量更加明显。一方面，iPhone 17仍处于热销期，苹果没有必要急于推出新机替代；另一方面，先进制程芯片供应偏紧，苹果会优先把有限产能留给iPhone 18 Pro和Pro Max。</p><p><br /></p><p>换句话说，供应受限确实存在，但把有限产能分配给谁，是苹果自己主动作出的选择。</p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/2026/11/03/163345449889.jpg?imageView2/2/w/1000/format/jpg/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">图片来源：虎嗅拍摄</p><p><br /></p><p>这也解释了本季度iPhone收入增长的构成。周乐轩告诉虎嗅，7月至9月，渠道在预期下半年涨价的情况下，提前大量备货iPhone 17标准版，拉高了季度前半段的出货。进入新品发布阶段后，由于新机只有iPhone 18 Pro和Pro Max，产品结构完全偏向高端，平均售价随之抬升。</p><p><br /></p><p>也就是说，这个财季前半段由iPhone 17和渠道备货撑住出货，后半段由Pro系列抬高均价。所以，这需要从整盘来看，苹果在利用旧款生命周期、渠道库存和新品结构，最大化了整个季度的iPhone收入。</p><p><br /></p><p>值得注意的是，渠道提前备货不等于产品已经全部卖到消费者手里。如果部分出货来自对涨价的提前反应，下一季度的数据会显现这些库存能否转化成真实销售，还是提前透支了渠道采购。</p><p><br /></p><p class="text-big-title" label="大标题">苹果也得不到内存涨价豁免权</p><p><br /></p><p>标准版iPhone 18延后，还有另一层不那么显眼的意义，它帮助苹果推迟了内存涨价对基础款的冲击。</p><p><br /></p><p>凯文&middot;帕雷克将下一季度毛利率下滑部分归因于更高的内存成本。第一次参加电话会议的COO萨比赫&middot;汗（<span class="text-remarks" label="备注">Sabih Khan</span>）则进一步承认，Mac和iPad将在12月季度面临供应紧张，主要原因是内存供给无法满足苹果需求。</p><p><br /></p><p>在问答环节开始前，约翰&middot;特努斯专门介绍萨比赫&middot;汗负责苹果供应链中的制造、AppleCare、环境事务以及全球供应商合作等。公开资料显示，萨比赫&middot;汗于1995年加入苹果，从采购团队做起，接替原COO杰夫&middot;威廉姆斯（<span class="text-remarks" label="备注">Jeff Williams</span>）的职务进入苹果核心管理层。</p><p><br /></p><p>萨比赫&middot;汗的回答意味着，内存涨价已经不只是利润表问题，也可能开始限制苹果能够卖出多少产品。</p><p><br /></p><p>苹果预计2027财年第一季度营收增长7%～10%。这个季度覆盖秋季新品销售和全球年末购物季，通常也是苹果全年营收规模最大的季度。如果供给受限成为现实，苹果损失的不只是毛利率，也包括本可以确认的收入。</p><p><br /></p><p>苹果能否凭借规模采购绕开这轮内存周期？周乐轩给出的答案是否定的。</p><p><br /></p><p>他告诉虎嗅，苹果无法摆脱这一轮内存价格周期，但相比竞争对手，它能够更好地消化影响。规模采购带给苹果的是优先供应，而不是价格豁免。其优势主要表现为涨价幅度更小、成本传导时间更晚。这一区别很重要。苹果供应链能力真正买到的是时间。</p><p><br /></p><p>其次，较高的定价起到了缓冲作用。相同的内存成本增量，落在一款高价旗舰机型和一款售价300美元的安卓手机上，影响完全不同。前者仍有空间通过毛利率和品牌溢价吸收，后者则可能迅速逼近利润底线，只能在涨价、减配与牺牲利润之间选择。</p><p><br /></p><p>这意味着，内存涨价先挤压的是中低端安卓手机的生存空间，也给了苹果利用产品时间表调整成本和产品结构的空间。</p><p><br /></p><p>周乐轩表示，iPhone 18 Pro系列率先上市，可以先承受内存涨价初期的成本压力。如果标准版延至次年春季发布，这意味着为苹果争取了额外约六个月，用来重新调整成本结构。与此同时，标准版缺席秋季窗口，也把关键的节日需求推向了售价与利润率更高的iPhone 18 Pro系列和iPhone Duo。</p><p><br /></p><p>所以，除了产品发布节奏变化，苹果也在重新安排收入与成本的确认时点。</p><p><br /></p><p>但时间只能推迟压力，不能消灭成本。如果内存价格在标准版上市前仍未回落，苹果最终还是要作出选择，同样面对涨价、减配与牺牲利润的平衡。这可比任何管理层表态都更诚实。</p><p><br /></p><p class="text-big-title" label="大标题">iPhone Duo缺货理由不只是&ldquo;卖爆&rdquo;</p><p><br /></p><p>iPhone Duo的情况有点复杂。</p><p><br /></p><p>萨比赫&middot;汗在电话会上承认，iPhone Duo目前仍受供给限制，产能正在爬坡，苹果暂时无法预测供需何时恢复平衡。</p><p><br /></p><p>对于供给受限是否因为需求爆发，周乐轩表示，全球市场对iPhone Duo的反应明显好于预期，目前部分市场的交付周期已经延长至2027年1月。与此同时，iPhone Duo也是苹果迄今制造难度最高的iPhone，铰链、超薄玻璃和折叠面板都在限制量产初期的产出。</p><p><br /></p><p>在其看来，这是需求跑在供应链前面的典型情况，随着生产工艺逐步成熟，供需缺口会慢慢收窄。</p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/2026/11/03/163729728393.jpg?imageView2/2/w/1000/format/jpg/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">图片来源：虎嗅拍摄</p><p><br /></p><p>不过，郭天翔告诉虎嗅，iPhone Duo仍处于产能爬坡阶段，至少目前在中国市场需求并没有好于预期。但从苹果入局长期角度来看，IDC高级分析师Francisco Jeronimo认为，苹果将这一品类从同比双位数下滑的危机中拉了出来，其预计苹果将在2026和2027年分别取得12.6%和18%的逆势增长。</p><p><br /></p><p>现阶段iPhone Duo的缺货复杂的原因之下，可以制造一种稀缺感，但最终还是要转化成真实销量。因此，对于约翰&middot;特努斯来说，iPhone Duo能否成为一款能够抬高平均售价和品牌声量的产品，要等到交付周期恢复正常后才能判断。毕竟有iPhone Air这个前车之鉴，新品也容易成&ldquo;废品&rdquo;。</p><p><br /></p><p class="text-big-title" label="大标题">苹果AI先变成了收费入口</p><p><br /></p><p>硬件之外，苹果还在为AI寻找新的付费方式。</p><p><br /></p><p>&ldquo;依赖服务器端模型的功能将设置一定的使用限额，其中包括Siri AI和智能照片编辑。&rdquo;特努斯在电话会上表示，未来需要更大用量的用户，可以购买扩展访问权限。</p><p><br /></p><p>翻译一下就是，那个一直在等的Siri AI，其高阶版本大概率要开始&ldquo;按月扣费&rdquo;了。</p><p><br /></p><p>具体收费方式仍不清楚。扩展权限可能是独立订阅，也可能纳入 iCloud+；也可能先面向少数高频用户，再逐渐成为普通用户获得完整 AI 体验的门槛。</p><p><br /></p><p>但苹果AI的财务顺序已经很明确，成本先进入了利润表，收入何时到来仍是未知数。</p><p><br /></p><p>苹果过去擅长用高毛利硬件覆盖软件研发成本，再通过服务业务延长用户生命周期价值。生成式AI改变了这套模式，依赖云端大模型的功能每被调用一次，都可能产生新的推理成本。约翰&middot;特努斯透露，Siri每天处理超过25亿次请求。</p><p><br /></p><p>如果苹果不愿长期自行承担这笔支出，使用限额和付费扩展就很容易转嫁到消费者头上。换句话说，苹果AI商业化的第一步，可能是先决定用户每个月能免费问它多少次。</p><p><br /></p><p>目前，中国市场的增长还看不到AI的痕迹。</p><p><br /></p><p>Counterpoint数据显示，iPhone 18 Pro上市前三周，中国市场销量同比增长29%；同期全球市场增幅只有3.1%，美国下降4%，日本下降27%。中国贡献了大部分增量，靠的是供给比2025年顺，加上竞争对手被存储成本逼着集体涨价，也就是说，这轮增长跟AI没有半毛钱关系。</p><p><br /></p><p>但AI或将成为一个变量。10月31日，苹果宣布，国行Apple智能将于11月4日开放测试，并随iOS 27.3正式推出。首批功能主要包括实时翻译、照片App中的消除工具和写作工具，并不包含Siri AI以及苹果在WWDC 2026（<span class="text-remarks" label="备注">苹果全球开发者大会</span>）上公布的其他下一代功能。</p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/2026/11/03/163839360539.jpg?imageView2/2/w/1000/format/jpg/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">图片来源：苹果官网</p><p><br /></p><p>如果国行AI能够拉动换机，或将成为下一季度额外的收入增量。但首批功能更像补课，不是苹果AI的完整形态。中国用户会不会为此更换设备、未来的AI付费扩展是否适用于中国市场，目前都没有答案。</p><p><br /></p><p class="text-big-title" label="大标题">特努斯的&ldquo;考卷&rdquo;下个季度才交</p><p><br /></p><p>这份财报还留下了一个尚未得到充分解释的数字。截至季末，苹果库存达到145.41亿美元，同比增长154%，环比也增长约31%。</p><p><br /></p><p>库存大幅增长与管理层反复强调的&ldquo;供给受限&rdquo;看似矛盾，但在缺少库存结构、环比变化和周转数据的情况下，现在还不能把它直接定性为需求风险。</p><p><br /></p><p>不过，如果iPhone 17的渠道备货没有及时转化为终端销售，iPhone Duo在产能爬坡后需求又不及预期，增加的库存就可能进一步压制毛利率。</p><p><br /></p><p>这也是下一季度需要验证的问题。苹果面对的究竟是结构性缺货，还是供给与需求出现错配？</p><p><br /></p><p>在这一财季，苹果的业绩报告证明，约翰&middot;特努斯接手的仍是一台现金流强劲、利润率极高的机器。只是这台机器的运行成本已经开始上升。他近期一口气连续发布了足够多的新产品，但面对第一张答卷，真正的问题是，谁将为苹果的高毛利买单。</p><p><br /></p><p>不仅如此，约翰&middot;特努斯不得不花更多的时间学习安抚投资者。因为苹果股票在这一轮人工智能风暴中扮演了避风港的角色。投资者愿意购买股票是因为苹果是一家可靠且资本效率高的企业，与那些斥资数千亿美元竞相涌向人工智能前沿的竞争对手不同，苹果愿意进行股票回购并向股东派息。</p><p><br /></p><p>硬币的另一面，如果约翰&middot;特努斯无法加速苹果的创新进程，或者继续在电话会上&ldquo;逃避&rdquo;问题，这种安全性可能会受到挑战。最近几周，苹果市值就曾触及瓶颈，其股价虽多次突破5万亿美元大关，但随后又回落至该门槛以下。</p>
         </div>
         ]]></description>
     </item>

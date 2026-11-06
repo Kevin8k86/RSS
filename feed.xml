@@ -4,14 +4,14 @@
     <title>AI 深度精选与全景速览 (Daily Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型把关：置顶全景速览（含海外X热议），下接深度硬核长文</description>
-    <lastBuildDate>Fri, 06 Nov 2026 02:57:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 17:00:02 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
-        <title>📰 【今日全景速报】一分钟看全天下事 (11-06 早报)</title>
+        <title>📰 【今日全景速报】一分钟看全天下事 (11-07 早报)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
-        <guid isPermaLink="false">briefing_20261106_105704_bf1c06f9</guid>
-        <pubDate>Fri, 06 Nov 2026 02:57:04 +0000</pubDate>
+        <guid isPermaLink="false">briefing_20261107_010002_73d24667</guid>
+        <pubDate>Fri, 06 Nov 2026 17:00:02 +0000</pubDate>
         <author>AI 全能主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -22,40 +22,353 @@
             <div>
                 <div>
 <h3>🌐 海外社媒与全球焦点 (X / Threads / 硅谷大事件)</h3>
-<p><b>Thinking Machines Lab 估值一年翻三倍：</b>据 Business Insider 报道，Thinking Machines Lab 正以 400 亿美元投前估值融资 50 亿美元，由 Accel 领投，较去年公开轮估值增长逾两倍。X 上围绕“AI 实验室估值泡沫”与“人才溢价”争论激烈，被视为一级市场对前沿模型团队仍极度饥渴的信号。</p>
-<p><b>Meta 无限期暂停新商业条款：</b>在出版商强烈抗议与法院禁令压力下，Meta 叫停被指允许其抓取商业用户网站内容的新条款。Nieman Lab 报道称，这是内容方与平台围绕 AI 训练数据版权博弈的又一次胜利，Threads 上创作者普遍叫好，但质疑平台只是暂避风头。</p>
+<p><b>OpenSSH 曝出十年老漏洞“*sshole”</b>：安全研究员披露，该漏洞允许攻击者用 256 位以上超长密码登录部分 musl Linux 系统的无密码账户，X 上安全圈热议其命名与影响面。结论：大量嵌入式与容器环境面临风险，需尽快打补丁。</p>
+<p><b>民主党拟加强对英伟达的国会监管</b>：随着民主党拿下两院多数，沃伦有望执掌参议院银行委员会，重点审查英伟达芯片出口与“循环融资”问题。X 上围绕算力出口管制与政商关系的争论升温，英伟达面临更大合规压力。</p>
 </div>
-
 <div>
 <h3>📱 数码与前沿科技</h3>
-<p><b>Thinking Machines Lab 发布 Inkling 2 Small：</b>该 MoE 模型总参数 594B、激活 17B，Artificial Analysis 称其指数已比肩 Gemini 3.8 Flash（high），权重将在安全测试后于下周开放。若如期开源，它将成为中国以外最强开放权重模型，直接改写开源大模型竞争格局。</p>
-<p><b>首款折叠 iPhone Duo 发售两周即回访：</b>苹果向首批用户发放问卷，重点询问折痕、成像质量等核心体验。IT之家指出，这延续了苹果新品早期用户调研惯例，也说明折叠屏耐用性与影像仍是其最关注的短板，结果或影响后续迭代节奏。</p>
+<p><b>台积电应英伟达请求评估 3D DRAM 制造</b>：AI 热潮导致内存芯片短缺，台积电正考虑为其最大客户英伟达扩展 3D DRAM 产能。此举若落地将重塑存储供应链格局，缓解 AI 算力瓶颈，也加剧与存储巨头的竞争。</p>
+<p><b>华为 MatePad Edge 获鸿蒙 7.0.0.111SP16 升级</b>：新版本预置融合开发引擎，支持电脑模式运行 Linux 环境，进一步打通平板与 PC 生产力场景。这被视为鸿蒙生态向开发者和办公人群扩张的关键一步。</p>
 </div>
-
 <div>
 <h3>💰 商业与财经金融</h3>
-<p><b>英国数字银行 Monzo 寻求约 75 亿英镑融资：</b>据 Financial Times，Monzo 在被 Nu Holdings 收购未果、股权出售受阻后转向新一轮融资，估值约 75 亿英镑。这反映欧洲新银行在盈利压力下仍依赖一级市场输血，X 上对其 IPO 前景与估值合理性争议不断。</p>
-<p><b>Lyft 三季度业绩全面不及预期：</b>营收同比增 8% 至 18.2 亿美元，低于 19.2 亿预期；每股净亏 0.03 美元，而市场预期盈利 0.20 美元，盘后股价跌超 8%。WSJ 分析称，网约车价格战与保险成本上升正持续侵蚀其利润空间。</p>
+<p><b>福克斯提前完成 220 亿美元收购 Roku</b>：交易远早于预期的 2027 年收官，Roku 创始人 Anthony Wood 加入福克斯董事会，并将联合执掌整合 Tubi、Fox One 与 Roku 的新业务单元。流媒体广告格局或将重新洗牌。</p>
+<p><b>SK 海力士设立美国 AI 投资子公司 Hyaico</b>：最高投资 100 亿美元，由会长崔泰源掌舵，聚焦 AI 相关布局。此举被视为韩国存储巨头加码美国市场、抢占 AI 内存需求高地的战略动作，也呼应美股 AI 硬件股集体反弹。</p>
 </div>
-
 <div>
 <h3>🎭 文娱生活与社会热点</h3>
-<p><b>《怦然心动》导演莱纳与妻子家中遇害：</b>澎湃新闻报道，警方尚未证实凶手是否为其子。这位曾执导多部经典影片的好莱坞导演离世引发全球影迷悼念，案件细节与家庭动机成为舆论焦点，社交媒体上相关话题持续发酵。</p>
-<p><b>儿童手表“小天才圈”乱象调查：</b>澎湃新闻调查发现，点赞成孩子每日功课，且有商家可付费解除家长管控。事件引发对未成年人社交产品成瘾设计与监管缺位的广泛讨论，家长群体呼吁平台强化青少年模式与内容审核。</p>
+<p><b>《怦然心动》导演莱纳与妻子家中遇害</b>：警方尚未证实凶手是否为其子，案件细节引发全球影迷震惊与悼念。作为多部经典影片的缔造者，莱纳之死成为好莱坞与社会舆论的焦点事件。</p>
+<p><b>儿童手表“小天才圈”乱象被调查</b>：点赞成每日功课，甚至有商家可解除家长管控，引发对未成年人社交产品监管的广泛讨论。舆论聚焦平台责任与儿童数字安全，呼吁加强行业规范。</p>
 </div>
-
 <div>
 <h3>🌍 国内外时政关键要点</h3>
-<p><b>澳大利亚枪击案嫌疑人为父子：</b>澎湃新闻称，两人曾宣誓效忠“伊斯兰国”，行凶枪支系合法持有。澳海滩恐袭最后 6 分钟传出 103 声枪响，事件再度点燃关于枪支管控与反恐情报共享的争论，多国安全部门已提升警戒。</p>
-<p><b>港澳平表态支持香港对黎智英依法定罪：</b>针对反中乱港首恶分子黎智英案，港澳平发文坚决支持特区依法定罪。此举被视为对香港国安法执行立场的再次明确，国际舆论与本地法律界围绕程序正义的讨论仍在持续。</p>
+<p><b>澳大利亚枪击案嫌疑人为父子</b>：两人曾宣誓效忠“伊斯兰国”，行凶枪支系合法持有，海滩恐袭最后 6 分钟响起 103 声枪响。事件再度引发对枪支管理与反恐情报的审视，多国加强警戒。</p>
+<p><b>港澳平表态支持香港对黎智英依法定罪</b>：官方发声强调维护国家安全与法治底线，反中乱港首恶分子被依法处理。此表态释放香港特区持续依法施政、维护社会稳定的明确信号。</p>
 </div>
-
 <div>
 <h3>⚽ 体育竞技综合速递</h3>
-<p><b>旅日大熊猫“晓晓”“蕾蕾”明年 1 月回国：</b>澎湃新闻报道，两只大熊猫将按协议结束在日展出归国。消息在日本引发送别热潮，上野周边商家担忧客流下滑，也被视为中日民间交流温度的一个观察窗口。</p>
-<p><b>体坛焦点人物动态：</b>今日暂无重大赛果披露，但围绕新赛季备战与转会窗口的讨论在社交平台升温，多位明星运动员的训练动态与伤病恢复情况成为粉丝关注焦点，后续赛事日程值得持续追踪。</p>
+<p><b>旅日大熊猫“晓晓”“蕾蕾”将于明年 1 月回国</b>：这一消息虽属动物外交，却在体育与文娱社交平台引发热议，成为中日民间交流的温情话题，相关话题在社交平台持续升温。</p>
+<p><b>今日立冬，全民健身与冬季赛事升温</b>：随着节气入冬，各地冰雪运动与冬季赛事筹备进入高潮，社交平台掀起“立冬第一练”打卡热潮，体育消费与冰雪经济成为关注焦点。</p>
 </div>
             </div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 总量攀升，强度下降，绿色交通承压前行丨2026企业双碳行动力调研</title>
+        <link>http://www.infzm.com/contents/344215</link>
+        <guid isPermaLink="false">728a9b2464d4f30ed31712d379e30ba02f3aae392bf6f77fdf3f6457c6822f62</guid>
+        <pubDate>Fri, 06 Nov 2026 07:55:08 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：基于60家交通企业样本的双碳行动力调研，揭示行业85%处于起跑阶段、领跑者缺席、六成企业排放总量攀升等结构性事实，对理解交通业达峰压力具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div><i>2026-11-06 15:22:59</i></div><p>“十五五”开局之年，交通运输行业迎来了新的发展规划。2026年10月，《绿色交通发展“十五五”规划》发布，规划提出“十五五”时期，交通运输行业要锚定“一达峰、二下降、三提升”目标，在五大重点领域全面推进绿色转型。</p>
+<p>交通运输服务需求仍在增长。2026年前三季度，行业主要经济指标规模如营业性货运量、港口货物吞吐量、跨区域人员流动量均实现同比增长。达峰窗口期收窄，行业规模增长，这意味着行业绿色转型的压力进一步加大。</p>
+<p>本年度调研选取了60家样本企业，包括12家公路铁路企业、26家水上运输企业、12家航空运输企业、9家邮政快递企业，1家仓储物流企业。调研结果显示，60分（百分制）以上的企业有8家，85%的企业处于“起跑”阶段，行业“领跑者”缺席。顺丰控股、招商港口、京东物流位居行业排名前三位。从细分领域看，邮政快递业的平均分最高，其次是水上运输业和航空运输业，公路铁路行业平均得分最低。与上一年度相比，行业的双碳行动力平均得分小幅提升。同时，绿色交通技术创新、可再生能源消费、零碳交通设施建设等指标表现亮眼。</p>
+<p><img alt="绿色转型" border="0" height="1117" src="https://images.infzm.com/cms/medias/image/26/11/06/8aadc33310.png" width="1920" /></p>
+<h4>六成企业排放总量攀升，行业碳减排进入攻坚期</h4>
+<p>达峰难、达峰晚是交通运输行业绿色转型的突出特点，在全社会交通需求持续增长的背景下，行业碳排放总量仍处于上升阶段。</p>
+<p>在调研企业中，有54家企业披露了最近两年的碳排放数据（范围1+2），其中有32家企业的排放总量出现上升，上升幅度超过10%的企业有14家。面对不断逼近的“2030年实现总体碳达峰的目标”，交通企业的减排力度还需要继续提升。</p>
+<p>与此同时，积极的因素也在显现。在上述54家企业中，有64.8%的企业碳排放强度（万元营收碳排放量）下降，下降幅度超过10%的企业有15家。这在一定程度上体现出，企业在提升能源效率、优化运输结构等方面的举措正在深入。</p>
+<p>“十四五”时期，节能低碳交通工具加快推广。截至2025年年底，电力机车占比64.8%，新能源重卡渗透率超过25%，投运新能源清洁能源船舶1200余艘，机场场内电动车辆占比超过33%。</p>
+<p>调研显示，超过九成的企业在推动交通动力低碳替代方面积极行动。91.7%的企业披露了新能源车辆、电动重卡、甲醇动力船舶等新能源交通工具投放使用情况，如白云机场将场内新能源车辆占比提升至43.5%，宁波远洋自有绿色节能型船舶占比升至 56%。</p>
+<p>企业的新能源使用量也因此不断提升。调研企业中，95%的企业披露了使用新能源的的措施和项目案例，61.7%的企业披露了年度新能源使用量，如顺丰控股2025年的可再生能源消耗量同比提升了38%，日照港清洁能源消耗占比58%。</p>
+<p>交通运输结构调整是行业降碳减污最具系统效益的举措。2025年全国铁路、水路货运量分别比2020年增长15.9%、32.9%，港口集装箱铁水联运量年均增长约15%。调研显示，71.7%的企业披露了交通运输结构优化或面向客户提供绿色运输服务。如京东物流将铁路运营线路从2022年的超400条增加至2025年超700条，持续推进公转铁、空转铁的清洁运输方式。马士基面向中国客户开放绿色航运产品，客户可选择使用绿色燃料运输的航线，一键核算货件全链路碳排放。</p>
+<p>零碳交通试点是探索行业绿色转型的重要抓手，“十四五”时期交通运输部持续推动零碳公路、零碳水路运输通道重大工程建设。调研企业中，有93.3%的企业披露了建设绿色交通基础设施的举措，其中，有24家企业推动旗下交通设施参与行业绿色评审认证并获得通过，有17家企业建成了零碳服务区、零碳收费站、零碳航站楼等零碳交通设施项目。</p>
+<h4>三成企业公开碳中和承诺，行业碳管理基础仍需夯实</h4>
+<p>碳管理能力是实现减排目标的重要保障。与上一年度相比，调研企业在组织管理、减排目标和路线设计、减排激励等方面的表现虽然均有所提升，但上升幅度较小。</p>
+<p>减排责任进入决策层。调研显示，98%的企业将气候变化风险和碳减排纳入董事会监督职责，81.7%的企业将其纳入ESG工作，由ESG委员会进行统筹，30%的企业在此基础上设置了双碳工作领导小组、绿色发展委员会等专门工作机制，推动工作落实。</p>
+<p>与治理层面的“高调”相比，交通企业的减排承诺显得略为“谨慎”。调研显示，33.3%的企业公开了碳中和目标，13.3%的企业公开了价值链碳中和的目标，仍有46.7%的企业未明确减排时间表。</p>
+<p>在减排目标落实方面，40%的企业表示已经将节能减排目标完成情况纳入高管薪酬考核体系，这一占比较上一年度高出12个百分点，这表明，部分企业的减排承诺已经从高管声明转为切实的组织行动。如中国国航将考核指标划分为环境合规、重点任务落实及节能降碳数值三类，纳入各单位组织绩效管理体系。</p>
+<p>在双碳知识培训方面，大部分企业对开展应对气候变化风险和碳减排专项培训投入不足，环保培训主要以污染物排放、环境应急管理等为主。调研显示，23.3%的企业披露了面向员工双碳知识培训，16.7%的企业对董事会成员或高管开展气候议题、减碳政策的宣导。</p>
+<p>绿色供应链管理仍然是薄弱环节。相较于对自身碳管理能力的逐步提升，调研企业在价值链碳管理方面普遍不足。调研显示，在碳数据盘查方面，只有33.3%的企业披露了范围三数据；在供应商减排约束和激励方面，35%的企业明确将绿色要求纳入采购政策，仅23%的企业为供应商减排提供能力培训、合作优惠等支持。</p>
+<p><img alt="减排目标" border="0" height="1177" src="https://images.infzm.com/cms/medias/image/26/11/06/978861ac7f.png" width="1920" /></p>
+<h4>超四成企业交出绿色交通创新成果，碳科技支撑力凸显</h4>
+<p>“十四五”时期，有关货运枢纽（物流园区）、高速公路服务区、港口作业区等近零碳交通设施技术要求系列标准相继发布。交通运输部发布两批《交通运输行业节能低碳技术推广目录》，涵盖道路运输、公路、船舶运输、航道及港口四个领域58项先进技术。</p>
+<p>标准规范建设和科技创新成为行业绿色转型的重要支撑。与上一年度相比，调研企业在转型体系建设上的表现有明显提升。</p>
+<p>2025年，民航、港口、快递等行业绿色交流活跃。调研企业中，有36.7%的企业披露了加入的行业绿色发展或减排倡议，有43.3%的企业披露了参与绿色标准建设的情况，61.7%的企业披露了参与行业绿色交流活动。</p>
+<p>面对行业低碳转型的挑战，开展绿色交通科技创新，加强关键技术攻关和成果转化成为部分企业推动绿色转型的突破口。在调研企业中，有46.7%的企业披露了在绿色交通技术或课题研究方面取得的进展，上一年这一占比为18.3%。在环保资金投入方面，调研企业中，有19家企业的环保投入超过1亿元，有21家企业的环保投入呈现增长。</p>
+<p>推动交通运输领域总体实现碳达峰，是“十五五”交通行业绿色发展的既定目标。在行业需求仍在刚性增长的情况下，实现这一目标面临巨大挑战。对企业而言，既需要从组织管理上全面夯实双碳工作的基础能力，更需要将减排目标分解到交通动力低碳替代、交通运输结构优化、交通技术创新等日常运营的方方面面。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 能源业绿色转型加速，全价值链减排待闭环｜2026企业双碳行动力调研</title>
+        <link>http://www.infzm.com/contents/344241</link>
+        <guid isPermaLink="false">11fb37ca619d309a47dd8799fb4d93877593f6a6d091aceebd7f7d26bd50a0f5</guid>
+        <pubDate>Fri, 06 Nov 2026 15:25:12 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：系统梳理十五五能源双碳政策目标与装机数据，聚焦全价值链减排闭环缺口，信息密度高，对理解能源转型路径有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div><i>2026-11-06 23:05:12</i></div><p style="text-align: justify;">2026年9月1日，国家能源局宣布：“截至2026年7月底，我国光伏发电装机容量达12.86亿千瓦。我国光伏发电装机历史性超过煤电，成为装机规模最大的电源品类。”</p>
+<p style="text-align: justify;">“十五五”开局之年，系列行动规划与方案密集出台，提出了能源行业发展的新目标。国务院印发《“十五五”碳达峰行动方案》，明确到2030年风电和太阳能发电总装机容量达28亿千瓦以上、常规水电4.1亿千瓦左右、核电运行1.1亿千瓦左右；《新型能源体系建设“十五五”规划》提出“十五五”时期新增风光装机10亿千瓦左右，实施非化石能源十年倍增行动，能源重点项目和新业态投资预计超20万亿元；《新型电力系统建设“十五五”规划》提出到2030年非化石能源发电量占比达50%。</p>
+<p style="text-align: justify;">这些目标指向同一个方向：新增电力需求由清洁能源承接，存量煤电从电量主体转为调节与兜底，考核重心由“装机增长”转向“排放下降”。</p>
+<p style="text-align: justify;">能源行业是国民经济的基础产业，其绿色低碳发展事关我国碳达峰碳中和目标全局。能源行业涵盖电力/热力生产供应、煤炭开采、石油天然气开采、石油/煤炭燃料加工、新能源等多个细分产业，产业链长、覆盖面广，低碳转型面临的挑战各不相同。</p>
+<p style="text-align: justify;">为系统刻画能源企业双碳行动的现实图景，南方周末中国企业社会责任研究中心开启了2026年度“中国企业双碳行动力调研”项目。本次调研选取样本企业69家，覆盖16家新能源企业与53家传统能源企业。从领导力、减排力、创新力、协调力四维进行量化评估。</p>
+<p style="text-align: justify;">调研结果显示，能源企业双碳行动力稳步提升，综合得分60分（百分制）及以上的企业有19家，比去年增加5家企业。</p>
+<h4>从治理到业务，传统能源企业加速转型</h4>
+<p style="text-align: justify;">能源活动是碳排放的最主要来源，能源绿色低碳转型是实现碳达峰碳中和的关键。在能源强国建设中，传统能源角色将发生重大变化，从“主体能源”向“兜底保障”转变，这也要求传统能源行业加快绿色转型步伐。</p>
+<p style="text-align: justify;">双碳目标的落地，需要企业搭建清晰的组织体系、出台翔实的行动计划，这要求企业从顶层治理层面开展战略转型。</p>
+<p style="text-align: justify;">调研显示，传统能源行业的双碳战略转型意识大幅提升。超九成的调研企业明确了董事会/党委对气候或环境议题、目标、规划进行监督的要求，较上一年提升24.5个百分点；96.2%的调研企业制定了双碳相关战略规划、实施方案、业务要求等；同时，为保障双碳规划的落地成效，67.9%的调研企业将减碳绩效与董事、高层管理人员的薪酬挂钩，较上一年提升20.7个百分点。</p>
+<p style="text-align: justify;">在双碳转型能力建设方面，28.3%的调研企业开展了面向高管的碳管理相关培训，与此相呼应的是，77.4%的调研企业披露了对员工进行双碳知识、碳管理能力培训与科普的活动，较上一年提升28.3个百分点。</p>
+<p style="text-align: justify;">完善的绿色创新制度、多样的合作交流平台能够为企业双碳转型提供保障与促进。本次调研显示，92.5%的调研企业披露了绿色创新管理制度， 94.3%的调研企业披露了绿色创新合作交流平台，通过产学研用深度融合，加速低碳技术成果转化。</p>
+<p style="text-align: justify;">在此基础上，企业正加速将创新成果转化为实际减排效能，实现自身在业务端的绿色转型。</p>
+<p style="text-align: justify;">发电企业以调结构、提灵活度为核心措施，推进现役机组升级改造与火电新能源融合，降低碳排放；同步优化输电通道、发展新型储能与智能微电网，扩大新能源消纳。煤炭企业以矿区低碳化、资源循环为核心措施，就地开发光伏、风电、地热等清洁能源，矿区运输改用电驱或氢能。加强煤矸石、煤泥、瓦斯资源化利用，建设零碳低碳矿区。油气企业在矿区及周边开发风光地热海洋能，提高勘探开发输送环节电气化率，推广碳捕集利用与封存技术（CCUS）。</p>
+<p style="text-align: justify;">传统能源行业的转型成效还体现在碳排放上。75.5%的能源企业披露了运营范围的碳排放量，在范围三排放披露方面，21.9%的能源央企披露了范围三排放数据，而披露范围三的地方能源企业低于十分之一。地方能源集团多为区域保供主体，资产以煤电、供热为主，绿色低碳转型的空间巨大。</p>
+<p style="text-align: justify;">本次调研发现， 94.3%的调研企业披露了自身转型实践的成效，传统能源行业已普遍将绿色转型写入行动计划并产出可量化成果。与上一年度相比，本次调研传统能源企业不仅披露降碳措施，更披露量化成效，转型正从表态走向实绩。如国家能源集团推进煤电“三改联动”，新能源装机超 1.48 亿千瓦；中国石化布局碳捕集利用与封存技术（CCUS）、氢能，建成百万吨级碳捕集利用与封存装置。</p>
+<p><img alt="" border="0" height="1005" src="https://images.infzm.com/cms/medias/image/26/11/06/75c73075e8.png" width="1920" /></p>
+<h4>新能源企业价值链减排尚未闭环</h4>
+<p style="text-align: justify;">在绿色运营方面，新能源企业的成效已相当明显，从数据披露到设施改造，绿色发展正实实在在落到运营的每一个环节。</p>
+<p style="text-align: justify;">本次调研显示，超过九成新能源企业披露了运营范围碳排放量。同时，企业加速向零碳迈进。隆基嘉兴基地成为全球光伏行业首个“灯塔与零碳”双认证基地；晶科能源海宁工厂获零碳工厂三星级核证；宁德时代截至2025年底核心运营零碳电力比例达到100%。一组组认证与实践背后，代表了新能源企业在低碳发展上的极致追求。</p>
+<p style="text-align: justify;">但需要关注的是，新能源企业大部分碳排放并非来自企业自身的直接排放，而是分布在上游开采、物流运输与下游终端消费的整个价值链中，对于新能源企业来说，仅盯住自身难以撬动全局减排。根据全球环境信息研究中心（CDP）统计，企业供应链碳排放（范围三）平均是其运营环节直接排放（范围1和范围2）的26倍。因此，新能源企业高度重视范围三减排，调研企业范围三披露率达68.8%。</p>
+<p style="text-align: justify;">范围三排放家底逐步摸清，但供应链减排成效不足。调研显示，仅有18.8%的调研企业披露了供应链减排的量化成效。另一方面，新能源企业向供应商提供的减排赋能力度尚需加强。本次调研显示，仅有37.5%的新能源企业通过培训、技术支撑、金融支持等手段进行供应链的减排赋能。这说明新能源企业供应链减排尚未形成可量化的闭环。</p>
+<h4>以技术创新引领绿色发展</h4>
+<p style="text-align: justify;">中国在新能源、水电、核电、输变电、新型储能等领域技术创新不断加快，已建成全球最大、最完整的新能源产业链。</p>
+<p style="text-align: justify;">面向未来，国家发展改革委、国家能源局印发的《新型能源体系建设“十五五”规划》指出“2030年实现关键技术装备实现总体自主可控，迈入世界能源科技创新国家前列”。</p>
+<p style="text-align: justify;">绿色技术创新正成为能源企业低碳转型的核心任务。95.7%的调研企业披露了绿色创新制度，包括能源科技创新规划、低碳技术创新规划等。在绿色创新平台建设方面，能源企业通过搭建国家级或省级研发平台、产学研协同创新中心、产业技术创新联盟等多元载体，持续强化绿色技术研发的组织保障。如国家电力牵头建设国家能源煤基能源碳捕集利用与封存技术研发中心，南方电网牵头建设国家能源电氢协同低碳技术研发中心等。</p>
+<p style="text-align: justify;">国际能源署（IEA）发布的《2026年能源创新现状》显示，中国能源专利过去十年增长率达800%，2025年中国超95%的能源专利申请聚焦低排放技术。这一数据印证了中国在绿色技术领域的研发强度与产出规模已跃居全球前列，形成了显著的专利集群优势。本次调研显示，年度研发投入超十亿的企业占比42.3%，以中国石油、国家电网、宁德时代等为代表的企业专利数量居前。</p>
+<p style="text-align: justify;">数字化赋能减碳成为新趋势。调研数据显示，能源行业普遍开始建立数字化平台来支撑绿色转型，85.5%的调研企业披露了数字化平台建设的相关措施，包括建立碳管理数字平台、供应链管理数字平台等。在数字化成效方面，73.9%的调研企业披露了智慧电厂、智能油气田、智能电网等建设实践，以数智化提升减碳管理精度。如国家电投打造“天枢一号”能碳数字化平台，集成碳盘查、碳足迹、虚拟电厂协同调度能力；阳光电源自研iCarbon 全域能碳管理平台（阳光慧碳）等。</p>
+<p style="text-align: justify;">能源行业的绿色发展不再是线性的能源替换，而是一场漫长的制度、基建与观念协同重构。未来，能否建立稳定、公平、可负担的低碳能源体系，平衡发展权与减排责任，将考验全球治理的共识与行动力，也影响着长期气候路径的走向。</p>
+<p><strong><strong><p><span style="color: #ba1010;">• </span><span>（更多关于 “2026年度中国企业双碳行动力调研”的信息，请参阅南方周末中国企业社会责任研究中心发布的《中国企业双碳行动观察报告（2026）》）</span></p></strong></strong></p>
+<p></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 副教授之死：绝笔信中的“虚假”横向课题</title>
+        <link>http://www.infzm.com/contents/344229</link>
+        <guid isPermaLink="false">c269ebc7a4b65aee1d4119f261f73e0c38141b29d560e1662ea809e78e294016</guid>
+        <pubDate>Fri, 06 Nov 2026 10:25:07 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以副教授绝笔信为切口，揭露高校横向课题自费充值、吃空饷等制度性造假，属扎实的调查报道，具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div><i>2026-11-06 18:00:00</i></div><p style="text-align: justify;"><strong> </strong> </p>
+<p><img alt="延安大学新城校区。（视觉中国|供图）" border="0" height="545" src="https://images.infzm.com/cms/medias/image/26/11/06/28ab84926d.png" width="729" /></p>
+<p style="color: #999999; text-align: center;">延安大学新城校区。（视觉中国|供图）</p>
+<p style="text-align: justify;">2026年11月3日，一封6页的绝笔信在网络流传。信中举报了延安大学存在“老师需自费充值横向经费”“在编人员吃空饷”等问题。</p>
+<p style="text-align: justify;">绝笔信疑似出自已故教授白保国之手。白保国生于1972年，生前是延安大学鲁迅艺术学院音乐系副教授，于2026年10月20日跳湖自杀。</p>
+<p style="text-align: justify;">事发后，延安大学的工作人员表示，白保国确已离世，正在调查核实网传信件内容。</p>
+<p style="text-align: justify;">2026年11月4日下午，陕西省委第一巡视组一成员告诉南方周末记者，目前巡视组正在积极与学校对接。11月4日晚间，陕西省教育厅发布情况通报，延安大学教师白某某不幸离世。表示针对网络关注的相关问题，陕西省教育厅已会同有关方面成立联合调查组，正在进行全面调查核实。</p>
+<h4>学生发布绝笔信 </h4>
+<p style="text-align: justify;">“生前风霜似幻，善果绵长不息。所积之德，自有来酬，纵寂于当世，必耀于来者。”2026年10月25日，在白保国离世后的第五天，他的学生刘杨（化名）在社交媒体写下了对他的悼念。</p>
+<p style="text-align: justify;">刘杨一家和白保国一家来往密切。其父会和白保国吃饭、喝酒，其母跟白的妻子经常在微信聊天。</p>
+<p style="text-align: justify;">绝笔信正是由刘杨转发到社交平台。他告诉南方周末记者，白保国离世后，白妻从他的电子设备里发现了绝笔信，而后又转发给刘杨母亲。刘杨称他得到的是一个长截图，后将截图分成六张，又提取了文本，11月2日得到白妻允许后将其发到社交平台，引起社会关注。</p>
+<p style="text-align: justify;">南方周末记者请刘杨向白保国的家人转达了采访请求，验证绝笔信的真实性。但他们由于“状态不好”，婉拒采访请求。</p>
+<p style="text-align: justify;">在延安大学研究生院官网的照片中，白保国留着三七分短发，眉毛浓密，身穿深红色底、黑白线条交织的格子衬衫，面容温和。</p>
+<p style="text-align: justify;">据学校公开信息，白保国深耕钢琴教学三十余年，主讲钢琴、应用钢琴等课程，曾兼任中国音乐家协会会员、延安市音乐家协会副主席、社会艺术水平考级考官。</p>
+<p style="text-align: justify;">白保国在当地的音乐圈有点名气。一位白保国的学生告诉南方周末记者，早在1997年，她小学一年级时，就从延安的洛川县乡镇慕名赶到一百多公里外的市区拜白保国为师。她和妈妈两周跑一趟，每次都要坐近三个小时的绿皮火车。</p>
+<p style="text-align: justify;">刘杨的父母也曾特意将刘杨送去白保国那里学钢琴。刘杨称，白保国“在延安可以说是头把交椅吧”。</p>
+<p style="text-align: justify;">自2011年起，刘杨跟白保国学了6年钢琴。在他的印象里，白保国那时留着一头长发，像个“怪人”， 但性格“展烫”（延安话，指豁达）。上课上到高兴时，便“头发一撩，凳子一撅，洋洋洒洒弹唱，旁若无人”。</p>
+<p style="text-align: justify;">在延安市音乐家协会的同行眼中，白保国是一个“很纯粹的搞音乐的人”。</p>
+<p style="text-align: justify;">延安市音乐家协会的一位人士与白保国相识于2010年左右，当时两人都是延安春晚导演组成员，后来都在延安市音乐家协会任职，私下关系较为密切。该人士告诉南方周末记者，白保国在业务上很专业，也比较享受音乐教学，但不善交际。</p>
+<p style="text-align: justify;">延安市音乐家协会的另一名成员向南方周末记者表示，白保国曾在延安大学鲁迅艺术学院担任行政职务，没过多久，觉得行政事务过于烦琐，影响教学，便辞去职务，专心教学。</p>
+<p style="text-align: justify;">同行眼里的纯粹直率，换个视角可能就是“不服管束”“不懂变通”。</p>
+<p style="text-align: justify;">绝笔信中提到，此前在一次关于教师迟到问题处置的会议上，白保国曾提出校内有大量吃空饷人员，历年考核均评定为合格，而涉事教师仅迟到数分钟，就要受到过重的处罚。此后，他与管理人员产生分歧。</p>
+<p style="text-align: justify;">刘杨告诉南方周末记者，白保国大约在两年前患上抑郁症，曾因此住院，“大概有一年左右没有去学校完整上过课了”。</p>
+<p style="text-align: justify;">这也与其他学生们观察到的情况相吻合。一大四学生接受媒体采访时表示，他曾上过白保国的应用钢琴课，但只上了半学期，白保国当时称自己“生病了”“要回去休息一段时间”。</p>
+<p style="text-align: justify;">南方周末记者多次联系延安大学鲁迅艺术学院，未获回复。南方周末记者向该院院长李延俊提出采访请求，被其婉拒。</p>
+<h4>横向项目经费弄虚作假？</h4>
+<p style="text-align: justify;">绝笔信中多次提及延安大学现行考核制度中设置的横向经费科研到账额度和论文发表数量硬性指标，指出大部分老师为完成考核指标，都要自筹资金，通过合作公司转账至学校，再由学校财务渠道将资金回流至本人，配套不实账务材料完成横向经费到账任务。</p>
+<p style="text-align: justify;">白保国认为，自身的岗位核心职责应该是课堂教学、舞台展演、艺术人才培养。</p>
+<p style="text-align: justify;">绝笔信中提到，2025年9月，学校人事处通知他，因未完成考核任务，两个聘期考核结果不合格，拟对他作出降级、转聘处理。学校向他下达限期整改要求，也就是完成前述横向经费和论文的指标。</p>
+<p style="text-align: justify;">他提到，按照整改要求，他要出资15万元办理横向项目经费，出资5万元用于论文发表。但考虑到该操作本身属于违规弄虚作假，他的内心十分矛盾。</p>
+<p style="text-align: justify;">有关上述内容的真实性，南方周末记者联系了数位延安大学鲁迅艺术学院的教师求证，未获答复。</p>
+<p style="text-align: justify;">《中国社会科学报》在2026年8月刊发的报道指出，一些高校在办学评估、学科建设、教师考核中不断提高横向经费的量化权重，简单以到账资金规模衡量科研实绩，忽视不同学科、不同类型院校之间的资源禀赋差异，由此催生出一种被称为“贷款上班”的灰色操作——部分教师自筹垫资，与企业签订无实质研究内容的虚假合作协议，完成经费入账后，再通过票据报销等方式回笼自有资金，只为完成校内硬性考核指标。</p>
+<p style="text-align: justify;">他们面向全国高校的一线教师发放专项调查问卷，共回收有效样本117份。问卷结果显示，近九成受访教师感知到身边存在此类灰色行为，17.95%受访教师有过亲身参与虚假横向课题的经历。</p>
+<p style="text-align: justify;">南方周末记者获取的一份盖有延安大学政法与公共管理学院公章的科研经费任务清单显示，2025年学校下达给该学院的科研经费总任务为340万元，根据学院教师个人绩效系数测算，要求有教授职称者每年争取到的横向经费不少于7.6万元，副教授和近3年新入职博士的要求是每年不少于5.5万元，讲师及以下职称者的要求是每年不少于4.7万元。</p>
+<p style="text-align: justify;">文件落款日期为2025年7月12日。文件显示，学校也有相应的奖励办法。横向项目按照到账经费5%给予津贴，津贴最高额度2万元。未完成学院年度科研经费任务的教师，按照年度任务额的5%扣减津贴。</p>
+<p style="text-align: justify;">延安大学政法与公共管理学院的一位老师在2026年11月4日向南方周末记者证实，确实有这样的文件。他告诉南方周末记者，学校给每个学院都下达了科研经费任务，学院再将其摊派到每位老师头上，按照职称高低分配不同金额，“每个人都有这个金额”。</p>
+<p style="text-align: justify;">该老师解释，纵向项目一般是国家级、教育部的相关项目，由各级财政拨款，“竞争激烈，不容易拿到”。学校便将目光投向横向项目，但横向项目要拉企业或社会团队的经费，“人文社科学科根本没有那么多横向项目”。</p>
+<p style="text-align: justify;">至于是否存在为完成横向课题经费自筹资金的情况，他回复：“你看白保国的就行了。”</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 谁才算创作者：人工智能如何重塑创造力的边界？</title>
+        <link>https://www.ftchinese.com/story/001111298</link>
+        <guid isPermaLink="false">16fa900871fc2ee429106304f71a7beeec7c30b6c5c98873031ed430c22e2a33</guid>
+        <pubDate>Thu, 05 Nov 2026 16:00:00 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：从规则与产业制度层面剖析AI时代&#x27;人类创造力&#x27;定义如何转化为资源分配与机会门槛，视角具制度分析深度，超越常规技术讨论，有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            卢盈瑾：当“人类创造力”被明确写入规则，它就成为一种具有现实后果的分界，嵌入到产业运行中，逐渐转化为资源分配与机会获取的具体条件。
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 远期保障不应漠视当期生计：社保扩面的效率错配与规则风险</title>
+        <link>https://www.ftchinese.com/story/001111300</link>
+        <guid isPermaLink="false">cbc155828b3af3a7a662ce3b6bf676f1ade33a591a5f70cfc0539d4bbfb69a31</guid>
+        <pubDate>Thu, 05 Nov 2026 16:00:00 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：从社保扩面效率错配切入，指出远期保障与当期生计的规则冲突，主张在标准劳动关系外保留灵活就业合法空间，具政策思辨增量。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            翁一：新业态经济活力源于市场规律与劳动者自主选择双向适配。应在标准全职劳动关系之外，为灵活就业、民事劳务、自主承揽保留合法空间。
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Apple has a secret list of banned autocomplete phrases including ‘dictator Trump’ and ‘covid is a hoax’</title>
+        <link>https://www.theverge.com/tech/1028663/apple-ios-keyboard-blocked-words-autocomplete</link>
+        <guid isPermaLink="false">4d35c9d506991b0d64fda89f71d5066e8b67715e568fc44ee06f2c812774a674</guid>
+        <pubDate>Fri, 06 Nov 2026 10:10:28 -0500</pubDate>
+        <author>Stevie Bonifield</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：基于路透社报道，安全研究员逆向分析iOS键盘，发现超10万条屏蔽词库，涵盖政治敏感词与阴谋论，并揭示滑动输入自动篡改机制。提供独家事实与可验证数据，具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <figure>
+
+<img alt="A hands-on photo of Apple’s iPhone 16E." src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/DSC_2327.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">A researcher found <a href="https://swipeblocked.com/">over 100,000 words and phrases</a> in "every major language" that are blocked from autocomplete and swipe-type in iOS, <a href="https://www.reuters.com/business/retail-consumer/apples-predictive-text-restrictions-include-dictator-trump-sleepy-joe-researcher-2026-11-06/"><em>Reuters</em></a> reports. The researcher, Derik Kauffman, says you can still type the words on the blocklist one letter at a time. But they won't pop up as predictive text suggestions and iOS's keyboard may automatically alter them when swipe-typing, like changing "left wing conspiracy" to "left wrong conspiracy."</p>
+<p class="wp-block-paragraph">Kauffman <a href="https://swipeblocked.com/">posted the full list online</a>, including the individual lists for different languages.</p>
+<p class="wp-block-paragraph">Most of the words and phrases on the list are offensive, slurs, or related to topics like sex and drugs. But it  …</p>
+<p><a href="https://www.theverge.com/tech/1028663/apple-ios-keyboard-blocked-words-autocomplete">Read the full story at The Verge.</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] AI Companies Really, Really Want to Buy Your Work Files and Emails</title>
+        <link>https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/</link>
+        <guid isPermaLink="false">7b04bcd08a01032eef1fddd4386bf80a05d59f053ec4277e17adee9b4122f5b3</guid>
+        <pubDate>Fri, 06 Nov 2026 16:00:00 +0000</pubDate>
+        <author>Steven Levy</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：揭示AI训练数据新灰色地带：数据经纪商收购企业内部文件与邮件，触及隐私、合规与商业机密风险，信息密度高且具长期产业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled.
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Sources: TSMC is considering expanding into manufacturing 3D DRAM at the request of Nvidia, its biggest customer, amid memory chip shortages due to the AI boom (Qianer Liu/The Information)</title>
+        <link>https://www.techmeme.com/261106/p13#a261106p13</link>
+        <guid isPermaLink="false">8e8bda84d4f6077e09f1255d424c4418aff690f455b7e299a8ec341fc3f6f718</guid>
+        <pubDate>Fri, 06 Nov 2026 10:05:48 -0500</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：The Information独家信源：台积电应英伟达要求评估进军3D DRAM制造，揭示AI算力瓶颈正从逻辑芯片向存储转移，及代工龙头与最大客户协同重塑供应链的潜在战略转向，具长期产业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <a href="https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261106/i13.jpg" vspace="4" /></a>
+<p><a href="https://www.techmeme.com/261106/p13#a261106p13" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> Qianer Liu / <a href="https://www.theinformation.com/">The Information</a>:<br />
+<span style="font-size: 1.3em;"><b><a href="https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending">Sources: TSMC is considering expanding into manufacturing 3D DRAM at the request of Nvidia, its biggest customer, amid memory chip shortages due to the AI boom</a></b></span>&nbsp; &mdash;&nbsp; Taiwan Semiconductor Manufacturing Co. is considering expanding into the advanced memory chip manufacturing sector &hellip; </p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Employees at Microsoft, long known for its stability, are grappling with its decision to offer buyouts to 60,000 people as its spending priorities shift to AI (Emmy Martin/New York Times)</title>
+        <link>https://www.techmeme.com/261106/p12#a261106p12</link>
+        <guid isPermaLink="false">f742b4ace831f364ad207ca0690702958cb010b83200504d6ffdc00fa44ed4df</guid>
+        <pubDate>Fri, 06 Nov 2026 09:25:00 -0500</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：纽约时报对微软6万人买断计划的内部报道，揭示AI资本开支挤压人力成本的战略转向，含员工抢查名单等一手细节，是观察大厂AI转型阵痛的典型样本。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <a href="https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261106/i12.jpg" vspace="4" /></a>
+<p><a href="https://www.techmeme.com/261106/p12#a261106p12" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> Emmy Martin / <a href="https://www.nytimes.com/">New York Times</a>:<br />
+<span style="font-size: 1.3em;"><b><a href="https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html">Employees at Microsoft, long known for its stability, are grappling with its decision to offer buyouts to 60,000 people as its spending priorities shift to AI</a></b></span>&nbsp; &mdash;&nbsp; Within an hour of Microsoft's announcement of buyouts last week, employees rushed to an internal site to see whether they had been offered one.</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Researcher: *sshole, a decade-old OpenSSH flaw, lets attackers use a password of 256+ characters to log into passwordless accounts on some musl Linux systems (Lawrence Abrams/BleepingComputer)</title>
+        <link>https://www.techmeme.com/261106/p16#a261106p16</link>
+        <guid isPermaLink="false">268e25797b8b0b3f702a161fe33e2da498b8cdc8c3f3b968107b0b8004523368</guid>
+        <pubDate>Fri, 06 Nov 2026 11:30:00 -0500</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：披露OpenSSH与musl libc交互中潜伏十年的认证绕过漏洞，影响Alpine等容器常用系统；技术细节具体、影响面明确，对基础设施安全有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <a href="https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261106/i16.jpg" vspace="4" /></a>
+<p><a href="https://www.techmeme.com/261106/p16#a261106p16" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> Lawrence Abrams / <a href="https://www.bleepingcomputer.com/">BleepingComputer</a>:<br />
+<span style="font-size: 1.3em;"><b><a href="https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/">Researcher: *sshole, a decade-old OpenSSH flaw, lets attackers use a password of 256+ characters to log into passwordless accounts on some musl Linux systems</a></b></span>&nbsp; &mdash;&nbsp; A newly disclosed flaw involving OpenSSH and musl, dubbed &ldquo;*sshole,&rdquo; allows attackers to log in to certain Alpine Linux &hellip; </p>
         </div>
         ]]></description>
     </item>
@@ -1773,509 +2086,6 @@
 <p class="wp-block-paragraph">Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and <a href="https://www.washingtonpost.com/technology/2026/11/04/voters-pass-over-20-ballot-measures-ban-or-restrict-data-centers/">ballot measures</a> that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry.</p>
 <p class="wp-block-paragraph">Of voters polled by <em>NBC News</em> on Election Day, 76 percent <a href="https://www.nbcnews.com/politics/2026-election/exit-poll-trump-midterms-voters-economy-disapproval-rcna607045">said they opposed data centers</a> in their communities. Dozens of local communities <a href="https://stateline.org/2026/11/04/voters-across-the-country-reject-data-centers/">voted directly to restrict development</a> through <a href="https://datacentersontheballot.com/">ballot measures</a>. And upset winners like Texas Democratic Governor-elect Gina Hinojosa and Michigan's Democratic Senator-elect Abdul El-Sayed support moratoriums on development.</p> …
 <p><a href="https://www.theverge.com/policy/1026365/data-centers-midterms-results">Read the full story at The Verge.</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 拓竹给 3D 打印机装了 9 个头，这次真能打印万物了？</title>
-        <link>https://www.ifanr.com/1687646?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">337d940103fbb942dea20c7a5780597c0ec2443f2bdd5df000f43d3c59ed96a6</guid>
-        <pubDate>Wed, 04 Nov 2026 09:55:11 +0000</pubDate>
-        <author>郑廷旭</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：拓竹9头自动切换方案直击多色打印废料痛点，3.4秒换头、支持多材料混打，技术细节扎实，对3D打印产品化有长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img src="https://s3.ifanr.com/wp-content/uploads/2026/11/image6.jpg" /></p>
-<p>经常玩 3D 打印的朋友都知道，打一个彩色模型，旁边一不小心就会堆出一座比模型本身还重的废料山。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781871662-1.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Fabbaloo</div>
-<p>单喷嘴机器每次换色，都必须把上一种耗材抽出来、送进新耗材，并反复挤出冲洗喷嘴。颜色换得越勤，等待的时间和排出的塑料垃圾就越感人。</p>
-<p>昨晚，拓竹就为这个问题给出了一个堪称「力大飞砖」的解法：在机身里塞进整整 <strong>9 个可以自动切换的打印头</strong>。每个打印头独立送料、独立加热，机械换头只需 3.4 秒，最快 6 秒就能切到下一种材料继续打印。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781873473-2.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹第三代旗舰 3D 打印机 H3C（图片来源：拓竹科技）</div>
-<p>给 3D 打印机装上 9 个头，省下废料其实还只是顺带的。更夸张的，是它能在一次打印里，同时对付不同粗细、不同软硬度，甚至不同打印精度的耗材。</p>
-<p>拓竹这次端上来的机器，想做的不只是塑料模型，而是有软有硬、拿起来就能直接用的「产品」。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781874754-3.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<h2>9 个头，轮流上</h2>
-<p>从最早的 X1 系列开始，拓竹的 AMS 自动供料系统大幅降低了多色打印门槛。但所有耗材最终还是得共用同一个喷嘴，换一次颜色就得退料、进料再挤出一大坨废料去冲洗。</p>
-<p>正如开头提到的那个场景，颜色越多，换料越频繁，等待的时间和浪费的塑料也就越让人头疼。去年的 H2C 尝试用 Vortek 切换热端，而到了 H3C，拓竹索性把整个打印头都做成了独立模块。</p>
-<p>H3C 搭载的 Swaptek 多头闪切系统，把每个打印头都做成了自带进料通道、加热器和硬化钢喷嘴的独立模块。需要换材料时，机器只要把手头的打印头放回挂架，再换下一个接着打，免去了反复抽料退料的折腾。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781877614-4.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<p>为了减少等待时间，H3C 在打印过程中就会提前准备。当前打印头还在吐料时，下一个待命的打印头已经提前升温至工作温度，换头后几乎无需等待加热就能直接恢复打印。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781882539-5.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<p>机身内还设计了一套可升降对接挂架：换头时挂架下降与工具头对接锁定，打印时整体升起避让成型区域，保证了高频换头下的对齐精度。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781887665-6.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<p>这套组合拳下来，在打印多色复杂模型时效果立竿见影。</p>
-<p>Tom’s Hardware 用它打印了一条八色蒸汽朋克龙。过去在传统单喷嘴机器上频繁换色，足足花了 37 小时 28 分钟，擦出 267g 废料；换到 H3C 上，时间直接缩到 24 小时以内，废料也降到了 68g。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781891787-7.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Tom’s Hardware</div>
-<p>除了省下的等待时间和耗材，最终打印出来的成品也非常精细。如果事先不告诉你，你甚至很难联想到这是一件 3D 打印出来的东西。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781892985-8.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Tom’s Hardware</div>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781895611-9.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜使用 CMYKW 五基础色叠色打印的花瓣相框样件（图片来源：拓竹科技）</div>
-<p>要是觉得 9 个头还不够折腾，1 号打印头最多还能外接 4 台 AMS（自动供料系统），<strong>一口气把颜色拉满到 24 色。</strong>而且前几代老款 AMS 全都兼容，手头有现成设备的老玩家直接接上就能用，不用重新花钱换新。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781900209-10.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<h2>软的、硬的都能打</h2>
-<p>想用 3D 打印做一双能穿的鞋，或者一个带防滑握把的工具，过去是个相当折磨人的活。</p>
-<p>鞋底要软弹，鞋面要支撑；握把要防滑橡胶，骨架得是坚硬塑料。因为不同材料没法混打，创客们只能把零件拆开打，再拿出胶水手工粘合。</p>
-<p><strong>H3C 想解决的，就是让这种软硬结合的物品在机器里一次成型。</strong></p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781904072-11.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹</div>
-<p>但要把橡胶一样软的材料稳定推过挤出机，难度不亚于用手去推一根煮熟的面条。像 Shore 75A 这种橡胶般的超软 TPU，用普通 1.75mm 细线进料时，稍微受阻就会在挤出机里打滑弯折，甚至缩成一团把喉管堵死。</p>
-<p>拓竹的解法是把柔性耗材加粗到 2.85mm。线径做大后更耐推、不容易在半道弯折，搭配能动态调整夹持力的挤出机构，来避免软料进料卡死的毛病。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781907900-12.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<p>解决了超软胶的进料问题，就能直接成型以前很难打印的柔性大件。比如下面这个官方展示的束绳包，整只包体全由 TPU 75A 一体打印完成，既有足够的韧性与拉伸弹性，穿绳孔也能直接承受拉扯，取下来穿上绳子就能直接用。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781909416-13.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<p>除了刚性塑料与超软橡胶的混合，机械结构件也常常需要软硬结合的缓冲设计。不同部位在同一任务里无缝交接，材料间的层间粘合直接由高温熔融压合完成，远比打完后再拿胶水粘要牢固得多。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781912039-14.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<p>还有官方展示的这只腕表：细致的表盘、坚固耐摔的表壳，以及贴合手腕的柔软表带，全是由 H3C 在同一次任务里直接打印出来的。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781913992-15.jpg" /></p>
-<p><strong>搞定了极软的橡胶，天平另一端的「硬骨头」同样不好对付。</strong>碳纤尼龙、PC 这类硬核工程材料，打印时最怕受冷收缩导致翘曲开裂。H3C 靠着主动加温的密封腔体和耐磨的高温喷嘴，把工程件牢牢压在热床上成型。</p>
-<p>还有像 TPU、PA 这类工程材料极易吸潮，一旦受潮，打印时就会拉丝、起气泡，影响构件强度。拓竹这次给机身顶部的 AMS 3H 料仓配了两个最高 85℃ 的烘干位，能在打印过程中持续烘料，保证工程件的成型质量。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781917486-16.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<p>加上超过 30 厘米见方的打印空间，做头盔外壳或机械构件这类大号功能件时，终于不用再把模型切碎分块打印、后期慢慢粘合了。</p>
-<p>除了打印之外，这个多工具头系统还能换上画笔、割刀或压印头，在皮革、纸张上划线、切割甚至做冷烫金工艺，留给大伙的想象空间就更大了。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781918787-17.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<h2><strong>它很强，但不是给普通玩家准备的</strong></h2>
-<p>最后来看看价格：拓竹 H3C 标准套装初上市价 16499 元，首发优惠叠加补贴后 13999 元起。如果选配工作站和净化器，总价甚至会奔着一万六千元以上去。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781920240-18.jpg" /></p>
-<p>花一万多块钱买一台桌面 3D 打印机，在如今的市场里并不算便宜。</p>
-<p>毕竟自动换头早就不是万元机的专利了，去年底快造 Snapmaker U1 用四个独立打印头实现了约 5 秒换头，首发价只要五千元左右；</p>
-<p>今年闪铸推出的 Creator 5 系列四头机，起售价更是打到了四千多元。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781923200-19.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜闪铸 Flashforge</div>
-<p>不过话又说回来，要是把 H3C 当成一台能混打超软胶和工程塑料的微型打样机，其实它也颇有性价比——前提是你的工作流里，真的需要这种工业级的成型能力。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793781924612-20.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜拓竹科技</div>
-<p>如果只是打打手办摆件、彩色模型，市面上两三千元的多色打印机就足够。</p>
-<p>而对于需要高频做功能验证、软硬复合样件的专业创客、设计工作室和研发团队，H3C 是一个值得考虑的选项。</p>
-<p>它省掉的拆件拼接麻烦、减少的报废率，以及大幅压缩的等待周期，其实就已经值回票价。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 一文看懂 2026 中国车市：卷死合资不是胜利，「金九银十」已然消失</title>
-        <link>https://www.ifanr.com/1687720?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">84ad9b7971acd657a8a5340b2c7b2143e63867ce7d4959814f12a19a26ee13de</guid>
-        <pubDate>Wed, 04 Nov 2026 15:12:46 +0000</pubDate>
-        <author>李华</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以乘联会数据为锚，拆解金九银十消失的结构性成因：补贴透支需求、价格体系重塑、合资退潮，提供超越月度快讯的产业复盘视角。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img alt="" class="alignnone size-full wp-image-1687731" height="941" src="https://s3.ifanr.com/wp-content/uploads/2026/11/gfvda.jpg" width="1672" /></p>
-<p>销量数据每月都发，其中最受关注的无疑是刚刚过去的九月和十月。</p>
-<p>这两个月一直是车市最重要的销售旺季，因此也被称为「金九银十」。在这段时间里，厂家往往会集中投放主力车型，推出冲量和返利政策；经销商则会抓住中秋和国庆假期带来的用车需求，加大促销力度。多重因素叠加，汽车销量通常会在这时迎来一波高峰。</p>
-<p>但今年秋天，车市显得有些安静。</p>
-<p>乘联会公布的最新数据印证了这种体感：今年 10 月全国乘用车零售 169.3 万辆，<strong>同比下降 25%</strong>；周度走势上，10 月各周日均零售同比跌幅都在 20% 以上。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805073172-1.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>这样的冷清并不是突然出现的，前两年超长期国债支持的报废更新，加上各省市密集的置换补贴，把原本属于今年甚至明年的购车需求提前释放了相当一部分。如今随着补贴效果逐步放缓，市场进入了政策平稳期。</p>
-<p>汽车的价格体系同样经历了一个变化过程。</p>
-<p>2023 年春季特斯拉带头降价，东风系跟进政企联合补贴，行业原有的价格标尺被打破。到了 2024 年初，比亚迪打出电比油低的旗号，主流混动轿车下沉至七到十万元区间，<strong>行业平均利润率一度回落至 4.5% 左右的低位</strong>。</p>
-<p>当价格调整从年初延续到深秋，促销每个月都在搞，消费者就不必再特意等待金九银十，传统旺季的吸引力自然也就下降了。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805075117-2.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>最早感受到变化的是经销商。</p>
-<p>今年，新车进销价格倒挂已经不止出现在豪华品牌的展厅里，而是蔓延到了大部分主流品牌。中国汽车流通协会数据显示，上半年全国超半数汽车经销商处于亏损状态，新车销售毛利普遍转负。</p>
-<p>现在的问题不再是旺季能卖多少车，而是<strong>卖一辆车要亏多少钱</strong>。</p>
-<p>一位华东地区的 4S 店销售主管在接受《第一财经》采访时坦言，以前全款提车的客户最受欢迎，现在客户提出全款买现车，销售人员反而很为难。厂家指导价早已失守，他们每卖出一辆裸车就要承担两万多元的亏损。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805077472-3.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>他表示，店里目前只能尽量劝导客户选择长达五年的分期还款方案。在银行高达百分之十以上的「高息高返」政策下，一笔十余万元的车贷能带来上万元佣金，再算上随之捆绑的店内保险返点与综合服务费，门店才能勉强补上卖车产生的差价亏损。</p>
-<p>当门店业务重心转向金融服务，经销商原本承担的「蓄水池」作用随之减弱，无力再替车企垫资备库，消费者又在持续降价预期中拉长比价周期，过去依靠旺季集中冲量的玩法越来越难以为继。</p>
-<h2>卷死合资，并非胜利</h2>
-<p>渠道的收缩，很快传导到了生产端。就在昨天，沈阳华晨宝马工厂传出人员优化消息。</p>
-<p>据量子位 ROBO 报道，这次人员优化涉及约 1800 人，约占华晨宝马总员工的10%。</p>
-<p>一位在沈阳工厂流水线工作的 P 岗工人回忆，许多工人口头收到的通知是从 11 月 2 日起等待电话，接到通知的人办理离职，其余人继续上班。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805078994-4.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>办公室序列的 G 岗员工同样受到影响。一位员工透露，部门里合同即将到期的同事，早在年初就收到三年期满不再续约的提醒，许多人只能提前找工作，其中甚至包括一位 57 岁的资深员工。</p>
-<p>一份流出的赔偿方案显示，华晨宝马为这些员工提供了 N+5 的补偿，被裁员工在找到新工作前最长可领取两年失业金。</p>
-<p>和北京奔驰去年的 N+11 比起来，宝马的赔偿方案似乎没那么引人瞩目，但不得不说，后者在国内制造业环境里已经算是清流了。</p>
-<p>也有人将宝马在德国本土的做法拿来作对比。路透社与德国《商报》早前披露，宝马在德国针对部分白领岗位推出自愿离职方案，最高赔偿金达到 65 万欧元，折合人民币超 480 万元，数千个名额几天内便被申请完毕。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805080278-5.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>在人员调整这件事上，一些合资品牌靠着此前攒下的家底，还能给员工一份相对体面的离职补偿。相比之下，国内一些把 BBA 当作对手的品牌，做法就没那么透明了，有的甚至频繁通过法务手段处理离职纠纷。</p>
-<p>满打满算，合资造车在国内也就走过了四十来年。对不少从业者来说，合资企业不只是一份工作，也意味着更稳定的福利和保障。如果合资品牌在竞争中进一步收缩，这些保障能否延续，也会成为新的问题。</p>
-<p>产能利用率下降，只是问题的一面，整个行业赚钱也越来越难。乘联会数据显示，今年前 9 个月，汽车行业收入增长 2.6%，成本却增长 3.8%，利润同比下降 23%，销售利润率降至 3.3%，低于规模以上工业企业 5.68% 的平均水平。</p>
-<p>9 月的数据更差。单月利润同比下降 68%，销售利润率进一步降至 1.4%，处于近 4 年来的低位。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805083309-6.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>利润变薄，车企只能把降本任务一层层传给零部件供应商。</p>
-<p>晚点 LatePost 记录了一家核心底盘供应商高管的讲述，这位副总裁坦言，主机厂提出的年降指标已经接近极限，过去按年沟通的降本要求变成了按季度考核。</p>
-<p>在一次闭门会议上，车企采购部门问他，能不能把某个连杆部件从铝合金改成双层冲压钢板，这样单件成本就能省下几十元。他当然清楚，材料一换，底盘质感和耐腐蚀性能都可能打折扣。但竞标的压力就摆在那里，完不成降本指标，下一季度的供货份额就可能被竞争对手拿走。</p>
-<p>当降本压力落到车身底盘、防撞梁涂层和隔音隔热材料这些隐蔽环节，原本为产品质量留出的余量，也在被一点点压缩。</p>
-<h2>车越卷越快，消费者越买越慢</h2>
-<p>供应链不断压缩成本，也与新车研发节奏的变化有关。国内乘用车的研发周期已从过去的 36 个月以上，缩短到一年至一年半。硬件频繁调整，软件持续更新，汽车越来越像消费电子产品，一款车型的生命周期也随之改变。</p>
-<p>研发节奏加快的同时，价格也在不断松动。宝马 i7 终端优惠超过了 30 万，奔驰 E 级在多地售价下探至 32 万元，雅阁、威兰达这些车型更是降到了 13 万元落地，自主品牌也在一轮轮改款和促销中不断调整价格。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805086966-7.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>从豪华品牌到主流家用车，价格都在频繁变化，<strong>消费者越来越难判断一辆车到底值多少钱</strong>。</p>
-<p>同样发生变化的，还有市场上热销的车型。今年秋季，早期走红的 A00 级微型纯电车销量跌幅超过五成。</p>
-<p>受成本和空间限制，这类车型很难兼顾驾控与被动安全，市场份额迅速被综合素质更全面的 A0 级与 A 级纯电家用车分走。与此同时，插电混动和增程车型还在不断蚕食传统燃油 SUV 的市场基盘。</p>
-<p>价格和产品都在快速变化，消费者的购车心态自然也跟着变了。买车越来越像买手机，刚提车就可能遇到配置更高、价格更低的新款，早买早享受渐渐变成了<strong>晚买享折扣</strong>，「金九银十」的促销想要打动他们，也就变得越来越难。</p>
-<h2>车市的天花板，可能比我们想的更低</h2>
-<p>比起消费者越来越深的观望情绪，车企真正要面对的现实，<strong>是国内汽车市场的容量上限</strong>。</p>
-<p>行业常用千人汽车保有量来判断市场潜力——美国超过 800 辆，欧洲和日本在 500 至 600 辆之间，国内目前约为 260 辆。</p>
-<p>单看这个数字，国内市场似乎还有成倍增长的空间。但不同国家的汽车保有量，并不能脱离城市形态和地理条件直接比较。中国人口和经济活动高度集中在胡焕庸线以东，居民又大多住在高密度集合住宅里，与北美低密度郊区的独栋住宅截然不同。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805090688-8.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>随着全国机动车保有量来到 3.6 亿辆，一线和新一线城市所承受的道路和车位压力也越来越大。</p>
-<p>多所交通科研机构的模型显示，受自然条件和城市结构限制，中国千人汽车保有量的合理饱和水平<strong>在 300 至 350 辆之间</strong>。如果按这个区间计算，国内车市距离增长上限已经不远。</p>
-<p>依靠新增需求扩张的模式正在走向终点，车企不得不转向存量争夺，一家工厂想要提高产量，往往就要从竞争对手手中抢走市场。这种从增量竞争转向存量竞争的过程，十年前的中国智能手机行业已经经历过。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805092510-9.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>2014 年前后，国内手机市场活跃着数十个品牌，除了华为和小米，酷派、金立、魅族、锤子等厂商也都参与其中。随着芯片、屏幕等供应链日趋标准化，各品牌陷入价格和配置内卷。大批腰部品牌退场后，市场才形成如今的华米 OV 与苹果并存的格局。</p>
-<p>等到硬件足以满足日常需求，创新又逐渐转向机身材质、屏幕折痕和影像风格等细节，消费者的换机周期也从早期的一年延长到三年以上。</p>
-<p>智能手机行业的变化，对今天的智能汽车很有参照意义。主流芯片、大屏和辅助驾驶逐渐成为标配，<strong>车企越来越依赖配置堆叠，用户对参数却在慢慢脱敏，换车热情也随之下降</strong>。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793805094730-10.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>如果再把时间往前拉一百年，美国汽车工业也留下过相似的经验。</p>
-<p>20 世纪 20 年代，福特通过流水线作业，将 T 型车售价从 800 多美元降至 260 美元左右，由此拉开了持续十余年的价格战。那场竞争加上随后到来的大萧条，让上百家中小车企相继消失，最终形成了底特律三大巨头的格局。</p>
-<p>把这些经验放回今年的中国车市，金九银十的平淡也就不显得偶然了。</p>
-<p>市场空间接近承载上限，产品更新越来越像消费电子，竞争则转向成本、现金流和长期工程能力。</p>
-<p>传统旺季逐渐淡去，中国汽车工业正在告别依靠营销和资本快速扩张的阶段。接下来的竞争不会更轻松，决定胜负的因素，已经和过去不太一样了。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 安东内利加冕 F1 最年轻世界冠军，梅赛德斯的十年豪赌拿到了大结果</title>
-        <link>https://www.ifanr.com/1687672?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">1d2c903e9b4caab8739b77e0bee436cc40c0044d972473cd19af4cdc98c38a6c</guid>
-        <pubDate>Wed, 04 Nov 2026 10:06:47 +0000</pubDate>
-        <author>陈世琛</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以安东内利从18岁首练撞墙到最年轻世界冠军的26个月为线索，复盘梅赛德斯青训体系的十年布局与沃尔夫的选人逻辑，兼具人物叙事与车队战略深度，信息密度高。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786396439-1.jpg" /></p>
-<p>2024 年 8 月 30 日，意大利蒙扎赛道正在进行比赛周的第一节自由练习赛。</p>
-<p>这是安德烈亚·基米·安东内利人生中第一次进入 F1 正式周末的练习赛，五天前，他才刚刚过完自己 18 岁的生日。</p>
-<p>早在 2 月，当时还身处梅赛德斯的汉密尔顿就已经宣布将在年底转投法拉利。而车队领队托托·沃尔夫正准备借着这一次练习赛的亮相，对外官宣这个连驾照都还没考下来的高中生，将会成为明年梅赛德斯-AMG F1 车队的正式车手。</p>
-<p>安东内利当然也想在家乡车迷面前证明自己配得上这个位置。出场第一圈，他就开着梅赛德斯 W15 赛车刷出了全场最快计时段。</p>
-<p>但仅仅 10 分钟后，在著名的帕拉波利卡弯，伴随着高达 52G 的撞击力，安东内利的第一次练习赛止步在了轮胎墙上。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786398562-2.jpg" /></p>
-<p>外界显然对梅赛德斯提拔一个高中生有不小的质疑。</p>
-<p>前 F1 车队老板埃迪·乔丹就表示：</p>
-<blockquote><p>「我们早就说过，梅赛德斯的压力对基米来说太沉重了，结果恰恰就是这样。他现在不属于梅赛德斯，他应该先去别的地方练上一年。」</p></blockquote>
-<p>作为对手的红牛顾问马尔科也说：</p>
-<blockquote><p>「第一次开 F1 就在主场背负这么大的压力，这对安东内利来说也许太多了。」</p></blockquote>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786400775-3.jpg" /></p>
-<p>但仅仅 26 个月后，2026 年 11 月 1 日，在墨西哥城罗德里格斯兄弟赛道，安东内利成功加冕，提前 4 站锁定了 2026 赛季车手世界冠军，这一天，安东内利 20 岁零 68 天。</p>
-<p>安东内利打破了维特尔保持了 16 年的纪录，成为 F1 历史上有史以来最年轻的世界冠军。同时，他也成为了继 1953 年的阿尔贝托·阿斯卡里之后，整整 73 年来第一位夺得 F1 世界冠军的意大利车手。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786404939-4.jpg" /></p>
-<p>回望首秀上墙的狼狈和彼时铺天盖地的质疑声，安东内利这一路走来绝非一帆风顺的爽文。</p>
-<p>从 18 岁被推上风口浪尖，被指责拔苗助长。到新秀赛季在心理阴影中迷失，再到 20 岁以绝对统治力登顶，他的两年 F1 生涯宛如一场过山车。</p>
-<h2>梅赛德斯的十年豪赌</h2>
-<p>在首秀即撞车之后，安东内利的第一个新秀赛季经历过一段漫长而窒息的低谷。</p>
-<p>与其他大多数年轻车手先在小车队「练级」不同，安东内利一上来就「开上了大奔」，准确来说，是七冠王汉密尔顿留下的大奔。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786407073-5.jpg" /></p>
-<p>为了让他上位，沃尔夫力排众议，让他在 2024 年直接跳过 F3 升入 F2，又在蒙扎撞车的第二天，顶着全围场的质疑直接官宣了他的 2025 正赛合同。</p>
-<p>沃尔夫之所以如此执拗，是因为他希望得到下一位年轻的「天才车手」。</p>
-<p>2014 年，沃尔夫曾有机会签下当时只有 17 岁的维斯塔潘，却因为梅赛德斯没有空余的正赛席位，被红牛车队用直接上 F1的承诺截胡。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786408136-6.jpg" /></p>
-<p>眼睁睁看着维斯塔潘在红牛建立四冠王朝，沃尔夫多少有些悔不当初。2018 年，当 11 岁的安东内利在意大利横扫少年组比赛时，梅赛德斯青训营便用一纸长约锁死了这位未来之星。</p>
-<p>而不少关注围场的车迷也将这段故事戏称为「自研维斯塔潘」。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786411231-7.jpg" /></p>
-<p>但被推上神坛的速度太快，代价也来得同样剧烈。</p>
-<p>进入 2025 新秀赛季后，尽管前期安东内利表现不错，在揭幕战澳大利亚站从第 16 位追到第 4、又在加拿大站首次登上领奖台，但到了赛季中段的欧洲背靠背赛程，安东内利经验不足的问题还是被暴露出来。</p>
-<p>许多人都认为梅赛德斯拔苗助长，毁掉了一位年轻车手。</p>
-<p>但实际上，在聚光灯背后，梅赛德斯内部还是给了安东内利足够的试错与成长空间。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786412609-8.jpg" /></p>
-<p>和这位年轻人一样，梅赛德斯同样需要顶住外部的压力，甚至需要用更坚定的姿态为安东内利撑腰，才有可能把他送到更高的高度。</p>
-<p>「我们在车队内部聊过，蒙扎那次撞墙，确实让他后来面对比赛周末时带着一种异样的谨慎。」梅赛德斯技术总监詹姆斯·艾利森说。因为害怕再次犯错，安东内利在需要压榨极限的排位赛里下意识地保留了余地。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786415569-9.jpg" /></p>
-<p>车队工程团队不断地向安东内利传达，要他完全信任自己的天赋，不要被犯错的恐惧束缚，他完全可以比自己想象的更大胆地去压榨赛车极限。</p>
-<p>托托·沃尔夫则在媒体面前挑明了梅赛德斯的态度：</p>
-<blockquote><p>「我们早就做好了准备给他一整年去犯错交学费。这中间一定会有让我们急得抓狂的时刻，也会有天才闪光的瞬间，但这就是成长的代价。」</p></blockquote>
-<p>逐渐卸下包袱的安东内利在 2025 赛季末段迎来反弹，接连在拉斯维加斯和巴西登上领奖台，最终以 150 分、年度第 7 名结束了新秀赛季。</p>
-<p>当然了，年度第 7 名对梅赛德斯车队来说并不算一个很好的成绩，但很少有人想到，在2026 年新规的变化下，安东内利交的学费会换来一场彻底的爆发。</p>
-<h2>「最难开的车」，成全了安东内利</h2>
-<p>安东内利能在 2026 年完成统治，和今年 F1 赛场上引发众怒的技术大洗牌也有关系。</p>
-<p>2026 年是 F1 近十几年来规则变动最剧烈的一年。</p>
-<p>国际汽联取消了复杂的 MGU-H，同时将 MGU-K 的电机功率暴涨三倍至 350kW，内燃机与电能的动力输出比例来到了近似 50:50，并引入了全新的主动空气动力学系统。</p>
-<p>简而言之，2026 年的 F1 赛车是一台比以往更加标准的混动车。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786396439-1.jpg" /></p>
-<p>新车拥有更加强大的电驱推力，但电量的回收与释放额度却给车手们带来了一场驾驶噩梦：赛车在长直道末端极易遭遇电量枯竭，即便在全油门的情况下依然会进行能量回收。</p>
-<p>在 2026 的规则下，赛车什么时候动能回收，什么时候释放马力，都由预设的软件进行映射。</p>
-<p>在传统的 F1 逻辑里，排位赛飞驰圈意味着车手要把油门焊死、把刹车推到最晚。但在 2026 年的赛车里，为了保证下一段直道还有电可用，车手需要违背本能松开油门滑行，或者在直道中降档来维持转速。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786418846-10.jpg" /></p>
-<p>从巴林季前测试开始，围场里的传奇老将们就对新规怨声载道。</p>
-<p>维斯塔潘是批评声音最猛烈的一个，他公开炮轰 2026 规则是「反赛车」，嘲讽新车开起来像打了激素的电动方程式，汉密尔顿同样直言新规「复杂得荒谬」。</p>
-<p>连安东内利的队友，原本被视为梅赛德斯今年争冠头牌的乔治·拉塞尔，也在揭幕战澳大利亚站的排位赛里因为大段滑行攒电而显得极不适应。</p>
-<p>老将们之所以痛苦，一部分原因是因为过锤炼出的机械本能，在新规面前并不适用。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786420911-11.jpg" /></p>
-<p>但年轻车手们的适应能力显然更高一些，也包括安东内利。20 岁的安东内利，是从小泡在高精度模拟器和复杂数据遥测里长大的「软件原住民」。</p>
-<p>他把驾驶 2026 梅赛德斯 W17 赛车形容为在三百公里时速下下国际象棋。</p>
-<p>在梅赛德斯极其强大的 2026 款动力单元加持下，安东内利展现出了惊人的适应力。赛季前 6 站比赛，他在中国、日本、迈阿密、加拿大和摩纳哥狂揽 5 个分站冠军。</p>
-<p>相比之下，更有经验的队友拉塞尔虽然全年也拿下了 3 个分站冠军，却屡屡受困于车队沟通问题和偶发失误，最终在积分榜上被安东内利甩开了整整 130 分。</p>
-<h2>意大利的英雄</h2>
-<p>整个 2026 赛季最能证明安东内利统治力的一场比赛，依然发生在意大利蒙扎。</p>
-<p>今年 9 月的意大利大奖赛，梅赛德斯为了确保争冠冲刺阶段的引擎可靠性，选择让安东内利在主场战略性启用新动力单元并接受罚退，从第 19 位发车。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786422257-12.jpg" /></p>
-<p>两年前，他在这里首秀，只开了 2 圈就撞碎了赛车。两年后，他在漫天挥舞旗帜的意大利车迷面前，一路超越 18 台赛车，拿下了分站冠军，成为 60 年来首位在蒙扎主场夺冠的意大利人。</p>
-<p>算上墨西哥站的季军，安东内利在前 19 站比赛里交出了 9 个分站冠军、7 个杆位、17 次登上领奖台的统治级成绩单，以 380 分提前终结了本赛季的车手总冠军悬念。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786424444-13.jpg" /></p>
-<p>对于意大利赛车界来说，他们终于等来了一位冠军。</p>
-<p>过去 73 年里，这个拥有法拉利、拥有蒙扎和伊莫拉、拥有全世界最狂热车迷的国度，始终没能再等来一位本土世界冠军。</p>
-<p>最终打破魔咒的，是一个出生在法拉利大本营旁边的博洛尼亚，名字里的「Kimi」致敬了法拉利传奇莱科宁，却穿着德国梅赛德斯赛服登顶的 20 岁年轻人。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786427004-14.jpg" /></p>
-<p>但这丝毫没有妨碍整个意大利陷入狂欢。</p>
-<p>夺冠当天，他的家乡博洛尼亚市政府便宣布，将授予安东内利象征城市最高荣誉的金海神奖章。</p>
-<p>据意大利《晚邮报》报道，为了纪念这场跨越 73 年的加冕，意大利国家造币厂已经计划在年度钱币收藏系列中，<strong>专门为安东内利铸造发行一枚官方特别版纪念币</strong>。</p>
-<p>巧合的是，在意大利现行流通的 2 欧分硬币背面，原本就印着都灵地标「安东内利尖塔」——那是 19 世纪建筑师亚历山德罗·安东内利留下的杰作。</p>
-<p>而从现在开始，意大利的钱币上要印上第二个「安东内利」了。</p>
-<p>祝贺基米·安东内利，F1 历史上最年轻的世界冠军。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] Anthropic微微发力，AI中转站的天就要塌了？</title>
-        <link>https://www.ifanr.com/1687702?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">acb195758dff69bf49b4c6834b512dc822934ce352de580f40a63ddb2aa252c4</guid>
-        <pubDate>Wed, 04 Nov 2026 10:34:38 +0000</pubDate>
-        <author>张子豪</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：聚焦AI API中转站模型偷换痛点，拆解Anthropic FlashProve密码学证明推理的技术原理，提供可验证模型真实性的新范式，兼具技术深度与产业参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img alt="" class="alignnone size-full wp-image-1687717" height="821" src="https://s3.ifanr.com/wp-content/uploads/2026/11/snoop.jpg" width="1916" /></p>
-<p>你付钱调用的那个 AI，真的是商家承诺的那个模型吗？</p>
-<p>比如，一个第三方平台声称接入了旗舰模型，后台却换成便宜的小模型、旧模型，光看回答的语气和质量，我们很难判断；又或者是同一道题目，官网能做出来，用中转站却卡住了。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786884928-1.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜GitHub 上部分 AI API 中转站推荐与评测项目</div>
-<p>不少通过第三方 API、聚合平台或中转服务调用模型的国内用户来说，这大概是经常需要面对的问题。</p>
-<p>一个看起来简单的模型请求，背后需要经过「用户—中转站—上游服务商—模型」多个环节，只要其中一环缺少透明度，我们就很难确认自己买到的，是不是标价对应的模型。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786891050-2.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜研究链接：https://www.anthropic.com/research/provable-inference</div>
-<p>Anthropic 近日发布的一项研究，试图把这个只能靠口碑、截图和体感争论的问题，变成一个可以数学验证的问题。</p>
-<p>这套名为 <strong>FlashProve</strong> 的开源研究原型，可以为模型推理生成密码学证明。它尝试让服务商为模型的计算结果提供密码学证明，用户不用拿到模型权重，也不用自己再跑一遍大模型，就能核验。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786905519-3.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<h2>不公开模型，也能证明「你就是你」</h2>
-<p>除了使用模型厂商官方的应用，和从官网调用 API 进行对话，我们能确认使用模型的情况。在大多数的 API 调用里，我们提交问题，服务器返回回答，模型世界上是跑在了远程的机器上，我们无法得知后台究竟进行了那些计算。</p>
-<p>斯坦福大学的研究项目《Model Equality Testing》曾经就测试过 2024 年四款 Llama 模型的 31 个商业 API 端点，发现其中 11 个端点的输出分布，与 Meta 发布权重的参考分布存在统计差异。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786909838-4.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>同一个模型名字，有时候并不能对应同一种表现。即便在服务页面挂着的都是 Opus 5.5，但根本无法保证用户获得完全相同的模型。</p>
-<p>有时候我们想着可以靠几个问题来鉴别模型，就像最近内测 Opus 5.5 一样，有网友说问他 2026 年 5 月，Karpathy 去了哪里，如果模型答不出他去了 Anthropic，那就是没有被测试到。</p>
-<p>但靠这些问题来鉴别模型，还会遇到模型厂商自己路由的问题，往往很难直接定位原因。像是碰巧答错、参数不同、上下文没传完整，和后台换了模型，最后都可能表现成一句「怎么变笨了」、「这不是我想要的模型吧」。</p>
-<p>FlashProve 的核心，是一种名为 <strong>zkSNARK</strong> 的零知识简洁证明技术。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786914201-5.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>首先，模型服务商为权重生成一个「承诺」，它类似一组密码学指纹，能够唯一锁定特定权重，却不会公开权重本身。</p>
-<p>随后，服务商针对给定的输入与待检查输出，生成一份证明，核验这些输出是否符合事先约定的模型计算。用户拿到模型承诺、提示词、回答和证明文件，就可以在自己的电脑上检查：<strong>这套被锁定的权重处理这段输入时，是否确实会产生这些输出。</strong></p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786942605-6.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>如果中转站偷偷换了一套模型，或者有人修改了输出，证明便无法与原来的模型承诺对应。</p>
-<p>这里用到的零知识证明也很重要，目的是为了让验证者在确认计算结果时，却不会因此获得模型权重、中间计算值，以及 MoE 模型在各层调用了哪些专家。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793786984549-7.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>这也解释了它为什么比「让 AI 自报家门」可靠，回答里写了什么模型名字，不再充当身份证明，检查的是输出与指定权重之间的计算关系。</p>
-<h2>一台笔记本就能核验</h2>
-<p>过去，为大模型生成零知识证明的最大障碍是成本，证明过程可能比普通推理慢上几个数量级，证明文件也可能非常大。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793787030192-8.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>Anthropic 使用公开 4-bit 权重的 Llama 4 Maverick 进行实验。这是一个拥有 4000 亿参数的混合专家模型，每个 token 实际激活约 170 亿参数。根据 Anthropic 公布的数据：</p>
-<ul>
-<li>单张 H100 生成证明的吞吐量约为 <strong>110 tokens/秒</strong>；</li>
-</ul>
-<ul>
-<li>每个 <strong>1,024-token</strong> 请求的证明约为 <strong>19 MB</strong>；</li>
-</ul>
-<ul>
-<li>验证不需要 GPU，在 24 线程 CPU 上约需 <strong>17 秒</strong>，单线程约需 <strong>21 秒</strong>；</li>
-</ul>
-<ul>
-<li>模型权重的初始承诺只需生成一次，耗时约 <strong>39 分钟</strong>。</li>
-</ul>
-<p>不过这里的 110 tokens/秒是<strong>证明生成速度</strong>，不是用户聊天时的模型输出速度。证明依然昂贵，在 Anthropic 的对比条件下，其 GPU 时间约为普通 vLLM 推理的 <strong>70～95 倍</strong>。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793787066715-9.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>即便不是免费，但这套方案，以及把一种过去近乎难以承受的验证方式，推进到了开始具有实际想象空间的阶段。</p>
-<h2>但解释不了「降智」</h2>
-<p>对于中转站用户，这项技术最直接的吸引力，当然是识别模型替换。但这里有一个关键前提，是我们必须提前知道<strong>正品模型的承诺</strong>是什么。</p>
-<p>如果中转站拿出一份有效证明，却只能证明回答来自它自己选择的模型 B，而用户无法确认模型 B 与自己购买的模型 A 是否相同，那么这份证明仍然解决不了身份问题。</p>
-<p>真正有效的使用方式，应当是由模型厂商、可信机构或公开透明的登记系统发布模型承诺，用户验证时固定检查这个预期指纹。在这个前提下，FlashProve 才能从「某次计算确实发生过」，升级为「我们购买的那次计算确实发生过」。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793787099842-10.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>而在社交媒体上，网友们对这项技术更多的评论就是「如果这能最终终结那些 <strong>他们是不是悄悄削弱了模型</strong> 的帖子，那就太好了。」</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793787104463-11.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>毕竟对我们来说，最想要的结果一定是，「你们不要再吵了，把证明拿出来就好了。」</p>
-<p>但即使权重身份已经确认，「降智」也还有其他可能。</p>
-<p>模型权重没有变化，并不意味着服务完全没有变化。系统提示词、安全策略、上下文截断、检索内容、量化方式和解码参数，都可能影响最终体验。要排查这些问题，需要明确每项条件是否也被核验覆盖。<strong>一个绑定权重的证明，不能自动回答所有产品层面的问题。</strong></p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793787105875-12.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>Kimi 团队在介绍 Kimi Vendor Verifier 时就提到，自 K2 Thinking 发布后，他们收到了社区关于跑分异常的反馈，调查确认，其中相当一部分案例来自解码参数误用。团队随后在 Thinking 模式约束相关参数，并检查思考内容是否被正确传回。</p>
-<h2>要让商家拿证明，还得先有人愿意出</h2>
-<p>尽管距离消费级普及仍有距离，这项技术展示的方向已经足够重要。</p>
-<p>Anthropic 这次同时公开了代码、技术报告和 Lean 形式化证明。按照技术博客的介绍，Claude 参与了系统构建和优化，协议文档与部分代码也由 AI 生成。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793787111681-13.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>对于中转服务，实际接入还需要上游参与。模型厂商或持有权重的运营方要建立可信的模型承诺、生成证明，中转平台再把相关内容交给用户。</p>
-<p>但如果服务商将来能够持续提供这类证明，我们投诉「你是不是换了模型」，就有机会得到一份可以自己检查的答复。</p>
-<p>对模型厂商而言，它也可以帮助发现被入侵的推理服务器，确认实际运行的权重是否经过授权。</p>
-<p>对评测机构和监管方而言，它则可能用于确认接受测试的模型与正式提供服务的模型是否一致，或者检查服务商是否使用了未经批准的模型。</p>
-<p>当然，所有这些应用都还需要更低的证明成本、更长的上下文支持、覆盖真实推理配置，以及一套可信的模型承诺发布机制。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1793787149391-14.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>FlashProve 不会立刻终结网上那些「他们是不是悄悄削弱了模型」的帖子。即使未来权重可以验证，人们仍然可以继续争论系统提示词、解码策略和产品设计是否发生了变化。</p>
-<p>但至少，对于模型有没有被掉包这件事，我们有机会从过去靠几个问题猜测、凭感觉争论，变成拿出一份证明，直接验证。</p>
-<p>毕竟，我们花钱购买了指定模型的服务，确认自己收到的确实是它，本来就不应该是一件需要靠猜的事情。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 数据中心上太空后，人类仰望星空时看到的卫星数量或达星星的100倍？</title>
-        <link>https://www.huxiu.com/article/4903088.html?f=rss</link>
-        <guid isPermaLink="false">b2e7b13d8c136a050ae4972f90ba6b0c32e80d4e7287ff5827678ea104099769</guid>
-        <pubDate>Thu, 05 Nov 2026 00:07:04 +0800</pubDate>
-        <author>财联社©</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：基于预印本论文，首次量化轨道数据中心对天文观测的威胁：可见卫星或达恒星100倍，并揭示FCC申报计划与缓解措施缺失。核心增量事实与长期产业影响兼具。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&amp;mid=2247870035&amp;idx=1&amp;sn=bd4a3f0d70f16da4ba7dd56d540b50bc&amp;chksm=c11bd2a98287027ca4e322ca90b72a586e494ff9d800a9ec739cbe38cdd75bfc29b692c32bfb#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 财联社 </span></a><span class="text-remarks">，作者：李莹</span></p><p><br /></p><p>全球AI算力竞赛正把数据中心送上太空。几位天文学家的最新研究警告，若相关卫星星座计划不加约束地全部落地，部分时段夜空中的可见卫星或远多于恒星，全球星空将面临深刻改变。</p><p><br /></p><p>由加拿大不列颠哥伦比亚大学天文学教授、外层空间研究所联合所长Aaron Boley，里贾纳大学天文学副教授Samantha Lawler，以及多伦多大学士嘉堡分校副教授Hanno Rein共同撰写、今年8月发布的预印本论文《天空中的光环：轨道数据中心及其对天文学和天空的潜在影响》（Rings in the Sky:Orbital Data Centres and Potential Impacts to Astronomy and the Sky）指出：如果SpaceX、蓝色起源以及美国航天企业Cowboy Space向美国联邦通信委员会（FCC）申报的轨道数据中心按计划建成且不采取缓解措施，某些时段夜空中可见卫星数量或达到恒星的约100倍。</p><p><br /></p><p>这意味着，地面望远镜拍摄的图像将布满卫星留下的亮痕，天文学家观测暗弱星体和星系的能力将大打折扣。普通人仰望星空时，看到的也将是成片移动的人造光点，而非纯净的自然星空。</p><p><br /></p><p>该论文依据上述三家公司申报文件，对三种设计方案进行了建模。其中，蓝色起源的“Sunrise”卫星星座最多包含5.16万颗卫星，Cowboy Space的“Stampede”卫星星座为2万颗。</p><p><br /></p><p>SpaceX的方案规模最大，其申报文件描述该卫星星座包含100万颗卫星，若计入后续更新中列出的轨道，总量约为120万颗。</p><p><br /></p><p>不过，媒体报道指出，由于申报文件仅提供概述性说明和少数代表性轨道，论文作者团队以自身假设补全了其余参数。</p><p><br /></p><p>基于上述模拟结果，论文认为，若要避免卫星光带布满夜空、干扰天文观测，只能将卫星亮度降低几个数量级（一个数量级即10倍），或对卫星数量设定硬性上限。</p><p><br /></p><p>论文作者直言，减少轨道数据中心对天空影响的唯一明确方法，是限制其使用。</p><p><br /></p><p>监管层面的阻力也在显现。美国天文学会今年3月已向FCC提交请愿，要求驳回SpaceX的申请，理由是该卫星星座将影响美国联邦政府在天文研究领域数十亿美元的投入，并对学会成员造成重大损害。该学会还表示，其担忧同样适用于太空数据中心初创公司Starcloud、蓝色起源和Cowboy Space的申报。</p><p><br /></p><p>据媒体此前报道，SpaceX已对现有星链卫星进行了减光处理，并在申报文件中承诺采取缓解措施，而其他公司尚未公开相关计划。</p><p><br /></p><p class="text-big-title" label="大标题">卫星又大又亮</p><p><br /></p><p>论文指出，这些卫星的体积普遍较大。SpaceX向FCC表示，算上散热器和太阳能板，其数据中心卫星的面积约为800平方米；Cowboy Space的设计草图则显示，其太阳能阵列面积约4800平方米，是国际空间站太阳能阵列约2250平方米的两倍多。</p><p><br /></p><p>更大的面积意味着更强的反光。研究测算，在纬度30度地区的冬季傍晚，仅SpaceX的方案就会让天空中出现约9.8万颗亮于5等星（星等数值越小越亮，5等星在无光污染环境下肉眼可见）的卫星，而同等亮度的恒星仅约500颗。</p><p><br /></p><p>这些卫星在天空中的分布也并不均匀。它们将运行在太阳同步轨道上，形成一道道“光环”，每天两次划过天空。</p><p><br /></p><p>论文称，影响最严重的时段出现在冬季，届时环状结构可能横扫原本漆黑的夜空；在两极附近，部分卫星在冬季漫长的黑夜中甚至可整夜可见。</p><p><br /></p><p>外层空间研究所联合所长Boley在接受媒体采访时表示，由于城市光污染，人们早已失去了对夜空的感知。普林斯顿大学天文学家Gaspar Bakos则表示，卫星的影响是全球性的，人类无处可躲。</p><p><br /></p><p>需要指出的是，上述数据基于一个简化模型，即将每颗卫星视为反光球体，论文作者也承认实际亮度可能更高或更低。</p><p><br /></p><p class="text-big-title" label="大标题">退役卫星污染大气</p><p><br /></p><p>除了遮蔽星空，这些卫星星座还将带来其他代价。论文测算，一个由100万颗卫星组成、寿命为五年的卫星星座，意味着平均每三分钟就要处置一颗退役卫星。</p><p><br /></p><p>卫星退役后通常会坠入大气层烧毁，残留的金属颗粒随之进入平流层。论文称，按上述规模，沉积在平流层的金属量将比现有任何模型所模拟的高出几个数量级，其环境影响已远超科学界目前的评估范围。</p><p><br /></p><p>此前已有研究关注这一隐患。今年2月，德国莱布尼茨大气物理研究所研究人员在《自然》旗下期刊《通讯-地球与环境》发表研究称，他们在一枚SpaceX火箭残骸坠入大气层时，首次直接测得其释放的金属污染物。</p><p><br /></p><p>2024年发表于学术期刊《地球物理研究快报》的一项研究则解释了其危害：卫星烧毁产生的氧化铝会催化消耗臭氧的化学反应。该研究测算，一颗约250公斤的卫星烧毁后可产生约30公斤氧化铝颗粒，并可能在大气中留存数十年。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 币安被盗63亿美元，加密货币还能走多远？</title>
-        <link>https://www.huxiu.com/article/4903089.html?f=rss</link>
-        <guid isPermaLink="false">296323e2d5419904924f9993b36f407ad8bb122453aa6b12412446266d2ac585</guid>
-        <pubDate>Thu, 05 Nov 2026 00:09:38 +0800</pubDate>
-        <author>秦朔朋友圈</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：超越事件播报，深入剖析63亿美元被盗案中区块链协议安全与平台经营安全的本质区别，揭示中心化托管风险与流动性依赖的结构性矛盾，并关联加密市场18年轮回，信息密度高，具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzA3ODI5NDg0Mw==&amp;mid=2654262536&amp;idx=2&amp;sn=8a19f5ccf6300b234398e07af3fc3fdc&amp;chksm=85c1f480fae62e4cf33cae1ab6c1b3ea07e1ac69f0bdc287cfeb425723ea4e8e23bae3404fa6#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 秦朔朋友圈 </span></a><span class="text-remarks">，作者：战魔田默</span></p><p><br /></p><p>一场涉及63亿美元加密资产的巨额盗窃，震动全球金融市场。</p><p><br /></p><p>10月30日凌晨，全球最大的加密资产交易平台币安遭遇网络攻击。被盗资产折合人民币420多亿元。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/56f80172-d53f-426e-80dc-45137455a1ca.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>币安承诺承担损失。恢复提现后的前九个半小时，平台披露资金净流出36.4亿美元。但一些机构投资者减少了存放在币安的资产，却没有停止通过币安交易。</p><p><br /></p><p>他们希望降低集中托管风险，又难以轻易放弃头部交易所的流动性。</p><p><br /></p><p>区块链分析机构Elliptic估算，此次盗窃涉及11条区块链，资产价值约64.3亿美元。币安称已补足约95%的受影响资产，Elliptic确认约28.5亿美元涉案资产被冻结或扣押。补足客户资产、冻结涉案资金与追回被盗资产，是三个不同的过程。</p><p><br /></p><p>2008年，比特币白皮书提出一种不依赖可信第三方的电子现金方案。18年后，加密资产市场重新形成了管理巨额财富的中心化平台，而传统银行与支付机构又开始主动吸收相关数字技术。</p><p><br /></p><p class="text-big-title" label="大标题">63亿美元被盗，问题出在区块链吗？</p><p><br /></p><p>区块链能够验证一笔交易是否符合协议规则，却无法单凭交易记录确认发起者是否获得资产所有人的合法授权。底层网络的安全与交易平台的经营安全，是两回事。</p><p><br /></p><p>币安最初调查认为，攻击可能涉及一名开发运维人员的电脑遭到入侵，随后又发现其他入侵点。截至10月30日，其公告称尚未发现钱包私钥泄露的证据。完整攻击路径仍待确认，现有资料也不能证明区块链底层密码算法被破解。</p><p><br /></p><p>攻击者一旦掌握足以发起资金转移的系统权限，就可能利用正常的链上流程盗走资产。传统银行长期设置分级授权、岗位分离、异常交易监测和内部审计，防范的正是集中保管巨额财富所带来的权限风险。</p><p><br /></p><p>加密资产还可以跨网络快速流动，部分交易确认后难以撤销。攻击者转移资产的速度，可能远远快于机构识别风险、暂停操作及启动追索的速度。</p><p><br /></p><p>币安事件首先暴露的，是资产控制与交易授权环节的治理难题。技术能够提高资金流转效率，却无法代替经营组织对权限和风险的管理。</p><p><br /></p><p class="text-big-title" label="大标题">去中心化为什么长出了中心化巨头？</p><p><br /></p><p>比特币允许用户自行持有私钥、直接发起转账。但让资产形成一个活跃市场，还需要价格发现、交易撮合、法定货币兑换、流动性和账户服务。交易所由此成长起来。</p><p><br /></p><p>买卖双方越集中，越容易形成有深度的订单簿和较低的交易价差。流动性吸引用户，更多用户又带来更大的交易量。规模与网络效应不断强化，头部平台因此具有后来者难以复制的市场优势。</p><p><br /></p><p>商业上的便利也改变了控制权的分配。自行保管私钥，用户必须承担丢失密钥和操作失误的风险；将资产交给交易所，则通常由平台集中管理钱包、以内部账户记载用户权益。资产的法律归属、实际技术控制及日常操作权限，可能分别掌握在不同主体手中。</p><p><br /></p><p>币安暂停提现时，相关区块链仍在运行，部分用户却无法绕过平台提取托管资产。一个原本希望减少中介依赖的市场，重新产生了不可忽视的中介权力。</p><p><br /></p><p>交易所与商业银行在资产负债、经营许可和监管制度上存在重大区别，但集中保管他人财富的经营责任不会因此消失。去中心化能够改变底层交易方式，市场对流动性和便利性的需求，仍会推动专业化服务向优势机构集中。</p><p><br /></p><p class="text-big-title" label="大标题">30亿美元被冻结，谁掌握数字资产的控制权？</p><p><br /></p><p>币安称约30亿美元涉案资产被冻结。Elliptic截至11月1日确认约28.5亿美元被冻结或扣押，其中约94%属于稳定币。为什么同样运行在区块链上的资产，会出现不同的处置结果？</p><p><br /></p><p>比特币、以太坊原生资产没有能够统一冻结普通地址余额的中央发行方。USDT、USDC等稳定币则有明确发行主体，相关合约可以在特定条件下限制部分地址的代币流动。攻击者因而试图在冻结生效前，将部分稳定币兑换为不具备同样冻结机制的资产。</p><p><br /></p><p>区块链记录能够帮助追踪去向，却不能直接完成资产追索。涉案资产即使被冻结，最终返还仍需经过权属认定、法律程序与跨境协作。10月31日，美国联邦调查局将此次攻击归因于朝鲜相关的TraderTraitor组织，并呼吁有关机构协助阻断涉案资金流动。</p><p><br /></p><p>对持有人而言，自托管减少了交易所的控制，也可能缺乏便捷的纠错与救济渠道；机构托管提供交易便利，却引入经营风险；稳定币发行方拥有冻结权限，可以协助处理盗窃，也形成了新的管理权力。</p><p><br /></p><p>资产由谁控制，发生争议后谁能够干预，最终损失由谁承担，构成数字金融服务的另一组竞争条件。对企业和普通用户而言，发生盗窃或错误转账后的救济能力，与转账速度同样重要。</p><p><br /></p><p class="text-big-title" label="大标题">币安承诺兜底，平台信用究竟值多少钱？</p><p><br /></p><p>币安宣布安排超过63.4亿美元资源补足受影响资产，11月1日称已完成约95%。这是企业披露的回填进度，并非95%的赃款已追回，更不能替代对全部资产、负债与偿付能力的独立审计。</p><p><br /></p><p>平台宣布承担损失之后，客户仍在重新作出选择。提现恢复后的前九个半小时，币安披露净流出36.4亿美元。公司称提现压力趋于稳定，第三方统计则给出不同估算。</p><p><br /></p><p>另一些机构却没有停止使用币安。据彭博社报道，Kronos Research的首席投资官表示不会撤走资金，理由是币安仍拥有重要的交易流动性。SQS Trading原先约四分之一的交易资本存放在币安，计划将这部分资金削减约三分之一，但仍通过币安进行对冲交易。</p><p><br /></p><p>机构既希望减少集中托管风险，又不愿失去头部市场的交易深度。撤离平台可能减少一种风险，也可能带来更大的成交价差、更高的执行成本以及更困难的风险对冲。</p><p><br /></p><p>2025年，币安与机构托管合作方Ceffu推出MirrorRSV，允许符合条件的机构将资产留在场外托管架构中，同时使用币安的交易服务。2026年2月，币安又与富兰克林邓普顿合作，以第三方托管的代币化货币市场基金份额作为机构交易抵押品。</p><p><br /></p><p>这些安排尝试保留交易网络的流动性价值，同时减少客户必须直接存放在交易所的资产规模。不过，第三方托管、抵押品估值、交易结算和对手方履约，仍然产生新的风险与成本。风险可以重新分配，却不会因组织形式改变而消失。</p><p><br /></p><p>平台能够聚集多少财富，与它能够安全管理多少财富，是两种不同的经营能力。客户在平台上完成多少交易，也不必与存放多少资产始终同步增长。交易所未来的竞争，既要争夺流动性，也需要赢得客户对资产控制安排的信任。</p><p><br /></p><p>系统安全和合规是持续支出，资本与流动性保障占用资源，极端事故一旦发生，可能造成一次性巨额损失。只计算交易手续费与撮合效率，无法反映完整的金融服务成本。</p><p><br /></p><p>一次兜底可以缓解信任危机，不能证明所有极端损失都可承受。储备金证明能够提供部分透明度，也无法替代全面财务审计。</p><p><br /></p><p>风险承担能力本身，就是一种经营能力。</p><p><br /></p><p class="text-big-title" label="大标题">传统金融为什么主动拥抱区块链？</p><p><br /></p><p>与加密资产平台探索交易服务和资产托管分离不同，传统金融机构正在既有信用体系内改造支付、结算和资金调度，以缩短资金在途时间、降低跨机构协调成本。</p><p><br /></p><p>Visa在10月27日的业绩电话会上披露，其稳定币结算业务年化规模已超过250亿美元，同比增长约10倍；Visa Direct稳定币预付资金服务也已由试点进入部分商业应用。年化规模并非已经完成的全年交易额，也不代表同等规模的终端商品和服务消费，但相关技术已进入支付机构的实际业务流程。</p><p><br /></p><p>如果新的结算方式能够突破传统银行营业时间的限制，缩短资金在途时间，金融机构就有可能减少部分营运资金占用。但合规审查、兑换、流动性管理和风险处置成本，仍需纳入完整测算。</p><p><br /></p><p>摩根大通10月19日宣布将JPM Coin扩展至以太坊主网，供符合条件的机构客户使用美元存款代币。Swift在7月宣布17家银行准备开展代币化存款跨境支付试点。8月，渣打银行与汇丰银行完成Swift区块链账本上的首笔跨境代币化存款互操作交易，相关账本负责协调和匹配两家银行的交易义务，最终结算仍通过现有系统完成。</p><p><br /></p><p>JPM Coin的信用基础仍是商业银行存款，不能与比特币或者私人稳定币混为一谈。银行正在利用新技术改造原有业务，并未放弃存款信用和相应的制度保障。</p><p><br /></p><p>2026年3月，一篇发表于IMF工作论文系列的研究，结合美国稳定币法案关键表决前后的股价反应，以及市场对法案通过概率的变化，估算相关立法对传统上市支付企业造成约18%、合计约3000亿美元的负面市值影响。这是研究者根据市场价格作出的模型估计，并非企业已经损失相应营业收入。</p><p><br /></p><p>研究发现，跨境支付业务占比较高的企业受影响更大，具备网络效应或已开展加密相关业务的企业受影响较小。新技术可能冲击原有收费模式，也可能被拥有客户网络、资本实力与制度信用的企业吸收。</p><p><br /></p><p class="text-big-title" label="大标题">决定加密货币未来的三道门槛</p><p><br /></p><p>数字技术带来的金融创新，并不必然转化为私人加密货币的增长。比特币等开放式加密资产依靠协议规则和市场供求，在投资及特定价值转移中寻找使用场景；法币支持型稳定币依赖发行机构、储备和赎回能力，在跨境支付与链上结算中探索应用；央行数字货币和代币化银行存款，则在既有货币信用体系内提高支付与结算效率。后者并非私人加密货币的延伸，也可能与其竞争。</p><p><br /></p><p>不同路径的制度环境也在分化。美国2025年签署《GENIUS法案》，为支付稳定币建立监管框架；欧盟以MiCA实施统一监管。中国内地2026年2月发布八部门通知，继续严格禁止境内相关虚拟货币交易业务，同时推进数字人民币发展。</p><p><br /></p><p>2026年1月，数字人民币2.0上线，符合条件的实名钱包余额开始计息；10月21日，央行端数字人民币系统和智能合约生态服务框架进一步升级。中国推进法定货币的数字化，与开放私人加密资产交易市场，具有不同的制度目标。</p><p><br /></p><p>货币不仅承担支付功能，也涉及计价、信用、清偿与金融稳定。技术能够改变资金流转方式，却无法单独决定货币信用从哪里来、损失由谁承担。</p><p><br /></p><p>一次巨额盗窃不足以否定整个行业的未来，持续扩大的市场规模也不能证明商业模式已经成熟。</p><p><br /></p><p>加密货币行业首先要跨过真实需求这道门槛。开放式加密资产能否形成持续的使用场景，稳定币能否在真实支付与结算中证明自己的价值，将决定技术创新能够转化为多大的市场空间。</p><p><br /></p><p>其次是信用与风险。发行机构和交易平台能否建立与资产规模相匹配的资产保障、风险管理和持续履约能力，决定了市场能够承载多大规模的财富。</p><p><br /></p><p>第三道门槛来自竞争。当传统银行和支付机构开始吸收区块链与代币化技术，加密资产行业率先实践的部分技术与服务模式，未必始终由现有平台独享。技术先发优势能否转化为难以替代的竞争优势，将决定现有平台在金融体系变革中的长期地位。</p><p><br /></p><p>改变财富流动的方式，是技术创新；重新组织财富背后的信用与风险，才可能真正改变金融。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google</title>
-        <link>https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/</link>
-        <guid isPermaLink="false">14e9586c682694f5afc0ed7efde20d8e0793e8d1063e6421e9434683a0ea797c</guid>
-        <pubDate>Wed, 04 Nov 2026 13:49:51 +0000</pubDate>
-        <author>Ben Gartside</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：揭示英国政府AI经济预测主要源自谷歌，且实际估值不足三分之一，具政策与产业利益关联的深度调查价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            The AI minister now concedes the estimated figure is less than a third of that. Researchers blame the country’s slow rate of adoption.
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] Sources: Tron, Tether, Binance, and TRM Labs&#x27; T3 Financial Crime Unit quietly dissolved in August due to slow response times, after freezing $250M in assets (Ryan Weeks/Bloomberg)</title>
-        <link>https://www.techmeme.com/261104/p38#a261104p38</link>
-        <guid isPermaLink="false">e6ca1e766aa85d99b31816c2fe6af52bdb9c8736ba3f4176a32fa4fa11351a50</guid>
-        <pubDate>Wed, 04 Nov 2026 11:02:28 -0500</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：彭博独家爆料：Tron、Tether、Binance与TRM Labs组建的T3金融犯罪打击小组在冻结2.5亿美元资产后，因响应迟缓于8月悄然解散。揭示加密行业联合反洗钱机制的真实运作困境与内部摩擦，具备深度调查价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <a href="https://www.bloomberg.com/news/articles/2026-11-04/crypto-giants-scrap-crime-fighting-alliance-as-hackers-circle"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261104/i38.jpg" vspace="4" /></a>
-<p><a href="https://www.techmeme.com/261104/p38#a261104p38" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> Ryan Weeks / <a href="https://www.bloomberg.com/">Bloomberg</a>:<br />
-<span style="font-size: 1.3em;"><b><a href="https://www.bloomberg.com/news/articles/2026-11-04/crypto-giants-scrap-crime-fighting-alliance-as-hackers-circle">Sources: Tron, Tether, Binance, and TRM Labs' T3 Financial Crime Unit quietly dissolved in August due to slow response times, after freezing $250M in assets</a></b></span>&nbsp; &mdash;&nbsp; An initiative set up by some of crypto's largest companies to curb illicit activity has quietly been dissolved &hellip; </p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] The Results Are In: Voters Hate Data Centers</title>
-        <link>https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/</link>
-        <guid isPermaLink="false">a8cdf3c5433fbea6f741b3d9f4d721864fe4b039dddbf656b1468a0fc727125e</guid>
-        <pubDate>Wed, 04 Nov 2026 16:56:17 +0000</pubDate>
-        <author>Vittoria Elliott, Molly Taft</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以2026中期选举为切口，用参议院选战与地方分区公投的具体结果，量化呈现数据中心在选举政治中的全面失利，揭示其从基建议题转为政治负资产的拐点，对判断行业选址与监管风险有长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            From high-profile Senate races to local rezoning initiatives, data centers and their supporters did miserably on the ballot in the 2026 midterms.
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] Sequoia raised ~$10B in new funds, and announces it is shutting down its Arc accelerator and Scouts program, merging its early-stage and growth teams, and more (Connie Loizos/TechCrunch)</title>
-        <link>https://www.techmeme.com/261104/p44#a261104p44</link>
-        <guid isPermaLink="false">154f7884359016d779ac8eef4b8af081ce34e46eaf13d36e056cc94d70f572db</guid>
-        <pubDate>Wed, 04 Nov 2026 12:30:41 -0500</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：红杉资本重大组织变革：关闭Arc加速器和Scouts项目、合并早期与成长团队，同时募集约100亿美元新基金。这是顶级VC战略转向的实质性信号，对理解风投行业演进有长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <a href="https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261104/i44.jpg" vspace="4" /></a>
-<p><a href="https://www.techmeme.com/261104/p44#a261104p44" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> Connie Loizos / <a href="http://techcrunch.com/">TechCrunch</a>:<br />
-<span style="font-size: 1.3em;"><b><a href="https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/">Sequoia raised ~$10B in new funds, and announces it is shutting down its Arc accelerator and Scouts program, merging its early-stage and growth teams, and more</a></b></span>&nbsp; &mdash;&nbsp; Sequoia Capital posted a memo to X on Wednesday morning titled &ldquo;The Sequoia of Tomorrow&rdquo; that's full of surprises.</p>
         </div>
         ]]></description>
     </item>

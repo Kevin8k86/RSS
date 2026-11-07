@@ -4,14 +4,14 @@
     <title>AI 深度精选与全景速览 (Daily Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型把关：置顶全景速览（含海外X热议），下接深度硬核长文</description>
-    <lastBuildDate>Fri, 06 Nov 2026 17:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:27:20 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
         <title>📰 【今日全景速报】一分钟看全天下事 (11-07 早报)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
-        <guid isPermaLink="false">briefing_20261107_010002_73d24667</guid>
-        <pubDate>Fri, 06 Nov 2026 17:00:02 +0000</pubDate>
+        <guid isPermaLink="false">briefing_20261107_102720_64738781</guid>
+        <pubDate>Sat, 07 Nov 2026 02:27:20 +0000</pubDate>
         <author>AI 全能主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -22,35 +22,303 @@
             <div>
                 <div>
 <h3>🌐 海外社媒与全球焦点 (X / Threads / 硅谷大事件)</h3>
-<p><b>OpenSSH 曝出十年老漏洞“*sshole”</b>：安全研究员披露，该漏洞允许攻击者用 256 位以上超长密码登录部分 musl Linux 系统的无密码账户，X 上安全圈热议其命名与影响面。结论：大量嵌入式与容器环境面临风险，需尽快打补丁。</p>
-<p><b>民主党拟加强对英伟达的国会监管</b>：随着民主党拿下两院多数，沃伦有望执掌参议院银行委员会，重点审查英伟达芯片出口与“循环融资”问题。X 上围绕算力出口管制与政商关系的争论升温，英伟达面临更大合规压力。</p>
+<p><b>Meta 推出 Muse Wonder 定制模型</b>：Meta 基于 Muse Wonder 训练现有模型专用版本，向所有 Muse 与 Meta AI 用户开放 Active Memory 与 Active Focus 功能。X 上讨论聚焦“记忆+专注”是否让 AI 助手真正个性化，还是加剧隐私与信息茧房担忧，被视为 Meta 在消费级 AI 体验上的关键差异化落子。</p>
+<p><b>美情报称 Megaspeed 高管被中国国安招募</b>：据《纽约时报》，美情报界认定 Megaspeed 高管 Alice Huang 被中国国家安全部招募，任务涉及收集英伟达 CEO 黄仁勋相关情报。Threads 与 X 上围绕芯片供应链安全、企业高管合规风险展开激烈争论，事件或进一步收紧中美科技人才与数据流动审查。</p>
 </div>
+
 <div>
 <h3>📱 数码与前沿科技</h3>
-<p><b>台积电应英伟达请求评估 3D DRAM 制造</b>：AI 热潮导致内存芯片短缺，台积电正考虑为其最大客户英伟达扩展 3D DRAM 产能。此举若落地将重塑存储供应链格局，缓解 AI 算力瓶颈，也加剧与存储巨头的竞争。</p>
-<p><b>华为 MatePad Edge 获鸿蒙 7.0.0.111SP16 升级</b>：新版本预置融合开发引擎，支持电脑模式运行 Linux 环境，进一步打通平板与 PC 生产力场景。这被视为鸿蒙生态向开发者和办公人群扩张的关键一步。</p>
+<p><b>苹果称 App Store 已有超 10 万款 iPhone Duo 应用</b>：苹果表示 App Store 中为 iPhone Duo 打造的应用已超 10 万款，且每天有“数千款优化应用”上架。开发者社区关注折叠/双屏形态是否真正带来交互范式变化，讨论焦点在于生态供给能否支撑硬件销量，结论是苹果正以应用规模为新品造势。</p>
+<p><b>神舟二十四号标识发布，首次中外航天员联合飞行</b>：神舟二十四号载人飞行任务标识正式发布，任务将首次实现中外航天员联合飞行；巴基斯坦载荷专家确认参加神舟二十四号任务并乘神舟二十三号飞船返回。这标志中国空间站国际合作进入实操阶段，也提升“天宫”全球科研平台形象。</p>
 </div>
+
 <div>
 <h3>💰 商业与财经金融</h3>
-<p><b>福克斯提前完成 220 亿美元收购 Roku</b>：交易远早于预期的 2027 年收官，Roku 创始人 Anthony Wood 加入福克斯董事会，并将联合执掌整合 Tubi、Fox One 与 Roku 的新业务单元。流媒体广告格局或将重新洗牌。</p>
-<p><b>SK 海力士设立美国 AI 投资子公司 Hyaico</b>：最高投资 100 亿美元，由会长崔泰源掌舵，聚焦 AI 相关布局。此举被视为韩国存储巨头加码美国市场、抢占 AI 内存需求高地的战略动作，也呼应美股 AI 硬件股集体反弹。</p>
+<p><b>OpenAI 完成约 110 亿美元新融资</b>：据彭博社，OpenAI 以约 1.25 万亿美元估值完成约 110 亿美元新融资，本轮总额最高可能增至 200 亿美元。资本市场关注其算力投入与商业化节奏能否匹配超高估值，讨论焦点是 AI 巨头融资竞赛是否推高行业泡沫，结论是头部模型公司吸金能力仍极强。</p>
+<p><b>Anthropic 坚持感恩节前上市，估值分歧显现</b>：据 FT，Anthropic 继续推进感恩节前上市计划，拟融资 800 亿至 1000 亿美元，估值区间 1.25 万亿至 1.75 万亿美元；但市场对 1.5 万亿美元估值仍嫌贵。上市窗口与定价分歧成为财经圈焦点，结果将检验 AI 资产在公开市场的真实承接力。</p>
 </div>
+
 <div>
 <h3>🎭 文娱生活与社会热点</h3>
-<p><b>《怦然心动》导演莱纳与妻子家中遇害</b>：警方尚未证实凶手是否为其子，案件细节引发全球影迷震惊与悼念。作为多部经典影片的缔造者，莱纳之死成为好莱坞与社会舆论的焦点事件。</p>
-<p><b>儿童手表“小天才圈”乱象被调查</b>：点赞成每日功课，甚至有商家可解除家长管控，引发对未成年人社交产品监管的广泛讨论。舆论聚焦平台责任与儿童数字安全，呼吁加强行业规范。</p>
+<p><b>《怦然心动》导演莱纳与妻子家中遇害</b>：好莱坞导演莱纳与妻子在家中遇害，警方尚未证实凶手为其子。事件迅速登上全球文娱头条，舆论关注家庭悲剧与名人隐私边界，业内纷纷悼念其经典作品。案件细节仍待警方披露，后续调查将牵动公众对家庭暴力与心理健康的讨论。</p>
+<p><b>央视曝光新会陈皮市场乱象</b>：央视曝光新会陈皮存在产地造假、年份速成、无视监管等问题，引发消费者对地理标志产品信任危机。社交平台热议“年份茶”溢价与监管缺位，地方行业协会面临整顿压力。结论是特色农产品品牌保护需从溯源与执法两端补课。</p>
 </div>
+
 <div>
 <h3>🌍 国内外时政关键要点</h3>
-<p><b>澳大利亚枪击案嫌疑人为父子</b>：两人曾宣誓效忠“伊斯兰国”，行凶枪支系合法持有，海滩恐袭最后 6 分钟响起 103 声枪响。事件再度引发对枪支管理与反恐情报的审视，多国加强警戒。</p>
-<p><b>港澳平表态支持香港对黎智英依法定罪</b>：官方发声强调维护国家安全与法治底线，反中乱港首恶分子被依法处理。此表态释放香港特区持续依法施政、维护社会稳定的明确信号。</p>
+<p><b>澳枪击案嫌疑人为父子，曾宣誓效忠“伊斯兰国”</b>：澳枪击事件嫌疑人为父子关系，曾宣誓效忠“伊斯兰国”，行凶枪支为合法持有。事件引发对枪支管理与极端化渗透的追问，警方披露最后 6 分钟 103 声枪响的细节。结论是合法持枪与反恐情报共享漏洞成为舆论审视重点。</p>
+<p><b>港澳平：坚决支持香港特区对黎智英依法定罪</b>：港澳平发文坚决支持香港特区对反中乱港首恶分子黎智英依法定罪，强调维护国家安全与法治权威。该表态在境内外舆论场引发关注，焦点在于香港司法独立与国安执法的边界。结论是案件将成为观察香港法治环境与外部反应的重要风向标。</p>
 </div>
+
 <div>
 <h3>⚽ 体育竞技综合速递</h3>
-<p><b>旅日大熊猫“晓晓”“蕾蕾”将于明年 1 月回国</b>：这一消息虽属动物外交，却在体育与文娱社交平台引发热议，成为中日民间交流的温情话题，相关话题在社交平台持续升温。</p>
-<p><b>今日立冬，全民健身与冬季赛事升温</b>：随着节气入冬，各地冰雪运动与冬季赛事筹备进入高潮，社交平台掀起“立冬第一练”打卡热潮，体育消费与冰雪经济成为关注焦点。</p>
+<p><b>T1 3:1 战胜 KC 跻身《英雄联盟》S16 四强</b>：卫冕冠军 T1 以 3:1 战胜 KC，晋级《英雄联盟》S16 四强，将于 11 月 9 日半决赛对阵 BLG。电竞社区热议 T1 状态回升与 BLG 的中韩对抗看点，赛程话题迅速登上热搜。结论是半决赛将成为本届赛事流量与竞技水平的双重峰值。</p>
+<p><b>中国第 43 次南极考察起航，“雪龙”号等三船保障</b>：中国第 43 次南极考察正式起航，“雪龙”号等三船共同保障，任务涵盖科考与后勤补给。体育与户外圈关注极地考察队员体能保障与装备升级，舆论将其视为国家极地能力展示。结论是极地科考与体育精神叙事形成共振，提升公众科学关注度。</p>
 </div>
             </div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] “要贡献，也要贡献被认可”：科学家“抱团”应对AI</title>
+        <link>http://www.infzm.com/contents/344193</link>
+        <guid isPermaLink="false">cdbd9118a3fc5b471051340e40366f31fbcbac1f872fd793513af96c5d78ca4e</guid>
+        <pubDate>Sat, 07 Nov 2026 01:25:06 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以中科院磐石平台为案例，剖析AI4S从单任务模型转向科研基础设施的趋势，提出科研组织方式变革与贡献认可机制问题，具行业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div><i>2026-11-07 09:00:00</i></div><p style="text-align: justify;">OpenAI公布数学研究进展后，人们普遍关注的是AI又能解出哪些难题。徐楠却把目光投向了解题之外。</p>
+<p style="text-align: justify;">作为中国科学院自动化研究所研究员、中国科学院“磐石”一站式科研平台研发总负责人，徐楠参与建设面向科研人员的AI基础设施，也在观察人工智能如何进入具体的研究过程。</p>
+<p style="text-align: justify;">在他看来，AI带来的不只是解决问题的能力，还让人看到科研的另一种组织方式。比如，科学家、模型和计算工具能不能配合得更紧密，一个问题里攒下的方法和经验，能不能用到更多问题上。“过去，很多AI for Science工作是围绕一个具体任务开发一个模型。”徐楠告诉南方周末记者。如今，大模型把这些原本分散的知识、工具、研究环节连接起来。这也是他和团队建设“磐石”平台时尝试探索的方向。</p>
+<p><img alt="的" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/06/5465c4f681.jpg" width="1920" /></p>
+<p style="color: #999999; text-align: center;">北京，中国科学院自动化研究所。视觉中国丨图</p>
+<p style="text-align: justify;">AI for Science，即人工智能驱动的科学研究，简称AI4S。从蛋白质结构预测、分子设计到材料筛选，AI已在一些具体任务上展现出优异的能力。徐楠判断，当前AI4S正从探索期进入快速发展期，相关机构也从单独研发模型，转向搭建平台和基础设施。</p>
+<p style="text-align: justify;">这个过程中，一项研究能留下什么，越来越受关注。论文呈现研究成果，成果背后的数据、工具、方法，往往来自长期的投入与积累，要是别的研究者也能运用它们，就可能带出更多后续研究。徐楠和团队希望，科学家用平台做研究时，其中的方法和经验也能记录下来，一点点改进模型，再用于新研究。</p>
+<p style="text-align: justify;">这需要不同领域的科研人员持续参与。科学数据的专业性极强，什么值得采集、结果怎么解释、能支持什么结论，都离不开专家判断。平台能不能积累起有用的知识，也看科学家愿不愿意贡献自己的经验，以及这些付出能否得到认可。</p>
+<p style="text-align: justify;">“不能仅仅要求科研人员贡献数据，也要让贡献得到认可，让参与者能够受益。”徐楠强调，开放共享牵扯成果归属、知识产权、数据安全，得有明确的规则。高校、科研院所、企业各有各的资源，怎么合作，才能让人愿意长期投入，也是平台建设要处理的问题。</p>
+<p style="text-align: justify;">与此同时，科学基础模型、算力、自动化实验设施都要一直投钱，资源进一步向少数机构集中。对普通课题组来说，共享平台能提供他们原本难以独立建设的研究条件，但如果这些能力只有少数机构能用，也可能把更多人挡在门外。徐楠认为，这一风险需要重视。</p>
+<h4>AI正在怎样改变科研</h4>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>AI进入科研的发展过程大致经历了哪些阶段？每个阶段解决的核心问题是什么？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>我倾向于把AI for Science的发展分为萌芽期、探索期和快速发展期。这是一种理解其发展脉络的方式，核心是看AI在科研中承担的角色如何变化。</span></p>
+<p style="text-align: justify;">萌芽期主要是工具辅助，科学问题由人提出，研究路径由人设计，AI承担数据处理、分析和预测等任务，帮助提高特定环节的效率。</p>
+<p style="text-align: justify;">探索期主要体现为特定科学任务上的能力突破，例如蛋白质结构预测、分子设计、材料性质预测等。它能够辅助科学发现、证明，在复杂问题上提供新的解决办法，帮助科学家拓展研究能力。</p>
+<p style="text-align: justify;">第三阶段是快速发展期，建设重点会从“用一个模型解决一个问题”，逐步转向科学基础模型、科学数据体系、科研智能体和实验平台的协同建设，把不同学科的数据、知识、工具、计算、仿真平台等连接起来。</p>
+<p style="text-align: justify;">我认为，当前AI4S正处于从探索期迈向快速发展期的关键阶段，正在从局部应用走向体系化建设，相关机构也在从单点模型开发转向平台和基础设施建设。</p>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>AI进入科研之后，改变的是科研效率，还是科学发现本身的方式？目前哪些变化已经发生，哪些还只是未来设想？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>两者都在发生，只是成熟程度不同。首先是效率提升，我们能在很多场景下看到它的价值。AI不仅能帮助科研人员看论文、检索数据、做结构预测和模拟计算，也开始在特定任务中参与实验方案的生成、实验结果的优化反馈。这些能力帮助科学家探索更大的研究空间，推动科研效率提升，这是已经比较成熟的。</span></p>
+<p style="text-align: justify;">更深层的变化，是科学发现方式的演进。我们的最终目标都是产生新的科学发现、新的知识、新的理论、新的材料。但科学发现不是一个单一的计算任务，它是一个完整的科学体系，需要把问题提出、假设生成、计算推演、实验设计和结果验证等环节连接起来。</p>
+<p style="text-align: justify;">更长远的方向，是逐步形成“提出假设—计算推演—实验验证—反馈改进”的循环，让AI能够利用新的实验反馈继续探索。目前，局部环节的进展已经可以看到，贯通整个研究过程仍然需要持续探索。</p>
+<p><img alt="的" border="0" height="1920" src="https://images.infzm.com/cms/medias/image/26/11/06/2d7e692036.jpeg" width="1920" /></p>
+<p style="color: #999999; text-align: center;">围成一圈的科研人员，创意图。IC photo丨图</p>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>目前AI for Science最容易被高估的地方是什么？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>首先，是把AI在科学发现流程中局部的能力，直接等同于完整的科学发现能力。模型能够生成研究方案、预测某种性质或调用工具，并不意味着它已经能够理解科学规律、独立完成研究。科学发现还涉及问题提出、理论推理、计算模拟和实验验证等多个环节，需要科学家和AI相互协同。</span></p>
+<p style="text-align: justify;">其次，是把计算环节的提速，等同于整个研发周期按相同比例缩短，也就是“快AI、慢现实”。模型可以很快生成大量候选方案，但真实世界中的合成、测试和验证往往仍需要几天甚至数周，并需要科学家的持续参与。计算上的加速究竟能带来多大的整体改善，需要放到实际研究和研发流程中检验。</p>
+<h4>科学发现仍然离不开人的判断</h4>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>AI已经能处理大量知识，为什么还不能像科学家一样发现新规律？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>掌握大量已有知识，并不意味着具备发现新规律的能力。大模型从训练数据中学习了大量知识和关联，但科学研究还要求我们判断，这些关联是否有可靠的解释，能否形成可检验的假设，又能否经得起新的证据检验。难点不只是知道多少，而是如何从已有知识走向经过验证的新认识。</span></p>
+<p style="text-align: justify;">当前不少模型面向的是特定任务，例如预测结构、生成分子或筛选材料。科学发现则需要进一步判断，什么问题值得研究，哪些证据能够支持一种解释，下一步应该如何验证。在这些环节中，提出重要问题、选择研究方向、判断结果价值和形成科学洞见，依然高度依赖科学家。</p>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>科学研究的重要突破，很多时候来自偏离已有知识、提出不那么主流的问题。AI基于已有数据训练，如何避免只是重复已有知识？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>关键是让模型在学习已有知识的基础上，进一步从真实世界的反馈中学习。</span></p>
+<p style="text-align: justify;">如果只是总结已有论文和结论，模型的探索空间就容易受到现有知识的限制。因此，AI for Science需要把科学知识、模型推理、计算模拟和实验验证连接起来。模型提出假设，再通过计算或实验获得新的证据，据此修正判断。尤其当实际结果与预测不一致时，这种差异可能促使我们重新审视原来的假设，甚至发现此前没有注意到的问题。</p>
+<p style="text-align: justify;">我们希望形成的，就是这样一个持续提出假设、接受检验、修正认识的过程。科学家在其中仍然非常重要：哪些看似不符合常规的想法值得探索，哪些异常可能指向新的科学问题，需要专业判断。AI的价值，是帮助科学家拓展提出和检验新假设的空间。</p>
+<p><img alt="的" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/06/6e7401f80f.jpg" width="1920" /></p>
+<p style="color: #999999; text-align: center;"><span style="text-align: justify;">2026年7月16日，海南文昌市龙楼镇航天小学内，大学生带领小学生“造火箭”、模拟火箭发射实验。IC photo丨图</span></p>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>AI for Science的发展让科学数据的重要性越来越突出。为什么高质量科学数据的获取、整理、验证仍然需要科学家的深度参与？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>科学数据跟互联网网页有区别，科学数据的价值，不仅在于数值或记录本身，更在于它所包含的科学关系、实验条件和专业经验。</span></p>
+<p style="text-align: justify;">一个材料性能指标，必须结合材料结构、制备条件和测试方法来理解；一个实验结果，也需要知道它在什么条件下产生、存在怎样的误差、能否被重复验证。离开这些背景，数据规模再大，也未必能支持可靠的科学判断。科学家的参与，首先是确定什么数据值得采集，其次是解释数据的科学含义，再次是判断它能够支持什么结论、适用边界在哪里。</p>
+<p style="text-align: justify;">科学数据不仅包括成功结果，也包括没有达到预期的结果。一次实验没有成功，并不一定说明假设错误，也可能与实验条件、操作过程或测量误差有关。因此，既要记录结果，也要记录当时的条件和过程。科学家的作用，就是帮助判断究竟是模型预测有问题，还是实验条件需要调整，这些结果又能在什么范围内支持下一步研究。成功和未达预期的结果，都可能成为有价值的研究经验，但需要经过解释和验证，才能用于改进模型和研究方法。这个过程不能仅靠模型自动完成。</p>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>是需要科学家自觉记录，还是他们在和专用科学模型交互的过程中，就可以被记录下来？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>两种方式需要结合。我们希望尽量减少科学家额外整理和标注的负担，让平台在科研工作开展的过程中辅助记录，但操作记录不等于完整的科研经验。为什么选择一个方案、如何理解异常结果、什么证据改变了判断，仍然需要科学家补充解释和确认。</span></p>
+<p style="text-align: justify;">因此，我们搭建了磐石一站式科研平台，核心就是把大量的科学模型、科学工具、科学技能，还有科学智能体，都放到平台上。科学院研究员和学生，在文献调研、科学计算、科学仿真、实验设计，以及论文、课题评审等环节，只要涉及科研，都可以使用我们的平台。</p>
+<p style="text-align: justify;">现在平台上已经凝练了2000多个MCP科研工具，沉淀了7000个技能。比如材料设计的流程，或者蛋白质靶点发现的过程，通过文献、计算、仿真形成一个结果，与科学家逐步对话，最后形成一个可行的结果。这个环节被平台记录下来，未来作为科学技能沉淀下来，这些知识也会回流，逐步提升模型的科学推理与长程任务能力。这就是现在平台化的优势，也是科学院依托磐石建设一站式科研平台的初心。</p>
+<h4>科研竞争正在走向基础设施</h4>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>过去科研竞争更多围绕论文成果展开，而AI for Science正在让数据、模型和科研基础设施变得越来越重要。你认为，未来科研竞争的关键资源是否会发生变化？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>我认为会。未来的竞争会更加关注支撑科学发现的长期能力，包括高质量科学数据、领域知识积累、科学基础模型，以及计算和实验基础设施。</span></p>
+<p style="text-align: justify;">论文仍然是科学成果的重要载体。同时，一项成果背后的数据、工具、研究方法及科研流程，如果能够持续积累和复用，就可以支持更多后续研究。从AI4S的发展看，重要的是能否让科学知识、数据、模型、算力和实验形成有效循环：模型需要高质量数据，预测需要计算和实验验证，验证结果又能用于改进模型与研究方法。</p>
+<p style="text-align: justify;">人才和组织能力同样关键。科学家对问题的理解、AI研究人员的算法能力、工程团队的系统建设能力，需要深度协作。未来科研竞争会进一步延伸到基础设施和持续发现能力的比较。谁能把这些资源有效组织起来，并持续产生经过验证的新知识，谁就更有可能形成长期优势。</p>
+<p><img alt="的" border="0" height="1079" src="https://images.infzm.com/cms/medias/image/26/11/06/8868de5de5.jpg" width="1920" /></p>
+<p style="color: #999999; text-align: center;">2026年7月5日，安徽合肥，正式启用的合肥先进光源（HALF）园区。IC photo丨图</p>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>互联网时代，大量数据天然集中在平台手中。未来科学数据是否也可能出现，掌握高质量数据的平台，拥有更强的科研竞争力？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>掌握高质量科学数据，并能够持续获得实验反馈的平台，确实有机会形成长期的科研竞争优势。关键是把数据整理成模型能够有效学习和使用的形式，也就是“AI-ready数据”。科学实验结果、经过专家整理的知识证据链、研究过程中积累的专业经验，都是重要来源。这些数据背后，是长期的科研投入和实验积累。</span></p>
+<p style="text-align: justify;">但科学数据具有很强的专业性，获取和整理成本也很高。它的价值与具体的科学问题、实验条件和验证方式密切相关。因此，平台还需要领域专家参与解释、整理和验证，把原始数据、专业知识与后续实验反馈连接起来。</p>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>AI for Science目前进展比较快的学科有哪些？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>从我关注的方向来看，材料科学和生命科学是目前AI for Science进展比较活跃、应用路径也比较清晰的领域。从材料性质预测、候选材料筛选，到蛋白质结构预测、分子设计，AI正在参与越来越多的研究环节。这些方向与产业研发需求联系紧密，模型提出的方案有机会通过实验得到验证，再根据结果继续优化，逐步体现出实际应用价值。</span></p>
+<p style="text-align: justify;">数学受到关注，则有不同的原因：它的研究对象和证明要求具有较强的形式化特征，一些问题可以围绕推理和证明开展探索，不必等待物理实验反馈。</p>
+<p style="text-align: justify;"><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span>对于下一代年轻科学家而言，他们的培养方式与侧重会发生哪些改变？</span></p>
+<p style="text-align: justify;"><strong>徐楠：</strong><span>我认为需要调整，年轻科学家的培养要更加重视专业知识、跨学科协作和AI应用能力的结合。</span></p>
+<p style="text-align: justify;">首先，扎实的学科基础仍然是核心。研究者需要理解科学对象、基本规律和实验逻辑，才能判断模型的输出是否合理，识别其中的问题，并设计有效的验证方法。AI越深入地参与科研，研究者就越需要具备这样的专业判断力。</p>
+<p style="text-align: justify;">其次，要加强跨学科训练。AI4S涉及数据、算法、计算工具和实验体系，年轻科学家需要了解相关方法的基本原理和适用边界，能够根据研究问题选择工具，也能够与算法研究者、工程师有效协作。</p>
+<p style="text-align: justify;">未来有竞争力的科学人才，很可能是既深入理解科学问题，又善于运用AI工具的复合型人才。培养方式可以变化，但独立思考、严谨求证和长期探索，仍然是科研训练最重要的底色。</p><br /><hr /><div>获取更多RSS：<br /><a href="https://feedx.net" style="color: orange;" target="_blank">https://feedx.net</a> <br /><a href="https://feedx.site" style="color: orange;" target="_blank">https://feedx.site</a><br /></div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Ships loiter near subsea cables amid Iran&#x27;s warnings to Trump</title>
+        <link>https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/</link>
+        <guid isPermaLink="false">c828464b88b192e8ff6c43289aa366da40ebb1c058442ff83493b1da8780ba01</guid>
+        <pubDate>Fri, 06 Nov 2026 22:41:37 +0000</pubDate>
+        <author>Jeremy Hsu</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：披露伊朗关联油轮在霍尔木兹海峡海底光缆上方徘徊的追踪细节，指向海底基础设施可能成为地缘冲突新攻击面，事实密度高且具长期战略参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>Several tanker ships linked to Iran have been loitering over subsea Internet cables in the Gulf of Oman near the Strait of Hormuz—a possible indication that the Iranian government is preparing to attack such undersea infrastructure in response to any renewed US and Israeli strikes.</p>
+<p>The movements of three sanctioned tankers and an Iranian fishing boat have been tracked near major undersea cables by the maritime intelligence firm Windward in October, <a href="https://www.ft.com/content/492b2c62-8e15-47b3-bf24-842ae62e7217">according to the Financial Times</a>. Six <a href="https://www.submarinecablemap.com/">active cables</a> currently cross through the contested Strait of Hormuz, linking the Middle East to Europe, Africa and Asia, with two more cables having segments under construction in the region.</p>
+<p>Four countries, including Iraq, Kuwait, Bahrain and Qatar, depend entirely upon such subsea telecommunications connections running through the Strait of Hormuz chokepoint to link with the outside world. But other countries also depend heavily on the region's undersea cable network—one third of India’s westbound Internet traffic goes through the Persian Gulf and Strait of Hormuz.</p><p><a href="https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Chainalysis says hackers stole credentials and tokens for all of its customers</title>
+        <link>https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/</link>
+        <guid isPermaLink="false">0d0fe76a488381231f2157f854563041be2c488ae1c9cdd9957b9610a2c5a815</guid>
+        <pubDate>Fri, 06 Nov 2026 20:56:41 +0000</pubDate>
+        <author>Dan Goodin</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：区块链分析巨头Chainalysis遭入侵，全部客户凭证与活跃令牌泄露，涉及FBI、ICE、空军等政府客户；事件本身影响重大，但摘要信息有限，需看全文是否披露攻击路径与影响范围。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>Blockchain analysis firm Chainalysis said that hackers have obtained sensitive personal information—including names, usernames, password hashes, and live tokens—for all of its users following a breach of its network security.</p>
+<p>The accomplishment could be a major coup for the attackers. Both <a href="https://www.chainalysis.com/blog/us-public-sector-customer-awards-announcement-2024/">Chainalysis</a> and <a href="https://www.highergov.com/contract-opportunity/chainalysis-enterprise-subscription-support-5000217691-u-48ee6/">public</a> <a href="https://www.getwab.com/index.php/library/vendors/chainalysis-inc-cage-7dje5">sources</a> have revealed a long list of high-profile customers, including government agencies such as the FBI, US Immigration and Customs Enforcement agency, and the US Air Force, as well as private companies such as Microsoft, Coinbase, and Barclays. It's unclear if the data theft exposed customers to additional threats.</p>
+<h2>We regret to inform you...</h2>
+<p>Last Friday, Chainalysis <a href="https://www.chainalysis.com/blog/security-incident-october-30/">said</a> it had been the target of a cybersecurity incident in October that was similar to the hacks of other platforms during the same month. The external actor used AI agent-assisted offensive techniques to gain unauthorized access to Chainalysis systems and internal tools. An email the company sent to affected customers said some “non-sensitive customer data, such as user IDs, full names, email addresses, and organization role labels for users provisioned on our platform were accessed.” It's not clear why the company considered such information "non-sensitive."</p><p><a href="https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] Earth&#x27;s churning mantle may have created the Great Unconformity</title>
+        <link>https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/</link>
+        <guid isPermaLink="false">d96fde15d60ceefd6f1cb72fe482dd5bc1f047f18499d4e586605280a217ed22</guid>
+        <pubDate>Fri, 06 Nov 2026 20:24:20 +0000</pubDate>
+        <author>Jacek Krywko</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：聚焦&#x27;大不整合&#x27;这一地质学核心谜题，引入地幔搅动这一新机制解释，涉及数十亿年尺度的地质记录缺失，信息密度高且具长期科学参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>In the Grand Canyon, there is a line in the rock where time seems to have gone missing. Ancient crystalline rocks mark its bottom, while sandstones laid down as life started to diversify during the Cambrian explosion mark the top. “It’s called the Great Unconformity, and it’s a gap in the geologic record,” says Nicolas Flament, a geoscientist at the University of Wollongong, Australia. "This gap can be anywhere between 200 million years, which is not that impressive, to more than a billion years.”</p>
+<p>In a recent Nature study, Flament and his colleague Santosh Dhungana argue that this gap was carved with help from deep within the planet. According to their models, slow currents of hot rock in Earth's mantle pushed entire continents up for hundreds of millions of years, letting glaciers grind them down and then let them sink, allowing fresh sediments to bury the scar. The largest hole in the rock record might be a fingerprint of processes happening deep in the planet's interior.</p>
+<h2>Ice and sea</h2>
+<p>The oldest sediments resting on the Great Unconformity in North America are between 635 and 482 million years old. Geologists have traced it across most of North America and parts of northern Europe and northern China. “Something seems to have happened, in particular in North America,” Flament says.</p><p><a href="https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/#comments">Comments</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 一笔39亿欧元的交易</title>
+        <link>https://www.huxiu.com/article/4903721.html?f=rss</link>
+        <guid isPermaLink="false">a0bc1d557d554fb730f1b318a1a9bb3bc7e269b356d27363272d2a6ccbde1f7d</guid>
+        <pubDate>Sat, 07 Nov 2026 08:18:03 +0800</pubDate>
+        <author>汽车商业评论</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：深度复盘塔塔39亿欧元收购依维柯，含交易细节、合并后规模数据（210亿欧元收入、全球第四）及都灵总部保留等关键事实，对理解全球商用车格局演变有长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MjM5OTQzOTE0MA==&amp;mid=2651635490&amp;idx=1&amp;sn=7797296dd241acb794458d57aa42a8c5&amp;chksm=bdb6f9c728b016f9795ca157f51c681f824dffeecb63d2b02175265680904c452cf3dbb61146#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 汽车商业评论 </span></a><span class="text-remarks">，编辑：黄大路，作者：推动新汽车向前进</span></p><p><br /></p><p>2026年11月3日，意大利都灵。</p><p><br /></p><p>印度塔塔汽车（Tata Motors）和依维柯（Iveco Group）联合宣布合并，塔塔汽车完成收购要约的首次交割，取得依维柯约89.42%的普通股，计算时扣除库存股。</p><p><br /></p><p>依维柯由此成为塔塔汽车旗下企业。</p><p><br /></p><p>塔塔集团董事长纳塔拉詹·钱德拉塞卡兰（Natarajan Chandrasekaran）、塔塔汽车董事总经理兼首席执行官吉里什·瓦格（Girish Wagh）和依维柯集团首席执行官奥洛夫·佩尔松（Olof Persson）出席发布会现场。</p><p><br /></p><p>一名记者问，收购之后，依维柯的总部和工厂将如何安排？</p><p><br /></p><p>塔塔董事长钱德拉塞卡兰的回答简短：总部在都灵，也将继续留在都灵。</p><p><br /></p><p>合并后的集团年收入约210亿欧元，年销量约59万辆，业务覆盖130多个国家，拥有27个制造基地、25个研发中心和7.3万多名员工。</p><p><br /></p><p>按销量计，它跻身全球商用车企业第四位。发布会现场打出的口号是：“比我们想象的还要大”（Bigger Than We Ever Imagined）。</p><p><br /></p><p>这是塔塔汽车自2008年收购捷豹路虎以来规模最大的一次海外并购。</p><p><br /></p><p>从2025年7月宣布交易，到2026年10月底完成首轮结算，这场收购历时15个月。一家扎根印度的商用车龙头，就此把一家有着半个世纪历史的欧洲卡车品牌收入囊中。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-07/7fe40d0f-3bee-4393-af79-07d09d6b2656.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">为什么会有这场收购</p><p><br /></p><p>对塔塔来说，这场收购是分拆之后的必然一步。</p><p><br /></p><p>2025年10月1日，塔塔汽车完成分拆。乘用车、电动车和捷豹路虎归入塔塔汽车乘用车公司，商用车业务则独立上市，并在当月29日正式沿用“塔塔汽车”这个名字。</p><p><br /></p><p>早在2025年7月宣布交易时，钱德拉塞卡兰就把收购依维柯称为“商用车业务分拆之后合乎逻辑的下一步”。</p><p><br /></p><p>分拆后的塔塔商用车在印度本土地位稳固，却高度依赖单一市场。</p><p><br /></p><p>它在印度重卡市场的份额高达55%，但印度卡车需求随基建和经济周期大起大落，出口虽增长较快，体量仍偏小。</p><p><br /></p><p>引入依维柯，合并后集团的收入将有约一半来自欧洲，塔塔由此获得了一个与印度并列的第二个“母市场”。</p><p><br /></p><p>印度媒体报道称，塔塔希望借此引入欧洲市场地位和依维柯旗下FPT工业（FPT Industrial）的动力总成技术与低排放能力，同时缓和商用车业务的周期性波动。</p><p><br /></p><p>对依维柯而言，独立发展的压力日益加大。</p><p><br /></p><p>依维柯集团于2022年从凯斯纽荷兰工业（CNH Industrial）分拆独立上市，在欧洲卡车巨头中规模偏小。</p><p><br /></p><p>它的业绩在交易前后明显转弱：2025年二季度调整后息税前利润从2.95亿欧元降至2.15亿欧元，并下调全年指引；2025年全年营收134亿欧元，同比下降7%，调整后息税前利润率只有4.8%。但这一数字与今天中国国内乘用车利润率相比，仍是不错的成绩。</p><p><br /></p><p>依维柯管理层将下降归因于欧洲轻型商用车和重卡市场下滑、法国阿诺奈（Annonay）客车工厂爬坡延误以及供应商延迟。</p><p><br /></p><p>与此同时，电动化和氢能等脱碳技术需要长期巨额投入，缺乏规模的厂商更难承受。</p><p><br /></p><p>依维柯的大股东也有意退出。</p><p><br /></p><p>意大利阿涅利家族的投资公司Exor持有依维柯27.06%的股份和43.11%的投票权，交易一宣布，Exor就承诺把自己的股份卖给塔塔，依维柯董事会也一致建议其他股东接受收购。</p><p><br /></p><p>最后，两家公司的互补性让这笔交易显得顺理成章。</p><p><br /></p><p>塔塔的强项在亚洲、中东和非洲，依维柯则在欧洲和拉美。塔塔在宣布交易时表示，双方产品和地域几乎没有重叠，整合不需要大规模重组。</p><p><br /></p><p class="text-big-title" label="大标题">收购方式与条件</p><p><br /></p><p>这是一笔全现金的自愿公开要约收购。</p><p><br /></p><p>2025年7月30日，塔塔汽车宣布通过新设的全资子公司TML CV Holdings，以每股14.10欧元的价格收购依维柯全部普通股，对应交易总额约38亿欧元。这一价格较依维柯此前三个月的成交量加权均价溢价22%至25%，不扣除特别股息的话，溢价率为34%至41%。</p><p><br /></p><p>要约生效的最低接受比例为80%，并须通过各地反垄断、外商直接投资审查和欧盟外国补贴条例等审批。</p><p><br /></p><p>事实上，依维柯的出售一直伴随着严苛的监管审视。早在2020年，中国一汽集团曾提出略高于30亿欧元的初步报价，试图收购当时还属于凯斯纽荷兰工业的依维柯。但谈判在2021年4月正式终止，时任意大利经济发展部长焦尔杰蒂随即表示赞同，并强调意大利政府把重型卡车视为“国家战略利益”，愿将生产留在本土。</p><p><br /></p><p>有了前车之鉴，为了规避外资收购的政治阻力，本次交易的关键前提就是先剥离敏感资产。</p><p><br /></p><p>依维柯将旗下依维柯防务车辆（IDV）和阿斯特拉（Astra）两个防务品牌单独出售给意大利防务集团莱昂纳多（Leonardo），企业价值17亿欧元，塔塔只收购非防务业务。</p><p><br /></p><p>这笔出售于2026年3月17日完成，经合同调整后实收约16亿欧元。</p><p><br /></p><p>依维柯随后于4月22日向股东派发每股5.8216欧元的特别中期股息，合计约15.5亿欧元。也就是说，依维柯股东先拿到防务业务的出售收益，再将剩余的民用业务卖给塔塔。</p><p><br /></p><p>交易进展比预期慢。按照最初的计划，收购应在2026年上半年完成，但多个司法管辖区的审批耗时超出预期。要约期直到9月7日才正式开启，比原计划推迟了约四个月。</p><p><br /></p><p>交易后期还遭遇了股东质疑。</p><p><br /></p><p>持有依维柯3.8%股份的激进投资者佩特鲁斯顾问公司（Petrus Advisers）在9月29日发布报告，呼吁股东不要以现有价格接受要约。</p><p><br /></p><p>它认为14.10欧元的报价只相当于依维柯预计2028年息税前利润的约2倍，而沃尔沃、戴姆勒卡车、特拉顿（Traton）和帕卡（Paccar）等同行的平均水平约为7倍。</p><p><br /></p><p>10月9日，塔塔将收购价上调至每股14.40欧元，并宣布这是“最佳且最终报价”。</p><p><br /></p><p>瓦格解释说，这次加价是对交易延误约四个月的善意补偿，报价不会再变。此后，依维柯股东于10月16日召开特别股东大会，要约于10月26日截止，接受比例达到87.8%，高于80%的门槛。</p><p><br /></p><p>2026年10月30日，塔塔完成首轮结算，取得依维柯约89.42%的股份，对应支付约34.3亿欧元。</p><p><br /></p><p>按全部股份计算，交易总价值由约38亿欧元升至约39.1亿欧元。剩余约10.58%股份的第二轮要约期为11月2日至6日，11月13日结算。</p><p><br /></p><p>除了价格，塔塔还做出了一系列非财务承诺，有效期为交割后两年。依维柯总部留在都灵，两年内不关闭工厂、不裁员，工作条件和既定投资计划保持不变。</p><p><br /></p><p>截至2025年底，依维柯在意大利有近1.4万名员工。</p><p><br /></p><p class="text-big-title" label="大标题">收购后的组织结构</p><p><br /></p><p>从持股链条看，依维柯已成为塔塔汽车的控股子公司。</p><p><br /></p><p>塔塔集团的控股公司塔塔之子（Tata Sons）是塔塔汽车的发起人，塔塔汽车即分拆后独立上市的商用车公司。</p><p><br /></p><p>塔塔汽车通过依荷兰法律设立的全资子公司TML CV Holdings，持有依维柯集团约89.42%的股份。</p><p><br /></p><p>依维柯集团的注册地在阿姆斯特丹，已在米兰上市，旗下继续管理依维柯卡车、FPT工业、依维柯客车（IVECO BUS）、赫利兹客车（HEULIEZ）和依维柯金融（IVECO CAPITAL）等品牌。</p><p><br /></p><p>需要说明的是，捷豹路虎属于塔塔汽车乘用车公司，与依维柯并不在同一家上市公司之下。塔塔在商用车和乘用车两条线上，各自拥有了一个欧洲标志性品牌。</p><p><br /></p><p>在治理层面，塔塔对依维柯实行“控股不接管”的安排。</p><p><br /></p><p>钱德拉塞卡兰同时出任塔塔之子、塔塔汽车和依维柯集团三家公司的董事长，主持依维柯六人董事会。</p><p><br /></p><p>瓦格和塔塔汽车的巴拉吉（P.B.Balaji）以非独立董事身份进入董事会。佩尔松继续担任依维柯集团首席执行官。</p><p><br /></p><p>经营层面，依维柯保留都灵总部和各品牌的独立身份，布雷西亚、福贾等意大利工厂也继续由依维柯掌控。</p><p><br /></p><p>佩尔松表示，都灵将继续承担制造、工程、软件和脱碳技术方面的职能。现有的客户合同、经销商和供应商关系、质保、售后承诺和自营金融业务全部保持不变。</p><p><br /></p><p>塔塔方面则表示，将支持依维柯现有的战略和投资计划。</p><p><br /></p><p>在资本市场层面，塔塔正推进依维柯退市。待第二轮要约完成后，塔塔可能对剩余股东启动强制收购，但管理层尚未给出退市时间表。</p><p><br /></p><p>一旦退市完成，依维柯将成为塔塔汽车的全资子公司。</p><p><br /></p><p class="text-big-title" label="大标题">对塔塔和依维柯意味着什么</p><p><br /></p><p>对塔塔而言，最直接的收获是技术。瓦格在发布会上称FPT工业是“整个依维柯集团的明珠”，并提到塔塔作为FPT的客户已有20多年。</p><p><br /></p><p>塔塔在印度与康明斯合资生产重卡发动机已有30多年，这个合资将会保留；FPT则可以服务塔塔的其他细分业务，而这部分业务的规模约为塔塔重卡业务的三倍。</p><p><br /></p><p>据electrive报道，双方还计划利用各自的供应链和产能，在全球拓展电动化解决方案，FPT将在其中发挥关键作用。</p><p><br /></p><p>其次是渠道。</p><p><br /></p><p>瓦格表示，拉丁美洲可能是第一个受益于共享渠道的市场，塔塔可以借用依维柯在当地的经销商网络和零售金融服务。他在发布会上说：“请留意一些即将进入拉美的新产品。”钱德拉塞卡兰也提到，塔塔的产品和平台可能进入依维柯已经运营的市场。</p><p><br /></p><p>第三是全球地位。</p><p><br /></p><p>钱德拉塞卡兰在2026年6月的塔塔汽车股东大会上曾表示，合并后的业务从每年约60万辆起步，“在未来几年里轻松突破100万辆”。</p><p><br /></p><p>对一家长期局限于印度本土的商用车企业来说，这意味着它第一次进入全球卡车业的第一梯队。</p><p><br /></p><p>对依维柯而言，首先是获得了一个长期、稳定的产业股东。</p><p><br /></p><p>其次是进入印度和新兴市场的机会。钱德拉塞卡兰表示，部分依维柯产品适合印度市场，目前正在筛选，初期将以半散件（SKD）方式在印度本地组装，之后逐步国产化。</p><p><br /></p><p>瓦格则提到，印度、非洲和东盟的工业应用领域也存在机会。</p><p><br /></p><p>第三是成本协同。钱德拉塞卡兰提到，双方在零部件和电池采购等方面存在协同空间，“还有待推进”。</p><p><br /></p><p>对一家利润率不足5%、仍在推进效率计划的公司来说，采购规模扩大带来的成本优势尤其重要。</p><p><br /></p><p>不过，发布会也留下了不少悬念。</p><p><br /></p><p>钱德拉塞卡兰表示，现在谈西班牙等具体工厂的投资还为时过早。据《可持续客车》（Sustainable Bus）报道，发布会没有给出电动化和氢能的具体目标，塔塔是否会把自己的客车引入欧洲也仍不清楚。</p><p><br /></p><p>而两年承诺期满后，依维柯在意大利的工厂和就业如何安排，将是外界关注的焦点。</p><p><br /></p><p class="text-big-title" label="大标题">塔塔和依维柯</p><p><br /></p><p>塔塔集团由贾姆谢特吉·塔塔（Jamsetji Tata）于1868年创立，是印度规模最大的商业集团之一。集团旗下有31家主要公司，业务遍及100多个国家，员工超过100万人，覆盖科技、钢铁、汽车、消费零售、基建、金融、航空航天与防务、旅游、电信媒体和贸易投资十大板块。</p><p><br /></p><p>塔塔的治理结构颇为独特。控股公司塔塔之子是各成员企业的发起人和主要投资者，而塔塔之子66%的股本由慈善信托持有。也就是说，这家商业帝国的大部分利润最终流向慈善事业。</p><p><br /></p><p>在规模上，2024至2025财年塔塔集团各公司合计收入超过1800亿美元；截至2025年3月底，26家上市公司总市值超过3280亿美元。</p><p><br /></p><p>在刚刚过去的2026财年，集团合计收入16.24万亿卢比（约合人民币1.15万亿元），同比增长7.8%；合计税后利润1.71万亿卢比（约合人民币1207亿元），增长51.9%。</p><p><br /></p><p>钱德拉塞卡兰自2017年起担任塔塔之子董事长，据他介绍，与2020财年相比，集团收入增至2.1倍，利润增至5.4倍。</p><p><br /></p><p>依维柯于1975年1月1日正式成立，由意大利菲亚特工业车辆、布雷西亚的OM、蓝旗亚特种车辆、法国的Unic和德国的马基路斯-道依茨（Magirus-Deutz）五个品牌合并而来。</p><p><br /></p><p>此后数十年里，它一直是菲亚特工业体系的一部分，先后归属菲亚特工业和凯斯纽荷兰工业。</p><p><br /></p><p>2022年1月1日，依维柯从凯斯纽荷兰工业分拆，以依维柯集团为名独立上市，注册地在阿姆斯特丹，在米兰交易。从菲亚特到Exor，依维柯与阿涅利家族的渊源延续了半个世纪，直到这次卖给塔塔。</p><p><br /></p><p>依维柯的业务模式可以概括为“整车加动力加金融”。</p><p><br /></p><p>依维柯卡车品牌覆盖轻型、中型和重型商用车，其中包括在欧洲广为人知的Daily轻型商用车。客车业务由依维柯客车和赫利兹客车组成，2026年一季度在欧洲市场占有近23%的份额，排名第二。</p><p><br /></p><p>在规模上，剔除防务业务后，依维柯2025年营收134亿欧元，同比下降7%；调整后息税前利润6.45亿欧元，利润率4.8%；净利润2.33亿欧元，不到上一年的一半。工业业务自由现金流为负1.09亿欧元。</p><p><br /></p><p>截至2025年底，依维柯拥有约3.3万名员工，其中近1.4万人在意大利；合并后集团的27个制造基地中有16个来自依维柯，25个研发中心中有22个来自依维柯。</p><p><br /></p><p>进入2026年，依维柯的经营压力并未缓解。一季度工业业务营收28亿欧元，调整后息税前利润为负5500万欧元，而上年同期为正1.17亿欧元。</p><p><br /></p><p>把两家公司放在一起看，这场收购的逻辑就更清楚了。</p><p><br /></p><p>塔塔商用车利润率高、现金充裕，却缺少全球市场和顶尖动力技术；依维柯拥有欧洲市场、品牌和技术，却受困于规模和盈利。</p><p><br /></p><p>对塔塔而言，真正的考验才刚刚开始：它能否帮助依维柯在脱碳和价格竞争中重新站稳脚跟，将在未来几年见分晓。</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 从千倍认购到0.9倍，这家Biotech把IPO停在了招股结束当天</title>
+        <link>https://www.huxiu.com/article/4903720.html?f=rss</link>
+        <guid isPermaLink="false">38c9936ad0a758882532608c7fd70085efcde95a5a6aff649939f95a9106f00a</guid>
+        <pubDate>Sat, 07 Nov 2026 08:07:31 +0800</pubDate>
+        <author>动脉网</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：以和美药业IPO延迟为切口，用千倍到0.9倍认购、45.2%破发率等数据复盘港股IPO市场骤冷，并横向对比多行业延迟案例，揭示机构定价共识缺失的深层原因，具行业参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MjM5MTMyMDg0Ng==&amp;mid=2650695273&amp;idx=1&amp;sn=bbf018a44192e7d7ef44f4325546f85f&amp;chksm=bfd62dc289ee6b5ea07ce4e30125fe34f1fe1cecfd51769d5d5d2a312db91c032acd46739601#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 动脉网 </span></a><span class="text-remarks">，作者：姚敬</span></p><p><br /></p><p>11月4日晚间，赣州和美药业在招股结束的当天发布公告，鉴于现行市况，决定延迟全球发售及上市，退回全部申请股款，后续仍存在重启上市可能性。</p><p><br /></p><p>公告没有多做解释，但现行市况四个字放在2026年下半年的港股里，确实大不一样。上半年港股创新药打新火热，千倍认购是常态，6月挂牌的礼邦医药录得963倍认购、首日大涨103%，剂泰科技的超额认购甚至超过6900倍。和美药业公开发售集资约1.04亿港元，孖展仅约2亿元，超购仅0.9倍，市场温度骤降。</p><p><br /></p><p>推迟的风潮也不是创新药独有。港股9月以来，金融科技服务商四方精创、文旅企业瘦西湖文旅、机器人公司微亿智造先后在定价或招股途中叫停了各自的IPO，四家公司分属完全不同的行业，却在同一个时间窗口做出了延迟IPO的决定。</p><p><br /></p><p>四家公告口径均指向现行市况。瘦西湖文旅孖展认购一度超过3064倍仍选择延迟，更直接的原因在国际配售端，基石托底不足，机构定价共识难以达成。叠加三季度港股新股破发率冲到45.2%，发行人与承销商宁可择时，也不愿在当下窗口里勉强定价。参照同仁堂医养等延迟后重启的案例，重新发行时往往需要下调发行价区间。</p><p><br /></p><p>和美药业不是没有拿到背书。发行安排里，广发基金、汇添富、富国、易方达四家头部公募旗下七家机构作为基石投资者合计认购2900万美元，按发售价上限计算占发售股份约21.8%。但在当下的市场里，基石名单的含金量已经不足以对冲整体的水温。</p><p><br /></p><p>一家三次递表、手握获批产品的Biotech，为什么也没能跨过这一步？</p><p><br /></p><p class="text-big-title" label="大标题">01</p><p><br /></p><p class="text-big-title" label="大标题">一位南开化学硕士的二十四年</p><p><br /></p><p>张和胜已经62岁，1984年江西师范大学化学学士，1987年南开大学有机化学硕士，1999年美国罗格斯大学博士。</p><p><br /></p><p>博士毕业之前，他已经在美国的Cadus制药公司工作过两年，做的是A2b受体选择性拮抗剂用于哮喘治疗的创新研究。回国之后，他在2002年创办了和美生物技术，方向从第一天起就定在自身免疫和肿瘤的小分子药物上，这个定位到今天都没变过。</p><p><br /></p><p>回国创业这条路，他走了二十四年，是国务院政府特殊津贴专家，拿过中国侨界贡献奖，承担过重大新药创制科技重大专项十一五计划课题。</p><p><br /></p><p>围绕在他身边的，是一群覆盖化学、生物、药理学和医学，有超过20年的相关经验的成熟团队。二十四年里，中国创新药行业经历了好几轮冷热，他们没有换过赛道。</p><p><br /></p><p>股东名单里有泰格投资、上海千骥、倚锋睿意、甘肃兴陇、赣州人才基金等名字。其中上海千骥很早就进入了，是陪着公司走了最久的外部机构之一。</p><p><br /></p><p class="text-big-title" label="大标题">02</p><p><br /></p><p class="text-big-title" label="大标题">自免与肿瘤双线布局</p><p><br /></p><p>和美药业按18A规则上市，靠的是核心产品Mufemilast。这是一款口服的小分子PDE4B选择性抑制剂。</p><p><br /></p><p>银屑病是一个自身免疫性疾病，中重度斑块状银屑病患者需要全身治疗，现有选择包括传统药物、生物制剂和靶向小分子。PDE4这条通路并不新，安进的阿普米司特早就走通了，但Mufemilast想做的是把PDE4B的选择性做得更精细，在抗炎效果和耐受性之间找到更好的平衡。</p><p><br /></p><p>2025年9月，国家药监局批准Mufemilast用于治疗中重度斑块状银屑病。关键3期临床试验安全性数据显示，没有死亡病例，没有药物相关的抑郁症病例，3级或以上药物相关不良事件比例与安慰剂组无统计学差异（1.4%对1.1%）。没有出现这类药物最受关注的精神类不良反应。</p><p><br /></p><p>商业化的推进也相当快，赣州和峡江两处生产设施分别在2026年3月和4月通过GMP合规检查，7月正式启动销售，截至招股书日期已向九家经销商供应2200盒，覆盖陕西、江西、北京、山东、四川、河南、宁夏、广东八个省级市场。</p><p><br /></p><p>围绕Mufemilast，和美铺了一个相当大的适应症矩阵。</p><p><br /></p><p>白塞病的3期临床2023年11月启动，已经拿到FDA的孤儿药资格认定；中重度溃疡性结肠炎的3期8月刚启动；中重度COPD的2期在进行中，计划2027年9月完成；克罗恩病的2期计划11月启动；特应性皮炎的2期临床报告已定稿，只待CRO最终确认；银屑病关节炎的2/3期适应性试验计划2027年3月启动。</p><p><br /></p><p>美国市场也在计划里。公司打算2026年12月底前和FDA就白塞病的美国开发方案做正式沟通，如果顺利，2027年3月底前提交IND；溃疡性结肠炎的美国IND则计划2026年12月提交。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-07/2f3b8e71-a70a-45a1-ac3a-e51d0265adbc.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">企业管线布局，图源招股书</p><p><br /></p><p>除了自免，在肿瘤领域和美药业也有布局。</p><p><br /></p><p>分量最重的是Hemay022。这是一款口服的EGFR/HER2双靶点抑制剂，瞄准的是晚期ER阳性、HER2阳性乳腺癌的二线及以上治疗，拥有全球权益。国家药监局根据1b期临床结果，直接批准了3期，豁免2期。目前3期正在入组，和芳香化酶抑制剂联用，公司计划2028年12月在中国提交NDA。</p><p><br /></p><p>此外，还有β-葡萄糖醛酸酶激活糖基药物偶联物Hemay181、口服TNF-α小分子调节剂Hemay007、外用IgE/PDE4双靶点分子Hemay808和针对晚期实体瘤的Hemay5087。</p><p><br /></p><p class="text-big-title" label="大标题">03</p><p><br /></p><p class="text-big-title" label="大标题">86亿元的市场，和一年8.7万元的定价</p><p><br /></p><p>把Mufemilast放进市场里看，会更清楚。</p><p><br /></p><p>根据弗若斯特沙利文的数据，2025年中国中重度斑块状银屑病患者约320万人，对应药物市场规模86亿元，预计到2028年做到165亿元，2032年做到272亿元，2025到2028年的复合增速约24.5%。驱动因素很明确，生物制剂和小分子靶向药正在快速替代传统治疗。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-07/198ae120-75d1-4fab-8c8d-c9865c73f938.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">中国银屑病市场规模，根据招股书数据制图</p><p><br /></p><p>只是竞争同样激烈，目前中国已有20种获批治疗中重度斑块状银屑病的靶向药物，其中16种是生物制剂，小分子只有四种：阿普米司特、德卡伐替尼、icotrokinra和Mufemilast。后面还有武田的TAK-279、翰森的HS-10374两款TYK2抑制剂，以及PDE4抑制剂HPP737，都在3期。</p><p><br /></p><p>真正的压力来自价格。阿普米司特的年度治疗成本大约1万元，Mufemilast大约8.69万元。招股书也透露在自费阶段，这个价差可能削弱Mufemilast相对阿普米司特的竞争力，影响患者的负担能力和市场接受度。</p><p><br /></p><p>因此，公司选择不参加2026年的医保谈判但评估未来时机，靠患者援助计划和商业保险覆盖一部分费用，同时把宝押在多适应症上。银屑病只是入场券，白塞病、溃疡性结肠炎这些适应症的病人，现有选择更少。</p><p><br /></p><p>和美药业面对的市场本身并不差。真正变化的其实是定价的规则。上半年那轮打新热里，市场愿意为赛道和叙事付钱；下半年开始，资金开始逐项核对商业化证据，卖了多少盒、进了多少省、患者使用意愿。</p><p><br /></p><p>Mufemilast的商业化刚起步，和美药业的财务报表上还没有产品销售收入。公司2024年亏损1.23亿元，2025年亏损1.30亿元，2026年前四个月亏损3236万元，绝大部分来自研发和管理开支。</p><p><br /></p><p>按招股书的测算，按2025年现金消耗率的1.5倍测算，仅靠手头的现金和定存大约能撑6.9个月；算上银行授信是46.2个月；再把这次IPO的募资净额加进来，能撑72.3个月。募资用途中的重要部分也是为了加速推进Mufemilast的研发和商业化。</p><p><br /></p><p>三季度以来，18A排队的企业数量仍然庞大，而市场承接能力肉眼可见地收缩。当打新的赚钱效应退去，一级市场的退出通道重新变窄，接下来一两年内，类似多次递表、临门一脚推迟的案例可能还会出现。</p><p><br /></p><p>对正在排队的企业来说，和美药业留下的启示很实际，把商业化数据跑厚或者把估值预期调低。</p><p><br /></p><p>*封面图片来源：123rf</p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 苹果 iOS 键盘被曝隐藏约 10 万个敏感词汇名单：避免 iPhone 输入法自动推荐补全，但用户仍可手动输入</title>
+        <link>https://www.ithome.com/1/023/638.htm</link>
+        <guid isPermaLink="false">ac4bed6934cc6eb0f45e5fb4ce6f1bb229717413aa401fff6d6c5a3b3b8d9e6d</guid>
+        <pubDate>Sat, 07 Nov 2026 01:33:31 +0000</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：独立研究者逆向发现iOS键盘约10万词&#x27;灰名单&#x27;，揭示自动补全的政治与偏见过滤机制，涉及滑行输入异常的具体证据，具技术调查与平台治理参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p>IT之家 11 月 7 日消息，据路透社当地时间 11 月 6 日报道，独立研究人员 Derik Kauffman 发现，苹果 iOS 键盘系统内部存在一份未公开的多语言词汇限制名单，研究人员将其称为“灰名单”（Gray List）。</p><p>这意味着苹果不会通过自动补全或滑行输入功能向用户主动推荐这些词汇，但不禁止用户手动输入。据介绍，这份名单不仅包括脏话、性相关内容以及毒品和暴力相关词汇，还涉及部分政治敏感表达。</p><p style="text-align: center;"><img class="nowebp no-alt-img" src="https://img.ithome.com/newsuploadfiles/2026/11/79fd4588-1920-48ea-8f76-62b036f8aa03.png" /></p><p>Kauffman 表示，他是在今年 9 月发现这份名单的。当时，他注意到 iPhone 滑行输入在处理某些短语时会出现异常，例如输入“Bad boy”（坏男孩）和“White man”（白人男性）时会出现卡顿，但输入“Bad girl”（坏女孩）和“Black man”（黑人男性）时却没有类似问题。</p><p>随后，他使用 OpenAI Codex 和 Anthropic Claude Code 对系统内部文件进行了分析，最终找到了这份隐藏词汇名单。</p><p>Kauffman 表示，他估计名单包含约 10 万个单词、短语及其不同变体。具体数量取决于统计方式，约 10 万个是相对保守的估算。</p><p>名单中的大部分内容涉及粗俗表达、冒犯性词汇以及毒品、性和暴力相关内容，不过也包含一些政治和社会议题相关表达。例如，名单中包括“Dictator Trump”“Sleepy Joe”“Right wing conspiracy”（右翼阴谋论）和“United Ireland”（联合爱尔兰）等短语。不同语言也存在各自的限制内容，例如印地语中的部分针对印度总理莫迪和反对派领导人拉胡尔・甘地的讽刺表达，以及法语中的“Immigration too high”（移民数量过高）和希伯来语中的“Occupied territories”（被占领土）。</p><p>苹果向路透社回应称，用户始终可以手动输入任何单词和短语，也可以覆盖键盘提供的预测文本建议。苹果表示，其键盘的设计目标是避免推荐可能不恰当或具有冒犯性的内容，但没有直接回应名单的规模、具体构成，以及为何将部分政治表达列入其中。</p><p>路透社记者随后使用 iPhone 对 Kauffman 提供的部分词汇进行了独立测试，发现相关限制确实存在。例如，尝试通过滑行输入“United Ireland”，键盘可能将其识别为“United Iceland”；输入“Sleepy Joe”时，可能得到“Sleepy hope”。输入“Dictator Trump”虽然可以完成，但键盘不会正常推荐这一完整短语，甚至会将 Trump 自动处理为小写形式。</p><p>在其他测试中，输入“White man”可能被识别为“White mean”，而“Red man”和“Blue man”则可以正常完成滑行输入。此外，“Read smut”（看小黄书）能够正常输入，但“Read gay smut”（看男同小说）则可能被错误识别为其他词汇。</p><p>这份名单也得到了其他研究人员的独立验证。网络安全工程师、人工智能安全公司 Tolmo 的 Matt Suiche 表示，他也从苹果系统中恢复出了这份灰名单，并与 Kauffman 的研究结果进行了交叉比对，两者高度吻合。他还指出，这份名单已经隐藏在苹果软件中多年。</p><p>对于这种设计，Kauffman 认为，苹果希望避免用户意外发送粗俗内容或具有煽动性的表达，这一出发点可以理解，但具体执行存在不一致。他将其称为一种“轻度形式的审查”，并指出，当这一机制应用于数以亿计的 iPhone 用户时，即使只是轻微干预，也可能产生广泛影响。</p><p>美国电子前沿基金会（EFF）高级法律顾问 David Greene 则表示，限制不恰当的预测文本推荐有一定合理性，但用户应该充分了解这类机制的存在，并拥有一定的自定义权限。他认为，苹果不应该将这类限制名单完全隐藏起来。</p><p><strong>相关阅读：</strong></p><ul class="small-size list-paddingleft-2"><li><p>《<a href="https://www.ithome.com/1/022/770.htm" target="_blank">macOS 藏着“脏话识别系统”，苹果词典分级机制被曝光</a>》</p></li></ul>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Free Chinese AI Models Are Getting Scary Good at Hacking</title>
+        <link>https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/</link>
+        <guid isPermaLink="false">ad0824941c5f7822ac93249b5f267a2aefded89656728464b1853456b90537ff</guid>
+        <pubDate>Fri, 06 Nov 2026 18:43:43 +0000</pubDate>
+        <author>Will Knight, Lily Hay Newman</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：基于模拟网络攻防实验，量化对比DeepSeek、GLM与OpenAI未公开模型的攻击能力，揭示开源模型安全风险，事实密度高且具长期参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China&#x27;s top spy agency MSS to collect intelligence on Jensen Huang (New York Times)</title>
+        <link>https://www.techmeme.com/261106/p24#a261106p24</link>
+        <guid isPermaLink="false">1e2f5c0ccea66ad8dc0caec056205aedc34084c200e569342cb5f3bbf51219b7</guid>
+        <pubDate>Fri, 06 Nov 2026 16:46:41 -0500</pubDate>
+        <author>未知作者</author>
+        <description><![CDATA[
+        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 深度评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【精选推荐】</b>：《纽约时报》独家调查，披露美情报机构认定中国MSS招募Megaspeed高管Alice Huang，目标直指英伟达CEO黄仁勋。涉及中美科技间谍战与AI芯片供应链安全，信息密度高、信源权威，具长期跟踪价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <a href="https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html?unlocked_article_code=1.OVE.Q7K1.pw9O9sjsZBW4&amp;smid=url-share"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261106/i24.jpg" vspace="4" /></a>
+<p><a href="https://www.techmeme.com/261106/p24#a261106p24" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> <a href="https://www.nytimes.com/">New York Times</a>:<br />
+<span style="font-size: 1.3em;"><b><a href="https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html?unlocked_article_code=1.OVE.Q7K1.pw9O9sjsZBW4&amp;smid=url-share">Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China's top spy agency MSS to collect intelligence on Jensen Huang</a></b></span>&nbsp; &mdash;&nbsp; U.S. intelligence concluded that Alice Huang, a Chinese business executive who developed a close relationship with Nvidia's leader &hellip; </p>
         </div>
         ]]></description>
     </item>
@@ -1680,412 +1948,6 @@
         <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
         <div>
             <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzkxMzcyMDkzOQ==&amp;mid=2247484171&amp;idx=1&amp;sn=324bcc5c5205dfcef8c1a96a223b00aa&amp;chksm=c03ae025a01d5d3dd639c1f36e41bf09ed083e80ae2f136524cf0b2ab074353caf7316bd0b75#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 分析师Boden </span></a><span class="text-remarks">，作者：分析师Boden</span></p><p><br /></p><p>2014年前后，中国经济学界曾为“第五次产业转移”爆发过一场激烈的大讨论。</p><p><br /></p><p>作为全球第四次产业转移的最大赢家，中国能否在第五次转移中独善其身，一度被渲染成国运之战。再加上当时国际局势，美国企图绕过中国主导TPP谈判，关于中国产业的悲观论调一时占据上风。</p><p><br /></p><p>十余年后，中国已经实现万亿美元顺差，TPP却被美国自己抛弃，似乎我们已经安稳度过了这场危机。</p><p><br /></p><p>但风险真的解除了吗？</p><p><br /></p><p class="text-big-title" label="大标题">从未消失的达摩克利斯之剑</p><p><br /></p><p>今天不少人对中国制造的规模优势感到安心，我国制造业已经连续16年全球第一，从任何一个传统指标上都看不出衰落迹象。</p><p><br /></p><p>但这才是最危险的地方，因为这一轮转移本就是分散性的，它难以被察觉。</p><p><br /></p><p>过去两百年的四轮制造中心转移，本质上是制造活动从一个国家搬到另一个国家，英国把制造搬到美国，美国搬到日本，日本搬到中国。每一次转移都有明确的国与国之间流动过程，旧中心失去制造，新中心获得制造。英国失去纺织，曼彻斯特的工厂便一家接一家关门。美国失去钢铁和汽车，底特律就从全球汽车之都变成破产城市，这在国际贸易里被称为替代性转移。</p><p><br /></p><p>这种替代性转移虽然残酷，却容易被察觉。民众能看到大规模企业倒闭以及由此引发的群体性失业问题，明确的信号让社会反而有了反应时间。</p><p><br /></p><p>日本90年代就是典型案例。当中国廉价劳动力的冲击刚刚碰撞到日本的纺织、机械加工等中低端产业时，社会就迅速察觉并调整政策，在有限的窗口期内利用出海一定程度上拿回了主动权。其实中国自身也有过类似的经验，2008年遭受次贷危机的中国沿海产业，出口骤降在短时间产生了千万量级的返乡工人，但也正是巨大的破坏力，让整个社会迅速达成新共识出台一系列调整政策。就如身体骨折，虽然剧痛但也因为有明确的信号，反而可以及时手术。</p><p><br /></p><p>可全球的第五次产业转移，却完全不同，它偏偏没有给出这种信号。</p><p><br /></p><p>如果从进程上看，这场转移早已开始。2017年前后全球供应链从“集中化”转向“去集中化”，当年中国占美国的进口份额达到21%历史性见顶，此后中国份额下降，新兴经济体上升，两条曲线一升一降完成交叉。</p><p><br /></p><p>2020年后，这场大转移更进入加速阶段，一众新兴经济体都获得了巨额的产业投资。此后5年，以越南、马来与印尼为主的东盟国家，以及墨西哥与巴西等美洲新经济体，其制造业外商直接投资普遍增长了100%以上。到2024年，即使曾经被视为落后地区的非洲，接受投资也首次达到1000亿美元大关，创下历史新高。</p><p><br /></p><p>时至今日，如果只看出口总额或者港口吞吐量，中国仍在增长。还没有一个经济体能够完整承接中国的全产业链优势，中国制造的安全感看上去十分牢固。</p><p><br /></p><p>但这不等于没有国家在承接中国的产业，相反，当下全球产业转移的规模已经十分惊人。</p><p><br /></p><p>2026年，三星手机60%与耐克50%的产能在越南，苹果四分之一的产量已经由印度吃下，墨西哥的名义汽车产能已经默默地突破550万辆大关，跻身全球前五。虽然它们现在还停留在中低端或者组装加工，但当年中国的产业扩张之路不也正是这么走过来的吗？</p><p><br /></p><p>可以说，在悄无声息间，这些国家已经吃下了惊人的份额。过去支撑中国产业的全球订单+中国工厂模式，正在逐渐被拆散。由此带来的影响，绝不仅仅是国际贸易份额的重新分配这么简单。</p><p><br /></p><p>这把高悬于世界工厂之顶的达摩克利斯之剑不仅没有消失，反而正在下落。</p><p><br /></p><p class="text-big-title" label="大标题">看不见的失血</p><p><br /></p><p>其实，第五次产业转移对中国的伤害已经逐步体现。</p><p><br /></p><p>过去数十年，全世界奉行的是生产集中模式，即尽量将生产集中在一个国家，并以此获得足够的规模效应。中国是这种模式最大的既得利益者，由于一张订单对应一个产地，一个产地又能连接一整条供应链。生产越集中，规模效应就越强，所能截留的价值就越高，中国成为这套生产集中模式的最大既得利益者。</p><p><br /></p><p>但今天，全球正在从生产集中走向分散。</p><p><br /></p><p>一方面，各个新兴经济体的廉价生产要素与相对完善的基建已经对全球资本有了足够的吸引力，开始疯狂吸收国际订单，争夺属于它们的时代红利。另一方面，发达国家的制造业回流与友岸外包体系，也在有意扶持全世界产生更多的生产节点，打破过度集中的局面。</p><p><br /></p><p>但对于中国而言，这可并不是什么好消息。过去一张订单集中在一个产地，但现在可能被分成三份，高端需求仍然留在中国，但中低端可标准化环节已经去了越南、印度、墨西哥等国。虽然现阶段国际存量订单还没有被大规模转移，但增量的蛋糕已经开始被切走。</p><p><br /></p><p>而随着国际订单的逐步分散，再加上我国的内需市场还处于恢复期，原有为全球市场准备的产能与实际需求不足的矛盾与日俱增。2021年开始，我国产能利用率就持续走低，到2026年三季度规模以上工业产能利用率只剩下73.1%。相当于每四条产线里就有一条闲置，快低于2016年上一轮供给侧改革时的最低位。</p><p><br /></p><p>但这一次和2016年有一个根本区别，2016年的过剩是周期性的，即需求最终还会回归，可这一次很有可能是结构性的。</p><p><br /></p><p>而最先反应这轮产业转移影响的，其实并非产能数据，而是就业数据。</p><p><br /></p><p>事实上，更隐蔽的影响来自就业端。分散型转移并不直接消灭存量岗位，因为工厂并没有大规模关门，我们很难指着某个车间说这里的工人因为产业转移失业了。但它会消灭增量岗位，企业如果预期未来三年的订单增量不在国内，就不会新建产线与多招员工、自然也不会有与之相关的管理岗位。</p><p><br /></p><p>从数据上看，虽然2025年我国城镇新增就业人数同比微涨0.1%，但传统制造业带动的就业岗位已经出现明显疲软。过去大幅吸纳就业的金属纺织与基础加工等六大产业，2025年不仅没有增加，反而还减少了近90万人。而传统制造业释放出来的劳动力，许多又流入了外卖家政与快递这三大蓝领岗位，目前这三大岗位的规模年增速全部超过3%。但这些岗位难以产生职业积累与技能升级。</p><p><br /></p><p>而当一个经济体的劳动力配置从“有技能积累曲线的行业”滑向“没有技能积累曲线的行业，长期是对整个国家人才储备的严重伤害。</p><p><br /></p><p>这种伤害的危险之处在于，它让一个经济体越来越虚弱，但却不产生强烈的痛感信号。表面上的相对稳定，反而会让社会误以为还有时间，从而错过最宝贵的调整窗口。</p><p><br /></p><p>在东亚的经济史上，曾有一个国家完整经历过这种没有剧痛的失血。</p><p><br /></p><p>80-90年代，泰国是亚洲制造业的超级明星，凭借4200万相对高素质劳动力，承接了完整的汽车、电子与轻工产业链，被称为亚洲工厂，一度是仅次于韩国的东亚第五小龙。然而在遭遇亚洲金融危机后内需断崖，与本国生产成本在人口老龄化后逐年上升，泰国的中低端制造业逐渐流向其他东南亚国家。</p><p><br /></p><p>当时的转移同样是分散型的，轻工纺织搬去柬埔寨、电子加工流向越南，汽车制造则去了印尼，并没有一个国家完整承接了它的所有产业。</p><p><br /></p><p>但诡异的是，面对如此大规模的转移，泰国在此后10余年，制造业却保持了一种反常的平稳。虽然工业增加值占GDP比重再未回到90年代43%的顶点，但至少在2010年前还能基本保持在38%以上，凭借曾经产业链积累的优势惯性，短期内没有出现断崖式下滑。</p><p><br /></p><p>恰恰是这种表面的稳定，也让泰国错失了关键调整的窗口。</p><p><br /></p><p>虽然一开始转移的只是中低端行业，但逐渐地，订单规模难以养活完整的本地供应链，产能过剩问题此后长期困扰泰国，亚洲金融危机前其产能利用率超过80%，但到2004年已跌落到68%。严重的过剩让企业盈利能力随之减弱，没有余力更新设备与升级工艺，产业链的完整性被一点点抽走。</p><p><br /></p><p>最终随着时间变化，留在泰国本地的存量产业逐渐老化，就业人数倒退。泰国曾花费数十年建立起来的产业集群，最终在经历08年次贷危机的二次打击后，彻底衰落。30年后的今天，绝大多数人已经记不起泰国曾经是亚洲工厂，其人均GDP被困死在7000美元区间，沦落成一个以旅游业和服务业为支柱的经济体。</p><p><br /></p><p>如果说替代性转移是经济体的骨折，那么分散型转移更像是内出血，隐蔽但同样危险。</p><p><br /></p><p>那么在这场看不见的失血中，我们还有多少的胜算?</p><p><br /></p><p class="text-big-title" label="大标题">中国需要找到新位置</p><p><br /></p><p>今天，全球产业转移的趋势无法阻挡，新兴经济体与全球产业融合是历史发展的必然过程，中国无法阻止订单向越南、印度、墨西哥分散，但这并不是说我们只能坐以待毙。</p><p><br /></p><p>实际上，危险与机遇从来都是相伴相随。</p><p><br /></p><p>每一次全球产业转移，旧中心的制造环节都会遭受重创，但在摧毁旧有利益网络的同时，也会创造新的需求。旧中心的出路从来不依靠守住原来的位置，而是要在新的需求中找到新的位置。</p><p><br /></p><p>曾经的意大利纺织产业其实就给我们提供了一个很好的示例。</p><p><br /></p><p>90年代以前，意大利是世界纺织业的翘楚，凭借极致的小工坊快反模式，做到了整个欧洲纺织品的规模与价格第一。可当中国巨量的廉价劳动力涌入全球市场后，意大利那套以家庭工坊为基础的产业链，被降维打击，在成本上毫无还手之力。</p><p><br /></p><p>但意大利没有选择与中国直接竞争，在第四次产业转移中，中国以巨量廉价劳动力改变了全球贸易格局，制造环节的成本被大幅拉低。而当制造变得廉价且可大规模外包时，市场对品牌与设计的高附加值需求反而被放大了。意大利主动放弃了成本比拼，退出标准化制造环节，转向了设计和快时尚服务，进入品牌全球化运营阶段。</p><p><br /></p><p>由于中国已把纺织品价格打得非常之低，使得意大利获得了更便宜的原材料和中间品。设计端的高溢价加上采购端的低成本，品牌时代的意大利纺织赚到了远比制造时代更丰厚的收益。2025年，其纺织出口额为369亿欧元，大约是中国的12%，但创造的利润已是中国纺织全产业的四分之一，是21世纪以来意大利转型最成功的产业。</p><p><br /></p><p>可以说，意大利纺织没有在成本上打败中国，它只是在第四次产业转移的的贸易格局变化中，找到了自己的位置。</p><p><br /></p><p>那么，第五次产业大转移的新需求是什么？中国如何找到自己的位置。</p><p><br /></p><p>今天，全球制造正在从集中走向分散，这是分散性产业转移的最大优势，它让更多国家第一次真正参与到全球制造中来，也让资本获得了更低成本的要素，全球制造网络因此变得更大更宽。</p><p><br /></p><p>可也由此带来了一个巨大的矛盾。</p><p><br /></p><p>当制造能力分散到更多国家，表面上看是有了更多的制造基地，但全世界的生产效率却是降低的。</p><p><br /></p><p>根据世界经济论坛报告，虽然过去10年投资到新兴经济体的海外投资额普遍翻了2-3倍，但这种分散投资也造成了相当大的资源冗余，对全球的GDP增长，运力与额外库存都造成了负面影响。到2026年，每年因为贸易碎片化直接损失已超过3000亿美元，间接则导致全球通胀率上升0.3个百分点，且随着这轮产业转移，碎片化的影响还在加速恶化。学术界给这个现象取了一个名字，叫做慢球化（slowbalisation），意指随着国际供应链的碎片与多元，全球化的效率正在变得越来越慢。</p><p><br /></p><p>但效率降低的根源，并非哪个国家真的变慢了。今天越南最新投产的设备可能比中国大多数工厂都新，在科技日新月异的当下，单个工厂的效率普遍仍在提升。</p><p><br /></p><p>真正的矛盾是，在生产越来越分散的当下，全球供应链的协调成本正在指数级上升。</p><p><br /></p><p>过去所有生产节点都集中在中国，协调成本无限接近于零。一家东莞的模具厂可以在接到需求后，3小时内把新样品送到深圳的产线。一间上海工厂的设备上午出现故障，苏州供应商中午就能开车赶到解决。</p><p><br /></p><p>这种物理距离层面的极致压缩，是中国能作为全球制造中心的效率来源核心。</p><p><br /></p><p>但现在随着全球生产节点从集中走向分散，全世界生产正在变得碎片化。</p><p><br /></p><p>越南的上游工厂和墨西哥的组装工厂之间隔着太平洋，匈牙利的基地和印度的供应商之间相差六个时区。品质标准怎么统一，供应链怎么对接，交期怎么协调，文化冲突怎么处理。这些在制造集中时代不存在的矛盾，在这个制造分散的时代突然全变成了问题，这一点想必任何在海外有生产经验的参与者，都能感同身受。</p><p><br /></p><p>全球分工体系正在从紧密的网，变成一堆散落的珠子。看起来全球化的生产节点增加了，但这些分散的节点，并没有最大化它的生产效率。</p><p><br /></p><p>但这又何尝不是这轮产业转移，最大的需求，或者说是价值点。</p><p><br /></p><p>在这里我想问您一个问题：当全球生产集中时，什么最值钱？</p><p><br /></p><p>答案是制造能力。因为谁拥有最低成本、最高效率的制造能力，谁就能吸引全球的订单和资本。中国过去三十年，靠的正是这种能力。</p><p><br /></p><p>可当生产从集中走向分散时，什么才是最值钱的？</p><p><br /></p><p>在这轮全球贸易格局的重构期，世界需要一个新的生产组织者，来组织这些分散的节点，使其资源效率最大化，而这便是第五次产业转移的新需求。</p><p><br /></p><p>谁有能力成为这个新组织者，它在新一轮全球产业的价值分配中也必然占据最有利的位置。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/c52a2480-ccec-4297-a024-a44b74a9fef4.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">中国经济的下半场</p><p><br /></p><p>那么我们为什么一定要成为这个全球生产组织者？因为它对于中国的意义，远不限于产业成功出海，或者创造大量出海岗位解决就业这么简单。</p><p><br /></p><p>它更决定了中国的经济发展能否顺利过渡到下半场。</p><p><br /></p><p>根据经典的索洛增长模型，一个经济体的增长主要依赖三个引擎：资本投入、劳动力数量与全要素生产率。前两者属于短期因素，会随着边际收益递减而逐渐减弱。全要素生产率才是长期因素，它依靠的是技术进步和资源配置优化。</p><p><br /></p><p>任何一个经济体想要实现长期增长，最终都需要依赖全要素生产率的持续提升。</p><p><br /></p><p>中国过去四十年或者说上半场的增长主要依靠的是前两个短期因素，人口红利和土地资本（房地产）红利在特定阶段释放出了巨大的增长动能，但它们都有天花板。今天，中国的劳动力见顶，地产回报率下行，这两个引擎正在逐渐熄火。</p><p><br /></p><p>可问题在于，接棒的那个引擎，还没有真正启动。</p><p><br /></p><p>单看数据，中国的创新投入是全球顶级。2025年研发经费超过3.6万亿元，专利申请量全球第一，研发人员总量全球第一。可全要素生产率对经济增长的贡献长期偏弱。2009到2023年的增长中，资本与劳动力累计的贡献了71%，全要素生产率只贡献了28%。</p><p><br /></p><p>换句话说，中国长期创新技术的投入，并没有带来合理的回报。</p><p><br /></p><p>技术投入变成了产品，但产品却没有变成更高的收益回报给社会，比如中国的光伏锂电早已世界第一，但全行业的利润却薄如蝉翼。</p><p><br /></p><p>当下的问题，早已经不是技术投入的不够多。</p><p><br /></p><p>事实上，全要素生产率并不只由技术进步决定。组织效率、人力资源有效利用，生产资源优化能力等等，同样是关键变量。</p><p><br /></p><p>技术投入能否转化为经济的提升，最终取决于这些软性价值变量能否被充分释放。可这些软实力恰恰是中国制造在过去三十年积累得最多，却在现有以制造优先为导向的经济循环模式中，难以被充分释放价值的变量。</p><p><br /></p><p>而成为全球制造的组织者，就是要释放这部分效率，或者说价值。</p><p><br /></p><p>成为组织者，并非要与新兴经济体去竞争制造业谁更强，而应当去提升全球生产制造的总体效率。全球制造业分散到多节点后，节点之间每一次寻找供应商、比对品质、协调交期、处理文化差异，都在消耗效率。组织者需要做的是，降低全球生产网络的摩擦系数。因为节点之间的摩擦越小，同样的劳动力和资本就能产出更多。而中国也可以在这轮效率提升中，将这些软实力变成可交易的显性资产，充分释放其价值。</p><p><br /></p><p>这个层级不需要生产任何产品，但它决定产品在哪里生产、用什么标准生产、找谁配套、利润如何分配。</p><p><br /></p><p>它掌握的是全球生产背后的配置权。</p><p><br /></p><p>而配置权一旦形成，释放的就不仅仅是中国产业的真正价值，还将实实在在地改变中国的就业结构。</p><p><br /></p><p>在制造时代，全社会的岗位以工人或工程师为主，就业结构其实非常单一，所能创造的高薪岗位也极其有限。</p><p><br /></p><p>但到了组织全球生产的时代，岗位类型会成倍展开。全球项目经理、供应链协调员、跨文化培训师、质量标准设计者、本地化运营专家等等，每一个新环节都在创造新的职业通道，就业结构会从单一走向多元，中国将进入以制造与生产型服务业双主导的阶段。而这些岗位的薪酬水平和职业前景都远高于传统制造岗位，并且它们不是从国内其他人手里抢来的，是从这轮产业转移的新需求中创造出来的。</p><p><br /></p><p>那么，中国凭什么能站到这个位置上？</p><p><br /></p><p>组织全球分散制造网络的核心其实是人与生态，需要的是大量处理过最高复杂度制造环境的人，以及在任何行业任何环节都能找到配套的产业生态。</p><p><br /></p><p>德国和日本擅长制造，但深耕品类不足，经验深却不广。印度和东南亚有足够多的人，但他们制造能力还太薄弱。美国在二战后曾有组织过全球制造的历史，但随着产业生态迁移，能力早已退化。</p><p><br /></p><p>因此，至少在这个欧美制造业还未回流，新兴经济体制造能力薄弱的窗口期，中国依然还是这个星球唯一具备这项能力的国家。</p><p><br /></p><p>而能否成为全球生产的组织者，同样决定了中国经济的下半场能走多远。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] Circle：业绩“虚胖”，渠道大户“反咬”下，做大生态是唯一出路</title>
-        <link>https://www.huxiu.com/article/4903167.html?f=rss</link>
-        <guid isPermaLink="false">98bf2887e04396ad8edc5c3a16530f44597ce408c1d508e9305d84742f5fe8ad</guid>
-        <pubDate>Thu, 05 Nov 2026 10:46:04 +0800</pubDate>
-        <author>海豚研究</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：深度拆解Circle三季报，揭示Arc代币一次性收入掩盖主业疲软，并分析渠道大户反咬的生态困境，数据扎实、洞察独到，具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzE5MTU3MzA2OQ==&amp;mid=2247579368&amp;idx=3&amp;sn=6355258dfdb54565bed1017c05054b98&amp;chksm=974249cb58fd69535eeb9e01f7b61c3f37e97e153d97e43937be80fc123b3ee6afcbee362d27#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 海豚研究 </span></a><span class="text-remarks">，作者：海豚君，原文标题：《Circle：业绩 “虚胖”，渠道大户 “反咬” 下，做大生态是唯一出路》</span></p><p><br /></p><p>Circle美东11月4日盘前发布了三季报。整体而言，本次业绩主要靠Arc代币销售收入来实现的“超预期”，但若剔除这部分后其实业绩一般，印证了资金在财报前的担忧。</p><p><br /></p><p>具体来看：</p><p><br /></p><p class="text-big-title" label="大标题">1、储备利息收入预期内下降</p><p><br /></p><p>Q3储备利息收入6.6亿，符合预期。在USDC市值同比增长8%的情况因利息同比下滑而减少了8%，环比看USDC在Q3平均流通规模733亿，相比Q2减少4%。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/1e322570-041a-4f51-9fbf-b9472ea7db6b.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/342c169b-c337-4927-84a9-473ee20a8530.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/280e2e6d-b89b-4e71-ab0d-c62ba7084a57.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/50522d1e-89ce-45c2-9d7b-e75bcb736d69.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">2、Arc代币销售确认节奏比想象中快</p><p><br /></p><p>Q3其他收入有2亿多，其中Arc代币销售收入就确认了1.8亿，确认节奏超出市场预期（预计0.9亿）和原先全年1.8亿的指引。</p><p><br /></p><p>不过这笔收入并不稳定可持续、更偏一次性的收入，从其他收入全年不变的指引3.1-3.3亿来看，预计Q4没有这笔收入。今年两轮预售合计2.24亿，Q3确认掉1.8亿后，还剩0.4亿将在明年确认。</p><p><br /></p><p>这笔Arc代币预售，吸引了众多机构资金。但这本质是对Arc公链这个资产未来收益的“股权认购”，但Circle把它先记为预收款，然后按Arc链产品开发进程，最终确认为收入。</p><p><br /></p><p>股权认购款=收入，本身就很诡异，无法给到靠谱的展望。除非持续的发代币“融资”，所以就是一次性的收入，不具备稳定可持续的业务特征。</p><p><br /></p><p>真正持续的收入要等2027年，来源是Arc的交易费、质押收入和CPN支付网络的收费。ARC预售只是提前把未来的一部分价值变现了。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/dcd445a7-b91b-438c-ae59-80ffa9e9729a.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">3、大渠道“反咬”，后续利息分成压力加大</p><p><br /></p><p>因为Arc代币销售基本无成本，因此1.8亿相当于纯利润，带来Q3当季利润的“虚胖”。如果提纯后，真实盈利趋势是往下的——由于收入减少，费用相对刚性，GAAP经营利润率3.9%环比Q2实际掉了1个点。</p><p><br /></p><p>不过，Q3业绩还反映了费用端因裁员带来的优化趋势。Circle的费用接近一半都是人员薪酬，因此经调整经营费用（剔除裁员补偿费用）环比下降5%，体现的是本季度内裁员5%。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/ebc3e1a4-aee0-49a2-981a-aca17e9a1afe.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>值得一提的是，从Q3季度起，利润端会逐步体现Hyperliquid分息影响。海豚君粗略计算，对于Circle来说，每年直接少掉的毛利润近1亿，最早Q4就开始明显体现这笔因渠道反抗带来的收益变动压力：</p><p><br /></p><p>Hyperliquid是最大的链上永续合约交易所，自己有一条公链。用户在上面交易要先存USDC做保证金，所以平台上沉淀着一大笔USDC，大约60亿美金。对Circle来说，这是交易所之外少数几个大体量的USDC沉淀池。</p><p><br /></p><p>在CLARITY法案不同利益方拉扯之际，从9月开始，Hyperliquid要求Circle将USDC所对应的储备利息进行返还。但因此Circle与Coinbase有约定好的分成协议——Coinbase平台内托管USDC拿走100%利息，Coinbase和Circle托管之外的USDC利息，Coinbase要分走50%。</p><p><br /></p><p>因此为了满足Hyperliquid的利息返还要求，就得走Coinbase通道。这样做的结果是：</p><p><br /></p><p>（1）Hyperliquid拿回绝大部分利息（预计90%）；</p><p><br /></p><p>（2）Coinbase和Circle分别少了50%的利息分成，多了这部分90%的USDC平台内托管规模（AUC），Circle留存10%；</p><p><br /></p><p>目前Hyperliquid生态内USDC总量为63亿美金，按3.5%算，储备利息收入为2.28亿每年，Hyperliquid要分掉其中的90%即2亿。剩下不到3000万的利息，Coinbase和Circle分掉。</p><p><br /></p><p>也就是说，原先可以确认2.28亿利息收入、1亿的毛利润（剔除发行成本、原本协议分给Coinbase50%的分成），最后变成到手只有1000万的毛利润。</p><p><br /></p><p>Q3毛利率52.4%，剔除Arc代币销售带来的纯利1.8亿之后，毛利率为39.5%，环比Q2已经能看到一些影响。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/fd6b1f90-8ae2-442b-b6a9-f9b7a9d92cfb.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>而USDC在Coinbase中的份额快速提高至30%，但分成收入在Circle分成成本中的份额反而快速下降到35%，也能印证Hyperliquid“反抗”带来的影响。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/f48e3e1b-6cc6-4987-a469-13910daeb56c.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/b0f5ca01-589d-4a08-bfea-249bd752b7cf.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">4、重要指标一览</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/b890e257-cd5a-44d7-a494-21c2e71d72a3.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p class="text-big-title" label="大标题">海豚君观点</p><p><br /></p><p>三季度业绩只是确认节奏差异带来的“虚胖”，因此并未带来真实的惊喜。</p><p><br /></p><p>指引上，收入、盈利均未改变。RLDC利润率（收入扣掉分发成本，类似于毛利率）全年保持在42%左右，算下来Q4毛利率大概下降至30%多，由此看到Hyperliquid带来的影响进一步加深。</p><p><br /></p><p>不过，Hyperliquid的事件因为是9月披露，并且影响可量化，因此市场应该基本priced-in。但风险点在于，以后是否会出现第二个Hyperliquid？</p><p><br /></p><p>除此之外，稳定币的竞争也在加剧。USDC的优势主要体现在美债抵押和合规性高，同时强绑定了与监管部门关系更硬、美国主要的中心化数字货币交易所Coinbase。</p><p><br /></p><p>但金融机构之间的博弈也在变化。随着USDC与Binance关系走近——Binance投资Circle 1亿美金的股权，扩大和续签双方的战略合作伙伴关系。</p><p><br /></p><p>虽然与Binance的合作主要是重点面向新兴市场，但难免也会对于Coinbase的关系产生微妙。而由Coinbase与一众传统金融支付链玩家一起推出的Open USD联盟币，也在9月30日上线。</p><p><br /></p><p>不过海豚君认为除了USDT，USDC相对联盟币目前仍有显著优势，联盟币反而可能因为利益方太多而形不成有效合力。相比而言，其他金融机构对Circle的掣肘更可能是类似于Hyperliquid这种渠道大户要求利息返还带来的风险和影响。</p><p><br /></p><p>因此尽管管理层对USDC流通额扩张的长期指引仍然积极（CAGR 40%增速），但短期甚至中期视角，都需要依赖本身Crypto市场的繁荣（USDC的主要场景），和USDC面对竞争的突围。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] Personal Agent，超级共识还是超级泡沫？</title>
-        <link>https://www.huxiu.com/article/4903165.html?f=rss</link>
-        <guid isPermaLink="false">7ee913ef96e0dc724398b0bf8671da197ed7bae8f287728969b4dde2b99fad28</guid>
-        <pubDate>Thu, 05 Nov 2026 10:42:37 +0800</pubDate>
-        <author>AIX财经</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以Muse千万用户数据为切入点，揭示个人智能体赛道技术无壁垒、估值分化、复刻周期仅三个月等反常信号，提供泡沫与共识的批判性分析框架，具备产业参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/n3UkQzT2iZX9COYpy__UGw" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> AIX财经 </span></a><span class="text-remarks">，作者：AIX财经团队，编辑：魏佳</span></p><p><br /></p><p>大厂、大模型公司、创业者疯狂押注。</p><p><br /></p><p>AIX财经（AIXcaijing）原创</p><p><br /></p><p>10月底，扎克伯格在Meta的财报会上披露，Muse上线约一个半月，在美国和加拿大已有超1000万人设置个人智能体。Muse于9月上线，当月Meta股价上涨约27%，创下2022年11月以来最佳月度表现。这家此前被认为在模型竞赛中落后的公司，靠一款消费级产品重新拿回了话语权。</p><p><br /></p><p>跟进者随即密集出现。阿里、腾讯、字节都已推出或在筹备自己的产品；OpenAI、Anthropic、xAI相继发布个人智能体；肖弘、齐俊元等打造过成功产品的创业者也带着新项目入场。资本同样在加注，只有14个人的Instinct，估值已达100亿美元。</p><p><br /></p><p>但这股热度里，有几处明显的反常。</p><p><br /></p><p>第一，技术几乎没有壁垒。Muse上线两周后，就有人发现其工作区文件名与开源项目OpenClaw相同，Meta产品负责人也承认“深受其启发”。多位从业者表示，同类产品三个月左右就能复刻。</p><p><br /></p><p>第二，估值差异很大。年化收入4亿到5亿美元的Manus，估值约40亿美元；尚未向用户收费的Instinct，估值却是它的两倍半。</p><p><br /></p><p>第三，声量走在产品前面。国内大厂动作频繁，但多数产品还没有进入大规模公开使用阶段。</p><p><br /></p><p>一个容易复制、尚无统一定义的品类，为什么能让几乎所有玩家同时下场？他们各自有什么长处和短板，又共同卡在哪里？这究竟是实火还是虚火，谁更有机会跑出来？</p><p><br /></p><p class="text-big-title" label="大标题">01.大厂、大模型、创业者都来了</p><p><br /></p><p>Personal Agent至今没有统一定义。Meta说它能理解用户目标、全天候替用户完成任务；Anthropic强调它知道何时该主动、何时该代表用户行动；肖弘的Cue给出的定义最激进，一个有独立手机号、邮箱、支付和电脑的智能体。说法各不相同，共同点是用户只提需求，找哪家、怎么办、怎么付钱，都交给AI。</p><p><br /></p><p>本文讨论的就是这一类产品：能长期记住用户的信息，主动安排事情，并在用户授权下跨多个App把事情办完。只会问答的聊天机器人、只做单次任务的工具，不在主要讨论范围内。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/de2f2c6f-c7de-4d52-8cea-58e02e14ab41.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>之所以让所有人坐不住，在于它可能改变用户找服务的方式。过去，用户打开App、比价、下单，流量和交易都留在平台上。以后，如果用户只对AI说一句话，由AI决定去哪家、怎么付款，很多App就会退到后台，变成被调用的服务。此前，有用户让Muse订住宿，它没有在Airbnb上下单，而是找到了直订渠道，最后比平台价便宜了约60%。就是一个例子。</p><p><br /></p><p>谁能替用户做选择，谁就可能握住下一阶段的流量分配和交易分成。三类玩家都想占住这个位置，出发点却各不相同。</p><p><br /></p><p>第一类是大厂，也是投资人和从业者短期最看好的一方。Meta的Muse已经上线；阿里推出了千问Go；腾讯布局小微，另有LightVela、Handy Bot两款产品；字节在筹备Spell。</p><p><br /></p><p>大厂的优势在于有现成的生态，用户、账户、支付都在自家体系里，不必从零拉新，也不必另接支付。落到产品上，一种做法是把Agent直接放进现有App，比如腾讯的小微长在微信里，另一种是有独立App，再依靠自有生态导流，比如Muse。</p><p><br /></p><p>功能上，大厂也先从自家生态做起。小微打通微信原生功能、小程序和生活服务；Spell被视作豆包手机助手能力的延伸；Muse连接WhatsApp、Instagram和Messenger，还接入Stripe支付，并拓展沃尔玛等商户，试图覆盖从下达指令到完成支付的全过程。</p><p><br /></p><p>对大厂来说，这件事既是进攻，也是防守。自己不做，用户的需求就可能被别人的Agent接走。一位投资人表示，国内大厂很难简单复制Muse，但这个方向必须跟，“跟不了第一，也不能缺席。”</p><p><br /></p><p>第二类是大模型公司，代表产品包括OpenAI的Dots、Anthropic的Duet和xAI的Grok Bot。</p><p><br /></p><p>它们最强的是模型，但焦虑也来自模型。如果用户最终都在Muse这样的应用里调用模型，模型厂商就只是后台供应商，可能只收算力费用，交互、数据和订阅关系则留在应用层手里。对这些公司来说，推出Personal Agent是避免退化为后台供应商。</p><p><br /></p><p>三家的产品都侧重工作场景，Dots依托ChatGPT插件生态，可连接超4000款应用，适合跟踪资料、维护代码、同步项目材料；Duet提供6000多个连接器，覆盖Gmail、Slack、QuickBooks等工具，面向邮件、日程、财务和客户事务；Grok Bot强调多智能体协作，并与X深度结合，更适合内容、运营和调研任务。</p><p><br /></p><p>选工作场景，是长处也是无奈。工作软件大多开放接口，模型公司的工具连接能力用得上；而生活里的订餐、出行、购物，入口和支付都握在平台手里。模型公司没有自己的消费场景和支付体系，很难从这里切入。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/5fcf17c9-dcb7-49a4-9ea0-c93888d5ceb9.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">图源/Unsplash</p><p><br /></p><p>第三类是创业公司，它们没有生态，也不掌握最强的模型，产品形态差异最大，更依赖创始人的判断。AI投资人肖晓表示，他的投资标准有两条，有相关成功产品，或者是天才创始团队。头部几家正好分属这两类。</p><p><br /></p><p>肖弘属于前者。Manus曾经以超过20亿美元身价出售给Meta，交易被叫停、公司赎回独立后，团队推出了Cue。它给每个AI配置独立邮箱、手机号、钱包和云电脑，让它以数字主体的身份替用户办事，比如接房东的续租电话，或在预算内完成付款。</p><p><br /></p><p>Today AI创始人齐俊元也属于前者，他曾做出过Teambition，还历任阿里云盘负责人、飞书产品副总裁、豆包PC端负责人，于2025年11月离职创业。他的Today AI全球版与Muse同日上线，主打活记忆和主动性，通过记住用户的项目、联系人和未完成事项，生成早晚简报并跟进任务。</p><p><br /></p><p>Noah Shinn属于后者。他今年23岁，曾在美国东北大学同时学习化学与计算机科学，2023年辍学创业。他的Instinct没有独立App，只用短信、电话、iMessage、WhatsApp等已有通道交互，会发短信就能用。这家公司只有14个人，估值100亿美元。</p><p><br /></p><p>头部之外，还有一批小团队从更窄的场景切入。比如面向内容创作者的UniCone，从授权的屏幕和聊天记录里整理素材、拆解任务；理旦则把语音、截图和聊天记录转成待办。这些产品一部分还尚未成型，团队也很精简。</p><p><br /></p><p>三类玩家的起点不同，大厂从用户和支付出发，模型公司从模型和工具连接出发，创业公司从产品设计和具体场景出发。但要做成一个真正替用户办事的Personal Agent，它们都面临同样的关卡。</p><p><br /></p><p class="text-big-title" label="大标题">02.技术通用，三道难题行业解不了</p><p><br /></p><p>产品已经不少，为什么还没有一家做出完整的生活助手？</p><p><br /></p><p>多位从业者认为，各家的差距并不在底层技术。港科大博士杨智钦表示，许多Personal Agent与OpenClaw采用相似的基础技术范式，即由大语言模型驱动工具调用和多步执行。各家的差异体现在工具与数据接入、记忆和上下文管理、执行可靠性、权限机制，以及面向不同用户的产品设计上。开发者伯克希也表示，从工程实现的角度看，各家底层差异有限，不同更多体现在面向什么用户、怎么设计产品。</p><p><br /></p><p>真正的难点是，Personal Agent要长期理解一个人，并在没人盯着的情况下主动替他办事，这一步还很早，主要因为三道难题。</p><p><br /></p><p>第一道是可靠性。</p><p><br /></p><p>假设各步骤相互独立、单步成功率均为95%，一个20步的任务全部成功的概率只有约36%。编程Agent写错代码，可以由开发者纠正，任务Agent跑偏流程，也可以由人盯着。Personal Agent的价值恰恰在于减少人的介入，一旦涉及付款、交易和隐私数据，出错就是真金白银的损失。</p><p><br /></p><p>Meta曾在内部测试中让真人承包商处理部分电话任务，随后暂停了这一做法，说明现有技术还撑不起用户完全放手。</p><p><br /></p><p>用户对风险的容忍度同样有限。资深AI产品经理小杨甚至表示，只有产品带来的便利达到他对数据安全顾虑的三四倍，他才愿意使用。现在还没有产品让他达到这个临界点。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/8ad6f6a7-94ca-41f5-a989-efc34c0f5a14.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>第二道是平台互通。</p><p><br /></p><p>Agent要替用户办事，就得进入别家的App、调用别家的数据，而大平台没有理由主动放行。Agent的一大价值是替用户绕开中介、找到更便宜的选择，这恰恰动了平台的利益。Agent越能替用户省钱，被绕开的平台就越不愿让它进来。</p><p><br /></p><p>此前，豆包手机助手发布“拒绝操作应用清单”，超150款APP明确拒绝豆包手机端AI智能体对其进行操作，包含微信、QQ、淘宝、天猫、美团、支付宝等多个国民级APP。海外的亚马逊也曾封禁Muse的代购访问。一位Today AI的用户告诉我们，自己让Agent挂号、缴费、订酒店、买机票，结果一个都进不去。</p><p><br /></p><p>行业正在寻找协议层面的解法。Meta与Sierra牵头，联合Stripe、沃尔玛等推动智能体协议，国内也有机构在推进互联标准。但互通不仅是技术问题，还涉及数据归属、流量分配、商业利益和安全责任，短期内很难解决。</p><p><br /></p><p>第三道是成本。</p><p><br /></p><p>Personal Agent要长时间在线，并持续保存和调用个人上下文。不止一位从业者表示，其推理成本可能高于编程Agent。</p><p><br /></p><p>投资人老钱表示，自己每天仅在工作和编程上的token消耗就接近10亿，如果生活场景全部接入，消耗还会大幅增加。而且，前两道难题会继续推高成本，可靠性不足，需要增加人工兜底；平台互通不畅，需要依靠截图识别等绕路方式操作，又慢又费算力。老钱的评价是，现阶段的Personal Agent“又费Token，又不够精准”。</p><p><br /></p><p>在没有通用解法之前，各家的办法都是把风险往小了压：有的产品先接低风险待办任务；有的产品规定关键步骤必须由真人确认；UniCone把数据存在本地并公开代码，让用户自己检查。</p><p><br /></p><p class="text-big-title" label="大标题">03.需求是真的，产品还在很早期</p><p><br /></p><p>可靠性、平台互通、成本，短期内都看不到通用的解法，可玩家和资金仍在一窝蜂地涌进来，这会不会又是一轮虚火？</p><p><br /></p><p>综合多位从业者的观点，需求已经出现，但产品还在早期。</p><p><br /></p><p>实的一面在需求。Muse一个半月吸引了超过1000万人设置，但这个数字有Meta自家应用导流的成分。更有说服力的是，有人愿意掏钱。据Instinct创始人Shinn在播客中自述，其用户注册三周内绑卡率达40%，授权用户留存率超过80%，产生购买的用户月均消费超过1300美元，平台年化交易额接近10亿美元。</p><p><br /></p><p>小杨表示，绑卡率、留存率和复购，是观察这类产品需求的重要指标。如果这些数据属实，说明已经有一批用户愿意把钱包交给AI。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-05/d378cc12-e10f-4599-8adc-2f7f0fed601d.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">Cue界面</p><p><br /></p><p>虚的一面在估值和产品。</p><p><br /></p><p>需求刚刚冒头，公司之间的估值差异已经巨大。</p><p><br /></p><p>Instinct估值100亿美元，是年化收入4亿到5亿美元的Manus的两倍半。但两家公司收费方式和收入结构不同，Manus更受关注的是年化收入运行率，Instinct披露的则是平台交易额，不等于公司收入，还需要考虑抽佣率和履约成本。</p><p><br /></p><p>一位曾任职华尔街对冲基金的投资人表示，目前Personal Agent还没有公认的估值方法。市场给这类公司定价，除了看收入，还包含增长预期、入口价值和未来交易抽佣空间。</p><p><br /></p><p>老钱提醒，国内AI应用公司的估值主要看收入增速，但Personal Agent用户基数低，早期增速天然好看，这一标准本身存在缺陷。投资人肖晓则认为，这类公司的估值普遍偏高，资金集中涌向这一赛道，不完全是因为产品已经得到验证，也在于AI行业目前缺少新的C端故事，而Muse恰好提供了一个海外样本。</p><p><br /></p><p>产品形态同样处于早期。</p><p><br /></p><p>曾在腾讯微信事业群和谷歌工作过的尚晋，是主流PersonalAgent产品的资深用户，他根据自身体验列出八条及格线：像人、触手可及、一直在、个性化、主动、克制、能闭环、保护隐私，目前大多数产品无法全部满足。他用下来，觉得Today AI和Dots的交互仍不够自然，最终留下的是Instinct和Muse，但这两款产品也没有达到理想状态。</p><p><br /></p><p>现在还看不出赢家，那谁可能最先跑出来？短期看，受访投资人和从业者更看好大厂。</p><p><br /></p><p>部分用户认为，大厂在安全、合规和问题兜底上更值得信赖；大厂生态能够提供更多接口和场景；面对高昂的算力与运营成本，大厂也更有承受力。投资人Mingke曾公开表示，做通用Personal Agent真正难的不是Agent本身，而是商业模式，流量从哪里来，如何与供给侧合作，交易怎样完成，最终由谁付费。</p><p><br /></p><p>终端厂商则是另一股变量。</p><p><br /></p><p>苹果、华为尚未推出与Muse同形态的独立产品，但它们掌握硬件、操作系统和端侧数据。目前主流Personal Agent主要依赖云端，一种可能的方向是把轻量任务放到手机本地处理，既降低算力成本，也减少隐私数据外传。</p><p><br /></p><p>老钱表示，如果这个方向成立，Personal Agent就可能从完全依赖云端的分身，转向云端与端侧协同。随着端侧模型能力和硬件条件成熟，手机厂商的竞争力也会随之提升。不过，发热、内存和本地模型能力仍是现实限制。豆包手机的遭遇也说明，即便拿到系统层面的权限，App照样可以说不。</p><p><br /></p><p>创业公司的机会，在大厂不方便做或做不了的地方。它们的关键，是建立能够被用户感知、并让用户愿意付费的差异化，例如服务特定人群，比如创作者；或者把数据留在本地、开放代码，在隐私上给出大厂给不了的承诺。这类产品可能做不大，但有机会在细分场景里站住，或者成为被收购的对象。</p><p><br /></p><p>对于这个还没有定型的赛道，老钱的态度很有代表性：“我看好，但我不下注。”在不少从业者看来，创业公司可能要试十个、二十个场景才能跑出一个，跑出来之后能不能赚钱，又是另一道关。</p><p><br /></p><p>*题图来源于Unsplash。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] “授权即自担责任”的合同实验：富国银行首次将AI智能体责任转移至用户</title>
-        <link>https://www.huxiu.com/article/4903159.html?f=rss</link>
-        <guid isPermaLink="false">e52fad986959f4c57c129a6a5301034163746f66b783ba2d6159f0d929ca269a</guid>
-        <pubDate>Thu, 05 Nov 2026 10:50:38 +0800</pubDate>
-        <author>互联网法律评论</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：深入拆解富国银行AI责任条款的法律与技术逻辑，揭示银行无法区分用户与AI代理的认证困境，对AI金融责任归属有长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/H02xj3-U756PR23B6o7iRg" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> Internet Law Review </span></a><span class="text-remarks">，作者：Joshua&nbsp;Mitchell</span></p><p><br /></p><p>2026年11月24日，富国银行新版《在线访问协议》将正式生效。其中新增的第15条引发了广泛的关注：若用户授权第三方AI之恩给你提试用期网银凭证访问账户，则智能体发起的任何指令与交易，均可能被视为用户本人直接作出的行为，相关风险由用户自行承担；而富国银行不承诺对智能体行为进行监控，并保留随时限制或阻止特定工具接入的权利。</p><p><br /></p><p>这一条款被部分媒体夸张地解读为“银行第一次将AI犯错的责任完全转嫁用户”，虽然这种说法并不完全，但其背后的法律逻辑值得深入审视。</p><p><br /></p><p class="text-big-title" label="大标题">一、技术前提：银行无法区分“用户”与“用户的AI”</p><p><br /></p><p>传统网上银行的安全模型建立在一条基础假设之上：能够正确输入用户名、密码及验证码的主体即为账户持有人。但AI智能体的出现，打破了这一假设。</p><p><br /></p><p>当一个AI代理使用用户的凭证登录时，从银行认证系统的角度看，其与本人在键盘前的操作几乎毫无区别——相同的会话令牌、权限层级、账户视野。银行目前不具备密码学层面的技术手段区分用户本人的直接操作、经用户授权的第三方AI代理操作、窃取凭证的恶意程序操作。</p><p><br /></p><p>由此引出一个关键的法律处理方式：既然技术上无法区分主体，便通过合同将AI智能体行为“视为”用户本人的行为。富国银行第15条的核心正在于此——以合同约定固化“智能体即用户”的法律关系。</p><p><br /></p><p>不过这类合同能够写入合同，关键在于美国《电子资金转移法》（Electronic Fund Transfer Act）配套规则Regulation E所遗留的解释空间。</p><p><br /></p><p>Regualtion E对“未经授权的交易”（unauthorized transfer）设有消费者保护机制。在及时报告的前提下，用户因盗刷所承担的责任上限通常较低。如果在2个工作日内报告，责任上限是50美元，60天内则为500美元。更重要的是，该规则对“未经授权的交易”作了明确定义：由消费者以外的、未经消费者实际授权的人发起的交易。同时，该定义明确排除了“由消费者向其提供了访问设备的人发起的交易”，将此作为例外。</p><p><br /></p><p>也就是说，当用户将网银用户名和密码提供给AI智能体，或授权某一应用程序代为登录，按照该规则的文义解释，用户已经“提供了访问设备”。AI智能体并非未经授权的入侵者，而是持有用户凭证的授权使用者。若代理随后发起了用户未曾意图的交易，银行的法律论点是：用户将自己的钥匙交给了他人，用户应当为此承担责任。</p><p><br /></p><p>消费者银行家协会（Consumer Bankers Association）在2026年1月的白皮书中明确指出这是“该领域的核心教义问题”：若消费者授权AI智能体访问其银行账户并发起交易，消费者是否“提供了”访问设备，从而触发Regulation E的例外条款？</p><p><br /></p><p>截至目前，尚无法院或监管机构对此问题作出明确裁决或解释。富国银行新版协议的第15条正式以合同形式，预先确立了银行的立场。</p><p><br /></p><p class="text-big-title" label="大标题">二、行业分化：封堵路线与开放路线</p><p><br /></p><p>在同一时期，美国其他大型银行却采取了截然不同的策略。摩根大通、美国银行、花旗、嘉信理财均选择限制或拦截第三方AI智能体登录，强调资金转移必须有人类参与。富国银行则选择了不设硬性阻拦，允许智能体接入，但通过合同将责任前置至用户一侧。</p><p><br /></p><p>两种路线反映了不同的商业判断。选择封堵的银行的逻辑是：在身份识别与范围授权标准成熟前，如果允许AI智能体操作资金账户，等同于引入不可控的风险；富国银行的逻辑是：智能体接入是未来金融服务的流量入口，先占据场景，再用合同将潜在风险损失隔离。</p><p><br /></p><p>富国银行选择将新版条款于2026年11月24日生效，恰是黑色星期五（11月27日）之前。这也正是其上述商业逻辑的体现。感恩节后的几天是美国零售支付活动交易量最高的时期。AI购物智能体—旨在寻找优惠、完成购买和管理退货且无需人工审核的工具——正积极向消费者推广，这是富国银行要抓住的关键时间节点。</p><p><br /></p><p class="text-big-title" label="大标题">三、技术解法：范围化委派授权</p><p><br /></p><p>这个问题的技术解决方案其实并不神秘，思路也很清楚：不让AI智能体拿到用户的主密码，而是发给它一把“限定了用途的临时钥匙”。这把钥匙只能做某一件具体的事——比如“支付本月电费账单”，但不能“把所有存款转到另一个账户”。每一把钥匙都有明确的失效时间，用户可以随时撤销，而且撤销行为本身可以被记录和证明。</p><p><br /></p><p>这套思路在技术圈里有一套现成的工具。OAuth是一种授权协议，可以让用户授权第三方应用访问自己的部分数据，而不必交出密码。在这个基础上，还有更精细的扩展：富授权请求（Rich Authorization Requests）允许用户指定“只能付哪张账单、金额上限是多少”，背通道认证（back-channel authentication）允许用户在另一台设备上独立确认“是的，这笔交易是我批准的”。这些工具在规范层面都已经存在，在一些非金融领域也有实际应用。</p><p><br /></p><p>但问题在于，从“规范存在”到“银行把它建成可靠的生产系统”，中间隔着巨大的工程鸿沟。美国主要银行的核心交易系统大多建于上世纪八九十年代，改造它们需要数年时间和巨额投资。更重要的是，目前没有任何监管规则强制银行这样做——CFPB的开放银行规则因为诉讼被暂停，而且那条规则原本也只管数据开放，不管交易授权。没有监管压力，没有大规模损失案例，银行没有动力去启动这项改造。</p><p><br /></p><p>2026年10月，Meta和Sierra联合发布了“个人代理协议”（Personal Agent Protocol，代号Poppy），试图在OAuth之上建立一个专门针对AI代理的授权标准。富国银行是参与设计的早期银行之一。但这份协议目前仍是草案，版本号0.2，明确写着“任何部分都可能不向后兼容地变更”，而且支付功能被排除在核心范围之外。换句话说，它距离成为银行可以依赖的生产级基础设施，还有相当长的路要走。</p><p><br /></p><p>所以，真正的情况是这样的：技术方案已经有了蓝图，但银行端的工程改造尚未启动，监管推动力暂时缺失，行业标准还在草案阶段。在这段空窗期里，AI智能体只能继续走“借用用户密码”这条路——而富国银行的第15条，正是在这段空窗期内抢先落地的合同安排。</p><p><br /></p><p class="text-big-title" label="大标题">四、与中国市场的对照</p><p><br /></p><p>对中国读者而言，这件事的参照意义更为清晰——国内的规则起点不是“把责任推给用户”，而是“先把责任锚定在持牌机构”。</p><p><br /></p><p>2026年8月24日，中国支付清算协会发布《智能体支付应用自律公约》，是国内首部针对智能体支付的专项行业规则。公约第五条确立“谁提供支付服务谁负责”原则：凡涉及账户管理、交易处理、资金清结算等核心环节，必须由银行业金融机构、非银行支付机构、清算机构等持牌主体开展，并对用户资金与信息安全承担主体责任。在身份治理上，公约要求在传统KYC之外“探索建立KYA（了解你的智能体）”机制，对接入支付链路的智能体进行身份识别与验证，明确智能体与用户之间的对应关系，并按风险等级实施分级管理。授权层面，要求划定清晰的授权边界、签订责任协议、通过交易限额控制资金风险；自主发起支付前须向协会报备并接受业务、技术、伦理评估；关键交易节点须留存可验证、可追溯的证据链，用于争议处理与责任认定。</p><p><br /></p><p>在治理理念层面，工商银行行长刘曾提出一个更具穿透性的框架：银行面对AI，第一个问题不是“怎么用”，而是“它是谁、谁受益、谁担责”。他借用区块链“证明”机制的语言，提出“收益证明”——谁从智能体部署中获得收益，谁就独立承担相应责任。这一思路虽属业界治理讨论，尚未转化为监管条文，但与公约“持牌机构主体责任”的底层逻辑相互呼应。</p><p><br /></p><p>对照富国银行第15条，差异一目了然：美方条款把“收益归银行、风险归用户”合同化；国内公约则试图把“风险随服务走、责任随收益走”作为起点。前者是责任真空期的过渡安排，后者是试图在真空期之前就把责任骨架搭好的治理尝试。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] OpenAI details a pipeline that used an upcoming cyber model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2M in API costs (OpenAI)</title>
-        <link>https://www.techmeme.com/261104/p62#a261104p62</link>
-        <guid isPermaLink="false">30e869dcf9c372e7762f2b70b8ea47df930744d4dfd09eef4a02aaae4c697ab3</guid>
-        <pubDate>Wed, 04 Nov 2026 21:50:01 -0500</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：披露AI自动化漏洞挖掘与修复的完整管线：948个Linux本地提权漏洞、120万美元API成本，验证了安全研究从个案调查转向系统化流程的可行性，对AI安全工程化有长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <a href="https://openai.com/index/a-thousand-fewer-paths-to-root"><img align="RIGHT" border="0" hspace="4" src="http://www.techmeme.com/261104/i62.jpg" vspace="4" /></a>
-<p><a href="https://www.techmeme.com/261104/p62#a261104p62" title="Techmeme permalink"><img height="12" src="http://www.techmeme.com/img/pml.png" style="border: none; padding: 0; margin: 0;" width="11" /></a> <a href="https://openai.com/">OpenAI</a>:<br />
-<span style="font-size: 1.3em;"><b><a href="https://openai.com/index/a-thousand-fewer-paths-to-root">OpenAI details a pipeline that used an upcoming cyber model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2M in API costs</a></b></span>&nbsp; &mdash;&nbsp; Security research that once required a separate, sustained investigation for each finding can increasingly be run as a systematic process.</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 一场“存在主义危机”，正在席卷科学界</title>
-        <link>http://www.infzm.com/contents/343978</link>
-        <guid isPermaLink="false">c254666b68a0505e70f488e06c76814bc3070b313bb633ea51a6ef65f2a942b7</guid>
-        <pubDate>Wed, 04 Nov 2026 06:25:08 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以AI生成数学成果冲击学术共同体为切口，呈现科研范式与知识验证机制的深层张力，信息密度高，具长期讨论价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-04 14:00:00</i></div><p><img alt="的" border="0" height="1281" src="https://images.infzm.com/cms/medias/image/26/11/03/42f0827a81.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">人形机器人在科学实验室参与科学研究，创意图。视觉中国丨图</p>
-<p style="text-align: justify;">有个数学问题，刘宇航从2019年就开始思考了，一直没什么思路。2026年夏天，他决定交给AI试试。</p>
-<p style="text-align: justify;">那时他刚借到朋友的ChatGPT Pro版账号，没给具体方向，只让GPT自己试。一两个小时后，模型发来一篇论文。</p>
-<p style="text-align: justify;">这个问题此前已有顶级数学家长期探索。刘宇航把模型给出的结果发给相关学者讨论，再根据反馈继续追问。一个原本停滞多年的问题，出现新的进展。</p>
-<p style="text-align: justify;">2026年10月，OpenAI公开了一批由内部前沿模型生成的数学手稿，归纳为数百组结果。大量数学结果同时涌入数学家的视野，要证明是否成立，需要进一步验证。更大的问题是，AI生成数学结果的速度越来越快，数学共同体是否有足够时间理解、检验并吸收它们。</p>
-<p style="text-align: justify;">一个月前，类似问题已经摆到数学家面前。9月11日，陶哲轩等25位菲尔兹奖得主联合发表《人工智能在数学中的严重错位》，声明并非拒绝AI进入数学，而是提醒人们，数学的价值不只在解决问题，也在求解过程中产生的新思想、新方法，以及这些知识如何在人与人之间被理解、传播、延续。</p>
-<p style="text-align: justify;">类似的震荡也在实验室里发生。人工智能AlphaFold根据蛋白质的组成，预测它在空间中折叠成什么形状，给研究疾病和药物的科学家提供了新线索。两位主要开发者因此获得2024年诺贝尔化学奖。在化学实验室，机器已经能自己动手。2026年4月，荷兰阿姆斯特丹大学团队公布的系统，能加液、混合，每做完一轮，还能根据结果调整下一轮的配方。一项测试中，它找到的新方案只需两分钟，得到目标产物的比例，与此前一种耗时五小时的方案相近。</p>
-<p style="text-align: justify;">不过，这些进展还没有成为每间实验室的日常。中山大学实验物理博士陈旭衡，每天在跟温度、气压和原料比例较劲，生长一种又一种晶体材料。他来说，AI要深入实验，还差得远。</p>
-<p style="text-align: justify;">但陈旭衡已经能看见那道影子。他们做材料的，大量工作是重复劳动，在实验室一蹲十几个小时，改条件、等结果。他认为，这种活儿，早晚会被AI替代。</p>
-<p style="text-align: justify;">在燕山大学理论物理研究员李军的课题组里，变化来得更全面，从理论方案搭建到实验数据分析，再到文本构建、润色，AI已经嵌进了科研流程的各个环节。</p>
-<p style="text-align: justify;">在科幻小说《三体》中，入侵地球的外星文明，干扰人类的科学实验，科学家丁仪说了那句著名的“物理学不存在了”；现实中，AI闯进实验室，科学家最担心的事，正在发生。</p>
-<p><img alt="的" border="0" height="824" src="https://images.infzm.com/cms/medias/image/26/11/03/36c116d5ae.jpg" width="1355" /></p>
-<p style="color: #999999; text-align: center;">电视剧《三体》（2023年）中，呈现原著小说所提及的在中国良湘进行粒子对撞实验的高能加速器。资料图</p>
-<h4>混战警告</h4>
-<p style="text-align: justify;">刘宇航从那道线性代数问题上，切身感知到了模型能力的变化。AI先给出了六维情形的解。六维是这个问题有意义的最低维数。刘宇航把结果发给一名研究该问题的数学家看，对方认为六维结果有一定价值，但并不特别出乎意料。刘宇航继续追问更高维情形，模型随后在26维构造出反例。</p>
-<p style="text-align: justify;">这意味着，六维情形成立，但在足够高的维数里，原来的结论并不成立。刘宇航再把反例发给那位教授。对方原本以为结论对所有维数都成立，看到反例后改变了看法，他认为，AI几乎把这个问题完全解决了，只有中间维数尚未解决。</p>
-<p style="text-align: justify;">让刘宇航印象深刻的，还有AI寻找反例时采用的方法。它用到了概率论，这通常不是数学家首先会想到的路径。刘宇航认为，AI能够调动不同领域的知识，融会贯通，技术能力很强。</p>
-<p style="text-align: justify;">潘佳垠是理论数学里奇曲率方向研究者，加州大学Santa Cruz分校副教授。OpenAI一夜之间甩出722份数学手稿的消息传到他那里时，系里正在开会。同事们多少有预期，因为手稿发布前，消息已经传了一阵子。但真看到那七百多篇论文时，一位教授发现，自己正在做的一个问题，被AI做出来了。他发出警告，当这个内部模型公开发布时，将会引发一场毫无节制的混战。</p>
-<p style="text-align: justify;">潘佳垠目睹了这场狂飙突进。2026年年初，他还觉得AI能做一些研究生水平的题目，但没觉得它很快就能自主做科研。结果不到一年，OpenAI先是透露，内部模型尝试证明十道研究级数学问题，并称根据专家反馈，其中至少五份很可能正确。到了9月，OpenAI宣布，其内部系统给出了千禧年难题之一“纳维–斯托克斯方程解的存在性与光滑性问题”的一个证明。</p>
-<p style="text-align: justify;">但此事很快引发争议。纽约大学数学家巴克马斯特公开质疑，OpenAI是否使用了他们输入Codex的研究材料，并披露双方围绕成果发布安排的交涉。OpenAI随后否认。</p>
-<p style="text-align: justify;">陶哲轩等25位菲尔兹奖得主随后发表声明，警告AI企业急功近利的做法正在伤害数学研究。有数学家形容，此事在数学界引发了一场“存在主义危机”。</p>
-<p style="text-align: justify;">AI治理研究者周卓然曾任阿里云产品经理，熟悉大模型行业衡量能力的方式。企业用一套标准化测试，把不同模型放到同一把尺子下比较、排名，“就像高考一样”。</p>
-<p><img alt="的" border="0" height="1281" src="https://images.infzm.com/cms/medias/image/26/11/03/e984cdccd0.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">机械臂正在晃动烧杯里的液体。视觉中国丨图</p>
-<p style="text-align: justify;">但在她看来，模型解出更难的问题，与科学共同体从中获得新的知识，不是同一件事。“科学共识是需要时间的。”前者可以迅速成为能力展示，后者却需要研究者反复检验、讨论，把新方法与已有知识连接起来。</p>
-<p style="text-align: justify;">潘佳垠认为，这种生态的转变任何人都无法逆转。他注意到，今年arXiv预印本网站上的论文比以前多了，作者中也出现了业余爱好者、本科生。愿意花钱使用AI，就可能获得一个很好的结果，有的人还没认真读过，便把文章放了上去。</p>
-<p style="text-align: justify;">平台也开始应对这种增长。arXiv公布的数据显示，2026年9月收到四万余次投稿，较两年前翻倍。10月1日起，平台将每位提交者的投稿量限制为每个自然月两篇，希望给志愿审核人员减轻负担。</p>
-<p style="text-align: justify;">潘佳垠时常担任论文审稿人。他说，审稿周期本来就很慢，如果杂志让他审一篇AI生成的文章，他可能不愿意。“这个作者可能自己都没有理解这个东西，我花的工夫可能比作者还多，我为什么要去审？”</p>
-<p style="text-align: justify;">过去没有AI，理解一个问题和写出一篇论文，基本是一件事。潘佳垠说，现在这两件事开始分开了。</p>
-<h4>倒置</h4>
-<p style="text-align: justify;">AI把结果交出来，并不意味着它已经成为知识。正如潘佳垠所说，数学问题绝大多数情况不是一下就能解决的，需要个人或团队一步步推进，慢慢加深理解。</p>
-<p style="text-align: justify;">刘宇航在使用中也逐渐意识到，验证这一步不能省。AI给出证明后，他没有立刻理解全部推导。“它一两个小时输出的，你可能要看一个礼拜才能想明白它的思路，以及验证它为什么是对的。”他说。</p>
-<p style="text-align: justify;">周卓然将AI带来的深层变化概括为“知识结构倒置”。4月，她所在团队发布了一份12万字的报告，其中大量数据分析交给AI完成，后来回溯时，发现了一些问题。过去，研究者先完成思考过程，再形成结果；生成式AI出现后，人更容易直接拿到结果，却也可能让人减少对中间步骤的关注。</p>
-<p style="text-align: justify;">中国科学院自动化研究所研究员徐楠也特别强调研究过程中的隐性经验。他深度参与研发的“磐石”，是面向科学基础研究的大模型。在他看来，科学研究中值得留下的，不只是科学家最终做出了什么，还包括他们为什么选择一条路径、放弃另一条路径，以及支撑判断的证据。只有把这些科研决策过程记录、积累下来，才可能转化为模型可以学习和传承的经验。</p>
-<p><img alt="的" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/03/c462499343.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">广东东莞的中国散裂中子源科学设施内部，工作人员2021年4月15日在搭建谱仪的屏蔽体。视觉中国丨图</p>
-<p style="text-align: justify;">李军团队从2022年开始构建超导体电子结构数据库，2024年完成第一版，此后继续补充数据。到目前为止，他们还没有用AI搜集这些数据，每一篇文献都由学生手动核实，工作量很大。</p>
-<p style="text-align: justify;">李军认为，未来科研评价不能只看论文数量和期刊，还要看数据是否可验证、模型是否可重复、代码能否运行，以及实验流程和结果能否复现。他也提醒，AI发现和生成结果的速度，已经远超人类核实、理解、消化的速度，怎么检查、修正，再让可信的结果进入知识体系，变得尤为紧迫。</p>
-<p style="text-align: justify;">陈旭衡在实验室里看到的，是另一番景象。他的导师曾尝试推动实验自动化，但因为缺少相关人才，已经“差不多放弃了”。在这个链条里，AI目前还只出现在边缘。陈旭衡期待未来有公司能提供定制的自动化实验系统，让机器改变条件、生长材料、进行测量，再从结果中寻找规律。</p>
-<h4>谁的工作被看见</h4>
-<p style="text-align: justify;">谈到团队开发的超导预测模型，究竟帮了实验研究者多大忙，李军的回答很直接：“并没有帮助到。”</p>
-<p style="text-align: justify;">团队用模型筛选潜在超导材料，但团队外的实验研究者对这些预测存有疑虑，仍在沿用原来的试错方式。</p>
-<p style="text-align: justify;">更重要的是把预测的超导体真正生长出来，这个过程全靠人工。陈旭衡将晶体生长的场景形容成“烤肉”：实验人员先将合成目标晶体所需的原料压成一根“料棒”，再把它放在与目标材料结构相似的“晶种”上，一起送入光学浮区炉。炉内充满惰性气体，激光从料棒根部开始加热。料棒缓慢旋转，“像土耳其烤肉一样”，受热的部分逐渐融化。随着热源从根部向上移动，融化的原料逐渐冷却，最终生长成目标单晶。最后的环节，要耗费好几个小时。</p>
-<p style="text-align: justify;">实验需要投入大量时间和经验，李军希望科研评价能够更多地关注到这部分工作。如果AI能够产生海量论文，而评价仍只是数论文、看期刊，就会激励更多“灌水”。</p>
-<p><img alt="的" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/03/86c66e0cb7.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">李军的实验室，其中包含研究超导材料光谱的实验装置。受访者供图</p>
-<p style="text-align: justify;">徐楠关心的是，一项成果背后，不同环节的贡献怎样辨认。他注意到，一些企业宣传基于大模型的AI for Science科研成果时，“科学家的贡献被淡化了，大模型成了主角”。</p>
-<p style="text-align: justify;">提出问题、加工数据、开发模型和工具、完成实验，都可能对一项成果有贡献。在徐楠看来，如果能够更完整地记录科学家和AI各自发挥的作用，将有助于理解成果是如何形成的，也便于后续检验和复核；也需要明确，如果结论出错，由谁承担责任。</p>
-<p style="text-align: justify;">潘佳垠的一位合作者，把一个问题交给AI，得到了一篇二三十页的文章，问题被解决了。合作者把文章整理后放到arXiv上。潘佳垠后来问他，打算向期刊投稿吗。对方说，不打算。</p>
-<p style="text-align: justify;">这件事让潘佳垠想到自己。如果花200美元，让模型跑出一篇40页的论文，他该怎么办？把它发出去，并不困难。但他会犹豫，是否要把自己的名字放上去。“我当数学家，并不是说我要去通过这个‘抽卡’来得到更多的结果，这并不是我想要的数学家的生活或者工作呀。”潘佳垠说。从构思问题、有一个初步想法，到一点点把东西拼起来，发现哪里有问题，再回头补，过去他享受的是这个过程。</p>
-<p style="text-align: justify;">个人可以作出选择，评价体系却不能回避。潘佳垠设想过一个招聘场景：一个刚毕业的博士，拿着20篇AI生成的论文，结果很好，他自己也都理解；另一个人只有两篇，自己做出来的，结果却没有那么好。该聘用谁？</p>
-<p style="text-align: justify;">在他看来，读懂一篇新论文、把它讲清楚，一个比较好的硕士生也可能做到。但独立找到思路、解决问题，要求的是另一种能力。</p>
-<p style="text-align: justify;">2026年9月17日至18日，24位资深数学家聚到哈佛大学，讨论AI时代该怎样培养博士生。会后形成的建议草案提出：“博士学位不应主要依据博士学位论文的文本来授予。”</p>
-<p style="text-align: justify;">草案建议，多位教师应定期与学生面对面，考察研究计划和进展；答辩时，学生必须展示对论文内容的全面掌握。</p>
-<p style="text-align: justify;">刘宇航认为，AI暴露的其实也是旧问题。数学界过去重视优先权，把主要荣誉给最先解决问题的人，那些将已有成果系统整理、解释清楚的人，贡献往往被低估。</p>
-<p style="text-align: justify;">“你不能把荣誉全部给那个先解决问题的人。”刘宇航举例，今天的微积分教材，已经和牛顿、莱布尼茨时代的著作很不一样。几代数学家持续改写证明、调整表述，将旧成果变成后来者能够学习的知识。这些工作一直存在，只是当解题变快之后，它们的价值更需要被看见。</p>
-<p style="text-align: justify;">他倾向于，如果研究者用AI获得结果，又能解释清楚，可以认可其贡献；如果一个人擅长搭建模型，跑出了结果，却解释不清，就不应独占荣誉，帮助验证、解释的领域专家也应得到认可。</p>
-<p style="text-align: justify;">但边界仍难划定。怎么判断一个人是真的理解，还是把追问转交给GPT，再复述答案？几个团队分别验证了同一篇论文，又该怎样分配贡献？刘宇航也没有现成答案。</p>
-<h4>迷宫与出路</h4>
-<p style="text-align: justify;">刘宇航也经历过失落。一个问题，自己想了很久没有办法，AI却很快给出结果。但他很快不再把这当成对个人能力的否定。</p>
-<p style="text-align: justify;">以前，一个问题走到某个地方卡住，他可能想上一年，最终转去做别的。有了AI之后，他才发现，有些地方并非真的走不通，只是自己当时做不到。模型凭借知识面和计算技巧，有时能帮他冲过去。</p>
-<p style="text-align: justify;">他把AI比作走迷宫的探路者。研究者先搭起框架，列出几条可能的路线，再让AI分别试。省下具体计算的时间后，他能同时推进几个问题。</p>
-<p style="text-align: justify;">李军也认为，科学家的能力会更多转向提出好问题、连接不同领域、判断结果。他用“审美”来概括，在这里特指辨别一个结果的好坏，决定什么值得研究、什么可信。</p>
-<p style="text-align: justify;">但潘佳垠不愿意就此给人类划出一块稳固的领地。提出问题和鉴别价值，是否会成为人类价值的堡垒？“这种想法有点过于乐观。”潘佳垠回答。</p>
-<p style="text-align: justify;">过去，人们也曾以为AI只能做研究生水平的题目，不能自主开展数学研究；只能处理组合问题，不能做几何。现在再断言它只能写证明、不能提出好问题，同样缺少把握。在他看来，AI不仅可能提出问题，也可能逐渐学会判断哪些方向值得探索。甚至把证明整理得更好、解释新方法与旧方法的联系，这些原本被认为需要数学家完成的工作，AI也可能参与。</p>
-<p><img alt="一个孩子在写满数学、物理、化学公式的黑板上书写。视觉中国丨图" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/03/405feb23c3.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">一个孩子在写满微积分、椭圆、质能方程等科学公式的黑板上书写。视觉中国丨图</p>
-<p style="text-align: justify;">周卓然还有一层担心，研究者会不会追着AI擅长的问题走。她引用谷歌与麻省理工学院团队9月联合发布的报告《AI in Science: Early Insights》中的一个观察：数据充足、容易验证的问题，借助AI做起来更便宜；数据稀少、需要昂贵实验才能确认的方向，则可能相对受到冷落。这还不是对AI长期影响的定论，却提示了，工具帮助研究者回答问题，也可能影响他们选什么问题。</p>
-<p style="text-align: justify;">选择也受到工具条件的约束。刘宇航担心，数学成果本身公开，产生前沿结果的闭源模型，却掌握在商业公司手里。公司可以决定向哪些人提供模型，研究者能否及时跟进前沿，也可能因此出现差异。</p>
-<p style="text-align: justify;">周卓然把问题又往前推了一步。模型学习了研究者多年积累、公开的知识，训练完成后，使用它的条件却由少数公司决定。她担心，公共知识正在变成集中在少数机构手中的能力。“用了这些共通的知识，生产了只属于自己的财富，这是不是公平的？”</p>
-<p style="text-align: justify;">潘佳垠经历了心态的转变。他承认自己喜欢的“古法科研”可能回不去了，但又不愿意因此放弃科研。他开始思考，AI时代还有什么值得自己乐观。</p>
-<p style="text-align: justify;">随后他想到，过去自己学习其他数学分支，总会考虑能不能形成论文、获得科研产出。假如未来评价体系发生变化，他反而可以把时间花在纯粹感兴趣的东西上。</p>
-<p style="text-align: justify;">现在他倾向于相信，学习AI生成的数学，也可能是一件有意思的事。“AI要是生成很漂亮的证明，我还是乐意去学、去理解的。”潘佳垠说。</p>
-<p style="text-align: justify;">（感谢施璇、黄潮欣、左力对本文提供的帮助，陈旭衡为化名）</p><br /><hr /><div>获取更多RSS：<br /><a href="https://feedx.net" style="color: orange;" target="_blank">https://feedx.net</a> <br /><a href="https://feedx.site" style="color: orange;" target="_blank">https://feedx.site</a><br /></div>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 卢旺达记忆与秩序：湖底的气体，火山下的人</title>
-        <link>http://www.infzm.com/contents/343956</link>
-        <guid isPermaLink="false">593029529e905bfd1fea22eec3ce5278016589dd606320fb73c62f8bb41071c9</guid>
-        <pubDate>Wed, 04 Nov 2026 11:25:09 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以基伍湖甲烷与湖泊喷发风险为切口，融合地质、生态与卢旺达社会秩序，信息密度高，兼具科学深度与长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-04 19:00:00</i></div><h4>会喷发的基伍湖</h4>
-<p style="text-align: justify;">基伍湖宁静极了。从卢旺达西部小镇基布耶的一处滨湖酒店，搭快艇出发，没有一丁点颠簸地绕过一个个水湾，抵达栖息着5万只果蝠的拿破仑岛。在这些被吵醒的小生物高分贝吵嚷声中，爬上这座形似拿破仑著名双角帽的小岛顶峰，往西放眼望去，视野尽头除了几座可以勉强辨识出的水上作业平台外，就全是银灰色的湖水，如同这片区域最著名的明星——山地大猩猩——的颜色。</p>
-<p style="text-align: justify;">这是非洲第八大湖。看不到的湖对岸，是刚果民主共和国〔<span>以下简称刚果（金）</span>〕。东非大裂谷西支的艾伯丁裂谷中心部分，作为天然国界线，在平均水深达240米的湖底，分隔开两国。</p>
-<p style="text-align: justify;">虽然有会游泳的水牛，以牛爬式泳姿，来到拿破仑的“帽子”上歇息，但《孤独星球》指南里还是提醒：因为存在血吸虫病隐患，请带上驱虫剂，前往指定的游泳区域下水，并避免将头浸入水中。</p>
-<p style="text-align: justify;">更大的安全隐患，是湖水本身。基伍湖的矿化度和密度，随深度逐渐增大，湖底在缺氧环境中富集大量溶解气体，包括由微生物作用与地质活动共同产生的甲烷，储量约600亿立方米，成为全球目前已知仅有的三个存在大规模“湖泊喷发”风险的天然水体之一（<span>其他两个位于喀麦隆</span>）。若深层溶解气体因地震或火山扰动突然上涌，可能引发能够窒息湖岸居民的大规模“翻湖”，1986年，喀麦隆的尼奥斯湖就曾发生过导致1500人死亡的翻湖惨剧。</p>
-<p style="text-align: justify;">而面积是尼奥斯湖2000倍大的基伍湖，一旦翻湖，则可能造成一场波及数百万人的灾难。因此就有了视野尽头那些大型水上作业平台，它们是燃气发电站，被大量抽取出的湖底甲烷，成为了卢旺达能源体系的重要组成部分。貌似安静美丽的大自然所酝酿着的这颗超大型原子弹，就这么被技术控制住了，还成为足以造福国家的新能源。</p>
-<p><img alt="从基布耶圣皮埃尔教堂眺望基伍湖  摄影 张海律" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/03/cefc9ad471.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">从基布耶圣皮埃尔教堂眺望基伍湖  摄影 张海律</p>
-<p style="text-align: justify;">在基布耶欣赏基伍湖的最佳地点，是圣皮埃尔教堂（Eglise St Pierre）。有人类历史记载以来，基伍湖甲烷原子弹还没引爆过，但几乎灭绝一个族群的悲剧，却在并不久远的32年前发生了，那就是1994年那场卢旺达种族大屠杀。在这座美丽的教堂里，就有11000名图西人被残忍杀害。在神职人员的纵容下，神的庇护所，反而成了屠杀者们集中高效地完成任务的场所。</p>
-<p style="text-align: justify;">教堂入口一侧，印着“Never Again”的字样，下面陈列着一些受害者的头骨。</p>
-<h4>球场与纪念碑</h4>
-<p style="text-align: justify;">距离圣皮埃尔教堂不远、镇中心的Gatwaro足球场，是基布耶另一处种族灭绝纪念地。1994年4月18日下午1点半开始，胡图族联攻派民兵陆续以手头的一切轻重武器，对被全数集中到体育场内的14000名图西族人展开杀戮，直至晚上9点才消停，只留了一小时的晚饭休息时间。一位幸运躲过次日补枪式检查的幸存者，回忆妈妈给自己留下的最后一句话：“勇敢点，让我们一起面对死亡。”</p>
-<p style="text-align: justify;">类似这样的大屠杀死难者纪念地，不计其数地分布于卢旺达全境，这些黑色旅游地点主要集中于首都基加利。基加利种族灭绝（<span>死难者</span>）纪念馆（Kigali Genocide Memorial）入口处，矗立着“KWIBUKA”几个字母，这是卢旺达语“铭记”之意。</p>
-<p style="text-align: justify;">纪念馆里的最大展厅，用好几面墙密密麻麻地陈列着死难者的照片和生卒年份，有个年轻女性，认真端详着其中一幅照片，我也不好猜测那会不会是她的亲友。我自己也试图在照片墙下停留，但视线很快被一个个生卒年份中的后一个数字“1994”所淹没。而这些照片，只是纪念馆所埋葬的约25万人遗骸的一小部分，相信更多的遗骸，是找不到他们的名字和照片的。</p>
-<p><img alt="基加利种族灭绝（死难者）纪念馆的照片墙  摄影 张海律" border="0" height="2389" src="https://images.infzm.com/cms/medias/image/26/11/03/7c6b55256e.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">基加利种族灭绝（死难者）纪念馆的照片墙  摄影 张海律</p>
-<p style="text-align: justify;">单是基加利纪念馆一地，就埋葬了超25万人，那么整个从1994年4月7日到7月15日的百日种族灭绝大屠杀中，究竟有多少死难者呢？虽然数字是冰冷的，但确也有助于理解这场悲剧。</p>
-<p style="text-align: justify;">我找到一篇名为《卢旺达种族灭绝死亡人数：吉孔戈罗省详细分析》的学术论文，里面以严谨的估算方法说道：大屠杀前的最后一次人口普查是1991年，报告表明，共有596000名图西族人居住在卢旺达，占总人口的8.4%。如果没有发生大屠杀，基于每年3%的人口增长率，图西族的人数在1994年7月末应该达到650900。然而，到1994年7月末，在难民营里只有约105000名图西族幸存者。如果加上大约25000名没有去难民营的图西幸存者，以及逃亡到扎伊尔〔<span>现刚果（金）</span>〕和坦桑尼亚约20000名图西人，约有150000名图西族幸存者。因此，可以推算出500900名图西族人在大屠杀中死去，占卢旺达图西族人口的77%。更有人认为图西族死亡人数在50万到80万之间，相当于1994年卢旺达图西族人口总数的84%。</p>
-<p style="text-align: justify;">对于这场悲剧复杂的历史背景，纪念馆当然也通过展览导言，进行了言简意赅的概述，但我主要是通过之前看过的电影《卢旺达饭店》来了解。</p>
-<h4>电影与被剪辑的历史</h4>
-<p style="text-align: justify;">这部电影开始不久，有一段速写般的对白，把这场悲剧的来龙去脉压缩进几分钟。作为主人公的千丘酒店经理Paul Rusesabagina，将向BBC记者讲述族群仇恨原因的尴尬任务，推给吧台前一位旅居卢旺达多年的学者。大概是说，二十世纪初的比利时殖民者，为统治方便，将原本更具社会流动性的身份，固化为不可更改的族群分类，人类学家跟着强行赋予他们不同的身高和相貌特征。替比利时当局执行管理职能的图西人，财产较多，却只占人口的一成左右。1962年卢旺达独立后，政权交还给占人口绝对多数的胡图族，他们长期对图西族的不满被释放出来，在媒体尤其是千丘电台的推波助澜下，埋下出种族大屠杀的种子。导演水平不错，通过寥寥几句对白，就将最容易理解也最为关键的诱因说了出来。</p>
-<p style="text-align: justify;">我也住进了这家酒店。“是的，先生，这就是卢旺达饭店。”办理入住时，千丘酒店的前台说道，“不过那部电影不是在我们这拍的。”因基加利丘陵地貌的特征，这家酒店得名“千丘酒店”。1994年种族大屠杀时，得益于业主方比利时航空以及一定数量的西方住客，更因为经理Paul有着人类最基本的善良、勇敢，外加八面玲珑的社交本事，成功庇护了1268名难民。而反映这段真实历史事件的电影，实则是于2004年在南非一家空置医院取景拍摄的。</p>
-<p style="text-align: justify;">这座卢旺达饭店，自然也是基加利一处重要的“黑色旅游”点。夜里站在泳池边，我很难把眼前的灯光和1994年的恐慌叠合在一起。“关于酒店在1994年时收留难民的历史照片和文献，可以在纪念馆看到，我们这里就不再展示。”前台认真地说道，显然酒店不愿意让住客居停在历史的阴霾中。</p>
-<p><img alt="千丘酒店的泳池，千丘酒店是电影《卢旺达饭店》的原型。  摄影 张海律" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/03/90d432d8ed.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">千丘酒店的泳池，千丘酒店是电影《卢旺达饭店》的原型。  摄影 张海律</p>
-<p style="text-align: justify;">刚到基加利的那晚，我到会展中心看了一个盛大的露天演出，出门后发现旁边就是又一处“黑色旅游”地点。1994年4月6日晚，载有卢旺达总统哈比亚利马纳和布隆迪胡图族总统恩塔里亚米拉的飞机，在准备降落基加利时被导弹击落，机上人员全部遇难。没有任何一方宣称对事件负责，凶手是谁至今仍存争议。早已完成了武器和动员准备的胡图族武装部队和联攻派民兵，以此为契机，开始了挨家挨户的搜查和杀戮。4月7日一早，隶属联合国卢旺达援助团并负责保护女总理乌维林吉伊马纳的10名比利时官兵，被军队和平民迅速缴械，带到一座军营，遭酷刑折磨后全部被杀害。女总理虽是胡图族人，但因对图西族持同情立场，也和丈夫一道被杀害。</p>
-<p style="text-align: justify;">这里正是比利时维和官兵遇害军营遗址，在回溯事件的展厅外，10根石桩矗立在庭院正中，上面凿刻的一道道裂纹，代表这些官兵遇害时的年纪。事后看来，让比利时官兵承担维和角色，在极度敏感时期显然是不明智的举措。对族群的刻意划分，就是比利时殖民者搞出来的，刽子手们对比利时人的仇恨程度甚至大于对图西族人。</p>
-<p><img alt="纪念在大屠杀中遇难的比利时维和官兵的十根石柱  摄影 张海律" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/03/60e6003fe0.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">纪念在大屠杀中遇难的比利时维和官兵的十根石柱  摄影 张海律</p>
-<p style="text-align: justify;">距离机场不远的卢旺达艺术博物馆后面的大片空地，正是1994年总统专机被击中后坠落的地方。我们参观时，当然不敢主动提及那段历史，更不敢问向导姑娘的族群。</p>
-<p style="text-align: justify;">反倒是姑娘主动说了起来：“殖民时期，人们通过样貌和财产区别族群，拥有超过20头牛、长得瘦高且偏白的是图西人，是传教士口中的‘黑人贵族’，而最多有10头牛的矮个子都是胡图人；到了大屠杀前，身份证上会写着族群。可笑，就我们一家子，都有高有矮呢！到了今天，我们的身份证上就只有名字和出生地，再没族群；而且没人会彼此询问对方的族群，这不但不礼貌，甚至会涉嫌违法。现在，我们都是卢旺达人！”</p>
-<h4>基加利，秩序之城</h4>
-<p style="text-align: justify;">在漫长而艰苦的东非旅行中，抵达卢旺达尤其首都基加利，感受如同结束一场吃力长跑的瞬间，眼前就是可以惬意放松的终点乐土。搭乘摩托车和网约车，不用再吃土到蓬头垢面；蓝花楹和三角梅，在干爽的热带高原盛放；街道干净整齐，车辆行人全都严格遵守交规；市中心有着可以在City Walk时随时停下、坐在户外躺椅来上一杯高品质波旁咖啡的步行街；高校门口则贴着“非洲区块链冠军赛，最高奖金30000美元”的诱人海报。距离大屠杀32年后，“人间炼狱”如今被誉为“非洲新加坡”。</p>
-<p style="text-align: justify;">然而这个貌似秩序井然的国度，在人均GDP这一硬性经济指标上，却只以刚过1000美元的水平排在东非中下游，远低于看上去更为喧嚣杂乱的区域排头兵肯尼亚。显然干净整洁的城市面貌，只是卢旺达以强势和高效的治理，成功打造出的“国家名片”。但这也绝非只是做表面功夫，毕竟国家经济在1994年被大屠杀几乎清零，目前的人均GDP1000美元，已经是维持了30年稳定和高速增长后的最棒结果，连F1重返非洲大陆，都选在卢旺达于2030年举办分站赛。</p>
-<p style="text-align: justify;">这个国家似乎选择了一条治理优先于财富的发展道路，这也让其清廉指数在非洲领先。无论边检站还是国道上，完全不会出现拦路索贿的公职人员，而这些“拦路虎”是在其他非洲国家旅行中常见的糟糕风景。“因为严格的法律和惩戒制度，警察即便只拿极低工资，也不敢索贿受贿。”一位经营旅行业务的肯尼亚人告诉我，正是这种无需担心人身和财产安全的确定感，让他选择在卢旺达而非“富贵险中求”的祖国营商。</p>
-<p><img alt="基加利CBD所在的尼亚鲁根格区，是基加利最繁华的区域之一。  视觉中国 图" border="0" height="1135" src="https://images.infzm.com/cms/medias/image/26/11/03/dfa9343b35.jpg" width="1700" /></p>
-<p style="color: #999999; text-align: center;">基加利CBD所在的尼亚鲁根格区，是基加利最繁华的区域之一。  视觉中国 图</p>
-<p style="text-align: justify;">从1994年大屠杀后的废墟一片，到30年后被国际媒体称为“非洲新加坡”，这一转变当然不可能是一蹴而就的。《卢旺达转型——重建之路的挑战》一书就先以很大篇幅，记载了旧秩序到新秩序过渡的剧烈阵痛。持续100天针对图西族大屠杀的暴力行为，不会随着1994年7月19日卢旺达爱国阵线的全面获胜就立马终结。复仇的图西族军民、因害怕被报复而逃到国境之外的胡图族武装部队，都继续在彼此残杀。而留下来的很多胡图族人，并没有意识到大屠杀是严重的罪行。</p>
-<p style="text-align: justify;">一位名叫克里斯·麦格雷尔的英国记者，描述过那年7月初，在基布耶县一个村庄举行的一次周日弥撒：</p>
-<p style="text-align: justify;"><span>教堂附近有个乱葬岗，里面尸体散发着恶臭，但入口处一个妇女被问及缘由时，却否认有味道，也拒绝看从土坟里伸出来的脚、放在窗台上的头骨，以及教堂墙上的血迹。“都是谎言，”她说，“一切正常，这里什么事都没发生。”她的图西族邻居呢？“他们离开了而已。”她说。她继续走进教堂，一座信奉说谎宗教的教堂。</span></p>
-<p style="text-align: justify;">国家和社会的重建，是漫长又复杂的。2001年12月，卢旺达通过了最初的反歧视法，包括“关于预防、打击和惩治歧视与宗派主义犯罪的法律”，规定“无论口头上还是书面上，只要是可能引起当地居民冲突或争论的分裂行为，就都是宗派主义做法的犯罪行为。如果罪名成立，最高可判处5年徒刑，剥夺公民权利。”</p>
-<p style="text-align: justify;">在从1994年大屠杀之后到今天一直担任总统的保罗·卡加梅及其政府32年的治理之下，同一套高度服从权威的社会结构，从1994年被极端政治利用的工具，尚算成功地转化为了经济和社会发展的可见果实。</p>
-<p style="text-align: justify;">《卢旺达饭店》的开场，千丘电台的主持人在以伶牙俐齿煽动人们团结起来，清除“图西族蟑螂”。现在，政府推行强制性的义务劳动Umuganda，左邻右里们在每个月最后一个周六清晨走出家门，清扫大街、种植花草、修葺屋舍和桥梁……</p>
-<p><img alt="基加利街头的学舞者  摄影 张海律" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/03/9b7f95a7f5.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">基加利街头的学舞者  摄影 张海律</p>
-<h4>喧闹的艺术节与沉默的火山</h4>
-<p style="text-align: justify;">全世界“黑色旅游”地点的设计目的，是为提醒来访者，历史不该被忘记。而对于卢旺达来说，“黑色旅游”更意味着不允许遗忘。在每年4月7日开始的百日纪念期接近尾声时，基加利会迎来名为Ubumuntu的艺术节，这个词在卢旺达语里意为“To Be Human”，或更直接一些的”人类”。艺术节邀请全球著名音乐人、舞蹈团体和戏剧社，免费为民众呈现以治愈与和解为主题的节目。主场地正位于基加利种族灭绝（<span>死难者</span>）纪念馆的大帐篷。</p>
-<p style="text-align: justify;">一位受邀至此参与论坛报告的土耳其管理学教授Mine Melih告诉我，他通过这个艺术节第一次成为了电影制片人，拍摄了一部名为《最后迹象》的短片，关于一个卢旺达聋哑男孩，通过舞蹈和手语来表达自己的情感。Mine Melih教授还把我引荐给了艺术节创始人、卢旺达戏剧艺术家Hope Azeda。刚寒暄了两句，能量充沛的主持人在舞台中央带领观众和表演团体默哀一分钟，继而以极强的煽动力，迅速活跃起现场气氛：“我们不要再活在历史的阴霾下，现在开始，我命令你们，用自己的母语，向你前后左右的陌生人问好，最好在下一个节目开始前，拿到他们的联系方式。”</p>
-<p style="text-align: justify;">不知道《最后迹象》里的聋哑男孩有没有在场，如果在，他又是如何与旁边的陌生人表达自己的？</p>
-<p><img alt="维龙加山脉上的荚状云  视觉中国 图" border="0" height="1133" src="https://images.infzm.com/cms/medias/image/26/11/03/2a96529f47.jpg" width="1700" /></p>
-<p style="color: #999999; text-align: center;">维龙加山脉上的荚状云  视觉中国 图</p>
-<p style="text-align: justify;">参会之余，Mine Melih教授还专程抽出两天时间，跑到西北部的穆桑泽县，参加费用高达1500美元的追踪银背大猩猩项目——现在是卢旺达最著名的野生动物名片。我不舍得花那么多钱去看大猩猩，选择了75美元的Bisoke火山登顶项目。毕竟大猩猩是自由的，据说有可能会游荡到我们攀登的线路上来。不过向导事先声明，如果途中偶遇大猩猩，不得拍照——哪怕愿意额外付钱也不行。能近距离观赏并拍照，只属于那1500美元的正规追踪团。这样严格的区分，既减少了对猩猩的打扰，也维持了旅游团各司其职的“生态平衡”。看来，在以秩序著称的卢旺达，连偶遇大猩猩都被纳入精确的管理范畴。</p>
-<p style="text-align: justify;">出发前的瓢泼大雨，将本就是前人踩出来的小径，糟蹋成烂泥一片。至于大猩猩，也就在一棵树上看到向导所认为的掌印，我们中国有“羚羊挂角”，卢旺达则有“猩猩留印”。自认为户外经验尚算充分的我这回遭遇滑铁卢，也就攀登了四分之一的山路，脚下一直打滑的我，在连续摔倒三次后，决定不再耽误大伙行程，气喘吁吁地拉着一位辅助向导的手，并在一位山林警卫的陪同下，艰难地撤回到出发的村庄，来到戴安·弗西大猩猩基金会歇息。</p>
-<p style="text-align: justify;">戴安·弗西是与珍·古道尔师出同门的灵长类动物学家，扎根于银背大猩猩生活的维龙加山脉进行研究工作。她不幸于1985年12月26日，在卢旺达一侧的研究中心，被砍死于自己的小木屋内，凶手究竟是盗猎者，还是被她解雇的猩猩追踪员，抑或是利益被侵犯的当地权势人物，至今仍未有定论。</p>
-<p><img alt="戴安·弗西和她研究的银背大猩猩  供图 张海律" border="0" height="2560" src="https://images.infzm.com/cms/medias/image/26/11/03/85e325d4fe.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">戴安·弗西和她研究的银背大猩猩  供图 张海律</p>
-<p style="text-align: justify;">殖民、盗猎、内战、谋杀、灭族，21世纪之前的卢旺达历史，一直伴随着人类暴行。即便今天似乎在痛定思痛之下，涅槃般变成了表面上秩序井然的文明社会，但暴力的火种，却如同维龙加火山群下涌动的岩浆。拥有八座主火山的维龙加山脉，分布在卢旺达、乌干达和刚果（<span>金</span>）的边界接壤处，其中完全在刚果（<span>金</span>）境内的两座，都处于高度活跃状态。而今天的刚果（<span>金</span>），各部族、党派和他们的海外代理人，正像喷发的火山那样，为了资源，打得不可开交。</p>
-<p style="text-align: justify;">从火山下来后，我们去了基伍湖东北岸的重要城市吉塞尼。或许因为缺少峡湾，这边的湖水远没有基布耶那样清澈宁静，但城市生活显得更为生动。滨湖路上，跟着教练跳健美操的，踢腿练习跆拳道的，蹲下来等待百米起跑指令的……一批批年轻人在严肃认真地锻炼着身体。这条路继续往北一公里后向西转，则是一座重要的边检站。另一边，就是如今被图西人武装M23牢牢控制的刚果（<span>金</span>）重要城市戈马，显然在这样的局势下，这一口岸暂时对外国游客关闭了。</p>
-<p style="text-align: justify;">我们走上一条登山小径，没爬多久，就是一处荡着秋千的开阔观景平台，深邃的基伍湖赫然跃于眼前。蕴藏甲烷的大湖和按住岩浆的火山，无论活跃还是休眠，都无意回应人类的悲喜。</p>
-<p style="text-align: justify;"><br /></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] The DEA banned a drug some opioid users called a miracle</title>
-        <link>https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/</link>
-        <guid isPermaLink="false">0b20e1c9a9ccaca97de70c03ce9e282dc2e813e75759ffa13b1afb3e946cee1b</guid>
-        <pubDate>Wed, 04 Nov 2026 15:08:48 +0000</pubDate>
-        <author>Manisha Krishnan, wired.com</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：聚焦DEA封禁SR-17018这一具体事件，揭示阿片类药物研发中科学潜力与监管壁垒的冲突，涉及NIH资助研究和《Cell》论文等一手事实，具备深度调查价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p>In 2012, as the driver of deaths in the <a href="https://www.wired.com/tag/opioids/">opioid</a> crisis began moving from prescription pills to heroin, Laura Bohn was tasked with finding safer drugs to manage pain.</p>
-<p>Funded by the National Institute on Drug Abuse, in 2017 she and other scientists revealed in the <a href="https://www.cell.com/cell/fulltext/S0092-8674(17)31257-6">science journal Cell</a> that several compounds—including a particularly promising one called SR-17018—could relieve pain in mice without causing respiratory depression. That’s a big deal, because respiratory depression is typically what causes people using opioids to stop breathing and die.</p>
-<p>Bohn, senior associate vice president of research at University of South Florida Health, says her team filed a patent on SR-17018. They went on to discover that mice using the chemical did not develop a high tolerance for it and that mice already dependent on morphine—a powerful opioid—could consume SR-17018 to reset their tolerance without suffering from painful withdrawal symptoms.</p><p><a href="https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/">Read full article</a></p>
-<p><a href="https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/#comments">Comments</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 中国技工在越南：抢一个时间差</title>
-        <link>http://www.infzm.com/contents/343996</link>
-        <guid isPermaLink="false">815e8e173d81ca0be40d00ee7c42f33c1ac05e777d937ba4fdfa1bbdbd9f686d</guid>
-        <pubDate>Wed, 04 Nov 2026 15:25:07 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：以越南工厂一线老板、工程师、技工的多方视角，拆解‘抢中国技工’背后的阶段性技术依赖与本地化替代进程，呈现产业转移中人力结构的真实周期，信息密度高且具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-04 23:00:00</i></div><p><img alt="越南的一个工厂里，工人在装配线上移动SUV。视觉中国/图" border="0" height="1286" src="https://images.infzm.com/cms/medias/image/26/11/04/d7ff43ca29.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">越南的一个工厂里，工人在装配线上移动SUV。视觉中国/图</p>
-<p>“越南工厂开出数万元月薪，寻找中国技工。”2026年秋天，一则消息通过短视频传开，评论区甚至有人盘算着去东南亚挣一笔钱。</p>
-<p>越南正在疯抢中国工人？</p>
-<p>在越南的工厂老板、中国工程师和技工们，给出的答案却没那么简单。</p>
-<p>“疯抢？要看是什么人。”在越南北宁经营精密五金厂的周远笑道，普通工人不可能成为争抢对象，真正稀缺的是懂技术、能调机器、能独立处理复杂问题的人。他从东莞带过去的三名老师傅，仍是生产线上不可或缺的人。</p>
-<p>周远的看法是，不是越南人来中国抢人，是中国企业搬过来了，技术跟不上，不得不从国内带人。“你想，设备是中国的、零件是中国的、工艺标准是中国的，不用中国人用谁？”</p>
-<p>不过，这是阶段性的。在越南胡志明市<span>（原平阳省）</span>经营新材料工厂的杨兴潮，就在努力培养当地工程师。他认为，中国技术人员仍有优势，但优势并非永存。半年前还需要中国师傅手把手教的越南员工，如今已能处理一些常规问题。</p>
-<p>在中国工程师易林看来，这几乎是外派人员必经的职业周期：企业刚到越南，需要中国技术人员搭建生产体系、调试设备、培训工人；等工厂稳定下来，当地员工逐渐接手，技术人员的岗位便可能随之消失。</p>
-<p>可以说，中国技工填补的，是产业转移与当地技术人才成长之间的时间差。</p>
-<h4>被放大的“疯抢”</h4>
-<p>2026年上半年，越南GDP同比增长8.18%，加工制造业增长11.4%。三星、富士康、歌尔、立讯精密等企业纷纷在越南北部工业区布局。</p>
-<p>“越南制造业扩张太快了，人才培养跟不上。”杨兴潮说，“北宁那边，三星、富士康、立讯都在扩产，技术工人缺口太大了，怎么填？短期只能靠中国输入成熟技工。”</p>
-<p>刷招聘网站，确实能看到高薪的驻越岗位。部分中国企业招聘的高级工程师、设备调试员，月薪可达数万元人民币；越南本地企业也在招聘懂中文的技术人员，背景往往要求有相关行业经验，部分还需要候选人能独立解决生产现场的问题。</p>
-<p>对招聘需求，周远深有体会。2022年，他应客户要求，离开了深耕二十多年的东莞，到越南开厂。</p>
-<p>他的工厂现在有一百多名工人，普通工人基本是越南人，技术岗和管理岗则以中国人为主。</p>
-<p>“你说抢中国普工，那不可能。”周远说，越南当地普通工人的工资较低，企业没必要支付中国外派普工的更高工资。“但你说懂技术、能调机器、能带徒弟的，那确实缺，非常缺。”</p>
-<p>易林是外派的工程师。他在一家中国企业的越南分支机构工作。据其观察，在越南的中资企业，通常会优先招聘当地员工；只有当地员工无法胜任的岗位，才会考虑从中国派人。</p>
-<p>“（目前）只有中国企业会抢中国工人，除非一种情况——越南还没突破的行业，当地没有相关技术人才，（当地公司）只能去中国挖人。”易林提到，越南电动汽车企业VinFast曾从中国招揽技术人才。</p>
-<p>一般，越南客户采购设备时，设备可能已经在中国使用了一段时间。机器上的技术资料是中文的，遇到复杂故障，还是原来的工程师更好处理。</p>
-<p>负责自动化设备的售后服务的李信，就被公司从成都派到越南，主要是培训当地工程师、处理现场复杂的设备问题。目前，他所在团队长期驻越的中国员工为两名管理人员，他是其中之一。</p>
-<p>李信发现，当地工程师确实难招，必须要会中文，还得有工程专业的本科学历。据其介绍，越南此前有本土化比例，对外籍劳工有限制。外籍岗位只能是管理、专家、技术人员，普工不允许招外国人，否则本地人的收入提不上去。</p>
-<p>如果是普工，“一般都是从国内招了以后，派遣到越南来”。</p>
-<p>2025年，越南自中国进口商品约1860亿美元，占其商品进口总额的41%；2026年上半年，这一数字已达到1152亿美元。庞大的进口规模中，生产所需的机械设备、电子产品和零部件占重要位置。</p>
-<p>生产线可以搬走，机器可以运过去，但机器如何调试、工艺如何衔接、出故障怎么办，就需要人的帮助。由此，越南制造业对成熟的中国技工产生了需求。</p>
-<p><img alt="越南南定街头。受访者供图" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/04/f879f4b55e.jpg" width="954" /></p>
-<p style="color: #999999; text-align: center;">越南南定街头。受访者供图</p>
-<h4>老板们的账本</h4>
-<p>作为老板，周远爱算账。对他来说，要不要用中国技工，是一笔年复一年愈加清晰的成本账。</p>
-<p>他列举，一个中国师傅月薪一万五到两万元，还要包吃住、探亲假、往返机票，成本是越南工人的五六倍。“如果不是（当地技工）真的顶不上，谁愿意花这个钱？”</p>
-<p>周远最初决定赴越南开厂，也有一笔看起来颇具吸引力的账。当时，客户不断向越南转移生产，如果不跟过去，订单可能就丢了。</p>
-<p>同时，越南的基础工资低于国内，似乎意味着更大的利润空间。但工厂真正运转起来之后，他发现，工资只是成本的一小部分。</p>
-<p>精密五金加工需要不锈钢材料、电镀和各种辅料。这些物料有相当一部分需要从中国运来。从东莞运到北宁的运费每公斤三元多，此外当地电镀供应商较少，价格也高于东莞。</p>
-<p>周远还发现，北宁部分厂房的租金已经接近国内一些制造业城市的水平。消防、环保等手续的办理周期也比国内长得多，“在中国半个月的事，在这边要拖几年”。</p>
-<p>更难计算的是生产效率。</p>
-<p>他的工厂有四条生产线，真正能独立处理复杂问题的，仍然是从东莞带来的三名老师傅。同一台机器，中国师傅一天能调试完的工作，当地学徒可能要两天才能弄顺。</p>
-<p>周远在越南经营多年，至今还没有收回投入。他认识的部分中国工厂经营者，已经选择撤回国内。“如果哪天美国关税取消了，很多厂立马就回去了，我可能也回去。”他说。</p>
-<p>与周远被客户的产业转移推着走不同，杨兴潮是主动寻找机会。</p>
-<p>拥有化工专业硕士学历的他，曾在国内一家跨国化工企业担任技术经理。2019年前后，他选择到越南平阳创业，生产工业精密新材料，为电子、汽车零部件等企业提供配套产品。</p>
-<p>这种选择与越南的精密材料企业较少，市场由欧美、日韩品牌及贸易商占据有关。杨兴潮考察后认为，自己熟悉的技术领域在当地有发展空间。</p>
-<p>异国创业，最难解决的仍旧是人。“技术人员、管理人员，全部要从国内带。”第一批员工有七八名技术骨干，杨兴潮需要逐个说服他们到越南工作，承诺工资比国内高不少，并安排好假期和生活保障。</p>
-<p>杨兴潮工厂生产的材料，对配方、工艺和品控有较高要求。一个参数出现偏差，可能影响产品性能，进而影响下游客户的生产。</p>
-<p>“你拿什么跟欧美品牌竞争？”他说，靠的就是技术服务和响应速度。客户提出问题时，中国工程师能直接与对方的技术团队沟通，并在现场处理问题。这种能力不是简单增加几个工人就能补齐的。</p>
-<p>杨兴潮也在招聘越南工科毕业生，让中国师傅一对一培训。部分员工经过半年至一年的学习，已能完成基础工作。</p>
-<p>“这个事急不来，制造业的经验是靠时间堆出来的，不是靠培训能速成的。”他说。</p>
-<h4>中国技工的越南漂流</h4>
-<p>易林从前在国内一家太阳能公司当工程师。美国关税变化、制造业向海外转移，以及所在企业在越南设立分厂，为他提供了外派机会。“出去工资会多一点，就出来了。”</p>
-<p>但他很快发现，工作量也变多了。在中国企业的越南工厂里，技术人员通常要一边处理生产问题，一边培训当地员工。</p>
-<p>越南工人不愿意长时间加班，倾向于按时下班、陪伴家人。“他们是今朝有酒今朝醉，一个月赚的工资花完，下个月再赚。所以整体工作时间和劳动强度都比中国人少。”</p>
-<p>周远也说，越南工人到点就走，“你让他加班？不是钱的事，人家不愿意，要陪家人。发完工资第二天，厂里至少少10%的人——喝酒去了，喝咖啡去了。我跟周边几个厂的老板聊，没有一家生产效率能达到国内水平的。”</p>
-<p>易林介绍，在越南工作的中国人基本都是男性。</p>
-<p>“一些中年男人跟着企业出来，逃避家庭的烦琐，一个人在这边特别清静，活得开心，每个月给家里打点钱就好。”有一部分人纯粹是因为工资高过来。“还有一部分人，在国内找不到老婆，指望在这边找。”</p>
-<p>他说，前几年愿意出国工作的中国人少，外派岗位的薪资和补贴有吸引力，但“这两年出国的人多了，就卷了，现在中国人在这边的工资大概是国内的1.5倍”。</p>
-<p>1.5倍，也是李信给出的数字。“在国内，我们平均税后到手八千多块钱。来越南有工作补贴，算下来可能有一万四五了。”</p>
-<p>收入差距确实在缩小。2024年底，李信来越南时，公司的第一批外派人员能拿到每天300元补贴，如今已降至100元。</p>
-<p>生活成本也不一定低。李信说，如果按照越南当地人的饮食习惯生活，开销比较低。但由于部分中国员工只能住酒店，没法做饭，经常要在外就餐。一盘家常土豆丝，要25元。如果一天三餐都吃中国菜，估计每日支出150元左右。</p>
-<p>李信原本在成都富士康担任随线工程师，后来转到自动化设备供应商。到越南后，他最初负责生产线上的异常处理，后来承担起培训和管理工作。</p>
-<p>工作几年后，初中学历的他意识到，在国内，职位晋升的名额有限，竞争者多；来到一个新建的海外项目后，企业需要有人长期驻守现场，他反而可能获得新的发展机会。</p>
-<p>“其实我更愿意在越南这边发展。”他说。</p>
-<p><img alt="越南南定，下班后的生活。受访者供图" border="0" height="1200" src="https://images.infzm.com/cms/medias/image/26/11/04/62b11b3065.jpg" width="900" /></p>
-<p style="color: #999999; text-align: center;">越南南定，下班后的生活。受访者供图</p>
-<h4>时间窗口有多长</h4>
-<p>真正的问题在于，当技术经验逐渐被当地员工掌握，他们还能继续留下吗？</p>
-<p>易林说，在中国企业的海外工厂里，外派合同通常有期限，一般为一至两年。如果合同到期，当地员工已经可以接手工作，公司就可能不再续约。外派人员回到中国总部，或被安排到其他海外项目。</p>
-<p>“等当地人也能干这个活儿了，他就不会招我了。”易林说。</p>
-<p>这也是中国技工面临的特殊处境：企业需要他们帮助越南工人掌握技能，但越南工人越快掌握技能，他们在原有岗位上继续存在的必要性就越低。</p>
-<p>2026年，越共中央政治局明确提出提高制造业本土化水平的目标：到2030年，重点产业的本土化率要达到45%—50%，约1万家国内企业参与外资供应链。</p>
-<p>越南技工实现本土化要多久？李信的答案是“十年起步”。</p>
-<p>杨兴潮认为“窗口期还有五到八年”。他建议，想在越南长期发展，必须把自己从纯技术，升级成技术、管理、越南语、本地资源的复合型人才。</p>
-<p>“不要抱着赚快钱的心态来，要做好长期扎根的准备。越南不是中国的替代品，是中国产业链的延伸。中国做上游研发和核心零部件，越南做中下游组装，这个分工格局在可预见的未来不会变。”杨兴潮说。</p>
-<p><span>（应受访者要求，文中周远、杨兴潮、易林、李信为化名。）</span></p>
-<p></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] Data centers lost the midterms</title>
-        <link>https://www.theverge.com/policy/1026365/data-centers-midterms-results</link>
-        <guid isPermaLink="false">0c22e526237ef6a3bac3e0b2eaf220c5569b5c18a671233f519372001a34189d</guid>
-        <pubDate>Wed, 04 Nov 2026 11:05:39 -0500</pubDate>
-        <author>Lauren Feiner</author>
-        <description><![CDATA[
-        <div style="background-color: #f1f5f9; border-left: 4px solid #2563eb; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-            <div style="font-weight: 700; color: #1e40af; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 深度评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【精选推荐】</b>：揭示AI基建扩张遭遇地方政治阻力的关键转折：76%选民反对社区数据中心，多地公投直接限制开发，为算力扩张的监管与社会许可风险提供了高密度事实与长期参考。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <figure>
-
-<img alt="Graphic image of a data center." src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
-	<figcaption>
-		</figcaption>
-</figure>
-<p class="wp-block-paragraph">Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and <a href="https://www.washingtonpost.com/technology/2026/11/04/voters-pass-over-20-ballot-measures-ban-or-restrict-data-centers/">ballot measures</a> that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry.</p>
-<p class="wp-block-paragraph">Of voters polled by <em>NBC News</em> on Election Day, 76 percent <a href="https://www.nbcnews.com/politics/2026-election/exit-poll-trump-midterms-voters-economy-disapproval-rcna607045">said they opposed data centers</a> in their communities. Dozens of local communities <a href="https://stateline.org/2026/11/04/voters-across-the-country-reject-data-centers/">voted directly to restrict development</a> through <a href="https://datacentersontheballot.com/">ballot measures</a>. And upset winners like Texas Democratic Governor-elect Gina Hinojosa and Michigan's Democratic Senator-elect Abdul El-Sayed support moratoriums on development.</p> …
-<p><a href="https://www.theverge.com/policy/1026365/data-centers-midterms-results">Read the full story at The Verge.</a></p>
         </div>
         ]]></description>
     </item>

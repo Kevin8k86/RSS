@@ -5,6 +5,7 @@ import socket
 import argparse
 import logging
 import threading
+import re
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from http.server import SimpleHTTPRequestHandler, HTTPServer
@@ -48,6 +49,14 @@ def load_config(config_path: str) -> Dict[str, Any]:
     return config
 
 
+def is_mainly_chinese(text: str) -> bool:
+    """Check if text contains meaningful Chinese characters (at least 3 characters)."""
+    if not text:
+        return False
+    chinese_chars = re.findall(r"[\u4e00-\u9fa5]", text)
+    return len(chinese_chars) >= 3
+
+
 def extract_entry_content(entry: Any) -> str:
     """Extract richest text content from a feedparser entry."""
     content = ""
@@ -72,6 +81,23 @@ def process_single_entry(entry: Any, feed_url: str, storage: Storage, evaluator:
     author = getattr(entry, "author", "未知作者")
     pub_date = getattr(entry, "published", getattr(entry, "updated", ""))
     content = extract_entry_content(entry)
+
+    # 过滤外语文章（只保留中文精选内容）
+    if not is_mainly_chinese(title):
+        logger.info(f"   ⏩ [过滤外语文章] {title[:35]}...")
+        storage.save_result(
+            item_id=item_id,
+            feed_url=feed_url,
+            title=title,
+            link=link,
+            author=author,
+            pub_date=pub_date,
+            original_content=content,
+            score=0.0,
+            recommendation="外语文章自动跳过",
+            status="REJECTED",
+        )
+        return False
 
     logger.info(f"   🤖 [AI 评审中] {title[:35]}...")
     eval_res = evaluator.evaluate(title=title, content=content, score_threshold=score_threshold)
@@ -104,7 +130,7 @@ def process_single_entry(entry: Any, feed_url: str, storage: Storage, evaluator:
 def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: ContentEvaluator):
     logger.info("🚀 开始执行 RSS 抓取、深度质量筛选与今日全景速报生成任务...")
     score_threshold = float(config.get("curator", {}).get("score_threshold", 7.5))
-    max_entries_per_feed = int(config.get("curator", {}).get("max_entries_per_feed", 8))
+    max_entries_per_feed = int(config.get("curator", {}).get("max_entries_per_feed", 12))
     max_workers = int(config.get("curator", {}).get("max_workers", 4))
 
     feeds = config.get("feeds", [])
@@ -127,7 +153,8 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
 
             for entry in selected_entries:
                 title = getattr(entry, "title", "").strip()
-                if title:
+                # 仅将中文资讯加入全景速报候选列表
+                if title and is_mainly_chinese(title):
                     scanned_for_briefing.append({"source": feed_name, "title": title})
 
                 link = getattr(entry, "link", "")
@@ -157,16 +184,15 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
                 elif res is False:
                     total_rejected += 1
 
-    # 1. Generate lead panoramic briefing article (置顶全景速览：一眼扫完全天热点)
-    logger.info("📝 正在使用大模型生成【今日各领域全景速览·一眼扫完】置顶文章...")
+    # 1. Generate lead panoramic briefing article (置顶每日全景速览：一眼扫完全天热点)
+    logger.info("📝 正在使用大模型生成【今日全景日报·一眼扫完】置顶文章...")
     briefing_html = evaluator.generate_panoramic_briefing(scanned_for_briefing)
 
     bj_time = datetime.now(timezone(timedelta(hours=8)))
-    period_label = "早报" if bj_time.hour < 12 else ("午报" if bj_time.hour < 15 else "晚报")
-    # Use exact timestamp & hash in guid so ReadYou always refreshes fresh content instead of holding old cache
+    # Use exact timestamp & hash in guid so ReadYou always refreshes fresh content
     briefing_guid = f"briefing_{bj_time.strftime('%Y%m%d_%H%M%S')}_{hash_id(briefing_html)[:8]}"
     briefing_info = {
-        "title": f"📰 【今日全景速报】一分钟看全天下事 ({bj_time.strftime('%m-%d')} {period_label})",
+        "title": f"📰 【今日全景日报】一分钟看全天下事 ({bj_time.strftime('%m-%d')} 版)",
         "guid": briefing_guid,
         "link": config.get("output", {}).get("feed_link", "https://github.com/Kevin8k86/RSS"),
         "content": briefing_html,

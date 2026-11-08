@@ -9,62 +9,54 @@ curator:
   # 严格的主编打分及格线 (1.0 - 10.0 分)
   score_threshold: 7.5
 
-  # 输出给 ReadYou 的最新精华文章保留条数 (30-50 篇)
+  # 输出给 ReadYou 的最新精华文章保留条数 (保持 30-50 篇，满足深度精读需求)
   max_output_items: 50
 
-  # 性能优化：每个订阅源每次只取最新 8 篇
-  max_entries_per_feed: 8
+  # 每天运行一次时，每个订阅源采集前 12 篇候选新闻（覆盖全天动态）
+  max_entries_per_feed: 12
 
   # 并发评估线程数
   max_workers: 4
 
-# 订阅源列表：国内权威媒体 + 海外 X/Threads/硅谷热议聚合
+# 订阅源列表：全部严选权威纯中文媒体（涵盖时政、国际、科技、数码、财经、文娱、体育）
 feeds:
-  # -------------------- 【海外社媒与全球大事件 (X / Threads / 硅谷热议)】 --------------------
-  - name: "Techmeme (汇集海外 X/Threads 核心争论与全球科技头条)"
-    url: "https://www.techmeme.com/feed.xml"
-  - name: "Wired (连线·全球互联网文化与前沿争议)"
-    url: "https://www.wired.com/feed/rss"
-
-  # -------------------- 【国内核心与深度媒体】 --------------------
+  # -------------------- 【国内核心要闻与深度调查】 --------------------
   - name: "澎湃新闻"
     url: "https://feedx.net/rss/thepaper.xml"
-  - name: "36氪"
+  - name: "南方周末 (权威时代观察与深度特稿)"
+    url: "https://feedx.net/rss/infzm.xml"
+
+  # -------------------- 【科技 / 商业 / 产业创新】 --------------------
+  - name: "36氪 (商业科技与创投动态)"
     url: "https://36kr.com/feed"
-  - name: "IT之家"
-    url: "https://www.ithome.com/rss/"
-  - name: "少数派"
-    url: "https://sspai.com/feed"
-  - name: "虎嗅网"
+  - name: "虎嗅网 (深度产业商业复盘)"
     url: "https://rss.huxiu.com/"
-  - name: "爱范儿"
+
+  # -------------------- 【数码电子 / 数字生活】 --------------------
+  - name: "IT之家 (数码软硬件与科技快讯)"
+    url: "https://www.ithome.com/rss/"
+  - name: "少数派 (优质数字生活与效率)"
+    url: "https://sspai.com/feed"
+  - name: "爱范儿 (新消费数码与前沿体验)"
     url: "https://www.ifanr.com/feed"
 
-  # -------------------- 【国际顶级科技与消费数码】 --------------------
-  - name: "The Verge"
-    url: "https://www.theverge.com/rss/index.xml"
-  - name: "Ars Technica"
-    url: "https://feeds.arstechnica.com/arstechnica/index"
-
-  # -------------------- 【商业与宏观财经】 --------------------
-  - name: "FT中文网"
+  # -------------------- 【宏观财经与全球政经】 --------------------
+  - name: "FT中文网 (英国金融时报·深度财经与全球格局)"
     url: "https://www.ftchinese.com/rss/feed"
 
-  # -------------------- 【深度时政与时代观察】 --------------------
-  - name: "南方周末"
-    url: "https://feedx.net/rss/infzm.xml"
-  - name: "联合早报"
+  # -------------------- 【国际大势与亚太观察】 --------------------
+  - name: "联合早报 (亚太时政权威洞察)"
     url: "https://feedx.net/rss/zaobao.xml"
-
-  # -------------------- 【全球大势与体育】 --------------------
-  - name: "BBC 中文网"
+  - name: "BBC 中文网 (全球重大国际要闻中文版)"
     url: "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"
-  - name: "BBC 体育"
+
+  # -------------------- 【综合体育赛事】 --------------------
+  - name: "BBC 体育 (全球体育焦点动态中文版)"
     url: "https://feeds.bbci.co.uk/sport/rss.xml"
 
 output:
-  feed_title: "AI 深度精选与全景速览 (Daily Digest)"
-  feed_description: "大模型把关：置顶全景速览（含海外X热议），下接深度硬核长文"
+  feed_title: "AI 深度精选专栏 (Daily Digest)"
+  feed_description: "大模型严格把关：纯中文深度好文精读 + 置顶全景日报速览"
   feed_link: "https://github.com/Kevin8k86/RSS"
   output_file: "dist/feed.xml"
 

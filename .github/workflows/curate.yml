@@ -2,8 +2,8 @@ name: RSS AI Curator
 
 on:
   schedule:
-    # 每天两次：早晨 07:00（早报）和 傍晚 18:00（晚报）（对应 UTC 23:00 和 10:00）
-    - cron: '0 23,10 * * *'
+    # 每天一次：北京时间早晨 07:00 推送今日日报（对应 UTC 23:00）
+    - cron: '0 23 * * *'
   workflow_dispatch: # 支持在 GitHub 页面随时手动点击立即触发
 
 permissions:

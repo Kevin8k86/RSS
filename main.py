@@ -19,6 +19,7 @@ import schedule
 from storage import Storage, hash_id
 from llm import ContentEvaluator
 from feed_generator import generate_rss_xml
+from custom_sources import fetch_github_trending, fetch_makerworld_trending
 
 # Set global socket timeout to prevent hanging feeds
 socket.setdefaulttimeout(15)
@@ -69,7 +70,14 @@ def extract_entry_content(entry: Any) -> str:
     return content
 
 
-def process_single_entry(entry: Any, feed_url: str, storage: Storage, evaluator: ContentEvaluator, score_threshold: float):
+def process_single_entry(
+    entry: Any,
+    feed_url: str,
+    storage: Storage,
+    evaluator: ContentEvaluator,
+    score_threshold: float,
+    allow_foreign: bool = False,
+):
     link = getattr(entry, "link", "")
     guid = getattr(entry, "id", link)
     item_id = hash_id(link, guid)
@@ -82,8 +90,8 @@ def process_single_entry(entry: Any, feed_url: str, storage: Storage, evaluator:
     pub_date = getattr(entry, "published", getattr(entry, "updated", ""))
     content = extract_entry_content(entry)
 
-    # 过滤外语文章（只保留中文精选内容）
-    if not is_mainly_chinese(title):
+    # 仅在非极客开源/模型源且不包含中文时跳过
+    if not allow_foreign and not is_mainly_chinese(title):
         logger.info(f"   ⏩ [过滤外语文章] {title[:35]}...")
         storage.save_result(
             item_id=item_id,
@@ -128,15 +136,34 @@ def process_single_entry(entry: Any, feed_url: str, storage: Storage, evaluator:
 
 
 def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: ContentEvaluator):
-    logger.info("🚀 开始执行 RSS 抓取、深度质量筛选与今日全景速报生成任务...")
+    logger.info("🚀 开始执行极客早报抓取、深度质量筛选与今日速报生成任务...")
     score_threshold = float(config.get("curator", {}).get("score_threshold", 7.5))
     max_entries_per_feed = int(config.get("curator", {}).get("max_entries_per_feed", 12))
     max_workers = int(config.get("curator", {}).get("max_workers", 4))
 
-    feeds = config.get("feeds", [])
     pending_items = []
     scanned_for_briefing = []
 
+    # 1. 抓取专有特色源：GitHub Trending
+    logger.info("📡 正在获取: [GitHub Trending 每日热门仓库]...")
+    gh_entries = fetch_github_trending(limit=10)
+    for entry in gh_entries:
+        scanned_for_briefing.append({"source": "GitHub Trending", "title": entry.title})
+        item_id = hash_id(entry.link, entry.id)
+        if not storage.is_processed(item_id):
+            pending_items.append((entry, "https://github.com/trending", True))
+
+    # 2. 抓取专有特色源：拓竹 MakerWorld 热门 3D 模型
+    logger.info("📡 正在获取: [拓竹 MakerWorld 热门 3D 模型]...")
+    mw_entries = fetch_makerworld_trending(limit=10)
+    for entry in mw_entries:
+        scanned_for_briefing.append({"source": "MakerWorld 3D模型", "title": entry.title})
+        item_id = hash_id(entry.link, entry.id)
+        if not storage.is_processed(item_id):
+            pending_items.append((entry, "https://makerworld.com", True))
+
+    # 3. 抓取常规 RSS 订阅源（36氪、知乎精选等）
+    feeds = config.get("feeds", [])
     for feed_info in feeds:
         feed_url = feed_info.get("url") if isinstance(feed_info, dict) else feed_info
         feed_name = feed_info.get("name", feed_url) if isinstance(feed_info, dict) else feed_url
@@ -153,20 +180,19 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
 
             for entry in selected_entries:
                 title = getattr(entry, "title", "").strip()
-                # 仅将中文资讯加入全景速报候选列表
-                if title and is_mainly_chinese(title):
+                if title:
                     scanned_for_briefing.append({"source": feed_name, "title": title})
 
                 link = getattr(entry, "link", "")
                 guid = getattr(entry, "id", link)
                 item_id = hash_id(link, guid)
                 if not storage.is_processed(item_id):
-                    pending_items.append((entry, feed_url))
+                    pending_items.append((entry, feed_url, False))
 
         except Exception as e:
             logger.error(f"❌ 读取源 {feed_url} 异常: {str(e)}")
 
-    logger.info(f"⚡ 待处理新增深度文章: {len(pending_items)} 篇，启动 {max_workers} 线程并发评估...")
+    logger.info(f"⚡ 待处理新增深度项目/文章: {len(pending_items)} 篇，启动 {max_workers} 线程并发评估...")
 
     total_accepted = 0
     total_rejected = 0
@@ -174,8 +200,16 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
     if pending_items:
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             futures = [
-                executor.submit(process_single_entry, entry, feed_url, storage, evaluator, score_threshold)
-                for entry, feed_url in pending_items
+                executor.submit(
+                    process_single_entry,
+                    entry,
+                    feed_url,
+                    storage,
+                    evaluator,
+                    score_threshold,
+                    allow_foreign,
+                )
+                for entry, feed_url, allow_foreign in pending_items
             ]
             for f in as_completed(futures):
                 res = f.result()
@@ -184,31 +218,30 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
                 elif res is False:
                     total_rejected += 1
 
-    # 1. Generate lead panoramic briefing article (置顶每日全景速览：一眼扫完全天热点)
-    logger.info("📝 正在使用大模型生成【今日全景日报·一眼扫完】置顶文章...")
+    # 4. 生成置顶极客晨报速览
+    logger.info("📝 正在使用大模型生成【今日极客早餐速报】置顶卡片...")
     briefing_html = evaluator.generate_panoramic_briefing(scanned_for_briefing)
 
     bj_time = datetime.now(timezone(timedelta(hours=8)))
-    # Use exact timestamp & hash in guid so ReadYou always refreshes fresh content
-    briefing_guid = f"briefing_{bj_time.strftime('%Y%m%d_%H%M%S')}_{hash_id(briefing_html)[:8]}"
+    briefing_guid = f"geek_briefing_{bj_time.strftime('%Y%m%d_%H%M%S')}_{hash_id(briefing_html)[:8]}"
     briefing_info = {
-        "title": f"📰 【今日全景日报】一分钟看全天下事 ({bj_time.strftime('%m-%d')} 版)",
+        "title": f"⚡ 【极客早报】GitHub · 3D打印 · 36氪 · 知乎精选 ({bj_time.strftime('%m-%d')} 版)",
         "guid": briefing_guid,
         "link": config.get("output", {}).get("feed_link", "https://github.com/Kevin8k86/RSS"),
         "content": briefing_html,
     }
 
-    # 2. Clean up old records in DB
+    # 5. 清理历史旧数据
     storage.cleanup_old_records(days=45)
 
-    # 3. Retrieve accepted in-depth articles
+    # 6. 获取最近精选入库的文章/项目
     max_items = int(config.get("curator", {}).get("max_output_items", 50))
     accepted_articles = storage.get_recent_accepted(limit=max_items)
 
     out_cfg = config.get("output", {})
     xml_content = generate_rss_xml(
-        feed_title=out_cfg.get("feed_title", "AI 深度精选专栏 (Daily Digest)"),
-        feed_description=out_cfg.get("feed_description", "由大模型把关筛选的优质长文与行业洞察"),
+        feed_title=out_cfg.get("feed_title", "极客早报 · AI 深度精选专栏"),
+        feed_description=out_cfg.get("feed_description", "大模型把关：GitHub热榜 · 3D打印模型 · 36氪 · 知乎硬核长文"),
         feed_link=out_cfg.get("feed_link", "https://github.com/Kevin8k86/RSS"),
         articles=accepted_articles,
         briefing=briefing_info,
@@ -221,33 +254,30 @@ def run_curation_task(config: Dict[str, Any], storage: Storage, evaluator: Conte
 
     logger.info(
         f"🎉 任务完成！本次精选新增 {total_accepted} 篇，淘汰 {total_rejected} 篇。"
-        f" 成功生成置顶全景速览并已写入: {out_file_path}"
+        f" 成功生成极客晨报并已写入: {out_file_path}"
     )
 
 
 def start_http_server(directory: str, port: int = 8080):
     """Start a lightweight HTTP server in a separate thread to serve the feed."""
     os.chdir(directory)
-
-    class CustomHandler(SimpleHTTPRequestHandler):
-        def log_message(self, format, *args):
-            pass
-
-    server = HTTPServer(("0.0.0.0", port), CustomHandler)
-    logger.info(f"🌐 本地静态 Web 服务已在后台启动: http://0.0.0.0:{port}/feed.xml")
-    server.serve_forever()
+    handler = SimpleHTTPRequestHandler
+    httpd = HTTPServer(("", port), handler)
+    logger.info(f"🌐 本地测试预览服务已启动: http://localhost:{port}/feed.xml")
+    httpd.serve_forever()
 
 
 def main():
-    parser = argparse.ArgumentParser(description="RSS AI Curator - 智能深度资讯筛选器")
-    parser.add_argument("--config", default="config.yaml", help="Path to config.yaml")
-    parser.add_argument("--run-once", action="store_true", help="Run once and exit (for GitHub Actions / Cron)")
-    parser.add_argument("--daemon", action="store_true", help="Run as a daemon with built-in scheduler and web server")
-    parser.add_argument("--port", type=int, default=8080, help="Port for the built-in HTTP server in daemon mode")
+    parser = argparse.ArgumentParser(description="RSS AI 极客早报筛选系统")
+    parser.add_argument("--config", default="config.yaml", help="配置文件路径")
+    parser.add_argument("--run-once", action="store_true", help="仅执行一次抓取与生成后退出")
+    parser.add_argument("--serve", action="store_true", help="启动本地 Web 服务供阅读器测试")
+    parser.add_argument("--port", type=int, default=8080, help="本地 Web 服务端口")
     args = parser.parse_args()
 
     config = load_config(args.config)
-    db_path = config.get("storage", {}).get("db_path", "curator.db")
+
+    db_path = config.get("storage", {}).get("db_path", "data/curator.db")
     storage = Storage(db_path=db_path)
 
     llm_cfg = config.get("llm", {})
@@ -257,32 +287,25 @@ def main():
         model=llm_cfg.get("model", "deepseek-chat"),
     )
 
+    if args.serve:
+        out_dir = Path(config.get("output", {}).get("output_file", "dist/feed.xml")).parent
+        t = threading.Thread(target=start_http_server, args=(str(out_dir), args.port), daemon=True)
+        t.start()
+
     if args.run_once:
         run_curation_task(config, storage, evaluator)
         return
 
-    if args.daemon:
-        interval_min = int(config.get("curator", {}).get("interval_minutes", 60))
-        out_dir = Path(config.get("output", {}).get("output_file", "dist/feed.xml")).parent
-        out_dir.mkdir(parents=True, exist_ok=True)
+    # 定时循环模式
+    logger.info("⏰ 启动定时轮询调度器 (每日 07:00 自动执行)...")
+    schedule.every().day.at("07:00").do(run_curation_task, config, storage, evaluator)
 
-        server_thread = threading.Thread(
-            target=start_http_server,
-            args=(str(out_dir.resolve()), args.port),
-            daemon=True,
-        )
-        server_thread.start()
+    # 首次启动先执行一次
+    run_curation_task(config, storage, evaluator)
 
-        run_curation_task(config, storage, evaluator)
-
-        logger.info(f"⏰ 已设置定时轮询任务：每隔 {interval_min} 分钟自动执行一次。")
-        schedule.every(interval_min).minutes.do(run_curation_task, config, storage, evaluator)
-
-        while True:
-            schedule.run_pending()
-            time.sleep(10)
-    else:
-        run_curation_task(config, storage, evaluator)
+    while True:
+        schedule.run_pending()
+        time.sleep(30)
 
 
 if __name__ == "__main__":

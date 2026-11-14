@@ -2,8 +2,8 @@ name: RSS AI Curator
 
 on:
   schedule:
-    # 每天一次：北京时间早晨 07:00 推送今日日报（对应 UTC 23:00）
-    - cron: '0 23 * * *'
+    # 每天清晨执行：设为北京时间 06:20（对应 UTC 22:20），避开整点拥堵排队，确保 07:00 前完成更新
+    - cron: '20 22 * * *'
   workflow_dispatch: # 支持在 GitHub 页面随时手动点击立即触发
 
 permissions:

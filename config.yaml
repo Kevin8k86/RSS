@@ -1,4 +1,4 @@
-# RSS AI Curator 配置文件
+# RSS AI Curator 极客早报配置文件
 
 llm:
   api_key: "YOUR_API_KEY_HERE" # GitHub Actions 中通过 Secrets: LLM_API_KEY 注入
@@ -9,54 +9,33 @@ curator:
   # 严格的主编打分及格线 (1.0 - 10.0 分)
   score_threshold: 7.5
 
-  # 输出给 ReadYou 的最新精华文章保留条数 (保持 30-50 篇，满足深度精读需求)
-  max_output_items: 50
+  # 输出给 ReadYou 等 RSS 阅读器的最新精华文章/项目保留条数
+  max_output_items: 40
 
-  # 每天运行一次时，每个订阅源采集前 12 篇候选新闻（覆盖全天动态）
+  # 每天运行一次时，每个订阅源采集前 12 篇候选
   max_entries_per_feed: 12
 
   # 并发评估线程数
   max_workers: 4
 
-# 订阅源列表：全部严选权威纯中文媒体（涵盖时政、国际、科技、数码、财经、文娱、体育）
+# 订阅源列表：聚焦【GitHub Trending、3D打印模型、36氪商业科技、知乎精选】
+# 注：GitHub Trending 与 拓竹 MakerWorld 热门 3D 模型已作为原生数据源直接在代码中稳定抓取
 feeds:
-  # -------------------- 【国内核心要闻与深度调查】 --------------------
-  - name: "澎湃新闻"
-    url: "https://feedx.net/rss/thepaper.xml"
-  - name: "南方周末 (权威时代观察与深度特稿)"
-    url: "https://feedx.net/rss/infzm.xml"
-
-  # -------------------- 【科技 / 商业 / 产业创新】 --------------------
+  # -------------------- 【商业科技 / 产业与大模型创新】 --------------------
   - name: "36氪 (商业科技与创投动态)"
     url: "https://36kr.com/feed"
-  - name: "虎嗅网 (深度产业商业复盘)"
-    url: "https://rss.huxiu.com/"
 
-  # -------------------- 【数码电子 / 数字生活】 --------------------
-  - name: "IT之家 (数码软硬件与科技快讯)"
-    url: "https://www.ithome.com/rss/"
-  - name: "少数派 (优质数字生活与效率)"
+  # -------------------- 【知乎精选 / 深度知识与讨论】 --------------------
+  - name: "知乎精选 (每日深度高赞)"
+    url: "https://rsshub.rss.tips/zhihu/daily"
+
+  # -------------------- 【数字生活与极客效率 (精选补充)】 --------------------
+  - name: "少数派 (优质数字生活与效率生产力)"
     url: "https://sspai.com/feed"
-  - name: "爱范儿 (新消费数码与前沿体验)"
-    url: "https://www.ifanr.com/feed"
-
-  # -------------------- 【宏观财经与全球政经】 --------------------
-  - name: "FT中文网 (英国金融时报·深度财经与全球格局)"
-    url: "https://www.ftchinese.com/rss/feed"
-
-  # -------------------- 【国际大势与亚太观察】 --------------------
-  - name: "联合早报 (亚太时政权威洞察)"
-    url: "https://feedx.net/rss/zaobao.xml"
-  - name: "BBC 中文网 (全球重大国际要闻中文版)"
-    url: "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml"
-
-  # -------------------- 【综合体育赛事】 --------------------
-  - name: "BBC 体育 (全球体育焦点动态中文版)"
-    url: "https://feeds.bbci.co.uk/sport/rss.xml"
 
 output:
-  feed_title: "AI 深度精选专栏 (Daily Digest)"
-  feed_description: "大模型严格把关：纯中文深度好文精读 + 置顶全景日报速览"
+  feed_title: "⚡ 极客早餐速报 (Daily Geek Digest)"
+  feed_description: "大模型严格把关：GitHub热榜 · 拓竹3D打印模型 · 36氪 · 知乎精选"
   feed_link: "https://github.com/Kevin8k86/RSS"
   output_file: "dist/feed.xml"
 

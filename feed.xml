@@ -4,14 +4,14 @@
     <title>⚡ 极客早餐速报 (Daily Geek Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型严格把关：GitHub热榜 · 拓竹3D打印模型 · 36氪 · 知乎精选</description>
-    <lastBuildDate>Sun, 15 Nov 2026 01:57:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 02:11:32 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
-        <title>⚡ 【极客早报】GitHub · 3D打印 · 36氪 · 知乎精选 (11-15 版)</title>
+        <title>⚡ 【极客早报】GitHub · 3D打印 · 36氪 · 知乎精选 (11-16 版)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
-        <guid isPermaLink="false">geek_briefing_20261115_095727_a107a655</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <guid isPermaLink="false">geek_briefing_20261116_101132_28d02eea</guid>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>AI 极客主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -21,50 +21,361 @@
             </div>
             <div>
                 <div>
-<h2>今日极客早餐速报 · 2026年11月15日</h2>
+<h2>今日极客早餐速报 · 2026年11月16日</h2>
 
 <h3>🌟 【GitHub 开源黑科技与提效神器】</h3>
-
-<p><b>GoogleChrome/modern-web-guidance-src</b>（TypeScript，今日 +1,231 Stars）<br>
-Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 年浏览器能力边界与最佳实践。解决前端开发者面对新 API 时文档碎片化、示例过时的痛点，适合团队搭建内部前端规范或作为技术选型参考手册。</p>
-
-<p><b>alibaba/open-code-review</b>（Go，今日 +893 Stars）<br>
-阿里开源的自动化代码审查引擎，基于静态分析与规则引擎对 PR 进行结构化评审。解决人工 Code Review 耗时且标准不统一的痛点，适合中大型团队接入 CI 流水线，实现提交即审查、风险早拦截。</p>
-
-<p><b>ChromeDevTools/chrome-devtools-mcp</b>（TypeScript，今日 +664 Stars）<br>
-将 Chrome DevTools 能力封装为 MCP 协议服务，让 AI 编程助手可直接读取页面性能、网络与控制台数据。解决 AI 调试网页时“看不见浏览器”的痛点，适合构建自动化前端调试与性能诊断 Agent。</p>
-
-<p><b>dream-num/univer</b>（TypeScript，今日 +495 Stars）<br>
-开源的全功能电子表格与文档协同引擎，支持公式计算、多人实时协作与插件扩展。解决在线表格类应用自研成本高的痛点，适合 SaaS 厂商快速嵌入表格能力，或作为轻量 Excel 替代方案。</p>
+<p><b>Univer（TypeScript，+988 Stars）</b>：一款对标在线表格与文档协同的开源套件，把电子表格、文档、演示整合进同一渲染内核，支持公式引擎与插件化扩展。适合团队自建类飞书文档系统，或嵌入 SaaS 产品做数据看板，替代商业授权成本高昂的表格组件。</p>
+<p><b>Chrome DevTools MCP（TypeScript，+717 Stars）</b>：官方把 Chrome 调试协议封装成模型上下文协议服务，让 AI 代理直接读取页面 DOM、网络请求与控制台日志。前端调试从此可交给智能体自动复现问题，适合做自动化回归与 AI 辅助排障的团队。</p>
+<p><b>Plannotator（TypeScript，+866 Stars）</b>：面向代码评审的可视化标注工具，把 diff 变成可批注的画布，支持逐行讨论与状态追踪。解决 PR 评审意见散落、上下文丢失的痛点，适合远程团队做异步代码审查，让评审结论沉淀为可检索资产。</p>
+<p><b>Open Code Review（Go，+691 Stars）</b>：阿里开源的代码评审辅助服务，用静态分析与规则引擎自动生成评审要点，可对接 Git 平台做增量扫描。适合中大型仓库在合并前做质量闸门，降低人工漏检率，尤其适配 Go 微服务项目。</p>
 
 <h3>🖨️ 【热门 3D 打印模型与创客设计】</h3>
-
-<p><b>Flexi Skeleton T-Rex dinosaur（Tiny & XL Size）</b>（下载 3897 / 打印 1776）<br>
-可动关节的骷髅霸王龙，采用一体打印柔性铰链结构，无需组装即可活动。提供迷你与超大两种尺寸，建议 FDM 使用 0.2mm 层高、PLA 打印，关节处避免过度填充以保证灵活度。</p>
-
-<p><b>Ultimate Flip & Slide Fidget Toy（Print in Place）</b>（下载 3548 / 打印 2146）<br>
-一体成型的翻转滑动解压玩具，靠精密间隙实现免组装活动结构。亮点在于零支撑、零胶水，适合拓竹等 FDM 机型直接打印，建议 0.16mm 层高并校准流量，确保滑动顺滑不粘连。</p>
-
-<p><b>机甲风 AMS 弹药舱收纳装甲（适配 AMS & AMS2 PRO）</b>（下载 980 / 打印 98）<br>
-为拓竹 AMS 设计的机甲风格外罩收纳结构，兼具防尘与耗材舱美化，模块化卡扣便于拆装。适合追求桌面机甲美学的创客，建议 PETG 打印提升耐温与结构强度，注意卡扣公差预留。</p>
+<p><b>Flexi Skeleton T-Rex（下载 4316 / 打印 2083）</b>：一体打印的可动关节霸王龙，采用链节式球窝结构，无需组装即可摆动尾巴与四肢，提供迷你与超大两种尺寸。拓竹打印建议 0.16mm 层高、关节处留 0.3mm 间隙防粘连，PLA 即可，超大版注意热床附着。</p>
+<p><b>Ultimate Flip & Slide Fidget Toy（下载 4231 / 打印 2635）</b>：Print in Place 一体成型的解压玩具，翻转与滑轨双机构组合，靠精确公差实现免组装活动。适合用 0.2mm 层高、关闭支撑打印，拓竹机型建议开加速度补偿，避免细缝处拉丝影响手感。</p>
+<p><b>Knitted Angel（下载 3124 / 打印 1618）</b>：针织纹理天使摆件，表面用几何浮雕模拟毛线编织质感，底座加宽保证站立稳定。无需 AMS 单色即可出效果，建议 0.12mm 细层高还原纹理，配合哑光 PLA 更接近织物观感。</p>
 
 <h3>💼 【商业科技与前沿创新 (36氪)】</h3>
-
-<p><b>英伟达 CEO 黄仁勋宣布辞职</b><br>
-据派早报消息，黄仁勋宣布辞任英伟达 CEO，引发行业对 AI 算力格局走向的广泛讨论。核心影响在于其个人战略风格与公司路线深度绑定，继任者能否延续 CUDA 生态与数据中心扩张节奏，将成为资本市场与供应链关注焦点。</p>
-
-<p><b>微软发布 Auto SR 技术</b><br>
-微软推出 Auto SR 自动超分辨率能力，面向系统级图形与 AI 场景提升渲染效率。其商业意义在于把超分从游戏外设能力下沉为平台级基础设施，有望降低终端算力门槛，推动轻薄设备与本地 AI 推理体验升级。</p>
+<p><b>英伟达人事震荡引发联署风波</b>：少数派早报披露逾十万人次联署要求黄仁勋复职，同期又传出其宣布辞职的消息，两条信息相互矛盾，反映市场对 AI 算力龙头治理稳定性的高度敏感。风向在于：算力供应链的任何人事变量都会被放大为估值波动信号。</p>
+<p><b>AI 时代「慢产品」方法论受关注</b>：开发者分享如何把 Mole 做成反潮流的慢产品，强调在模型能力狂飙期，克制功能堆叠、深耕单点体验反而形成差异化。这折射出工具类创业的新风向：从拼参数转向拼留存与信任，慢即是快。</p>
 
 <h3>💡 【知乎精选与深度思考】</h3>
-
-<p><b>拆弹的时候为什么不一下把线全剪了？</b><br>
-高赞讨论指出，真实排爆并非电影式剪线，而是识别起爆回路、电源与冗余触发装置。核心原理在于爆炸装置常设防拆与并联回路，盲目剪线可能触发备用电路。思维增量：复杂系统要优先切断能量源，而非表面信号线。</p>
-
-<p><b>有哪些技术遗失后又被重复发明的例子？</b><br>
-讨论聚焦混凝土、机械计算机与部分冶金工艺的断代与再发现。底层逻辑是技术依赖配套产业与知识传承，单点发明若缺乏生态支撑便会失传。启示在于：技术积累是网络效应，文档化与人才培养比单次突破更关键。</p>
+<p><b>全球变暖阻断了下一个冰河时代</b>：讨论指出，人类排放的温室气体浓度已足以压制米兰科维奇周期的降温趋势，使下一次冰期在数万年内难以启动。思维增量在于：气候系统存在长周期惯性，当下排放决策实际在改写地质尺度的时间表，而非仅影响百年气温。</p>
+<p><b>有什么廉价但技术含量很高的东西</b>：高赞回答从回形针、拉链讲到一次性注射器与 GPS 芯片，核心命题是规模化制造如何把尖端工艺摊薄到几分钱。底层原理在于良率曲线与供应链分工，提示我们技术含量不等于价格，量产能力本身就是护城河。</p>
 </div>
             </div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Aerial Switcher：给 Mac 的航拍壁纸排个时间表</title>
+        <link>https://sspai.com/post/118392</link>
+        <guid isPermaLink="false">8027af1ee822c084161404a1c176dcc361e3f627ab186e4a63c920c5ee0051d4</guid>
+        <pubDate>Sun, 15 Nov 2026 15:55:16 +0800</pubDate>
+        <author>尹颍</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：一款让 Mac 航拍壁纸按时间自动切换的小工具，思路巧妙，把系统自带素材变成动态体验，轻量实用，适合喜欢桌面美化的用户。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            既然 Apple 已经把同一个地方的美景从早到晚拍了一遍并做成了壁纸，为什么不能让它们跟着时间自动切换？<a href="https://sspai.com/post/118392" target="_blank">查看全文</a>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 有什么廉价但是技术含量很高的东西？</title>
+        <link>https://daily.zhihu.com/story/9794032</link>
+        <guid isPermaLink="false">4040169f93f5090a7365b30d7af5c33ceb39a3e3bba24f629eb7574d43a0b849</guid>
+        <pubDate>Sun, 15 Nov 2026 16:00:00 +0000</pubDate>
+        <author>知乎用户</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：一线外科医生手打分享手术缝合针线的技术细节与临床体验，对比爱惜康与竞品在针头锋利度、组织反应等维度的真实差异，硬核且无广告，值得了解医疗耗材的隐形技术壁垒。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p>手术缝合用的针线</p>
+<p>以下全部手打，没有 AI，没有广告。</p>
+<p>我应该算是比较少见的从最便宜跳级到最贵的线的人，刚开始学医的时候在国内跟台，用的都是丝绸线，还需要穿线，早期几毛钱一根。</p>
+<p>医学院后期到现在都是用的强生的爱惜康 Ethicon 的针线，那就贵了，同样是针线。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-a604ff796b7fed2100d87729ddde2c35_720w.jpg?source=8673f162" /></figure>
+<p>这是一个很多国家的医疗公司都认为可以竞争的领域，而且是医疗巨量消费品，即使是我这个等级的一年至少也要用五千，我也试用过非常多公司的针线，即使是同一种针线，完全用同一种线材，针的尺寸，形状，切面，长度，感觉也非常不一样。</p>
+<p>外科使用的针线，只分两种，爱惜康和非爱惜康，任何缝合，任何部位，我只用爱惜康，任何不能提供爱惜康的医疗机构我都是一概不合作的，因为我无法提供我希望提供的医疗质量，我也拒绝和任何把降本置于医生习惯和病人利益之上的人和机构合作。</p>
+<p>爱惜康在这个领域基本上是断层领先，一度占世界手术针线份额超过 70%，目前占有份额是 30-40%。第二名的 Braun&lt;10%和第三名的 Medtronic 和其他小品牌产的同等用途的针线对比爱惜康起来，恕我直言都不配在临床使用，都是垃圾。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-6fd234657c7fb061c83607c14d9e9be9_720w.jpg?source=8673f162" /></figure>
+<p>那爱惜康强在哪里呢？</p>
+<p>第一就是针头，特别是爱惜康的 Multipass 针头，在多次使用以后依然保持锋利，缝合轻松，基本不变形，反馈舒适。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-bbcf09dc8bbf8b6c7bdcca87cea69415_720w.jpg?source=8673f162" /></figure>
+<p>第二就是组织反应，比如说爱惜康的 monofilamont 可吸收丝线是组织反应最小的，我职业生涯缝合从来没有发生过丝线脓包（suture abscess），我第一次使用德国 Braun 的 Monofilament 就出现了这个问题，一开始我还觉得是我技术出问题了，后来一再出现才发现是丝线问题，遂弃用（Braun 的器械还是不错的）</p>
+<p>第三就是材料学设计，比如说表皮缝合的 Prolene，它的材料设计就是按照术后组织水肿来设计的，能够随着水肿延展且不挤压组织，减少缺血，最小化疤痕。用在血管吻合则不会撕裂血管，没有任何其他我尝试过的材料可以接近它的表现，你也不敢在血管吻合上试错任何其他的材料 (当然一分价钱一分货，Prolene 也是最贵的常见线材之一)</p>
+<p>爱惜康最强的地方，就是通过建立传承基本形成了垄断</p>
+<p>我考上医学院上学前的那个暑假，爱惜康当地的医疗代表不知哪里听说了，就找上了我爸，给我送了一个练习手打结的东西，后来这个东西在澳洲的时候外科兴趣小组也是爱惜康赞助的，也给我送了一个 （不过质量都不行，我技术也不行，原位打结尚不成熟，深部打结的钩子三天就断了）</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-696ca7cac34f56f2fa5e235b221bb535_720w.jpg?source=8673f162" /></figure>
+<p>我的第一本打结教学指南，爱惜康赞助的。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-7ee067d8c4c121971d8b5080848b149c_720w.jpg?source=8673f162" /></figure>
+<p>我的老师们都用爱惜康，我的老师的老师们也用爱惜康，你要上老师台，就只能用爱惜康，那种用持针器夹起针头的感觉，针头穿过组织的力回馈，丝线穿过组织的顺滑程度，打结合结的程度和最大受力极限，都成为一种肌肉记忆，甚至闭着眼睛都能明确的感知——针头的尺寸就算差一毫米，丝线差一个尺寸，都能极其明确的辨认</p>
+<p>他们对于丝线的命名，虽然是他们的品牌名，也已经成为了业内对于这个材料的定义。</p>
+<p>成本其实很低，但是技术含量挺高，利润率也高</p>
+<p>壁垒看似很低，实际上壁垒极高，别说阿猫阿狗的小公司，就算是 Braun 和 Medtronic 这种巨头，都无法在这个领域在强生嘴里抢到肉吃</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/55556079">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 有以碱液消化食物的动物吗？</title>
+        <link>https://daily.zhihu.com/story/9794024</link>
+        <guid isPermaLink="false">5e3648d952baddf9b24e4390510368d65c1e17c8b1fb342240bbc39565232ee6</guid>
+        <pubDate>Sun, 15 Nov 2026 16:00:00 +0000</pubDate>
+        <author>犬君拌汪酱</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：知乎硬核科普：从‘碱液消化’切入，系统拆解BT毒蛋白的碱激活机制与昆虫中肠靶向原理，逻辑清晰、事实密度高，是理解生物农药底层逻辑的优质长文。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p>恭喜你！<strong>你无意间发现了一个治理害虫但是不会误伤人类的好思路！</strong></p>
+<p>众所周知，<strong>人类的肠胃环境是酸性的</strong>。但有很多农业害虫，包括鳞翅目、双翅目、鞘翅目、半翅目下面的许多喜欢攻击农作物的昆虫，其消化道（<strong>中肠</strong>/midgut）是<strong>碱性</strong>的</p>
+<p>通过利用人类和农业害虫消化道酸碱性的不同，我们便能<strong>使用某些在碱性环境下有毒，但是在酸性条件下无毒的化学物质，在治理农业害虫的同时，避免对人类的误伤</strong></p>
+<p>而这类化学物质的代表，便是高中生物课本上就有出现的——<strong>苏云金芽孢杆菌</strong> (<em>Bacillus thuringiensis</em>，俗称 BT)和它们合成的<strong>对昆虫特攻晶体毒蛋白</strong>（crystal proteins）</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-3a462ce88239ed70b13b9118b13be406_720w.jpg?source=8673f162" /></figure>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-be279f769fe103556cb953ab222fe0b5_720w.jpg?source=8673f162" /><figcaption>参考文献[1]</figcaption></figure>
+<p>↑扫描电子显微镜下的苏云金芽孢杆菌晶体毒蛋白和孢子</p>
+<p>苏云金芽孢杆菌是一种在自然界土壤里天然广泛存在的革兰氏阳性细菌，是一种<strong>天然的昆虫病原菌</strong></p>
+<p>就像是人类吃坏了东西会生病那样，昆虫吃了不该吃的东西也会生病——比如不小心在吃叶子的时候把粘在叶子表面的苏云金芽孢杆菌芽孢一起吃了下去</p>
+<p>苏云金芽孢杆菌能生产对昆虫有毒的晶体毒蛋白，在被昆虫吃下去后，晶体毒蛋白会在昆虫碱性的中肠里溶解，随后被肠道蛋白酶切割成活性形式，接着破坏肠道上皮细胞膜形成孔洞，使得昆虫的肠壁受损；而苏云金芽孢杆菌则通过孔洞进入昆虫血淋巴开始增殖，直到最终<strong>昆虫最后因为饥饿和败血症（细菌增殖和毒素生成）而死亡</strong></p>
+<p>（苏云金芽孢杆菌的分型 / 株型 /strains 很多，具体合成的晶体毒蛋白不同，有效的昆虫类群也会因此不同；此外晶体毒蛋白分解后会跟昆虫肠道上的受体结合）</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-1a79c557eacd4917c4f4515d0d28db2b_720w.jpg?source=8673f162" /><figcaption>https://www.biorationalapproach.com/how-bt-works/</figcaption></figure>
+<p>↑苏云金芽孢杆菌工作原理示意图</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-bfc7aba062b7a8d8e7cb84319a77ef86_720w.jpg?source=8673f162" /></figure>
+<p>↑网络上的苏云金芽孢杆菌（BT）生物杀虫剂种类多样，易于入手</p>
+<p>（顺口一提，苏云金芽孢杆菌生物杀虫剂其实很容易自制，找一只被 BT 杀死的鳞翅目幼虫，泡水里打个悬浊液就做好了，喷洒之后可以继续回收被杀死的农业害虫二次制作使用，以战养战）</p>
+<p>值得一提的是，<strong>苏云金芽孢杆菌的晶体毒蛋白只能在碱性环境下溶解，而在酸性环境下会保持结晶状态，难以溶解</strong></p>
+<p>也因此，<strong>苏云金芽孢杆菌的晶体毒蛋白对于包括人类在内的哺乳动物们是无毒的</strong></p>
+<p>这使得苏云金芽孢杆菌成为了一种著名的对农业害虫特攻、对人类安全的生物杀虫剂，被广泛用于于生物防治</p>
+<p>甚至于，对此不满足的人类，还直接使用<strong>转基因技术</strong>，将苏云金芽孢杆菌合成晶体毒蛋白的基因编码进了农作物细胞里，制作出了<strong>转 Bt 基因的抗虫农作物</strong></p>
+<p>——高中课本里提到转基因作物时，主要用的就是转 Bt 基因农作物的例子。而转基因农作物里，最经典的例子就包括了转接了 Bt 基因的<strong>转基因棉花</strong>和<strong>转基因玉米</strong></p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-b67ab6927d0a9a26f51360db72a34810_720w.jpg?source=8673f162" /><figcaption>https://entomologytoday.org/2018/10/23/problems-driving-resistance-bt-crops-proposed-solutions-bollworm-corn-earworm/bt-and-non-bt-cotton/</figcaption></figure>
+<p>↑美洲棉铃虫（<em>Helicoverpa zea</em>）侵扰时，转 Bt 基因棉花（左）和普通棉花（右）的对比</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-dabd848c16d3828713e544ec429bee0a_720w.jpg?source=8673f162" /><figcaption>https://www.nature.com/scitable/knowledge/library/use-and-impact-of-bt-maize-46975413/</figcaption></figure>
+<p>↑欧洲玉米螟 (<em>Ostrinia nubilalis</em>)侵扰时，普通玉米（b 左）和转 Bt 基因玉米（b 右）的对比</p>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-d926b0ef980af63aa5204f060935560a_720w.jpg?source=8673f162" /><figcaption>https://www.moa.gov.cn/ztzl/zjyqwgz/kpxc/201305/t20130507_3452901.htm</figcaption></figure>
+<p>↑中华人民共和国农业农村部对于转 Bt 基因玉米的官方背书</p>
+<p>正如我们上面所展示的这样，很多时候，对于生物知识的利用，就是像这样从细小处着手，将不同生物的异同给利用起来</p>
+<p>时间有限，这篇回答就先写到这啦~</p>
+<p>©犬君拌汪酱 知乎认证生物学、动物学、昆虫学优秀答主，快来关注这条人畜无害的生态狗吧！！！</p>
+<p>喜欢这篇回答的话给个点赞分享喜欢关注四连吧谢谢！！！</p>
+<p>参考文献：</p>
+<ol>
+<li>Morphological Study of Bacillus thuringiensis Crystals and Spores H Loutfi, N Fayad, F Pellen, B Le Jeune, M Chakroun, D Benfarhat, R Lteif, M Kallassy… Applied Sciences, 2020</li>
+<li>Bacillus thuringiensis: a story of a successful bioinsecticide A Bravo, S Likitvivatanavong, SS Gill, M Soberón Insect biochemistry and molecular biology, 2011</li>
+</ol>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/604922538">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 研究称全球变暖阻断了下一个冰河时代，这一结论具有哪些科学意义？</title>
+        <link>https://daily.zhihu.com/story/9794030</link>
+        <guid isPermaLink="false">852421fca0e446ae5aae2f994159eac91fec3f9550f1699e441f9698764ca6f7</guid>
+        <pubDate>Sun, 15 Nov 2026 16:00:00 +0000</pubDate>
+        <author>气象喵探员</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：硬核科普长文，清晰解释米兰科维奇循环与全球变暖如何压制自然冰期信号，有底层逻辑拆解和科学增量，值得精读。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p><strong>这其实很正常，毕竟现在全球变暖的升温速率可以说是史无前例的。</strong></p>
+<p>对于大家来说还是比较反常识的，大多数人都听说过全球变暖，也都知道全球变暖很严重，会带来很猛烈的气候影响。</p>
+<p>但很少有人知道，全球变暖已经能够影响到地质尺度上的冰期循环，温室效应能够显著压制乃至覆盖米兰科维奇循环施加的自然冷却信号，结果就是一个冰期被跳过了。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-a3ab77e7cf80094278339c3ef44dfb64_720w.jpg?source=8673f162" /><figcaption>地球系统演化路径示意图，人为变暖可能已让气候脱离天然周期，走向温室地球状态</figcaption></figure>
+<p><strong>冰河时期本来是会来的，这是不变的自然气候变化</strong></p>
+<p>地球的气候是循环往复的，在过去的 80 万年里，地球大约以每 10 万年为一个周期，在冰期和间冰期之间来回摆动。</p>
+<p><strong>冰期到来时，冰雪从两极向外蔓延，覆盖北美和北欧的广袤大地，</strong>气温比现在低的多，海平面会比现在低 100 多米。</p>
+<p>间冰期到来时，极地冰盖显著退缩，万物复苏，人类文明正是从这样一个难得的温暖间冰期里发展壮大的，间冰期的时间不长，只在 10 万年的完整循环里占 1~2 万年。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-bd4f73fbab19896b8277f37859ad8e1f_720w.jpg?source=8673f162" /><figcaption>约 2 万年前的末次冰盛期北半球冰盖分布图</figcaption></figure>
+<p>所以这个循环是怎么来的呢？它其实来自于地球轨道的变化，塞尔维亚科学家米兰科维奇最早发现，<strong>地球轨道的偏心率、地轴倾角和岁差存在缓慢而规律的变化。</strong></p>
+<p>这些轨道参数的变化改变了地球各个纬度接收到太阳辐射量的分配，尤其是北半球高纬度地区夏季太阳辐射的强弱。</p>
+<p>当地球运行到特定位置时，北半球高纬度夏季太阳辐射减弱，夏季没有能力完全融化掉上一年的积雪，积雪就会年复一年的堆积，很快就会形成冰盖，冰期由此开始。</p>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-006194c819ba6522bf10b171c6335394_720w.jpg?source=8673f162" /><figcaption>米兰科维奇循环三要素示意图</figcaption></figure>
+<p>但轨道变化本身提供的辐射差距很小，还不足以单枪匹马的制造大陆冰盖，而碳循环德能在这个基础上起到放大作用。</p>
+<p>冰盖扩张会导致生物活动减弱，大气二氧化碳的浓度会逐步降低，<strong>二氧化碳的降低则会导致降温，从而推动冰盖继续扩张</strong>。</p>
+<p>就会形成一个正反馈过程，会不断自我强化最终把地球推入漫长的冰河时代，相反的，当北半球夏季太阳辐射重新增强，极地冰盖大规模退缩，地球又回到了间冰期。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-921e585bcf32ebd72e2c2396ff4e4fda_720w.jpg?source=8673f162" /><figcaption>冰期形成的气候反馈流程图，包含正反馈（有利冰期形成）和负反馈（不利冰期形成）</figcaption></figure>
+<p><strong>可人类活动导致的全球变暖，已经把冰期的引线拔掉了</strong></p>
+<p>提问中提到的报道其实是对一个研究项目的转述，对应论文的中文名称是「晚全新世劳伦泰德冰盖的再度扩张」。</p>
+<p>论文指出曾在末世冰期覆盖北美大陆的劳伦泰德冰盖，在全新世早期大幅退缩，但它并没有一路悄无声息的退场。</p>
+<p>大致是在 2000 年前，<strong>劳伦泰德冰盖的残余部分也就是巴恩斯冰帽发生了一次明显的扩张，</strong>这通常是新一轮冰期开启的信号，但在 1960 年前后冰帽停止扩张转为消融。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-330d03eceaff3761be51fccfeb320fa8_720w.jpg?source=8673f162" /><figcaption>巴芬岛巴恩斯冰帽区位图</figcaption></figure>
+<p>单凭这一点还说明不了什么，可以用局部变冷来解释，但现在的轨道参数其实是有利于冰期形成的，这个很重要。</p>
+<p>正如前文所说，米兰科波奇循环是很关键的初始影响因素，轨道参数有利，<strong>意味着在正常情况下，即纯自然气候变化的影响下，现在应当是逐步向下一个冰期过渡的。</strong></p>
+<p>现在人类活动导致的大气二氧化碳浓度持续升高，冰期形成的放大条件被破坏，即便轨道条件有利于冰期形成，极地冰盖也没办法大幅度扩张，冰期自然没办法开启。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-5a155888f903068db6896f50e8f0b18b_720w.jpg?source=8673f162" /><figcaption>不同大气二氧化碳浓度下，未来 50 万年北纬 65°夏季日照与冰期启动门槛对比图</figcaption></figure>
+<p>而在几千年后，北半球高纬度地区夏季日射还将逐步走低，整体的轨道条件将进一步有利于冰期的启动和发展。</p>
+<p>但这依然无效，即便后续我们成功实现了近零碳排放，过去在大气中积累的巨量二氧化碳仍然将持续影响当下的气候。</p>
+<p><strong>所以在这种情况下，我们认为下一个冰期在 5 万年以后才会满足基本启动条件，</strong>如果接下来持续排放大量碳，那么满足启动条件的时间可能会进一步推迟到 10 万年后。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-89147191a995fb614ce090de0c6a2d4b_720w.jpg?source=8673f162" /><figcaption>气候模拟结果示意图，实现近零排放之后，二氧化碳对大气的影响不会立刻消失</figcaption></figure>
+<p><strong>即便变暖能把冰期推迟，这也不意味着它是件好事</strong></p>
+<p>首先现在网络上有一部分人把冰期给妖魔化了，这会导致有一些人被误导，从而认为冰期是一个非常可怕的东西。</p>
+<p>但这其实不然，以我们目前的科技实力，如果来一个正常的冰期，我们受到的不良影响其实没有大家想象的那么大。</p>
+<p><strong>因为这个变化很缓慢，1 万年的气温变化通常在 1℃以内，</strong>而我们一生不到百年，在一辈子里只会体验到 0.01℃的气温变化。</p>
+<p>又有人可能会说，即便短期变化可能很小，那长期来看也是很大的呀，问题是人类在未来能不能存在 1 万年都难说，就算能存在，难道 1 万年里科技实力不会有进步么。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-377953004799637d2b298f028f18b4d1_720w.jpg?source=8673f162" /><figcaption>两万两千年以来全球平均温度重建记录示意图</figcaption></figure>
+<p>可全球变暖就不一样了，全球变暖是由人类活动引起的快速变暖现象，它本质上是异常的，并不属于自然气候变化。</p>
+<p><strong>它的变化速率非常之快，在近年它的升温速率已经达到了 0.3℃/ 十年左右，</strong>换算一下它的百年升温可能能达到 3℃，这还是不考虑未来变暖还会持续加剧情况下的。</p>
+<p>人类的科技进步速度是很快，别说百年了，十年内都会有明显变化，但相较于变暖的速度来说，还是变暖更占优，它带来的影响是快速的、严重的、不可忽略的。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-e02a8bd85552f610911a5c82f770813a_720w.jpg?source=8673f162" /><figcaption>1850 年以来全球平均气温变化趋势折线图</figcaption></figure>
+<p>影响层面上，快速且不均匀的变暖，会严重会扰乱大气环流的正常运行，这会使这些环流发生明显的变化。</p>
+<p>例如热带哈德来环流将会向两极地区扩张，作为环流下沉支的副热带高压也会扩张，可副热带高压内部盛行下沉气流。</p>
+<p>被它常年控制的地方大多都是干旱带，<strong>如果副高未来真的向两极地区扩张，这也意味着热带干旱带的范围也将北推，</strong>一些原本湿润的地方可能会变得干旱甚至形成沙漠。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-79c803b0ba8cd56d0ee8e32bd8acfff4_720w.jpg?source=8673f162" /><figcaption>全球变暖下哈德来环流向两极扩张示意图</figcaption></figure>
+<p>极端天气上，升温每增加 0.1℃，极端天气都会变得更频发，强度也会变得更强，这个是当下就已经能够确定的。</p>
+<p>像极端高温，平均气温的上升本身就会把极端高温的上限也拉升，<strong>大气环流的异常更容易让某地出现持久性高温过程，</strong>比如热穹顶现象，这个对中高纬度地区很致命。</p>
+<p>而暴雨呢，气温上升的本身会同步使大气持水能力上升，大概是每上升 1℃提升持水能力 7%，持水能力上升了，意味着大气能容纳更多水，出现暴雨时暴雨会变得更猛烈。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-7b6e74152c97e08f9e6e4756ab57f632_720w.jpg?source=8673f162" /><figcaption>气温与大气持水能力的关系示意图</figcaption></figure>
+<p>所以这个论文本身，其实可以代表着人类活动导致的全球变暖，已经能够显著压制乃至覆盖地球的自然气候变化过程，这是一个很反常识但必须要重视的点。</p>
+<p><strong>这也意味着我们想要硬扛，拖到冰期启动来解决这件事是不可能的了。</strong>全球变暖只能被我们自己解决，自然气候变化已经无力在短期内把变暖的信号给完全覆盖掉。</p>
+<p>以上（如果觉得有用，就请点个赞吧~）。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-02b5dd345996fd7e99d53a393d8f8f82_720w.jpg?source=8673f162" /><figcaption>温度重建与归因模拟示意图，仅依靠太阳、火山等自然变化过程无法重现现代升温</figcaption></figure>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/2099695632621494384">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.3分] Tencent/LoopForge (Go, 今日 +423 Stars)</title>
+        <link>https://github.com/Tencent/LoopForge</link>
+        <guid isPermaLink="false">438083b2e386d259ab1dff240679907f46290dc303a6633b17d99115676e5444</guid>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.3 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：腾讯开源的 Go 自托管工作流引擎，可编排 CodeBuddy、Codex、Claude Code 等编码 Agent，内置脚本化流程与人工审批门禁，适合团队搭建可控的 AI 编码交付流水线。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/Tencent/LoopForge">Tencent/LoopForge</a></p>
+<p><b>核心语言</b>: Go | <b>今日新增</b>: +423 Stars</p>
+<p><b>项目简介</b>: Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.</p>
+<p><b>项目主页</b>: <a href="https://github.com/Tencent/LoopForge">https://github.com/Tencent/LoopForge</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.8分] ggml-org/ggml (C++, 今日 +43 Stars)</title>
+        <link>https://github.com/ggml-org/ggml</link>
+        <guid isPermaLink="false">354a6f3839a01324656dd1080ec85773adeb59133503045cbc66fb58e15b5e16</guid>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：ggml 是纯 C/C++ 实现的轻量张量库，无外部依赖、支持量化与多后端，是 llama.cpp 等本地推理工具的底层引擎。适合想在端侧/嵌入式跑 AI 模型、研究推理优化的开发者精读源码。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/ggml-org/ggml">ggml-org/ggml</a></p>
+<p><b>核心语言</b>: C++ | <b>今日新增</b>: +43 Stars</p>
+<p><b>项目简介</b>: Tensor library for machine learning</p>
+<p><b>项目主页</b>: <a href="https://github.com/ggml-org/ggml">https://github.com/ggml-org/ggml</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] sponsors/elementalsouls (Python, 今日 +98 Stars)</title>
+        <link>https://github.com/sponsors/elementalsouls</link>
+        <guid isPermaLink="false">4cb417a3df3b9f6c9e0590398256dae9f30db1119e123644d1f9e4ecaff28e3d</guid>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：面向Claude Code的红队技能包，含82个技能、15个斜杠命令及681条已披露漏洞模式，覆盖24类漏洞与企业身份/基础设施攻击矩阵，适合安全研究与渗透测试实操参考。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/sponsors/elementalsouls">sponsors/elementalsouls</a></p>
+<p><b>核心语言</b>: Python | <b>今日新增</b>: +98 Stars</p>
+<p><b>项目简介</b>: A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</p>
+<p><b>项目主页</b>: <a href="https://github.com/sponsors/elementalsouls">https://github.com/sponsors/elementalsouls</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.3分] google-labs-code/stitch-skills (TypeScript, 今日 +247 Stars)</title>
+        <link>https://github.com/google-labs-code/stitch-skills</link>
+        <guid isPermaLink="false">c87cd13d69aef69146c0179064e34d77ce45d8113a1f8d0786fe94da5e39e9e5</guid>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.3 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：Google Labs 出品的 Agent Skills 库，遵循开放标准，可跨 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理复用，为 Stitch MCP 服务器提供可组合技能，是构建 AI 编码工作流的高价值参考实现。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/google-labs-code/stitch-skills">google-labs-code/stitch-skills</a></p>
+<p><b>核心语言</b>: TypeScript | <b>今日新增</b>: +247 Stars</p>
+<p><b>项目简介</b>: A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.</p>
+<p><b>项目主页</b>: <a href="https://github.com/google-labs-code/stitch-skills">https://github.com/google-labs-code/stitch-skills</a></p>
         </div>
         ]]></description>
     </item>
@@ -397,7 +708,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.2分] 机甲风AMS弹药舱收纳装甲（适配AMS&amp;AMS2 PRO） (下载 980 / 打印 98)</title>
         <link>https://makerworld.com/zh/models/3556135</link>
         <guid isPermaLink="false">82afa0aeaa7b13394a979f295f182d424784251acee91695afaa0878eacb4323</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>Uncle DongJi With Little Junk</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -420,7 +731,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.2分] sponsors/ashhart (Zig, 今日 +37 Stars)</title>
         <link>https://github.com/sponsors/ashhart</link>
         <guid isPermaLink="false">d3a03f4c84fe5a5b5cace843b7c72fb31acc9b15088b155e7454f1d6586ccc52</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -444,7 +755,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[7.8分] Nintendo Switch Cartridges Bookshelf Cover (下载 1139 / 打印 358)</title>
         <link>https://makerworld.com/zh/models/3546370</link>
         <guid isPermaLink="false">7fedc1716b82f15076c430c0b9aa0a55072a7f811507380eae00b416788771fa</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>Hodzinets</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -467,7 +778,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.2分] QwenLM/qwen-code (TypeScript, 今日 +64 Stars)</title>
         <link>https://github.com/QwenLM/qwen-code</link>
         <guid isPermaLink="false">1922d9d520f9ceba156c8955a8a60040d5e2afc0876ccc29f015a1849842ed78</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -491,7 +802,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.2分] ag-ui-protocol/ag-ui (TypeScript, 今日 +9 Stars)</title>
         <link>https://github.com/ag-ui-protocol/ag-ui</link>
         <guid isPermaLink="false">10a12acb9645adccd105406974d04d1490f697a3a63c208e8a3c043dd0096eb0</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -515,7 +826,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.7分] dream-num/univer (TypeScript, 今日 +495 Stars)</title>
         <link>https://github.com/dream-num/univer</link>
         <guid isPermaLink="false">d148e3d2c2843c2bb453066debf88fb43e2e78a99dd9482cf231a968172d1f3d</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -539,7 +850,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.7分] alibaba/open-code-review (Go, 今日 +893 Stars)</title>
         <link>https://github.com/alibaba/open-code-review</link>
         <guid isPermaLink="false">c489e6fb5febf2abff16877bd9c9fe23975dd799794a77097dfa300f4bfa517e</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -563,7 +874,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[7.8分] tradermonty/claude-trading-skills (Python, 今日 +553 Stars)</title>
         <link>https://github.com/tradermonty/claude-trading-skills</link>
         <guid isPermaLink="false">f9da1acd54ca38642ffd36796b0883cecfa94494cd898bd897e3677735cfdb28</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -587,7 +898,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.8分] ChromeDevTools/chrome-devtools-mcp (TypeScript, 今日 +664 Stars)</title>
         <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
         <guid isPermaLink="false">379642deb53f3714eb4d3fd4bf685ddf06e1f2efdb0931fbf030395fd0d38ada</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -611,7 +922,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.2分] GoogleChrome/modern-web-guidance-src (TypeScript, 今日 +1,231 Stars)</title>
         <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
         <guid isPermaLink="false">301f2d14985e5303f37abc056bfb2034679a093cc1aec963654d2b68b537dd03</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -635,7 +946,7 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <title>[8.2分] backnotprop/plannotator (TypeScript, 今日 +408 Stars)</title>
         <link>https://github.com/backnotprop/plannotator</link>
         <guid isPermaLink="false">e6357f1e7e944cc84f059f59a53ad60188a7768bbb0631e005854eb8a1f885f5</guid>
-        <pubDate>Sun, 15 Nov 2026 01:57:27 +0000</pubDate>
+        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -1409,505 +1720,6 @@ Chrome 团队开源的现代 Web 开发指南源码库，系统梳理了 2026 �
         <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
         <div>
             <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=Mzg2NDY0NzkxNA==&amp;mid=2247500490&amp;idx=1&amp;sn=b48d7853052434223cc187d32effc3c3&amp;chksm=cf6f6d0565b83a48787af5fa3f826db8039e68dba6fa42fc98ff0f37b58842e473aa405fbe28#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 深蓝观 </span></a><span class="text-remarks">，编辑：王晨，作者：深蓝观团队</span></p><p><br /></p><p>一家市值30多亿元的上市药企，22个月内两次以1元股权对价易主。第一次接手它的实际控制人，后来因涉嫌职务侵占被捕；第二次接手它的，是一家IPO长跑六年的骨科医院集团。</p><p><br /></p><p>更耐人寻味的是，第二位买家刚刚取得控制权，便承诺未来36个月不向上市公司注入旗下资产。</p><p><br /></p><p>这场交易发生在2026年10月。北大医药公告，控股股东西南合成医药集团的上层股权发生变更，公司实际控制人由新优势产业集团创始人徐晰人变更为邦尔骨科创始人程栋。此次交易的股权对价仅为1元，另涉及3000万元债权。</p><p><br /></p><p>22个月前，徐晰人曾以几乎相同的交易结构，从中国平安手中取得西南合成控制权。次年11月，徐晰人因涉嫌刑事犯罪被重庆市江北区人民检察院批准逮捕。据《财新》报道，其涉嫌职务侵占，案件涉及西南合成部分资产处置及资金去向问题。</p><p><br /></p><p>即便身陷刑事案件，徐晰人控制的股权仍迎来了下一位买家。</p><p><br /></p><p>接盘的程栋，掌管着一家拥有18家医院、6000多张床位的骨科医院集团。邦尔骨科早在2020年便启动上市辅导，至今未能登陆A股。更值得注意的是，这并非程栋第一次寻找上市公司。今年5月，他曾尝试取得仁智股份控制权，交易于9月终止。仅一个多月后，他又转向北大医药。</p><p><br /></p><p>一家是失去核心客户、营收持续萎缩的老牌药企，一家是上市筹备多年、仍在资本市场门外徘徊的民营医院集团。两者之间究竟有什么吸引力？</p><p><br /></p><p class="text-big-title" label="大标题">-01-</p><p><br /></p><p class="text-big-title" label="大标题">营收缩水七成，账上还有8亿元</p><p><br /></p><p>对于新买家而言，北大医药是一家颇为矛盾的公司：主营业务持续萎缩，账上却仍有8亿多元现金；上市公司本身尚有利润，控股股东西南合成却已资不抵债。</p><p><br /></p><p>西南合成有着四十余年的历史，曾是一家国有药企。其控制权几经转手，从北大方正、中国平安，到新优势产业集团，再到如今的邦尔骨科。随着原有产业逐步剥离，西南合成旗下部分企业已停止正常经营，历史遗留问题尚待处理。而它持有的北大医药18.29%股份，成为整个集团最重要的资产。</p><p><br /></p><p>北大医药也早已不是当年那个背靠北大方正体系的药企。2013年前后，公司更名为北大医药，形成药品制剂与医药商业两大业务板块。2014年底，方正集团爆发腐败案件，多名高管被查。次年，北大医药剥离经营多年的原料药业务，转向制剂生产和医药流通。</p><p><br /></p><p>真正支撑其收入规模的，是北京大学国际医院的药品、器械及耗材配送业务。2022年起，旗下北医医药承担该医院的重要配送业务，相关销售规模一度达到每年约12亿元，占公司收入的一半以上。即使后来方正体系经历重整，这项业务仍然支撑着北大医药的营收。</p><p><br /></p><p>但到了2025年，这项合作终止，北大医药失去了最重要的客户之一。收入随即大幅下降：2024年公司营收20.6亿元，2025年降至14.8亿元，2026年前三季度仅剩6.5亿元，同比接近腰斩。</p><p><br /></p><p>与此同时，传统制剂业务也面临集采压力，相关收入从7.6亿元降至6.2亿元，毛利率由69%降至51%。这家老牌药企既失去了大客户，也缺乏能够迅速填补缺口的新产品。</p><p><br /></p><p>一位长期关注医药产业的人士向评价，北大医药的产品以传统品种为主，创新能力不足，叠加集采压力和历史遗留问题，未来经营面临不小挑战。西南合成层面还有多家企业的历史问题需要梳理，与中泰证券之间的相关诉讼纠纷也增加了交易的复杂性。</p><p><br /></p><p>但另一组财务数据呈现出截然不同的面貌。截至2026年三季度末，北大医药账面货币资金仍有8.42亿元，资产负债率仅20%出头，有息负债规模较小。也就是说，尽管营业收入急剧下降，这家公司尚未陷入高负债、现金枯竭的境地。</p><p><br /></p><p>一位业内人士表示，收购方看中的恰恰是上市公司本身仍然相对健康的资产负债表。真正资不抵债的是上一层的西南合成，其净资产已为负，因此股权转让采取了象征性的1元对价，同时另行安排债权交易。</p><p><br /></p><p>这也解释了这笔交易看似不可思议的价格：程栋并非花1元买下市值30多亿元的北大医药，而是通过收购资不抵债的上层控股公司，间接取得上市公司控制权。低廉的股权对价背后，是复杂的债务关系和历史包袱。</p><p><br /></p><p>不过，8.42亿元货币资金并不意味着北大医药拥有同等规模的持续经营现金流。随着北京大学国际医院配送业务终止，过去依靠大客户形成的收入和回款难以延续。账面现金能够提供缓冲，却不能替代新的盈利来源。</p><p><br /></p><p>对于一家寻求产业发展的药企而言，这是亟待解决的经营难题；但对于希望获得上市平台的收购方来说，衡量这家公司的标准，或许并不完全相同。</p><p><br /></p><p class="text-big-title" label="大标题">-02-</p><p><br /></p><p class="text-big-title" label="大标题">借壳上市，还要再等三年</p><p><br /></p><p>对于邦尔骨科而言，北大医药的经营困境或许不是最重要的问题。这家拥有18家医院、6000多张床位的民营骨科连锁集团，已经在资本市场门外等待了多年。</p><p><br /></p><p>据了解，早在2020年，邦尔骨科就在浙江证监局辅导备案，开始筹备上市。然而，疫情打乱了原定计划。等到疫情结束，A股IPO的窗口又开始收紧。</p><p><br /></p><p>“邦尔骨科也准备申报”，一位证券市场人士表示，“但考虑到审核环境和申报风险，最终没有继续推进。随之美中嘉和、明基医院、卓正医疗、同仁堂相继港股上市，可能港股也曾进入邦尔骨科的备选方案，但康宁医院、海吉亚医疗等医疗服务企业的估值在港股太低，让邦尔骨科难以下定决心。”</p><p><br /></p><p>中国民营医院集团的A股上市之路本就狭窄。2007年，通策医疗通过资产重组进入口腔医疗领域；2009年，爱尔眼科登陆创业板。此后十余年，直到2022年普瑞眼科、华厦眼科、何氏眼科集中上市，2023年三博脑科挂牌，医疗服务企业才短暂迎来新的上市窗口。对于一家需要持续投入资金扩张医院网络的连锁集团而言，等待上市的时间越来越长。</p><p><br /></p><p>而邦尔骨科已经引入了多轮外部资本。2014年至2021年，公司先后完成多轮股权融资，2023年12月又完成超过8亿元的Pre-IPO融资，市场曾据此推算其估值达到数十亿元。融资之后，上市迟迟没有实现，投资者的退出路径也随之成为一个值得关注的问题。</p><p><br /></p><p>既然独立IPO难以推进，邦尔骨科开始寻找另一条路。</p><p><br /></p><p>据投资圈内人士了解，去年开始，邦尔骨科先后接触多家上市公司，既有医疗相关企业，也有业务完全不相干的标的。选择范围如此之广，说明上市公司平台本身，是收购方的重要考量。</p><p><br /></p><p>从终止合作的仁智股份到如今的北大医药，两家上市公司的主营业务相去甚远，收购方的目标却始终一致：取得一家A股上市公司的控制权。</p><p><br /></p><p>不过，拿到控制权，并不意味着邦尔骨科的医院资产能够立即进入上市公司。</p><p><br /></p><p>按照《上市公司重大资产重组管理办法》，上市公司控制权变更后36个月内，向收购人及其关联人购买资产，如果达到规定的规模标准或导致主营业务发生根本变化等情形，可能构成重组上市，需要适用相应的严格审核要求。</p><p><br /></p><p>程栋在此次权益变动中承诺，36个月内不向北大医药注入其控制的资产。</p><p><br /></p><p>这意味着，虽然程栋已经取得上市公司控制权，但邦尔骨科旗下18家医院仍然留在原有集团体系内，其收入、利润和资产不会因此进入北大医药的合并报表。</p><p><br /></p><p>对于营收持续萎缩的北大医药而言，这意味着未来三年无法直接依靠邦尔骨科医院资产的注入来改善经营业绩，仍需依靠自身业务维持正常经营和上市资格。</p><p><br /></p><p>据猜测，收购方考虑在36个月期限届满后，再通过股权置换等方式推动医院资产进入上市公司。但这并非已经确定的重组方案，届时仍须满足相关监管要求。</p><p><br /></p><p>这样的收购并非完全没有先例，只是路径截然不同。2022年，新里程医院集团通过参与恒康医疗破产重整取得上市公司控制权，此后逐步推进医院资产整合，形成医疗服务与医药制造并行的业务布局。但新里程的资产状况、交易结构和重整背景与邦尔骨科不同，其经验并不能直接复制。</p><p><br /></p><p>至于北大医药与邦尔骨科之间的产业协同，收购方也并非没有考虑。北大医药拥有抗感染、镇痛等传统制剂产品，与骨科医院的临床用药需求存在一定交集。</p><p><br /></p><p>未来医院集团可以考虑重新组织部分药品采购招投标，让北大医药参与供应。</p><p><br /></p><p>邦尔骨科接手北大医药时，一方需要新的业务增长点，另一方需要资本市场平台。表面上，这是一场医院与药企之间的产业整合；从收购方的路径选择来看，它更像是一场持续多年的上市突围。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 以假乱真的AI脸究竟该如何识别</title>
-        <link>http://www.infzm.com/contents/344601</link>
-        <guid isPermaLink="false">2f1eb990ce584b39cdc5d86ea8a2afc85331c9e56960d7db0129505ad84e344e</guid>
-        <pubDate>Thu, 12 Nov 2026 07:25:06 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：基于PNAS研究，揭示AI脸系统性特征（更对称、比例协调但难记忆），提供从整体识别的新方法，突破传统瑕疵识别局限，具技术参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-12 15:00:00</i></div><p style="text-align: justify;">如今，AI生成的人脸随处可见，有的甚至让人真假难辨。一方面，这可以在很大程度上替代真实人脸，用于面部识别研究、隐私保护，以及各类创作，但另一方面，也可能加剧各类基于人脸的欺诈行为，给全世界的人们带来更大的安全风险。</p>
-<p style="text-align: justify;">不过，随着AI技术研究的进步，识别AI脸的方式也在优化。最近，一项新研究发现，如果经过训练，人们可以更准确地区分AI脸与真人脸。而关键就在于从整体上识别AI脸的几个典型特征，它们比真人脸更对称，五官比例更协调，不过也更难记住。</p>
-<p><img alt="" border="0" height="452" src="https://images.infzm.com/cms/medias/image/26/11/10/9a057b51d4.jpg" width="864" /></p>
-<p style="color: #999999; text-align: center;">最新研究中展示的真实人脸以及AI脸。其中左侧四个是真实人脸，右侧四个是AI脸。图片来源：PNAS</p>
-<h4>从整体上识别AI脸的特征</h4>
-<p style="text-align: justify;">在提高人们对AI脸的判断力方面，以往相关生成技术水平较低时，主要是训练人们识别AI图像中的瑕疵，比如，耳环不成对、解剖结构异常等。这些线索在一定程度上能帮助识别AI脸，但总体效果不尽如人意，甚至还会导致误判。而且，随着AI生成人脸技术水平的发展，现在很多视觉瑕疵已比较少见，因此，只能通过其他方式来更好地识别。</p>
-<p style="text-align: justify;">在这方面，此前已有证据表明，AI生成的人脸与真实人类面孔之间存在着系统性差异，而人们在潜意识里对这些面孔的整体差异其实很敏感。最新研究正利用人类在这些整体印象方面的敏感性，进一步引导、训练人们利用这种直觉，关注AI脸的典型特征，从而使识别AI脸的平均准确率近乎翻倍。这一研究2026年6月发表在《美国科学院院刊》（PNAS）上，为改进人类识别AI脸的方法提供了新的证据。</p>
-<p style="text-align: justify;">“AI脸的特征是，它们的所有特征都同时趋近于平均值，这也能部分解释为什么AI脸最后看起来比真人脸更加相似。”开展这项研究的澳大利亚国立大学临床与认知心理学家艾米·达维尔（Amy Dawel）向南方周末介绍，目前常见比较逼真的AI脸是由生成对抗网络模型生成的。它在数以万计的真实人脸图像上训练，学习像素在该数据集中相互关系的统计模式，生成的脸反映了训练数据中最常见的模式，从而使输出趋近于平均值。反过来，有些异常特征，像明显的大耳朵，或者非常长的鼻子，在AI脸中出现的频率远低于真人脸。</p>
-<p style="text-align: justify;">“AI脸往往比真人脸更加对称、比例更加协调，且更具有吸引力。”艾米·达维尔解释，如果未经训练，人们通常会把这些特征解读为人类的标志，而不是AI的标志。但经过训练，从整体上有效识别AI脸仍然是有可能的，因为“AI脸和真人脸所产生的整体印象仍然存在差异，这种差异比任何单一局部的瑕疵都更难被模型消除。”人类是高度社会化的动物，视觉系统已经进化出了专门的整体面孔加工能力。也就是说，人类通常以整体的角度去看一张脸，并非逐个看局部的细节。最新研究正是顺势而为，教人们去关注整体层面的差异，识别出AI脸的不同之处。</p>
-<h4>识别不熟悉的脸本就困难</h4>
-<p style="text-align: justify;">从人的感知层面看，区分、处理AI脸和真人脸并不容易。2025年，瑞士的一项研究就发现，人类在处理AI脸和真人脸的信息时，其实是共享一套识别机制的。研究人员利用两组匹配过的照片，来了解人们如何感知这两类相似但不同的人脸视觉信息。</p>
-<p style="text-align: justify;">结果表明，在判断真实人脸和AI假脸的身份时，人们的判断都受图像的客观相似程度和自身识别能力影响。具体而言，参与者辨别面孔的表现，会随着他们个人能力的变化而变化，却不会因为AI假脸或真人脸的差异而改变。无论是真脸还是AI假脸，当两张脸长得越像，人们的判断表现就会越差。那些平时认人脸就很厉害的人，则一贯地表现出更高的水平。这说明，人在感知、处理AI脸的信息时，使用的方式与看真实人脸相同。</p>
-<p style="text-align: justify;">开展这项研究的伯尔尼应用科技大学认知神经科学家梅克·拉蒙教授（Meike Ramon）向南方周末介绍，区分不熟悉的面孔对人类来说，本来就非常困难。每个人的大脑都会根据面部所有可用的信息，尽可能地处理它们。不同的人会优先考虑不同的面部特征，有人看眼，有人看嘴。每个人的水平也都不太一样，有些人很擅长，有些人却不行，而大多数人其实都处于中间位置。对于那些认脸能力特别糟糕的人，比如有脸盲症的人，就很难将所有信息整合起来。他们往往会过度强调单个特征，就像特定位置的痣这类细节。“这种靠特征判断的做法不是特别可靠。之所以说它不是一种非常有效的策略，是因为它要求你使用的信息真实存在，能清晰看到，而且分辨率高，等等。”梅克·拉蒙教授分析，如果可以处理更多整体信息，识别效果通常也会更好。</p>
-<p style="text-align: justify;">需要注意的是，人脸识别能力强，并不意味着更擅长识别AI伪造。2024年，一项研究在考察了人们判断深度伪造视频的表现后就发现，个人识别面孔的能力，与自身识别深度伪造的能力，并不存在关联。也就是说，这两种能力可能是相互独立的，识别AI脸仍然需要付出额外的努力。</p>
-<h4>直接或间接指出AI脸特征都有用</h4>
-<p style="text-align: justify;">要将独属于AI脸的抽象特质进一步转化为方便掌握的实操技能，需要更加具有针对性的干预训练。同样在2026年6月，南安普敦大学的研究人员曾利用AI脸的特征，通过一项超过600人参与的实验，开发出一套训练干预方案，以提高人们识别AI脸的能力。在这项实验中，研究人员明确告诉参与者AI脸的各类常见规律，等他们理解之后，再让他们开始判断，并及时给出反馈。这一研究发表在《人类行为计算》（Computers in Human Behavior），具体而言，训练分为三个部分。</p>
-<p style="text-align: justify;">首先，研究人员直白地告诉参与者，AI脸具有一些关键特征。与真人脸相比，它们往往比例更加协调，给人更熟悉的感觉，但也更难被记住。其次，研究人员还介绍了一些尚未被广泛应用的线索，比如AI合成的人脸图通常画质更高，但其辨识度反而低于真人脸。最后，研究人员还提醒参与者避免关注无效线索，比如，不要老盯着皮肤是否有瑕疵或者皱纹，也不要只关注面部微笑看起来是否真的感到快乐，以此帮助参与者在判断时减少对这些无效特征的依赖。</p>
-<p style="text-align: justify;">最终，接受过训练的参与者，在任务中的表现远优于未接受过训练的。他们的辨别准确率明显高于随机水平。即便是训练结束20天后，这种改善依然存在，说明效果具有持久性。</p>
-<p style="text-align: justify;">相比之下，最新研究的干预方式更隐蔽也更简单。研究人员仅仅引导实验参与者，关注AI脸在独特性、易记性、比例性、对称性等方面潜在的独特感知特质，但并非直接指导他们如何使用这些差异，而是训练参与者体验人脸在这些方面的不同状态，自行发现其中的差异规律，从而有效地利用自身潜意识里对人脸整体差异的感知，提高对AI脸的识别率。</p>
-<p style="text-align: justify;">从训练数据看，经过训练，参与者从三张人脸中识别出AI脸的表现进步极为显著，平均准确率从约40%上升到约80%，识别单张人脸的准确性也从50%左右提升到80%左右。而如果未经训练，人们经常会将AI脸误认为真实人脸，有时甚至认为AI脸更加真实。</p>
-<p style="text-align: justify;">关于这背后的原因，艾米·达维尔认为，主要有两点。第一是感知层面的因素。一张脸越大众，人们就越倾向于认为它有吸引力、熟悉且值得信赖。“因为AI脸比真实面孔更加普通，这些积极的社会印象会让人们改变判断，觉得它们比真实照片更真实，甚至更像人类。”第二则是人类普遍倾向于拟人化。“我们倾向于把人类的特质归因于与我们相似的事物。”所以，当一张脸看起来可以信任时，我们默认它属于真实的人，而不是机器。</p>
-<p style="text-align: justify;">尽管目前的研究已经总结出多种感知特质，来帮助人们区分两者，但科学家还无法确定这些特质中哪些在帮助识别AI脸时更有分量，当然也不清楚相关排序是否适用于其他模型生成的人脸图片。“随着技术进步，我估计AI脸与人脸之间的潜在差异会持续存在。”艾米·达维尔解释，这是这些模型的训练方式所决定的，但具体特性可能会随着模型的改进而发生变化。</p>
-<h4>AI脸的特征并非一成不变</h4>
-<p style="text-align: justify;">这些来自AI人脸生成技术的变化，预计也将给接触到的人们带来新的社会问题。以AI脸的表情为例，当AI脸还没有特别逼真时，社交媒体上有不少人认为生成的AI脸面部表情夸张，让人觉得不自然，甚至有些生理不适，会产生似人非人的恐怖谷效应。而随着AI能生成更逼真的人脸，这种似人非人的恐怖感会减少，相反，各类被AI脸欺骗的问题却可能增加。大多数人面对AI脸并不会感到不安，而是很自然地觉得自己看到的就是真人，特别是对于不善于识别AI脸的人。</p>
-<p style="text-align: justify;">此前，艾米·达维尔就曾研究发现，在AI脸的识别测试中，存在“越无知就越自信”的邓宁-克鲁格效应。那些最常把AI脸误认为真人脸的人，反而对自己的判断最自信。这可能使他们更容易被AI生成的内容欺骗，从而做出错误的判断。此外，由于AI生成人脸的模型，不成比例地依赖白人脸进行训练，也导致白人面容的AI脸更加逼真。在现实应用中，这既可能会影响人们对不同社会群体的认知，也可能会影响不同群体识别AI脸的难度，导致一些人训练效果不佳。</p>
-<p style="text-align: justify;">值得注意的是，由于模型训练所依据的数据集存在差异，一些目前识别出的AI脸的特征，未必都是普遍适用的。比如，有研究表明，一些基于互联网图像数据集进行训练的模型，生成的AI脸面部表情比人类更强烈，情绪更鲜明。这可能是因为相关内容创作者在网络平台上发布图片时，为了营造效果，会刻意摆拍，导致更频繁地呈现出夸张化的人脸表情。</p>
-<p style="text-align: justify;">而一旦网络内容的流行趋势或数据集发生变化，AI脸呈现出来的特征可能会很不一样。类似模型的差异和变化也提醒人们，虽然目前AI脸可能具有“更对称、比例更协调、更难记住”等特点，但如何识别AI脸这件事本身，也需要不断迭代，跟上生成规律的节奏。</p>
-<p style="text-align: justify;"><br /></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 决战储能，光伏、电池企业集体转向｜2026行业科创力解读</title>
-        <link>http://www.infzm.com/contents/344635</link>
-        <guid isPermaLink="false">4ebab7e9c4321e9e8b9622d9f706bf76c439b75b87e876998a49c2138c7c73e7</guid>
-        <pubDate>Thu, 12 Nov 2026 09:25:05 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：基于南方周末科创力数据库363家企业，用毛利率、营收占比等硬数据揭示光伏与电池企业集体转向储能的路径差异，阳光电源储能成第一大业务、天合储能毛利覆盖光伏亏损等事实具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-12 17:00:00</i></div><p style="text-align: justify;"><span>光伏主业深陷亏损</span><span>、</span><span>动力电池毛利变薄，储能</span><span>会是</span><span>光伏企业的</span><span>“</span><span>救星</span><span>”</span><span>、电池厂商的新引擎吗？</span></p>
-<p style="text-align: justify;"><span>南方周末</span><span>2026</span><span>年度</span><span>中国企业</span><span>科创力数据库收录</span><span>了</span><span>商业电气机械和器材制造业企业共</span><span>363</span><span>家。电池厂商成了</span><span>行业科创力</span><span>TOP10</span><span>的最大赢家，占据五席，宁德时代蝉联榜首，欣旺达、国轩高科、亿纬锂能、珠海冠宇分列第四、六、八、九名；阳光电源位居探花，成了唯一入围</span><span>TOP10</span><span>的光伏企业。</span><span></span></p>
-<p style="text-align: justify;"><span></span></p>
-<p><img alt="" border="0" height="2057" src="https://images.infzm.com/cms/medias/image/26/11/11/fb4ef1b57c.png" width="1865" /></p>
-<p style="text-align: justify;">有意思的是，它们全都扎进了储能。<span></span></p>
-<p style="text-align: justify;"><span>同为储能赛道的主力军，它们的进击姿势不同。电池厂商是</span><span>“</span><span>动力之外再加一条腿</span><span>”</span><span>，宁德时代储能电池系统的毛利率连续三年（</span><span>2023—2025</span><span>年）均高于动力电池系统，盈利韧性更强；光伏企业则是</span><span>“</span><span>主业寒冬里另找一条路</span><span>”</span><span>，</span><span>2025</span><span>年阳光电源把储能系统做成第一大业务（占营收比重超四成），</span><span>2025</span><span>年天合光能的储能业务实现毛利</span><span>6.29</span><span>亿元，几乎覆盖了光伏产品板块</span><span>6.42</span><span>亿元的毛利亏损。</span></p>
-<p style="text-align: justify;"><span>2025</span><span>年，全球储能市场迎来爆发式增长。据伍德麦肯兹（</span><span>Wood Mackenzie</span><span>）报告统计，</span><span>2025</span><span>年全球储能新增装机容量</span><span>106GW</span><span>，首次突破</span><span>100GW</span><span>，同比增长</span><span>43%</span><span>。</span></p>
-<p style="text-align: justify;"><span>在</span><span>“</span><span>双碳</span><span>”</span><span>目标与新能源高渗透</span><span>率</span><span>驱动下，</span><span>中国</span><span>的</span><span>市场从“强制配储”进入到推动储能参与电力现货市场，</span><span>储能装机规模持续攀升，长时储能加速落地</span><span>，俨然成为一种新型的基础设施。企业科创，是否会成为改变市场格局的变量？</span></p>
-<p style="text-align: justify;"><strong><span style="font-size: 20px;">光伏企业看储能，像“寒冬里的救星”</span></strong><span></span></p>
-<p style="text-align: justify;"><span>光伏企业是储能牌桌上</span><span>很早的</span><span>玩家</span><span>。</span></p>
-<p style="text-align: justify;"><span>2006</span><span>年，当阳光电源开始自研储能变流器、涉足储能系统时，中国的储能还几乎只存在于实验室和示范电站里。全球首座兆瓦级锂离子电池储能站</span><span>“</span><span>深圳宝清电站</span><span>”</span><span>到</span><span>2011</span><span>年才建成投运</span><span>，</span><span>业界公认的</span><span>“</span><span>储能元年</span><span>”</span><span>更是晚至</span><span>2016</span><span>年。</span></p>
-<p style="text-align: justify;"><span>眼下，储能是光伏企业给自己</span><span>找</span><span>的</span><span>一条</span><span>“</span><span>出路</span><span>”</span><span>。</span></p>
-<p style="text-align: justify;"><span>据工信部电子信息司统计，</span><span>2023</span><span>年主要光伏产品</span><span>的</span><span>价格出现明显下降，多晶硅、组件产品</span><span>的</span><span>价格降幅均超过</span><span>50%</span><span>；到了</span><span>2024</span><span>年，</span><span>“</span><span>量增价减</span><span>”</span><span>的</span><span>态势仍在持续，多晶硅、组件</span><span>的</span><span>价格分别同比下降接近四成</span><span>和</span><span>三成。</span></p>
-<p style="text-align: justify;"><span>在《</span><span>AI</span><span>救得了光伏行业吗？》一文中，南方周末研究员统计了</span><span>67</span><span>家光伏产业相关</span><span>A</span><span>股上市企业</span><span>2025</span><span>年</span><span>的</span><span>营收情况，过半（</span><span>55%</span><span>）企业陷入亏损；仅通威股份、隆基绿能、</span><span>TCL</span><span>中环、天合光能、晶科能源这</span><span>5</span><span>家，合计亏损就超过</span><span>410</span><span>亿元。光伏企业大面积亏损，部分中小企业</span><span>的</span><span>经营</span><span>更是</span><span>难以为继。</span></p>
-<p style="text-align: justify;"><span>光伏与储能有着极强的业务协同性，储能可以解决光伏发电的间歇性问题，帮助光伏企业从单一光伏组件供应商升级为“发电+储能+用电”的综合能源解决方案商。</span><span>在此背景下，储能几乎成了光伏企业</span><span>“</span><span>最顺路</span><span>”</span><span>的</span><span>“</span><span>第二曲线</span><span>”</span><span>。</span><span></span></p>
-<p style="text-align: justify;"><span>“</span><span>跑得最快</span><span>”</span><span>的是阳光电源。它在</span><span>2006</span><span>年就</span><span>开始</span><span>布局储能，比宁德时代的成立时间还要早五年；</span><span>2016</span><span>年，其与三星</span><span>SDI</span><span>株式会社合资成立的</span><span>“</span><span>阳光三星</span><span>”</span><span>储能公司投产运营。</span><span>2025</span><span>年，其储能系统全球发货量达到</span><span>43GWh</span><span>。</span></p>
-<p style="text-align: justify;"><span>阳光电源的储能系统营收从</span><span>2023</span><span>年</span><span>的</span><span>178.02</span><span>亿元持续增长到</span><span>2025</span><span>年的</span><span>372.87</span><span>亿元，占总营收</span><span>的</span><span>比重从</span><span>24.64%</span><span>一路攀升到</span><span>41.81%</span><span>，超过</span><span>“</span><span>光伏逆变器等电力电子转换设备</span><span>”</span><span>板块，俨然成为第一主业。到</span><span>2026</span><span>年上半年，这一比重持续提升至</span><span>50%</span><span>。</span></p>
-<p><img alt="" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/11/e0fe2a3777.png" width="1920" /><span style="text-align: justify;"></span></p>
-<p style="color: #999999; text-align: center;"> （数据来源：企业年报。南方周末研究员制图）</p>
-<p><span style="text-align: justify;"></span></p>
-<p style="text-align: justify;"><span>在光伏企业普遍亏损的</span><span>2025</span><span>年，</span><span>阳光电源实现净利润</span><span>135.33</span><span>亿元，创下历史新高，同比增长约</span><span>17%</span><span>，</span><span>成了上述</span><span>67</span><span>家光伏产业相关上市企业中最赚钱的公司。</span></p>
-<p style="text-align: justify;"><span>天合光能则颇具戏剧性。</span><span>2025</span><span>年</span><span>，其光伏产品和储能业务的营业收入分别为451</span><span>.43</span><span>亿元和42.8亿元，相差了近十倍；而</span><span>储能业务的毛利率为</span><span>14.69%</span><span>，光伏产品</span><span>则是</span><span>-1.42%</span><span>，结果就是</span><span>储能业务实现毛利</span><span>6.29</span><span>亿元，光伏产品</span><span>亏损</span><span>6.42</span><span>亿元。光伏亏出来的</span><span>“</span><span>窟窿</span><span>”</span><span>，刚好用储能这块</span><span>“</span><span>补丁</span><span>”</span><span>缝上。</span></p>
-<p style="text-align: justify;"><span>2025年，</span><span>天合光能的储能业务占公司总营收</span><span>的</span><span>比重仅有</span><span>6.39%</span><span>，还起不到给主业</span><span>“</span><span>止血</span><span>”</span><span>的作用，公司</span><span>年内</span><span>亏损超过</span><span>70</span><span>亿元。</span></p>
-<p style="text-align: justify;"><span>天合光能是为数不多能自研电芯的光伏企业，在储能赛道上推出了搭载</span><span>587Ah</span><span>自研大容量电芯的</span><span>Elementa3</span><span>系统，打造了涵盖</span><span>“6.25MWh</span><span>柔性直流舱</span><span>+13.8MW MV</span><span>一体机</span><span>+</span><span>系统级管理平台</span><span>”</span><span>在内的全自研产品组合。</span></p>
-<p style="text-align: justify;"><span>2025</span><span>年，其储能出货量超过</span><span>8GWh</span><span>，</span><span>同比</span><span>实现倍增</span><span>；到了</span><span>2026</span><span>年上半年，其储能业务</span><span>出货量超过5</span><span>GWh</span><span>，同比增长了188%，其占</span><span>营收</span><span>的</span><span>比重提升到</span><span>7.73%</span><span>、</span><span>毛利率进一步提升到</span><span>21%</span><span>。</span></p>
-<p style="text-align: justify;"><span>在</span><span>储能赛道上</span><span>，</span><span>更多光伏企业</span><span>还</span><span>处在</span><span>“</span><span>起跑</span><span>”</span><span>阶段。</span></p>
-<p style="text-align: justify;"><span>2025</span><span>年，晶澳科技以</span><span>“</span><span>光储＋</span><span>X”</span><span>一体化为主攻方向，完成从业务孵化到初步商业化落地的转变；晶科能源试图打造</span><span>“</span><span>光伏</span><span>+</span><span>储能</span><span>”</span><span>协同发展的新增长极，提出</span><span>2026</span><span>年储能系统出货</span><span>“</span><span>力争同比翻倍</span><span>”</span><span>；通威股份在公司部分生产基地和</span><span>“</span><span>渔光一体</span><span>”</span><span>电站配置储能，以实现降本增效。</span></p>
-<p style="text-align: justify;"><span>“</span><span>最迟</span><span>”</span><span>抵达</span><span>储能赛道的光伏龙头要数隆基绿能。它在</span><span>“</span><span>第二曲线</span><span>”</span><span>上先</span><span>是</span><span>押注了氢能</span><span>，</span><span>结果</span><span>却是</span><span>储能</span><span>首先迎来</span><span>爆发式增长。</span></p>
-<p style="text-align: justify;"><span>2025</span><span>年</span><span>11</span><span>月至</span><span>2026</span><span>年</span><span>1</span><span>月，</span><span>隆基绿能通过收购股权、增资入股等方式，控股苏州精控能源科技股份有限公司，将其更名为</span><span>“</span><span>隆基精控</span><span>”</span><span>，快速切入储能领域。但截至</span><span>2026</span><span>年上半年，</span><span>“</span><span>隆基精控业务处于整合投入期，营收规模较小，未对公司业绩产生重大影响。</span><span>”</span></p>
-<p style="text-align: justify;"><span>同样是光伏企业布局储能，有的当主业，有的当转型方向，有的当降本工具，态度、技术和能力，决定了它们在新赛道上能跑多远。</span></p>
-<p style="text-align: justify;"><span style="font-size: 20px;"><strong>电池厂商押注储能，打造“第二曲线”</strong></span><span></span></p>
-<p style="text-align: justify;"><span>在动力电池增长放缓的情况下，电池厂商们把</span><span>在</span><span>动力电池上多年的技术积累、制造经验和供应链能力，迁移至储能领域，也是顺理成章。</span><span>对</span><span>它们</span><span>来说，储能是</span><span>“</span><span>动力之外再加一条腿</span><span>”</span><span>，而</span><span>“</span><span>这条腿</span><span>”</span><span>正变得越来越</span><span>“</span><span>粗壮</span><span>”</span><span>。</span></p>
-<p style="text-align: justify;"><span>以宁德时代为例，它提供电芯、电池柜、储能集装箱以及系统集成等储能解决方案。</span><span>其储能电池系统的营收从</span><span>2023</span><span>年的</span><span>599.01</span><span>亿元波动增长至</span><span>2025</span><span>年的</span><span>624.4</span><span>亿元，三年间占公司总营收的比重维持在</span><span>15%</span><span>左右；</span><span>2026</span><span>年上半年实现营收</span><span>532.61</span><span>亿元、同比增长</span><span>87.54%</span><span>，占总营收的比重提升至近两成（</span><span>19.23%</span><span>），成为公司增长最快的产品板块。</span></p>
-<p><img alt="" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/11/d3f86acdfa.png" width="1920" /><span style="text-align: justify;"></span></p>
-<p style="color: #999999; text-align: center;">（数据来源：企业年报。南方周末研究员制图）</p>
-<p><span style="text-align: justify;"></span></p>
-<p style="text-align: justify;"><span>在销量端，宁德时代的储能电池销量从</span><span>2023</span><span>年的</span><span>69GWh</span><span>持续增长到</span><span>2025</span><span>年的</span><span>121GWh</span><span>，但同比增速从</span><span>46.8%</span><span>一路降至</span><span>29.1%</span><span>。量在涨，势在缓。反观</span><span>其</span><span>动力电池的销量，三年间从</span><span>321GWh</span><span>增至</span><span>541GWh</span><span>，增速在</span><span>2024</span><span>年探底</span><span>至</span><span>18.9%</span><span>后，于</span><span>2025</span><span>年反弹至</span><span>41.9%</span><span>，</span><span>主业</span><span>地位稳固。</span></p>
-<p style="text-align: justify;"><span>据</span><span>韩国市场研究机构</span><span>SNE Research</span><span>统计，宁德时代</span><span>2025</span><span>年全球动力电池使用量</span><span>的</span><span>市占率</span><span>为</span><span>39.2%</span><span>，连续九年位居全球第一；储能电池出货量</span><span>的</span><span>市占率</span><span>为</span><span>30.4%</span><span>，连续五年登顶全球第一，</span><span>全球累计应用项目约</span><span>为</span><span>2300</span><span>个。</span></p>
-<p style="text-align: justify;"><span>两个</span><span>“</span><span>全球第一</span><span>”</span><span>的含金量却大不相同。动力电池市占率近四成，是第二名比亚迪（</span><span>16.4%</span><span>）的约</span><span>2.4</span><span>倍、是第三名</span><span>LG</span><span>新能源（</span><span>9.2%</span><span>）的约</span><span>4.3</span><span>倍，可谓</span><span>“</span><span>一骑绝尘</span><span>”</span><span>；而储能电池</span><span>的</span><span>市占率仅</span><span>为</span><span>三成，身后</span><span>有</span><span>海辰储能（</span><span>13%</span><span>）、亿纬锂能（</span><span>12%</span><span>）、比亚迪（</span><span>9%</span><span>）环伺，储能电池市场的竞争烈度远高于动力电池，格局也远未固化。</span></p>
-<p><img alt="" border="0" height="1364" src="https://images.infzm.com/cms/medias/image/26/11/11/794b6af9b1.png" width="1920" /></p>
-<p style="text-align: justify;"><span></span></p>
-<p style="color: #999999; text-align: center;">（数据来源：企业年报。南方周末研究员制图）</p>
-<p><span></span></p>
-<p style="text-align: justify;"><span>在盈利能力上，宁德时代储能电池系统的毛利率连续三年（</span><span>2023—2025</span><span>年）高于动力电池，且在</span><span>2026</span><span>年上半年将差距拉升至超过</span><span>3</span><span>个百分点。</span></p>
-<p style="text-align: justify;"><span>在储能这条新曲线上，宁德时代不仅做大了规模，还做到了比动力电池更赚钱，背后是持续的研发投入和产品创新。</span></p>
-<p style="text-align: justify;"><span>比如，</span><span>在国内市场，其量产并交付的天恒</span><span>6.25MWh</span><span>集装箱式液冷电池舱，相对上一代系统单位面积能量密度提升</span><span>30%</span><span>，整站占地面积减少</span><span>20%</span><span>，搭载的</span><span>587Ah</span><span>大容量储能专用电芯在安全可靠性、能量密度、寿命衰减及系统效率等指标上全面升级；在海外市场，其量产交付的</span><span>9MWh</span><span>超大容量储能系统解决方案</span><span>TENER Stack</span><span>，可大幅提升体积利用率及能量密度。</span></p>
-<p style="text-align: justify;"><span>同时，宁德时代通过研发合作、投资布局及专业人才引进等方式，持续提升储能系统解决方案能力。</span></p>
-<p style="text-align: justify;"><span>南方周末</span><span>2026</span><span>年度商业电气机械和器材制造业科创力</span><span>TOP10</span><span>里的二线电池厂商，储能业务同样实现高增长，但格局分化明显。</span><span></span></p>
-<p style="text-align: justify;"><span>亿纬锂能</span><span>2025</span><span>年储能电池营收</span><span>244.41</span><span>亿元、占总营收</span><span>的</span><span>比重接近四成（</span><span>39.76%</span><span>），几乎与动力电池板块平分秋色；其储能电池出货</span><span>71.05GWh</span><span>，同比增长</span><span>40.84%</span><span>，已经超过了动力电池的出货量（50.15</span><span>GWh</span><span>）</span><span>。</span></p>
-<p style="text-align: justify;"><span>到了2026年上半年，其储能电池出货量</span><span>为</span><span>44.46</span><span>GWh</span><span>，同比增长54.88%，</span><span>据</span><span>SNE Research</span><span>数据，</span><span>其</span><span>出货量排名全球第二。</span></p>
-<p style="text-align: justify;"><span>2025</span><span>年，中创新航的储能系统产品及其他营收</span><span>141</span><span>亿元、同比增长超过七成（</span><span>71.9%</span><span>），储能电芯出货量大幅增长，排名全球第四；国轩高科的储能电池系统营收</span><span>90.66</span><span>亿元</span><span>、</span><span>同比增长</span><span>15.76%</span><span>，储能电池出货量突破</span><span>30GWh</span><span>，市占率达</span><span>5%</span><span>；欣旺达的储能系统类营收</span><span>23.13</span><span>亿元</span><span>、</span><span>同比增长</span><span>22.42%</span><span>，储能系统装机量</span><span>25.6GWh</span><span>、同比增长</span><span>188%</span><span>。</span></p>
-<p><img alt="" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/11/cbf54c4963.png" width="1920" /></p>
-<p style="color: #999999; text-align: center;"> （数据来源：企业年报。南方周末研究员制图）</p>
-<p><span></span></p>
-<p style="text-align: justify;"><span>在追赶</span><span>“</span><span>宁王</span><span>”</span><span>的路上，二线电池厂商仍</span><span>“</span><span>任重而道远</span><span>”</span><span>，即使合力也难与之</span><span>“</span><span>掰手腕</span><span>”</span><span>，但储能电池赛道明显比动力电池更有希望，当然也会相当波折。</span></p>
-<p style="text-align: justify;"><span>这四家二线电池厂商的储能板块营收在</span><span>2024</span><span>年合计</span><span>369.49</span><span>亿元，约为宁德时代的</span><span>64.5%</span><span>；到了</span><span>2025</span><span>年，四家合计</span><span>499.2</span><span>亿元，占比追到八成，差距收窄至</span><span>125.2</span><span>亿元。但到</span><span>2026</span><span>年上半年，差距重新被拉大，四家合计</span><span>311.32</span><span>亿元，占比跌回约六成。</span></p>
-<p style="text-align: justify;"><span>而在盈利能力上，</span><span>第</span><span>二</span><span>梯队</span><span>电池厂商也出现分化。</span></p>
-<p style="text-align: justify;"><span>2026</span><span>年上半年，欣旺达的储能系统类毛利率与动力电池几乎持平（约</span><span>18%</span><span>）；国轩高科的储能电池系统毛利率（</span><span>19.50%</span><span>）比动力电池高出</span><span>5</span><span>个百分点；亿纬锂能的储能电池毛利率（</span><span>12.51%</span><span>）则低于动力电池，差了</span><span>3</span><span>个百分点。</span></p>
-<p style="text-align: justify;"><span>同样是电池厂商加码储能，有的做成</span><span>“</span><span>利润加分项</span><span>”</span><span>，有的用价格换规模。分野的关键在于，从</span><span>“</span><span>卖电芯</span><span>”</span><span>向</span><span>“</span><span>卖系统</span><span>”</span><span>的跨步，把电芯做成系统、绑上服务，才有溢价空间。</span></p>
-<p style="text-align: justify;"><span style="font-size: 20px;"><strong>胜负手：研发投入与技术路线</strong></span><span></span></p>
-<p style="text-align: justify;"><span>储能赛道上的两股主力，宁德时代、阳光电源分列电池厂商、光伏企业两大阵营的</span><span>“</span><span>头马</span><span>”</span><span>。</span></p>
-<p style="text-align: justify;"><span>在研发投入上，</span><span>2025</span><span>年宁德时代为</span><span>221.47</span><span>亿元，是欣旺达、亿纬锂能、国轩高科、中创新航四家二线电池厂商总额（</span><span>133.22</span><span>亿元）的</span><span>1.66</span><span>倍；公司披露</span><span>，</span><span>近十年研发投入累计超过</span><span>1000</span><span>亿元。</span></p>
-<p style="text-align: justify;"><span>但在研发强度上，若以宁德时代</span><span>2025</span><span>年的</span><span>5.23%</span><span>为</span><span>“</span><span>基线</span><span>”</span><span>，国轩高科、欣旺达、亿纬锂能均高于它，仅有中创新航略低。</span></p>
-<p style="text-align: justify;"><span>在研发人员配置上，</span><span>2025</span><span>年国轩高科、欣旺达、亿纬锂能三家合计</span><span>21261</span><span>人（中创新航未披露该数据），接近宁德时代；而在研发人员占比上，这三家均高于宁德时代。</span></p>
-<p><img alt="" border="0" height="1440" src="https://images.infzm.com/cms/medias/image/26/11/11/2cc3fa1898.png" width="1920" /></p>
-<p style="color: #999999; text-align: center;"> （数据来源：企业年报。南方周末研究员制图）</p>
-<p><span></span></p>
-<p style="text-align: justify;"><span>持续的研发投入和强大的研发团队，让二线电池厂商在自研储能电芯上的表现</span><span>不逊于宁德时代。</span><span>2025</span><span>年中创新航的新一代</span><span>“</span><span>至久</span><span>”600Ah+</span><span>储能大电芯完成规模化定点；亿纬锂能推进</span><span>“</span><span>大方形</span><span>+</span><span>叠片</span><span>”</span><span>技术转型升级，成为全球首家量产</span><span>600Ah+</span><span>储能电池的企业，到</span><span>2026</span><span>年上半年，其</span><span>628Ah Mr.Big</span><span>磷酸铁锂储能电芯已实现规模化量产。</span></p>
-<p style="text-align: justify;"><span>新一代电池技术助力企业抢跑，钠离子电池进入产业化拐点，</span><span>2025年</span><span>亿纬锂能的首套大容量钠离子电池储能系统在荆门基地并网运行</span><span>；</span><span>2026</span><span>年宁德时代推出天恒钠电储能系统及匹配</span><span>PCS</span><span>双向控压系统的天恒钠电整站平台。</span></p>
-<p style="text-align: justify;"><span>与二线电池厂商相比，光伏龙头在研发上的投入也不吝啬。</span><span>2025</span><span>年阳光电源、隆基绿能、天合光能的研发投入均超过</span><span>40</span><span>亿元；晶澳科技接近</span><span>30</span><span>亿元；晶科能源、通威股份均在</span><span>20</span><span>亿元级别；这六家的研发强度均值为</span><span>4.90%</span><span>，略高于</span><span>该行业入库企业</span><span>的</span><span>总体研发强度</span><span>（</span><span>4.60%</span><span>）。</span></p>
-<p style="text-align: justify;"><span>过去</span><span>15</span><span>年，储能靠示范项目</span><span>“</span><span>热身</span><span>”</span><span>、靠政策</span><span>“</span><span>催熟</span><span>”</span><span>，一路跑马圈地</span><span>，</span><span>直到</span><span>“</span><span>强制配储</span><span>”</span><span>取消、市场化接棒，行业才真正进入</span><span>“</span><span>各凭本事吃饭</span><span>”</span><span>的</span><span>“</span><span>中场</span><span>”</span><span>。</span></p>
-<p style="text-align: justify;"><span>中国商业电气机械和器材制造业过去几十年反复上演的剧本是：一个赛道从无到有，靠的是政策</span><span>和</span><span>资本；从有到强，靠的是规模化</span><span>和</span><span>技术实力；从强到久，靠的是模式</span><span>和</span><span>耐心。</span></p>
-<p style="text-align: justify;"><span>光伏如此，动力电池如此，储能也不会例外。</span></p>
-<p style="text-align: justify;"><span>2025年</span><span>9</span><span>月，国家发展改革委、国家能源局联合印发《新型储能规模化建设专项行动方案（</span><span>2025—2027 </span><span>年）》，提出到</span><span>2027</span><span>年全国新型储能装机规模</span><span>要</span><span>达到</span><span>1.8</span><span>亿千瓦以上、带动直接投资约</span><span>2500</span><span>亿元。</span></p>
-<p style="text-align: justify;"><span>市场发展并不总是一帆风顺。</span><span>据中关村储能产业技术联盟（</span><span>CNESA</span><span>）统计，</span><span>2026</span><span>年上半年中国新型储能新增投运装机规模</span><span>58.60GWh</span><span>，同比下降</span><span>16%</span><span>。与</span><span>2025</span><span>年</span><span>73%</span><span>的高增长相比，行业显然进入</span><span>“</span><span>换挡期</span><span>”</span><span>。</span></p>
-<p style="text-align: justify;"><span>对此刻仍在牌桌上的玩家而言，出货量</span><span>和</span><span>市占率只是阶段性的成绩单，技术路线、系统集成与商业模式，才是角逐的关键。行业洗牌仍在继续，风口的红利或许属于最先上桌者，但周期的红利往往留给最能熬者。</span></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 拘留最长期限有望缩短，部分案件能少10天</title>
-        <link>http://www.infzm.com/contents/344679</link>
-        <guid isPermaLink="false">ffc0233a88c2e6a32179347721801409721eedc24666e1672b1545d69ef71438</guid>
-        <pubDate>Thu, 12 Nov 2026 13:25:06 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：聚焦刑诉法第四次修改中拘留提请批捕期限缩短这一实质变化，援引学者观点剖析比例原则与例外适用，具制度演进参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-12 21:00:00</i></div><p><img alt="2019年5月29日，一犯罪嫌疑人被羁押在沈阳市浑南区看守所。（视觉中国|供图）" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/12/4e07f26e34.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">2019年5月29日，一犯罪嫌疑人被羁押在沈阳市浑南区看守所。（视觉中国|供图）</p>
-<p style="text-align: justify;">公安机关拘留嫌疑人后提请批捕的最长期限有望缩短。部分案件中，这一期限能从30日缩短至20日。这是刑事诉讼法第四次修改过程中关于强制措施的一个重大变化。</p>
-<p style="text-align: justify;">2026年11月6日，修正草案公开征求意见，除了对提请批捕期限作出调整外，还进一步明确采取强制措施不得超过合理限度，并应随案情变化及时调整。</p>
-<p style="text-align: justify;">修改回应了一个老问题：为了查清犯罪，可以在多大程度上限制一个人的自由？多名刑诉学者肯定此次修法的进步，但也关注例外情形会如何适用，以及法律上的收紧能否落实到办案实践。 </p>
-<h4>比例原则</h4>
-<p style="text-align: justify;">清华大学法学院教授易延友长期研究刑事诉讼制度，在看完草案一审稿后，“第一印象就是把指定居所监视居住做了严格的限定”，他认为这是一大进步。 </p>
-<p style="text-align: justify;">另一项有关强制措施的变化，是部分案件中公安机关提请批捕的期限拟缩短。</p>
-<p style="text-align: justify;">现行法律规定，公安机关认为需要逮捕的，通常须在拘留后3日内提请检察院批捕，特殊情况下可延长1至4日，即最长7日。对流窜作案、多次作案、结伙作案的重大嫌疑分子，提请期限可延至30日。</p>
-<p style="text-align: justify;">也就是说，公安机关拘留后提请批捕的期限，分为3日、7日和30日三档。</p>
-<p style="text-align: justify;">作为一种强制措施，刑事拘留最早可追溯到1954年制定的《逮捕拘留条例》。当年的条例规定，公安机关可以在紧急情况下先行拘留，但须在24小时内通知检察院，后者须在接到通知后48小时内决定是否批捕。1979年施行的刑诉法将公安机关提请批捕的时间定为一般3日，特殊情况下最长7日。</p>
-<p style="text-align: justify;">易延友表示，从当时立法来看，刑拘被定位为办案机关在紧急情况下对嫌疑人采取的临时处置措施，“临时性剥夺了人身自由以后，这个期限是有严格限制的”。</p>
-<p style="text-align: justify;">1996年，修改刑诉法时，为衔接收容审查制度的废除，又将特定情形下提请批捕的期限延长至30日，易延友认为“这其实已经偏离了对刑拘的定位”。</p>
-<p style="text-align: justify;">此次修正草案拟将部分情形下提请批捕的最长期限，从30日缩短至20日。不过，对于案情重大的集团犯罪、跨境犯罪、经济犯罪、危害国家安全犯罪、恐怖活动犯罪的重大嫌疑分子，仍适用30日的上限。</p>
-<p style="text-align: justify;">易延友期待，未来能逐步缩短刑拘期限，恢复其临时性的制度定位。</p>
-<p style="text-align: justify;">在强制措施的规定上，草案明确了“比例原则”。</p>
-<p style="text-align: justify;">草案第六十六条规定，采取何种强制措施、执行的方式和期限，都要与当事人的社会危险性、案情和可能判处的刑罚轻重相适应，且不得超过合理限度。案情变化后，还要及时调整。</p>
-<p style="text-align: justify;">草案第九十八条还新增规定，对于羁押期限即将超过依法可能判处刑期的犯罪嫌疑人，应当予以释放。</p>
-<p style="text-align: justify;">中国社会科学院大学法学院副教授程捷认为，这是刑诉法首次体现了“比例原则”的精神，并且明确采取强制措施的唯一目的是保障诉讼顺利进行。在他看来，这意味着日后办案中，不能因为犯罪嫌疑人或被告人拒绝认罪认罚，就对其采取强制措施。</p>
-<h4>“占坑式辩护”有望得到解决</h4>
-<p style="text-align: justify;">易延友也是一名兼职律师。他注意到，草案也新增了多项保障辩护权的条款，第三十九条就规定，在押的犯罪嫌疑人、被告人要求会见辩护人的，看守所应当及时转达，或者通过办案机关转达。</p>
-<p style="text-align: justify;">易延友介绍，过去，会见通常由律师发起，在押人员主动要求会见律师的请求很少能被及时转达。近两年，他已多次收到看守所或办案机关转达的会见请求。在他看来，将这一做法写入法律，是一项重要进步。</p>
-<p style="text-align: justify;">对于既未委托辩护人，也没有法律援助律师辩护的当事人，草案也写明，值班律师可以了解案情、会见和阅卷。</p>
-<p style="text-align: justify;">四川大学法学院教授韩旭注意到，如果真能按照草案的内容执行，“占坑式辩护”问题有望得到解决。</p>
-<p style="text-align: justify;">刑事案件中，办案机关以已有法律援助律师提供辩护为由，阻碍当事人自行委托的律师介入，这被形象地称为“占坑式辩护”。</p>
-<p style="text-align: justify;">一个典型案例是“吴敏案”。2024年4月11日，江西省鹰潭中院审理的吴敏受贿案开庭，家属委托的两位律师被挡在门外。法律援助律师也曾想“让位”，但家属委托的律师最终还是未被允许进入审判庭辩护。此事经媒体报道后引起轩然大波。</p>
-<p style="text-align: justify;">法律援助法规定，刑事案件中没有委托辩护人的未成年人、可能被判处无期徒刑或死刑的人等，司法机关应当通知法律援助机构指派律师担任辩护人。该法还规定，其他适用普通程序审理的案件，被告人没有辩护人的，人民法院可以通知法律援助机构指派律师担任辩护人。</p>
-<p style="text-align: justify;">问题在于，委托辩护和法律援助辩护谁更优先？</p>
-<p style="text-align: justify;">草案对此作出明确规定，本人自行委托，或者同意监护人、近亲属代为委托辩护人的，法律援助律师的辩护“应当立即终止”。</p>
-<p style="text-align: justify;">草案也规定，当事人不同意代为委托的，可以在会见时以书面形式解除。这表明，即便家属聘请了律师，当事人仍可以拒绝这一委托，继续接受法律援助辩护。</p>
-<p style="text-align: justify;">在程捷看来，实践中的情况比较复杂，辩护权属于当事人本人，选择何种辩护方式、由谁担任辩护人，都应尊重本人意愿。即使家属有倾向，但并不意味着可以替当事人作出决定。</p>
-<p style="text-align: justify;">易延友并不认可这一点。他认为，免费的律师援助是一种社会福利，应仅向经济困难者提供。如果当事人或其近亲属已经有能力聘请律师，再由公共资源承担辩护费用，就偏离了这一制度设计的初衷。</p>
-<h4>“禁止的是什么？”</h4>
-<p style="text-align: justify;">从控方承担证明责任、疑罪从无，到限制审前羁押，无罪推定的价值取向贯穿刑事诉讼。</p>
-<p style="text-align: justify;">草案在现行刑诉法“未经人民法院依法判决，对任何人都不得确定有罪”的基础上，增加了一句“禁止有罪推定”。</p>
-<p style="text-align: justify;">韩旭认为，这有助于落实疑罪从无，减少证据不足时仍作有罪从轻处理。但从反面禁止有罪推定，仍不同于正面确认被追诉人“有权被视为无罪”。</p>
-<p style="text-align: justify;">易延友也有他的看法——“禁止有罪推定，到底禁止的是什么？”</p>
-<p style="text-align: justify;">在他看来，需要区分事实上的有罪和法律上的有罪。侦查人员根据证据判断谁涉嫌犯罪，检察官据此提出指控，都不等于已经在法律上确定一个人有罪。无罪推定也不意味着禁止这些判断，而是要求在依法定罪之前，不能将被追诉人当作已经被定罪的人对待。</p>
-<p style="text-align: justify;">易延友认为，现行刑诉法第十二条已经体现了无罪推定原则的精神。看到草案公开征求意见后，易延友建议，若要进一步完善，可以采用这样的表述：受刑事控告者，在经过提供充分辩护保障的公开审判、依法证实有罪以前，“有权被视为无罪”。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 行业变局下，佛山陶瓷需要怎样的ESG？｜ESG助力中企出海</title>
-        <link>http://www.infzm.com/contents/344736</link>
-        <guid isPermaLink="false">532d76caa525508bb31b37473248aa04a335495d9697b320555a455afb9d7e0a</guid>
-        <pubDate>Thu, 12 Nov 2026 10:55:06 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：以佛山陶瓷产量创18年新低为切口，通过协会负责人与蒙娜丽莎董事长对话，拆解房地产下行后ESG如何从合规成本转为出海竞争工具，提供行业转型一手视角。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-12 18:38:58</i></div><p style="text-align: justify;">佛山，窑炉跳动的火焰，曾是这座千年陶都最炽热的产业脉搏。</p>
-<p style="text-align: justify;">高温烧制之后，一块块瓷砖从生产线上出来，被送往全国各地的工地、建材市场和家装门店。很长一段时间，陶瓷生意与房地产高度绑定，楼市扩张，瓷砖需求随之增长。</p>
-<p style="text-align: justify;">房地产下行后，需求收缩、订单减少，佛山陶瓷进入“缩量竞争、优胜劣汰”的调整期。曾经的增长确定性消失，如果活下去都成问题，ESG如何为陶瓷企业创造价值？带着这个问题，我们与中国陶瓷工业协会常务理事、佛山市禅城区陶瓷行业协会负责人王建，以及蒙娜丽莎集团董事长、总裁萧礼标进行了对话。</p>
-<h4>旧模式失效之后</h4>
-<p style="text-align: justify;">佛山制陶传统绵延千年。产业鼎盛时期，全球每10块瓷砖有近6块产自中国，佛山建陶销售额占全国七成。如今，行业规模已明显收缩。中国建筑卫生陶瓷协会数据显示，2025年全国陶瓷砖产量约48.6亿平方米，同比下降17.8%，创近18年新低。</p>
-<p><img alt="2015–2025 年中国陶瓷砖产量变化（ 数据来源：中国建筑卫生陶瓷协会）" border="0" height="962" src="https://images.infzm.com/cms/medias/image/26/11/12/7002f07381.png" width="1866" /></p>
-<p style="color: #999999; text-align: center;">2015–2025 年中国陶瓷砖产量变化（ 数据来源：中国建筑卫生陶瓷协会）</p>
-<p style="text-align: justify;">在佛山，部分传统量产线处于间歇性停产状态，通过错峰生产消化库存。<span style="text-align: justify;">佛山市禅城区陶瓷</span>行业协会监测数据显示，2026年上半年，佛山陶瓷综合开窑率维持在42%～46%，产能利用率约57%～59%，低于2024年的55%～60%和2025年的48%～52%。</p>
-<p style="text-align: justify;">但王建观察到，不同产能的开工情况并不一致：“闲置的大多是老旧高能耗的无效产能，优质柔性产能利用率反而走高。新建柔性智能窑炉、低碳示范产线的开工率达到70%～80%。”</p>
-<p style="text-align: justify;">在王建看来，企业受到的冲击也不相同：头部企业尚有资金和资源布局绿色智造与海外市场，小微企业可以转向细分品类，承压更突出的则是部分中小型贴牌、代工企业。</p>
-<p style="text-align: justify;">“这些企业过去依赖房地产工程和OEM代工，赚的是规模和价差；工程订单收缩后，又缺少自有品牌和第二增长曲线。绿色技改、数字化和碳管理都需要前置投入，现金流压力进一步压缩了转型空间。而不少经营者的思维仍停留在‘扩窑、降价、抢量’的旧周期，对ESG合规和贸易壁垒理解不足。”</p>
-<p style="text-align: justify;">这种变化也传导至用人结构。王建观察到，传统窑炉一线普工、重复性质检人员、主要依靠工程关系拿订单的业务人员，以及部分管理岗位正在减少；而懂智能制造和柔性生产，懂家装、旧改和内容运营，懂碳足迹、绿色认证和海外合规的人，以及产品研发、空间设计和交付服务人员，正变得越来越重要。</p>
-<p style="text-align: justify;">过去需求旺盛时，春节后行业报道中常见“全线复产”“缺货、排队拉货”等描述；如今，不少陶企只恢复部分产线，根据订单和库存安排生产。2026年上半年，广东产区整体开窑率不足50%，同期全国却有超过40条全新智能窑炉投产。行业调整并非只有停产和收缩，也伴随着产能更新。</p>
-<p style="text-align: justify;">王建分析，对佛山而言，这场调整还意味着产业空间和产能结构的变化：部分高耗能、大众化生产环节向外疏解，本地则集聚品牌总部、研发创新。</p>
-<p style="text-align: justify;">萧礼标也有相似判断。他认为，行业竞争正从资源驱动转向能力驱动，“一味追求把规模做大的时代过去了，把价值做厚的时代来了”。</p>
-<h4>没钱的时候，ESG怎么取舍</h4>
-<p style="text-align: justify;">对仍在牌桌的企业而言，当利润和现金流承压时，需要对众多可持续发展议题进行排序。</p>
-<p style="text-align: justify;">王建观察到，非紧急的智能制造项目、品牌营销预算、新材料新工艺的预研，乃至非刚性的员工培训，都可能被延后或削减。然而，有两类投入企业不敢削减。</p>
-<p style="text-align: justify;">一是绿色合规投入，废气、废水、固废的合规管理不能放松，而其他绿色项目，企业会优先选择投资回报快的，如节能项目；二是供应链基础能力和售后服务能力不能缩减。供应链稳定决定交付能力，售后服务决定经销商和用户信任，这是经营的基本盘。</p>
-<p style="text-align: justify;">蒙娜丽莎的选择类似。在两年的深度调整中，2025年企业研发投入占营业收入比重为3.35%，绿色制造、低碳技术和供应链管理也持续投入。萧礼标认为，在稳健经营的前提下，一项投入是否继续，并不是单纯看短期利润，而是看它是否对长期发展具有核心价值，是否与经营主轴相一致。</p>
-<p style="text-align: justify;">“以蒙娜丽莎推动的氨氢零碳燃烧技术为例，当前氨燃料成本高于天然气，单看账面这笔投入短期并不划算，但随着国家‘双碳’目标持续推进，海外绿色贸易壁垒在提高，我们需要在规则收紧之前完成技术储备，减少未来转型阵痛，并争取技术和市场上的先发优势。”</p>
-<p style="text-align: justify;">2025年，蒙娜丽莎开始要求供应商提供原材料的碳排放数据。“打造绿色供应链短期会增加采购成本，但这是战略性投入。”萧礼标表示，“绿色低碳的原材料杂质更少、批次稳定性更强，同时也是应对海外市场和头部客户的要求。尽早推动上游绿色升级，既是我们的产品品质要求，也是对产业链的绿色转型负责。”</p>
-<p style="text-align: justify;">碳管理也切实影响融资成本。交通银行佛山分行曾向蒙娜丽莎发放7500万元两年期转型贷款，将利率与碳减排绩效挂钩，2025年4月，企业达到约定目标，贷款利率按合同下调了10个基点。</p>
-<p style="text-align: justify;">“很多人觉得，企业活下去都难，谈ESG是空中楼阁。但我觉得要区分‘炫技式ESG’和‘务实型ESG’。”王建说，若把ESG理解成高额零碳示范项目、华丽的对外报告，对挣扎求生的中小企业而言是不接地气；但回到ESG本源，E是合规减排、节能降本；S是员工权益、供应链诚信；G是企业风控、诚信经营，这三件事是困境企业活下去的底层能力。</p>
-<p style="text-align: justify;">他认为，行业处于低谷期，恰恰是ESG价值凸显的时候：顺境的时候企业拼规模；逆境的时候拼底线、拼治理、拼抗风险能力。“我们不主张企业不计成本盲目投入，应该分层落地：大企业做深度ESG体系建设，中小企业守住合规底线，完成基础ESG实践。”</p>
-<h4>出海的门槛也在变</h4>
-<p style="text-align: justify;">国内房地产市场收缩之后，海外市场曾被不少陶瓷企业视为新的增长空间，这道门槛也在抬升。</p>
-<p style="text-align: justify;">2026年4月1日起，陶瓷制品出口退税正式取消，此前9%的退税曾是不少中小外贸厂的利润底线。中国建筑卫生陶瓷协会数据显示，今年上半年，中国陶瓷砖累计出口2.73亿平方米，同比增长0.65%；出口额下降5.51%，出口单价继续承压。</p>
-<p style="text-align: justify;">佛山市禅城区陶瓷行业协会观察到，2026年的出口市场呈现明显分化，欧美传统市场承压，而东盟、中东、拉美等市场相对活跃；头部品牌的出口相对稳定，中小型OEM、外贸代工企业则持续受到低价订单减少的影响。</p>
-<p style="text-align: justify;">“粗放低价出海的路已经走不通，没有合规，价格再低也拿不到主流渠道的订单。”王建指出，海外合规压力集中在三个方向。一是碳壁垒前置。欧盟CBAM碳关税机制持续扩容，虽然陶瓷尚未纳入，但进口商已经提前要求企业提供产品全生命周期碳足迹报告。一旦陶瓷正式纳入，将产生约7%～12%的额外碳成本。</p>
-<p style="text-align: justify;">二是社会责任审核常态化。BSCI、SEDEX这类审核对劳工权益、安全生产等提出明确要求，海外大型建材连锁商把它当作硬门槛。</p>
-<p style="text-align: justify;">三是绿色认证门槛抬高。CE认证、绿色产品认证、EPD环境产品声明，也被越来越多采购商作为准入条件。</p>
-<p style="text-align: justify;">2025年，蒙娜丽莎提升了可持续发展在决策中的位置。公司将原有的可持续发展工作组升级为由董事会成员牵头的“战略与可持续发展委员会”。产品全生命周期碳管理、供应链合规、气候风险与机遇等议题不再只是生产、品牌等业务执行层的专项工作，开始进入公司的战略决策层。</p>
-<p style="text-align: justify;">在海外市场，蒙娜丽莎在多个国家和地区布局经销网络、设立品牌专卖店，并推进产品碳标签，获得广东碳标签证书及粤港碳标签互认。萧礼标提到，陶瓷企业出海越来越不能只关注产品本身，还要关注循环经济和产品可回收性要求、反倾销和反补贴等贸易救济风险，以及供应链审查要求。</p>
-<p style="text-align: justify;">转型的能力很难由中小企业独自补齐。<span style="text-align: justify;">佛山市</span>禅城区陶瓷行业协会尝试集中处理企业的共性需求。在能力建设上，协会梳理绿色工厂、绿色建材、EPD及出海相关认证清单，开展碳足迹核算和海外贸易壁垒培训；同时对接科研院所与企业，推广余热回收、固废利用、低能耗烧成等投入相对较低、见效较快的技改方案。</p>
-<p style="text-align: justify;">协会希望尽可能降低中小企业在信息搜集、技术对接和重复认证上的成本。在王建看来，绿色转型不能只依靠少数头部企业。对于佛山这样产业链高度集聚的产业，中小企业能否逐步补上基础能力，最终会影响整个产业的抗风险能力。</p>
-<h4>下个周期比拼的是什么</h4>
-<p style="text-align: justify;">这一轮调整后，陶瓷行业将与过去靠地产扩张、低价竞争的增长方式告别。</p>
-<p style="text-align: justify;">王建认为，下一个周期的企业竞争将更多取决于价值创造、柔性制造和治理能力：能否提供差异化产品，能否适应小批量、多品类的需求，能否守住品质、用工、环保和商业信用等底线。未来的赢家未必是规模最大的企业，而是更能创造价值、更合规、更敏捷的企业。</p>
-<p style="text-align: justify;">萧礼标指出这种能力落实到ESG，就是环境上推进全链路绿色制造，社会上回应消费者对健康环保产品的需求，保障职业健康安全并留住关键人才，治理上则把可持续要求融入日常经营。</p>
-<p style="text-align: justify;">行业下行并没有让ESG失去意义，反而让它变得更清晰具体。企业需要积累的，不再是规模和产能，而是在更小的订单、更高的合规要求和更不确定的周期中，把ESG基本功做扎实。</p>
-<p style="text-align: justify;">千年窑火仍在，只是烧法正在改变。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 为什么你爱看短剧，却羞于承认｜社会嗑</title>
-        <link>http://www.infzm.com/contents/344758</link>
-        <guid isPermaLink="false">57d911887785701e2b46317c5bc133adde536f7c72a6a658637fe38b449be972</guid>
-        <pubDate>Fri, 13 Nov 2026 02:25:05 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：以7.18亿月活、125分钟日均时长等硬数据切入，借学者访谈拆解短剧情绪机制与监管逻辑，超越道德批判，提供行业与受众心理的结构性洞察。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-13 10:00:00</i></div><p><img alt="2026年6月5日，安徽淮北，一名网民在使用电脑和手机观看微短剧。视觉中国图" border="0" height="1280" src="https://images.infzm.com/cms/medias/image/26/11/12/ce9cb6559a.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">2026年6月5日，安徽淮北，一名网民在使用电脑和手机观看微短剧。视觉中国图</p>
-<p style="text-align: justify;">你一天花多少时间看短剧？</p>
-<p style="text-align: justify;">QuestMobile数据显示，截至2026年2月，短剧行业月活用户规模已达到7.18亿。其中，某免费短剧平台月人均单日使用时长达到125分钟。短剧已经成为不少人日常生活中打开时间较长的内容。</p>
-<p style="text-align: justify;">短剧中，真假千金、复仇逆袭、一夜暴富、家庭纠纷等题材反复出现。主人公遭遇不公，随后身份揭晓获得财富，曾经欺负自己的人受到惩罚……这类情节构成了不少短剧的主要内容，也引发了关于短剧价值观的讨论。</p>
-<p style="text-align: justify;">2026年11月1日起，国家广播电视总局启动为期两个月的微短剧低俗化、同质化问题专项治理，重点治理儿童类不良、软色情擦边、极端对立、拜金主义、严重违背家庭伦理道德等低俗不良内容。算法推荐和重复翻拍也被纳入治理范围。</p>
-<p style="text-align: justify;">11月6日，南方周末记者采访了首都师范大学艺术与美育研究院教授许苗苗。她长期从事网络文艺研究，也参与短剧行业评审和相关研究工作。在她看来，短剧中的许多情节来自现实生活中的情绪和需求，但不能简单地将作品中的价值判断等同于观众的真实想法。</p>
-<h4>“总能找到一部适合自己的短剧”</h4>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>你看过多少部短剧？</p>
-<p style="text-align: justify;"><strong><strong>许苗苗：</strong><span></span></strong>完整看完的有500多部。我曾经连续20多天看短剧，都是晚上睡前看，每天至少两三个小时。不过，我不是每部都从头看到尾。有些剧看了一部分，发现套路差不多，就弃掉了。如果把这部分也算上的话，估计一千多部。</p>
-<p style="text-align: justify;">短剧有很多重复的叙事套路。比如真假千金、庶女逆袭，你大概知道最后她会惩罚偏心的父亲、打脸嫡母和嫡姐之类。看得越多，越容易猜到后面的情节。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>看多了反而容易失去兴趣？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>对。尤其是平台不断给你推荐同一类型的内容。套路总是类似的，看到最后就完全没有新鲜感，甚至产生生理性厌倦。</p>
-<p style="text-align: justify;">不过，我不仅仅是一般意义上纯娱乐性质的观看。我是新媒介研究者，以前主要研究网络文学，现在短剧也属于网络文艺的一部分。我会关注新的媒介现象、热门作品和行业动态，有时也参加评审和评价标准制定类的工作。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>看了这么多部，你最喜欢什么类型的短剧？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>真人短剧里，我比较喜欢展现亲密关系的现代言情、古代言情。短剧的镜头离人脸特别近，主要集中在人的表情、眼睛上。我觉得它特别适合表现男女之间的亲密关系。相比大屏幕，它有一种贴近人的观感。</p>
-<p style="text-align: justify;">AI短剧则不太一样，我喜欢看视觉奇观。它能把文字中那些超乎寻常的想象，用画面直接呈现出来。比如商场里出现一只超大的变异蚂蚁，真人拍摄需要搭建场景、制作特效，AI可以相对轻松地实现。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>从小孩到老人，短剧几乎吸引了不同年龄段的人，你觉得原因是什么？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>我觉得一个重要原因是它的差异化。传统影视作品投资比较大，通常希望获得尽可能多的观众认可。短剧成本相对低，可以针对不同人群做细分。同样的故事线和人物关系，可以有更多的表达方式。比如婆媳关系里，既可以拍婆媳，也可以拍儿子乃至孙辈的角度，这种差异化视角其实有助于人们相互理解。</p>
-<p style="text-align: justify;">一部短剧不一定要满足所有人的需求，只要满足一小部分人的情感期待，就可能找到自己的观众。也就是说，你总能找到一部适合自己的短剧。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>最近网上有一种说法，认为红果短剧呈现了中国最朴素的价值观，比如善恶有报、孝顺父母、勤劳致富、规矩要立住等，你认同吗？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>我认同它里面确实存在这些价值判断，但我不赞成把它们说成中国独有的价值观。首先，这些情感期待并不是中国人特有的。所谓“人同此心、心同此理”，希望善良得到回报、付出有所收获、正义能够战胜邪恶，这是人人都会有的愿望。我更愿意称之为大众的朴素价值判断。</p>
-<p style="text-align: justify;">其次，如果把这种说法和中国联系起来，容易变成一种国家叙事，甚至民族主义的讨论。短剧要走向海外，就不能只承载中国人特有的欲望。</p>
-<p><img alt="汉语拼音“duanju”已成为指代微短剧的英文单词。视觉中国图" border="0" height="1728" src="https://images.infzm.com/cms/medias/image/26/11/12/06386b35e9.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">汉语拼音“duanju”已成为指代微短剧的英文单词。视觉中国图</p>
-<h4>“短剧不负责解决现实问题”</h4>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>短剧里混杂着强烈的现代消费主义想象，比如，主角受辱后，通过财富和地位让所有人刮目相看，这是在暗示财富和身份才是获得尊严的最终凭证？这种叙事也是大众朴素价值观的一部分吗？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>这里面需要区分。我觉得有一个现象是，你缺什么，就容易在故事里补什么。同时，这也是一种简化叙事。它把现实生活中复杂的社会关系，压缩成一个非常简单的反转，你原来被看不起，现在你有钱了，所有人都来尊重你。但我不认为这就能代表观众真正认同这样的价值观，短剧只是提供一种幻想。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>能不能说，短剧并非在反映人们的真实生活，而是在放大普通人希望拥有的生活？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>我认为它是真实的，但不全面。它抓取了现实生活中的一部分情绪，把它们放大，再通过艺术化的方式呈现出来。善恶有报、付出有回报，这些确实存在。但不能因为短剧里出现了某一种情绪，就认为它代表了所有人的想法。</p>
-<p style="text-align: justify;">短剧不负责解决现实问题，也不应该承担对所有人的教育功能。它首先是一种娱乐产品。我们既要看到它满足了什么样的需求，也要看到它可能存在的问题。不能一味吹捧，也不能因为一些粗糙、猎奇或故事情节不足的作品，就把整个行业都否定掉。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>为什么短剧特别喜欢把这些价值判断做成一个明确的结局？比如坏人一定受到惩罚，好人最后一定过上好日子。</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>因为短剧需要在有限的时间里，让观众看到一个结果。而且这类新媒体娱乐产品往往是在碎片时间进行消费的，这种消费必然指向即时满足。出于完形心理，我们每个人都希望看到结果，哪怕是不满意的结果。看一个故事也是如此，如果它一直没有结果，观众就会失去耐心。</p>
-<p style="text-align: justify;">而且短剧是一种娱乐产品。观众打开它，往往是想轻松一下，不想花太多时间思考复杂的问题。如果我想进行深刻反思，我可以去看严肃文学。但看短剧，我就希望它能够造梦，让我看到一些比日常生活稍微好一点的东西，不管它真假。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>是不是可以理解为，现实中很难快速得到的东西，比如财富、美貌，或者某种特殊能力，在短剧里能很快实现？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>是的。更准确地说，它让你在一个虚拟的场景里，不必顾及现实生活中那些可能成为软肋的部分。比如生活中遇到一些不讲理的人，你可能明明受了委屈，却因为时间成本、关系成本，或者不想把事情闹大，最后选择忍下来。</p>
-<p style="text-align: justify;">我前一阵子在宾馆丢了一单水果外卖。拿走的人说，因为手机号相似，以为是自己的。后来我发现，两个号码只有开头的“1”一样，才意识到对方是故意拿的。</p>
-<p style="text-align: justify;">前台翻了三个小时监控，找到画面时已经快深夜了，大家都很疲惫。虽然只是几十块钱，但找到对方后，你要不要当面质问？要不要报警？别人会不会觉得你小题大做？我当时幻想自己能当面对质，伶牙俐齿地把她骂得哑口无言，甚至想过她吃了拉肚子、出门摔跟头。但现实中，我只能承受损失，没吃上水果，还耽误了时间。所以直到现在讲起来，我还是很生气。</p>
-<p><img alt="许苗苗。受访者供图" border="0" height="1600" src="https://images.infzm.com/cms/medias/image/26/11/12/69733f8e08.jpg" width="1600" /></p>
-<p style="color: #999999; text-align: center;">许苗苗。受访者供图</p>
-<h4>“书架与收藏夹”</h4>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>这种现实中的小憋屈，与短剧有什么关系？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>因为短剧会把这些情绪放大。现实生活中，你可能只是遇到一个占小便宜的人，但短剧可以把这个人塑造成一个特别坏、特别可恶的人，接着让主角当场揭穿他，再狠狠地教训他。你生活中没有做、不好意思做的事，那些忍气吞声、回想起来又愤愤不平的事，在短剧里都可以做。</p>
-<p style="text-align: justify;">还有很多家庭伦理短剧，比如父母偏心、丈夫懦弱、妻子受气、小人占便宜。这些情节为什么会有那么多人看？因为很多人生活中都有类似的经历，可能没有剧里那么严重，但那些委屈是真实存在的。短剧把日常生活中积累的很多不满集中起来，放大成一个又一个冲突。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>这么说，观众看这些短剧，获得的是一种情绪上的宣泄？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>是的。而且，互联网文艺和传统文艺有一个很大的不同，就是它可以直接面向个人。过去看电视，尤其是家庭伦理剧，家人可能坐在一起看。作品通常会告诉你，遇到家庭矛盾应该忍让、包容，为了大家好，磨平自己的棱角。但你拿着手机看短剧，没人知道你在看什么。你心里有多生气，想说多狠的话，都可以在这个空间里得到满足。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>也就是说，短剧提供了一个私密的空间，让观众不必顾虑别人的眼光？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>可以这么说。它像一个永远站在你这一边的角色。现实生活中，你可能不好意思表达愤怒，也不愿意承认自己有一些比较自私、比较狠的想法。但在短剧里，你可以代入某个角色，把那些想做却没有做的事情做出来。</p>
-<p style="text-align: justify;">现实中你未必会那样做，但脑海里未必不会那样想。这也是爽文、逆袭故事和短剧受到欢迎的原因之一。过去的专业文艺作品更多是面向公众的，而互联网文艺提供了一个面向个人的角度，它可以舒缓内心压力，让你在自己的空间里获得娱乐。这种娱乐既是个人化的，又有广泛的受众基础，只是其中一些情绪和趣味，并不适合在公共场合表达。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>既然短剧满足了个人化的情绪需求，那为什么很多人看完短剧，会有一种不太愿意与别人分享的羞耻感？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>我觉得这里面有两个不同的问题，一个是觉得短剧的格调不够高雅，另一个是短剧暴露了自己内心一些不方便对外展露的情绪。这两件事需要分开看。</p>
-<p style="text-align: justify;">我曾针对网络文学谈到过一个概念，叫书架与收藏夹。早期英国中产家庭，读小说是一种家庭集体活动。全家人围坐在一起听某个家庭成员朗读故事。那时，阅读是一种公开的社交行为。后来，识字的人越来越多，阅读逐渐个人化。到了网络文学时代，很多人看完小说就放进收藏夹，不一定愿意告诉别人自己看了什么。收藏夹里装着个人不愿意公开的秘密。你可能觉得这个文特别好看，但不代表你愿意和别人分享。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>那为什么看完一部电影可以发朋友圈？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>因为两者的社会评价不一样。比如我看完诺兰的电影，我会发朋友圈晒票根，这是一次时尚、潮流性、值得分享的文化消费。但假如是看完一部讲皇后和太监感情线的短剧，就不会愿意让别人知道。因为你还要费很多口舌解释为什么喜欢。</p>
-<p style="text-align: justify;">还有一个原因是，短剧的情绪可以直接关联现实生活。比如我和身边的人相处，难免有摩擦。看到短剧里类似情景我可能就会代入，觉得过瘾。但如果让人知道我在看这部剧，就很容易让人觉得我在点他们。这就没必要了。</p>
-<p><img alt="AI短剧《持械入宋》引发热议，播放量超60亿。视觉中国图" border="0" height="1267" src="https://images.infzm.com/cms/medias/image/26/11/12/6842b0b8fc.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">AI短剧《持械入宋》引发热议，播放量超60亿。视觉中国图</p>
-<h4>“市场首选容易引起共鸣的故事”</h4>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>这些情绪偏好和价值判断，是平台和算法筛选出来的？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>我没有直接跟平台内部核实过算法的具体逻辑。但按照常理判断，平台会根据用户的浏览、停留等行为，推送相似的内容。</p>
-<p style="text-align: justify;">比如你某段时间经常看年代题材的短剧，它就可能不断给你推荐类似的作品。这样一来，你看到的内容就越来越符合自己的偏好。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>当这种情绪偏好和价值判断，比如某种预设的公道，成为一种可以反复消费的内容后，市场会如何塑造观众看到的它呢？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>我觉得，市场会首先选择那些容易引起观众共鸣的情绪和故事，这些故事情节简单直接，容易让观众获得情绪满足。当一种套路被市场验证有效，就可能被反复使用。创作者不断更换人物、身份和故事背景，但核心情节相似。这样一来，观众对公道的期待，也容易被简化为一种固定的叙事。</p>
-<p style="text-align: justify;">当然，反复讲述一些简单的道理，也不一定是坏事。比如普法、反诈短剧，通过不同的故事反复呈现骗局，让观众认识到一些现实中容易忽略的问题。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>你曾参与过多项短剧行业评审，你觉得什么样的短剧算是好短剧？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>我不推崇短剧盲目追求大成本，也不认为请很多明星、堆很多特效就等于好作品。当前短剧的核心优势是轻量化、差异化和新鲜感。好作品首先要达到一个基本质量标准，而这种标准在传统文艺作品中是经过多年沉淀形成的。同时也要体现新媒体、新技术独有的特质。比如竖屏对镜头表现的重构、AI技术对感官的拓展等，这些才是它值得探索的地方。</p>
-<p style="text-align: justify;"><strong><strong style="color: rgb(154, 0, 0);">南方周末：</strong><span></span></strong>你对短剧行业总体还是比较乐观的？</p>
-<p style="text-align: justify;"><strong>许苗苗：</strong>我总体是一个技术乐观主义者。短剧、AI剧这些新形式的出现，本身就意味着新的可能性。你看到它不好的一面，不代表它没有好的可能。即使它全是好的，也不代表它不会出现新的问题。技术、表现形式，最终还是需要受众需求来引导。制作方和平台想挣钱，如果观众喜欢好的作品，他们当然愿意投入更多资源去做好的作品，行业也会进入良性循环。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 李华芳：美国大学还值得上吗？丨言之有李</title>
-        <link>http://www.infzm.com/contents/344599</link>
-        <guid isPermaLink="false">ee8e6122606257f80f2cfc1aaf61c5f966f15f15b04cd0c491e4716823e6d09c</guid>
-        <pubDate>Fri, 13 Nov 2026 01:25:07 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：以伊利诺伊理工、雪城、哈佛等具体裁员关专业数据为锚，揭示美国大学从精英到普及转型后的结构性财务危机，将院校收缩与学生价值判断直接挂钩，事实密度高，具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <div><i>2026-11-13 09:00:00</i></div><p><img alt="空荡荡的大学教室。视觉中国 | 图。" border="0" height="1080" src="https://images.infzm.com/cms/medias/image/26/11/10/e9ba085267.jpg" width="1920" /></p>
-<p style="color: #999999; text-align: center;">空荡荡的大学教室。视觉中国 | 图。</p>
-<p style="text-align: justify;">在回答这个问题之前，先让我们看看最近发生的事。伊利诺伊理工大学在2026年秋季学期开学前裁掉了约160名教职员工，其中包括计算机学院的创院院长、终身教授Lance Fortnow。雪城大学关闭了84个专业，古典学、陶瓷艺术、意大利语等人文学科首当其冲，全部460个学术项目中有93个被关闭或暂停招生。哈佛大学文理学院的社会科学板块裁员75人，占相关岗位三成以上，大名鼎鼎的金加里（Gary King）老师领导的量化社会科学研究所（IQSS）也裁掉了4名员工。</p>
-<p style="text-align: justify;">所以美国大学不是个别边缘小学校在收缩，而是从顶尖研究型大学到普通私立院校同时减员收缩。这种结构性收缩和“是不是还值得上”是紧密联系在一起的。因为如果美国大学自身都已经是泥菩萨过河——自身难保了，那么对于学生来说，不管是国际学生还是美国本土学生，自然要对大学的价值打一个大问号。</p>
-<p style="text-align: justify;">美国大学经历了从一开始的精英教育到大众普及教育的大规模转型，才变成今天这个样子。而现在绝大多数的大学，不管非营利的还是营利性的，其背后的财务模式都是基于有足够多的学生坐在大学课堂里这个假设。我所在的匹兹堡大学，属于宾夕法尼亚州财政支持的公立非营利大学，哈佛大学这种属于私立非营利大学，而美国还有以凤凰城大学为代表的营利性高校。营利性高校甚至一度靠“算人头”拿联邦学生贷款来获利。</p>
-<p style="text-align: justify;">基于这种财务模式，大学自然要想方设法招徕学生，甚至讨好学生。但现在的问题是本土适龄大学生因为整体出生率下滑而人数减少，近期数据显示，2025年美国新生儿数量比二十年前少了71万。2008年—2009年大衰退之后，美国很多家庭推迟了生育，这批孩子如果出生的话，就正好到了大学入学年龄。我前段时间听电台广播，说是近期有大量小型文理学院关闭，整个新英格兰地区在过去十年间已经有超过30所高校关停或被合并。</p>
-<p style="text-align: justify;">本来小型文理学院招收的本土学生多，按理说应该对此有预案，不至于成批倒下。但这个背后却是源于国际学生数量大幅度下降。国际学生减少对大型公立学校的冲击，导致公立学校不得不和小型文理学院抢本土生源，而公立学校有价格和资源的优势，这就让很多原本教学品质不佳的小型文理学院不得不关停了事。</p>
-<p style="text-align: justify;">一方面本土生源减少，另一方面国际学生不来了，那美国大学的日子自然就不好过。整个2025年，美国政府发的学生签证骤降20%以上，中国学生获得签证的人数也大幅减少。我问了一下我们的兄弟院校，基本情况都是：原来来自中国的学生至少几十人，现在都是个位数。除了减少学生签证，暂停签证面谈、审查社交媒体、收紧毕业后工作签证，政策不确定性正在系统性改变国际学生的预期。</p>
-<p style="text-align: justify;">尤其是最近几年美国政府的政策对国际学生并不友善，使得很多国际学生不再把美国当成留学的首选地。这个在中国学生中表现最为明显，中国香港和新加坡的学校成了受益者，接收了大量来自中国内地的留学生。</p>
-<p style="text-align: justify;">宏观变化还有一个重要的因素，就是AI的兴起。本来美国大学从精英教育转向大众普及教育，最根本的原因就是回应劳动力市场的需求。2001年诺贝尔经济学奖得主迈克尔·斯宾塞指出，大学学历之所以有价值，一部分当然是因为你学到了知识和技能，但另一部分是将你有知识和技能这件事通过大学文凭这个“信号”发送给潜在雇主。</p>
-<p style="text-align: justify;">如果你毕业于美国的常春藤大学或中国的985高校，你就相当于向劳动力市场发送了一个“这是个人才”的信号，毕竟百里挑一被选出来，并且完成了长达四年的学习。雇主在不确定潜在员工能力的时候，将筛选回溯到学校，是因为能从这些学校毕业本身就是一个“人才信号”。</p>
-<p style="text-align: justify;">但现在不一样了，AI正在从根子上侵蚀这个信号的有效性。如果一个学生可以用每月20美元的AI工具完成作业、通过考试，甚至以荣誉毕业生的身份离开校园，那么“毕业”这个信号与“能力”之间的推断链条就断裂了。雇主无法再根据学历可靠区分“学到了东西的人”和“没有学到但拥有工具的人”。</p>
-<p style="text-align: justify;">假以时日，AI对人才信号功能的冲击就不是一个教学诚信问题，而是一个足以动摇当前大学定价模式的问题。身份验证和AI检测工具都只是技术层面的修补，它们无法恢复那个更根本的东西：大学学历是否还能发出人才信号。</p>
-<p style="text-align: justify;">那么，美国大学还值得上吗？这个问题没有统一的“是”或“否”，因为需要区分不同类型的学生以及“上大学”究竟在买什么。所以更准确的问题是：你花几十万美元，买的究竟是知识技能、一个向雇主发送的筛选信号，还是一种昂贵的消费体验？</p>
-<p style="text-align: justify;">对于以信号为主要购买动机的学生，尤其是那些需要一张文凭来向雇主证明自己的人，大学信号正在贬值，但学费并没有相应下降。美国高校的学费一直都在涨。</p>
-<p style="text-align: justify;">而大量中国留学生放弃美国转向他处，说明大部分人还是希望积累自己的人力资本，那么答案就取决于具体项目是否仍然提供AI无法替代的可验证的学习成果。那些仍然要求学生亲自犯错误、修正，并在过程中留下可审查记录的项目，其价值大概不会因为AI的出现而消失，反而可能因为稀缺而上升。</p>
-<p style="text-align: justify;">美国大学曾经证明过自己有能力从精英机构转型为大众教育体系，但那一轮转型的前提是：学生足够多，信号足够可信，学费足够覆盖成本。但今天谁也不能打包票说这三个前提还都稳如磐石。</p>
-<p style="text-align: justify;">如果大量院校因为本土和国际生源双双减少而倒闭合并，而未来学生们进一步怀疑大学学历在劳动力市场上的信号价值，那么大学自然会缩减规模。整体而言，不管是美国大学还是其他国家的大学，都不会消失。但大学的确可能会从很多人的默认选项，变成少数人的可选择项，返回到精英教育的路子上去。</p>
-<p style="text-align: justify;">你如果回到精英教育的源头，就会发现对于能负担精英教育的学生来说，那就是个纯粹的消费行为。所以问题不是上大学值不值，而是要问花钱到底是买知识能力，或是文凭信号，又或是消费体验。那不同的人，自然对值不值会有自己的判断了。</p>
-<p></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 对话斯蒂芬•罗奇：中国经济与美国风险，前路何在？</title>
-        <link>https://www.ftchinese.com/story/001111334</link>
-        <guid isPermaLink="false">01c3ba3b9357e2216a144881bc00725588556a129d083a63266d2688da9accec</guid>
-        <pubDate>Wed, 11 Nov 2026 16:00:00 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：斯蒂芬·罗奇以&#x27;病态共生&#x27;框架剖析中美结构性失衡，指出中国出口强/内需弱与美国AI泡沫风险，提供超越短期波动的长期视角。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            罗奇认为，中美仍深陷一种既相互依赖、又充满冲突的“病态共生”关系。中国强劲出口折射出内需不足的结构性失衡，而美国人工智能热潮也引发资产泡沫担忧。
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 10 亿 Token 开源万只假鸟， AI 伪科普正在「污染」下一代的常识</title>
-        <link>https://www.ifanr.com/1688897?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">4aa2d23be5e27d46ebb362f1e40b7aa41bdf637353e19422a20102c40b011653</guid>
-        <pubDate>Wed, 11 Nov 2026 07:03:17 +0000</pubDate>
-        <author>Selina</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：以AI生成万种鸟类贴纸库为切口，揭示AI伪科普对下一代常识的污染，案例具体、数据扎实（10亿Token、11064种鸟），兼具技术伦理与教育反思，信息密度高。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img alt="" class="alignnone size-full wp-image-1688931" height="261" src="https://s3.ifanr.com/wp-content/uploads/2026/11/cover-bird.jpg" width="553" /></p>
-<p>「有一回藤野先生将我叫到他的研究室里去，翻出我那讲义上的一个图来，是下臂的血管，指着，向我和蔼的说道：「你看，你将这条血管移了一点位置了。──自然，这样一移，的确比较的好看些，然而解剖图不是美术，实物是那么样的，我们没法改换它。现在我给你改好了，以后你要全照着黑板上那样的画。」」</p>
-<p>这是鲁迅散文集《朝花夕拾》里的文章《藤野先生》，是每个上过初中的学生都会读到的一篇课文，在今天重新来看，多少有点荒谬——也就是藤野先生没有见过 AI。</p>
-<p>今天，不用去野外吹风淋雨，也不用懂半点鸟类解剖学，只要有一台电脑、开 8 个窗口跑 AI 脚本，<strong>不到一个星期，就能把全世界所有现生鸟类「一张不落」地全部画完，至于真不真实，根本不重要。</strong></p>
-<p><img alt="" class="alignnone size-medium wp-image-1688929" height="170" src="https://s3.ifanr.com/wp-content/uploads/2026/11/image-360x170.jpg" width="360" /></p>
-<p>这是最近在开发者圈高调刷屏、却把国内外鸟类爱好者气到血压飙升的「花叔全球鸟类贴纸库」，光是看作者自己的项目复盘文章，字里行间都洋溢着一种「算力大力出奇迹」的亢奋。</p>
-<p><img alt="" class="alignnone size-full wp-image-1688898" height="809" src="https://s3.ifanr.com/wp-content/uploads/2026/11/replacement.jpg" width="573" /></p>
-<p>为了给自己的观鸟 App 做配套素材，这位完全不会写代码的独立开发者，靠着 Vibe Coding 烧掉了超过 <strong>10 亿的 Token</strong>，跑光了数次 200 美元顶配会员的周额度，把全球 <strong>11,064 种现生鸟类</strong>（后随名录更新调整为 11,011 种及 91 个亚种）做成了白边贴纸，顺手搭起了一个支持 15 种语言检索的鸟类网站，并向全网宣布「正式开源」。</p>
-<p>然后马上就翻车了。</p>
-<h2>扒图、瞎画，一条「造鸟流水线」</h2>
-<p>仔细看这套万鸟贴纸库的制作黑箱，足以让科学传播者和野外摄影师直掐人中。</p>
-<p><strong>首先是近乎「明抢」的参考图抓取和盗图。</strong> AI 凭空画鸟极易胡编乱造，作者又不是观鸟爱好者，没有自己的数据库，要怎么解决？写脚本去 iNaturalist 和维基共享资源里，把全世界摄影师辛苦蹲守拍下的真实照片批量扒下来，拼成 3×3 的「九宫格」喂给生图模型重绘。</p>
-<p>在这 11064 种鸟的参考照里，真正采用开放许可（CC0、CC BY、CC BY-SA）的<strong>只有 1986 种，</strong>剩下的要么明确标着「非商业使用」「禁止演绎」或「保留所有权利」，甚至还有 <strong>2017 种连许可协议都没记下来</strong>，就被一股脑塞进了 AI 里。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=M2EwY2I2NGFiNjI0ZmNkNzBiNjM0MTEyNDBhM2ZmMzVfMzllNGUwOGM1OTY4OTQwZmUxNTc5Nzc0ZmIxZTk3MDRfSUQ6NzcwNjEwNzk4NTU4ODE3ODIyMl8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>等洗成 AI 贴纸后，作者反手给贴纸打上自己的授权标签（最初甚至用了限制竞品使用的 PolyForm Shield 1.0.0，后改为 CC BY 4.0），然后留下一句：如果某张贴纸参照了你拍的照片而你不希望我们使用，发邮件提 Issue，7 天内撤下。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=MWZiZmQzMDkyYmI5NjhhZTFlNGUwZDQzZTY5ZmQxNWNfZDk2MmVhZGUwOTQyM2E5MjdjYTA0MzlkMjhjNTMyZDBfSUQ6NzcwNjEwNTQ0ODk2NTkzNDA3OV8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>这种「先把摄影师的作品喂给 AI、被苦主找上门再删」的逻辑，在 Reddit 的观鸟社区 r/birds 板块 直接被怼了，「把别人的作品喂进抄袭机器，从来不是一件可以靠“事后申请退出”来洗白的事」</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=Y2IwNTViYTkzNWI0NjA2MTFlYjQxNzQ3NDdiMjg5ODJfNWZkOWFjMzY2YzRiYjQyODMyOTc5MWIxY2NjMmFmMTNfSUQ6NzcwNjEwNjc2MTk2Njg0OTA1MF8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>为了在几天内强行凑齐一万多种鸟，还有另外一个雷霆的做法：冷门鸟找不到好照片，就拿几张残缺照片拼凑；模型画完后，交给另一个 AI 审核员打分。在测试中作者自己都发现，生图模型频繁造出令人啼笑皆非的怪物——明明是红色或蓝绿色的虹膜，被画成了死气沉沉的全黑眼珠；脚趾融成一团肉块；连蜂鸟这种极短腿的鸟，都被强行安上了一双麻雀式的大长腿。</p>
-<p>那要是重画两次还是画不对怎么办？作者定下的原则是<strong>不退回用照片，也不留空，选高分者留下。</strong></p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=Njc0MGQ5OWQ0N2M4YmU3ZDE3YTQ5MDIyYTVjMTE2NTVfMTBlOTJkMjhmODJmNDBmNTgwYmQ2MzhmYzMyMzEzNjBfSUQ6NzcwNjEwNTc5NTA4NDE5Mjc4Ml8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>用纯工程学思维，搪塞科普问题，在初代开源的仓库里，连项目自己设定的 AI 及格线（80 分）都没过的残次品，就高达 <strong>3388 张</strong>（其中 109 张甚至低于 70 分），却依然打包塞进了公开图库。虽然后来作者在 11 月用另一套 AI 标准把一万多张图重跑了一遍，宣布全部「过线」，但从头到尾，这套图库都没有经过哪怕一位鸟类学专家的系统审校。</p>
-<h2>「科普污染」究竟有毒在哪儿</h2>
-<p>在一大堆硬伤的情况下，依然热情推荐大家把这些贴纸拿去「做自然教育的课件、给孩子做鸟卡」，甚至提供了一行代码即可调用的 CDN 接口和绑定了 eBird、GBIF 科研编号的结构化数据；转头又在说明文档里给自己叠上一层厚厚的免责甲。</p>
-<p><strong>「这些是插画，不是图鉴图版……发现画错了，欢迎提 Issue，鸟友的纠错是这个项目最需要的贡献」。</strong></p>
-<p>这是整个开源项目最大的争议点：有没有能力核查一万多张图片，是能力问题，但有没有想过在推出前做专业核查，是态度问题。<strong>作者从来没有正面承认过，制作一套鸟类知识产品，需要以鸟类学和观鸟领域的专业知识为前提，纠察是在发布之后才要做的环节。</strong></p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=NzRhYTEyYzFmZjgzNWE0MjIxZjcwNTdmNThmY2NhOTVfZTg5OTlmNjJiM2YwZWM4NDYwOTI0MzRlOGJlOTQ0ZmNfSUQ6NzcwNjEwMjMwMjA0NjQyNDA3NV8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>这种思路在代码开发里很普遍，编程-上线-收到issue后 后修改-迭代，作为开发者，只要开发出了工具、生成了图片、开放了代码，自己的工作就已经完成，哪怕只是 vibe coding，至于知识是否准确，可以交给使用者和专业社区来纠正——这样的思路放在自然科学领域，堪称灾难。</p>
-<p>以有「空中猛禽」之称的<strong>游隼为例，如果只看贴纸图，外行人根本看不出问题，尤其是整个制图风格是写实画风，而不是动漫或者简笔画线条。</strong></p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=YzhmZTc1ODdlOWVkMDE5NjVlM2Q4NzhjNTk3NjcwZjlfMzEyODE0YWRkMzM1NmJjZTVlOWQ1MzM5YzI0MTMyZmVfSUQ6NzcwNjEwMTcwODQ2Mzc4NzIwMF8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>经过鸟友贴出的对比图仔细看，才能发现原本跗跖粗壮、爪趾强健有力的空中猛禽<strong>游隼</strong>，被扭曲成了更细小的爪型。作者回查后才承认，原来参考照是从树下仰拍的，游隼的脚被腹羽和树枝挡住了；当脚本自动抠图去掉树枝后，AI 只能脑补出一副细爪，而负责审图的 AI 根本没检查腿脚粗细比例。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=NTUyMzBjMjFjMjU0OGY4NmY5M2JlNmZiMjFhNjg1YzhfMzU3NzU1ZTM0OGZlYjdiY2JkYzEyOWQ3ODA1NWJiYWZfSUQ6NzcwNjEwMzI2NDg5MDU3MjA0OV8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p><strong>葵花鹦鹉最初</strong>激发作者立项，是他「最爱的鸟类」。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=OTEyZDMwMzg1YWI0ODE5NTU4MDEyNDE4NmU5ZTJmMDZfOTM0ZGNiYzJlMWJlNmI1MmMwZGVhMjVhNWUyZGNhMTBfSUQ6NzcwNjEwMzk0MzQ2NTg5NzI2NF8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>但画出来之后最基础的折叠翼羽区（覆羽与飞羽的层级关系）都是错的。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=N2I4MTY0MGQ4MjRhY2UxMWQzMjBiY2Y5NWYxYTUzNzlfNTViMDQ1ODZiNjllYzk4OTcxNDczMzQ4MTliOTA3MDJfSUQ6NzcwNjEwMTEwMDk5NTU2MjQ4OV8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>「是插画不是图鉴」这种说法，并不能免责，原因不是「鸟类图鉴不能用画的」，传统手绘图鉴本来就不等于摄影照片。但手绘取舍的底线，是每一笔都扎根于真实的物种解剖，并由懂行的人把关。优秀的博物画师会综合多只个体的长期观察，有意突出尾羽、喙形或换羽期的鉴别特征。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=ZWEzNTZiMGUwMDhlM2RkZGYzMjQ1OTZmZjYwMzJmMDVfZmJlZDAyZmNjN2Y2MzI2N2Q0YTM0ZWQ5NzdhY2FiNTVfSUQ6NzcwNjEwMzU2MDQ5MjUxODQxNV8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<h2>不止假鸟贴纸，AI 伪科普正在多条战线「投毒」</h2>
-<p>如果仅仅是一个独立开发者的自嗨，事情或许还没那么可怕。可是<strong>像这样用 AI 篡改、捏造自然图像，进而污染科学记录与公众科普的离谱事件，早就不是一桩两件了。</strong></p>
-<p>今年发表在《自然·生态与进化》（<em>Nature Ecology \&amp; Evolution</em>）上的一篇学术通信，就记录了一起足以敲响警钟的案例：一名观鸟者在巴西拍到了一只略显模糊的鸟，为了看得更清楚，他把照片交给 Google 的 AI 图像工具改善画质，随后将处理后的高清图上传到了全球最大的公民科学平台之一 iNaturalist。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=MTQ4OWY1ZTdiNWM3OGE4Nzg2MjYxMjlhOTFlODFiZDVfODliNmMzZTdmMGZiNGRjNTk4M2E0M2RkOTc5YzY0YzBfSUQ6NzcwNjEwODQxNjY5MDk0OTM5NV8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>结果，这张照片一度被当成当地罕见的「红翅黑鹂」分布新记录；直到专家仔细比对原图才发现，那其实只是当地极其常见的另一种拟鹂，是 AI 在「修清楚」的过程中，凭空给这只鸟补出了红翅黑鹂的羽毛特征——<strong>只是换了一点色、调整了大小，就已经是另一只鸟。</strong></p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=ZTIwMTYyNDQ0YWQ1MWMzYmVhODYwOGQxZDIyNGIzMDlfMzY3NTc1OWQxNzE4YjcwNWFkZTEzMDVkNzMxYTUyMmRfSUQ6NzcwNjEwODYzMTY0MTQ2MDAxMV8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>这位观鸟者的主观意图，仅仅只是增强和高清，并没有其它意图。但恰恰是这种「无心之失」，比凭空画一只假鸟更容易混进人类知识的底层链条。公众上传的自然影像不仅供他人辨认，更直接作为全球物种分布研究的科学证据。</p>
-<p>例如 eBird 的照片会进入康奈尔鸟类学实验室的麦考利图书馆（Macaulay Library），并反哺著名识鸟工具 Merlin 的图像与声音识别训练集。如果图中的鸟被 AI 悄悄改了羽色、脚趾或喙形，错误绝不会止步于一张失真的照片，它<strong>会形成一系列的多米诺骨牌反应，改变后续的科研人员和 AI 工具如何认识真实的自然。</strong></p>
-<p>而在公众科普出版领域，失守的速度同样惊人。</p>
-<p>就在今年 10 月底，由中国农业出版社出版发行的《南海海洋生物科普丛书》遭到读者公开质疑，在介绍斑节对虾的分册封面与内页插图中，赫然出现了一只长着两个脑袋的诡异「双头虾」。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=MGM1YmRmNmY5MGVkOTJjNzllYWE1YjNiODQ0YTBjNjRfOTU3ZjZmZWM1NmM4MzE1NzFkOTliOTFjNWRhMjc5NjhfSUQ6NzcwNjEwOTU0MjcwNjUxNTI0Nl8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>面对全网群嘲，人们翻开书本序言才赫然发现上面写着：「本套丛书里绝大多数图片由 AI 绘图工具生成。」最终，涉事出版社工作人员不得不回应称正在通知全网下架并召回图书，新华网公开批评。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=ZjgzMzU0MWNjZmU2OWMyMzI5NmY1YTg0YmI4ZDc2MWZfODQ4ZTMzMWRhZmU2YzM3NDhhOWYzZjM2ZmYyZDA2ZDlfSUQ6NzcwNjEwOTA3MzcwMzU4NzA5NF8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>一只长着两个脑袋的「双头虾」因为过于惊悚，还能被读者一眼揪出来，但那些只画错了一根翅脉、多添了一枚脚趾、或是篡改了尾羽斑纹的 AI 科普插图，一旦经过正规排版印刷，带着「科普图书」的权威光环摆上书店货架，普通读者和孩子该怎么分辨？</p>
-<p>对严肃的科学记录而言，有时最危险的图像甚至连「AI 插画」的外观都没有，而是披着「真实照片」的外衣潜入数据库。</p>
-<h2>把大自然的面貌，还给耐心的观察</h2>
-<p>面对汹涌而来的生成式图像，专业的自然观察数据库已经在筑起高墙，给出了远比「请谨慎使用 AI」更硬核的准入红线。</p>
-<p>例如，eBird 和麦考利图书馆<strong>明确禁止上传任何 AI 生成的图像、声音和视频</strong>，同时严禁使用生成式工具增补或重建照片原有的羽毛、眼睛等细节；只有裁切、常规曝光与色彩调整以及不捏造细节的轻微降噪才被允许。一旦违规，素材会被打上「过度编辑」或「人工生成」标签，<strong>屡犯的账号甚至会被限制权限</strong>。它的判断核心不是你用了哪款修图软件，而是上传物能否作为当时当地那个生物个体的真实证物。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=NjhmNjQ3OTJmOGQ4MjU5MjFmOTY1MjRjNDA0ZTljN2RfNDAzN2JiNzY2N2M3NzI5MTQzMzU2MGFkMDhkMGRkZjBfSUQ6NzcwNjEwOTY1ODgyNTYyNDU2OV8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>iNaturalist 也上线了针对性的拦截机制，一旦社区发现主要由 AI 生成的照片或录音，即可打上「人工生成内容」标记，原图会被替换为警示图，该条观察记录也会被直接降为「普通级（Casual）」，永久踢出「研究级（Research Grade）」序列。对于真实照片但因 AI 修图失真的案例，则走专门的数据质量评估通道。由于 iNaturalist 向全球生物多样性信息平台（GBIF）共享的主要是符合许可的研究级记录，这一降级机制相当于在科研数据源头层面装上刹车片。</p>
-<p><img alt="Image" src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/authcode/?code=YmRlMWRkOTNhODE0OWNhNTY4YmEwMzdlYzNjNTI0ZjlfZmM4MzI3M2I0M2I0Mzk2YmU0NmMyMTA4NjdjNTE3NTBfSUQ6NzcwNjEwOTgwOTE4MzI4MDMxMl8xNzk0MzAyMTkwOjE3OTQzODg1OTBfVjM" style="height: auto; border-radius: 0;" /></p>
-<p>这些平台规则至少捍卫了一条底线：<strong>把「好看」和「能作证」彻底分开。</strong> 一张糊得像马赛克的原片，依然可以是一条诚实的科学记录；而一张由 AI 补齐了纤毫毕现的羽毛与眼神光的高清大图，在科学证据面前，没有价值。</p>
-<p>然而，仅有专业数据库的防守还远远不够，<strong>甄别假图依然极度依赖人类的专业眼力，来源溯源证明代替不了内容准确性审查，公共互联网的「劣币驱逐良币」，都让「投毒」行动难以被遏制。</strong></p>
-<p>在公民科学数据库里，一张图片首先是一份<strong>现场证据</strong>；在博物图鉴与科普读物里，一幅插图是一份经过专业核对的<strong>知识契约</strong>；而在社交娱乐平台上，它成了一个吸引流量的帖子，一件「我很会用 AI」的时尚单品。</p>
-<p><strong>「算力可以代替专业」背后是十足十的傲慢。在没有领域专家把关、没有解决原始摄影作品授权的前提下，人不能、至少不应该</strong>把严谨的自然科学当成炫耀 Token 消耗量和 AI 技能大赛现场，更不应该把严肃的科学审校义务转嫁给社区去「免费排雷」。</p>
-<p>大自然从来不是一段可以靠提示词批量生成的脚本，在这个生成一万张图比去公园认清一只鸟容易太多的时代，我们需要比以往任何时候都更加审慎。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
         </div>
         ]]></description>
     </item>

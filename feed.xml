@@ -4,14 +4,14 @@
     <title>⚡ 极客早餐速报 (Daily Geek Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型严格把关：GitHub热榜 · 拓竹3D打印模型 · 36氪 · 知乎精选</description>
-    <lastBuildDate>Mon, 16 Nov 2026 02:11:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 04:30:45 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
-        <title>⚡ 【极客早报】GitHub · 3D打印 · 36氪 · 知乎精选 (11-16 版)</title>
+        <title>⚡ 【极客早报】GitHub · 3D打印 · 36氪 · 知乎精选 (11-17 版)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
-        <guid isPermaLink="false">geek_briefing_20261116_101132_28d02eea</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <guid isPermaLink="false">geek_briefing_20261117_123045_2d6f7f76</guid>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>AI 极客主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -21,28 +21,431 @@
             </div>
             <div>
                 <div>
-<h2>今日极客早餐速报 · 2026年11月16日</h2>
+<h2>☕ 今日极客早餐速报 · 2026年11月17日</h2>
+<p>各位极客早上好！今日开源圈被 AI Agent 协议与技能生态彻底点燃，3D 打印社区则提前进入圣诞档期。以下是今日精选干货。</p>
 
 <h3>🌟 【GitHub 开源黑科技与提效神器】</h3>
-<p><b>Univer（TypeScript，+988 Stars）</b>：一款对标在线表格与文档协同的开源套件，把电子表格、文档、演示整合进同一渲染内核，支持公式引擎与插件化扩展。适合团队自建类飞书文档系统，或嵌入 SaaS 产品做数据看板，替代商业授权成本高昂的表格组件。</p>
-<p><b>Chrome DevTools MCP（TypeScript，+717 Stars）</b>：官方把 Chrome 调试协议封装成模型上下文协议服务，让 AI 代理直接读取页面 DOM、网络请求与控制台日志。前端调试从此可交给智能体自动复现问题，适合做自动化回归与 AI 辅助排障的团队。</p>
-<p><b>Plannotator（TypeScript，+866 Stars）</b>：面向代码评审的可视化标注工具，把 diff 变成可批注的画布，支持逐行讨论与状态追踪。解决 PR 评审意见散落、上下文丢失的痛点，适合远程团队做异步代码审查，让评审结论沉淀为可检索资产。</p>
-<p><b>Open Code Review（Go，+691 Stars）</b>：阿里开源的代码评审辅助服务，用静态分析与规则引擎自动生成评审要点，可对接 Git 平台做增量扫描。适合中大型仓库在合并前做质量闸门，降低人工漏检率，尤其适配 Go 微服务项目。</p>
+
+<p><b>1. dream-num/univer（TypeScript，今日 +1828 Stars）</b><br>
+一款对标在线表格与文档的全栈开源方案，将电子表格、文档、演示能力统一到同一套渲染与公式引擎中。它解决了商业办公套件难以私有化、二次开发成本高的痛点，适合企业搭建内部协作平台或开发者做轻量 Excel 替代品。</p>
+
+<p><b>2. ag-ui-protocol/ag-ui（TypeScript，今日 +791 Stars）</b><br>
+面向 AI Agent 的交互协议层项目，试图标准化前端与智能体之间的流式事件、状态同步与工具调用格式。它直击当前 Agent 应用各自造轮子、前后端难解耦的痛点，适用于构建可复用的智能体聊天界面与多 Agent 编排系统。</p>
+
+<p><b>3. NVIDIA/SkillEvaluator（Python，今日 +873 Stars）</b><br>
+英伟达开源的技能评测框架，用于量化评估 AI Agent 在具体任务技能上的表现，提供可复现的基准与打分流程。它解决了「Agent 到底靠不靠谱」缺乏客观度量的问题，适合模型团队做技能迭代回归测试与选型对比。</p>
+
+<p><b>4. google-labs-code/stitch-skills（TypeScript，今日 +529 Stars）</b><br>
+谷歌实验室放出的技能集合，围绕 Stitch 设计转代码能力封装可复用技能模块。它降低了把设计稿自动转成前端代码的门槛，适合设计师与前端协作场景，也便于开发者快速拼装自己的代码生成流水线。</p>
 
 <h3>🖨️ 【热门 3D 打印模型与创客设计】</h3>
-<p><b>Flexi Skeleton T-Rex（下载 4316 / 打印 2083）</b>：一体打印的可动关节霸王龙，采用链节式球窝结构，无需组装即可摆动尾巴与四肢，提供迷你与超大两种尺寸。拓竹打印建议 0.16mm 层高、关节处留 0.3mm 间隙防粘连，PLA 即可，超大版注意热床附着。</p>
-<p><b>Ultimate Flip & Slide Fidget Toy（下载 4231 / 打印 2635）</b>：Print in Place 一体成型的解压玩具，翻转与滑轨双机构组合，靠精确公差实现免组装活动。适合用 0.2mm 层高、关闭支撑打印，拓竹机型建议开加速度补偿，避免细缝处拉丝影响手感。</p>
-<p><b>Knitted Angel（下载 3124 / 打印 1618）</b>：针织纹理天使摆件，表面用几何浮雕模拟毛线编织质感，底座加宽保证站立稳定。无需 AMS 单色即可出效果，建议 0.12mm 细层高还原纹理，配合哑光 PLA 更接近织物观感。</p>
+
+<p><b>1. Christmas Tree Cake Holder Hype Chain Locket（下载 2964 / 打印 1704）</b><br>
+圣诞树造型的蛋糕收纳挂坠，采用链扣式开合结构，兼具摆件与实用收纳功能。结构件公差友好，拓竹 FDM 打印建议 0.2mm 层高、3 层墙，活动铰链处可加少量间隙补偿，避免粘连。</p>
+
+<p><b>2. Grinch napkin holder（下载 2124 / 打印 1043）</b><br>
+绿毛怪造型餐巾纸架，靠底部配重与斜面卡槽固定纸巾，抽取顺滑不倒。适合节日餐桌场景，FDM 打印建议主体 15% 填充、外壁 3 层，面部细节用 0.16mm 层高呈现更佳。</p>
+
+<p><b>3. Knitted Santa Claus - No AMS, No Glue（下载 1251 / 打印 495）</b><br>
+针织纹理圣诞老人摆件，通过分件卡扣实现免胶水、免多色系统的拼装，纹理靠几何起伏而非换色表现。拓竹打印建议单色 PLA、0.2mm 层高，卡扣处适当降低填充以保留弹性。</p>
 
 <h3>💼 【商业科技与前沿创新 (36氪)】</h3>
-<p><b>英伟达人事震荡引发联署风波</b>：少数派早报披露逾十万人次联署要求黄仁勋复职，同期又传出其宣布辞职的消息，两条信息相互矛盾，反映市场对 AI 算力龙头治理稳定性的高度敏感。风向在于：算力供应链的任何人事变量都会被放大为估值波动信号。</p>
-<p><b>AI 时代「慢产品」方法论受关注</b>：开发者分享如何把 Mole 做成反潮流的慢产品，强调在模型能力狂飙期，克制功能堆叠、深耕单点体验反而形成差异化。这折射出工具类创业的新风向：从拼参数转向拼留存与信任，慢即是快。</p>
+
+<p><b>1. AI Agent 技能生态进入「标准化」竞争</b><br>
+从 ag-ui 协议到各家技能库密集开源，行业正从「造单个 Agent」转向「定义技能接口与评测标准」。核心信号是：谁能掌握协议与评测话语权，谁就占据 Agent 应用层的入口，商业价值从模型层向工具链层迁移。</p>
+
+<p><b>2. 开源办公套件加速替代商业 SaaS</b><br>
+Univer 类项目的高热度说明企业对数据主权与定制化的需求持续走强。办公协作正从「买订阅」转向「自建+二次开发」，这对传统办公软件厂商构成结构性压力，也为集成商带来新机会。</p>
+
+<p><b>3. 硬件与内容生态联动升温</b><br>
+影石发布墨水屏相纸、OPPO 更新 Reno 系列，显示消费硬件厂商正通过「硬件+内容服务」绑定用户。风向在于：单纯堆参数已难突围，围绕拍摄、分享、打印的闭环体验成为差异化关键。</p>
 
 <h3>💡 【知乎精选与深度思考】</h3>
-<p><b>全球变暖阻断了下一个冰河时代</b>：讨论指出，人类排放的温室气体浓度已足以压制米兰科维奇周期的降温趋势，使下一次冰期在数万年内难以启动。思维增量在于：气候系统存在长周期惯性，当下排放决策实际在改写地质尺度的时间表，而非仅影响百年气温。</p>
-<p><b>有什么廉价但技术含量很高的东西</b>：高赞回答从回形针、拉链讲到一次性注射器与 GPS 芯片，核心命题是规模化制造如何把尖端工艺摊薄到几分钱。底层原理在于良率曲线与供应链分工，提示我们技术含量不等于价格，量产能力本身就是护城河。</p>
+
+<p><b>1. 哪一项计算机技术被大众严重低估？</b><br>
+高赞讨论指向「版本控制与可复现构建」这类基础设施。底层原理在于：它们不直接产出功能，却决定了协作效率与故障可追溯性。思维增量是——真正拉开工程能力差距的，往往是那些看不见的「地基技术」。</p>
+
+<p><b>2. 如果一个国家没有政府会怎么样？</b><br>
+讨论从无政府状态切入秩序与公共品的供给问题。核心命题是：安全、契约执行与基础设施等公共品由谁提供。底层逻辑在于集体行动与激励设计，提醒我们技术治理同样需要明确的规则与责任主体。</p>
+
+<p>—— 今日早报到此，祝各位编码顺利、打印不翘边！</p>
 </div>
             </div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] Rosetta 2 即将退役，Mac 老应用何去何从？</title>
+        <link>https://sspai.com/post/118100</link>
+        <guid isPermaLink="false">92035a1643bf75e58001db47af8039df5d6c84ae7e11543fcd61c1dcb890acb6</guid>
+        <pubDate>Mon, 16 Nov 2026 15:37:51 +0800</pubDate>
+        <author>化学心情下2</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：深度复盘苹果三次架构迁移史，聚焦Rosetta 2退役对老应用的影响与开发者应对策略，技术脉络清晰，对Mac用户和开发者有实际参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            Apple在Mac电脑的发展历程中经历过数次架构转换。其中最广为人知的，当属2005年从PowerPC转向Intelx86架构，以及从2020年启动、由Intelx86转向ARM64架构的AppleS ...<a href="https://sspai.com/post/118100" target="_blank">查看全文</a>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 你觉得哪一项计算机技术被大众严重低估了？</title>
+        <link>https://daily.zhihu.com/story/9794064</link>
+        <guid isPermaLink="false">345a559ad3ba7d7c60d0905d0dac160a1bf67107ad3aac3e98df496f66ef57aa</guid>
+        <pubDate>Mon, 16 Nov 2026 16:00:00 +0000</pubDate>
+        <author>Dunkirk</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：硬核科普时钟同步技术，从RTC晶振偏差到NTP原理层层拆解，揭示分布式系统时间戳的底层逻辑，无废话高密度，适合后端与运维读者补认知盲区。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p>比如时钟同步技术。</p>
+<p>现在几点几分按理说是一个很简单的问题，但是对计算机网络来说却是一个非常困难的问题。</p>
+<p>计算机内部有一个东西叫 RTC（Real-Time Clock，实时时钟芯片）。它是主板上一块独立的小芯片，有自己的纽扣电池，即使电脑关机它也在滴答作响。</p>
+<p>RTC 的原理是晶体震荡，芯片里有一块石英晶体，通电之后以固定频率震动，通常是 32768Hz，为什么是这个数？因为 32768 = 2¹⁵，方便用数字电路做分频。振动 32768 次计数器进一位，代表过了 1 秒。</p>
+<p>但问题就在这，任何振荡器都不是完美的，它会受各种因素影响而产生频率偏差。</p>
+<p>普通计算机的石英时钟每天可能偏 1~2 秒，听起来也不多。但一台服务器如果连续运行一年，时钟可能偏差几分钟。一个数据中心有很多台服务器，每台偏移的方向还不一样。</p>
+<p>第二个影响时间同步的是网络延迟，假设你问一台服务器现在几点了，它回答了你。但这个回答在网络上传播需要时间， 更麻烦的是这个时间延迟每次是不一样的、不稳定的。</p>
+<p>如果互联网上的设备之间时钟不能同步，那会带来多少问题应该不用多说。尤其涉及到互联网上的交易，这些操作分布在不同的服务器上，要靠时间戳判断先后顺序，搞错了就会引发大问题。</p>
+<p>那怎么解决呢？</p>
+<p>-</p>
+<p>既然每台电脑自己的时钟会发生偏移，那就找一个公认准确的时间源，让所有电脑定期去对准一下。</p>
+<p>这套机制叫 NTP（Network Time Protocol，网络时间协议），1985 年发明，沿用至今，我们的手机、电脑此刻都在使用。</p>
+<p>NTP 的顶端是原子钟，原子钟不依赖任何机械震荡，而是依靠原子的能级跃迁。</p>
+<p>最常用的是铯 -133 原子。它的基态超精细跃迁频率是 9192631770 赫兹。</p>
+<p>这个数字本身就是秒的定义。1967 年国际计量大会定义铯 -133 原子超精细跃迁 9192631770 个周期所经历的时间为 1 秒。</p>
+<p>铯原子钟的的精度极高，1 亿年误差不超过 1 秒。</p>
+<p>全球可能有几百台 Stratum1 服务器直连着原子钟，然后它们把获取到的时间传递给 Stratum2 服务，也就是各大公司运营商的 NTP 服务器，Stratum2 再把时间传到我们的路由器、手机、电脑里面。</p>
+<p>但原子钟只解决了晶体震荡带来的时间误差，依然无法解决网络延迟带来的时间误差。</p>
+<p>NTP 是怎么解决这个问题的呢？比较简单，测量往返时间，然后取一半作为单程延迟的估算， 相当于默认上行和下行的网络延迟相等，但实际上这两个延迟并不相等，所以通常会带来几毫秒的误差。</p>
+<p>当然 NTP 也不是简单的往返时间取平均，NTP 还会对同一台服务器连续多次采样，选择其中网络延迟最小的结果来使用，还会有多台服务器进行交叉验证，把明显异常的时间排除出去，这样结果就比较可信了。</p>
+<p>通过上面这两步，也就是从原子钟来获时、并且校正了网络延迟之后，如果发现本地的时间不准确，又该怎么办呢？</p>
+<p>比如发现本地时钟走快了 200 毫秒，能不能直接往回调 200 毫秒？通常不行。因为很多系统有一个基本预设，那就是时间只会向前走。</p>
+<p>所以 NTP 的解决办法是让时钟走快一点或走慢一点，逐步调整。比如本地时钟慢了 200 毫秒，NTP 就让它每秒多走 0.5 毫秒，400 秒后就追平了。</p>
+<p>NTP 能达到的时间精度在互联网上通常是几毫秒，在局域网内优化后甚至可以达到亚毫秒级。</p>
+<p>-</p>
+<p>但是在某些场景下，这样的时间精度依然不够。</p>
+<p>比如电网调度，不同发电站的交流电必须精确同步相位，误差超标就会导致电流倒灌，再比如一些金融交易也要求微秒级的误差。</p>
+<p>还有 5G 技术对基站之间的时间和相位同步也有很高的要求，否则可能带来信道干扰，有些要求需要达到 1.5 微秒的精度。</p>
+<p>这个时候就不能只依靠 NTP 了，而需要 PTP（Precision Time Protocol，精确时间协议），精度可以达到纳秒级。</p>
+<p>1 秒=1,000 毫秒=1,000,000 微秒=1,000,000,000 纳秒。</p>
+<p>NTP 的误差来源主要在网络延迟上，一个数据包从发出到被处理，要经历很多环节：</p>
+<ul>
+<li>发送方：应用程序→操作系统内核→网卡驱动→网卡发出</li>
+<li>接收方：网卡收到→网卡驱动→操作系统内核→应用程序处理</li>
+</ul>
+<p>网络延迟中的误差又有两个来源，第一个是时间戳的位置。</p>
+<p>NTP 通常是在应用程序层打时间戳，但是从应用程序准备发出到网卡真正发出之间，数据包在操作系统里还要排队等待调度，这段时间可能是几微秒，也可能是几毫秒，每次不同。这个不确定的等待时间被算进了网络延迟里面，就成了噪声。服务器越忙，这个噪声就越大。所以 NTP 在繁忙服务器上精度就会下降。</p>
+<p>PTP 的改进办法就是把时间戳移到硬件层。既然操作系统的调度延迟是误差来源，那就绕过操作系统，在硬件层打时间戳。</p>
+<p>支持 PTP 的网卡，在数据包刚到达网卡的瞬间，由硬件电路立刻打上时间戳，不经过任何软件层。发送时也一样，在数据包真正离开网卡的瞬间，由硬件记录发送时间。</p>
+<p>这样测出来的延迟就是数据包在网络上真正传输的时间，不包含任何操作系统调度的噪声。</p>
+<p>但光解决了这个问题还不够，误差的大头还是这些信息在网络中上行和下行的时间，NTP 是默认上下行时间一样，但实际并不一样。</p>
+<p>那 PTP 怎么解决呢？直接把上下行的时间给统计出来。PTP 有一个叫透明时钟的专用设备，支持 PTP 的交换机，会精确测量每个 PTP 数据包在自己内部停留多长，然后把这个驻留时间也写进数据包里。接收端收到数据包时，会把途中所有交换机的驻留时间加起来，从总延迟里扣掉，就可以还原出纯粹的传播延迟。</p>
+<p>数据包在交换机内部的排队停留时间正是造成上下行不对称的主要原因。把这部分扣掉之后，剩下的基本就是数据包在网线上纯粹的物理传播时间，如果能让上下行的物理链路对称，那么这个时间差异也能消除。</p>
+<p>PTP 的精度在普通以太网上可以达到微秒级，配合支持硬件时间戳的网卡可以达到 100 纳秒级。如果在专用光纤链路上配合高精度的硬件可以达到 1 纳秒级。</p>
+<p>在一个物理上分散、通信上有延迟的世界里，同时这个概念其实很难达成。但如果不能达成，我们的网络世界就无法正常运转。</p>
+<p>NTP 和 PTP 应运而生，从毫秒到纳秒跨越 6 个数量级的精度。我们每次刷新网页、打开导航、完成支付都在使用它们，只不过几乎无人知道。</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/2078550836104394358">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 如果一个国家没有政府会怎么样?</title>
+        <link>https://daily.zhihu.com/story/9794054</link>
+        <guid isPermaLink="false">b997ebf4fb77e9d9bd1a2f81d2f7a4b8fa0d0632f44dc155512a7d36d26abf59</guid>
+        <pubDate>Mon, 16 Nov 2026 16:00:00 +0000</pubDate>
+        <author>海君</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：以格鲁吉亚Svaneti地区千年无政府状态为活案例，硬核拆解无政府社会如何演化出家庭碉堡化生存策略，事实密度高、视角独特，是理解制度与人性关系的优质长文。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p>别如果啊，有活生生的例子。</p>
+<p>大家知道，我偶尔在格鲁吉亚居住，对高加索地区有点儿熟。高加索山南坡雪山下边有好几个主峰中间夹着数条峡谷叫做 Svaneti 地区，这里在人类活动的历史上大部分时间没有政府。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-35084203aa83f5be991eb9e7b4b86890_720w.jpg?source=8673f162" /><figcaption>照片版权：National Commission of Georgia for UNESCO</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-5766cbb1973a5a91d0cc2b8a14394b92_720w.jpg?source=8673f162" /><figcaption>照片版权：National Commission of Georgia for UNESCO</figcaption></figure>
+<p>地方是美得令人窒息，这里海拔高、群山环抱、空气温润、山路蜿蜒，所谓山高皇帝远，导致该地区历史以来长期面临两个现实：经常可以不缴税、不征兵、无福利、无医疗教育，总之中央政府鞭长莫及管不着，好一片世外桃源自求多福；同时却地处格鲁吉亚东西流通的山谷走廊里，这走廊正常人不会爬上来走，但军队、流寇、土匪会，换言之，好人不会来，来的都不是好人，于是不具备像晋太元中桃花源那样躲在洞后边不被人发现的隐僻条件。这两个现实造成的结论就是，人性是恶的，谁来了都要抢一把，但谁也不愿意管。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-f59e33e98005d164857f888cf13ae616_720w.jpg?source=8673f162" /></figure>
+<p>一代代 Svaneti 人民打出世就面对魔鬼般的开局：这里没有政府，没有王法。</p>
+<p>他们用一千年的生存经验诠释，在没有政府的社会里，人类为了活下去会发展成什么终极形态。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-e752c3e51c12de93025d54c614d3233d_720w.jpg?source=8673f162" /><figcaption>照片版权：k samurkas</figcaption></figure>
+<p>会像上图这样，每一个家庭都是一座碉堡。</p>
+<p>大家知道，我的职业让我长年接触乡野地产、乡野建筑，又因为我与格鲁吉亚的渊源，没有人比我更适合来讲解一下 Svaneti 人民的碉堡情节，简直屌爆了。</p>
+<p>这 Svaneti 居家三件套，由围墙、矮房、碉堡构成。图里见着的基本都只剩矮房与碉堡，这是由于近代以来，公路、电力、通信等逐渐进村，防御工事日渐松弛，人民群众更注重生活品质，塌了围墙与碉堡也都不再修缮造成的。</p>
+<p>历史上，一个家庭用石头围墙圈出来几百平米的庭院，院中建矮房，矮房旁边几步路之遥建碉堡。矮房其实并不矮，考虑到这种居住形式最早可能从十世纪已经开始，那时候我们还是宋朝，能用石头堆出来两层楼高的矮房已经很了不起。然而逐渐地，碉堡建筑以石灰加鸡蛋、面粉为黏合剂，被堆到了 25 米高，相当于现代建筑的八层楼高，这可是几百年前的民间自发建筑。生存欲望激发出来的人类潜力，令人吃惊。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-4c02213420670c852fa3dab88b32207a_720w.jpg?source=8673f162" /><figcaption>照片版权：National Commission of Georgia for UNESCO</figcaption></figure>
+<p>一家人多到十几二十口，都可能住在这一栋矮房里。矮房分两层，平日生活在地面层，二楼用木梁架楼板构成，楼上主要存放粮食、肉类，夏天人也会搬去二楼生活，但冬天由于取暖需求，二楼是不适合居住的。一楼屋正中央的灶里不断火，一家人全围着火吃喝睡。上图的矮房外墙上有玻璃窗孔，这是现代改的，历史上为了防御效果，完全不留窗口，屋里就如同井里一样，关上门后漆黑一片。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-81ac2db7825d8afd45098af6eb0b3dd2_720w.jpg?source=8673f162" /></figure>
+<p>上图中间挂的铜锅就是日常做饭吃的主要炊具，下面烧柴火，家人围坐四周。你问没有烟囱那家里不会全都熏黑了么？是的，Svaneti 人直到今天也没发明烟囱，就硬熏，你真进去参观会发现家里一股入了味的柴火烟气，家具凳子都熏得乌黑，衣服没有一件不带烟味的。</p>
+<p>你知道，为了生存，不讲究这些。</p>
+<p>墙壁一排雕花木板上面许多黑洞洞是什么呢？是牛马将头伸过来讨吃食用的。也就是说，一家人其乐融融烤着火、吃着晚饭的时候，牛马们也从隔壁把头伸进来，你随手喂点儿。Svaneti 人很爱他们的牛马，跟我们大城市公司老板不太一样。</p>
+<p>这矮房很大，单层面积会到 100 平米以上，留出几十平米给牛马，都用这样雕花留洞洞的木板隔开。人与牛马就这样居住在一起。</p>
+<p>一个家庭经过两代人，如果要分家了怎么办呢？也不会只盖新的矮房，而是会复制一整套矮房加碉堡在旁边，互为犄角之势，这样敌人来了，两个碉堡相互支援，更稳妥。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-1df5f8c2254e08612da4a562cf5330cf_720w.jpg?source=8673f162" /></figure>
+<p>上图左边为矮房连碉堡的剖面图。这样依靠地势建在山坡上的更理想，矮房一楼生活区在下，遇到有敌人入侵，赶紧上楼，由二楼出来再进碉堡。</p>
+<p>碉堡的最低入口一般离地会有五六米高，一家人搭长梯子进碉堡，碉堡里也有四五层，人一旦进去后，将梯子拉进碉堡内，再接着往碉堡顶楼转移。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-381c9824cbe10fb854ea7355e7410554_720w.jpg?source=8673f162" /><figcaption>照片版权：National Commission of Georgia for UNESCO</figcaption></figure>
+<p>顶楼有投射孔。人可以探出半个身子向下射箭、扔石头、泼屎尿屁马桶水，四面十人当关，万夫莫近。</p>
+<p>英国人怎么会想到，他们说每个人的房子都是他的城堡（for a man's house is his castle），被 Svaneti 山民真的实操了。</p>
+<p>我帮它想象了一下，这个工事对古代一般军事进攻力量是无解的。那时候再精锐的部队无非弓箭骑兵，石头墙用刀砍不动，碉堡太高朝上用箭射不着，然而进攻方在底下无时无刻不面临生命威胁。唯一的办法就是打消耗战，远远围住不攻，切断水源。村落一般傍河流小溪而建，碉堡顶楼时常存有大量饮用水，支撑十天半月也可以，但如果再久不让去小溪里打水，恐怕坚持不下去。</p>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-dd18b99d54cbb8ec1561fe97c9965d31_720w.jpg?source=8673f162" /><figcaption>照片版权：OUR PLACE The World Heritage Collection</figcaption></figure>
+<p>但我们想想，来入侵的不外乎两类人：要么是游匪，想抢点粮食财物走；要么是这家人的世代血仇来杀人泄愤。正规的军队不会来侵略征服它，因为征服以后无法管理镇守这样一个地区。流寇土匪讲究一个速战速决，抢了就走，投入最小、产出要大，围了人家半个月，抢到两罐葡萄酒，自己还因为大便感染伤口死了五个弟兄，何苦来？冤家来寻仇就另说了，不杀到人不罢休，但也怕这个碉堡隔壁的其他叔伯弟兄的碉堡，四面夹攻，恐怕来一二百人也无济于事。</p>
+<p>可以说，Svaneti 人这套打磨了上千年的无政府主义生存方案在冷兵器时代是无解的，所以他们能够在这样的蛮荒之地活到今天也没有灭绝，一直在山里好好的。</p>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-06e9f05beb2836e42d68a67781827ede_720w.jpg?source=8673f162" /><figcaption>照片版权：OUR PLACE The World Heritage Collection</figcaption></figure>
+<p>今天格鲁吉亚政府将这里管得很好，人民过得相当松弛，有些碉堡把门开大了，已经改作仓库一类生产设施。</p>
+<p>牛还像古代一样与人一起生活在矮房里，白天被赶出来在高加索山的南坡上吃着肥草观山景；马更是欢脱极了，奔驰于野花丛中，谈情说爱，出双入对，就好像从来没有被人阉割，好像蛋蛋还在，也没被人骑在背上剥削过一样，仍充满了爱的力气。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-34d232721c98020c96a9c5344dbe7bce_720w.jpg?source=8673f162" /><figcaption>照片版权：OUR PLACE The World Heritage Collection</figcaption></figure>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/1895533779046609627">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 为了另一种可能性：在国内折腾 Linux 打游戏的二三事</title>
+        <link>https://sspai.com/post/118442</link>
+        <guid isPermaLink="false">ee2756fe7a43f3c9f01d1eae8788cbb490d3f71311697d2f402e123651cc6574</guid>
+        <pubDate>Tue, 17 Nov 2026 10:59:51 +0800</pubDate>
+        <author>AstrianZ</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：记录国内Linux打游戏的实操踩坑与解决方案，涵盖驱动、兼容层、反作弊等硬核细节，对想脱离Windows的玩家有真实参考价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            当外部的限制开始逐渐渗透、内化到每个人的内心，另一种真正的「可能性」在现今尤为珍贵。<a href="https://sspai.com/post/118442" target="_blank">查看全文</a>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 《福尔摩斯》原著里头的房东太太为什么会像个仆人一样伺候她的租客？</title>
+        <link>https://daily.zhihu.com/story/9794048</link>
+        <guid isPermaLink="false">14640ff366480ca61f9ade562255bd8258bdd66c5298c775361b25895f326e84</guid>
+        <pubDate>Mon, 16 Nov 2026 16:00:00 +0000</pubDate>
+        <author>默默的莫莫</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：从维多利亚时代寄宿公寓制度切入，拆解哈德森太太的真实身份与职责，澄清现代读者对房东与租客关系的误解，史料扎实、逻辑清晰，是兼具文化背景与生活细节的硬核科普。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p>这个问题确实有趣，而且我觉得，越是熟悉《福尔摩斯》的中国读者，越容易忽略这个细节。</p>
+<p>想象一下，一个整天穿着睡袍、叼着烟斗的单身男人，在楼上拉小提琴扰民、摆弄危险的化学药品，偶尔还对着墙壁开几枪。而楼下的房东太太不仅要负责准备早餐、接待访客、传递名片，有时还得替他应付警察….</p>
+<p>放到今天，这简直是一个奇葩租客对物业服务提出了非分要求的故事，做成短视频，大概能刷爆所有的热搜热榜。</p>
+<p>但维多利亚时代的英国读者读到这里大概不会觉得有什么特别奇怪的地方。因为在他们看来，哈德森夫人首先不是我们今天理解的那种房东。</p>
+<p>她经营的是一家体面的寄宿公寓。</p>
+<p>这里的英文叫 lodgings，经营者叫 landlady。当时伦敦的这种生意相当普遍。房客租下带家具的卧室和起居室，房东太太则可能负责餐饮、清洁、洗衣、烧壁炉、接待访客等一系列事务。具体做哪些、收多少钱，各家规矩不同。</p>
+<p>说起来有点像今天的服务式公寓，只不过服务人员往往就是房东本人，或者她雇用的女仆。</p>
+<p>翻开 1880 年前后的伦敦生活指南，你会发现一个有趣的现象：当时的住宿广告经常把房间、早餐、起居室和侍候服务分别列价。甚至还有指南明确告诉外地访客，可以自己解决早餐，也可以请房东太太提供。可见在那个时代，租房和家政服务本来就有相当大的交集。</p>
+<p>这样再看哈德森夫人，就顺眼多了。</p>
+<p>更重要的是，福尔摩斯可不是什么普通租客。</p>
+<p>《临终的侦探》里，华生曾经非常幽默地形容过哈德森夫人的遭遇。</p>
+<p>他说福尔摩斯可能是伦敦最糟糕的房客：房间一团糟，半夜拉小提琴，在屋里练习射击，搞些气味古怪的化学实验，还时常招来各种危险人物。</p>
+<p>但是华生紧接着补了至观重要的一笔：福尔摩斯付钱极其慷慨。</p>
+<p>他甚至开玩笑说，这么多年福尔摩斯付出的房租，恐怕足够把整栋房子买下来了。</p>
+<p>这可是华生在原著里亲口说的。</p>
+<p>所以我们不妨换个角度看：假如你是一位伦敦房东太太，有个客人长期租着楼上的几个房间，出手阔绰，付款可靠，虽然脾气古怪，却待你彬彬有礼。偶尔替他端个早餐、传张名片，似乎也就不是什么委屈的事了。</p>
+<p>何况，福尔摩斯这位客人，还是一位真正的绅士。</p>
+<p>说到绅士，这又牵出英国社会的另一层意思。</p>
+<p>维多利亚时代的英国人特别讲究一个人的 respectability，大致可以理解为体面、可靠、合乎社会礼仪。它和财富有关，却又不完全取决于财富。</p>
+<p>福尔摩斯和华生就是两个典型的受过良好教育、身份体面的单身男人。一个有哥哥在政府高层任职，一个是参加过阿富汗战争的军医。</p>
+<p>他们没有贵族宅邸，也没有成群的仆人，却照样有自己的起居室，照样有人准备茶点，照样能在家里接待社会名流。</p>
+<p>这正是 19 世纪伦敦中产阶级生活的一个特点：你可以没有能力维持一个完整的绅士家庭，却可以花钱购买一部分绅士家庭的生活方式。</p>
+<p>《血字的研究》开篇写两人找房子，特别提到 221B 有两间舒适的卧室、一间宽敞明亮的起居室，而且两人平摊费用以后，租金相当合适。</p>
+<p>这几乎就是当时年轻专业人士合租生活的写照。</p>
+<p>对他们来说，租房是相当自然的选择。单身男人既不愿承担经营一个家庭的麻烦，也不见得愿意天天在餐馆解决三餐。</p>
+<p>而且你想想，福尔摩斯如果每天都要自己去买煤、生火、刷锅、洗衬衫，他还有多少时间研究犯罪心理学？</p>
+<p>这也解释了为什么许多英国文学作品里，单身绅士身边总有这样一位包办日常事务的女性。</p>
+<p>有趣的是，这份工作也给了当时的女性一条谋生之路。</p>
+<p>19 世纪的英国女性，尤其是中产阶级女性，能够选择的体面职业十分有限。做家庭教师是一条路，开办寄宿公寓也是一条路。后者尤其适合有一定居住空间、需要独立收入的寡妇或未婚女性。</p>
+<p>历史学家艾莉森·凯研究过 19 世纪伦敦的寄宿业，发现经营者常常就是这样的女性。她们把自己熟悉的家务劳动变成生意，既保有某种社会体面，也获得经济收入。</p>
+<p>所以别小看哈德森夫人。她很可能是个颇有经营头脑的女人。至于 221B 的产权究竟是不是她的，原著并没有给出足够明确的证据。</p>
+<p>再说件有趣的事。</p>
+<p>狄更斯早在 1863 年就写过一篇《利里珀太太的寄宿公寓》。他笔下的房东太太，也经营寄宿生意，也要和各种性格古怪的房客打交道。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-4ec96a801269eaf118f98ba2f85f2b2e_720w.jpg?source=8673f162" /></figure>
+<p>在 19 世纪的英国文学里，房东太太本来就是一种很有辨识度的人物：她可能精明、吝啬、爱管闲事，也可能善良、亲切、富有人情味。她掌管着房客们的日常生活，也常常掌握着他们的秘密。</p>
+<p>哈德森夫人在其中显然还属于比较可爱的那一种。</p>
+<p>不过，她和福尔摩斯之间，其实也已经超出了普通的商业关系。</p>
+<p>还记得《空屋》吗？</p>
+<p>福尔摩斯为了诱捕莫兰上校，故意在贝克街的窗前放置了一个自己的蜡像。为了让敌人相信屋里有人，他竟然请哈德森夫人每隔十五分钟调整一次蜡像的位置。</p>
+<p>而哈德森夫人真就这么干了。她甚至按照福尔摩斯的指示，跪在地上移动蜡像，以免自己的影子暴露机关。最后刺客开枪，子弹穿透了蜡像的头部。</p>
+<p>这简直是把房东太太发展成了侦探行动的协助人员。</p>
+<p>再看《临终的侦探》，当她发现福尔摩斯病得不成样子，又拒绝请医生时，她急得不得了，坚持要替他找人看病，最后专程跑去通知华生。</p>
+<p>这些情节非常动人。尤其在福尔摩斯这种不太善于表达感情的人身边，哈德森夫人的关怀让贝克街 221B 有了一种真正的家的气息。</p>
+<p>顺便提一句，《海军协定》还有个很漂亮的细节：哈德森夫人为三位男士准备早餐，桌上竟然有咖喱鸡和火腿煎蛋。</p>
+<p>这不就是大英帝国时代的伦敦吗？一个苏格兰式早餐的玩笑，盘子里却装着带有印度风味的咖喱菜。英国人的生活方式、帝国贸易和异国饮食文化，就这么自然地出现在一张早餐桌上。</p>
+<p>所以，回头再看题主那个比喻，说哈德森夫人像印度管家一样伺候两位英国大爷，固然有几分形象，却还是错过了这个人物最有趣的地方。</p>
+<p>她有自己的生意，有自己的住所和日常生活，也有自己的想法。她愿意照顾福尔摩斯，一部分出于商业上的安排，还有一部分出于两个人长年相处积累下来的情分。</p>
+<p>而福尔摩斯虽然对她提出过不少离谱的要求，却也十分尊重她。</p>
+<p>我一直觉得，贝克街 221B 最迷人的地方就在这里。</p>
+<p>楼上有世界上最聪明的侦探，楼下有一位操持家务的房东太太。窗外是马车、雾气、煤烟、街头小贩和川流不息的伦敦人。屋里壁炉烧得正旺，早餐已经端上桌，华生翻开报纸，福尔摩斯开始讲述他最新发现的谜团。</p>
+<p>这就是我们一代代读者念念不忘的那个伦敦。</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/266192012">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] getarcaneapp/arcane (Go, 今日 +46 Stars)</title>
+        <link>https://github.com/getarcaneapp/arcane</link>
+        <guid isPermaLink="false">7703dc0ff82d02952aa12ad1cbd12af2f8a367ed27e1547280c392ec9522d017</guid>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：Go 编写的现代化 Docker 管理面板，主打易用与跨平台，适合自托管用户替代 Portainer 做容器、镜像与网络的可视化运维，值得关注试用。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/getarcaneapp/arcane">getarcaneapp/arcane</a></p>
+<p><b>核心语言</b>: Go | <b>今日新增</b>: +46 Stars</p>
+<p><b>项目简介</b>: Modern Docker Management, Designed for Everyone</p>
+<p><b>项目主页</b>: <a href="https://github.com/getarcaneapp/arcane">https://github.com/getarcaneapp/arcane</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] DeanChensj/jiangshan-map (JavaScript, 今日 +288 Stars)</title>
+        <link>https://github.com/DeanChensj/jiangshan-map</link>
+        <guid isPermaLink="false">f213677bccaa4f8f932a90bb353c45a056783e9bd8a06bfa2a6e1c878fa15b22</guid>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：中国历史交互地图时间轴，覆盖18个朝代、198个疆域快照，含古今地名沿革与诗词路线，数据密度高、可视化优雅，是历史地理爱好者的实用工具。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/DeanChensj/jiangshan-map">DeanChensj/jiangshan-map</a></p>
+<p><b>核心语言</b>: JavaScript | <b>今日新增</b>: +288 Stars</p>
+<p><b>项目简介</b>: 江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes</p>
+<p><b>项目主页</b>: <a href="https://github.com/DeanChensj/jiangshan-map">https://github.com/DeanChensj/jiangshan-map</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] mvanhorn/last30days-skill (Python, 今日 +135 Stars)</title>
+        <link>https://github.com/mvanhorn/last30days-skill</link>
+        <guid isPermaLink="false">b88590c43555a909e1ff4309ecbf7f5564518a8eeb8290dba5726961f2fe41cc</guid>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：AI Agent技能：跨Reddit、X、YouTube、HN、Polymarket多源检索并合成有据摘要，解决信息聚合与事实核查痛点，适合研究型Agent工作流，架构轻量可复用。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a></p>
+<p><b>核心语言</b>: Python | <b>今日新增</b>: +135 Stars</p>
+<p><b>项目简介</b>: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</p>
+<p><b>项目主页</b>: <a href="https://github.com/mvanhorn/last30days-skill">https://github.com/mvanhorn/last30days-skill</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.7分] NVIDIA/SkillEvaluator (Python, 今日 +873 Stars)</title>
+        <link>https://github.com/NVIDIA/SkillEvaluator</link>
+        <guid isPermaLink="false">d17b0500bab017dea395420898dc4c278b4eb9ac68b6b862bd45c539545ddf8b</guid>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.7 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：NVIDIA 开源的多层 AI Agent 技能评估框架，含质量门禁、语义重叠检测、合成评测集生成与实时行为影响度量，直击 Agent 技能/插件缺乏量化评测的痛点，适合构建可靠 Agent 流水线的开发者。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/NVIDIA/SkillEvaluator">NVIDIA/SkillEvaluator</a></p>
+<p><b>核心语言</b>: Python | <b>今日新增</b>: +873 Stars</p>
+<p><b>项目简介</b>: Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.</p>
+<p><b>项目主页</b>: <a href="https://github.com/NVIDIA/SkillEvaluator">https://github.com/NVIDIA/SkillEvaluator</a></p>
         </div>
         ]]></description>
     </item>
@@ -287,7 +690,7 @@
         <title>[8.3分] Tencent/LoopForge (Go, 今日 +423 Stars)</title>
         <link>https://github.com/Tencent/LoopForge</link>
         <guid isPermaLink="false">438083b2e386d259ab1dff240679907f46290dc303a6633b17d99115676e5444</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -311,7 +714,7 @@
         <title>[8.8分] ggml-org/ggml (C++, 今日 +43 Stars)</title>
         <link>https://github.com/ggml-org/ggml</link>
         <guid isPermaLink="false">354a6f3839a01324656dd1080ec85773adeb59133503045cbc66fb58e15b5e16</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -335,7 +738,7 @@
         <title>[8.2分] sponsors/elementalsouls (Python, 今日 +98 Stars)</title>
         <link>https://github.com/sponsors/elementalsouls</link>
         <guid isPermaLink="false">4cb417a3df3b9f6c9e0590398256dae9f30db1119e123644d1f9e4ecaff28e3d</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -359,7 +762,7 @@
         <title>[8.3分] google-labs-code/stitch-skills (TypeScript, 今日 +247 Stars)</title>
         <link>https://github.com/google-labs-code/stitch-skills</link>
         <guid isPermaLink="false">c87cd13d69aef69146c0179064e34d77ce45d8113a1f8d0786fe94da5e39e9e5</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -708,7 +1111,7 @@
         <title>[8.2分] 机甲风AMS弹药舱收纳装甲（适配AMS&amp;AMS2 PRO） (下载 980 / 打印 98)</title>
         <link>https://makerworld.com/zh/models/3556135</link>
         <guid isPermaLink="false">82afa0aeaa7b13394a979f295f182d424784251acee91695afaa0878eacb4323</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>Uncle DongJi With Little Junk</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -731,7 +1134,7 @@
         <title>[8.2分] sponsors/ashhart (Zig, 今日 +37 Stars)</title>
         <link>https://github.com/sponsors/ashhart</link>
         <guid isPermaLink="false">d3a03f4c84fe5a5b5cace843b7c72fb31acc9b15088b155e7454f1d6586ccc52</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -755,7 +1158,7 @@
         <title>[7.8分] Nintendo Switch Cartridges Bookshelf Cover (下载 1139 / 打印 358)</title>
         <link>https://makerworld.com/zh/models/3546370</link>
         <guid isPermaLink="false">7fedc1716b82f15076c430c0b9aa0a55072a7f811507380eae00b416788771fa</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>Hodzinets</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -778,7 +1181,7 @@
         <title>[8.2分] QwenLM/qwen-code (TypeScript, 今日 +64 Stars)</title>
         <link>https://github.com/QwenLM/qwen-code</link>
         <guid isPermaLink="false">1922d9d520f9ceba156c8955a8a60040d5e2afc0876ccc29f015a1849842ed78</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -802,7 +1205,7 @@
         <title>[8.2分] ag-ui-protocol/ag-ui (TypeScript, 今日 +9 Stars)</title>
         <link>https://github.com/ag-ui-protocol/ag-ui</link>
         <guid isPermaLink="false">10a12acb9645adccd105406974d04d1490f697a3a63c208e8a3c043dd0096eb0</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -826,7 +1229,7 @@
         <title>[8.7分] dream-num/univer (TypeScript, 今日 +495 Stars)</title>
         <link>https://github.com/dream-num/univer</link>
         <guid isPermaLink="false">d148e3d2c2843c2bb453066debf88fb43e2e78a99dd9482cf231a968172d1f3d</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -850,7 +1253,7 @@
         <title>[8.7分] alibaba/open-code-review (Go, 今日 +893 Stars)</title>
         <link>https://github.com/alibaba/open-code-review</link>
         <guid isPermaLink="false">c489e6fb5febf2abff16877bd9c9fe23975dd799794a77097dfa300f4bfa517e</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -874,7 +1277,7 @@
         <title>[7.8分] tradermonty/claude-trading-skills (Python, 今日 +553 Stars)</title>
         <link>https://github.com/tradermonty/claude-trading-skills</link>
         <guid isPermaLink="false">f9da1acd54ca38642ffd36796b0883cecfa94494cd898bd897e3677735cfdb28</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -898,7 +1301,7 @@
         <title>[8.8分] ChromeDevTools/chrome-devtools-mcp (TypeScript, 今日 +664 Stars)</title>
         <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
         <guid isPermaLink="false">379642deb53f3714eb4d3fd4bf685ddf06e1f2efdb0931fbf030395fd0d38ada</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -922,7 +1325,7 @@
         <title>[8.2分] GoogleChrome/modern-web-guidance-src (TypeScript, 今日 +1,231 Stars)</title>
         <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
         <guid isPermaLink="false">301f2d14985e5303f37abc056bfb2034679a093cc1aec963654d2b68b537dd03</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -946,7 +1349,7 @@
         <title>[8.2分] backnotprop/plannotator (TypeScript, 今日 +408 Stars)</title>
         <link>https://github.com/backnotprop/plannotator</link>
         <guid isPermaLink="false">e6357f1e7e944cc84f059f59a53ad60188a7768bbb0631e005854eb8a1f885f5</guid>
-        <pubDate>Mon, 16 Nov 2026 02:11:32 +0000</pubDate>
+        <pubDate>Tue, 17 Nov 2026 04:30:45 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -1326,400 +1729,6 @@
 <p style="text-align: justify;">除此，文具店还得在产品上跟上趋势，多进一些有IP、有情绪附加值的文具，在店里留出可以翻看、试写、慢慢挑的空间，让它有一点像小型的生活好物集合店，“麻雀虽小，五脏俱全”，让学生能够停留，也愿意停留。</p>
 <p style="text-align: justify;">总之，传统文具店靠进货、卖货就能维持经营的时代，已经过去了。学生数量减少、其他路径抢夺客源是长期趋势，传统文具店只有在运营上下更多的功夫，才能存活下来，甚至活得更好。</p>
 <p></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 「你甚至不會告訴密友」：分娩後遺症，為何多年後仍揮之不去？</title>
-        <link>https://www.bbc.com/zhongwen/articles/cwr7grvx00yxo/trad?at_medium=RSS&amp;at_campaign=rss</link>
-        <guid isPermaLink="false">3c28b618f77f3d5f7bd8985673833b8a156daf824c36fefb96f9069166e1f7ac</guid>
-        <pubDate>Thu, 12 Nov 2026 08:33:39 +0000</pubDate>
-        <author>未知作者</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：聚焦分娩后遗症这一被长期忽视的公共健康议题，以数百万女性数十年后仍受困扰的数据切入，揭示医疗与社会支持的系统性缺口，具深度调查价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            從失禁到長期疼痛，數以百萬計的女性在分娩數十年後仍然飽受後遺症困擾。
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 拆解触屏 MacBook Pro：点亮苹果 LOGO 的秘密，藏在这里</title>
-        <link>https://www.ifanr.com/1689129?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">2e5d59c3e73b5a493faffc66d347b32ed53b746793c7f2dce36efe9aad31ea66</guid>
-        <pubDate>Thu, 12 Nov 2026 04:00:07 +0000</pubDate>
-        <author>郑廷旭</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：基于iFixit拆解，首次揭示新款MacBook Pro发光Logo的LED实现方案、触控模组与轻量化结构设计，并涉及零部件配对机制，技术细节扎实，具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img alt="" class="alignnone size-full wp-image-1689147" height="1125" src="https://s3.ifanr.com/wp-content/uploads/2026/11/04_01_MacBook-proled_163.jpg" width="2000" /></p>
-<p>2021 年，MacBook Pro 第一次「剪了刘海」。五年之后，苹果终于又动了它的模具，这次，MacBook 也「上岛」了。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448332785-1.jpg" /></p>
-<p>除了屏幕升级，<a href="http://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652473880&amp;idx=1&amp;sn=72956c98cbfaffcf381b58d36343c657&amp;chksm=9ab3eccf7b4bd984c852110794b85eaadab55e2f32f563cc0cec2ab35c0cdb19f18dda9af75d&amp;scene=126&amp;sessionid=1794363942&amp;subscene=227&amp;clicktime=1794363944&amp;enterid=1794363944#rd">新款 MacBook Pro 还第一次支持触控，背面沉寂多年的苹果 Logo 也重新亮了起来</a>。14 英寸机型一口气轻了约 170 克，拿在手里、带出门的负担都更小。</p>
-<p>或许大家都多少有些好奇，这些变化是怎么实现的？最近，拆解机构 iFixit 把这台新 MacBook Pro 拆了个底朝天。</p>
-<p>从发光 Logo 背后的秘密，到重新设计的机身结构，甚至苹果一向严苛的零部件配对机制，这次拆解还真挖出了不少有意思的东西。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448335432-2.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit 拆解 14 英寸 PROLED MacBook Pro 后的全套内部零件</div>
-<h3>Make the Apple Logo Glow Again</h3>
-<p>众所周知，在经典的<strong>旧款 MacBook </strong>上，苹果用了一个很取巧的方式让 Logo 亮起来。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448338400-3.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Cult of Mac</div>
-<p>由于彼时用的还是 LCD 屏幕，面板背后本身就有一整块高亮度的背光板，苹果只要在上盖对应的金属壳上掏出一个镂空的苹果轮廓，屏幕的光自然就能顺便透出来。</p>
-<p>但在换上双层串联 OLED 之后，自发光的每个像素背后再没有现成的光源可借，苹果不得不额外塞进一套专门的照明组件。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448339544-4.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜苹果 iPad Pro 双层串联 OLED 示意</div>
-<p>拆开上盖后发现，这套新结构藏在屏幕背后的泡棉衬垫里，核心只是一条带有 <strong>4 颗 LED 灯珠</strong>的小灯带。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448342134-5.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>光线从这 4 颗灯珠发出，打在底部的白色反射层上铺开，再穿过一层半透明的扩散膜。在不发光的时候，它看起来跟我们现在熟悉的 MacBook Pro 差别不大，依然是一颗带有镜面质感的苹果；</p>
-<p>亮屏状态下，灯珠点亮，白色光线就会透过这层镀膜柔和地透射出来，并根据环境光调节亮度。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448352558-6.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>不过，为了看到发光 Logo 的真面目，iFixit 在拆解过程中对屏幕面板进行了不可逆的破坏。尝试分离面板时，玻璃与下方的电致发光层发生撕裂，整块原本完好的屏幕和触控层当场报废。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448354349-7.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>而在苹果官网上刚刚公布的维修手册和备件清单里也能看到，官方本身就不会去单独更换这个发光 Logo 组件——一旦发生损坏，就只能更换整套包含外壳的「显示屏总成」。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448365840-8.jpg" /></p>
-<p>不过，官网目前暂时还没有披露这块屏幕的维修报价，但想必也不会便宜。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448368431-9.jpg" /></p>
-<h3>触屏没有「紧箍咒」</h3>
-<p>苹果在限制用户自行维修这件事上的态度向来「有口皆碑」。</p>
-<p>早些年，苹果对零部件和软件配对的限制严苛到近乎死板：自行换块屏幕，可能丢掉原彩显示；更换 Home 键或主板，还可能导致 Touch ID、Face ID 等生物识别功能失效。</p>
-<p>不过，这几年苹果也确实在慢慢改变。从 2022 年开放自助维修计划，到后来支持使用二手原装零部件，再到逐步下放维修后的软件校准权限，虽然每一步走得都堪比「挤牙膏」。</p>
-<p>这一次，iFixit 拿两台同配置的 14 英寸样机做了一次主板对调测试，想看看苹果在这台大改款的 MacBook Pro 上，又把维修权限放宽到了什么程度。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448370212-10.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>把两块主板互换装入对方机身后，开机进入了 macOS 自带的 Repair Assistant（维修助理）。系统不仅顺利识别了电池和显示屏，Touch ID 也直接通过了验证并能正常录入新指纹。</p>
-<p>更让人意外的是触屏本身。<strong>完全不需要单独校准</strong>，开机就能正常响应手指点按和多指滑动手势，原彩显示和亮度调节也全部完好。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448374944-11.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>这就给华强北科学家们留下了一个很有趣的想象空间：一台旧模具、原本不带触控的 MacBook，有没有可能也能通过更换配件或某种「改装」的方式用上触屏呢？</p>
-<h3>「斤斤计较」的苹果，回来了</h3>
-<p>除了屏幕与发光 Logo，这套新模具在日常使用中最容易被感知到的，其实是<strong>减重</strong>。</p>
-<p>14 英寸整机重量降至约 1.38kg，比老款轻了 220g；16 英寸的减重幅度更大，从原来的 2.14kg 降至 1.82kg，足足轻了 320g，<strong>相当于少带一台 iPad mini + 一个 AirPods。</strong></p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448381753-12.jpg" /></p>
-<p>除了得益于 OLED 带来的减重（削减了整整 101 克）外；但机身下半部同样减轻了 92 克。</p>
-<p>光是底盖本身，苹果就通过内部铣削偷轻了 44 克，固定底盖的螺丝也从 8 颗缩减到了 4 颗。而电池（72.6Wh）重量几乎没有变化（276g 对比 278g，仅微减 2g），扬声器甚至为了保证声学腔体而微增了 10 克。</p>
-<p>这次，苹果为了减重可以说是绞尽了脑汁，在整台机器的金属结构件上，<strong>把能抠掉的每一克铝材都</strong><strong>「斤斤计较」</strong><strong>到了极致。</strong></p>
-<p>不过，这次新 MacBook Pro 加上触屏，也带来了一个以前不太需要操心的问题：屏幕会晃。</p>
-<p>苹果当然可以把转轴做得更紧，让屏幕尽量纹丝不动，但这样一来，MacBook 一直为用户津津乐道的<strong>单手开合</strong>就没那么轻松了。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448383998-13.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>苹果工业设计副总裁 Molly Anderson 此前在与爱范儿的交流中谈到了这个问题。为了让屏幕在手指点按时足够稳定，又不影响单手开盖，苹果重新设计了显示屏外壳和转轴。</p>
-<p>对于长时间抬手使用触屏的疲劳问题，苹果人机界面设计副总裁 Steve Lemay 也告诉爱范儿，触控主要是为了让滑动浏览、双指缩放、拖拽文件这些操作更顺手。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448386748-14.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Apple</div>
-<p>键盘和触控板仍然是 Mac 最主要的交互方式，用户也不需要为了触屏改变原来的使用习惯。</p>
-<p>iFixit 最终给这台机器打出了 <strong>5/10 分</strong>的维修评分，虽然依然谈不上优秀，但相比上一代的 4 分，好歹提升了 1 分。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448388915-15.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>虽然雷雳 USB-C 接口做成了独立小板，风扇也是独立模块，但它们全都被压在主板下方。日常哪怕只是接口老化松动、风扇积灰想清理，都必须先把整块主板从机身里完全卸下来。</p>
-<p>至于板载的 HDMI、SDXC 读卡器，以及焊接死在主板上的统一内存和固态硬盘，依然没有任何自主更换或升级的余地。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448392282-16.gif" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>从藏在屏幕背后的 4 颗 LED，到为了减重重新设计的机身结构，这次拆解让我们看清，MacBook Pro 时隔五年的大改款，变化远比外观上看到的丰富。</p>
-<p>从开放自助维修、支持二手原装配件，到这次互换主板后触控和 Touch ID 都能照常识别，苹果这些年放宽限制的步子虽然迈得不大，但好在方向始终是向前的。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794448402175-17.jpg" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜iFixit</div>
-<p>我们乐见一台越来越轻巧、越来越好用，也越来越好修的 MacBook Pro，更乐见一个愿意倾听用户意见，也愿意改变自己过去坚持的苹果。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] iPhone Siri AI 体验：距离真正的 AI Phone，苹果还有多远？| 附开通指南</title>
-        <link>https://www.ifanr.com/1688980?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</link>
-        <guid isPermaLink="false">851b4fae2e214fd3f3f805d036e9263671d8ef233d62de9f48c4b010404085cd</guid>
-        <pubDate>Thu, 12 Nov 2026 10:47:53 +0000</pubDate>
-        <author>方俊鸣</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：基于iOS 27.3实测，系统拆解Siri AI独立App、记忆能力等交互演进，并附开通指南，提供一手体验细节，对评估苹果AI助手进展有参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794391704257-1.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>Siri 大概是科技圈里最让人唏嘘的「起了个大早，赶了个晚集」代表。</p>
-<p>顶着「个人 AI 助手」的名号混了 15 年，Siri 却似乎始终停留在当年的想象里——直到大模型和 Agent 的出现，苹果才终于开始重新回答这个问题。</p>
-<p>从 WWDC 2024 首次公布 Apple Intelligence，到 2026 年推出新一代 Siri AI，苹果花了两年时间，逐步落笔自己对「个人 AI 助手」的答卷。</p>
-<p>我们也借由海外版更新的 iOS 27.3，来看看现在的 Siri AI 距离一个真正的 Agent，究竟走了多远？</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794391746544-2.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<h3>Siri 终于有了记忆</h3>
-<p>既然要看 Siri 这两年究竟进化了多少，不妨先从最直观的交互体验开始。</p>
-<p>过去的 Siri 更多是一个单点触发的语音功能。甚至直到最近的国行版 Apple Intelligence 中，Siri 依然没有一个固定的对话窗口——呼出即走、问完即焚。</p>
-<p>而在 iOS 27 中，苹果终于想通了——<strong>现在，Siri 正式变成了一个独立的 App</strong>。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794391787140-3.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>现在，主屏幕上多了一个常驻的 Siri 图标，我们可以像使用 ChatGPT 一样，在一个固定的独立窗口里与 Siri 交流。</p>
-<p>相比多了一个交互入口，这种形态对 Siri Agentic 能力更大的价值在于：</p>
-<p>Siri 终于有了一个能够承载上下文和长期记忆的实体容器。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794391817011-4.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Siri App 中的历史对话</div>
-<p>最直观的感受是，在同一段对话里，Siri 终于能够理解前后指令之间的关系。</p>
-<p>比如刚刚让它建好一条日程，转头发现时间不对，你只需要随手说一句「不对，改到下午四点」，它就能精准理解，不需要你像伺候老式语音助手那样把主谓宾再念一遍。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794391867648-5.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>另一方面，独立 App 的形态也让 Siri 真正具备了跨会话的「长期记忆」。</p>
-<p>你和 Siri 聊过的旅行计划、改过的文稿草稿，都会像聊天记录一样留在 App 中。即便结束了当前对话，过几天再次打开 Siri，你依然可以让它回忆起之前聊到一半的话题，甚至接着上一次的话题继续追问。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794391903963-6.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>除此之外，朋友随手发来的消息、邮箱里躺着的酒店订单，甚至日历上早已忘记的行程——这些散落在不同应用里的碎片，同样构成了 AI 理解一个人的重要上下文。</p>
-<p>而新版 Siri AI 的另一个变化，就是终于能够把触角伸进这些原本相互独立的应用。</p>
-<p>比如，我们随口问了 Siri 一句某位朋友的近况，Siri 随即从手机中浩如烟海的各种信息中，最后从信息中寻找到线索，把相关信息呈现在我面前。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794391946834-7.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>如果说这些个人上下文让 Siri 更加了解用户，那么能否进一步利用这些信息，才是检验 Agent 成色的关键。</p>
-<p>为此，我们给 Siri AI 准备了一张演出海报。</p>
-<p>配合视觉智能，Siri 能够识别出海报上的演出时间、地点，并直接将这些信息添加到日历。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794391991680-8.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜海外版视觉智能</div>
-<p>而基于这个信息，我们也可以继续依照日程去询问朋友有没有空参加，或者比对跟当日行程有没有冲突。</p>
-<p>从识别图片、创建日程，到查找联系人、撰写文案、发送信息，这些原本分属于不同应用的操作，现在都可以被 Siri AI 串联调用。</p>
-<div>
-<div style="display: inline-block; width: 85%; vertical-align: top; margin-right: 10px; white-space: normal;"><img alt="" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392033595-9.jpg" /></div>
-<div style="display: inline-block; width: 85%; vertical-align: top; margin-right: 10px; white-space: normal;"><img alt="" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392036829-10.jpg" /></div>
-<div style="display: inline-block; width: 85%; vertical-align: top; margin-right: 0; white-space: normal;"><img alt="" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392040407-11.jpg" /></div>
-</div>
-<p style="margin: 0 0 22px; text-align: center; color: #a7a7a7; font-size: 12px; line-height: 1.6;">向左滑动查看更多内容，分别为成功识别加入日历、根据日程询问朋友、回复信息</p>
-<p>&nbsp;</p>
-<p>不过，很明显 Siri 目前依然是个「踢一脚走一步」的角色。特别是当一个提示词里包含两个并列指令时——比如既要「发信息给朋友」又要「加入日历」，它往往容易顾此失彼，甚至可能只执行其中的后者。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392043116-12.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜执行了帮我发信息的动作，却没有给我设定新的日程</div>
-<p>在我们体验中，借助千问模型的国行视觉智能，已经能够相当准确地识别海报中的演出时间、地点等关键信息。但当我们进一步要求它将演出添加到日历时，整个流程就中断了。</p>
-<p>原因也正是目前的国行 AI ，没有办法更深入地调用不同应用的底层能力，导致每一个动作仍然是孤立的——而这也正是海外版 Siri AI 真正的「杀器」。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392057223-13.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜千问版视觉智能</div>
-<p>就在最新更新的 iOS 27.3 中，苹果进一步扩展了 Siri AI 对原生应用的操作支持，它的能力从系统层面的指令执行，深入到具体 App 的内部操作。</p>
-<p>比如在「邮件」里，Siri AI 能够直接帮你一键退订营销广告邮件；而在 Safari 中，它也能直接管理你的标签页和窗口。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392074482-14.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Reddit</div>
-<p>如果去翻翻海外网友在 Reddit 上的真实反馈，会发现即便是在海外的软件生态中，对于新版 Siri 的评价仍旧很两极。</p>
-<p>一位用户就分享了自己的经历：他询问 Siri 伴侣什么时候上班，Siri 成功从一封转发邮件中找到了排班表，随后又按照他的要求，将对应的工作时间添加到了日历里。</p>
-<p>诚然，评论区里依然少不了嫌它「笨得离谱」的质疑声，但其中一条高赞评论，还是相当中肯地道出了 Siri 当前的真实处境：</p>
-<p>「Siri AI 或许还算不上一个顶尖的通用大模型，但作为一个融入日常生活的私人助手，它仍然有不可替代的实用价值。」</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392078166-15.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>而海外版「更聪明」的地方还不止于 Siri，照片 App 的图像处理能力同样拉开了代差。</p>
-<p>国行版的照片「消除」功能，给我的体感可以用「傻快」来形容：涂抹后的反应速度确实极快，一旦遇到复杂遮挡、需要无中生有去补全背景时，就很容易露馅，留下一团模糊的涂抹感。</p>
-<p>而在海外版 iOS 27.3 中，苹果为消除功能拆分出了「快速」与「高品质」两个档位。</p>
-<div>
-<div style="display: inline-block; width: 85%; vertical-align: top; margin-right: 10px; white-space: normal;"><img alt="" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392082402-16-scaled.jpg" /></div>
-<div style="display: inline-block; width: 85%; vertical-align: top; margin-right: 10px; white-space: normal;"><img alt="" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392096024-17-scaled.jpg" /></div>
-<div style="display: inline-block; width: 85%; vertical-align: top; margin-right: 0; white-space: normal;"><img alt="" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392113394-18.jpg" /></div>
-</div>
-<p style="margin: 0 0 22px; text-align: center; color: #a7a7a7; font-size: 12px; line-height: 1.6;">向左滑动查看更多内容，分别为原图、国行苹果智能、外版苹果智能</p>
-<p>面对一张带有沙发和杂乱线缆的照片，在海外版的「高品质」模式下，AI 对被遮挡区域的还原相当完整，不仅沙发的细节更加自然，连周围的线缆能够还原清楚。</p>
-<p>这背后其实不只是模型迭代的功劳，归其本质是苹果 AI 算力调度逻辑的转变。</p>
-<p>说白了，国行版的「消除」之所以容易翻车，是因为它基本全靠手机本地的端侧小模型在硬撑。</p>
-<p>而在海外新版中，苹果终于把「端侧」与「云端」真正打通。遇到棘手的图像重绘时，系统会通过 PCC（私有云计算）直接调用云端大模型来补足算力——前面提到的「高品质」不错的效果，正是这套端云协同交出的答卷。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392115800-19.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜「消除」界面中的「快速」和「高品质」选项</div>
-<p>除了照片编辑，同样迎来升级的还有「图乐园（Image Playground）」。</p>
-<p>在 iOS 27 的更新中，图乐园终于支持生成真实感的照片了，不再像上个大版本那样只能生成略显低幼的卡通画风。</p>
-<p>实际体验下来，最让我们惊喜的其实是它的响应速度——即便把需要绕一圈交给私有云计算处理，整体的出图速度依然相当快。</p>
-<p>我们还尝试直接让它模拟「胶片风格」对画面进行修改，虽然最终成片的效果还谈不上惊艳，但日常拿来用用已经完全堪用了。</p>
-<div>
-<div style="display: inline-block; width: 85%; vertical-align: top; margin-right: 10px; white-space: normal;"><img alt="" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392152663-20.jpg" /></div>
-<div style="display: inline-block; width: 85%; vertical-align: top; margin-right: 0; white-space: normal;"><img alt="" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392155301-21.jpg" /></div>
-</div>
-<p style="margin: 0 0 22px; text-align: center; color: #a7a7a7; font-size: 12px; line-height: 1.6;">向左滑动查看更多内容</p>
-<h3>AI 想了解你，还得走出手机</h3>
-<p>想让 Siri 真正成为一个 Agent，仅仅理解手机里的信息显然还不够。</p>
-<p>毕竟，一个人的生活并不只有邮件、信息和照片。工作中聊过的事情、朋友随口提到的约定，甚至自己当时都没注意到的信息，同样可能成为日后需要的个人上下文。</p>
-<p>苹果在 Apple Watch 上推出的 Siri Recap，就是一个很有意思的尝试。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392158892-22.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>开启之后，Apple Watch 可以持续感知周围的对话，再由 Apple Intelligence 提炼出其中值得记住的内容，自动整理成摘要。用户既可以让它全天运行，也可以限定工作时间或指定地点，或者在手动在手表的控制中心里随时开启或者关闭。</p>
-<p>生成的摘要会会集中保存在 Siri App 的 「Recaps」标签页当中，可以选择保存或否，如果没有主动保存，那么摘要将会在7天后自动删除。而保存下来的摘要也将成为供日后随时检索的上下文内容。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392172580-23.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Appleinsider</div>
-<p>在 9to5Mac 的实际体验中，编辑和家人一起购买圣诞装饰品，事后查看 Siri Recap 时，发现系统居然记录下了一条桌旗的具体尺寸，而他自己甚至不记得当时有人提到过这个数字。</p>
-<p>为了能够减少来自于隐私方面的顾虑，让一块手表持续感知周围的对话，苹果的处理方式是——尽量不保留完整的原始信息。</p>
-<p>原始声音会先在手表和 iPhone 的独立安全环境里完成转写和初步提炼，随后才把精简后的文字交给 PCC 生成最终摘要。</p>
-<p>整个过程中，原始录音阅后即焚，最终摘要也不会标记哪句话是谁说的。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392201912-24.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Appleinsider</div>
-<p>唯一可惜的是，目前该功能仅限 Apple Watch Series 12 和 Ultra 4 独占，老款手表用户暂时无缘体验。</p>
-<p>除了捕捉现实中的对话，苹果也开始尝试让 AI 读懂你的身体状态。</p>
-<p>借助 AI 能力，iOS 27.3 的健康 App 迎来了一次明显改版。此前的健康 App 更像一个「数据库」，睡眠、心率、运动指标应有尽有，但这些数字意味着什么，往往还得用户自己品。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392209283-25.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>更丰富的可视化让新版本变成了一块直观的「数据看板」，新增的 Insights（健康洞察）借助 Apple Intelligence，让系统尝试理解不同健康指标之间的联系，结合长期积累的数据，生成个人健康摘要和针对性的建议。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392222568-26.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Insights（健康洞察）功能</div>
-<p>新增的 Health Age（健康年龄）则更直观，将最大摄氧量、静息心率、睡眠等长期指标综合起来，给出一个能够与实际年龄对照的身体状态参考值。</p>
-<p>不过，根据苹果目前公布的信息，新版 Siri AI 暂时还不能直接调用这些健康数据，也就是说，这些信息还不能直接成为 Siri 处理其他任务时的个人上下文。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392279502-27.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<div class="editor-image-source" style="color: #a7a7a7; font-size: 12px; line-height: 1.6; text-align: center;">图｜Health Age（健康年龄）功能</div>
-<p>我们不妨大胆猜测，未来随着 Siri AI 的个人上下文与跨应用调度能力进一步打通，这些健康信息或许也能成为它理解用户的重要依据。</p>
-<p>到那时，当系统发觉你连着熬了几个大夜，Siri 或许能顺手翻开你的日历，主动建议并帮你把明天下午那场没那么紧急的会议推迟掉。</p>
-<h3>国行 iPhone，能用 Siri AI 吗？</h3>
-<p>说完了这么多 Siri AI 的新功能，可能还有一部分国行用户更关心另一个问题：能不能直接用上海外版 Siri AI？</p>
-<p>有的兄弟，有的——</p>
-<p>这两天，GitHub 上就出现了一个名为 GestaltX 的开源项目，号称能通过修改系统底层的设备配置信息，帮国行 iPhone 临时骗过系统的地区锁。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392331769-28.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>不过，这套方案还是有一些折腾的门槛。首先，你需要一台本身支持 Apple Intelligence 的机型，并将系统升级到该项目支持的 iOS 27.x 版本。</p>
-<p>准备好设备后，先去 GitHub 下载 GestaltX 的 IPA 安装包，并通过侧载的方式安装到手机上——安装 IPA 的方式有很多，比如使用全能签或者 iLoader 等第三方工具对安装包进行签名。</p>
-<p>安装完成后打开软件，将「地区」选择为美国，最后重启手机就能生效。</p>
-<p>即使成功修改了设备信息，仍然需要准备一个符合使用条件的外区 Apple 账户才能激活。</p>
-<p>实测下来，该项目确实能够调用基础的 Siri AI 对话以及其他相关的能力，不过有如「视觉智能」等部分功能，就没有办法正常使用了。</p>
-<p>另外，由于这类工具直接动了 iOS 底层的系统配置文件，很容易导致系统崩溃。冒着主力机变砖和数据丢失的风险去尝鲜，实在是得不偿失，因此我们也十分不建议普通用户用自己的主力机来尝试。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392342956-29.png" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>回看这两年的进化，如果给如今的 Apple Intelligence 下个定义，或许是——</p>
-<p><strong>有了 Agent 的「雏形」，却还没长出 Agent 的「灵魂」。</strong></p>
-<p>的确，在 Siri AI 上我们已经能看到一些向 Agentic 靠拢的思考，比如跨原生应用的连续调度、通过 Apple Watch 获取更多个人上下文。</p>
-<p>但也不得不承认，现在的 Siri AI 距离我们理想中的 Agent，依然隔着一层窗户纸。</p>
-<p>即便在最新的海外版 iOS 27.3 中，Siri 的工作逻辑本质上还是「你发号施令，它执行动作」。而今天我们对一个真正 Agent 的期待，早已不再是「帮我省去点开三个 App 的麻烦」这么简单。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392378824-30.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>苹果自己显然也意识到了这种代差。</p>
-<p>就在最近曝光的内部闭门会议上，刚接任苹果 CEO 两个多月的特努斯就罕见地向软件主管 Craig Federighi 施压，要求团队加快研发进度，「迅速超越仅对 Siri 进行必要改进的阶段」，把一个真正 Agentic 的 Siri 端上桌。</p>
-<p style="line-height: 0;"><img alt="Image" src="https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1794392380995-31.jpg" style="display: block; height: auto; border-radius: 0;" /></p>
-<p>过去，苹果习惯于将复杂的技术封装成简单、明确、可控的操作，让用户决定每一步该做什么。而 Agent 想做的，是让用户只负责提出目标，至于如何完成，则交给 AI 自己判断。</p>
-<p><strong>从「执行命令」到「自主行动」，改变的不只是 Siri 的能力边界，更是苹果愿意向 AI 交出多少控制权。</strong></p>
-<p>当 Siri 开始代替用户处理邮件、安排日程，甚至自主完成跨应用的复杂任务，随之而来的误操作风险、隐私问题与责任边界，也会变得更加棘手。</p>
-<p>这也意味着，苹果要跨越的恐怕不只是一道技术门槛。它还需要在自己最看重的安全与可控性之间，为 AI 的自主行动找到新的平衡。</p>
-<p>如今，随着新掌门人亲自踩下油门，苹果显然不想再停留在这个阶段。</p>
-<p>至于能否真正跨过这道门槛，让 Siri 成为一个 Real Agent，或许接下来的 iOS 28，会给我们更多答案。</p>
-<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 夏春：被浪漫化的技术进步：这次不一样吗？</title>
-        <link>https://www.huxiu.com/article/4905224.html?f=rss</link>
-        <guid isPermaLink="false">4246c6ef8acbf77b9406e603013b63cfeaa4b5ec2a27bde2596ebd6317a6b45b</guid>
-        <pubDate>Fri, 13 Nov 2026 09:09:10 +0800</pubDate>
-        <author>北大金融评论杂志©</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：金融学者从制度选择视角反思技术乐观主义，论证技术红利需与收入分配改革同步才能转化为全民福祉，提供历史对照与批判性框架，具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzI5MjAzMzM2Mw==&amp;mid=2247502658&amp;idx=1&amp;sn=f54c9eac8183ea96f3e0472c7f6675b7&amp;chksm=ed4ffeb49609d21607e8341bd93c34cc411858c76e9781b4bb96cd47493d3219a40b56c37df8#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 北大汇丰PFR </span></a><span class="text-remarks">，作者：夏春，原文标题：《夏春：被浪漫化的技术进步——这次不一样吗？》</span></p><p><br /></p><p>现代人对技术进步有着近乎本能的乐观。从硅谷到中关村，从达沃斯到乌镇，“创新”“颠覆”“指数级增长”构成了这个时代最响亮的词汇。在公共舆论中，AI被描绘成解决一切问题的万能钥匙，从医疗诊断到气候变化，从教育公平到经济增长。</p><p><br /></p><p>香港城市大学特邀金融教授，香港国际金融学会副会长，全球价值投资协会首席经济顾问夏春在《北大金融评论》发文指出，技术本身不会决定人类的命运。决定命运的，是人类围绕技术所做的制度选择。只有当技术创新与收入分配改革同步推进时，技术红利才能转化为全民福祉。在AI时代的起跑线上，我们需要建立的，不是对技术的盲目信仰，而是对历史的清醒记忆。</p><p><br /></p><p>本文完整版刊登于《北大金融评论》第29期。</p><p><br /></p><p>现代人对技术进步有着近乎本能的乐观。从硅谷到中关村，从达沃斯到乌镇，“创新”“颠覆”“指数级增长”构成了这个时代最响亮的词汇。在公共舆论中，AI被描绘成解决一切问题的万能钥匙，从医疗诊断到气候变化，从教育公平到经济增长。别说马斯克、黄仁勋乐观，就连长期唱空全球经济、2022年把AI危险写进著作《大威胁》的“末日博士”努里埃尔·鲁比尼教授，现在都认为AI可以让美国经济在2050年实现10%的增长了，以至于被媒体改称“繁荣博士”了。</p><p><br /></p><p>但这种乐观建立在对历史的系统性遗忘之上。我们习惯于假设技术进步会自动带来生产率提升，生产率提升会自动转化为工资增长和全民福祉。然而，经济史学家用跨越千年的证据反复证明了一条令人不安的规律：生产率增长与工资、就业、居民收入之间的长期脱节，并非例外，而是常态。技术革命带来的第一波红利，几乎总是流向资本所有者；而普通劳动者，往往在数十年间承受技能贬值、工资停滞和社区瓦解的代价。</p><p><br /></p><p class="text-big-title" label="大标题">技术陷阱：为什么进步迟到了几千年？</p><p><br /></p><p>牛津大学经济史学家卡尔·贝内迪克特·弗雷在著作《技术陷阱》中提出了一个看似简单却极为深刻的问题：为什么工业革命没有更早发生？从古希腊的安提基特拉机械到古罗马的水力磨坊，从文艺复兴时期达·芬奇的无数超前发明到中世纪的风车和印刷术，人类的技术创新从未匮乏。然而，从公元前1000年到公元1750年，全球人均GDP的年均增长率几乎为零。两千多年的文明史，在技术层面上并非一片空白，但经济增长却陷入了长久的停滞。</p><p><br /></p><p>传统解释往往诉诸“马尔萨斯陷阱”：技术进步带来粮食增产，人口随之增长，人均产出最终回到原点。弗雷指出，这并非全部。经济增长停滞数千年，还有一个更为关键的原因，整个世界陷入了“技术陷阱”之中。其核心逻辑是：统治者害怕取代劳动力的技术会破坏社会稳定，因而严格限制技术创新。从罗马帝国到中世纪欧洲，从古代中国到奥斯曼帝国，凡是有可能大规模替代手工劳动的机械设备，都遭到了系统性压制。行会保护自己的成员利益，反对任何威胁其生计的发明，而统治阶级则支持行会，因为愤怒的失业工人可能暴动、起义，甚至推翻政权。弗雷提供了大量历史证据：罗马皇帝维斯帕先因担心失业而拒绝采用省力运输机械；1589年英国女王伊丽莎白一世拒授织袜机专利。在中国，行会（公所）势力远强于欧洲，官府因惧怕社会动乱而支持行会，1876年上海拟建的蒸汽棉纺厂即在行会反对与官府不支持下落空，中国的工业化因此比英国晚了约两百年。</p><p><br /></p><p>这正是“技术陷阱”的残酷之处，它导致社会长期锁定在低生产率均衡中。所有人都知道存在更好的技术，但没有人有动力去推广它，因为推广它会引发反抗，而反抗会威胁所有人的利益。技术创新被“政治性地”抑制了数千年。</p><p><br /></p><p>那么，工业革命为什么发生在18世纪的英国？弗雷的核心答案是，有史以来第一次，从机械化中获利的人同时拥有政治权力。在此之前，统治阶级的财富主要来源于土地，地主阶级依靠地租和农业产出维持地位。但18世纪的英国发生了深刻的权力转移：商业革命和海外贸易积累了巨额流动财富，商人们形成了新的工业阶级。在英国，议会改革逐渐削弱了土地贵族的权力，商人和工厂主的利益开始主导政策制定。这是人类历史上第一次，那些从机械化中获利的人，恰好是那些掌握政治权力的人。</p><p><br /></p><p>这一权力转移的深远意义在于：它打破了千年来的“技术陷阱”。当替代型技术的受益者同时是政治决策者时，技术抵制失去了当权者的支持，卢德主义者的暴动被军队镇压，机械化进程不再受阻。英国由此率先走出了技术陷阱，开启了人类历史上前所未有的经济增长时代。但这一突破是有代价的，机械化带来的生产率增长并没有自动惠及所有人，恰恰相反，它创造了“恩格斯停顿”。</p><p><br /></p><p class="text-big-title" label="大标题">“恩格斯停顿”：三代人的沉默</p><p><br /></p><p>1780年至1840年的英国，发生了一件后来被经济史学家罗伯特·艾伦称为“恩格斯停顿”的事情：英国工人的人均产出增长了46%，但实际周薪仅上升了12%。资本利润份额持续扩张，劳动收入占比长期承压，社会不平等急剧拉大。这正是弗里德里希·恩格斯在曼彻斯特街头目睹的底层劳动者生存困境：拥挤的贫民窟，童工泛滥，平均寿命仅三十岁出头、慢性营养不良者举目皆是。</p><p><br /></p><p>这并非因为技术不够先进，蒸汽机、动力织机和水力纺纱机带来了前所未有的生产效率。问题在于，这些技术本质上是“替代型”的，它们用机器替代了需要多年学徒期才能掌握的手工技艺，将复杂的工匠工作分解为可以由普通工人甚至童工在监督下完成的简单步骤。大规模生产远比手工业更为高效，但对普通工人而言，条件通常危险且艰苦，除了愿意在极低工资下从事惩罚性劳动外，不需要任何专业技能。早期工厂大量使用儿童和未婚妇女，而之前的手工业工匠几乎必然是成年男性，这反映了掌握手艺所需的多年学徒期以及严格的性别规范。</p><p><br /></p><p>虽然第一次工业革命事后看大幅提高了人类社会的生产率和生活水平，但有三代人（大约60到75年）在这段时期内遭受损失。对于卢德主义者而言，“长期”是无关紧要的，他们的孩子可能饿死，他们的社区可能瓦解，他们的手艺可能永久失传。虽然技术变革从长远来看可能使所有人受益，但短期调整成本对某些工人而言可能代表一生。</p><p><br /></p><p>卢德主义者常被嘲笑为“反技术的暴民”，但2025年诺贝尔奖得主、经济史学家乔尔·莫基尔的研究彻底颠覆了这一刻板印象。他与合作者发现，1815年后，手工织工及其小作坊被工厂相当迅速地消灭了。卢德主义者并非反对一切技术，他们反对的是那些夺走其生计、摧毁其手艺的具体机器。对于一个面临失业、贫困和社区瓦解的普通工人而言，砸毁机器是维护自身利益的合理反应。</p><p><br /></p><p>“恩格斯停顿”的终结不是市场自发调节的结果，而是制度斗争的产物。19世纪中后期，英国逐步建立了工会集体谈判制度、工厂法、公共卫生体系和基础教育。1832年改革法案扩大了选举权，宪章运动推动了政治民主化，工会合法化赋予了劳动者集体议价的能力。艾伦的研究证实，正是在这些制度变革之后，英国的收入分配才开始改善，基尼系数出现拐点。工资追赶生产率，从来不是技术自发演进的结果，而是权力博弈的产物。</p><p><br /></p><p class="text-big-title" label="大标题">大萧条悖论：效率最高峰，民生最低谷</p><p><br /></p><p>当我们提及20世纪30年代的美国，脑海中浮现的是“大萧条”的经典画面：华尔街崩盘、银行倒闭、企业破产、失业率飙升、排队领救济的长龙。这是一个被普遍视为经济停滞与苦难的时代。然而，经济史学者亚历山大·J.菲尔德在2003年发表于《美国经济评论》的重磅论文中，提出了一个完全不同的观点。</p><p><br /></p><p>菲尔德的核心数据逻辑极为简洁，却极具冲击力：1929到1941年这十二年，美国全社会劳动总工时几乎没变，私人厂房、机器等资本总量几乎没有新增，但最终实际产出提高了33%至40%。投入的人力、机器几乎没涨，产出大幅提升，多出来的增长只能来自技术改良、管理优化和基建红利，也就是全要素生产率（TFP）。菲尔德的测算显示，这一时期美国私营非农经济的TFP年均增长率高达2.78%，显著高于战后“黄金时代”的2.36%。即使后来的研究者，例如《美国增长的起落》的作者罗伯特·戈登对具体计算提出异议，但大萧条期间巨大的技术进步是经济史学家公认的。</p><p><br /></p><p>菲尔德进一步指出，这一时期的高TFP增长并非源于资本的大量投入，而是源于技术和组织创新的广泛应用。企业研发逆势扩张，1929—1940年美国制造业研发人员从10918人增至27777人，涨幅近160%。胡佛水坝、金门大桥、全国隧道、市政机场同步落地，新政大规模基建带来物流革命。危机倒逼企业彻底重构管理模式，泰勒科学管理全面普及，科层化职业经理人体系取代传统家族粗放管理。电力、内燃机等通用技术在1920年代仅完成工厂电气化，1930年代则渗透零售、仓储、农业加工、公用事业全链条。换言之，第二次技术革命转化成了工业革命。</p><p><br /></p><p>然而，这一生产力飞跃的现实是：1932年美国失业率高达25%，到1939年仍有17%，直到1941年仍接近10%。一边是TFP的持续高速增长，另一边是千万劳动者失去工作、家庭陷入贫困。菲尔德的研究揭示了一个被主流叙事长期遮蔽的事实：生产率飞升与大规模失业可以在同一时空并存，而且并非偶然。</p><p><br /></p><p>这一发现的意义在于，它打破了“生产率增长必然带来就业和收入增长”的直觉假设，经济效率的最高峰，可以与民生苦难的最低谷同时出现。因此，评价一段经济周期，不能只看GDP或生产效率，必须把普通人的生活条件也纳入考虑。</p><p><br /></p><p class="text-big-title" label="大标题">权力与进步：技术从来不是中立的</p><p><br /></p><p>2024年诺贝尔奖得主、经济学家达龙·阿西莫格鲁与西蒙·约翰逊的著作《权力与进步：我们千年来的技术与繁荣斗争》，跨越千年技术史，力图打破这种技术决定论主流共识。主流叙事默认一条自动传导链条：技术创新带动TFP上升，总财富随之增加，接下来导致工资普遍上涨。但本书否定了这条“自动滴漏机制”，指出技术存在发展方向选择，技术走向由社会权力结构决定，只有当社会存在制衡力量，才能引导技术走向赋能劳动者。</p><p><br /></p><p>全书用千年史料证明，高TFP完全可以和大众工资停滞、大规模失业长期共存。中世纪水力磨坊大幅提升粮食加工生产率，但技术所有权被贵族、教会垄断，农民失去手工研磨谋生渠道，千余年农民实际收入几乎无增长。阿西莫格鲁和约翰逊的分析与弗雷的分析形成了深层呼应：技术创新的方向和速度不是由技术本身决定的，而是由掌握权力的社会群体决定的。</p><p><br /></p><p>战后“黄金时代”（1940—1970）是人类历史上罕见的“TFP与工资同步增长”阶段。核心不是技术更友好，而是权力制衡体系完整：强工会、反垄断法案、高额累进税、普及公立高等教育、劳动保护立法共同约束企业。但1970年后至今，工会持续弱化、反垄断放松、资本话语权提升。在美国，自1979年以来，劳动生产率增长速度是小时薪酬的八倍。劳动收入份额持续下行，出现了持续至今的生产率与工资脱钩，现在越来越多的经济学家用“大逆转”来形容这些现象，阿西莫格鲁今年8月发表的著作《自由民主到底出了什么问题？》就是在延续《权力与进步》里的讨论。1970年后的“大逆转”并非技术本身的转向，而是权力结构的转向。当资本重新获得不受约束的主导地位时，技术自然会向“替代劳动”的方向发展，因为这对资本最有利。</p><p><br /></p><p>······</p><p><br /></p><p>本文完整版刊登于《北大金融评论》第29期</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 珠免买回免税公司，多花了22亿</title>
-        <link>https://www.huxiu.com/article/4905225.html?f=rss</link>
-        <guid isPermaLink="false">be2da723ab369142512a54804853973383b2b52a1b0b8a6fac872bdec8ca648a</guid>
-        <pubDate>Fri, 13 Nov 2026 09:13:56 +0800</pubDate>
-        <author>嗅友OBrko</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：以珠免回购少数股权关联交易为切口，用前三季度少数股东损益占比93.8%的硬数据揭示利润漏出结构，并聚焦定价机制这一核心矛盾，对理解国资体系内关联交易有参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s/ZzQ2jq3yPNO5ur7cEHMDGA" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 青眼商评 </span></a><span class="text-remarks">，作者：啸清，编辑：封飚</span></p><p><br /></p><p>珠免集团要把珠海市免税企业集团有限公司剩下的49%股权买回来。</p><p><br /></p><p>2026年11月12日起停牌，公司打算向控股股东海投公司买26%，向间接控股股东旗下的康格投资买23%，用发行股份加现金支付，同时募集配套资金；交易做完，珠海免税就是珠免集团的全资子公司。</p><p><br /></p><p>按公告，停牌不超过10个交易日。卖方全是自家人，这是一笔关联交易，从头到尾只有一件事要紧：价格。</p><p><br /></p><p class="text-big-title" label="大标题">为什么必须买</p><p><br /></p><p class="text-big-title" label="大标题">为什么躲不掉？</p><p><br /></p><p>今年前三季度，珠免合并报表净利润3.008亿元，其中2.821亿元按股权比例分给了免税公司的少数股东，留在上市公司股东名下的只有0.187亿元。</p><p><br /></p><p>免税生意赚的钱，九成以上跟上市公司股东没关系。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-13/564e2c69-32de-4283-afb1-252cead99fc4.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>少数股东损益，就是别人按持股比例从子公司利润里分走的那一块。</p><p><br /></p><p>这套算法本身没有问题，问题出在结构上：</p><p><br /></p><p>免税公司眼下是珠免最主要的利润来源，可上市公司只握着51%，另外49%攥在别人手里。</p><p><br /></p><p>免税店利润将近一半流走了。</p><p><br /></p><p>不买回来，这门生意做得再好，上市公司股东也只能隔着一层看。</p><p><br /></p><p>关联交易本身不稀奇，稀奇的是价格。</p><p><br /></p><p>资产在国资体系里转手，买卖双方都是自家人，没有市场竞价帮忙校准，价格高一点低一点，最后都由上市公司和它的中小股东消化。</p><p><br /></p><p>这也是每一笔关联交易都要重点披露作价依据的原因。</p><p><br /></p><p class="text-big-title" label="大标题">为什么可能买贵了？</p><p><br /></p><p>价格是这场交易真正的考题。</p><p><br /></p><p>两年前的12月底，珠免做过一次大置换，把5家房地产子公司股权和一揽子债务装出去，换回免税公司51%的控股权，作价45.7878亿元，折算整家公司约89.78亿元。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-13/c8f1397c-afd9-4919-97f9-86a8c2ed6620.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>置换完成后，免税公司剩下的少数股权拆成两份，分别在两家国资公司手里。</p><p><br /></p><p>两年后的10月，其中城建那份换了主：城建集团把所持23%股权以31.72亿元卖给康格投资，折算整家公司137.91亿元。</p><p><br /></p><p>这其中1%的股权，两年前折算约0.9亿元，这笔转让涨到了近1.38亿元。</p><p><br /></p><p>照这个单价测算，这次要买的49%对应约67.58亿元，比两年前多掏21.79亿元，买的股份还少2个百分点。</p><p><br /></p><p>资产还是那块资产，门店还是那些门店，两年时间没有多一间店，价格就涨了五成。</p><p><br /></p><p>这个测算是按前次成交价折算，海投手里的26%也有可能单独定价，叠个甲最终数字以重组预案和评估报告为准。</p><p><br /></p><p>但贵不贵这个问题躲不开，因为利润。</p><p><br /></p><p>免税公司去年归母净利润7.644亿元，前年是7.838亿元，两年几乎没动，估值却抬了五成多。</p><p><br /></p><p>两年前的价格11.45倍年利润就能回本，这笔转让要18.04倍。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-13/42f3ec55-7415-4d8e-88fc-1b8a5f807964.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>当年重组时卖方立过业绩承诺，年报里披露的承诺口径净利比审计报表低一些，两套口径不能直接比大小；可不管用哪套，结论都一样，利润横盘。</p><p><br /></p><p>2024年那笔是同一控制下的重大资产置换，说得直白点，是国资体系内部的资产腾挪，定价用的是两年多前的评估基准日；2026年这笔是非公开协议转让，成交就发生在上个月。</p><p><br /></p><p>可两次卖的是同一家公司，利润几乎没动，回本年限差出六年多，中间这截差距，预案得给出解释。</p><p><br /></p><p class="text-big-title" label="大标题">净资产接不住现金方案</p><p><br /></p><p>多掏的钱聊完了，接着看钱从哪来。</p><p><br /></p><p>珠免去年全年归母净亏损10.294亿元，这笔亏损与房地产资产处置、减值计提及财务费用等因素有关，不是免税生意亏的，免税公司自己每年赚着7亿多元。</p><p><br /></p><p>麻烦在净资产：从去年末的10.562亿元缩到今年9月末的0.298亿元，三个季度基本缩没了，主因是免税公司及下属公司用港币记账，汇率波动带来折算损失。</p><p><br /></p><p>这类损失实实在在削薄了股东权益，公司解释过不能说资不抵债。但对一笔几十亿的现金收购来说，这个家底确实接不住。</p><p><br /></p><p>现金方案的难处，公告里演示过一次。</p><p><br /></p><p>10月15日，城建集团要把手里的免税公司股权转让给康格投资，珠免作为持股过半的老股东，本来有权优先买下，所谓优先购买权，就是别的股东卖股份时先问你要不要按同样条件接。珠免公告放弃。</p><p><br /></p><p>理由写得很直白：用现金溢价收购少数股权，多付的价差要直接冲减资本公积。</p><p><br /></p><p>资本公积是上市公司发行股票时攒下的股本溢价，属于全体股东的家底，从这里直接划掉一大块，归母净资产当场击穿底线。</p><p><br /></p><p>所以方案换成了发行股份加现金。</p><p><br /></p><p>发新股不用掏现金，账面处理和现金收购也不同，具体影响要看预案里的评估值和发行价；但代价没有消失，只是换了个承担的人：老股东。</p><p><br /></p><p class="text-big-title" label="大标题">一个月时间先弃后买为哪般？</p><p><br /></p><p>10月以来的动作连起来，顺序很清楚，每一步都有公告或工商记录可以对照。</p><p><br /></p><p>10月15日，珠免董事会公告放弃优先购买权，让那笔23%转让顺利过户；</p><p><br /></p><p>停牌前一天，转让完成工商变更，股权落到康格投资名下；</p><p><br /></p><p>第二天一早，上市公司停牌，宣布向海投和康格把剩余股权一并买回。</p><p><br /></p><p>连起来看，支付方式的切换是关键：10月的转让是纯现金，停在上市公司之外；11月的买回换成发股，由上市公司出面。</p><p><br /></p><p>现金给不起，就用股票顶上，这是净资产账面决定的。</p><p><br /></p><p>先在集团内部把价格定好，再让上市公司按这个价格接单，并非市场竞价的结果；</p><p><br /></p><p>这个价格会不会沿用，定价依据是什么，预案必须交代。</p><p><br /></p><p>天眼查工商信息把各家关系摆得清清楚楚：</p><p><br /></p><p>珠免集团成立于1999年6月8日，法定代表人李向东；</p><p><br /></p><p>免税公司现行登记成立于1987年9月20日，法定代表人也是李向东，和上市公司的法定代表人是同一人，这家1987年登记的企业做免税生意做了近40年。</p><p><br /></p><p>接走股权的康格投资2018年8月30日注册，由格力集团全资持股；出让股权的城建集团则由华发旗下持股。</p><p><br /></p><p>一圈转下来，免税公司剩下的近一半股权全部归进格力集团体系，再由上市公司发股买回。</p><p><br /></p><p class="text-big-title" label="大标题">复牌之后</p><p><br /></p><p>最后回到钱上。</p><p><br /></p><p>发行价和现金比例还没定，下面只是静态测算：假如对价全部按停牌前的4.28元发股，要新发约15.79亿股，老股东持股摊薄45.58%；发行价定得越高，新发的股越少，摊薄越轻。</p><p><br /></p><p>这背后是道简单的除法：买回49%后，免税利润全额归母，分子变大；发新股把股本这个分母也撑大，每股收益增不增厚，看分子分母谁跑得快。</p><p><br /></p><p>4.28元只是停牌前的收盘价，不是已经定好的发行价。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-13/877dec48-9b57-4c93-a30b-01ba05a41e96.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>海投那26%怎么定价，是不是沿用前次的同比例单价；</p><p><br /></p><p>新评估基准日下免税公司的评估值和盈利预测，18倍的回本年限意味着免税公司要么利润上台阶，要么这份定价里还有别的考虑，预案会给答案；</p><p><br /></p><p>最终锁定的发行价和现金比例。利润还在原地，发行价若又贴着市价，增厚的是关联方的账面，摊薄的是5.7万户股东的每股收益。</p><p><br /></p><p>这笔交易还需要走董事会、股东会审议，再经上交所审核与证监会注册，中间任何一步都可能改条件，配套募资的规模和用途也要等预案披露。</p><p><br /></p><p>等到预案复牌那天，也许有心人可以先翻翻珠免披露的26%单独作价，再瞅瞅发行价，两个数对照一下子，这笔交易划不划算就有数了。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.6分] 蚂蚁起诉百度、易小满，要求将“花呗”加入搜索白名单</title>
-        <link>https://www.huxiu.com/article/4905256.html?f=rss</link>
-        <guid isPermaLink="false">146b8c6521aaba03f942212bf420a7dce08efb84dc35d7ff0328883fe3762ad3</guid>
-        <pubDate>Fri, 13 Nov 2026 10:15:20 +0800</pubDate>
-        <author>观网财经©</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.6 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：报道蚂蚁首次将搜索引擎百度列为商标侵权共同被告，要求设&#x27;花呗&#x27;搜索白名单并承担连带赔偿，揭示品牌方与搜索广告平台责任边界的关键判例动向，具长期法律与商业参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=Mzk0NjIxNjkxNw==&amp;mid=2247545965&amp;idx=1&amp;sn=50f7963e6f83ae27a6900b43330b3801&amp;chksm=c2fc9eff5bad1dca71bfeda1018ffc3f4000e66cd65dc23f2cf54cbee048ceb5861324590652#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 大橘财经 </span></a><span class="text-remarks">，作者：汤普济</span></p><p><br /></p><p>用户在百度搜索“花呗”，可能看到叫“花贝”“呗花”等贷款推广链接。近日，蚂蚁集团因此将百度及一家贷款中介告上法庭。</p><p><br /></p><p>11月11日，据人民法院公告网信息，北京市海淀区人民法院已受理蚂蚁科技集团股份有限公司、重庆蚂蚁消费金融有限公司诉深圳市易小满投资咨询有限公司、北京百度网讯科技有限公司侵害商标权及不正当竞争纠纷一案。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-13/7a259c76-3aa4-4408-af12-f627ae1410a3.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p><br /></p><p>根据法院公告，蚂蚁方面指控，易小满将其“花呗”注册商标作为搜索关键词进行广告投放，要求易小满立即停止相关行为，并赔偿经济损失及合理开支共计50万元，在《中国知识产权报》刊登声明消除影响。</p><p><br /></p><p>此案的特别之处在于被告名单，以往同类案件中，权利人多只起诉导流方，本案则把百度网讯列为共同被告，并要求其对赔偿承担连带责任。</p><p><br /></p><p>蚂蚁要求百度停止在搜索引擎中将“花呗”及“花贝”“呗花”等近似词设置为广告关键词，并将“花呗”加入搜索白名单，排除其他主体继续将其用于广告投放，同时对上述50万元赔偿承担连带责任。</p><p><br /></p><p>观察者网就此事联系百度和蚂蚁集团方面，截至发稿，均未获回应。</p><p><br /></p><p>工商信息显示，深圳市易小满投资咨询有限公司成立于2023年5月，注册资本150万元，原名隆宇谦（深圳）贸易有限公司，同年6月更名为易小满。其经营范围包括投资咨询、企业信用评估、接受金融机构委托从事信息技术及流程外包服务等，许可经营项目包含小额贷款业务。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-13/34de2e65-2f94-4be0-a13f-0dda34e0a959.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">易小满</p><p><br /></p><p>值得注意的是，百度自身的搜索广告规则，对其他企业品牌关键词的使用并非完全禁止。</p><p><br /></p><p>观察者网查询百度营销官网发现，其公开的《百度营销服务协议》第五部分第15条规定，在确保不引起混淆的前提下，允许推广客户将其他商家的商业标识设置为关键词，但不得在搜索结果中展示他人商业标识，同时应标明广告主身份。</p><p><br /></p><p class="img-center-box"><img src="https://img.huxiucdn.com/article/content/26-11-13/14b9a2d4-89bf-42e5-8c8a-7cac29052d0a.png?imageView2/2/w/1000/format/png/interlace/1/q/85" /></p><p class="text-img-note" label="图片备注">百度营销</p><p><br /></p><p>百度营销官网的关键词审核说明又将“关键词中包含注册商标”列为可能无法通过审核的情形，要求广告主确保关键词不包含其他商户的注册商标。</p><p><br /></p><p>百度此前就因竞价排名中的商标侵权问题承担赔偿责任。</p><p><br /></p><p>2021年，广东省高级人民法院公布的互联网领域反不正当竞争和反垄断典型案例中，深圳市精英商标事务所诉重庆猪八戒公司、百度公司一案入选。</p><p><br /></p><p>该案中，猪八戒公司将“精英商标”等设置为百度搜索关键词，并通过搜索结果推广自身服务。广东高院认定相关行为构成商标侵权及不正当竞争，判令猪八戒公司赔偿50万元。</p><p><br /></p><p>由于百度在收到有效侵权通知后未及时采取删除等必要措施，造成损害扩大，法院同时判令百度对其中10万元承担连带责任。</p><p><br /></p><p>有行业人士指出，过去贷款倒流代理商在搜索引擎上购买知名品牌的关键词是普遍现象，购买关键词是一种基础的获客手段；另有接近助贷人士称，购买关键词可以低成本快速获客，非常普遍，助贷机构是否购买知名商标的关键词，则要看机构自己的选择。</p><p><br /></p><p>蚂蚁也曾多次就“花呗”“借呗”等商标提起诉讼。2019年，部分企业在营销短信和网页中使用“花贝”“借贝”等近似名称，杭州市西湖区人民法院曾作出行为保全裁定，要求涉事企业停止相关行为。</p><p><br /></p><p>2021年，海南庆德大信息科技有限公司因在贷款产品中使用“蚂蚁贷款借呗”“蚂蚁借呗贷款花呗”等标识，被法院一审判令停止侵权，并向蚂蚁集团赔偿100万元。</p><p><br /></p><p>与上述案件相比，本案的诉讼目标已从“删除链接”“事后索赔”升级为“建立白名单、事前拦截”，搜索引擎的注意义务边界因此成为本案真正的争议焦点。</p><p><br /></p><p>今年9月30日，中国人民银行等八部门联合制定的《金融产品网络营销管理办法》正式实施，要求第三方互联网平台加强金融营销活动管理，不得与金融机构产生品牌混同，并应清晰展示实际提供金融产品的机构名称。</p><p><br /></p><p>10月31日，中国互联网金融协会发布相关问答，进一步明确“花呗”“借呗”等应作为金融机构的专属金融产品，由金融机构提供，与相应互联网平台实现品牌隔离。</p><p><br /></p><p>观察者网尝试发现，目前在百度平台搜索“花呗”，第一条链接已是“花呗”官方网站。</p><p><br /></p><p>分析人士指出，930新规实施后，这类黑灰产已通过平台的多轮整治大幅减少，但仍有部分黑灰产以更为隐蔽的方式出现在平台中，后续需要对其进行常态化监测与管理。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 今年国内车市，为何没有“金九银十”</title>
-        <link>https://www.huxiu.com/article/4905255.html?f=rss</link>
-        <guid isPermaLink="false">dd27d7acf2431445cb3eb97d69a4c34d68640a5888554e7634dc742b295c7254</guid>
-        <pubDate>Fri, 13 Nov 2026 10:09:19 +0800</pubDate>
-        <author>经济观察网</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：基于乘联分会具体数据拆解“金九银十”失灵，归因需求透支、补贴退坡与价格战共振，并指出车企转向技术出海与精细化运营的战略路径，事实密度高、分析扎实。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzYyOTk2OA==&amp;mid=2247622012&amp;idx=2&amp;sn=07fb31654d330774d22115e484d024a2&amp;chksm=e9152282377a44f13aaad5b6f34b4104c78822f66effe84d0860806147864ea97a443414058b#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 经济观察网 </span></a><span class="text-remarks">，作者：霍婷婷</span></p><p><br /></p><p>当前车市进入需求“空窗消化期”，单纯依赖旺季冲量和降价促销的效益递减。车企需从规模冲量转向技术突破、海外出口与精细化运营，通过增程与纯电路线并行、自研芯片和高阶智驾等构筑竞争力，并提升用户全生命周期价值。</p><p><br /></p><p>往年九月、十月一般是国内汽车市场的旺季，但今年呈现出“旺季不旺”的局面。</p><p><br /></p><p>乘联分会发布的数据显示，9月狭义乘用车零售161.8万辆，同比下滑28%。10月零售169.3万辆、同比下降25%，连续两个月都在大幅下跌。</p><p><br /></p><p>需求透支、补贴退坡与价格战共振导致车市“金九银十”规律失灵，车企从简单的规模冲量转向技术出海与精细化运营，可能是一个有效解决的方案。</p><p><br /></p><p class="text-big-title" label="大标题">旺季失灵</p><p><br /></p><p>车市“金九银十”的失灵，有几个关键因素。首先，2025年国内以旧换新政策大规模落地，许多消费者提前购买新车或者以旧换新，购车需求被提前释放。据商务部数据，截至10月底，享受补贴的新能源汽车占比达60.5%，带动新能源乘用车零售渗透率连续7个月突破60%。</p><p><br /></p><p>其次，新能源汽车购置税优惠逐渐退坡，对消费者购车刺激力度下降。据财政部、税务总局、工业和信息化部2023年第10号公告显示，自2026年1月1日至2027年12月31日，新能源汽车购置税由免征调整为减半征收，每辆新能源乘用车减税额不超过1.5万元，而此前2024年至2025年免征期内的免税上限为3万元。此前据经济网的测算，对于价格低于16.67万元的新能源车，消费者实际获得的以旧换新补贴金额将会减少。17万元左右的车型可以拿满2万元报废补贴，叠加购置税减半后，实际优惠力度与2025年持平。而10万元车型的报废补贴从2万元降至1.2万元（10万×12%），减少了8,000元。</p><p><br /></p><p>再次，今年全年“无休”的价格战瓦解了旺季专属的优惠。过去消费者蹲守“金九银十”，是因为此时购车优惠力度最大。而在当下存量竞争的形势下，终端降价、限时权益、地方补贴全年轮番落地，淡季与旺季的优惠力度被极度压缩。消费者购车决策周期拉长，部分消费者期待年末更大的价格优惠，导致“金九银十”的促销手段失去了以往的整体效果。</p><p><br /></p><p>最后，新能源车型迭代节奏，打乱了传统汽车的淡旺季周期。燃油车时代，新车大多集中在下半年发布，配合金九银十上市。但现在新能源汽车技术迭代极快，新车、改款、OTA升级全年不间断推出。市场热度不再跟着月份走，而是跟着新车上市节奏走。一款重磅新车上市，短期拉动一波订单；新品热度褪去，市场迅速回归平淡。新车投放全年分散，需求被持续摊薄，很难再形成9、10月集中购车的行情。</p><p><br /></p><p>此外，曾是“金九银十”主力车型的燃油车销量大幅下滑，也拖累了车市整体数据表现。乘联分会数据显示，10月燃油车零售同比下降45%，其中纯燃油车同比下降51%，普通混合动力车同比增长28%。燃油车中自主同比下降46%，主流合资同比下降46%，豪华同比下降37%。新能源车虽然渗透率持续走高，但内部竞争极度内卷，品牌分化严重，少数头部品牌销量增长，无法抵消燃油车板块的大幅下滑对整体数据的影响。</p><p><br /></p><p>当前，国内车市进入需求“空窗消化期”，新的需求爆发可能要等下一波换车节点。吉利汽车副董事长、执行董事桂生悦也表示，今年“金九银十”现象消失，未来可能成为常态。</p><p><br /></p><p class="text-big-title" label="大标题">从规模冲量转向技术、出海与精细化运营</p><p><br /></p><p>不少车企已经开始从技术进步与国际化布局寻求增长支点。增程与纯电双路线并行成为主流打法，多家车企切入增程赛道以缓解续航焦虑，试图在产品结构上打开增量空间。头部车企通过自研芯片、高阶智驾及电池等用技术底座构筑护城河。</p><p><br /></p><p>市场端，在国内内卷加剧的背景下，海外出口正成为拉动车企销量增长的重要支点。人民日报指出，今年10月，有4家头部车企的海外销量超过10万辆。显然，国际化布局的深度将在相当程度上影响车企的增长弹性。</p><p><br /></p><p>经营端，当下消费者收入预期偏弱、观望情绪浓厚，经销商即便年末为冲刺销量目标发动新一轮价格战，但单纯降价促销能够带来的效益也在持续递减。车企与经销商需要转变经营思路，告别依赖旺季冲量的粗放式发展模式，转向精细化运营，把重心放在提升用户全生命周期价值上。</p><p><br /></p><p>此外，在产业链层面，随着新能源渗透率逼近70%，充电基础设施、电池回收以及智能驾驶软件服务等关联产业，或将迎来新一轮的结构性调整与增长机遇。</p><p><br /></p><p>归根结底，过去数年，中国车市享受的是增量红利，车企比拼的是"谁能更快地跑马圈地"。随着市场整体转入存量博弈，唯有在技术、成本和出海布局上全面占优的企业，才能穿越周期。</p><p><br /></p><p>（本文作者系经观研究院研究员）</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] 是时候重建美利坚了</title>
-        <link>https://www.huxiu.com/article/4905210.html?f=rss</link>
-        <guid isPermaLink="false">e8ed13260dd2d40b5cec8b9e267c99e2dc31fa9722f20ee011fa9fbe3062ed44</guid>
-        <pubDate>Fri, 13 Nov 2026 10:09:00 +0800</pubDate>
-        <author>AI时代的思考碎片©</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：通过金门大桥与诺伊谷公厕的鲜明对比，揭示美国基建能力衰退的深层问题，数据扎实、视角独特，具有长期反思价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=MzI0ODI0MTQyNw==&amp;mid=2247485210&amp;idx=1&amp;sn=51f717e22a1b7dc8cf48a46b0b5a6c68&amp;chksm=e86138f92a6c5b878418fcc68bd80f0cd15eb1a7a8657700c7399fde86f2562e6e1b3baa5ef8#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> AI时代仍不辍思考 </span></a><span class="text-remarks">，作者：创业思考碎片</span></p><p><br /></p><p>注：在a16z官网it's time to build栏目看到的一篇有意思的文章（作者Matt Cronin），让AI翻译过来，让我们看看美国人怎么看待美国的过去和未来。</p><p><br /></p><p>在大萧条初期，面对看似不可能完成的工程挑战，旧金山开始建造金门大桥。这座桥曾长期被嘲讽为“不可能建成的桥”。工人们在湍急的水流、浓雾和狂风中，建造了当时世界上最长、最高的悬索桥。工程于1933年1月开工，1937年5月汽车即可通车。耗资3500万美元。这项壮举堪比几年前帝国大厦的建造：仅用410天就建成了102层，比原计划提前了一个月。那是一个建筑狂潮的时代，在美国各地，看似不可能的工程奇迹，无论大小，都已成为家常便饭。</p><p><br /></p><p>近一个世纪后，在五英里之外的旧金山，又委托建造了一座公共设施：诺伊谷公共厕所。这座面积仅150平方英尺（约14平方米）的厕所，配备一个金属马桶和一个婴儿换尿布台，预计耗资170万美元，工期两年多。在公众强烈抗议后，市政府接受了捐赠的模块化厕所，并获得了免费的工程和建筑设计服务。尽管如此，该项目最终仍花费了纳税人约20万美元，因为捐赠的厕所仍需获得包括艺术委员会在内的六个以上机构的许可和批准。</p><p><br /></p><p>人们很容易将诺伊谷的厕所事件视为个例而置之不理，但同样的悲惨故事在全国各地不断上演：</p><p><br /></p><p>·加州高铁项目最初预算为330亿美元，目前已花费130亿美元，但收效甚微。预计总成本已飙升至1280亿美元。</p><p><br /></p><p>·二十年来，美国仅从零开始建造了两座大型核反应堆，而且都比原计划晚了七年，超支约230亿美元。鼎盛时期，美国每年能建成四到五座核反应堆。</p><p><br /></p><p>·亚利桑那州一座能够满足美国四分之一铜需求的矿山自1995年发现以来一直处于闲置状态，由于许可和诉讼问题，其投产之路可能长达35年以上。</p><p><br /></p><p>·一条550英里长的输电线路耗时17年才建成。其中，建设用了两年，其余时间都耗费在了法律纠纷上。它的姊妹项目则耗时15年。</p><p><br /></p><p>·西弗吉尼亚州一条已完工94%的输油管道因审批纠纷而闲置了近十年，最终只能通过国会法案和最高法院命令来解决。</p><p><br /></p><p>如果这些例子不是更深层次问题的征兆，它们简直令人啼笑皆非。我们的社区面临着基础设施老化、建筑破败以及公共设施日益无法满足现代经济发展需求的困境。1997年，美国在全球制造业中所占份额为25%，如今仅为16%。如果不采取干预措施，到2030年，这一比例将下降至11%。</p><p><br /></p><p>尽管我们拥有了在建筑时代难以想象的技术、资金和专业知识，但这些失败依然存在。我们应该以比以往任何时候都更快、更安全的速度进行建设。然而，我们却恰恰相反。</p><p><br /></p><p class="text-big-title" label="大标题">是什么阻碍了我们？</p><p><br /></p><p>民主本身不是问题所在。</p><p><br /></p><p>有些人将我们无法在民主制度本身的基础上发展归咎于：太多不同的声音，而效率却需要一个统一而有力的声音。这种观点将令人尴尬的低效视为自由的代价，人为地制造了一种自由与高效发展之间的非此即彼的选择。</p><p><br /></p><p>这种论点表面上看似有说服力——工厂、数据中心、港口，乃至整座城市在中国似乎一夜之间拔地而起，而这些项目在其他国家却需要数年甚至数十年才能建成——但归根结底，它大错特错。历史上充斥着专制国家在工业项目上惨败的例子。即使专制国家进行建设，它们也往往效率低下，更注重产量而非盈利能力。其结果是，一个生产无人问津产品的体系就此形成。这就是为什么作为专制工业强国典范的中国，会制造出大量“鬼城”和庞大的工业产能过剩，然后不得不将其倾销到全球经济中。</p><p><br /></p><p>当政府创造合适的条件时，民主国家可以以惊人的速度发展。1956年，美国国会设立了专项资金、制定了国家标准，并明确了联邦和州之间的责任划分，此后十年内，美国州际公路系统近一半的路段便已建成通车。现代民主国家依然展现着这种能力。西班牙以相对较低的单位成本，建成了超过3800公里的高速铁路（仅次于中国）。台湾凭借一站式产业管理体系以及便捷的土地、电力和水资源供应，在短短两年内就建成了尖端的半导体制造厂。</p><p><br /></p><p>政体类型并非决定性因素。关键在于产业政策能否促进建设：明确的权力架构、标准化的要求、可预测的融资渠道、高效的机构，以及迫使政府做出决策而非仅仅制造拖延机会的规则。</p><p><br /></p><p class="text-big-title" label="大标题">环境安全也不是关键问题</p><p><br /></p><p>另一个常见的谬论认为，无休止的审批流程是环境安全的代价：许可、选址和互联互通等障碍导致数百个可再生能源项目延期，而这些障碍恰恰是实现清洁环境的必要条件。</p><p><br /></p><p>这个想法看似简单：减少建设就能减少污染。但工业生产并不会消失，而是转移到其他地方，通常是中国。中国的单位产出碳排放量是美国的两到三倍。阻止一家工厂在美国建厂并不能消除排放，只是把排放转移到了污染更严重的生产商那里。结果可谓是政策制定者无意中搬起石头砸自己的脚：环保人士不断要求更加繁琐的审批程序，最终却损害了美国的工业和环境。</p><p><br /></p><p>无休止的开采并不能拯救环境。加拿大和澳大利亚——这两个国家向来以环保著称——允许矿山开采速度比其他地区快五倍。马德里受欧盟严格的环境法规约束，其地铁扩建速度和成本几乎超过了地球上任何其他城市。瑞士同样致力于保护自然环境，在阿尔卑斯山下开凿了世界上最大的铁路隧道，并提前一年完工。这些国家并没有忽视自然环境的重要性。</p><p><br /></p><p>相反，他们强调实质性的环境保护，同时最大限度地减少程序上的延误。环境研究可以合并到一份许可证中。法院审查许可证的合法性，而不是无休止地重复诉讼其背后的分析。挑战程序有严格的时限。败诉方可能需要承担胜诉方的诉讼费用，从而抑制无理诉讼。对于影响重大的项目，其合法性可以预先确立。</p><p><br /></p><p class="text-big-title" label="大标题">真正的问题在于：只奖励过程而非要求结果</p><p><br /></p><p>美国并没有采取这种做法。相反，它将一套极其繁琐的程序机制与一个似乎无法最终定论的诉讼制度结合起来。</p><p><br /></p><p>其中最引人注目的罪魁祸首是《国家环境政策法》（NEPA）。与《清洁水法》和《清洁空气法》等实质性法规不同，NEPA属于程序性法规。它要求各机构在涉及联邦土地、许可证或融资的重大行动之前，分析并披露环境影响。正如最高法院在2025年所指出的，监管的层层叠加和激烈的诉讼使其从“一项适度的程序性要求变成了一种粗暴且随意使用的工具”，被用来阻挠新的建设项目。</p><p><br /></p><p>其结果是，在一部没有规定任何实质性环境标准的法规下，需要进行长达数年的程序性审查。2024年，即使是简单的环境评估平均也需要一年时间，而要求更高的环境影响报告书（EIS）则需要近四年。能源部的数据显示，环境影响报告书的平均成本为660万美元，即使是规模较小的评估也需要30万美元。这还不包括法律费用、人员工时和诉讼费用，这意味着《国家环境政策法案》（NEPA）仅许可费用一项就可能使最小的项目也花费超过100万美元。</p><p><br /></p><p>这些攻击就像七鳃鳗一样，一旦附着上去，就会慢慢耗尽项目的资源。即使通过了一次审查，也并不意味着万事大吉，因为反对者可能会援引《国家环境政策法案》（NEPA）或相关法规再次提出质疑。</p><p><br /></p><p>有时，仅仅是威胁本身就能扼杀一个项目。如果许可证无法提供任何确定性，投资者犹豫不决是可以理解的，这意味着资金无法到位，美国也无法进行建设。</p><p><br /></p><p>讽刺的是，这种对程序的执着往往阻碍了旨在保护环境的项目。它导致了位于马萨诸塞州的“科德角风电项目”（Cape Wind）的夭折。该项目原计划装机容量为468兆瓦，在耗资超过15年、耗资超过1亿美元后，最终未能建成任何一台风力发电机。开发商反而将资金用于应付“数十个有时相互重叠、常常自相矛盾的机构，数百名官员以及数千页的环境影响评估报告”，并就各种诉讼进行抗辩，例如有人指控距离海岸近5英里的风力发电机将破坏部落的宗教资源。</p><p><br /></p><p>这种对流程的过度关注在各行各业屡见不鲜，给建筑商及其服务的社区都带来了沉重的负担。输电线路的建设往往因漫长的审批流程而停滞十余年，而《国家环境政策法案》（NEPA）相关的诉讼也严重拖延了清洁能源项目的进展。同样的程序性障碍也经常被用来限制住房建设。各州版本的NEPA经常被用来阻止新建住宅，最终受害的不是污染者，而是家庭。而且，问题远不止审批环节。超过2000吉瓦的能源容量——几乎是美国现有电力装机容量的两倍——正处于等待并网的“互联队列”中，而每个项目的平均等待时间约为五年。</p><p><br /></p><p>这一切都无助于保护环境、帮助消费者，也无助于美国的重建。这完全是程序至上的迷信：无休止的复查和诉讼，却毫无结果。而且，这种现象还会自我延续。我们构建了只有规模最大的公司才能负担得起的监管迷宫，由此催生了一个由律师、会计师和顾问组成的生态系统，他们受雇于人，引导企业走出迷宫，而这些机构也因此有充分的动机去维护这个体系。</p><p><br /></p><p>因此，我们对创新者征收双重税，一次来自国家，一次来自外部专家，这减缓了进步，阻碍了关键企业和基础设施的建设。高昂的成本和复杂的流程阻碍了新公司的建立，并将老牌公司推向海外，往往是那些生产相同产品污染更严重的地区。这简直是最糟糕的情况。</p><p><br /></p><p class="text-big-title" label="大标题">两党共识的解决方案</p><p><br /></p><p>那么，那些建设成功的国家的秘诀是什么？他们奖励负责任的建设，而不是拖延。我们可以拥有一个充满活力的民主制度，在保护环境的同时实现历史性的再工业化。问题出在我们的程序上。而这完全可以解决。</p><p><br /></p><p>令人欣慰的是，两党在这一问题上正逐渐达成共识。包括石化企业高管、可再生能源倡导者、建筑商和银行家在内的众多看似不太可能的盟友都支持许可改革。参议院提出的《2026年美国两党可负担性和就业法案》以及众议院类似的两党法案，为这一联盟提供了一条切实可行的前进道路。这些条款值得支持，因为它们解决了阻碍企业向美国工厂和基础设施投资的不确定性。以下是最终法案必须解决的五个优先事项：</p><p><br /></p><p>1.限制程序性审查：最高法院已确认《国家环境政策法案》（NEPA）属于程序性法案。参议院的这项法案将把这一原则编入法典，并允许在相关机构纠正NEPA错误期间继续施工，而不是因为这些错误而叫停项目。该法案还加快了司法审查程序，以便迅速解决任何合法争议。此外，该法案还将通过规定联邦贷款或贷款担保本身不会触发NEPA对几乎所有私人开发项目的审查，从而限制NEPA目前过于宽泛的管辖范围。</p><p><br /></p><p>2.强制执行硬性期限：国会应为联邦授权设定硬性期限，配备充足的审批人员，并在各机构未能采取行动时提供可执行的补救措施。参议院的法案正是如此，它不仅为各机构设定了明确的期限，还建立了激励机构迅速做出决定的期限执行法律机制。</p><p><br /></p><p>3.建立“一项目一审查”机制：国会应指定一个牵头机构，并按照参议院法案的规定，在最大程度上约束联邦参与者接受统一的审查和加快的进度安排。该法案还允许符合条件的州或部落环境审查在牵头机构认定其具有类似功能时，满足《国家环境政策法案》（NEPA）的要求。加拿大、欧盟和澳大利亚均采用类似模式。</p><p><br /></p><p>4.确保许可证最终有效：基于程序瑕疵的禁令不应导致施工停滞。同样，除非存在特殊情况，否则各机构不应撤销已合法颁发的许可证。参议院法案将禁止因程序上的《国家环境政策法案》（NEPA）错误而发布禁令，并对非法政府干预行为提供恢复许可、诉讼费用和经济赔偿。</p><p><br /></p><p>5.简化审批流程：各机构可通过类别豁免，无需耗时的环境评估或影响报告即可批准常规活动。虽然现有授权允许各机构相互采用彼此的类别豁免，但实际采用的机构却寥寥无几。参议院的法案将允许组合适用的豁免条款，要求建立公开的跨机构清单，并指导各机构为特定的电网和储能项目制定或采用豁免条款。国会还应鼓励联邦与州政府合作，预先完成场地环境审查、公用设施和分区规划的审批，使企业能够在数周而非数年内完成建设。台湾采用类似的模式，并取得了显著成效。</p><p><br /></p><p>这些两党共同支持的改革将消除程序上的累赘，使我们能够在保护环境的同时，重建家园，并促进自由社会的活力。</p><p><br /></p><p>金门大桥曾被称为“不可能建成的桥”。四年后，尽管所有反对者都反对，它最终还是建成了。如今，我们仍然是同一个国家，只不过我们赋予了反对者权力，而不是建设者。这种情况必须改变。我们并没有失去创造伟大成就的能力，而是将其埋葬在了层层毫无意义的繁文缛节之下。</p><p><br /></p><p>我们是一个准备重建的国家。现在是国会扫清障碍的时候了。</p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 医院集团花1元反向收购市值30亿药企，上一任实控人已身陷囹圄</title>
-        <link>https://www.huxiu.com/article/4905263.html?f=rss</link>
-        <guid isPermaLink="false">29c215a8ef6b3a75526d428ec36f5688313f4f6dfb2113c12055734a313ffdeb</guid>
-        <pubDate>Fri, 13 Nov 2026 10:32:51 +0800</pubDate>
-        <author>深蓝观</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：深挖1元股权易主背后的资本运作与刑事风险，揭示医院集团接盘却承诺不注入资产的异常安排，事实密度高，具长期参考价值。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><span class="text-remarks" label="备注">本文来自微信公众号：</span><a href="https://mp.weixin.qq.com/s?__biz=Mzg2NDY0NzkxNA==&amp;mid=2247500490&amp;idx=1&amp;sn=b48d7853052434223cc187d32effc3c3&amp;chksm=cf6f6d0565b83a48787af5fa3f826db8039e68dba6fa42fc98ff0f37b58842e473aa405fbe28#rd" rel="nofollow" style="text-decoration: none;" target="_blank"><span class="text-remarks"> 深蓝观 </span></a><span class="text-remarks">，编辑：王晨，作者：深蓝观团队</span></p><p><br /></p><p>一家市值30多亿元的上市药企，22个月内两次以1元股权对价易主。第一次接手它的实际控制人，后来因涉嫌职务侵占被捕；第二次接手它的，是一家IPO长跑六年的骨科医院集团。</p><p><br /></p><p>更耐人寻味的是，第二位买家刚刚取得控制权，便承诺未来36个月不向上市公司注入旗下资产。</p><p><br /></p><p>这场交易发生在2026年10月。北大医药公告，控股股东西南合成医药集团的上层股权发生变更，公司实际控制人由新优势产业集团创始人徐晰人变更为邦尔骨科创始人程栋。此次交易的股权对价仅为1元，另涉及3000万元债权。</p><p><br /></p><p>22个月前，徐晰人曾以几乎相同的交易结构，从中国平安手中取得西南合成控制权。次年11月，徐晰人因涉嫌刑事犯罪被重庆市江北区人民检察院批准逮捕。据《财新》报道，其涉嫌职务侵占，案件涉及西南合成部分资产处置及资金去向问题。</p><p><br /></p><p>即便身陷刑事案件，徐晰人控制的股权仍迎来了下一位买家。</p><p><br /></p><p>接盘的程栋，掌管着一家拥有18家医院、6000多张床位的骨科医院集团。邦尔骨科早在2020年便启动上市辅导，至今未能登陆A股。更值得注意的是，这并非程栋第一次寻找上市公司。今年5月，他曾尝试取得仁智股份控制权，交易于9月终止。仅一个多月后，他又转向北大医药。</p><p><br /></p><p>一家是失去核心客户、营收持续萎缩的老牌药企，一家是上市筹备多年、仍在资本市场门外徘徊的民营医院集团。两者之间究竟有什么吸引力？</p><p><br /></p><p class="text-big-title" label="大标题">-01-</p><p><br /></p><p class="text-big-title" label="大标题">营收缩水七成，账上还有8亿元</p><p><br /></p><p>对于新买家而言，北大医药是一家颇为矛盾的公司：主营业务持续萎缩，账上却仍有8亿多元现金；上市公司本身尚有利润，控股股东西南合成却已资不抵债。</p><p><br /></p><p>西南合成有着四十余年的历史，曾是一家国有药企。其控制权几经转手，从北大方正、中国平安，到新优势产业集团，再到如今的邦尔骨科。随着原有产业逐步剥离，西南合成旗下部分企业已停止正常经营，历史遗留问题尚待处理。而它持有的北大医药18.29%股份，成为整个集团最重要的资产。</p><p><br /></p><p>北大医药也早已不是当年那个背靠北大方正体系的药企。2013年前后，公司更名为北大医药，形成药品制剂与医药商业两大业务板块。2014年底，方正集团爆发腐败案件，多名高管被查。次年，北大医药剥离经营多年的原料药业务，转向制剂生产和医药流通。</p><p><br /></p><p>真正支撑其收入规模的，是北京大学国际医院的药品、器械及耗材配送业务。2022年起，旗下北医医药承担该医院的重要配送业务，相关销售规模一度达到每年约12亿元，占公司收入的一半以上。即使后来方正体系经历重整，这项业务仍然支撑着北大医药的营收。</p><p><br /></p><p>但到了2025年，这项合作终止，北大医药失去了最重要的客户之一。收入随即大幅下降：2024年公司营收20.6亿元，2025年降至14.8亿元，2026年前三季度仅剩6.5亿元，同比接近腰斩。</p><p><br /></p><p>与此同时，传统制剂业务也面临集采压力，相关收入从7.6亿元降至6.2亿元，毛利率由69%降至51%。这家老牌药企既失去了大客户，也缺乏能够迅速填补缺口的新产品。</p><p><br /></p><p>一位长期关注医药产业的人士向评价，北大医药的产品以传统品种为主，创新能力不足，叠加集采压力和历史遗留问题，未来经营面临不小挑战。西南合成层面还有多家企业的历史问题需要梳理，与中泰证券之间的相关诉讼纠纷也增加了交易的复杂性。</p><p><br /></p><p>但另一组财务数据呈现出截然不同的面貌。截至2026年三季度末，北大医药账面货币资金仍有8.42亿元，资产负债率仅20%出头，有息负债规模较小。也就是说，尽管营业收入急剧下降，这家公司尚未陷入高负债、现金枯竭的境地。</p><p><br /></p><p>一位业内人士表示，收购方看中的恰恰是上市公司本身仍然相对健康的资产负债表。真正资不抵债的是上一层的西南合成，其净资产已为负，因此股权转让采取了象征性的1元对价，同时另行安排债权交易。</p><p><br /></p><p>这也解释了这笔交易看似不可思议的价格：程栋并非花1元买下市值30多亿元的北大医药，而是通过收购资不抵债的上层控股公司，间接取得上市公司控制权。低廉的股权对价背后，是复杂的债务关系和历史包袱。</p><p><br /></p><p>不过，8.42亿元货币资金并不意味着北大医药拥有同等规模的持续经营现金流。随着北京大学国际医院配送业务终止，过去依靠大客户形成的收入和回款难以延续。账面现金能够提供缓冲，却不能替代新的盈利来源。</p><p><br /></p><p>对于一家寻求产业发展的药企而言，这是亟待解决的经营难题；但对于希望获得上市平台的收购方来说，衡量这家公司的标准，或许并不完全相同。</p><p><br /></p><p class="text-big-title" label="大标题">-02-</p><p><br /></p><p class="text-big-title" label="大标题">借壳上市，还要再等三年</p><p><br /></p><p>对于邦尔骨科而言，北大医药的经营困境或许不是最重要的问题。这家拥有18家医院、6000多张床位的民营骨科连锁集团，已经在资本市场门外等待了多年。</p><p><br /></p><p>据了解，早在2020年，邦尔骨科就在浙江证监局辅导备案，开始筹备上市。然而，疫情打乱了原定计划。等到疫情结束，A股IPO的窗口又开始收紧。</p><p><br /></p><p>“邦尔骨科也准备申报”，一位证券市场人士表示，“但考虑到审核环境和申报风险，最终没有继续推进。随之美中嘉和、明基医院、卓正医疗、同仁堂相继港股上市，可能港股也曾进入邦尔骨科的备选方案，但康宁医院、海吉亚医疗等医疗服务企业的估值在港股太低，让邦尔骨科难以下定决心。”</p><p><br /></p><p>中国民营医院集团的A股上市之路本就狭窄。2007年，通策医疗通过资产重组进入口腔医疗领域；2009年，爱尔眼科登陆创业板。此后十余年，直到2022年普瑞眼科、华厦眼科、何氏眼科集中上市，2023年三博脑科挂牌，医疗服务企业才短暂迎来新的上市窗口。对于一家需要持续投入资金扩张医院网络的连锁集团而言，等待上市的时间越来越长。</p><p><br /></p><p>而邦尔骨科已经引入了多轮外部资本。2014年至2021年，公司先后完成多轮股权融资，2023年12月又完成超过8亿元的Pre-IPO融资，市场曾据此推算其估值达到数十亿元。融资之后，上市迟迟没有实现，投资者的退出路径也随之成为一个值得关注的问题。</p><p><br /></p><p>既然独立IPO难以推进，邦尔骨科开始寻找另一条路。</p><p><br /></p><p>据投资圈内人士了解，去年开始，邦尔骨科先后接触多家上市公司，既有医疗相关企业，也有业务完全不相干的标的。选择范围如此之广，说明上市公司平台本身，是收购方的重要考量。</p><p><br /></p><p>从终止合作的仁智股份到如今的北大医药，两家上市公司的主营业务相去甚远，收购方的目标却始终一致：取得一家A股上市公司的控制权。</p><p><br /></p><p>不过，拿到控制权，并不意味着邦尔骨科的医院资产能够立即进入上市公司。</p><p><br /></p><p>按照《上市公司重大资产重组管理办法》，上市公司控制权变更后36个月内，向收购人及其关联人购买资产，如果达到规定的规模标准或导致主营业务发生根本变化等情形，可能构成重组上市，需要适用相应的严格审核要求。</p><p><br /></p><p>程栋在此次权益变动中承诺，36个月内不向北大医药注入其控制的资产。</p><p><br /></p><p>这意味着，虽然程栋已经取得上市公司控制权，但邦尔骨科旗下18家医院仍然留在原有集团体系内，其收入、利润和资产不会因此进入北大医药的合并报表。</p><p><br /></p><p>对于营收持续萎缩的北大医药而言，这意味着未来三年无法直接依靠邦尔骨科医院资产的注入来改善经营业绩，仍需依靠自身业务维持正常经营和上市资格。</p><p><br /></p><p>据猜测，收购方考虑在36个月期限届满后，再通过股权置换等方式推动医院资产进入上市公司。但这并非已经确定的重组方案，届时仍须满足相关监管要求。</p><p><br /></p><p>这样的收购并非完全没有先例，只是路径截然不同。2022年，新里程医院集团通过参与恒康医疗破产重整取得上市公司控制权，此后逐步推进医院资产整合，形成医疗服务与医药制造并行的业务布局。但新里程的资产状况、交易结构和重整背景与邦尔骨科不同，其经验并不能直接复制。</p><p><br /></p><p>至于北大医药与邦尔骨科之间的产业协同，收购方也并非没有考虑。北大医药拥有抗感染、镇痛等传统制剂产品，与骨科医院的临床用药需求存在一定交集。</p><p><br /></p><p>未来医院集团可以考虑重新组织部分药品采购招投标，让北大医药参与供应。</p><p><br /></p><p>邦尔骨科接手北大医药时，一方需要新的业务增长点，另一方需要资本市场平台。表面上，这是一场医院与药企之间的产业整合；从收购方的路径选择来看，它更像是一场持续多年的上市突围。</p>
         </div>
         ]]></description>
     </item>

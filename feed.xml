@@ -4,14 +4,14 @@
     <title>⚡ 极客早餐速报 (Daily Geek Digest)</title>
     <link>https://github.com/Kevin8k86/RSS</link>
     <description>大模型严格把关：GitHub热榜 · 拓竹3D打印模型 · 36氪 · 知乎精选</description>
-    <lastBuildDate>Thu, 19 Nov 2026 03:31:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 03:19:40 +0000</lastBuildDate>
     <generator>RSS AI Curator</generator>
     
     <item>
-        <title>⚡ 【极客早报】GitHub · 3D打印 · 36氪 · 知乎精选 (11-19 版)</title>
+        <title>⚡ 【极客早报】GitHub · 3D打印 · 36氪 · 知乎精选 (11-20 版)</title>
         <link>https://github.com/Kevin8k86/RSS</link>
-        <guid isPermaLink="false">geek_briefing_20261119_113137_b0038d21</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <guid isPermaLink="false">geek_briefing_20261120_111940_c937d075</guid>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>AI 极客主编</author>
         <description><![CDATA[
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1e293b;">
@@ -21,55 +21,480 @@
             </div>
             <div>
                 <div>
-<h2>今日极客早餐速报 · 2026年11月19日</h2>
+<h2>☕ 今日极客早餐速报 · 2026年11月20日</h2>
+<p>早上好，极客们。今天的开源圈被 AI 工具链刷屏，3D 打印社区已全面进入圣诞档期，而商业侧则传来 Gemini 新模型与远程工具收费的信号。以下是今日精选。</p>
 
 <h3>🌟 【GitHub 开源黑科技与提效神器】</h3>
 
-<p><b>google-research/paper-orchestra</b>（Python，今日 +1,524 Stars）<br>
-谷歌研究院开源的论文自动化编排框架，将文献检索、摘要提炼与结构化综述生成串成流水线。解决科研人员手工整理上百篇论文耗时巨大的痛点，适合课题开题、技术调研与竞品分析场景，可接入自有模型做私有化部署。</p>
+<p><b>1. firecrawl/firecrawl（TypeScript，+825 Stars）</b><br>
+专为 AI 应用打造的网页抓取引擎，能把任意网站转成干净的结构化 Markdown 或 JSON，直接喂给大模型做 RAG。痛点在于传统爬虫要处理反爬、动态渲染和噪声清洗，它一站式解决。适用场景：构建知识库、AI 搜索、竞品数据采集。</p>
 
-<p><b>mvanhorn/last30days-skill</b>（Python，今日 +1,059 Stars）<br>
-一个聚焦“近30天”时间窗口的信息聚合技能包，自动抓取并去重近期动态，输出精简摘要。痛点在于信息过载下难以快速掌握领域最新进展，适合技术选型前的快速摸底、投资尽调与行业周报自动化生成。</p>
+<p><b>2. HKUDS/CLI-Anything（Python，+898 Stars）</b><br>
+港大数据智能实验室出品，把任意命令行工具自动包装成可被 AI Agent 调用的标准化接口。解决了 LLM 调用本地 CLI 时参数解析混乱、输出不可控的痛点。适用场景：让智能体安全地操作 git、ffmpeg、系统运维脚本，是 Agent 落地的高效胶水层。</p>
 
-<p><b>HKUDS/CLI-Anything</b>（Python，今日 +389 Stars）<br>
-港大数据智能实验室出品，把任意命令行工具封装为可被智能体调用的统一接口，降低 Agent 编排外部工具的门槛。解决 LLM 调用 CLI 时参数解析混乱的问题，适合构建自动化运维、批量数据处理与本地智能助手。</p>
+<p><b>3. jingyaogong/minimind（Python，+238 Stars）</b><br>
+从零手写训练一个小参数语言模型的教学级项目，代码精简、注释完整，覆盖数据准备到 SFT 全流程。痛点是大模型教程普遍依赖重型框架、门槛高，它让个人开发者在单卡上跑通全链路。适用场景：学习 LLM 原理、快速验证微调想法。</p>
 
-<p><b>astral-sh/uv</b>（Rust，今日 +258 Stars）<br>
-Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析速度提升一个数量级。痛点直指 Python 依赖安装慢、虚拟环境管理繁琐，适合 CI/CD 流水线加速、多项目隔离与本地开发提效。</p>
+<p><b>4. cursor/plugins（TypeScript，+384 Stars）</b><br>
+Cursor 官方开放的插件生态仓库，提供编辑器扩展的标准接口与示例，让开发者把自定义 AI 工作流嵌入编码环境。痛点在于此前 IDE 的 AI 能力封闭、难以二次开发。适用场景：团队定制代码审查、私有规范注入、内部工具集成。</p>
 
 <h3>🖨️ 【热门 3D 打印模型与创客设计】</h3>
 
-<p><b>Christmas Tree Cake Holder Hype Chain Locket</b>（下载 4,075 / 打印 2,334）<br>
-圣诞树造型的蛋糕托架，采用链环锁扣式分体结构，无需支撑即可拼装成型。亮点在于模块化卡扣设计便于收纳与清洗，拓竹 FDM 打印建议 0.2mm 层高、PLA 材质，注意卡扣处降低填充率以保留弹性。</p>
+<p><b>1. Christmas Tree Cake Holder Hype Chain Locket（下载 4518 / 打印 2600）</b><br>
+圣诞树造型的蛋糕收纳盒，采用链环锁扣结构，开合无需螺丝，靠卡扣自锁。亮点是分体式树冠可叠放收纳小蛋糕或糖果。FDM 建议：0.2mm 层高、3 层墙，锁扣处加支撑，PLA 即可，绿色树体配金色挂饰效果最佳。</p>
 
-<p><b>Leuchtende Weihnachtsfiguren – 5er-Set</b>（下载 3,062 / 打印 1,658）<br>
-五件套发光圣诞摆件，内部预留 LED 灯带走线槽与电池仓，壁厚经优化可透光。机械亮点是隐藏式线槽避免外露走线，FDM 打印建议使用白色或半透明 PLA，0.16mm 层高提升透光均匀度。</p>
+<p><b>2. Knitted Santa Claus - No AMS, No Glue（下载 3606 / 打印 1517）</b><br>
+针织纹理的圣诞老人摆件，靠几何建模直接生成毛线编织表面，无需多色 AMS 也无需胶水拼接，单色打印后靠层纹呈现质感。FDM 建议：0.16mm 细层高凸显针织纹路，红色 PLA，慢速打印保证细节，适合桌面节日装饰。</p>
 
-<p><b>Knitted Santa Claus - No AMS, No Glue</b>（下载 2,783 / 打印 1,156）<br>
-针织纹理圣诞老人，通过表面浮雕模拟毛线编织质感，全程免 AMS 多色、免胶水拼装。结构上采用一体成型与插接式配件，拓竹打印建议 0.12mm 细层高还原纹理，单色打印后可用马克笔上色。</p>
+<p><b>3. 125cm Classic Christmas Street Lamp Lantern（下载 1421 / 打印 159）</b><br>
+高达 125cm 的经典圣诞街灯模型，分段式灯柱设计便于打印后插接组装，灯罩内可放 LED 灯串。亮点是超大尺寸的模块化拼接结构，兼顾强度与打印床限制。FDM 建议：PETG 提升户外耐用性，接缝处用 0.3mm 公差，底座加配重。</p>
 
 <h3>💼 【商业科技与前沿创新 (36氪)】</h3>
 
-<p><b>国区 App Store 将 AIGC 合规设为上架必填</b><br>
-苹果要求国区开发者在上架时明确申报生成式 AI 能力与合规资质，未申报应用面临下架风险。这标志着 AIGC 监管从内容侧延伸至分发渠道，中小开发者需提前准备算法备案与内容安全方案，合规成本将成为新的竞争门槛。</p>
+<p><b>1. Google 推出 Gemini 4 Neon 模型</b><br>
+据少数派早报，Google 发布 Gemini 4 Neon，主打更低延迟与更强多模态实时交互能力。核心信号是巨头在模型推理效率上的军备竞赛升级，边缘侧与实时应用成为新战场。对开发者而言，API 成本与响应速度的优化将直接推动 AI 应用从演示走向规模化落地。</p>
 
-<p><b>OpenAI 发布 GPT-6.2 Astra</b><br>
-新版本在多模态理解与长上下文推理上进一步升级，官方强调工具调用稳定性与更低幻觉率。对国内厂商而言，模型能力差距持续拉大，应用层竞争将更依赖场景数据与工程化落地，而非单纯堆叠参数。</p>
+<p><b>2. 网易 UU 远程将于 12 月推出付费会员</b><br>
+网易 UU 远程宣布 12 月起上线付费会员体系，标志远程控制工具从免费获客转向商业化变现。这反映工具类 SaaS 在用户规模见顶后的典型路径：以增值服务（高画质、低延迟、多设备）分层收费。对个人用户意味着免费额度收紧，对行业则是远程办公赛道盈利模式的验证。</p>
 
-<p><b>Apple 年度应用与 TGA 2026 入围名单公布</b><br>
-年度榜单折射出两大风向：AI 原生工具类应用占比显著提升，独立开发者作品凭借垂直场景突围。对创业者而言，平台榜单正成为低成本获客的关键入口，产品设计需更贴合平台评选维度与编辑推荐逻辑。</p>
+<p><b>3. Apple 年度应用与 TGA 2026 入围名单公布</b><br>
+Apple 年度应用与 TGA 2026 游戏大奖分别揭晓入围名单，成为观察消费级科技与内容生态风向的窗口。核心看点是 AI 原生应用与独立游戏在榜单中的占比提升，反映平台方对创新体验的倾斜。对创业者而言，榜单即流量入口，值得研究入选产品的交互设计与分发策略。</p>
 
 <h3>💡 【知乎精选与深度思考】</h3>
 
-<p><b>为什么现在的棉服填充物都是聚酯纤维而不是棉花？</b><br>
-核心在于材料工程的经济性与性能权衡：聚酯纤维可做到中空结构锁住静止空气，保暖重量比优于棉花，且耐潮不结块、可机洗。棉花吸湿后保暖性骤降且难干燥，产业链成本与规模化供应也处于劣势，本质是性价比与使用体验的综合胜出。</p>
+<p><b>1. 为什么章鱼能有三个心脏，普通动物只有一个？</b><br>
+核心命题是演化如何在不同生理约束下给出迥异方案。章鱼两个鳃心负责把血液泵过鳃部完成气体交换，一个系统心负责全身循环，原因是其含血蓝蛋白的血液携氧效率低、且鳃部阻力大，需额外泵力补偿。思维增量：器官数量不是冗余，而是对低效循环系统的工程化补偿，是演化权衡的经典案例。</p>
 
-<p><b>多动症患者既然缺乏多巴胺，为什么看上去都很快乐？</b><br>
-关键在于多巴胺并非“快乐分子”，而是动机与奖赏预期信号。ADHD 患者的多巴胺奖赏回路对即时刺激更敏感，表现为对高刺激活动的强烈投入与兴奋，但这与持续的情绪稳定无关。表面快乐常是过度活跃的代偿表现，底层是执行功能与延迟满足能力的缺失。</p>
+<p><b>2. 历史上假传圣旨多吗？科技不发达的古代，又是如何鉴别的？</b><br>
+核心命题是前现代社会中信息真实性的信任机制。假传圣旨并不罕见，鉴别依赖多重冗余：圣旨的制式材质、玺印、宣读官员的品级流程，以及"接旨即执行、事后追责"的制度威慑。底层原理是：在缺乏密码学的时代，用高成本伪造门槛与制度性连坐来替代技术验证，本质是社会共识与博弈设计。</p>
 
-<p style="color:#888;font-size:12px;">— 今日极客早餐速报完 —</p>
+<p style="color:#888;font-size:12px;">— 今日速报完，祝各位高效开局 —</p>
 </div>
             </div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 历史上假传圣旨多吗？科技不发达的古代，又是如何鉴别的？</title>
+        <link>https://daily.zhihu.com/story/9794131</link>
+        <guid isPermaLink="false">c1c8252e90da9a78568c5fb101a304019aad9da550cc03fc44ab67a083368267</guid>
+        <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
+        <author>司马懿</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：知乎历史硬核长文，以张家山汉简、汲黯、陈汤等案例拆解汉代矫制罪的实际运作逻辑，颠覆‘假传圣旨必死’的刻板印象，史料密度高、论证扎实，适合对古代制度与权力运作感兴趣的读者。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p>假传圣旨在汉朝有个专门的罪名，叫矫制。光《史记》和《汉书》里有名有姓的就能数出一串。更有意思的是，汉朝人对这个罪的态度，和我们今天想的很不一样。</p>
+<p><strong>矫制不害</strong></p>
+<p>今天我们会下意识觉得，假传圣旨是不问缘由的死罪。但是张家山汉简里吕后时期的律文是这么写的：</p>
+<blockquote>矫制，害者，弃市；不害，罚金四两。</blockquote>
+<p>也就是说，假传圣旨造成了危害才杀头，没造成危害就罚点钱。定罪看的是后果。汉朝的皇帝们在这一点上很开明，干脆就不鉴别，事后追溯。比如汲黯，汉武帝派他去河内看火灾，他回来汇报说：</p>
+<blockquote>家人失火，屋比延烧，不足忧也。臣过河南，河南贫人伤水旱万余家，或父子相食，臣谨以便宜，持节发河南仓粟以振贫民。臣请归节，伏矫制之罪。</blockquote>
+<p>火灾没什么，我路过河南看到灾民在人吃人，就拿着您给的节开仓放粮了，现在来领假传圣旨的罪。武帝的反应是「贤而释之」，还给他升了个县令。</p>
+<p>汲黯做的是好事，后果也小。那么后果大的呢？元帝时，陈汤和甘延寿在西域想打郅支单于，甘延寿想先上奏请示，陈汤说：</p>
+<blockquote>国家与公卿议，大策非凡所见，事必不从。</blockquote>
+<p>朝廷一讨论肯定黄，于是趁甘延寿生病，自己假传圣旨调了西域各国的兵。那句「明犯强汉者，虽远必诛」，就出自这次矫制之后的报捷奏疏。仗打赢了，朝廷却吵了起来。石显、匡衡的意见是：</p>
+<blockquote>延寿、汤擅兴师矫制，幸得不诛，如复加爵土，则后奉使者争欲乘危徼幸，生事于蛮夷，为国招难，渐不可开。</blockquote>
+<p>假传圣旨没杀你已经是运气，再封侯，以后出使的人都要学着赌一把。他们反对的是封赏，至于杀不杀，没人觉得该杀。最后元帝还是封甘延寿为义成侯，陈汤为关内侯。在这之前，冯奉世矫制发兵平了莎车，萧望之用同样的理由反对，宣帝就没给他封侯。可见汉朝朝廷真正有争议的，是赏了以后人人效仿，至于矫制本身，有功就可以不问。</p>
+<p>当然汉朝矫制也不是说没有风险。武帝时博士徐偃出去巡视风俗，假传圣旨让胶东、鲁国自己煮盐铸铁。张汤弹劾他「矫制大害，法至死」，徐偃搬出《春秋》之义：大夫出了国境，只要能安社稷、存万民，可以自己做主。结果是「汤以致其法，不能诎其义」，法条上能定他的罪，道理上说不倒他。武帝只好让终军去辩，终军说：</p>
+<blockquote>古者诸侯国异俗分，百里不通，时有聘会之事，安危之势，呼吸成变，故有不受辞造命颛己之宜；今天下为一，万里同风。</blockquote>
+<p>古时候各国不通消息，形势瞬息万变，使者才有自己拿主意的道理；你在大汉境内巡视，哪来的出疆？徐偃理屈，服罪当死。</p>
+<p>所以这个「害」还是「不害」，空间也很大。</p>
+<p>那么当时的人怎么知道一道圣旨是真是假？答案是不知道。说白了，古代基本上就是靠着事后的追溯的威慑力。</p>
+<p>汉朝验证诏书真伪最直接的办法是信物：诏书有玺印封泥，使者有节，调兵有虎符。但是信物只能证明这个人拿着信物。征和二年太子刘据起兵，「遣使者矫制赦长安中都官囚徒」，又派人持节去调胡人骑兵。太子手里的节是真的，朝廷的应对办法很朴素：</p>
+<p>初，汉节纯赤，以太子持赤节，故更为黄旄加上以相别。</p>
+<p>临时给节换个颜色，再派人追到军前喊一声：「节有诈，勿听也。」</p>
+<p>还有一种情况没法验。东汉建宁元年，宦官曹节等人要对付大将军窦武，趁张奂刚从边疆回京、不明就里，「矫制使奂与少府周靖率五营士围武」。诏书是从宫里出来的，玺印俱全，张奂照办，窦武自杀。张奂后来「深病为节所卖」，封侯也不肯要。假传圣旨的人如果就是皇帝身边的宦官，外面的人拿什么鉴别呢？</p>
+<p>这就是事后追溯的局限，如果我大概率是事后的赢家，那么肯定是大胆的矫制。</p>
+<p><strong>不经凤阁鸾台</strong></p>
+<p>到了唐朝，法律变了。《唐律疏议》：</p>
+<blockquote>诸诈为制书及增减者，绞；未施行者，减一等。</blockquote>
+<p>口头假传也一样。定罪不再问有害无害，做了就是绞。不过唐律留了一个口子：</p>
+<blockquote>其收捕谋叛以上，不容先闻而矫制，有功者，奏裁；无功者，流二千里。</blockquote>
+<p>抓谋反叛逆的人，来不及上奏而假传圣旨，有功的报皇帝裁决，无功的流放，免死。宋朝的刑统基本照抄唐律。同时，鉴别的办法也换了。唐朝的诏敕要中书起草、门下审核，再交尚书执行，每一步都有人签字。于是一道圣旨真不真，主要看它走没走完这套流程。武则天时，宰相刘祎之被人告发，武则天派人拿着敕书去审他，刘祎之看了说：</p>
+<blockquote>不经凤阁鸾台，何名为敕？</blockquote>
+<p>凤阁鸾台就是当时的中书、门下。这是很惊人的一句话：敕书确实是武则天本人发的，但在刘祎之看来，没经过中书门下，就不能叫敕。当然武则天不吃这一套，以「拒捍制使」把他赐死了。</p>
+<p>宋初还有一个更好玩的例子。乾德二年，范质等三位宰相同一天罢相，太祖要拜赵普为相，问题来了：任命宰相的敕书需要宰相签署，现在一个宰相都没有。太祖说：</p>
+<blockquote>卿但进敕，朕为卿署之可乎？</blockquote>
+<p>我来替你签行不行？赵普答：「此有司职尔，非帝王事也。」最后翻了半天故事，找了挂着同平章事头衔的开封尹赵光义来签。皇帝亲笔签的反倒不合规矩。但是这只防得了外人。宋宁宗去世当晚，史弥远把皇子赵竑挡在外面，另立了理宗，宋史里直接写「皇后矫遗诏」。管中书门下这一套流水线的人和皇宫大内联合造假，照样没人敢说什么。</p>
+<p><strong>皆斩</strong></p>
+<p>到了明朝，皇权更进一步，律文更干脆。《大明律》：</p>
+<blockquote>凡诈为制书及增减者，皆斩。未施行者，绞。</blockquote>
+<p>另有一条「诈传诏旨者斩」。唐律里「有功者奏裁」那个口子没有了。不过即便到这时候，罪也只到本人，诛九族是谋反大逆的待遇，假传圣旨够不上。</p>
+<p>法条收紧了，实际操作中皇帝还是在权衡。崇祯二年袁崇焕杀毛文龙就是这样。袁崇焕有尚方剑，但毛文龙是一品大帅，自己也有尚方剑，杀他本该请旨。袁崇焕在双岛历数毛文龙十二条罪状之后，是这么做的：</p>
+<blockquote>乃顿首请旨曰：「臣今诛文龙以肃军。诸将中有若文龙者，悉诛。臣不能成功，皇上亦以诛文龙者诛臣。」遂取尚方剑斩之帐前。</blockquote>
+<p>袁崇焕自己也清楚，事后上奏说「文龙大将，非臣得擅诛，谨席稿待罪」。崇祯的反应，《明史》写得很传神：</p>
+<blockquote>帝骤闻，意殊骇，念既死，且方倚崇焕，乃优旨褒答。</blockquote>
+<p>吓了一跳，但是人已经死了，辽东还要靠袁崇焕，于是下旨表扬。这和汉武帝对汲黯的「贤而释之」是一个逻辑，只是这个时候没有法条给他兜底了。半年后后金兵临北京，却虏三师傍帝城，袁崇焕下狱，「专戮大帅」被翻出来成了罪状之一。</p>
+<p>所以从汉到明对假传圣旨的宽容度，也能看出皇权集权的步伐。汉朝相对粗犷豪迈，有春秋决狱，原心定罪的感觉，把「有功可以不问」明明白白写进律里；但是后世的皇帝开始慢慢的收紧，到明清基本上就是假传圣旨就是死罪，就算还没来得及施行，也是绞刑。</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/395151211">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] 125cm Classic Christmas Street Lamp Lantern (下载 1421 / 打印 159)</title>
+        <link>https://makerworld.com/zh/models/3595597</link>
+        <guid isPermaLink="false">10928a364d2853a3ae84dabee1344e367a0f12498aac2c2d7f99169261b1eab3</guid>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
+        <author>CoinCraft3D</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：125cm高的大型圣诞街灯灯笼模型，结构分件精巧、适合AMS多色打印，节日装饰实用性强，下载与点赞比高，具备直接打印价值。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><img src="https://makerworld.bblmw.com/makerworld/model/US716580b8e1575e/design/f0bc3a785f9e7e70.jpg" style="max-width: 100%; border-radius: 8px;" /></p><p><b>【拓竹热门 3D 模型】</b>: <a href="https://makerworld.com/zh/models/3595597">125cm Classic Christmas Street Lamp Lantern</a></p>
+<p><b>创作者</b>: CoinCraft3D | <b>下载量</b>: 1421 | <b>打印量</b>: 159 | <b>点赞</b>: 1289</p>
+<p><b>分类标签</b>: gift, gift 2026, gift2027, Lamp, lamp</p><p><b>模型详情与切片下载</b>: <a href="https://makerworld.com/zh/models/3595597">https://makerworld.com/zh/models/3595597</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 为什么章鱼能有三个心脏，普通动物只有一个？</title>
+        <link>https://daily.zhihu.com/story/9794126</link>
+        <guid isPermaLink="false">9e56e85cad06e89aa23c639ae63a318b1e834cb2296b17afd75d0313d2c425a5</guid>
+        <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
+        <author>祥昊</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：硬核科普长文，从开管循环系统到血蓝蛋白，层层拆解头足类三心脏的演化逻辑，解释清晰、事实密度高，适合对生物机制与演化感兴趣的读者。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p>章鱼：祖宗误我，误我啊！！！！</p>
+<p>没错，其实不光是章鱼有三个心脏，现存头足类除了鹦鹉螺，都有仨心脏。</p>
+<p>至于为啥搞这么多心脏，还得从头足类的老祖宗说起。</p>
+<p>头足纲来自软体动物门，基本都是单系演化类群，祖先是由小型低活动度的原始软体动物演化而来，最初是开管式循环系统。</p>
+<p><strong>啥叫开管式循环系统呢？</strong></p>
+<p>就是没有形成完整的毛细血管网，</p>
+<p>血液在组织间的空腔（血窦）直接浸泡交换，等交换完成后再统一汇总流回心脏。</p>
+<p>这种循环方式属于大血漫灌，</p>
+<p>整体血流输出量大，简单粗暴好维护，适合短距离物质运输，在原口动物中应用甚广，比如昆虫，蝎子，虾蟹等都是。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-bb2678912860f99d1877aa7025c993ea_720w.jpg?source=8673f162" /><figcaption>比如虾的开管循环系统</figcaption></figure>
+<p>不过缺点也很明显，由于血液分散在宽大血腔，整体血压很低，血液流速也快不到那去，</p>
+<p>再加上开管式循环系统常用的血蓝蛋白携氧效率远比不上专门特化的红细胞，</p>
+<p>这就导致如果没点绝活，长时间剧烈运动容易供氧不足。</p>
+<p>这是虚，得治。</p>
+<p>所以昆虫登陆后就干脆不用血液运输氧气，</p>
+<p>而是通过遍布全身的气管和微气管网络直接交换，</p>
+<p>避免了蹦哒两下就虚的毛病。</p>
+<p>代价就是由于气孔系统主要靠气体浓度梯度扩散，扩散距离有限，体型被限制，很难朝着更粗更大的方向进化。</p>
+<p>当然也有好消息，大家不用担心睡醒一抬头就有拖鞋大的广州双马尾对着你笑了。</p>
+<hr />
+<p>而到了章鱼这就尴尬了，</p>
+<p>我们都知道，软体动物普遍是背着壳子慢慢爬，<sup>[1]</sup></p>
+<p>而头足类偏偏退化掉外壳想当敏捷系刺客，</p>
+<p>于是气不足的毛病就成了最大的阻碍。</p>
+<p>章鱼的解决方案是直接用外套膜肌肉往鳃上快速泵水，</p>
+<p>再在鳃部加入更为细密的毛细血管增加交换量，这样不光力大砖飞喘气足，</p>
+<p>还能顺便解锁喷水冲刺的天赋，</p>
+<p>也就说章鱼喷水加速的绝活其实是喘气送的。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-ad9d4f765aba91f7513407e6a13268be_720w.jpg?source=8673f162" /><figcaption>章鱼的喷水运动方式</figcaption></figure>
+<p>然而，</p>
+<p>由于软体动物的内脏是在外套腔内，</p>
+<p>鳃的位置位于体心脏上游，血液会最后通过再进入心脏。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-d565a718211d7d260b70fcf45cefe498_720w.jpg?source=8673f162" /></figure>
+<p>所以当血液全身跑完一圈汇集到鳃部时，本身血压就已经极低，</p>
+<p>再加上鳃部换成了更细的毛细血管，血蓝蛋白作为大分子物质也比较粘稠，</p>
+<p>这就导致血液通过鳃部的速度会变的很慢，大大影响呼吸效率。</p>
+<p>所以章鱼多数静脉特别是侧主静脉（lateral vena cava）具备自主收缩能力，可以辅助心脏回收血液，提供更高的血压。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-3fd0920e8a31652b422104f94bd3ebfc_720w.jpg?source=8673f162" /></figure>
+<p>血压上去了，新的问题又来了，</p>
+<p>由于软体动物不像节肢动物那样有全覆盖的外骨骼，为了能支棱起来，他们依靠血液充满血窦（haemocoel）来充当液压骨架，对，就你想的那种充血膨胀。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-a0c41fb096425b98c3a5b11d635ac996_720w.gif?source=8673f162" /></figure>
+<p>那么问题来了，</p>
+<p>由于大量血窦的存在，当血压升高的时候，</p>
+<p>章鱼的身体极有可能会不受控制的支棱起来抬头致敬。</p>
+<p>所以章鱼不得不大范围退化血窦，</p>
+<p>将血管变成接近完全封闭的结构以承载高压，</p>
+<p>并利用多层走向相反的拮抗肌肉束互相牵拉，依靠复杂结缔组织网格实现肌肉挤压伸缩。</p>
+<p>这么一整，也彻底变成了闭管循环系统。</p>
+<hr />
+<p>解决了充血膨胀的问题，新的问题又又又出现了。</p>
+<p>由于软体动物祖传除了嘴硬那都软。</p>
+<p>蛸亚纲（Coleoidea）更是大幅度退化掉外壳，软出特色，软出风彩。</p>
+<p>所以当需要喷水跑路时，外套环肌强力收缩时会在腔内瞬间形成高压。</p>
+<p>别忘了，章鱼的血管内脏都在里面包着呢，</p>
+<p>这股高压会顺势把薄壁静脉直接压扁，使血液无法通过，</p>
+<p>体心脏也会顺势被动停摆。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-14073cf4105481f18aaa38a7692fa17d_720w.jpg?source=8673f162" /><figcaption>章鱼血压与活动情况，a 为章鱼缓慢行走时背主动脉状态 b 为逃命时候的状态，可以看到明显心率降低。</figcaption></figure>
+<p>关键的时刻不给力，怎么办？</p>
+<p>喝肾宝肯定来不及，</p>
+<p>所以章鱼在俩鳃的基部再加了俩小鳃心（ branchial hearts ），为鳃部单独供能。</p>
+<p>这样既可以解决鳃部祖传血压低的毛病，又能在体心脏停摆时不会过度影响鳃部获取获取氧气。</p>
+<p>形成一心有难俩心围观的伟大格局。</p>
+<p>当然就算有三个心脏，体心脏的工作还是一点没少，</p>
+<p>当短暂停摆结束后，还得加速心率进行代偿，</p>
+<p>把之前欠的工作补上。</p>
+<figure><img alt="" class="content-image" src="https://pica.zhimg.com/v2-d38b9cb2586dd066cabee54b6bb18cd0_720w.jpg?source=8673f162" /></figure>
+<p>而章鱼的远洋亲戚鱿鱼则更激萌一些，</p>
+<p>他们整出了更宽更大更坚固的结缔膜（tunic）强化整个外套膜（mantle），</p>
+<p>组成夜市最爱的烤鱿鱼板，</p>
+<p>并对鳃心和血管壁进行了一系列的加固升级，使其可以支持长时间喷射运动。</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-8a9dccc99ef3d7692283c49e210be176_720w.jpg?source=8673f162" /></figure>
+<p>不过喷水推进之所以没成主流，主要问题就是耗能有点高，</p>
+<p>所以鱿鱼的代谢非常快，几乎时刻处于饥饿状态。</p>
+<p>这就导致了鱿鱼在性格上胆大凶猛脾气爆，</p>
+<p>在肉体上身软体娇易推倒，</p>
+<p>这种反差的鱿设不光人类喜欢，海里的各种动物也喜欢，</p>
+<p>有事没事嘬鱿鱼，多是一件美事啊。</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-34a3b621d96a30b4c8fcb292fa98a3d9_720w.jpg?source=8673f162" /></figure>
+<p>所以章鱼整出三个心脏这事吧，</p>
+<p>就像你亲爱的甲方，钱少事多工期短，想起一出是一出，</p>
+<p>最后实施起来是哪有问题补哪里，</p>
+<p>抛开过程不谈，</p>
+<p>我就问你是不是能跑吧！！！</p>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/2050269836757013564">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.2分] 为什么喜欢汉服的人不穿古代的粗布衣服？</title>
+        <link>https://daily.zhihu.com/story/9794128</link>
+        <guid isPermaLink="false">85770bbfb8d2ac849a89c941429cf00a5f94c659bc8c9417c5846309da353266</guid>
+        <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
+        <author>卧地马鸭</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.2 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：硬核考据文，用考古实物与纺织机械史辟谣“古代平民只穿粗布”，拆解斜织机等技术细节，事实密度高，颠覆认知，值得一读。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <div class="question">
+<h2 class="question-title"></h2>
+
+<div class="answer">
+
+
+
+<div class="content">
+<p><strong>因为 TM 古代人根本就不穿粗布</strong></p>
+<p>———知道中国最早的经纬密度较高的精细麻织物出现在什么时候吗？</p>
+<p><strong>是距今四千四百多年的新石器时代晚期</strong>（浙江，钱山漾遗址）</p>
+<p>———知道中国最早的麻纺织品出土实物可以追溯到什么时期吗？</p>
+<p><strong>是距今六千九百多年的新石器时代中期</strong>（浙江，河姆渡遗址）</p>
+<p>我不知道为什么互联网上一直在输出所谓的“古代平民只能穿粗布麻衣”，而且竟然没有一个人能站出来好好地辟谣。确切来说，<strong>即使是古代的粗麻布，其质地和现代人想象的破衣烂衫也是天差地别。</strong></p>
+<p>诚然，相比于富裕阶层，古代贫困阶层的衣物面料精细程度确实要差一截，但很多人在压根没见过麻类织物、对古代纺织工艺一窍不通的情况下就认为麻布等同于破衣烂衫、古代的粗布形似麻袋等等，着实有些妄自尊大。</p>
+<p><strong>虽然典籍中常有平民身着粗麻的记载，但其粗细与否，往往都是笔者根据上品对比而来。事实上，中国古代平民所着的“粗”麻衣，其精细程度在世界上并不算下乘。</strong></p>
+<p><strong>以两汉时期为例，从战国后期开始，机械纺织就逐渐取代了原本的手工纺织。</strong>当时中原人民发明了一种机械，将木质框架作为主体，配有经轴、卷轴、综片等部件，再加上踏板联动结构，极大地提升了纺织的效率。</p>
+<p>而在各地的汉代画像砖石文物中，这种机械颇为常见，虽然形态各异，但总体结构还是大同小异：</p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-aff9c8e779bca0bf1a679e8ac978ac1e_720w.jpg?source=8673f162" /></figure>
+<p>这种机械名叫斜织机，从其发明之初便一直沿用，直至 20 世纪中期的部分乡村中仍能见到。这种机械复原后的结构长这样：</p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-cff862e7cc74a5eb55363ee192f7c17b_720w.jpg?source=8673f162" /></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-b16b913c26ccd5371ad2b255e0031302_720w.jpg?source=8673f162" /><figcaption>汉代中轴式斜织机</figcaption></figure>
+<p>这种看起来颇为精密的斜织机并不是贵族专属，相反，通过汉代的各种画像砖石可以发现，<strong>这种机械在汉代民间家庭的普及度已经相当可观。</strong></p>
+<p><strong>而用这种机械织造出来的苎麻布料长这样：</strong></p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-526f039be06c09549c43ae59f48764de_720w.jpg?source=8673f162" /><figcaption>凤凰山 168 号汉墓出土麻裙 墓主人享有爵位</figcaption></figure>
+<p>在《国语·鲁语上》中有这样一段话：“子服之妾，衣不过七升之布”。“升”是古代计量布料密度的单位，类似现代的“支数”。周代规定了各种粗细苎麻布的不同用途，<strong>7～9 升的粗苎布为奴隶、罪犯穿用，也可作为包装布用；10～14 升为普通农民和手工业者所穿</strong>；15 升以上细如丝绸，仅供贵族享用。</p>
+<p>周代规定‌八十缕为一升‌，<strong>七升即为 560 缕经线，十升则达到 800 缕，已经相当精细。也就是说，至迟在西周时期，细布就已经正式步入了平民阶层。</strong></p>
+<p>而在此后的五百年内，纺织技术更是飞速演进，到了西汉时期，在马王堆汉墓中出土的苎麻细布经密度就高达‌32-37 根 / 厘米‌，<strong>约合‌21-23 升布‌，已经远超西周时期贵族的平均水平。</strong></p>
+<p>这尚且还是距今两千多年的春秋到汉代，在当代人所说的“古代”概念里，出镜率并不算高，汉服爱好者所穿的衣服也以唐宋明等时期为主。</p>
+<p><strong>由于汉代服饰实物、尤其是中下层的服饰实物留存不多，所以我们很难断定这时的粗布麻衣是否已被斜织机带来的细布取代</strong>。但如果将时间线延后至宋明时期，这一情况就好说得多了。</p>
+<p><strong>因为宋代至明代之间几个最繁荣的时期，平民甚至能穿上丝织品：</strong></p>
+<blockquote>“近岁风俗，尤为侈靡。走卒类士服，农夫蹑丝履。”<br />———《训俭示康》<br />“豫之承平久矣，闾里宁谧，无鸡鸣犬吠之警……岁暮，老农衣大缣，骑牝马，燕集进钱百，则俨然上客矣。”<br />———《豫变纪略》<br />“俗侈而凌僭，方巾盈路，士夫名器为村富所窃，而屠贩奴隶亦着云履而白领缘………”<br />———《福安县志》<br />“至正德，嘉靖年间，而古风渐渺，市井贩厮走卒，亦多缨帽湘鞋纱裙细绔……其俗尚侈，贫人负担之徒，妻亦多好饰，夜必饮酒………”</blockquote>
+<p><strong>在元末的《水浒传》中，对底层小人物的服饰描写甚至也能窥见这种情况：</strong></p>
+<blockquote>“头戴白范阳毡笠儿，身穿一领黑绿罗袄，下面腿絣护膝，八搭麻鞋……”<br />———赤发鬼刘唐<br />“白范阳遮尘笠子，茶褐攒线绸衫，腰系绯红缠袋，脚穿踢土皮鞋……”<br />———拼命三郎石秀<br />“裹一顶猪嘴头巾，脑后两个太原府金不换纽丝铜环。上穿一领皂绸衫，腰系一条白搭膊，下面腿絣护膝，八搭麻鞋……”<br />———石将军石勇</blockquote>
+<p><strong>此外，至少在宋明时期的画作中，并没有出现某些人想象的破衣烂衫：</strong></p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-b7e2a396b05b199b19b78a0943997e15_720w.jpg?source=8673f162" /><figcaption>开化寺壁画（男性平民）</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-aa455449225c6e9cedb923709ec9260e_720w.jpg?source=8673f162" /><figcaption>开化寺壁画（女性平民）</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-9a8dbb2185d2f5951fa1ef675308a4af_720w.jpg?source=8673f162" /><figcaption>斗浆图</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-e8d94de54ea92b04848f8f8a7196831c_720w.jpg?source=8673f162" /><figcaption>耕织图（男性平民）</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-859e8179296d7fd1627e531eda0f42af_720w.jpg?source=8673f162" /><figcaption>耕织图（女性平民）</figcaption></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-0a544ff5538e2fe7e97a69c5378f77ff_720w.jpg?source=8673f162" /><figcaption>蚕织图中的宋代织机</figcaption></figure>
+<p><strong>而根据宋明时期衣料复原的苎麻服饰，实际上长这样：</strong></p>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-dc4dade92360f200b50cdd25d2cd769b_720w.jpg?source=8673f162" /></figure>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-7aa4d371eae8c92a0cf607334ccee10f_720w.jpg?source=8673f162" /></figure>
+<p><strong>那么，为什么现代人普遍认为古代平民的衣服就是粗麻布呢？</strong></p>
+<p><strong>———因为中世纪欧洲的平民确实只能穿粗麻布</strong></p>
+<p>在 13 世纪以前，欧洲并没有出现类似上文斜织机的卧式框架织机，<strong>而是一直依赖极为原始的手工纺织。</strong>欧洲当时的织机仅仅停留在双轴结构，形态更像一个架子，<strong>没有任何机械辅助结构。</strong></p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-08bd1e1e455eb662d9c99768fc5185a2_720w.jpg?source=8673f162" /><figcaption>公元 9-13 世纪 欧洲与中国织机结构对比</figcaption></figure>
+<p>这种落后的生产方式造就了中古时期欧洲极为低下的纺织产能，连细麻布都成了奢侈品，专供给贵族和教士使用。<strong>到了 13 世纪，中式的卧式织机才从西亚传入了地中海沿岸，并奠定了日后欧洲纺织业发展的基础。</strong></p>
+<p>由于欧洲历史研究起步较早，诸多关于中世纪的欧洲影视剧也严谨地还原了这一现象。<strong>然而，这种现象却被各路人马生搬硬套到了中国的古代，并逐渐形成思想钢印，以至于最终变成了世人默认的刻板印象。</strong></p>
+<p>例如央视版《水浒传》，就被影迷以“服装做旧”“烟火气浓”等理由大加赞誉———<strong>即便剧中的服饰完全背离了宋代服饰的外观、完全无视了宋代高度发达的生产力。</strong></p>
+<p>有些人甚至将该剧中已经起球的粗布服装视为复原，但却完全不了解，<strong>起球是只有化纤与棉纤维混纺类织物才有的现象</strong>，麻类织物穿旧后只会皱缩和褪色，根本就不会起球。</p>
+<p>很多人对于我国古代的印象几乎完全来源于影视剧，而影视剧对于古代的印象又往往来源于更早的影视剧。<strong>这类“中国古人只能穿粗布麻衣”的错误理解，大概率正源自上世纪末的影视剧对欧美的盲目照搬。</strong></p>
+<p>哪怕在欧美影视界已经开始拨乱反正、去除古代平民衣着灰暗、缺乏色彩的刻板印象时，我国的影视却仍然在反复地拾人牙慧，坐吃山空，不肯用心钻研服化，最终形成了这种恶性循环。</p>
+<p>最后，再附上一张本人几年前制作的一张图片，古代平民的服饰颜色，也并没有大多数人想象的那样灰暗。<strong>至少在古代，染制灰色的成本要远高于染蓝染绿：</strong></p>
+<figure><img alt="" class="content-image" src="https://pic1.zhimg.com/v2-4093b7106ab83bb5854d44d4358cb1ba_720w.jpg?source=8673f162" /></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-4b5b58356334dfb4afe8bd8f21fda59f_720w.jpg?source=8673f162" /></figure>
+<figure><img alt="" class="content-image" src="https://picx.zhimg.com/v2-141c70b9b5fc4de0913e87be837466b2_720w.jpg?source=8673f162" /><figcaption>古画中颜色多样的平民服饰</figcaption></figure>
+</div>
+</div>
+
+
+<div class="view-more"><a href="https://www.zhihu.com/question/340623971">查看知乎讨论<span class="js-question-holder"></span></a></div>
+
+</div>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] sponsors/cathrynlavery (HTML, 今日 +271 Stars)</title>
+        <link>https://github.com/sponsors/cathrynlavery</link>
+        <guid isPermaLink="false">05a21ea988e3e4e82254ba6bb05a2ca7f2efd99e9c0048681cc7c70e7e0b4834</guid>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：为 Claude Code、Cursor 等 AI 编程工具提供 45 种自包含 HTML+SVG 编辑级图表模板，零依赖、无阴影、拒绝 Mermaid 粗糙感，适合技术文档与架构图快速出图。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/sponsors/cathrynlavery">sponsors/cathrynlavery</a></p>
+<p><b>核心语言</b>: HTML | <b>今日新增</b>: +271 Stars</p>
+<p><b>项目简介</b>: Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.</p>
+<p><b>项目主页</b>: <a href="https://github.com/sponsors/cathrynlavery">https://github.com/sponsors/cathrynlavery</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.7分] firecrawl/firecrawl (TypeScript, 今日 +825 Stars)</title>
+        <link>https://github.com/firecrawl/firecrawl</link>
+        <guid isPermaLink="false">e9dbf459bd01dca311934bf9c23476a4dc917077389c76cb16b4ad078517b65d</guid>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.7 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：Firecrawl 是面向 AI Agent 的网页数据基础设施，通过统一 API 完成搜索、抓取与 550+ 数据源接入，解决 RAG 与智能体落地时最痛的实时数据获取与清洗问题，工程成熟、生态活跃，值得集成或借鉴。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></p>
+<p><b>核心语言</b>: TypeScript | <b>今日新增</b>: +825 Stars</p>
+<p><b>项目简介</b>: Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.</p>
+<p><b>项目主页</b>: <a href="https://github.com/firecrawl/firecrawl">https://github.com/firecrawl/firecrawl</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[7.8分] nginx/nginx (C, 今日 +73 Stars)</title>
+        <link>https://github.com/nginx/nginx</link>
+        <guid isPermaLink="false">9251c307f3bced37b200f9c1dc629461fe63ff36f59eb6a210420dd29a23bccd</guid>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：7.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：NGINX官方开源仓库，高性能反向代理与Web服务器的事实标准，C语言实现，架构精炼。适合学习网络编程、模块开发及生产部署参考，是运维与后端必备的基础设施级项目。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/nginx/nginx">nginx/nginx</a></p>
+<p><b>核心语言</b>: C | <b>今日新增</b>: +73 Stars</p>
+<p><b>项目简介</b>: The official NGINX Open Source repository.</p>
+<p><b>项目主页</b>: <a href="https://github.com/nginx/nginx">https://github.com/nginx/nginx</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.8分] jingyaogong/minimind (Python, 今日 +238 Stars)</title>
+        <link>https://github.com/jingyaogong/minimind</link>
+        <guid isPermaLink="false">b03e856411c0697d16197b2f4a0ae82209cac26de8d5709a9f44bd4978f524ec</guid>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：从零训练64M小语言模型的开源项目，两小时即可跑通全流程，代码清晰、依赖精简，是理解LLM训练原理与动手实践的极佳入门教材，适合AI学习者与极客快速上手。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a></p>
+<p><b>核心语言</b>: Python | <b>今日新增</b>: +238 Stars</p>
+<p><b>项目简介</b>: 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.</p>
+<p><b>项目主页</b>: <a href="https://github.com/jingyaogong/minimind">https://github.com/jingyaogong/minimind</a></p>
+        </div>
+        ]]></description>
+    </item>
+    <item>
+        <title>[8.8分] openvinotoolkit/openvino (C++, 今日 +246 Stars)</title>
+        <link>https://github.com/openvinotoolkit/openvino</link>
+        <guid isPermaLink="false">d151114122a96cf9c918ee25b4f53c1bb74a9b50fa0cc9aa356b30bb9fa37800</guid>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
+        <author>GitHub Trending</author>
+        <description><![CDATA[
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
+                🎯 AI 极客评级：8.8 / 10.0
+            </div>
+            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
+                <b>【推荐看点】</b>：Intel开源AI推理优化部署工具包，支持跨CPU/GPU/NPU异构加速，可将模型高效落地到边缘与端侧设备，是生产级部署的硬核基础设施，值得关注。
+            </div>
+        </div>
+        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
+        <div>
+            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/openvinotoolkit/openvino">openvinotoolkit/openvino</a></p>
+<p><b>核心语言</b>: C++ | <b>今日新增</b>: +246 Stars</p>
+<p><b>项目简介</b>: OpenVINO™ is an open source toolkit for optimizing and deploying AI inference</p>
+<p><b>项目主页</b>: <a href="https://github.com/openvinotoolkit/openvino">https://github.com/openvinotoolkit/openvino</a></p>
         </div>
         ]]></description>
     </item>
@@ -304,7 +729,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.8分] nvm-sh/nvm (Shell, 今日 +237 Stars)</title>
         <link>https://github.com/nvm-sh/nvm</link>
         <guid isPermaLink="false">d7a7c92597439df6619083e61bfdc1e73aa77843a7280cc3acc8c5a750e58684</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -328,7 +753,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.2分] HKUDS/CLI-Anything (Python, 今日 +389 Stars)</title>
         <link>https://github.com/HKUDS/CLI-Anything</link>
         <guid isPermaLink="false">5dd922e14c0ccf9b5c66ad63951d5dcf462757fcde6001d6834f45d0be1446d2</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -352,7 +777,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.8分] google-research/paper-orchestra (Python, 今日 +1,524 Stars)</title>
         <link>https://github.com/google-research/paper-orchestra</link>
         <guid isPermaLink="false">16db77652cb13e5ec6a74612e39f11f88b8e31ddcc936113c112bf5da2139104</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -376,7 +801,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[9.2分] astral-sh/uv (Rust, 今日 +258 Stars)</title>
         <link>https://github.com/astral-sh/uv</link>
         <guid isPermaLink="false">30e283a9b3f70e35d81a1a187d4189afba2f8603aa3f8286a3017b46e8b3df41</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -616,7 +1041,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.2分] cursor/plugins (TypeScript, 今日 +201 Stars)</title>
         <link>https://github.com/cursor/plugins</link>
         <guid isPermaLink="false">a50d216def4cada3ac1d6bd9512e497b052d49f9084d6ea2d5a35aafd2c4e7ee</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -919,7 +1344,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.2分] getarcaneapp/arcane (Go, 今日 +46 Stars)</title>
         <link>https://github.com/getarcaneapp/arcane</link>
         <guid isPermaLink="false">7703dc0ff82d02952aa12ad1cbd12af2f8a367ed27e1547280c392ec9522d017</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -943,7 +1368,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.2分] DeanChensj/jiangshan-map (JavaScript, 今日 +288 Stars)</title>
         <link>https://github.com/DeanChensj/jiangshan-map</link>
         <guid isPermaLink="false">f213677bccaa4f8f932a90bb353c45a056783e9bd8a06bfa2a6e1c878fa15b22</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -967,7 +1392,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.2分] mvanhorn/last30days-skill (Python, 今日 +135 Stars)</title>
         <link>https://github.com/mvanhorn/last30days-skill</link>
         <guid isPermaLink="false">b88590c43555a909e1ff4309ecbf7f5564518a8eeb8290dba5726961f2fe41cc</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -991,7 +1416,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.7分] NVIDIA/SkillEvaluator (Python, 今日 +873 Stars)</title>
         <link>https://github.com/NVIDIA/SkillEvaluator</link>
         <guid isPermaLink="false">d17b0500bab017dea395420898dc4c278b4eb9ac68b6b862bd45c539545ddf8b</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -1252,7 +1677,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.3分] Tencent/LoopForge (Go, 今日 +423 Stars)</title>
         <link>https://github.com/Tencent/LoopForge</link>
         <guid isPermaLink="false">438083b2e386d259ab1dff240679907f46290dc303a6633b17d99115676e5444</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -1276,7 +1701,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.8分] ggml-org/ggml (C++, 今日 +43 Stars)</title>
         <link>https://github.com/ggml-org/ggml</link>
         <guid isPermaLink="false">354a6f3839a01324656dd1080ec85773adeb59133503045cbc66fb58e15b5e16</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -1300,7 +1725,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.2分] sponsors/elementalsouls (Python, 今日 +98 Stars)</title>
         <link>https://github.com/sponsors/elementalsouls</link>
         <guid isPermaLink="false">4cb417a3df3b9f6c9e0590398256dae9f30db1119e123644d1f9e4ecaff28e3d</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -1324,7 +1749,7 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
         <title>[8.3分] google-labs-code/stitch-skills (TypeScript, 今日 +247 Stars)</title>
         <link>https://github.com/google-labs-code/stitch-skills</link>
         <guid isPermaLink="false">c87cd13d69aef69146c0179064e34d77ce45d8113a1f8d0786fe94da5e39e9e5</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
+        <pubDate>Fri, 20 Nov 2026 03:19:40 +0000</pubDate>
         <author>GitHub Trending</author>
         <description><![CDATA[
         <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -1666,220 +2091,6 @@ Rust 编写的极速 Python 包与环境管理器，兼容 pip 生态且解析�
 <div class="view-more"><a href="https://www.zhihu.com/question/2038341783030081126">查看知乎讨论<span class="js-question-holder"></span></a></div>
 
 </div>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] 机甲风AMS弹药舱收纳装甲（适配AMS&amp;AMS2 PRO） (下载 980 / 打印 98)</title>
-        <link>https://makerworld.com/zh/models/3556135</link>
-        <guid isPermaLink="false">82afa0aeaa7b13394a979f295f182d424784251acee91695afaa0878eacb4323</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>Uncle DongJi With Little Junk</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：拓竹AMS专用机甲风收纳装甲，卡扣式弹药舱结构精巧，适配AMS与AMS2 Pro，下载近千、点赞1760，实用改装与多色打印价值兼备。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img src="https://makerworld.bblmw.com/makerworld/model/USb25cba9107102f/design/88c6eb991144ee2a.jpeg" style="max-width: 100%; border-radius: 8px;" /></p><p><b>【拓竹热门 3D 模型】</b>: <a href="https://makerworld.com/zh/models/3556135">机甲风AMS弹药舱收纳装甲（适配AMS&AMS2 PRO）</a></p>
-<p><b>创作者</b>: Uncle DongJi With Little Junk | <b>下载量</b>: 980 | <b>打印量</b>: 98 | <b>点赞</b>: 1760</p>
-<p><b>分类标签</b>: AMS, ams, ams2, 收纳, 工具</p><p><b>模型详情与切片下载</b>: <a href="https://makerworld.com/zh/models/3556135">https://makerworld.com/zh/models/3556135</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] sponsors/ashhart (Zig, 今日 +37 Stars)</title>
-        <link>https://github.com/sponsors/ashhart</link>
-        <guid isPermaLink="false">d3a03f4c84fe5a5b5cace843b7c72fb31acc9b15088b155e7454f1d6586ccc52</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>GitHub Trending</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：用 Zig 编写的跨 Metal/CUDA/Vulkan 的 LLM 推理引擎，一套代码覆盖三大 GPU 后端，对本地部署与异构硬件推理有实操价值，值得关注其架构与性能。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/sponsors/ashhart">sponsors/ashhart</a></p>
-<p><b>核心语言</b>: Zig | <b>今日新增</b>: +37 Stars</p>
-<p><b>项目简介</b>: LLM Inference Engine for Metal, CUDA and Vulkan.</p>
-<p><b>项目主页</b>: <a href="https://github.com/sponsors/ashhart">https://github.com/sponsors/ashhart</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] Nintendo Switch Cartridges Bookshelf Cover (下载 1139 / 打印 358)</title>
-        <link>https://makerworld.com/zh/models/3546370</link>
-        <guid isPermaLink="false">7fedc1716b82f15076c430c0b9aa0a55072a7f811507380eae00b416788771fa</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>Hodzinets</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：Switch卡带伪装成书架书的收纳盒，结构巧妙、外观有趣，兼具实用性与装饰性，打印门槛低，适合Switch玩家直接打印使用。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><img src="https://makerworld.bblmw.com/makerworld/model/USee063c8357ecf5/design/bf299ea6a24da839.png" style="max-width: 100%; border-radius: 8px;" /></p><p><b>【拓竹热门 3D 模型】</b>: <a href="https://makerworld.com/zh/models/3546370">Nintendo Switch Cartridges Bookshelf Cover</a></p>
-<p><b>创作者</b>: Hodzinets | <b>下载量</b>: 1139 | <b>打印量</b>: 358 | <b>点赞</b>: 2809</p>
-<p><b>分类标签</b>: Nintendo, Nintendo Switch, switch, case, bookshelf</p><p><b>模型详情与切片下载</b>: <a href="https://makerworld.com/zh/models/3546370">https://makerworld.com/zh/models/3546370</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] QwenLM/qwen-code (TypeScript, 今日 +64 Stars)</title>
-        <link>https://github.com/QwenLM/qwen-code</link>
-        <guid isPermaLink="false">1922d9d520f9ceba156c8955a8a60040d5e2afc0876ccc29f015a1849842ed78</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>GitHub Trending</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：阿里Qwen团队开源的终端AI编码代理，将大模型能力嵌入CLI工作流，支持自然语言驱动代码生成与调试，适合追求本地化、可定制的开发者提效使用。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></p>
-<p><b>核心语言</b>: TypeScript | <b>今日新增</b>: +64 Stars</p>
-<p><b>项目简介</b>: An open-source AI coding agent that lives in your terminal.</p>
-<p><b>项目主页</b>: <a href="https://github.com/QwenLM/qwen-code">https://github.com/QwenLM/qwen-code</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.2分] ag-ui-protocol/ag-ui (TypeScript, 今日 +9 Stars)</title>
-        <link>https://github.com/ag-ui-protocol/ag-ui</link>
-        <guid isPermaLink="false">10a12acb9645adccd105406974d04d1490f697a3a63c208e8a3c043dd0096eb0</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>GitHub Trending</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.2 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：AG-UI 是面向 Agent 与前端交互的开放协议，解决 AI Agent 接入 Web 应用时状态同步、流式事件与 UI 渲染的标准化痛点，TypeScript 实现，适合构建 AI 原生前端。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/ag-ui-protocol/ag-ui">ag-ui-protocol/ag-ui</a></p>
-<p><b>核心语言</b>: TypeScript | <b>今日新增</b>: +9 Stars</p>
-<p><b>项目简介</b>: AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</p>
-<p><b>项目主页</b>: <a href="https://github.com/ag-ui-protocol/ag-ui">https://github.com/ag-ui-protocol/ag-ui</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.7分] dream-num/univer (TypeScript, 今日 +495 Stars)</title>
-        <link>https://github.com/dream-num/univer</link>
-        <guid isPermaLink="false">d148e3d2c2843c2bb453066debf88fb43e2e78a99dd9482cf231a968172d1f3d</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>GitHub Trending</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.7 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：开源办公套件SDK，将电子表格、文档、协作与文件处理能力嵌入自有产品，支持AI Agent集成，架构可扩展，适合构建AI原生办公应用。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/dream-num/univer">dream-num/univer</a></p>
-<p><b>核心语言</b>: TypeScript | <b>今日新增</b>: +495 Stars</p>
-<p><b>项目简介</b>: Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.</p>
-<p><b>项目主页</b>: <a href="https://github.com/dream-num/univer">https://github.com/dream-num/univer</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.7分] alibaba/open-code-review (Go, 今日 +893 Stars)</title>
-        <link>https://github.com/alibaba/open-code-review</link>
-        <guid isPermaLink="false">c489e6fb5febf2abff16877bd9c9fe23975dd799794a77097dfa300f4bfa517e</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>GitHub Trending</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.7 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：阿里开源的大规模代码审查工具，采用确定性流水线+LLM Agent混合架构，支持行级精准评论与多语言安全规则集（NPE、线程安全、XSS、SQL注入），兼容OpenAI/Anthropic，经阿里生产环境验证，适合团队落地AI代码审查。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review</a></p>
-<p><b>核心语言</b>: Go | <b>今日新增</b>: +893 Stars</p>
-<p><b>项目简介</b>: Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</p>
-<p><b>项目主页</b>: <a href="https://github.com/alibaba/open-code-review">https://github.com/alibaba/open-code-review</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[7.8分] tradermonty/claude-trading-skills (Python, 今日 +553 Stars)</title>
-        <link>https://github.com/tradermonty/claude-trading-skills</link>
-        <guid isPermaLink="false">f9da1acd54ca38642ffd36796b0883cecfa94494cd898bd897e3677735cfdb28</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>GitHub Trending</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：7.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：为 Claude Code 提供股票投资与交易技能集，涵盖行情分析、技术图表、经济日历、选股器与策略开发，适合量化/交易爱好者快速搭建 AI 辅助投研工作流。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/tradermonty/claude-trading-skills">tradermonty/claude-trading-skills</a></p>
-<p><b>核心语言</b>: Python | <b>今日新增</b>: +553 Stars</p>
-<p><b>项目简介</b>: Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.</p>
-<p><b>项目主页</b>: <a href="https://github.com/tradermonty/claude-trading-skills">https://github.com/tradermonty/claude-trading-skills</a></p>
-        </div>
-        ]]></description>
-    </item>
-    <item>
-        <title>[8.8分] ChromeDevTools/chrome-devtools-mcp (TypeScript, 今日 +664 Stars)</title>
-        <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-        <guid isPermaLink="false">379642deb53f3714eb4d3fd4bf685ddf06e1f2efdb0931fbf030395fd0d38ada</guid>
-        <pubDate>Thu, 19 Nov 2026 03:31:37 +0000</pubDate>
-        <author>GitHub Trending</author>
-        <description><![CDATA[
-        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; padding: 12px 16px; margin-bottom: 16px; border-radius: 6px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-            <div style="font-weight: 700; color: #0369a1; font-size: 15px; margin-bottom: 6px;">
-                🎯 AI 极客评级：8.8 / 10.0
-            </div>
-            <div style="color: #334155; font-size: 14px; line-height: 1.6;">
-                <b>【推荐看点】</b>：Chrome官方团队推出的MCP服务器，让AI编码代理直接操控DevTools进行调试、性能分析与网络抓包，填补了AI辅助开发的关键一环，实用价值极高。
-            </div>
-        </div>
-        <hr style="border: none; border-top: 1px dashed #cbd5e1; margin: 18px 0;" />
-        <div>
-            <p><b>【GitHub 今日热门仓库】</b>: <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></p>
-<p><b>核心语言</b>: TypeScript | <b>今日新增</b>: +664 Stars</p>
-<p><b>项目简介</b>: Chrome DevTools for coding agents</p>
-<p><b>项目主页</b>: <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">https://github.com/ChromeDevTools/chrome-devtools-mcp</a></p>
         </div>
         ]]></description>
     </item>

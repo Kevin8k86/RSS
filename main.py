@@ -57,6 +57,33 @@ def is_mainly_chinese(text: str) -> bool:
     return len(chinese_chars) >= 3
 
 
+def is_deepseek_offpeak(bj_time: datetime) -> tuple[bool, str]:
+    """
+    Check if current Beijing time is in DeepSeek's official off-peak discount window.
+    Peak hours (工作日高峰，正常价): Mon-Fri 09:00-12:00 and 14:00-18:00.
+    Off-peak hours (谷时优惠，全场5折/半价):
+      - 工作日: 18:00 - 次日 09:00 (含清晨与夜间，含 00:30-08:30)，以及 12:00 - 14:00
+      - 周末: 全天 24 小时均为谷时优惠
+    """
+    weekday = bj_time.weekday()  # 0=Monday, 6=Sunday
+    time_val = bj_time.hour + bj_time.minute / 60.0
+
+    # 周末全天均为谷时
+    if weekday in (5, 6):
+        return True, "周末全天属于 DeepSeek 谷时优惠时段（全天享受 5 折半价）"
+
+    # 工作日高峰期判断
+    in_morning_peak = 9.0 <= time_val < 12.0
+    in_afternoon_peak = 14.0 <= time_val < 18.0
+
+    if in_morning_peak:
+        return False, f"工作日早间高峰期 (09:00 - 12:00)"
+    if in_afternoon_peak:
+        return False, f"工作日下午高峰期 (14:00 - 18:00)"
+
+    return True, f"工作日谷时优惠时段（享受 5 折半价计费）"
+
+
 def extract_entry_content(entry: Any) -> str:
     """Extract richest text content from a feedparser entry."""
     content = ""
@@ -244,9 +271,30 @@ def main():
     parser.add_argument("--run-once", action="store_true", help="Run once and exit (for GitHub Actions / Cron)")
     parser.add_argument("--daemon", action="store_true", help="Run as a daemon with built-in scheduler and web server")
     parser.add_argument("--port", type=int, default=8080, help="Port for the built-in HTTP server in daemon mode")
+    parser.add_argument("--force", action="store_true", help="Force execution even during DeepSeek peak pricing hours")
     args = parser.parse_args()
 
     config = load_config(args.config)
+
+    # 💰 DeepSeek 谷价时段保护机制
+    enforce_offpeak = config.get("curator", {}).get("enforce_offpeak", True)
+    if enforce_offpeak:
+        bj_time = datetime.now(timezone(timedelta(hours=8)))
+        is_offpeak, reason = is_deepseek_offpeak(bj_time)
+        force_flag = args.force or os.environ.get("FORCE_RUN", "").lower() in ("true", "1")
+
+        if not is_offpeak:
+            if force_flag:
+                logger.warning(f"⚠️ 当前时间 ({bj_time.strftime('%H:%M')}) 处于 {reason}（价格为谷时的 2 倍）！检测到强制运行标记 (--force / FORCE_RUN)，继续执行...")
+            else:
+                logger.warning(f"🛡️ 【DeepSeek 谷价保护已生效】{reason}。")
+                logger.warning("   为了帮你节约话费，系统已自动拦截本次高峰期 API 调用。")
+                logger.warning("   💡 每日定时任务已固定锁定在早晨 07:00（谷时半价 5 折优惠时段）执行；")
+                logger.warning("   如确需在高峰期测试，可在 GitHub 手动运行时勾选 force_run 或传入 --force。")
+                sys.exit(0)
+        else:
+            logger.info(f"💰 【DeepSeek 谷价时段已确认】当前时间 ({bj_time.strftime('%H:%M')}) 处于 {reason}，本次调用享受最低 5 折优惠费率！")
+
     db_path = config.get("storage", {}).get("db_path", "curator.db")
     storage = Storage(db_path=db_path)
 

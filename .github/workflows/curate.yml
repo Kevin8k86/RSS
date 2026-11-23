@@ -2,9 +2,15 @@ name: RSS AI Curator
 
 on:
   schedule:
-    # 每天一次：北京时间早晨 07:00 推送今日日报（对应 UTC 23:00）
+    # 每天一次：锁定在 DeepSeek 官方谷时半价时段——北京时间早晨 07:00（对应 UTC 23:00）
     - cron: '0 23 * * *'
   workflow_dispatch: # 支持在 GitHub 页面随时手动点击立即触发
+    inputs:
+      force_run:
+        description: '是否忽略高峰期计费保护强制运行 (Force run during peak hours)'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -37,6 +43,7 @@ jobs:
       - name: 执行 AI 质量打分与筛选
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          FORCE_RUN: ${{ inputs.force_run }}
         run: |
           mkdir -p data dist
           python main.py --run-once --config config.yaml
